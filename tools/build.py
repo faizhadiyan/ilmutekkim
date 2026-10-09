@@ -1471,6 +1471,12 @@ Di Instagram enak ditonton, di sini enak dibaca: tonton videonya, baca penjelasa
 <p class="lead">Setiap bedah di rak ini ditulis dari dokumen paten aslinya yang terbuka untuk umum: nomor, inventor, pemilik, dan tanggalnya diverifikasi, klaim intinya diparafrase dengan kata kami, cara kerjanya dijelaskan, batasnya dicatat, dan statusnya ditulis apa adanya. Paten yang sudah kedaluwarsa adalah dokumen publik: teknologinya bebas dipelajari siapa pun.</p>
 <p class="meta">{len(paten)} bedah paten &middot; standar bedah: data hanya dari dokumen paten, klaim diparafrase, status bersumber dan bertanggal akses</p>
 </article>
+<section class="post wide">
+<h2>Rak bedah jurnal</h2>
+<p>Bedah paper jurnal teknik kimia internasional dan Indonesia ada di halaman riset: masalah, metode, temuan persis dari abstrak, catatan kritis, dan kesimpulan baca.</p>
+<p><a class="btn" href="/riset/">Buka rak bedah jurnal</a></p>
+</section>
+
 <section id="seri" class="series-bar">
   <h2>Jelajahi per topik</h2>
   <div class="chips"><button class="chip active" data-series="all">Semua</button>{pchips}</div>
@@ -1480,11 +1486,6 @@ Di Instagram enak ditonton, di sini enak dibaca: tonton videonya, baca penjelasa
 {pcards}
 </section>
 <p id="no-result" hidden>Tidak ada bedah yang cocok. Coba kata kunci lain.</p>
-<section class="post wide">
-<h2>Rak bedah jurnal</h2>
-<p>Bedah paper jurnal teknik kimia internasional dan Indonesia ada di halaman riset: masalah, metode, temuan persis dari abstrak, catatan kritis, dan kesimpulan baca.</p>
-<p><a class="btn" href="/riset/">Buka rak bedah jurnal</a></p>
-</section>
 """ + FOOT
     os.makedirs(os.path.join(ROOT, "riset", "paten"), exist_ok=True)
     open(os.path.join(ROOT, "riset", "paten", "index.html"), "w").write(pindex)
