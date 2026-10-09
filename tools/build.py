@@ -1078,7 +1078,7 @@ def authors_short(authors):
 
 
 def render_bedah(d):
-    # ILM-R65: halaman bedah riset (masalah, metode, temuan, batas kritis, arti pabrik, vonis)
+    # ILM-R65: halaman bedah riset (masalah, metode, temuan, batas kritis, arti pabrik, kesimpulan)
     out = []
     out.append(f'<p class="cov-label">{esc(d["coverage"])}</p>')
     out.append(f'<p class="lead">{esc(d["lead"])}</p>')
@@ -1093,7 +1093,7 @@ def render_bedah(d):
     out.append('<section><h2>Batas dan catatan kritis</h2><ul>'
                + "".join(f"<li>{esc(x)}</li>" for x in d["batas"]) + "</ul></section>")
     out.append(f'<section><h2>Arti buat pabrik</h2><p>{esc(d["arti_pabrik"])}</p></section>')
-    out.append(f'<section class="verdict"><p class="eyebrow">Vonis bedah</p><h2>{esc(d["vonis"])}</h2>'
+    out.append(f'<section class="verdict"><p class="eyebrow">Kesimpulan bedah</p><h2>{esc(d["vonis"])}</h2>'
                f'<p>{esc(d["vonis_alasan"])}</p></section>')
     if d.get("terkait"):
         links = "".join(
@@ -1327,17 +1327,17 @@ Di Instagram enak ditonton, di sini enak dibaca: tonton videonya, baca penjelasa
                    f'<p class="eyebrow">{esc(d["topik"])} &middot; {esc(d["negara"])}</p>'
                    f'<h3><a href="/riset/{d["slug"]}/">{esc(d["judul"])}</a></h3>'
                    f'<p>{esc(d["lead"])}</p>'
-                   f'<p class="meta">{esc(d["journal"])} &middot; {esc(str(d["year"]))} &middot; Vonis: {esc(d["vonis"])}</p></div></article>\n')
+                   f'<p class="meta">{esc(d["journal"])} &middot; {esc(str(d["year"]))} &middot; Kesimpulan: {esc(d["vonis"])}</p></div></article>\n')
     rtopics = sorted(set(d["topik"] for d in research))
     rchips = "".join(f'<button class="chip" data-series="{esc(t)}">{esc(t)}</button>' for t in rtopics)
     rindex = HEAD.format(title="Riset Teknik Kimia, Dibedah | ilmutekkim",
-                         desc="Bedah paper jurnal teknik kimia internasional dan Indonesia: masalah, metode, temuan, catatan kritis, dan vonis baca full paper atau cukup abstraknya.",
+                         desc="Bedah paper jurnal teknik kimia internasional dan Indonesia: masalah, metode, temuan, catatan kritis, dan kesimpulan baca full paper atau cukup abstraknya.",
                          url=BASE + "/riset/", ogtype="website", ogimg="")
     rindex += f"""
 <article class="post wide">
 <p class="eyebrow">Riset</p>
-<h1>Paper jurnal, dibedah sampai vonis.</h1>
-<p class="lead">Setiap bedah di halaman ini ditulis dari abstrak paper yang terverifikasi: masalahnya apa, metodenya bagaimana, angka temuannya persis seperti tertulis, batasnya di mana, dan artinya apa buat pabrik. Ditutup vonis jujur: baca full paper-nya, atau cukup abstraknya.</p>
+<h1>Bedah paper jurnal: dari masalah sampai kesimpulan.</h1>
+<p class="lead">Setiap bedah di halaman ini ditulis dari abstrak paper yang terverifikasi: masalahnya apa, metodenya bagaimana, angka temuannya persis seperti tertulis, batasnya di mana, dan artinya apa buat pabrik. Di akhir selalu ada kesimpulan yang bisa langsung dipakai: paper ini perlu dibaca penuh, atau abstraknya saja sudah cukup.</p>
 <p class="meta">{len(research)} bedah jurnal &middot; campuran internasional dan Indonesia &middot; standar bedah: angka hanya dari abstrak, abstrak tidak disalin, selalu ada catatan kritis</p>
 </article>
 <section id="seri" class="series-bar">
@@ -1373,7 +1373,7 @@ Di Instagram enak ditonton, di sini enak dibaca: tonton videonya, baca penjelasa
             page += f'<a href="/riset/{next_r["slug"]}/">{esc(next_r["judul"])} &rarr;</a>'
         page += "</nav>\n"
         page += ('<div class="cta-box"><h2>Semua bedah riset</h2>'
-                 "<p>Bedah jurnal teknik kimia internasional dan Indonesia, ditulis dari abstrak terverifikasi dengan catatan kritis dan vonis.</p>"
+                 "<p>Bedah jurnal teknik kimia internasional dan Indonesia, ditulis dari abstrak terverifikasi dengan catatan kritis dan kesimpulan.</p>"
                  '<a class="btn" href="/riset/">Ke halaman riset</a></div>\n')
         page += "</article>" + FOOT
         outr = os.path.join(ROOT, "riset", d["slug"])

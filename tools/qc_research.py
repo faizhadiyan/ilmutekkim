@@ -6,7 +6,7 @@ Setiap bedah di research/*.json WAJIB lolos semua pemeriksaan sebelum build:
 2. Setiap angka di badan bedah harus persis ada di abstrak sumber (abstract_src),
    setelah normalisasi koma desimal dan subscript kimia (CO2, TiO2, dsb).
 3. Parafrase: tumpang tindih 8-kata berurutan dengan abstrak maksimal 2 shingle.
-4. Panjang bedah 300-800 kata; vonis valid; slug terkait harus ada di situs.
+4. Panjang bedah 300-800 kata; kesimpulan akhir valid; slug terkait harus ada di situs.
 5. Dilarang em dash dan double hyphen di badan bedah.
 Exit 0 = semua lolos. Exit 1 = build tidak boleh jalan.
 """
@@ -62,7 +62,7 @@ def check_file(fp):
     doi = str(d.get("doi") or "")
     if not re.match(r"^https://doi\.org/10\.\S+$", doi):
         errs.append(f"DOI tidak valid: {doi}")
-    if d.get("vonis") not in ("Baca full paper", "Cukup abstraknya"):
+    if d.get("vonis") not in ("Baca full paper-nya", "Cukup baca abstraknya"):
         errs.append(f"vonis tidak valid: {d.get('vonis')}")
     if d.get("negara") not in ("Internasional", "Indonesia"):
         errs.append(f"negara tidak valid: {d.get('negara')}")
