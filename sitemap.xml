@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://ilmutekkim.vercel.app/</loc></url>
 <url><loc>https://ilmutekkim.vercel.app/tentang/</loc></url>
+<url><loc>https://ilmutekkim.vercel.app/video/</loc></url>
+<url><loc>https://ilmutekkim.vercel.app/artikel/cs01-step-growth-carothers-dp-runtuh/</loc></url>
+<url><loc>https://ilmutekkim.vercel.app/artikel/control-room-dcs-loop-kontrol/</loc></url>
+<url><loc>https://ilmutekkim.vercel.app/artikel/roadmap-enam-mata-kuliah-pabrik/</loc></url>
 <url><loc>https://ilmutekkim.vercel.app/artikel/safety-instrumented-system-lapisan-pengaman/</loc></url>
 <url><loc>https://ilmutekkim.vercel.app/artikel/pulp-kertas-proses-kraft/</loc></url>
 <url><loc>https://ilmutekkim.vercel.app/artikel/permit-to-work-kerja-panas/</loc></url>
@@ -27,4 +31,14 @@
 <url><loc>https://ilmutekkim.vercel.app/artikel/reflux-optimum-kolom-distilasi/</loc></url>
 <url><loc>https://ilmutekkim.vercel.app/artikel/pabrik-kelapa-sawit-tandan-ke-cpo/</loc></url>
 <url><loc>https://ilmutekkim.vercel.app/artikel/baca-pid-lima-simbol-pabrik/</loc></url>
+<url><loc>https://ilmutekkim.vercel.app/video/sampling-rutin-lab/</loc></url>
+<url><loc>https://ilmutekkim.vercel.app/video/shift-handover-logbook/</loc></url>
+<url><loc>https://ilmutekkim.vercel.app/video/hilirisasi-nikel-baterai-ev/</loc></url>
+<url><loc>https://ilmutekkim.vercel.app/video/pasir-jadi-chip-ai/</loc></url>
+<url><loc>https://ilmutekkim.vercel.app/video/distilasi-minyak-mentah/</loc></url>
+<url><loc>https://ilmutekkim.vercel.app/video/process-safety-bukan-apd/</loc></url>
+<url><loc>https://ilmutekkim.vercel.app/video/heat-exchanger-penghenti-pabrik/</loc></url>
+<url><loc>https://ilmutekkim.vercel.app/video/haber-bosch-udara-jadi-pupuk/</loc></url>
+<url><loc>https://ilmutekkim.vercel.app/video/netralisasi-asam-basa/</loc></url>
+<url><loc>https://ilmutekkim.vercel.app/video/water-gas-shift-co-jadi-h2/</loc></url>
 </urlset>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CS-01 Cheat Sheet: DP Polimer Runtuh Kalau Stoikiometri Meleset 1 Persen | ilmutekkim</title>
+<meta name="description" content="Meleset 1 persen, DP polimer lo runtuh total.">
+<link rel="canonical" href="https://ilmutekkim.vercel.app/artikel/cs01-step-growth-carothers-dp-runtuh/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CS-01 Cheat Sheet: DP Polimer Runtuh Kalau Stoikiometri Meleset 1 Persen | ilmutekkim">
+<meta property="og:description" content="Meleset 1 persen, DP polimer lo runtuh total.">
+<meta property="og:url" content="https://ilmutekkim.vercel.app/artikel/cs01-step-growth-carothers-dp-runtuh/">
+<meta property="og:image" content="https://ilmutekkim.vercel.app/assets/img/cs01-step-growth-carothers-dp-runtuh/cover.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/style.css?v=4">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23131518'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='%23F4F4F2' font-family='Arial' font-weight='bold'>IT</text></svg>">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="/">ilmu<span>tekkim</span></a>
+  <nav>
+    <a href="/#artikel">Artikel</a>
+    <a href="/video/">Video</a>
+    <a href="/#seri">Seri</a>
+    <a href="/tentang/">Tentang</a>
+    <a class="btn-ig" href="https://www.instagram.com/ilmutekkim" target="_blank" rel="noopener">Instagram</a>
+  </nav>
+</header>
+<main>
+<article class="post">
+<p class="eyebrow">Seri Cheat Sheet Ujian</p>
+<h1>CS-01 Cheat Sheet: DP Polimer Runtuh Kalau Stoikiometri Meleset 1 Persen</h1>
+<p class="meta">8 Oktober 2026 &middot; ilmutekkim</p>
+<p class="ig-link">Versi carousel: <a href="https://www.instagram.com/p/DeOBXd7jy3k/" target="_blank" rel="noopener">lihat di Instagram @ilmutekkim</a></p>
+<figure class="hero-img"><img src="/assets/img/cs01-step-growth-carothers-dp-runtuh/cover.jpg" alt="CS-01 Cheat Sheet: DP Polimer Runtuh Kalau Stoikiometri Meleset 1 Persen"><figcaption>Foto: <a href="https://www.pexels.com/photo/stainless-steel-storage-tanks-with-stainless-pipes-5411674/" rel="noopener" target="_blank">FCL / Pexels</a></figcaption></figure>
+<p class="lead">Cheat sheet CS-01: step-growth dan persamaan Carothers buat UTS.</p>
+<p class="intro">Meleset 1 persen, DP polimer lo runtuh total.</p>
+<p class="intro">Ini CS-01 dari seri cheat sheet ujian @ilmutekkim. Di step-growth, konversi 99 persen cuma memberi DP 100. Kalau rasio monomer meleset 1 persen, DP mentok di 199 walau konversi sempurna, karena kelebihan monomer jadi ujung rantai mati.</p>
+<section class="misconception"><p class="eyebrow">Yang sering dikira</p>
+<blockquote>&ldquo;Kejar konversi 99 persen, DP pasti tinggi sendiri.&rdquo;</blockquote>
+<p>Salah. Stoikiometri meleset 1 persen, DP mentok di bawah 200.</p>
+</section>
+<aside class="fact">FAKTA: di step-growth, DP dikunci dua hal sekaligus: konversi dan rasio monomer.</aside>
+<section>
+<h2>Persamaan Carothers dalam satu kotak</h2>
+<p>Buat step-growth dua monomer AA dan BB, derajat polimerisasi rata-rata jumlah dihitung dari rasio monomer dan konversi gugus pembatas.</p>
+<p>r adalah mol gugus minor dibagi mol gugus mayor, jadi r tidak pernah lebih dari 1.</p>
+<div class="mini-grid"><div class="mini-card"><strong>r</strong><p>rasio monomer maks 1</p></div><div class="mini-card"><strong>p</strong><p>konversi gugus minor</p></div></div>
+<div class="formula">DPₙ = (1 + r) / (1 + r - 2rp)</div>
+</section>
+<aside class="fact">FAKTA: rumus Carothers ini dipakai buat poliester dan nilon.</aside>
+<section>
+<h2>Dua monomer menyatu, air keluar tiap sambungan</h2>
+<p>Asam AA dan diol BB bereaksi membentuk oligomer, lalu rantai tumbuh jadi poliester.</p>
+<p>Tiap sambungan ester baru melepaskan satu molekul H₂O.</p>
+<figure><img src="/assets/img/cs01-step-growth-carothers-dp-runtuh/diagram-3.jpg" alt="Dua monomer menyatu, air keluar tiap sambungan" loading="lazy"></figure>
+</section>
+<aside class="fact">FAKTA: ujung rantai yang tersisa menentukan apakah rantai masih bisa tumbuh atau berhenti.</aside>
+<section>
+<h2>Stoikiometri pas, konversi 99 persen</h2>
+<p>Kasus ideal: r = 1,00 dan p = 0,99. Rumus Carothers menyederhana jadi DPₙ = 1 / (1 - p).</p>
+<p>Hitung: 1 - 0,99 = 0,01, lalu 1 / 0,01 = 100. Jadi DPₙ = 100.</p>
+<ol class="steps"><li><span class="step-num">1</span><div><strong>r = 1,00</strong><p>monomer seimbang pas</p></div></li><li><span class="step-num">2</span><div><strong>p = 0,99</strong><p>konversi 99 persen</p></div></li><li><span class="step-num">3</span><div><strong>DPₙ = 100</strong><p>hasil hitungnya</p></div></li></ol>
+</section>
+<aside class="fact">FAKTA: konversi 99 persen cuma memberi DP 100 di step-growth.</aside>
+<section>
+<h2>Meleset 1 persen, konversi sempurna pun kalah</h2>
+<p>r = 0,99 dan p = 1,00: satu monomer kurang 1 persen, semua gugus minor bereaksi habis.</p>
+<p>Hitung: (1 + 0,99) / (1 + 0,99 - 2 × 0,99 × 1,00) = 1,99 / 0,01 = 199. DP mentok di 199.</p>
+<ol class="steps"><li><span class="step-num">1</span><div><strong>r = 0,99</strong><p>meleset 1 persen</p></div></li><li><span class="step-num">2</span><div><strong>p = 1,00</strong><p>konversi sempurna</p></div></li><li><span class="step-num">3</span><div><strong>DPₙ = 199</strong><p>batas mutlaknya</p></div></li></ol>
+</section>
+<aside class="fact">FAKTA: monomer mayor berlebih jadi ujung mati, rantai berhenti di DP 199.</aside>
+<section>
+<h2>Rantai yang berhenti tumbuh</h2>
+<p>Butiran resin seperti ini berisi jutaan rantai polimer yang diatur rasio monomer di reaktor.</p>
+<p>Insinyur memberi sedikit kelebihan monomer buat mengunci berat molekul.</p>
+<figure><img src="/assets/img/cs01-step-growth-carothers-dp-runtuh/foto-6.jpg" alt="Rantai yang berhenti tumbuh" loading="lazy"><figcaption>Foto: Fran Zaina / Pexels</figcaption></figure>
+</section>
+<aside class="fact">FAKTA: meleset sedikit dipakai sebagai rem panjang rantai.</aside>
+<section>
+<h2>Soal ini memisahkan yang hafal dan yang paham</h2>
+<p>Banyak mahasiswa menaikkan p terus di hitungannya dan lupa mengecek r, padahal r yang membatasi DP lebih dulu.</p>
+<p>Urutan cek yang aman: tulis r dulu, pastikan tidak lebih dari 1, baru masukkan p.</p>
+<div class="mini-grid"><div class="mini-card"><strong>CEK r DULU</strong><p>rasio minor per mayor</p></div><div class="mini-card"><strong>CEK p</strong><p>konversi gugus minor</p></div><div class="mini-card"><strong>BACA BATAS</strong><p>DP maksimal saat p = 1</p></div></div>
+</section>
+<aside class="fact">FAKTA: saat p = 1, DP maksimal cuma fungsi r. Konversi tidak bisa menolong lagi.</aside>
+<section class="conclusion"><p class="eyebrow">Kesimpulan</p>
+<h2>r = 0,98 dan p = 1. DP maksimalnya berapa?</h2>
+<ul><li>Tulis jawaban plus langkah hitung lo di komen</li><li>Save carousel ini buat bekal UTS lo</li><li>Tag teman sekelas yang lagi belajar polimer</li><li>Follow @ilmutekkim, besok CS-02 McCabe-Thiele</li></ul>
+</section>
+<section class="refs"><h2>Referensi</h2><ul><li>Carothers (1931), Polymerization, Chemical Reviews</li><li>Odian, Principles of Polymerization</li><li>Flory, Principles of Polymer Chemistry</li></ul></section>
+<nav class="post-nav"><a href="/artikel/control-room-dcs-loop-kontrol/">&larr; Satu Layar Isinya Satu Pabrik: Bedah Control Room dan Loop Kontrol DCS</a></nav>
+<div class="cta-box"><h2>Lanjut baca di Instagram</h2><p>Konten teknik kimia tiap hari: proses pabrik, safety, dan cara baca alat. Ditulis insinyur kimia ITB.</p><a class="btn" href="https://www.instagram.com/ilmutekkim" target="_blank" rel="noopener">Follow @ilmutekkim</a></div>
+</article>
+</main>
+<footer>
+  <div class="foot-brand">ilmu<span>tekkim</span></div>
+  <p>Bikin teknik kimia asik. Pabrik, proses, safety, dan AI. Ditulis insinyur kimia ITB.</p>
+  <p><a href="https://www.instagram.com/ilmutekkim" target="_blank" rel="noopener">@ilmutekkim di Instagram</a> &middot; <a href="/video/">Video interaktif</a> &middot; <a href="/tentang/">Tentang</a></p>
+  <p class="fine">Artikel adalah versi baca carousel Instagram @ilmutekkim. Video adalah motion graphics kode (HyperFrames) dengan bedah isi per scene. Foto berasal dari Pexels dan Unsplash, kredit tercantum di tiap gambar.</p>
+</footer>
+<script src="/assets/js/main.js?v=4"></script>
+</body>
+</html>
