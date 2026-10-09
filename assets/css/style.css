@@ -193,3 +193,4 @@ footer a{color:#fff}
 .calc-out strong{color:#fff}
 #mt-canvas{width:100%;max-width:520px;background:#0F2653;border-radius:12px;margin-top:12px}
 
+.post.tight h2:first-child,.post.tight h2:first-of-type{margin-top:0;padding-top:0;border-top:none}
