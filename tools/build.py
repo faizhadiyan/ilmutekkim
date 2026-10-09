@@ -956,11 +956,8 @@ HEAD = """<!DOCTYPE html>
 <header class="site-header">
   <a class="brand" href="/">ilmu<span>tekkim</span></a>
   <nav>
-    <a href="/#artikel">Artikel</a>
-    <a href="/video/">Video</a>
+    <span class="nav-drop"><a href="/#artikel">Konten</a><span class="drop"><a href="/#artikel">Artikel</a><a href="/video/">Video</a><a href="/#seri">Seri</a></span></span>
     <a href="/riset/">Riset</a> <a href="/jalur/">Jalur</a> <a href="/glosarium/">Glosarium</a> <a href="/referensi/">Referensi</a> <a href="/kalkulator/">Kalkulator</a>
-    <a href="/#seri">Seri</a>
-    <a href="/tentang/">Tentang</a>
     <a class="btn-ig" href="https://www.instagram.com/ilmutekkim" target="_blank" rel="noopener">Instagram</a>
   </nav>
 </header>
@@ -1542,6 +1539,14 @@ Di Instagram enak ditonton, di sini enak dibaca: tonton videonya, baca penjelasa
                    f'<div class="card-body"><p class="eyebrow">Jalur belajar &middot; {len(t["steps"])} langkah</p>'
                    f'<h3><a href="/jalur/{t["slug"]}/">{esc(t["judul"])}</a></h3><p>{esc(t["desc"])}</p>'
                    f'<p class="meta"><a href="{first_url}">Mulai dari langkah 1 &rarr;</a></p></div></article>\n')
+    ptop = ""
+    for d in paten:
+        pcov = resolve_img(d.get("cover_file"), d["slug"], "cover")
+        ptop += (f'<article class="card"><a href="/riset/paten/{d["slug"]}/">'
+                 + (f'<img src="{pcov}" alt="{esc(d["judul"])}" loading="lazy">' if pcov else '<div class="no-img">Bedah Paten</div>')
+                 + f'</a><div class="card-body"><p class="eyebrow">Bedah paten &middot; {esc(d["nomor"])}</p>'
+                 + f'<h3><a href="/riset/paten/{d["slug"]}/">{esc(d["judul"])}</a></h3>'
+                 + f'<p class="meta">Terbit {esc(d["terbit"])}</p></div></article>\n')
     jindex = HEAD.format(title="Jalur Belajar Teknik Kimia | ilmutekkim",
                          desc="Urutan baca terkurasi ilmutekkim: membaca pabrik dari nol, distilasi inti, kilang dan petrokimia, sawit, utilitas, keselamatan proses, dan pabrik Indonesia.",
                          url=BASE + "/jalur/", ogtype="website", ogimg="")
@@ -1552,6 +1557,17 @@ Di Instagram enak ditonton, di sini enak dibaca: tonton videonya, baca penjelasa
 <p class="lead">Artikel yang bagus tetap membingungkan bila dibaca tanpa urutan. Di halaman ini bacaan ilmutekkim disusun menjadi {len(jalur)} jalur: setiap jalur adalah urutan langkah yang disengaja, dari yang harus dipahami dulu sampai yang baru masuk akal sesudahnya. Setiap langkah adalah artikel, video, atau bedah paten yang sudah ada di situs ini, dengan satu kalimat penjelas kenapa ia duduk di posisi itu.</p>
 <p class="meta">{len(jalur)} jalur &middot; {sum(len(t["steps"]) for t in jalur)} langkah &middot; semua langkah resolve ke konten ilmutekkim</p>
 </article>
+<section class="post wide">
+<p class="eyebrow">Ditaruh di atas, biar kelihatan</p>
+<h2>Bedah paten yang jadi bagian jalur.</h2>
+<p>Paten adalah dokumen teknologi terbuka, dan beberapa langkah di jalur bawah ini sengaja membaca dokumen paten aslinya: PSA Skarstrom, distilasi reaktif Eastman, dividing wall column BASF, membran Monsanto, dan MTG Mobil. Semuanya sudah kedaluwarsa, jadi bebas dipelajari siapa pun.</p>
+</section>
+<section class="grid">
+{ptop}
+</section>
+<section class="post wide">
+<h2>Tujuh jalur belajarnya</h2>
+</section>
 <section class="grid">
 {jcards}
 </section>
