@@ -48,3 +48,17 @@
     try { localStorage.setItem("ilm-theme", next); } catch (e) {}
   });
 })();
+
+// Strip fitur di perangkat sentuh: ketukan pertama membuka deskripsi, ketukan kedua membuka halaman
+(function () {
+  if (!window.matchMedia || !window.matchMedia("(hover: none)").matches) return;
+  document.querySelectorAll(".tool-strip a").forEach(function (a) {
+    a.addEventListener("click", function (ev) {
+      if (!a.classList.contains("open")) {
+        ev.preventDefault();
+        document.querySelectorAll(".tool-strip a.open").forEach(function (o) { o.classList.remove("open"); });
+        a.classList.add("open");
+      }
+    });
+  });
+})();
