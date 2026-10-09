@@ -1,6 +1,6 @@
 {
  "slug": "bedah-b100-mesin-diesel",
- "judul": "B100 murni di mesin diesel: untung ruginya menurut literatur",
+ "judul": "Keunggulan dan Keterbatasan Biodiesel Murni (B100) pada Mesin Diesel: Telaah Literatur dan Analisis Bibliometrik",
  "topik": "Bahan bakar dan mesin",
  "negara": "Indonesia",
  "paper_title": "The Concise Latest Report on the Advantages and Disadvantages of Pure Biodiesel (B100) on Engine Performance: Literature Review and Bibliometric Analysis",
@@ -22,23 +22,23 @@
   }
  ],
  "abstract_src": "Currently, many countries are promoting B100 as the main fuel for diesel engines towards the transition to 100% renewable energy applications. However, due to its properties, B100 has both advantages and disadvantages to replace diesel oil. Therefore, a bibliometric analysis was carried out to evaluate the performance and emissions of a diesel engine with the B100 being tested on a multi-cylinder diesel engine for cars. Unfortunately, only 12 of the 127 selected articles are eligible to be reviewed in detail and none of them discusses all the key performance of diesel engines which include Brake Thermal Efficiency (BTE), Specific Fuel Consumption (SFC), Cylinder Pressure (CPs), Heat Release Rate (HRR), NOx, and smoke. Through data synthesis, we found that the use of B100 provides advantages in engine noise, thermal efficiency, specific fuel consumption, and emissions under certain engine loads. On the other hand, it also has the potential to result in poorer performance, if there is no modification to engine components and the addition of additives. As a recommendation, the results of this analysis provide a guide for further research to examine the use of B100 with all diesel engine performance variables. Research paths can be developed with the wider potential to provide new arguments on various diesel engine technologies, engine capacities, B100 raw materials, and test environments.",
- "lead": "Banyak negara mempromosikan B100 sebagai bahan bakar utama mesin diesel menuju energi terbarukan penuh. Analisis bibliometrik dan sintesis literatur ini menemukan gambar yang bersyarat: B100 unggul pada beberapa variabel pada beban tertentu, dan bisa lebih buruk tanpa modifikasi mesin dan aditif.",
- "masalah": "B100 memiliki kelebihan dan kekurangan untuk menggantikan solar karena sifatnya. Studi ini mengevaluasi kinerja dan emisi mesin diesel berbahan bakar B100 lewat analisis bibliometrik atas literatur yang mengujinya pada mesin diesel multi-silinder untuk mobil, dengan variabel kunci brake thermal efficiency, specific fuel consumption, cylinder pressure, heat release rate, NOx, dan smoke.",
- "metode": "Analisis bibliometrik dan review literatur: dari 127 artikel terpilih, hanya 12 yang layak ditinjau secara detail. Sintesis data membandingkan kinerja dan emisi B100 terhadap solar lintas variabel kunci, dan hasilnya dipakai untuk memetakan celah riset B100 berikutnya.",
+ "lead": "Banyak negara mempromosikan B100 sebagai bahan bakar utama mesin diesel dalam transisi menuju energi terbarukan sepenuhnya. Analisis bibliometrik dan sintesis literatur ini menghasilkan gambaran yang bersyarat: B100 unggul pada sejumlah variabel kinerja pada beban tertentu, namun berpotensi memberikan kinerja yang lebih buruk apabila tidak disertai modifikasi mesin dan penambahan aditif.",
+ "masalah": "Karena sifat-sifatnya, B100 memiliki kelebihan sekaligus kekurangan sebagai pengganti minyak diesel. Studi ini mengevaluasi kinerja dan emisi mesin diesel berbahan bakar B100 melalui analisis bibliometrik atas literatur yang mengujinya pada mesin diesel multi-silinder untuk mobil, dengan variabel kunci brake thermal efficiency, specific fuel consumption, cylinder pressure, heat release rate, NOx, dan smoke.",
+ "metode": "Metode yang digunakan adalah analisis bibliometrik dan telaah literatur: dari 127 artikel terpilih, hanya 12 yang layak ditinjau secara mendalam. Sintesis data membandingkan kinerja dan emisi B100 terhadap minyak diesel lintas variabel kunci, dan hasilnya digunakan untuk memetakan kesenjangan riset B100 berikutnya.",
  "temuan": [
-  "Dari 127 artikel terpilih, hanya 12 yang layak ditinjau detail, dan tidak satu pun membahas seluruh variabel kinerja kunci mesin diesel secara lengkap.",
-  "Sintesis menemukan pemakaian B100 memberi keuntungan pada kebisingan mesin, efisiensi termal, specific fuel consumption, dan emisi pada beban mesin tertentu.",
-  "Sisi sebaliknya, B100 berpotensi menghasilkan kinerja yang lebih buruk bila tidak ada modifikasi komponen mesin dan penambahan aditif.",
-  "Rekomendasi penulis adalah panduan riset lanjutan yang menguji B100 dengan seluruh variabel kinerja mesin diesel, lintas teknologi mesin, kapasitas, bahan baku B100, dan lingkungan uji."
+  "Dari 127 artikel terpilih, hanya 12 yang layak ditinjau secara mendalam, dan tidak satu pun yang membahas seluruh variabel kinerja kunci mesin diesel secara lengkap.",
+  "Sintesis data menemukan bahwa pemakaian B100 memberikan keuntungan pada kebisingan mesin, efisiensi termal, specific fuel consumption, dan emisi pada beban mesin tertentu.",
+  "Di sisi lain, B100 berpotensi menghasilkan kinerja yang lebih buruk apabila tidak dilakukan modifikasi komponen mesin dan penambahan aditif.",
+  "Para penulis merekomendasikan panduan riset lanjutan yang menguji B100 dengan seluruh variabel kinerja mesin diesel, lintas teknologi mesin, kapasitas, bahan baku B100, dan lingkungan pengujian."
  ],
  "batas": [
-  "Basis simpulan kinerja adalah 12 artikel yang heterogen mesin dan bahan bakunya, jadi arah keuntungan B100 bersifat bersyarat pada beban dan konfigurasi, bukan jaminan umum.",
-  "Karena tidak ada satu studi pun yang memuat semua variabel, perbandingan antar variabel di paper ini disusun lintas studi dengan kondisi uji yang tidak seragam.",
-  "Abstrak tidak memuat angka perubahan persen untuk efisiensi, konsumsi, atau emisi, sehingga besar efek B100 belum bisa dinilai dari abstrak."
+  "Basis simpulan kinerja adalah 12 artikel yang heterogen dari segi mesin dan bahan baku, sehingga arah keuntungan B100 bersifat bersyarat pada beban dan konfigurasi, bukan jaminan yang berlaku umum.",
+  "Karena tidak ada satu studi pun yang memuat seluruh variabel, perbandingan antarvariabel dalam paper ini disusun lintas studi dengan kondisi pengujian yang tidak seragam.",
+  "Abstrak tidak memuat angka perubahan persen untuk efisiensi, konsumsi bahan bakar, maupun emisi, sehingga besar efek B100 belum dapat dinilai dari abstrak."
  ],
- "arti_pabrik": "Indonesia sudah menjalankan program biodiesel campuran dan arah menaikkan kadarnya selalu kembali ke pertanyaan yang sama: apa yang terjadi di mesin. Bedah dari jurnal Indonesia ini memberi peta jawaban yang jujur, bahwa biodiesel murni bukan sekadar soal bahan bakar melainkan pasangan bahan bakar dan mesin. Ia adalah pendamping kritis artikel biodiesel di situs ini. Penilaian ini adalah apresiasi redaksi, bukan klaim paper.",
+ "arti_pabrik": "Indonesia telah menjalankan program biodiesel campuran, dan arah peningkatan kadarnya senantiasa kembali pada pertanyaan yang sama: apa yang terjadi pada mesin. Bedah dari jurnal Indonesia ini menyajikan peta jawaban yang proporsional, yaitu bahwa biodiesel murni bukan sekadar persoalan bahan bakar, melainkan pasangan antara bahan bakar dan mesin. Bedah ini merupakan pendamping kritis bagi artikel biodiesel di situs ini. Penilaian ini adalah apresiasi redaksi, bukan klaim paper.",
  "vonis": "Baca full paper-nya",
- "vonis_alasan": "Simpulan arahnya jelas di abstrak, tetapi nilai paper ini ada pada tabel sintesis per variabel dan per studi. Tanpa itu, pembaca belum bisa menilai pada beban dan mesin apa B100 unggul.",
+ "vonis_alasan": "Arah simpulannya jelas di abstrak, tetapi nilai paper ini terletak pada tabel sintesis per variabel dan per studi. Tanpa tabel tersebut, pembaca belum dapat menilai pada beban dan mesin apa B100 unggul.",
  "cover_file": "/home/hatch/workspace/ilmutekkim-web/cover-src/bedah-b100-mesin-diesel.jpg",
  "cover_credit": "Foto: g2dieselproducts.com"
 }

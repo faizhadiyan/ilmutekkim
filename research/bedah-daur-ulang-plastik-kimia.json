@@ -1,6 +1,6 @@
 {
  "slug": "bedah-daur-ulang-plastik-kimia",
- "judul": "Daur ulang kimia plastik: fundamental dan hambatan industrinya",
+ "judul": "Daur Ulang Kimia Plastik: Kebutuhan Fundamental dan Hambatan Penerapan Industrinya",
  "topik": "Daur ulang dan polimer",
  "negara": "Internasional",
  "paper_title": "Expanding plastics recycling technologies: chemical aspects, technology status and challenges",
@@ -25,21 +25,21 @@
   }
  ],
  "abstract_src": "Less than 10% of the plastics generated globally are recycled, while the rest are incinerated, accumulated in landfills, or leach into the environment. New technologies are emerging to chemically recycle waste plastics that are receiving tremendous interest from academia and industry. Chemists and chemical engineers need to understand the fundamentals of these technologies to design improved systems for chemical recycling and upcycling of waste plastics. In this paper, we review the entire life cycle of plastics and options for the management of plastic waste to address barriers to industrial chemical recycling and further provide perceptions on possible opportunities with such materials. Knowledge and insights to enhance plastic recycling beyond its current scale are provided. Outstanding research problems and where researchers in the field should focus their efforts in the future are also discussed.",
- "lead": "Kurang dari 10% plastik yang dihasilkan dunia didaur ulang. Sisanya dibakar, menumpuk di tempat pembuangan, atau bocor ke lingkungan. Paper ini meninjau gelombang teknologi daur ulang kimia yang sedang menarik minat akademia dan industri, dari sisi fundamental yang dibutuhkan untuk merancang sistemnya.",
- "masalah": "Teknologi baru untuk mendaur ulang limbah plastik secara kimia bermunculan dan menerima minat besar, tetapi ahli kimia dan insinyur kimia membutuhkan pemahaman fundamental teknologi tersebut untuk merancang sistem daur ulang dan upcycling yang lebih baik dari skala yang ada sekarang.",
- "metode": "Review atas seluruh siklus hidup plastik dan opsi pengelolaan limbah plastik, dengan fokus pada hambatan daur ulang kimia skala industri, peluang dari material limbah plastik, masalah riset yang belum terjawab, dan wilayah yang sebaiknya menjadi fokus peneliti ke depan.",
+ "lead": "Kurang dari 10% plastik yang dihasilkan dunia didaur ulang. Selebihnya dibakar, menumpuk di tempat pembuangan, atau terlepas ke lingkungan. Paper ini meninjau gelombang teknologi daur ulang kimia yang menarik minat kalangan akademisi dan industri, dari sisi pemahaman fundamental yang diperlukan untuk merancang sistemnya.",
+ "masalah": "Teknologi baru untuk mendaur ulang limbah plastik secara kimia terus bermunculan dan menerima minat besar, tetapi para ahli kimia dan insinyur kimia membutuhkan pemahaman fundamental mengenai teknologi tersebut untuk merancang sistem daur ulang dan upcycling yang lebih baik dari skala yang ada saat ini.",
+ "metode": "Telaah atas seluruh siklus hidup plastik dan opsi pengelolaan limbah plastik, dengan fokus pada hambatan daur ulang kimia skala industri, peluang dari material limbah plastik, pertanyaan riset yang belum terjawab, dan wilayah yang sebaiknya menjadi fokus para peneliti ke depan.",
  "temuan": [
-  "Angka pembuka yang menjadi konteks seluruh review: kurang dari 10% plastik global didaur ulang, sisanya dibakar, tertimbun, atau bocor ke lingkungan.",
-  "Review memposisikan daur ulang kimia dan upcycling sebagai jalur yang sedang tumbuh, dengan kebutuhan utama pada pemahaman fundamental agar desain sistemnya membaik.",
-  "Paper secara eksplisit memetakan masalah riset terbuka dan arah fokus peneliti, bukan hanya merangkum teknologi yang sudah ada."
+  "Angka pembuka yang menjadi konteks seluruh telaah: kurang dari 10% plastik global didaur ulang, sedangkan selebihnya dibakar, tertimbun, atau terlepas ke lingkungan.",
+  "Telaah ini memposisikan daur ulang kimia dan upcycling sebagai jalur yang sedang berkembang, dengan kebutuhan utama pada pemahaman fundamental agar perancangan sistemnya membaik.",
+  "Paper ini secara eksplisit memetakan pertanyaan riset terbuka dan arah fokus peneliti, bukan sekadar merangkum teknologi yang sudah ada."
  ],
  "batas": [
-  "Abstrak tidak memberikan angka hasil, kebutuhan energi, atau ekonomi per teknologi, sehingga teknologi mana yang paling siap industri tidak bisa disimpulkan dari abstrak.",
-  "Sebagai review siklus hidup yang luas, penilaian proses spesifik seperti pirolisis harus dibaca di full text; abstrak tidak menamai satu teknologi pun sebagai unggulan."
+  "Abstrak tidak memberikan angka hasil, kebutuhan energi, atau ekonomi per teknologi, sehingga teknologi mana yang paling siap diterapkan di industri tidak dapat disimpulkan dari abstrak.",
+  "Sebagai telaah siklus hidup yang luas, penilaian proses spesifik seperti pirolisis harus dibaca pada teks lengkap; abstrak tidak menamai satu teknologi pun sebagai yang unggul."
  ],
- "arti_pabrik": "Bedah ini adalah konteks yang jujur untuk artikel pirolisis sampah plastik di situs ini: pirolisis adalah salah satu anggota keluarga daur ulang kimia yang lebih besar, dan hambatan industrinya bersifat sistemik, bukan hanya soal reaktor. Bagi pengembang waste-to-fuel di Indonesia, peta hambatan ini membantu membedakan masalah kimia dari masalah skala dan ekonomi. Penilaian ini adalah apresiasi redaksi, bukan klaim paper.",
+ "arti_pabrik": "Bedah ini merupakan konteks yang proporsional bagi artikel pirolisis sampah plastik di situs ini: pirolisis adalah salah satu anggota keluarga daur ulang kimia yang lebih besar, dan hambatan industrinya bersifat sistemik, bukan sekadar persoalan reaktor. Bagi pengembang waste-to-fuel di Indonesia, peta hambatan ini membantu membedakan persoalan kimia dari persoalan skala dan ekonomi. Penilaian ini adalah apresiasi redaksi, bukan klaim paper.",
  "vonis": "Baca full paper-nya",
- "vonis_alasan": "Yang paling berharga dari paper ini, yaitu peta hambatan industri dan masalah riset terbukanya, hanya disebut keberadaannya di abstrak. Isinya ada di full text.",
+ "vonis_alasan": "Aspek yang paling berharga dari paper ini, yaitu peta hambatan industri dan pertanyaan riset terbukanya, hanya disebutkan keberadaannya di abstrak. Isinya tersedia pada teks lengkap.",
  "cover_file": "/home/hatch/workspace/ilmutekkim-web/cover-src/bedah-daur-ulang-plastik-kimia.jpg",
  "cover_credit": "Foto: mungart.com"
 }

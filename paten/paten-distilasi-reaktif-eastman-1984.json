@@ -12,22 +12,22 @@
  "sumber": "https://patentimages.storage.googleapis.com/89/a9/f8/26bec6dc274b69/US4435595.pdf",
  "coverage": "Berdasarkan dokumen paten publik",
  "date_bedah": "2026-10-09",
- "lead": "Metil asetat dari metanol dan asam asetat secara konvensional butuh deretan reaktor dan kolom karena reaksi kesetimbangannya dan azeotrop yang terbentuk. Paten Eastman Kodak ini mengemasnya dalam satu kolom distilasi reaktif, dan menjadi paten pertama distilasi reaktif metil asetat.",
- "masalah": "Esterifikasi metanol dengan asam asetat glasial dibatasi kesetimbangan dan membentuk azeotrop metil asetat dengan air dan metil asetat dengan metanol, sehingga pemisahan produk dari reaktan sisa menuntut banyak unit. Paten ini menyelesaikan dua masalah itu sekaligus di dalam satu kolom: asam asetat berfungsi ganda sebagai reaktan dan sebagai agen ekstraktif yang membantu memecah persoalan azeotrop.",
+ "lead": "Secara konvensional, produksi metil asetat dari metanol dan asam asetat memerlukan rangkaian reaktor dan kolom karena keterbatasan kesetimbangan reaksi serta azeotrop yang terbentuk. Paten Eastman Kodak ini mengintegrasikan keduanya dalam satu kolom distilasi reaktif dan merupakan paten pertama untuk distilasi reaktif metil asetat.",
+ "masalah": "Esterifikasi metanol dengan asam asetat glasial dibatasi oleh kesetimbangan dan membentuk azeotrop metil asetat dengan air serta metil asetat dengan metanol, sehingga pemisahan produk dari reaktan sisa menuntut banyak unit operasi. Paten ini menangani kedua persoalan tersebut sekaligus di dalam satu kolom: asam asetat berfungsi ganda sebagai reaktan dan sebagai agen ekstraktif yang membantu mengatasi persoalan azeotrop.",
  "klaim": [
-  "Proses distilasi reaktif untuk memproduksi metil asetat kemurnian tinggi dari metanol dan asam asetat glasial, dengan asam asetat berfungsi sebagai reaktan sekaligus agen ekstraktif.",
-  "Kira-kira kuantitas stoikiometri asam asetat dan metanol dialirkan berlawanan arah melalui satu kolom distilasi reaktif dengan katalis asam, yang dipilih terutama asam sulfat.",
-  "Metil asetat kemurnian tinggi diambil kontinu dari puncak kolom dan air diambil kontinu dari dasar kolom, dengan opsi pengambilan samping uap untuk senyawa bertitik didih menengah seperti metil propionat, metil butirat, dan isopropil asetat."
+  "Proses distilasi reaktif untuk memproduksi metil asetat berkemurnian tinggi dari metanol dan asam asetat glasial, dengan asam asetat yang berfungsi sebagai reaktan sekaligus agen ekstraktif.",
+  "Asam asetat dan metanol dalam kuantitas yang kurang lebih stoikiometris dialirkan berlawanan arah melalui satu kolom distilasi reaktif dengan katalis asam, yang terutama dipilih asam sulfat.",
+  "Metil asetat berkemurnian tinggi diambil secara kontinu dari puncak kolom dan air diambil secara kontinu dari dasar kolom, dengan opsi pengambilan samping uap untuk senyawa bertitik didih menengah seperti metil propionat, metil butirat, dan isopropil asetat."
  ],
- "cara": "Kolom memberi kontak erat antara asam asetat dan metanol, dan antara asam asetat dengan azeotrop yang terbentuk di kolom. Pada konsentrasi katalis yang dipilih, waktu tinggal di kolom setidaknya sekitar dua jam. Karena produk metil asetat terus menguap dan diambil dari puncak sementara air turun ke dasar, kesetimbangan reaksi terus digeser ke arah produk tanpa unit pemisah tambahan. Inilah contoh buku teks process intensification: reaksi dan pemisahan berbagi satu bejana.",
+ "cara": "Kolom menyediakan kontak yang erat antara asam asetat dan metanol, serta antara asam asetat dan azeotrop yang terbentuk di dalam kolom. Pada konsentrasi katalis yang dipilih, waktu tinggal di dalam kolom sekurang-kurangnya sekitar dua jam. Karena metil asetat sebagai produk terus menguap dan diambil dari puncak, sementara air turun ke dasar, kesetimbangan reaksi terus bergeser ke arah produk tanpa memerlukan unit pemisah tambahan. Proses ini merupakan contoh klasik intensifikasi proses: reaksi dan pemisahan berlangsung dalam satu bejana yang sama.",
  "batas": [
-  "Katalis cair asam sulfat membawa konsekuensi korosi dan penanganan yang oleh paten-paten sesudahnya diganti katalis padat resin penukar ion; paten ini adalah titik awal, bukan bentuk akhir teknologinya.",
-  "Klaim disusun atas sistem metil asetat secara spesifik; menerapkannya ke ester lain menuntut pembuktian azeotrop dan kinetika masing-masing.",
-  "Waktu tinggal sekitar dua jam menunjukkan reaksi lambat yang ditopang kolom besar; paten tidak menyatakan ini cocok untuk semua laju produksi."
+  "Katalis cair asam sulfat menimbulkan konsekuensi korosi dan penanganan khusus, yang pada paten-paten berikutnya digantikan oleh katalis padat resin penukar ion; paten ini merupakan titik awal teknologinya, bukan bentuk akhirnya.",
+  "Klaim disusun secara spesifik untuk sistem metil asetat; penerapannya pada ester lain menuntut pembuktian azeotrop dan kinetika masing-masing sistem.",
+  "Waktu tinggal sekitar dua jam menunjukkan reaksi yang lambat dan ditopang oleh kolom berukuran besar; paten tidak menyatakan konfigurasi ini sesuai untuk semua laju produksi."
  ],
- "arti": "Distilasi reaktif sekarang adalah keluarga teknologi matang untuk esterifikasi, hidrolisis, dan eterifikasi. Bagi perancang proses Indonesia, dokumen ini adalah studi kasus paling bersih tentang kapan menggabungkan reaktor dan kolom masuk akal: saat kesetimbangan membatasi konversi dan produk dapat ditarik keluar zona reaksi oleh volatilitasnya. Penilaian ini adalah apresiasi redaksi atas dokumen publik, bukan nasihat hukum.",
+ "arti": "Distilasi reaktif kini merupakan keluarga teknologi yang matang untuk esterifikasi, hidrolisis, dan eterifikasi. Bagi perancang proses di Indonesia, dokumen ini merupakan studi kasus yang jernih mengenai kapan penggabungan reaktor dan kolom menjadi masuk akal: ketika kesetimbangan membatasi konversi dan produk dapat ditarik keluar dari zona reaksi berdasarkan volatilitasnya. Penilaian ini merupakan apresiasi redaksi atas dokumen publik, bukan nasihat hukum.",
  "kesimpulan": "Baca dokumen patennya",
- "kesimpulan_alasan": "Abstrak patennya padat dan skema prosesnya adalah contoh klasik yang masih diajarkan. Bedah ini memberi kerangkanya, dokumen aslinya memberi rincian susunan kolom dan pengambilan sampingnya.",
+ "kesimpulan_alasan": "Abstrak patennya padat dan skema prosesnya merupakan contoh klasik yang masih diajarkan hingga kini. Bedah ini menyajikan kerangkanya; dokumen aslinya menyajikan rincian susunan kolom dan pengambilan sampingnya.",
  "terkait": [
   {
    "type": "artikel",

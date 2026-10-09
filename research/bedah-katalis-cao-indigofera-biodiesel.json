@@ -1,6 +1,6 @@
 {
  "slug": "bedah-katalis-cao-indigofera-biodiesel",
- "judul": "Abu daun indigofera jadi katalis biodiesel dari RBDPO",
+ "judul": "Katalis Heterogen dari Abu Daun Indigofera untuk Produksi Biodiesel dari RBDPO",
  "topik": "Katalis dan biodiesel",
  "negara": "Indonesia",
  "paper_title": "Sustainable production of CaO rich-indigofera (Indigofera zollingeriana) as heterogeneous catalyst of biodiesel from refined bleached deodorized palm olein using associated transesterification process",
@@ -30,18 +30,18 @@
  "metode": "Abu daun indigofera lolos ayakan 100-mesh dikalsinasi pada 700 °C selama 3 jam. Transesterifikasi RBDPO diuji pada suhu reaksi 55, 60, dan 65 °C, rasio molar metanol terhadap minyak 6:1, 9:1, dan 12:1, kadar katalis 1%, 2%, 3%, dan 4%, pengadukan magnetic stirrer 300 rpm selama 90, 120, 150, dan 180 menit. Komposisi asam lemak dianalisis dengan gas chromatography, kandungan kalsium dikonfirmasi dengan X-ray diffraction, Energy Dispersive X-ray Spectroscopy, dan Fourier Transform Infra-Red, dan tekstur pori diukur dengan metode Brunner-Emmett-Teller dan Barrett-Joyner-Halenda.",
  "temuan": [
   "Yield biodiesel tertinggi 94,20% diperoleh pada kalsinasi 700 °C, katalis 3%, suhu reaksi 60 °C, rasio molar metanol terhadap minyak 9:1, dan waktu reaksi 120 menit.",
-  "Komposisi asam lemak signifikan pada RBDPO dan biodieselnya adalah oleic acid dan palmitic acid berdasarkan analisis gas chromatography.",
-  "Analisis gabungan XRD, EDX, dan FTIR mengonfirmasi komponen target pada abu daun indigofera adalah kalsium.",
+  "Komposisi asam lemak yang signifikan pada RBDPO dan biodieselnya adalah oleic acid dan palmitic acid berdasarkan analisis gas chromatography.",
+  "Analisis gabungan XRD, EDX, dan FTIR mengonfirmasi bahwa komponen target pada abu daun indigofera adalah kalsium.",
   "Luas permukaan katalis 9,318 m2/g dengan volume pori 0,047 cc/g dan ukuran pori 144,70 Å."
  ],
  "batas": [
-  "Ini eksperimen skala laboratorium dengan pengaduk magnetik. Abstrak tidak melaporkan uji pakai ulang katalis, pelindian kalsium ke produk, atau kesesuaian biodiesel terhadap standar mutu bahan bakar, sehingga kesiapan prosesnya belum bisa dinilai dari abstrak.",
-  "Angka 94,20% adalah yield pada satu kombinasi kondisi optimum hasil penyapuan variabel satu per satu; abstrak tidak menunjukkan rancangan eksperimen faktorial, jadi interaksi antar variabel belum terlihat.",
-  "Penulisan rasio molar di abstrak diberi satuan (v/v), inkonsistensi kecil yang layak dicek ke full text sebelum mengutip kondisi operasinya."
+  "Eksperimen ini berskala laboratorium dengan pengaduk magnetik. Abstrak tidak melaporkan uji pakai ulang katalis, pelindian kalsium ke produk, atau kesesuaian biodiesel terhadap standar mutu bahan bakar, sehingga kesiapan prosesnya belum dapat dinilai dari abstrak.",
+  "Angka 94,20% adalah yield pada satu kombinasi kondisi optimum hasil penyapuan variabel satu per satu; abstrak tidak menunjukkan rancangan eksperimen faktorial, sehingga interaksi antarvariabel belum terlihat.",
+  "Penulisan rasio molar di abstrak diberi satuan (v/v), suatu inkonsistensi kecil yang layak diperiksa pada teks lengkap sebelum mengutip kondisi operasinya."
  ],
  "arti_pabrik": "Untuk program biodiesel Indonesia, katalis heterogen dari biomassa lokal menarik karena pemisahan katalis dari produk lebih mudah daripada katalis homogen dan bahan bakunya tersedia di dalam negeri. Bedah ini menunjukkan riset katalis biodiesel lokal berjalan dengan karakterisasi yang lengkap, tinggal dibuktikan pada ketahanan katalis dan mutu produk akhir. Penilaian ini adalah apresiasi redaksi, bukan klaim paper.",
  "vonis": "Baca full paper-nya",
- "vonis_alasan": "Kondisi optimum sudah jelas dari abstrak, tetapi pertanyaan yang menentukan nilai industrinya, yaitu pakai ulang, pelindian, dan mutu biodiesel terhadap standar, hanya bisa dijawab full text.",
+ "vonis_alasan": "Kondisi optimumnya telah jelas dari abstrak, tetapi pertanyaan yang menentukan nilai industrinya, yaitu pemakaian ulang, pelindian, dan mutu biodiesel terhadap standar, hanya dapat dijawab oleh teks lengkap.",
  "cover_file": "/home/hatch/workspace/ilmutekkim-web/cover-src/bedah-katalis-cao-indigofera-biodiesel.jpg",
  "cover_credit": "Foto: worldgonesour.ru"
 }

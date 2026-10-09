@@ -1,6 +1,6 @@
 {
  "slug": "paten-membran-monsanto-1980",
- "judul": "Paten membran multikomponen Monsanto (1980): menambal pori demi selektivitas",
+ "judul": "Paten membran multikomponen Monsanto (1980): menyegel pori demi selektivitas",
  "topik": "Pemisahan membran",
  "nomor": "US4230463A",
  "judul_paten": "Multicomponent membranes for gas separations",
@@ -12,22 +12,22 @@
  "sumber": "http://patentimages.storage.googleapis.com/pdfs/US4230463.pdf",
  "coverage": "Berdasarkan dokumen paten publik",
  "date_bedah": "2026-10-09",
- "lead": "Membran asimetris berpori punya selektivitas intrinsik yang baik tetapi bocor lewat pori permukaannya. Henis dan Tripodi di Monsanto mematenkan tambalannya: lapisi dengan polimer sangat permeabel yang menyumbat pori tanpa membunuh selektivitas. Dari sinilah membran pemisah gas komersial lahir.",
- "masalah": "Membran polimer asimetris untuk pemisahan gas menjanjikan selektivitas bawaan materialnya, tetapi pori dan cacat permukaan membuat gas mengalir tanpa terseleksi sehingga selektivitas praktisnya runtuh. Membuat membran bebas cacat sepenuhnya tidak realistis pada skala produksi serat berongga. Masalahnya adalah bagaimana mempertahankan selektivitas intrinsik substrat sambil menjaga permeabilitas keseluruhan tetap tinggi.",
+ "lead": "Membran asimetris berpori memiliki selektivitas intrinsik yang baik, tetapi kebocoran melalui pori permukaannya meruntuhkan selektivitas praktis. Henis dan Tripodi di Monsanto mematenkan penyelesaiannya: pelapisan polimer yang sangat permeabel yang menyegel pori tanpa mengorbankan selektivitas. Dari dokumen inilah membran pemisah gas komersial berawal.",
+ "masalah": "Membran polimer asimetris untuk pemisahan gas menjanjikan selektivitas bawaan materialnya, tetapi pori dan cacat permukaan memungkinkan gas mengalir tanpa terseleksi, sehingga selektivitas praktisnya runtuh. Pembuatan membran yang sepenuhnya bebas cacat tidak realistis pada skala produksi serat berongga. Persoalannya adalah bagaimana mempertahankan selektivitas intrinsik substrat sambil menjaga permeabilitas keseluruhan tetap tinggi.",
  "klaim": [
-  "Membran multikomponen untuk pemisahan gas: substrat berpori asimetris dilapisi polimer yang berada dalam kontak menutup (occluding contact) dengan permukaan berporinya.",
-  "Lapisan tipis polimer berpermeabilitas tinggi, misalnya karet silikon, diendapkan di permukaan membran asimetris berpori untuk menyegel pori permukaan.",
-  "Dengan pori tersegel, sebagian besar selektivitas material polimer berpori di bawahnya dipertahankan sementara permeabilitas keseluruhan tetap cukup tinggi untuk pemisahan gas praktis."
+  "Membran multikomponen untuk pemisahan gas: substrat berpori asimetris yang dilapisi polimer dalam kontak menutup (occluding contact) dengan permukaan berporinya.",
+  "Lapisan tipis polimer berpermeabilitas tinggi, misalnya karet silikon, diendapkan pada permukaan membran asimetris berpori untuk menyegel pori permukaan.",
+  "Dengan pori yang tersegel, sebagian besar selektivitas material polimer berpori di bawahnya dapat dipertahankan, sementara permeabilitas keseluruhan tetap cukup tinggi untuk pemisahan gas yang praktis."
  ],
- "cara": "Prinsipnya adalah tahanan seri. Lapisan penutup dibuat sangat tipis dan sangat permeabel sehingga tahanannya terhadap aliran gas kecil, tetapi ia menutup jalan pintas pori yang sebelumnya mengalirkan gas tanpa seleksi. Gas kemudian dipaksa melewati kulit selektif substrat asimetris, sehingga yang menentukan selektivitas kembali ke material substrat, sementara fluks total tetap tinggi karena kedua lapisan tipis. Pendekatan ini yang kemudian memungkinkan modul serat berongga komersial untuk recovery hidrogen dan pemisahan gas lain.",
+ "cara": "Prinsipnya adalah tahanan seri. Lapisan penutup dibuat sangat tipis dan sangat permeabel sehingga tahanannya terhadap aliran gas kecil, tetapi lapisan tersebut menutup jalan pintas pori yang sebelumnya mengalirkan gas tanpa seleksi. Gas kemudian terpaksa melewati kulit selektif substrat asimetris, sehingga selektivitas kembali ditentukan oleh material substrat, sementara fluks total tetap tinggi karena kedua lapisan tipis. Pendekatan inilah yang kemudian memungkinkan modul serat berongga komersial untuk perolehan kembali (recovery) hidrogen dan pemisahan gas lainnya.",
  "batas": [
-  "Paten ini melindungi gagasan pelapisan penutupnya; material membran modern (polimida, polisulfon termodifikasi, dan lainnya) umumnya dilindungi paten tersendiri yang statusnya harus dicek per kasus.",
-  "Dokumen tidak berarti setiap membran komposit hari ini bebas dipakai; yang kedaluwarsa adalah dokumen 1980 ini dan klaimnya, bukan seluruh teknologi membran.",
-  "Kinerja membran nyata tetap ditentukan material, modul, dan kondisi operasi; paten ini memberi arsitektur, bukan garansi angka selektivitas."
+  "Paten ini melindungi gagasan pelapisan penutup; material membran modern (polimida, polisulfon termodifikasi, dan lainnya) pada umumnya dilindungi paten tersendiri yang statusnya harus diperiksa untuk setiap kasus.",
+  "Dokumen ini tidak berarti setiap membran komposit saat ini bebas digunakan; yang kedaluwarsa adalah dokumen tahun 1980 ini beserta klaimnya, bukan seluruh teknologi membran.",
+  "Kinerja membran nyata tetap ditentukan oleh material, modul, dan kondisi operasi; paten ini menyediakan arsitekturnya, bukan jaminan angka selektivitas."
  ],
- "arti": "Pemisahan membran sekarang berdampingan dengan PSA dan kriogenik di pemurnian hidrogen, pengolahan gas alam, dan penangkapan karbon. Bagi pembaca Indonesia, dokumen ini menjelaskan mengapa membran industri berbentuk komposit berlapis, pengetahuan yang membantu membaca brosur vendor secara kritis. Penilaian ini adalah apresiasi redaksi atas dokumen publik, bukan nasihat hukum.",
+ "arti": "Pemisahan membran kini berdampingan dengan PSA dan kriogenik dalam pemurnian hidrogen, pengolahan gas alam, dan penangkapan karbon. Bagi pembaca di Indonesia, dokumen ini menjelaskan mengapa membran industri berbentuk komposit berlapis, pengetahuan yang membantu membaca brosur vendor secara kritis. Penilaian ini merupakan apresiasi redaksi atas dokumen publik, bukan nasihat hukum.",
  "kesimpulan": "Cukup baca bedahnya",
- "kesimpulan_alasan": "Gagasan intinya satu dan jernih, yaitu menyegel pori permukaan dengan lapisan sangat permeabel agar selektivitas substrat berlaku. Dokumen patennya baru perlu dibuka bila pembaca ingin rincian formulasi lapisan dan contoh ujinya.",
+ "kesimpulan_alasan": "Gagasan intinya tunggal dan jernih, yaitu menyegel pori permukaan dengan lapisan yang sangat permeabel agar selektivitas substrat berlaku. Dokumen patennya perlu dibuka hanya apabila pembaca memerlukan rincian formulasi lapisan dan contoh pengujiannya.",
  "terkait": [
   {
    "type": "artikel",

@@ -1,1 +1,56 @@
-{"closing":"Enam mata kuliah itu satu pabrik yang sama: neraca dan termodinamika menjaga hitungan dan kondisi operasi, fluida dan perpindahan menggerakkan serta menukar energi, separasi dan reaksi memisahkan lalu melahirkan produk. Simpan peta ini sebelum membaca bedah alat berikutnya, karena setiap alat pabrik yang dibedah di seri ini selalu bisa ditunjuk sedang dikerjakan oleh mata kuliah yang mana.","facts":["Pada operasi tunak, akumulasi dalam neraca massa bernilai nol.","Setiap siku dan katup menambah rugi tekanan pada aliran.","Grafik faktor gesekan Moody dari 1944 masih dipakai menaksir rugi tekanan.","Kenaikan suhu 10 °C bisa menggandakan laju reaksi.","Fouling memangkas kinerja heat exchanger.","Tidak ada alat pabrik yang berdiri di satu mata kuliah saja."],"hook_type":"Curiosity","lead":"Enam mata kuliah inti teknik kimia tampak seperti enam dunia terpisah di transkrip nilai. Di pabrik, keenamnya ternyata bekerja dalam satu aliran yang sama, dan tidak ada satu alat pun yang berdiri di atas satu mata kuliah saja.","refs":["Geankoplis, C. J. (2003). Transport Processes and Separation Process Principles. Prentice Hall.","Green, D. W., dan Southard, M. Z. (Eds.). (2019). Perry's Chemical Engineers' Handbook. McGraw-Hill Education.","Incropera, F. P., DeWitt, D. P., Bergman, T. L., dan Lavine, A. S. (2007). Fundamentals of Heat and Mass Transfer. John Wiley & Sons.","Fogler, H. S. (2016). Elements of Chemical Reaction Engineering. Prentice Hall."],"sections":[{"h":"Neraca massa dan energi: penjaga hitungan setiap ton bahan","paras":["Setiap aliran masuk dan keluar digambar sebagai kotak dan panah, lalu tonasenya ditutup sampai cocok mengikuti hubungan Masuk = Keluar + Akumulasi. Pada operasi tunak, akumulasinya nol, sehingga yang masuk harus sama dengan yang keluar. Di pabrik, hitungan yang sama hidup sebagai neraca harian yang wajib ketemu angka [1][2].","Selisih yang tidak tertutup adalah tanda awal adanya aliran yang bocor, alat ukur yang salah, atau perubahan bahan yang belum terhitung. Mata kuliah ini menjadi fondasi pertama karena semua penilaian kinerja alat menumpang padanya: reaktor, kolom, dan penukar panas tidak bisa dinilai sebelum neraca di sekelilingnya tertutup."]},{"h":"Termodinamika: menentukan fasa dan batas andaian gas ideal","paras":["Tekanan, suhu, dan komposisi menentukan wujud bahan. Dekat titik gelembungnya, campuran bisa pindah ke dua fasa hanya karena perubahan kecil suhu atau tekanan, dan di wilayah itulah keputusan pemisahan ditentukan. Fugasitas dan koefisien aktivitas menggantikan andaian gas ideal pada campuran nyata, karena campuran pabrik jarang berperilaku ideal [1][2].","Tanpa termodinamika, insinyur tidak tahu bahan akan berwujud cair, uap, atau dua fasa sekaligus di dalam alat. Semua keputusan suhu dan tekanan operasi berangkat dari peta fasa ini, sehingga mata kuliah yang terasa paling abstrak ini sebenarnya menentukan kondisi kerja semua alat."]},{"h":"Mekanika fluida: perang melawan rugi tekanan di setiap siku","paras":["Cairan digerakkan pompa melewati pipa, siku, dan katup. Setiap siku dan katup menambah rugi tekanan, sehingga pompa harus menyediakan beda tekanan yang cukup untuk seluruh rangkaian. Grafik faktor gesekan Moody dari 1944 masih dipakai menaksir rugi tekanan ini, menunjukkan betapa awetnya korelasi empiris yang baik dalam praktik rekayasa [1].","Mata kuliah ini menjawab pertanyaan yang sangat fisik: apakah bahan benar-benar sampai ke alat berikutnya, dan berapa energi yang dibayar untuk menggerakkannya. Di pabrik, urutannya menyatu: bahan dihitung, dialirkan, dipanaskan, direaksikan, lalu dipisahkan."]},{"h":"Perpindahan panas dan massa: menukar energi antar fluida dan antar fasa","paras":["Panas berpindah antar fluida mengikuti beda suhu pendorongnya, diringkas dalam hubungan Q = U × A × ΔT. Huruf Q adalah laju pindah panas atau energi yang berpindah per detik, U adalah koefisien pindah panas yang menyatakan kemampuan dinding menukar panas, dan A adalah luas permukaan bidang kontak kedua fluida. Massa berpindah antar fasa dengan logika pendorong yang sama, misalnya di absorber [3].","Fouling adalah musuh nyata mata kuliah ini: endapan di permukaan memangkas kinerja heat exchanger dari waktu ke waktu. Hampir semua pemanasan, pendinginan, penguapan, dan pengembunan di pabrik adalah pekerjaan perpindahan panas dan massa."]},{"h":"Separasi dan reaksi: panggung utama tempat produk lahir","paras":["Di kolom distilasi, campuran dipisahkan mengikuti tangga McCabe-Thiele. Di reaktor, bahan berubah menjadi produk mengikuti persamaan Arrhenius, dan suhu naik 10 °C bisa menggandakan laju reaksi. Separasi memisahkan apa yang sudah ada, sedangkan reaksi mengubah bahan menjadi produk baru; keduanya adalah panggung utama tempat bahan baku menjadi produk yang dijual [1][4].","Reaktor meminjam kelima mata kuliah lainnya sekaligus: neracanya harus tertutup, fasanya ditentukan termodinamika, bahannya dialirkan mekanika fluida, panasnya dikelola perpindahan panas, dan produknya dipisahkan proses separasi. Pabrik menyatukan apa yang kuliah pecah menjadi enam bab."]}]}
+{
+ "closing": "Enam mata kuliah itu merupakan satu pabrik yang sama: neraca dan termodinamika menjaga hitungan dan kondisi operasi, fluida dan perpindahan menggerakkan serta menukar energi, separasi dan reaksi memisahkan kemudian melahirkan produk. Setiap alat pabrik yang dibedah dalam seri ini pada dasarnya selalu dapat diidentifikasi sedang dikerjakan oleh mata kuliah yang mana.",
+ "facts": [
+  "Pada operasi tunak, akumulasi dalam neraca massa bernilai nol.",
+  "Setiap siku dan katup menambah rugi tekanan pada aliran.",
+  "Grafik faktor gesekan Moody dari 1944 masih dipakai menaksir rugi tekanan.",
+  "Kenaikan suhu 10 °C bisa menggandakan laju reaksi.",
+  "Fouling memangkas kinerja heat exchanger.",
+  "Tidak ada alat pabrik yang berdiri di satu mata kuliah saja."
+ ],
+ "hook_type": "Curiosity",
+ "lead": "Enam mata kuliah inti teknik kimia tampak seperti enam dunia terpisah di transkrip nilai. Di pabrik, keenamnya ternyata bekerja dalam satu aliran yang sama, dan tidak ada satu alat pun yang berdiri di atas satu mata kuliah saja.",
+ "refs": [
+  "Geankoplis, C. J. (2003). Transport Processes and Separation Process Principles. Prentice Hall.",
+  "Green, D. W., dan Southard, M. Z. (Eds.). (2019). Perry's Chemical Engineers' Handbook. McGraw-Hill Education.",
+  "Incropera, F. P., DeWitt, D. P., Bergman, T. L., dan Lavine, A. S. (2007). Fundamentals of Heat and Mass Transfer. John Wiley & Sons.",
+  "Fogler, H. S. (2016). Elements of Chemical Reaction Engineering. Prentice Hall."
+ ],
+ "sections": [
+  {
+   "h": "Neraca massa dan energi: penjaga hitungan setiap ton bahan",
+   "paras": [
+    "Setiap aliran masuk dan keluar digambar sebagai kotak dan panah, lalu tonasenya ditutup sampai cocok mengikuti hubungan Masuk = Keluar + Akumulasi. Pada operasi tunak, akumulasinya nol, sehingga yang masuk harus sama dengan yang keluar. Di pabrik, hitungan yang sama hidup sebagai neraca harian yang wajib ketemu angka [1][2].",
+    "Selisih yang tidak tertutup adalah tanda awal adanya aliran yang bocor, alat ukur yang salah, atau perubahan bahan yang belum terhitung. Mata kuliah ini menjadi fondasi pertama karena semua penilaian kinerja alat menumpang padanya: reaktor, kolom, dan penukar panas tidak bisa dinilai sebelum neraca di sekelilingnya tertutup."
+   ]
+  },
+  {
+   "h": "Termodinamika: menentukan fasa dan batas andaian gas ideal",
+   "paras": [
+    "Tekanan, suhu, dan komposisi menentukan wujud bahan. Dekat titik gelembungnya, campuran bisa pindah ke dua fasa hanya karena perubahan kecil suhu atau tekanan, dan di wilayah itulah keputusan pemisahan ditentukan. Fugasitas dan koefisien aktivitas menggantikan andaian gas ideal pada campuran nyata, karena campuran pabrik jarang berperilaku ideal [1][2].",
+    "Tanpa termodinamika, insinyur tidak tahu bahan akan berwujud cair, uap, atau dua fasa sekaligus di dalam alat. Semua keputusan suhu dan tekanan operasi berangkat dari peta fasa ini, sehingga mata kuliah yang terasa paling abstrak ini sebenarnya menentukan kondisi kerja semua alat."
+   ]
+  },
+  {
+   "h": "Mekanika fluida: mengatasi rugi tekanan di setiap siku",
+   "paras": [
+    "Cairan digerakkan pompa melewati pipa, siku, dan katup. Setiap siku dan katup menambah rugi tekanan, sehingga pompa harus menyediakan beda tekanan yang cukup untuk seluruh rangkaian. Grafik faktor gesekan Moody dari 1944 masih dipakai menaksir rugi tekanan ini, menunjukkan betapa awetnya korelasi empiris yang baik dalam praktik rekayasa [1].",
+    "Mata kuliah ini menjawab pertanyaan yang sangat fisik: apakah bahan benar-benar sampai ke alat berikutnya, dan berapa energi yang dibayar untuk menggerakkannya. Di pabrik, urutannya menyatu: bahan dihitung, dialirkan, dipanaskan, direaksikan, lalu dipisahkan."
+   ]
+  },
+  {
+   "h": "Perpindahan panas dan massa: menukar energi antar fluida dan antar fasa",
+   "paras": [
+    "Panas berpindah antar fluida mengikuti beda suhu pendorongnya, diringkas dalam hubungan Q = U × A × ΔT. Huruf Q adalah laju pindah panas atau energi yang berpindah per detik, U adalah koefisien pindah panas yang menyatakan kemampuan dinding menukar panas, dan A adalah luas permukaan bidang kontak kedua fluida. Massa berpindah antar fasa dengan logika pendorong yang sama, misalnya di absorber [3].",
+    "Fouling adalah musuh nyata mata kuliah ini: endapan di permukaan memangkas kinerja heat exchanger dari waktu ke waktu. Hampir semua pemanasan, pendinginan, penguapan, dan pengembunan di pabrik adalah pekerjaan perpindahan panas dan massa."
+   ]
+  },
+  {
+   "h": "Separasi dan reaksi: panggung utama tempat produk lahir",
+   "paras": [
+    "Di kolom distilasi, campuran dipisahkan mengikuti tangga McCabe-Thiele. Di reaktor, bahan berubah menjadi produk mengikuti persamaan Arrhenius, dan suhu naik 10 °C bisa menggandakan laju reaksi. Separasi memisahkan apa yang sudah ada, sedangkan reaksi mengubah bahan menjadi produk baru; keduanya adalah panggung utama tempat bahan baku menjadi produk yang dijual [1][4].",
+    "Reaktor meminjam kelima mata kuliah lainnya sekaligus: neracanya harus tertutup, fasanya ditentukan termodinamika, bahannya dialirkan mekanika fluida, panasnya dikelola perpindahan panas, dan produknya dipisahkan proses separasi. Pabrik menyatukan apa yang kuliah pecah menjadi enam bab."
+   ]
+  }
+ ]
+}

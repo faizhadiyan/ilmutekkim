@@ -1,6 +1,6 @@
 {
  "slug": "bedah-grading-sawit-yolov4",
- "judul": "Grading tandan sawit real-time dengan YOLOv4 di ponsel",
+ "judul": "Grading Tandan Buah Segar Sawit Secara Real-Time dengan YOLOv4 Termodifikasi pada Ponsel",
  "topik": "Digital dan AI proses",
  "negara": "Indonesia",
  "paper_title": "Real-Time Oil Palm Fruit Grading System Using Smartphone and Modified YOLOv4",
@@ -24,22 +24,22 @@
   }
  ],
  "abstract_src": "The classification of the ripeness degree of oil palm fruit has attracted the attention of numerous researchers. However, there are still many challenges due to constraints in the dataset, methodologies used, and variations in the use of data categories. Detecting oil palm fruit bunches accurately is crucial, given their complex shape and characteristics, particularly when different ripeness categories are present in a pile of oil palm. Most studies utilize oil palm images or the color spectrum of oil palm fruit to classify the level of ripeness. However, these methods are not real-time and lack efficiency. This study proposes a real-time model for determining the ripeness degree of oil palm using a smartphone and video data as input, incorporating modifications to the object detection approach. The research process involves collecting videos of palm oil piles using smartphones in the grading area of the palm oil industry. The videos are then pre-processed and labelled for the object detection and classification process. A detection and classification model is developed using the YOLOv4 approach with several performance improvements, enabling implementation on smartphones. The best-performing model is tested for detecting and classifying the ripeness of fresh fruit bunches using an android-based smartphone. The testing results, based on the mAP value, demonstrate that the YOLOv4 model with 16 quantization performs 12% better than YOLOv4 Tiny. Based on the test results at the grading location, this model can efficiently detect fruit bunches that do not meet the quality standards.",
- "lead": "Kematangan tandan buah segar menentukan mutu dan harga di pabrik sawit, tetapi grading manual lambat dan tidak konsisten. Studi ini membangun sistem deteksi real-time berbasis ponsel dengan YOLOv4 yang dimodifikasi, diuji langsung di area grading industri sawit.",
- "masalah": "Klasifikasi tingkat kematangan buah sawit sudah banyak diteliti, tetapi tantangannya bertahan pada keterbatasan dataset, metodologi, dan variasi kategori data. Mendeteksi tandan secara akurat itu sulit karena bentuk dan karakteristiknya kompleks, apalagi bila berbagai kategori kematangan hadir dalam satu tumpukan. Metode berbasis citra atau spektrum warna yang ada umumnya tidak real-time dan kurang efisien.",
- "metode": "Video tumpukan sawit direkam dengan ponsel di area grading industri sawit, lalu dipra-proses dan dilabeli untuk deteksi objek dan klasifikasi. Model dibangun dengan pendekatan YOLOv4 yang dimodifikasi dengan beberapa peningkatan kinerja agar dapat diimplementasikan di ponsel, dan model terbaik diuji untuk mendeteksi dan mengklasifikasi kematangan tandan buah segar memakai ponsel berbasis Android di lokasi grading.",
+ "lead": "Kematangan tandan buah segar menentukan mutu dan harga di pabrik sawit, tetapi grading manual berlangsung lambat dan tidak konsisten. Studi ini membangun sistem deteksi real-time berbasis ponsel dengan YOLOv4 yang dimodifikasi, dan mengujinya langsung di area grading industri sawit.",
+ "masalah": "Klasifikasi tingkat kematangan buah sawit telah banyak diteliti, tetapi tantangannya bertahan pada keterbatasan dataset, metodologi, dan variasi kategori data. Mendeteksi tandan secara akurat adalah hal yang sulit karena bentuk dan karakteristiknya kompleks, terlebih apabila berbagai kategori kematangan hadir dalam satu tumpukan. Metode berbasis citra atau spektrum warna yang ada umumnya tidak bersifat real-time dan kurang efisien.",
+ "metode": "Video tumpukan sawit direkam dengan ponsel di area grading industri sawit, kemudian dipra-proses dan dilabeli untuk deteksi objek dan klasifikasi. Model dibangun dengan pendekatan YOLOv4 yang dimodifikasi dengan beberapa peningkatan kinerja agar dapat diimplementasikan di ponsel, dan model terbaik diuji untuk mendeteksi dan mengklasifikasi kematangan tandan buah segar menggunakan ponsel berbasis Android di lokasi grading.",
  "temuan": [
   "Model YOLOv4 dengan kuantisasi 16 berkinerja 12% lebih baik daripada YOLOv4 Tiny berdasarkan nilai mAP.",
-  "Pengujian di lokasi grading menunjukkan model ini efisien mendeteksi tandan yang tidak memenuhi standar kualitas.",
-  "Sistem bekerja real-time dari video ponsel, berbeda dari metode citra atau spektrum warna sebelumnya yang tidak real-time."
+  "Pengujian di lokasi grading menunjukkan model ini efisien dalam mendeteksi tandan yang tidak memenuhi standar kualitas.",
+  "Sistem bekerja secara real-time dari video ponsel, berbeda dari metode citra atau spektrum warna sebelumnya yang tidak bersifat real-time."
  ],
  "batas": [
-  "Angka 12% adalah keunggulan relatif terhadap YOLOv4 Tiny; abstrak tidak memuat nilai mAP absolut kedua model, sehingga akurasi sebenarnya belum bisa dinilai dari abstrak.",
-  "Istilah kuantisasi 16 tidak dijelaskan di abstrak, dan dataset latih berasal dari perekaman di area grading yang cakupannya tidak dirinci jumlah dan variasinya.",
+  "Angka 12% adalah keunggulan relatif terhadap YOLOv4 Tiny; abstrak tidak memuat nilai mAP absolut kedua model, sehingga akurasi sebenarnya belum dapat dinilai dari abstrak.",
+  "Istilah kuantisasi 16 tidak dijelaskan di abstrak, dan dataset latih berasal dari perekaman di area grading yang cakupannya tidak dirinci dari segi jumlah dan variasi.",
   "Uji lapangan dilaporkan pada lokasi grading studi ini; perubahan pencahayaan, jenis ponsel, dan susunan tumpukan di pabrik lain dapat menggeser kinerja."
  ],
- "arti_pabrik": "Grading adalah titik kendali mutu pertama pabrik sawit: tandan mentah dan terlalu matang menggerus rendemen dan mutu CPO. Sistem ponsel real-time seperti ini menarik karena tidak menuntut perangkat khusus di lapangan. Bedah ini menunjukkan sisi digital rantai sawit yang melengkapi artikel pabrik kelapa sawit di situs ini, dari alat berat ke algoritma. Penilaian ini adalah apresiasi redaksi, bukan klaim paper.",
+ "arti_pabrik": "Grading merupakan titik kendali mutu pertama pabrik sawit: tandan mentah dan terlalu matang menggerus rendemen dan mutu CPO. Sistem ponsel real-time seperti ini menarik karena tidak menuntut perangkat khusus di lapangan. Bedah ini menunjukkan sisi digital rantai sawit yang melengkapi artikel pabrik kelapa sawit di situs ini. Penilaian ini adalah apresiasi redaksi, bukan klaim paper.",
  "vonis": "Baca full paper-nya",
- "vonis_alasan": "Abstrak membuktikan konsep dan keunggulan relatifnya, tetapi nilai mAP absolut, rincian dataset, dan pembagian kategori kematangan yang menentukan kepercayaan pada sistem ini hanya ada di full text.",
+ "vonis_alasan": "Abstrak membuktikan konsep dan keunggulan relatifnya, tetapi nilai mAP absolut, rincian dataset, dan pembagian kategori kematangan yang menentukan kepercayaan pada sistem ini hanya tersedia pada teks lengkap.",
  "cover_file": "/home/hatch/workspace/ilmutekkim-web/cover-src/bedah-grading-sawit-yolov4.jpg",
  "cover_credit": "Foto: ppw.com.co"
 }

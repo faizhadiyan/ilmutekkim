@@ -66,3 +66,9 @@ Bedah paten di halaman riset mengikuti integritas yang sama dengan bedah jurnal,
 2. ASUMSI EKSPLISIT: setiap kalkulator menulis asumsinya di halaman (mis. volatilitas relatif konstan, kondensor total); hasil di luar asumsi harus dinyatakan sebagai pendekatan.
 3. TAUTAN BALIK: setiap kalkulator menautkan artikel penjelas konsepnya di situs.
 4. UJI OTOMATIS: fungsi hitung murni di aset JS WAJIB lolos uji kasus acuan yang dapat diverifikasi tangan (node test) sebelum build; build tidak perlu gagal, tetapi uji adalah gate rilis halaman ini.
+
+## Standar editorial: diksi akademis dan profesional
+
+<!-- R:ILM-R69 -->
+
+Seluruh teks yang dibaca pengunjung situs ilmutekkim WAJIB memakai diksi akademis dan profesional: bahasa Indonesia baku (EYD/KBBI), kalimat lengkap, istilah teknis yang tepat, dan nada penulis ahli yang menulis untuk sejawat profesional dan peneliti. Dilarang: kata jalanan atau percakapan (mis. "kok", "gimana", "banget", "asik", "ngerti", "bakal", "nggak", "deh", "sih", "dong", "nih", "tuh", "biar"), pertanyaan retoris bernada jalanan, sapaan orang kedua informal, serta seruan promosi. Pembuka artikel tetap wajib mengait perhatian (prinsip kitab suci diterapkan sebagai kerajinan tulisan), tetapi kaitannya berbentuk pertanyaan analitis, ketegangan konsep, atau jurang antara praktik dan teori yang dirumuskan secara formal. Angka, satuan, sitasi bernomor, dan daftar referensi dalam artikel tidak boleh diubah saat penulisan ulang editorial; untuk bedah riset dan paten berlaku tambahan aturan ILM-R65/ILM-R66 (angka tetap subset dari sumber dan kesimpulan akhir tetap persis seperti yang ditetapkan). Aturan ini berlaku untuk seluruh badan artikel, bedah, glosarium, jalur, dan teks antarmuka (judul seksi, tombol, footer, meta).

@@ -1,6 +1,6 @@
 {
  "slug": "paten-psa-skarstrom-1960",
- "judul": "Paten PSA Skarstrom (1960): siklus ayun tekanan untuk memisahkan gas",
+ "judul": "Paten PSA Skarstrom (1960): siklus ayun tekanan untuk pemisahan campuran gas",
  "topik": "Pemisahan gas",
  "nomor": "US2944627A",
  "judul_paten": "Method and apparatus for fractionating gaseous mixtures by adsorption",
@@ -12,22 +12,22 @@
  "sumber": "https://patentimages.storage.googleapis.com/6d/25/43/2bc6fbdf971e28/US2944627.pdf",
  "coverage": "Berdasarkan dokumen paten publik",
  "date_bedah": "2026-10-09",
- "lead": "Hampir semua pabrik hidrogen dan unit pemurnian gas hari ini menjalankan siklus yang dipatenkan Charles W. Skarstrom pada 1960: adsorpsi pada tekanan tinggi, penurunan tekanan, purge, lalu tekan kembali. Dokumen inilah akta kelahiran pressure swing adsorption.",
- "masalah": "Campuran gas perlu difraksionasi menjadi aliran-aliran produk yang masing-masing kaya akan satu komponen. Pemisahan kriogenik dan absorpsi cair menuntut peralatan besar dan energi tinggi. Yang ditawarkan paten ini adalah jalan adsorpsi siklik: memanfaatkan adsorben padat yang menangkap komponen kunci pada tekanan tinggi dan melepaskannya pada tekanan rendah, diulang terus dalam siklus.",
+ "lead": "Hampir seluruh pabrik hidrogen dan unit pemurnian gas modern beroperasi dengan siklus yang dipatenkan Charles W. Skarstrom pada 1960: adsorpsi pada tekanan tinggi, penurunan tekanan, purge, dan repressurization. Dokumen ini merupakan dokumen asal-usul teknologi pressure swing adsorption (PSA).",
+ "masalah": "Campuran gas kerap perlu difraksionasi menjadi aliran-aliran produk yang masing-masing diperkaya satu komponen. Pemisahan kriogenik dan absorpsi cair menuntut peralatan berukuran besar dan konsumsi energi yang tinggi. Paten ini menawarkan pendekatan adsorpsi siklik: adsorben padat yang menangkap komponen kunci pada tekanan tinggi dan melepaskannya pada tekanan rendah, diulang secara berkesinambungan dalam satu siklus.",
  "klaim": [
-  "Metode dan peralatan untuk memfraksionasi campuran gas dengan adsorpsi, menghasilkan deretan aliran efluen yang masing-masing kaya setidaknya satu komponen dari campuran gas umpan.",
-  "Siklus dasarnya yang kemudian dikenal sebagai siklus Skarstrom terdiri atas empat langkah berurutan pada bed adsorben: adsorpsi pada tekanan tinggi, depressurization, purge dengan gas produk, dan repressurization.",
+  "Metode dan peralatan untuk memfraksionasi campuran gas dengan adsorpsi, yang menghasilkan deretan aliran efluen yang masing-masing kaya akan setidaknya satu komponen campuran gas umpan.",
+  "Siklus dasar yang kemudian dikenal sebagai siklus Skarstrom, terdiri atas empat langkah berurutan pada bed adsorben: adsorpsi pada tekanan tinggi, depressurization, purge dengan gas produk, dan repressurization.",
   "Dokumen memuat 36 klaim yang mencakup susunan bed dan urutan langkah siklusnya."
  ],
- "cara": "Dua bed atau lebih bekerja bergantian agar produk mengalir kontinu. Saat satu bed menjerap komponen yang kuat teradsorpsi pada tekanan tinggi dan melepaskan komponen ringan sebagai produk, bed lain menjalani penurunan tekanan untuk membuang yang terjerap, dibersihkan dengan sebagian gas produk, lalu ditekan kembali siap untuk giliran berikutnya. Pemisahan terjadi bukan oleh perbedaan titik didih, melainkan oleh kesetimbangan adsorpsi yang digerakkan ayunan tekanan.",
+ "cara": "Dua bed atau lebih bekerja secara bergantian agar produk dapat mengalir kontinu. Ketika satu bed menjerap komponen yang teradsorpsi kuat pada tekanan tinggi dan melepaskan komponen ringan sebagai produk, bed lainnya menjalani penurunan tekanan untuk membuang komponen yang terjerap, dibersihkan dengan sebagian gas produk, kemudian ditekan kembali hingga siap untuk giliran berikutnya. Dengan demikian, pemisahan tidak ditentukan oleh perbedaan titik didih, melainkan oleh kesetimbangan adsorpsi yang digerakkan oleh ayunan tekanan.",
  "batas": [
-  "Dokumen ini paten tahun 1960: adsorben, katup, dan kendali siklus yang digambarkan adalah teknologi zamannya. PSA modern memakai zeolit dan carbon molecular sieve yang jauh lebih baik serta kendali PLC, tetapi arsitektur siklusnya tetap turunan dari sini.",
-  "Paten ini melindungi susunan dan urutan langkah pada konteksnya; ribuan paten PSA sesudahnya mematenkan variasi langkah (misalnya pressure equalization) yang masing-masing punya status sendiri.",
+  "Dokumen ini merupakan paten tahun 1960: adsorben, katup, dan kendali siklus yang digambarkan adalah teknologi zamannya. PSA modern menggunakan zeolit dan carbon molecular sieve yang jauh lebih selektif serta kendali PLC, namun arsitektur siklusnya tetap merupakan turunan dari dokumen ini.",
+  "Paten ini melindungi susunan dan urutan langkah dalam konteksnya; ribuan paten PSA berikutnya mematenkan variasi langkah, misalnya pressure equalization, yang masing-masing memiliki status hukum tersendiri.",
   "Bedah ini membaca dokumen paten sebagai dokumen teknologi, bukan menilai kekuatan hukum klaimnya pada masa berlaku."
  ],
- "arti": "Bagi insinyur pabrik Indonesia, ini dokumen asal-usul unit yang mungkin ia operasikan setiap hari: PSA pemurnian hidrogen di kilang dan pabrik amonia, pengering udara instrumen, sampai generator nitrogen dan oksigen. Karena patennya sudah kedaluwarsa, siklus dasarnya bebas dipelajari, diajarkan, dan dipakai sebagai titik awal desain. Penilaian ini adalah apresiasi redaksi atas dokumen publik, bukan nasihat hukum.",
+ "arti": "Bagi insinyur pabrik di Indonesia, dokumen ini merupakan dokumen asal-usul unit yang kemungkinan dioperasikan setiap hari: PSA pemurnian hidrogen di kilang dan pabrik amonia, pengering udara instrumen, serta generator nitrogen dan oksigen. Karena patennya telah kedaluwarsa, siklus dasarnya dapat dipelajari, diajarkan, dan digunakan sebagai titik awal perancangan. Penilaian ini merupakan apresiasi redaksi atas dokumen publik, bukan nasihat hukum.",
  "kesimpulan": "Baca dokumen patennya",
- "kesimpulan_alasan": "Gambar dan uraian siklus aslinya sederhana dan mendidik, dan dokumennya pendek untuk ukuran paten proses. Bedah ini cukup untuk konsepnya, tetapi dokumen aslinya layak dibaca sekali oleh setiap insinyur pemisahan gas.",
+ "kesimpulan_alasan": "Gambar dan uraian siklus aslinya sederhana dan bersifat mendidik, dan dokumennya relatif pendek untuk ukuran paten proses. Bedah ini memadai untuk memahami konsepnya; dokumen aslinya tetap layak dibaca oleh setiap insinyur pemisahan gas.",
  "terkait": [
   {
    "type": "artikel",

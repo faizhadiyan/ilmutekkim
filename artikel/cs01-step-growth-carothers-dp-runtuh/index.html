@@ -3,18 +3,18 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CS-01 Cheat Sheet: DP Polimer Runtuh Kalau Stoikiometri Meleset 1 Persen | ilmutekkim</title>
-<meta name="description" content="Meleset 1 persen, DP polimer lo runtuh total.">
+<title>CS-01 Cheat Sheet: DP Polimer Runtuh Apabila Stoikiometri Menyimpang 1 Persen | ilmutekkim</title>
+<meta name="description" content="Jebakan paling terkenal di kelas polimer menyatakan: kejar konversi 99 persen, derajat polimerisasi tinggi akan mengikuti dengan sendirinya. Persamaan Caro">
 <link rel="canonical" href="https://ilmutekkim.vercel.app/artikel/cs01-step-growth-carothers-dp-runtuh/">
 <meta property="og:type" content="article">
-<meta property="og:title" content="CS-01 Cheat Sheet: DP Polimer Runtuh Kalau Stoikiometri Meleset 1 Persen | ilmutekkim">
-<meta property="og:description" content="Meleset 1 persen, DP polimer lo runtuh total.">
+<meta property="og:title" content="CS-01 Cheat Sheet: DP Polimer Runtuh Apabila Stoikiometri Menyimpang 1 Persen | ilmutekkim">
+<meta property="og:description" content="Jebakan paling terkenal di kelas polimer menyatakan: kejar konversi 99 persen, derajat polimerisasi tinggi akan mengikuti dengan sendirinya. Persamaan Caro">
 <meta property="og:url" content="https://ilmutekkim.vercel.app/artikel/cs01-step-growth-carothers-dp-runtuh/">
 <meta property="og:image" content="https://ilmutekkim.vercel.app/assets/img/cs01-step-growth-carothers-dp-runtuh/cover.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/style.css?v=11">
+<link rel="stylesheet" href="/assets/css/style.css?v=12">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23131518'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='%23F4F4F2' font-family='Arial' font-weight='bold'>IT</text></svg>">
 </head>
 <body>
@@ -31,21 +31,21 @@
 <main>
 <article class="post">
 <p class="eyebrow">Seri Cheat Sheet Ujian</p>
-<h1>CS-01 Cheat Sheet: DP Polimer Runtuh Kalau Stoikiometri Meleset 1 Persen</h1>
+<h1>CS-01 Cheat Sheet: DP Polimer Runtuh Apabila Stoikiometri Menyimpang 1 Persen</h1>
 <p class="meta">8 Oktober 2026 &middot; ilmutekkim</p>
 <p class="ig-link">Versi carousel: <a href="https://www.instagram.com/p/DeOBXd7jy3k/" target="_blank" rel="noopener">lihat di Instagram @ilmutekkim</a></p>
-<figure class="hero-img"><img src="/assets/img/cs01-step-growth-carothers-dp-runtuh/cover.jpg" alt="CS-01 Cheat Sheet: DP Polimer Runtuh Kalau Stoikiometri Meleset 1 Persen"><figcaption>Foto: <a href="https://www.pexels.com/photo/stainless-steel-storage-tanks-with-stainless-pipes-5411674/" rel="noopener" target="_blank">FCL / Pexels</a></figcaption></figure>
-<p class="lead">Jebakan paling terkenal di kelas polimer berbunyi begini: kejar konversi 99 persen, nanti derajat polimerisasi tinggi sendiri. Persamaan Carothers membantahnya dengan angka, dan bantahan itu ditentukan oleh sesuatu yang diatur sebelum reaksi dimulai.</p>
+<figure class="hero-img"><img src="/assets/img/cs01-step-growth-carothers-dp-runtuh/cover.jpg" alt="CS-01 Cheat Sheet: DP Polimer Runtuh Apabila Stoikiometri Menyimpang 1 Persen"><figcaption>Foto: <a href="https://www.pexels.com/photo/stainless-steel-storage-tanks-with-stainless-pipes-5411674/" rel="noopener" target="_blank">FCL / Pexels</a></figcaption></figure>
+<p class="lead">Jebakan paling terkenal di kelas polimer menyatakan: kejar konversi 99 persen, derajat polimerisasi tinggi akan mengikuti dengan sendirinya. Persamaan Carothers membantahnya dengan angka, dan bantahan itu ditentukan oleh sesuatu yang diatur sebelum reaksi dimulai.</p>
 <section>
 <h2>Step-growth: rantai tumbuh dari sambungan demi sambungan</h2>
-<p>Pada polimerisasi step-growth dua monomer, asam AA dan diol BB bereaksi membentuk oligomer, lalu rantai tumbuh menjadi poliester. Setiap sambungan ester baru melepaskan satu molekul H₂O. Pada mekanisme ini molekul kecil dan oligomer bisa saling menyambung, sehingga berat molekul naik perlahan mengikuti banyaknya gugus fungsi yang sudah bereaksi [1][2].</p>
-<p>Ujung rantai yang tersisa menentukan apakah rantai masih bisa tumbuh atau berhenti. Selama masih ada pasangan gugus yang bertemu, pertumbuhan berlanjut. Ketika ujungnya habis atau pasangannya tidak tersedia, rantai berhenti pada panjang itu juga.</p>
+<p>Pada polimerisasi step-growth dua monomer, asam AA dan diol BB bereaksi membentuk oligomer, lalu rantai tumbuh menjadi poliester. Setiap sambungan ester baru melepaskan satu molekul H₂O. Pada mekanisme ini molekul kecil dan oligomer dapat saling menyambung, sehingga berat molekul naik perlahan mengikuti banyaknya gugus fungsi yang sudah bereaksi [1][2].</p>
+<p>Ujung rantai yang tersisa menentukan apakah rantai masih dapat tumbuh atau berhenti. Selama masih ada pasangan gugus yang bertemu, pertumbuhan berlanjut. Ketika ujungnya habis atau pasangannya tidak tersedia, rantai berhenti pada panjang itu juga.</p>
 </section>
 <figure><img src="/assets/img/cs01-step-growth-carothers-dp-runtuh/diagram-3.jpg" alt="Dua monomer menyatu, air keluar tiap sambungan" loading="lazy"></figure>
 <section>
 <h2>Persamaan Carothers: dua kunci bernama r dan p</h2>
 <p>Derajat polimerisasi rata-rata jumlah dihitung dengan persamaan DPₙ = (1 + r) / (1 + r − 2rp). Di sini r adalah mol gugus minor dibagi mol gugus mayor, sehingga r tidak pernah lebih dari 1. Adapun p adalah konversi gugus pembatas, yaitu gugus yang jumlahnya lebih sedikit dan habis lebih dulu [2][3].</p>
-<p>Persamaan Carothers ini dipakai untuk poliester dan nilon. Pelajaran pertamanya keras: derajat polimerisasi dikunci dua hal sekaligus, konversi dan rasio monomer. Menaikkan satu tanpa menjaga yang lain tidak akan pernah cukup.</p>
+<p>Persamaan Carothers ini dipakai untuk poliester dan nilon. Pelajaran pertamanya tegas: derajat polimerisasi dikunci dua hal sekaligus, konversi dan rasio monomer. Menaikkan satu tanpa menjaga yang lain tidak akan pernah cukup.</p>
 </section>
 <figure><img src="/assets/img/cs01-step-growth-carothers-dp-runtuh/foto-6.jpg" alt="Rantai yang berhenti tumbuh" loading="lazy"><figcaption>Foto: Fran Zaina / Pexels</figcaption></figure>
 <section>
@@ -54,27 +54,27 @@
 <p>Angka ini mengejutkan karena naluri dari polimerisasi rantai mengatakan konversi tinggi berarti rantai panjang. Di step-growth, rantai panjang menuntut konversi yang sangat dekat ke sempurna, karena setiap persen gugus yang belum bereaksi menyisakan ujung rantai yang memotong rata-rata panjang.</p>
 </section>
 <section>
-<h2>Contoh kedua: meleset 1 persen membuat konversi sempurna tidak berguna</h2>
-<p>Ambil r = 0,99 dan p = 1,00: satu monomer kurang 1 persen dan semua gugus minor bereaksi habis. Hitungannya (1 + 0,99) / (1 + 0,99 − 2 × 0,99 × 1,00) = 1,99 / 0,01 = 199. DP mentok di 199 walaupun konversinya sempurna, karena monomer mayor yang berlebih menjadi ujung mati dan rantai berhenti [2][3].</p>
-<p>Pada p = 1, DP maksimal hanya fungsi dari r semata; konversi tidak bisa menolong lagi. Kesalahan mahasiswa yang paling umum adalah menaikkan p terus dalam hitungan dan lupa mengecek r, padahal r membatasi DP lebih dulu. Urutan cek yang aman adalah menulis r dulu, memastikan tidak lebih dari 1, baru memasukkan p. Sebagai latihan, coba hitung batas untuk r = 0,98 pada p = 1 dan bandingkan dengan dua contoh di atas.</p>
+<h2>Contoh kedua: melenceng 1 persen membuat konversi sempurna tidak berguna</h2>
+<p>Ambil r = 0,99 dan p = 1,00: satu monomer kurang 1 persen dan semua gugus minor bereaksi habis. Hitungannya (1 + 0,99) / (1 + 0,99 − 2 × 0,99 × 1,00) = 1,99 / 0,01 = 199. DP berhenti pada 199 walaupun konversinya sempurna, karena monomer mayor yang berlebih menjadi ujung mati dan rantai berhenti [2][3].</p>
+<p>Pada p = 1, DP maksimal hanya fungsi dari r semata; konversi tidak dapat menolong lagi. Kesalahan mahasiswa yang paling umum adalah menaikkan p terus dalam perhitungan dan lupa memeriksa r, padahal r membatasi DP lebih dulu. Urutan pemeriksaan yang aman adalah menulis r terlebih dahulu, memastikan tidak lebih dari 1, baru memasukkan p. Sebagai latihan, batas untuk r = 0,98 pada p = 1 dapat dihitung dan dibandingkan dengan dua contoh di atas.</p>
 </section>
 <section>
-<h2>Di pabrik, meleset yang sama dipakai sebagai rem berat molekul</h2>
-<p>Butiran resin berisi jutaan rantai polimer yang panjangnya diatur lewat rasio monomer di reaktor. Insinyur memberi sedikit kelebihan satu monomer untuk mengunci berat molekul pada nilai yang diinginkan. Meleset sedikit, yang di kelas menjadi jebakan, di pabrik dipakai sebagai rem panjang rantai [1].</p>
+<h2>Di pabrik, perubahan kecil yang sama dipakai sebagai pengendali berat molekul</h2>
+<p>Butiran resin berisi jutaan rantai polimer yang panjangnya diatur lewat rasio monomer di reaktor. Insinyur memberi sedikit kelebihan satu monomer untuk mengunci berat molekul pada nilai yang diinginkan. Perubahan kecil, yang di kelas menjadi jebakan, di pabrik dipakai sebagai pengendali panjang rantai [1].</p>
 <p>Prinsip yang sama bekerja dua arah. Stoikiometri dijaga ketat bila targetnya rantai sepanjang mungkin, dan digeser dengan sengaja bila targetnya berat molekul tertentu yang stabil dari satu angkatan produksi ke angkatan berikutnya.</p>
 </section>
-<section class="factbox"><h2>Fakta kunci</h2><ul><li>Di step-growth, derajat polimerisasi dikunci dua hal sekaligus: konversi dan rasio monomer.</li><li>r adalah rasio gugus minor terhadap mayor dan tidak pernah lebih dari 1.</li><li>Konversi 99 persen hanya memberi DP 100 pada stoikiometri pas.</li><li>Meleset 1 persen membuat DP mentok di 199 walaupun konversi sempurna.</li><li>Pada p = 1, DP maksimal hanya fungsi dari r.</li><li>Persamaan Carothers dipakai untuk poliester dan nilon.</li></ul></section>
-<section><h2>Kesimpulannya</h2><p>Cheat sheet ini bermuara pada satu kebiasaan hitung: cek r sebelum mengejar p, karena rasio monomer menentukan langit-langit derajat polimerisasi dan konversi hanya menentukan seberapa dekat kita ke langit-langit itu. Simpan artikel ini sebagai bekal ujian dan bekal pabrik sekaligus, sebab rumus yang sama yang menjebak mahasiswa dipakai insinyur untuk mengunci berat molekul resin.</p></section>
+<section class="factbox"><h2>Fakta kunci</h2><ul><li>Di step-growth, derajat polimerisasi dikunci dua hal sekaligus: konversi dan rasio monomer.</li><li>r adalah rasio gugus minor terhadap mayor dan tidak pernah lebih dari 1.</li><li>Konversi 99 persen hanya memberi DP 100 pada stoikiometri pas.</li><li>Melenceng 1 persen membuat DP berhenti pada 199 walaupun konversi sempurna.</li><li>Pada p = 1, DP maksimal hanya fungsi dari r.</li><li>Persamaan Carothers dipakai untuk poliester dan nilon.</li></ul></section>
+<section><h2>Kesimpulannya</h2><p>Lembar ringkasan ini bermuara pada satu kebiasaan hitung: periksa r sebelum mengejar p, karena rasio monomer menentukan langit-langit derajat polimerisasi dan konversi hanya menentukan seberapa dekat pencapaian terhadap langit-langit itu. Rumus yang sama yang menjebak mahasiswa di kelas dipakai insinyur untuk mengunci berat molekul resin di pabrik.</p></section>
 <section class="refs"><h2>Referensi</h2><ul><li>Odian, G. (2004). Principles of Polymerization. John Wiley &amp; Sons.</li><li>Carothers, W. H. (1931). Polymerization. Chemical Reviews, American Chemical Society.</li><li>Flory, P. J. (1953). Principles of Polymer Chemistry. Cornell University Press.</li><li>Carothers (1931), Polymerization, Chemical Reviews</li><li>Odian, Principles of Polymerization</li><li>Flory, Principles of Polymer Chemistry</li></ul></section>
-<nav class="post-nav"><a href="/artikel/control-room-dcs-loop-kontrol/">&larr; Satu Layar Isinya Satu Pabrik: Bedah Control Room dan Loop Kontrol DCS</a></nav>
+<nav class="post-nav"><a href="/artikel/control-room-dcs-loop-kontrol/">&larr; Satu Layar Berisi Satu Pabrik: Bedah Control Room dan Loop Kontrol DCS</a></nav>
 <div class="cta-box"><h2>Lanjut baca di Instagram</h2><p>Konten teknik kimia tiap hari: proses pabrik, safety, dan cara baca alat. Ditulis insinyur kimia ITB.</p><a class="btn" href="https://www.instagram.com/ilmutekkim" target="_blank" rel="noopener">Follow @ilmutekkim</a></div>
 </article>
 </main>
 <footer>
   <div class="foot-brand">ilmu<span>tekkim</span></div>
-  <p>Bikin teknik kimia asik. Pabrik, proses, safety, dan AI. Ditulis insinyur kimia ITB.</p>
+  <p>Kajian teknik kimia proses: unit operasi, alur pabrik, keselamatan proses, dan kecerdasan buatan. Ditulis oleh insinyur kimia lulusan Institut Teknologi Bandung.</p>
   <p><a href="https://www.instagram.com/ilmutekkim" target="_blank" rel="noopener">@ilmutekkim di Instagram</a> &middot; <a href="/video/">Video interaktif</a> &middot; <a href="/riset/">Riset</a> <a href="/jalur/">Jalur</a> <a href="/glosarium/">Glosarium</a> <a href="/referensi/">Referensi</a> <a href="/kalkulator/">Kalkulator</a> &middot; <a href="/tentang/">Tentang</a></p>
-  <p class="fine">Artikel dan video di situs ini adalah versi baca dan tonton dari konten Instagram @ilmutekkim. Foto berasal dari Pexels dan Unsplash, kredit tercantum di tiap gambar.</p>
+  <p class="fine">Artikel dan video di situs ini merupakan versi baca dan versi tonton dari konten Instagram @ilmutekkim. Foto berasal dari Pexels dan Unsplash, kredit tercantum di tiap gambar.</p>
 </footer>
 <script src="/assets/js/main.js?v=5"></script>
 </body>
