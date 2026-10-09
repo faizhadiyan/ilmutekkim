@@ -62,3 +62,23 @@
     });
   });
 })();
+
+// Di mobile, baris chip seri dibatasi dua baris; tombol elipsis membuka semuanya
+(function () {
+  if (!window.matchMedia || !window.matchMedia("(max-width: 760px)").matches) return;
+  document.querySelectorAll(".chips").forEach(function (c) {
+    if (c.children.length < 7) return;
+    var btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "chip chips-more";
+    btn.innerHTML = "&hellip;";
+    btn.setAttribute("aria-expanded", "false");
+    btn.setAttribute("aria-label", "Tampilkan semua seri");
+    btn.addEventListener("click", function () {
+      var open = c.classList.toggle("expanded");
+      btn.innerHTML = open ? "Tutup" : "&hellip;";
+      btn.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+    c.parentNode.insertBefore(btn, c.nextSibling);
+  });
+})();
