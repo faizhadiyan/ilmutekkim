@@ -35,62 +35,37 @@
 <p class="meta">8 Oktober 2026 &middot; ilmutekkim</p>
 <p class="ig-link">Versi carousel: <a href="https://www.instagram.com/p/DeOqlk7E_vp/" target="_blank" rel="noopener">lihat di Instagram @ilmutekkim</a></p>
 <figure class="hero-img"><img src="/assets/img/control-room-dcs-loop-kontrol/cover.jpg" alt="Satu Layar Isinya Satu Pabrik: Bedah Control Room dan Loop Kontrol DCS"><figcaption>Foto: <a href="https://www.pexels.com/photo/men-and-women-sitting-in-front-of-computers-and-a-large-screen-19317897/" rel="noopener" target="_blank">Hyundai Motor Group / Pexels</a></figcaption></figure>
-<p class="lead">Control room dan DCS: pabrik dikendalikan dari balik layar.</p>
-<p class="intro">Satu layar isinya satu pabrik, begini cara bacanya.</p>
-<p class="intro">Di control room, operator panel memantau suhu, tekanan, dan level dari banyak unit sekaligus lewat DCS. Sensor mengukur di lapangan, controller membandingkan dengan setpoint, katup bergerak mengatur aliran, dan hasilnya diukur lagi dalam loop yang berputar terus.</p>
-<section class="misconception"><p class="eyebrow">Yang sering dikira</p>
-<blockquote>&ldquo;Operator pabrik itu yang muter-muter valve di lapangan.&rdquo;</blockquote>
-<p>Itu operator lapangan. Di control room, pabrik dikendalikan dari layar.</p>
-</section>
-<aside class="fact">FAKTA: dua peran ini kerja bareng, operator panel melihat gambaran besar pabrik dari sinyal.</aside>
+<p class="lead">Satu layar di control room bisa berisi satu pabrik penuh, tetapi layar itu sebenarnya hanya jendela. Yang sungguh bekerja setiap detik adalah loop kontrol yang menghubungkan sensor di lapangan, controller, dan katup yang bergerak tanpa disentuh tangan.</p>
 <section>
-<h2>DCS mengumpulkan sinyal dari seluruh pabrik</h2>
-<p>DCS membagi kendali ke banyak controller lokal, lalu menampilkannya terpusat di control room.</p>
-<p>Sensor suhu, tekanan, dan level mengirim sinyal ke controller buat dipantau operator.</p>
-<ol class="steps"><li><span class="step-num">1</span><div><strong>Sensor lapangan</strong><p>ukur suhu dan tekanan</p></div></li><li><span class="step-num">2</span><div><strong>Controller lokal</strong><p>olah sinyal jadi perintah</p></div></li><li><span class="step-num">3</span><div><strong>Layar operator</strong><p>tampilkan kondisi pabrik</p></div></li></ol>
+<h2>Arsitektur DCS: kendali tersebar, pantauan terpusat</h2>
+<p>DCS membagi kendali ke banyak controller lokal, lalu menampilkannya terpusat di control room. Sensor suhu, tekanan, dan level mengirim sinyal ke controller untuk dipantau operator. Kata distributed dalam namanya berarti kendali tersebar di lapangan, bukan menumpuk di satu komputer pusat, sehingga gangguan pada satu bagian tidak melumpuhkan seluruh pabrik [1][2].</p>
+<p>Tiga lapisnya mudah dibaca: sensor lapangan mengukur suhu dan tekanan, controller lokal mengolah sinyal menjadi perintah, dan layar operator menampilkan kondisi pabrik. Operator panel melihat gambaran besar pabrik dari sinyal, sementara operator lapangan memeriksa alatnya secara fisik. Dua peran ini bekerja bersama.</p>
 </section>
-<aside class="fact">FAKTA: distributed artinya kendali tersebar di lapangan.</aside>
-<section>
-<h2>Loop kontrol dari sensor sampai katup</h2>
-<p>Baca kiri ke kanan: sensor mengukur, transmitter mengirim sinyal, DCS membandingkan, katup bergerak.</p>
-<p>Garis putus-putus di bawah adalah umpan balik ke controller.</p>
 <figure><img src="/assets/img/control-room-dcs-loop-kontrol/diagram-3.jpg" alt="Loop kontrol dari sensor sampai katup" loading="lazy"></figure>
-</section>
-<aside class="fact">FAKTA: loop ini berputar terus tiap detik, makanya suhu reaktor bisa stabil tanpa disentuh tangan.</aside>
 <section>
-<h2>Beginilah layar yang dijaga operator panel</h2>
-<p>Satu operator bisa memantau banyak unit sekaligus lewat ringkasan layar, grafik tren, dan daftar alarm.</p>
-<p>Warna dan bunyi alarm memberi tahu bagian mana yang mulai menyimpang dari kondisi normal.</p>
+<h2>Loop kontrol: dari sensor ke katup, lalu kembali lagi</h2>
+<p>Loop bekerja berurutan: sensor mengukur, transmitter mengirim sinyal, DCS membandingkan, katup bergerak. Gerakan katup mengubah proses, perubahan itu diukur lagi oleh sensor, dan putarannya berlanjut. Loop ini berputar terus tiap detik; itulah sebabnya suhu reaktor bisa stabil tanpa disentuh tangan [1].</p>
+<p>Inti keputusannya diringkas hubungan Error = Setpoint − Nilai ukur. Controller bekerja dari selisih antara nilai ukur dan setpoint atau target yang ditetapkan insinyur proses. Suhu di bawah target, pemanas dibuka; di atas target, aliran dikecilkan. Setpoint datang dari batas aman dan kualitas produk, bukan dari kebiasaan operator.</p>
+</section>
 <figure><img src="/assets/img/control-room-dcs-loop-kontrol/foto-4.jpg" alt="Beginilah layar yang dijaga operator panel" loading="lazy"><figcaption>Foto: Fernando Narvaez / Pexels</figcaption></figure>
-</section>
-<aside class="fact">FAKTA: operator membaca tren, bukan angka sesaat.</aside>
 <section>
-<h2>Error adalah jarak dari target operasi</h2>
-<p>Controller bekerja dari selisih antara nilai ukur dan setpoint atau target yang ditetapkan insinyur proses.</p>
-<p>Suhu di bawah target, pemanas dibuka. Di atas target, aliran dikecilkan.</p>
-<div class="mini-grid"><div class="mini-card"><strong>SETPOINT</strong><p>target dari insinyur</p></div><div class="mini-card"><strong>NILAI UKUR</strong><p>dari sensor lapangan</p></div></div>
-<div class="formula">Error = Setpoint - Nilai ukur</div>
+<h2>Setpoint, tren, dan alarm: cara operator panel membaca pabrik</h2>
+<p>Satu operator bisa memantau banyak unit sekaligus lewat ringkasan layar, grafik tren, dan daftar alarm. Operator membaca tren, bukan angka sesaat, karena arah penyimpangan memberi tahu lebih banyak daripada nilai pada satu detik yang terisolasi. Warna dan bunyi alarm memberi tahu bagian mana yang mulai menyimpang dari kondisi normal [1][3].</p>
+<p>Membaca tren adalah keterampilan membedakan gangguan yang sedang tumbuh dari gangguan yang sudah selesai. Angka sesaat bisa menipu; garis tren menunjukkan apakah proses sedang menjauh dari target atau sedang kembali.</p>
 </section>
-<aside class="fact">FAKTA: setpoint datang dari batas aman dan kualitas produk.</aside>
 <section>
-<h2>Alarm tidak jelas, operator cek ke lapangan</h2>
-<p>Kalau sinyal di layar meragukan, operator panel menghubungi operator lapangan lewat radio buat cek fisik alatnya.</p>
-<p>Cek fisik memisahkan gangguan asli dari sensor yang salah baca.</p>
-<ol class="steps"><li><span class="step-num">1</span><div><strong>Alarm berbunyi</strong><p>panel menandai unitnya</p></div></li><li><span class="step-num">2</span><div><strong>Radio ke lapangan</strong><p>minta cek fisik alat</p></div></li><li><span class="step-num">3</span><div><strong>Keputusan bareng</strong><p>panel dan lapangan sepakat</p></div></li></ol>
+<h2>Saat sinyal meragukan: radio ke lapangan dan cek fisik</h2>
+<p>Kalau sinyal di layar meragukan, operator panel menghubungi operator lapangan lewat radio untuk cek fisik alatnya. Urutannya jelas: alarm berbunyi dan panel menandai unitnya, radio ke lapangan meminta cek fisik alat, lalu keputusan diambil bersama setelah panel dan lapangan sepakat. Cek fisik memisahkan gangguan asli dari sensor yang salah baca [1][4].</p>
+<p>Layar dan lapangan adalah dua sumber kebenaran yang saling mengoreksi. Keputusan diambil dari layar ditambah cek fisik, bukan dari salah satunya, karena sensor yang rusak bisa membuat pabrik terlihat sakit padahal alatnya sehat, dan sebaliknya.</p>
 </section>
-<aside class="fact">FAKTA: keputusan diambil dari layar plus cek fisik.</aside>
 <section>
-<h2>Pabrik tidak pernah ditinggal tanpa panel</h2>
-<p>Control room dijaga bergantian selama pabrik berjalan, termasuk malam dan hari libur.</p>
-<p>Serah terima shift memastikan daftar alarm aktif dan gangguan kecil berpindah jelas ke operator berikut.</p>
-<div class="mini-grid"><div class="mini-card"><strong>JAGA BERGANTIAN</strong><p>panel selalu terisi</p></div><div class="mini-card"><strong>CATAT ALARM AKTIF</strong><p>tetap tercatat</p></div><div class="mini-card"><strong>TREN DILIHAT TERUS</strong><p>arah gangguan terbaca</p></div></div>
+<h2>Panel yang tidak pernah kosong dan serah terima shift</h2>
+<p>Control room dijaga bergantian selama pabrik berjalan, termasuk malam dan hari libur. Serah terima shift memastikan daftar alarm aktif dan gangguan kecil berpindah jelas ke operator berikut, dan tren dilihat terus agar arah gangguan terbaca oleh siapa pun yang sedang bertugas [3].</p>
+<p>Panel yang kosong beberapa menit saja bisa membuat alarm pertama tidak terbaca siapa pun. Karena itu kesinambungan penjagaan panel adalah bagian dari desain pengoperasian yang aman, bukan sekadar urusan jadwal kerja.</p>
 </section>
-<aside class="fact">FAKTA: panel yang kosong beberapa menit saja bisa membuat alarm pertama tidak terbaca siapa pun.</aside>
-<section class="conclusion"><p class="eyebrow">Kesimpulan</p>
-<h2>Layar itu jendela, loop kontrolnya yang bekerja</h2>
-<ul><li>Sensor dan katup bekerja tiap detik, operator menjaga arahnya</li><li>Alarm membawa operator kembali ke alat yang menyimpang</li><li>Cek fisik lapangan tetap jadi penentu terakhir</li></ul>
-</section>
-<section class="refs"><h2>Referensi</h2><ul><li>Seborg dkk., Process Dynamics and Control</li><li>Luyben, Plantwide Dynamic Simulators in Chemical Processing and Control</li><li>Lees, Loss Prevention in the Process Industries</li></ul></section>
+<section class="factbox"><h2>Fakta kunci</h2><ul><li>Distributed berarti kendali tersebar di lapangan, bukan terpusat di satu komputer.</li><li>Loop kontrol berputar terus tiap detik dari sensor ke katup dan kembali lagi.</li><li>Error = Setpoint − Nilai ukur adalah inti keputusan controller.</li><li>Operator membaca tren, bukan angka sesaat.</li><li>Setpoint datang dari batas aman dan kualitas produk.</li><li>Keputusan diambil dari layar ditambah cek fisik lapangan.</li></ul></section>
+<section><h2>Kesimpulannya</h2><p>Layar itu jendela, loop kontrolnya yang bekerja: sensor dan katup bergerak tiap detik, controller menjaga jarak dari target, dan operator menjaga arahnya serta memanggil cek fisik saat sinyal meragukan. Simpan artikel ini sebagai cara baca dasar control room, karena hampir semua bedah alat berikutnya akan kembali ke loop yang sama.</p></section>
+<section class="refs"><h2>Referensi</h2><ul><li>Seborg, D. E., Edgar, T. F., Mellichamp, D. A., dan Doyle, F. J. (2017). Process Dynamics and Control. John Wiley &amp; Sons.</li><li>Green, D. W., dan Southard, M. Z. (Eds.). (2019). Perry&#x27;s Chemical Engineers&#x27; Handbook. McGraw-Hill Education.</li><li>Stephanopoulos, G. (1984). Chemical Process Control: An Introduction to Theory and Practice. Prentice Hall.</li><li>Mannan, S. (Ed.). (2012). Lees&#x27; Loss Prevention in the Process Industries. Butterworth-Heinemann.</li><li>Seborg dkk., Process Dynamics and Control</li><li>Luyben, Plantwide Dynamic Simulators in Chemical Processing and Control</li><li>Lees, Loss Prevention in the Process Industries</li></ul></section>
 <nav class="post-nav"><a href="/artikel/roadmap-enam-mata-kuliah-pabrik/">&larr; Enam Mata Kuliah yang Menjalankan Pabrik Beneran: Peta Roadmap Teknik Kimia</a><a href="/artikel/cs01-step-growth-carothers-dp-runtuh/">CS-01 Cheat Sheet: DP Polimer Runtuh Kalau Stoikiometri Meleset 1 Persen &rarr;</a></nav>
 <div class="cta-box"><h2>Lanjut baca di Instagram</h2><p>Konten teknik kimia tiap hari: proses pabrik, safety, dan cara baca alat. Ditulis insinyur kimia ITB.</p><a class="btn" href="https://www.instagram.com/ilmutekkim" target="_blank" rel="noopener">Follow @ilmutekkim</a></div>
 </article>
@@ -99,7 +74,7 @@
   <div class="foot-brand">ilmu<span>tekkim</span></div>
   <p>Bikin teknik kimia asik. Pabrik, proses, safety, dan AI. Ditulis insinyur kimia ITB.</p>
   <p><a href="https://www.instagram.com/ilmutekkim" target="_blank" rel="noopener">@ilmutekkim di Instagram</a> &middot; <a href="/video/">Video interaktif</a> &middot; <a href="/tentang/">Tentang</a></p>
-  <p class="fine">Artikel adalah versi baca carousel Instagram @ilmutekkim. Video adalah motion graphics kode (HyperFrames), tiap video punya versi artikel lengkap di halamannya. Foto berasal dari Pexels dan Unsplash, kredit tercantum di tiap gambar.</p>
+  <p class="fine">Artikel dan video di situs ini adalah versi baca dan tonton dari konten Instagram @ilmutekkim. Foto berasal dari Pexels dan Unsplash, kredit tercantum di tiap gambar.</p>
 </footer>
 <script src="/assets/js/main.js?v=4"></script>
 </body>

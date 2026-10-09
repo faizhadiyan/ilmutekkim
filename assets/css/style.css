@@ -167,3 +167,8 @@ footer a{color:#fff}
 .factbox{background:#0B1B3F;color:#EAF4FB;border-radius:14px;padding:18px 22px;margin:22px 0}
 .factbox h2{color:#fff;margin-top:0}
 .factbox li{margin:6px 0;line-height:1.65}
+
+
+/* referensi bernomor (ILM-R64) */
+.refs ol{margin:0;padding-left:22px}
+.refs li{margin:6px 0;line-height:1.6}

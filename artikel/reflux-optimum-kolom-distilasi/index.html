@@ -35,53 +35,37 @@
 <p class="meta">30 September 2026 &middot; ilmutekkim</p>
 <p class="ig-link">Versi carousel: <a href="https://www.instagram.com/p/Dd8LkbglNQY/" target="_blank" rel="noopener">lihat di Instagram @ilmutekkim</a></p>
 <figure class="hero-img"><img src="/assets/img/reflux-optimum-kolom-distilasi/cover.jpg" alt="Makin Besar Reflux, Makin Murni? Bedah Reflux Optimum Kolom Distilasi"><figcaption>Foto: Tom Fisk / Pexels</figcaption></figure>
-<p class="lead">Kenapa nambah reflux terus justru bikin pabrik boncos. Bedah konsepnya sampai tuntas.</p>
-<p class="intro">Makin gede reflux, makin murni? Salah besar. Bedah konsep reflux optimum: kapan nambah reflux berguna, kapan cuma buang steam. #teknikkimia #distilasi #processengineering #ilmutekkim</p>
-<section class="misconception"><p class="eyebrow">Yang sering dikira</p>
-<blockquote>&ldquo;Reflux digedein terus biar produk makin murni.&rdquo;</blockquote>
-<p>Kedengarannya logis. Tapi di kolom distilasi, logika ini ada plafonnya.</p>
-</section>
+<p class="lead">Memperbesar reflux memang menaikkan kemurnian, tetapi hanya sampai satu titik. Lewat titik itu, setiap liter reflux tambahan hanya membeli steam yang menguap tanpa menghasilkan produk yang lebih baik.</p>
 <section>
-<h2>Kemurnian punya plafon, biaya energi tidak</h2>
-<p>Kurva kemurnian vs reflux naik tajam di awal, lalu mendatar. Lewat titik tertentu, nambah reflux nyaris tidak menaikkan kemurnian.</p>
-<p>Batasnya ditentukan kesetimbangan uap-cair, bukan seberapa besar reflux yang dipompa balik.</p>
+<h2>Reflux dan plafon kemurnian yang ditentukan kesetimbangan</h2>
+<p>Reflux adalah cairan hasil kondensasi produk atas yang dipompa kembali ke dalam kolom. Cairan ini turun tray demi tray sambil mencuci uap yang naik, sehingga uap semakin miskin komponen berat dan produk atas semakin murni. Rasio reflux R didefinisikan sebagai laju cairan yang dikembalikan dibagi laju produk atas yang diambil, R = L/D. Menaikkan R memang memperkuat pencucian ini, dan pada awalnya kemurnian naik tajam [1].</p>
+<p>Namun kenaikan itu tidak linear selamanya. Kemurnian dibatasi oleh data kesetimbangan uap-cair campuran itu sendiri, bukan oleh seberapa besar pompa reflux bekerja. Kurva kemurnian terhadap reflux naik curam di awal lalu mendatar; lewat titik tertentu, menambah reflux nyaris tidak mengubah komposisi produk. Pada wilayah mendatar inilah pabrik membayar energi untuk sesuatu yang secara termodinamika sudah tidak bisa dibeli lagi [2].</p>
 </section>
-<aside class="fact">Di atas titik optimum, tiap tambahan reflux = bayar steam tanpa dapat kemurnian.</aside>
-<section>
-<h2>Ada yang namanya reflux minimum</h2>
-<p>Rmin = reflux terkecil yang masih bisa mencapai target pemisahan. Di bawah Rmin, target kemurnian mustahil dicapai berapa pun jumlah tray.</p>
-<p>Rmin dihitung dari data kesetimbangan (Underwood, McCabe-Thiele). Ini angka teori, bukan angka operasi.</p>
-</section>
-<aside class="fact">Rmin itu batas fisika. Bukan setting DCS.</aside>
-<section>
-<h2>Reflux optimum: duel CAPEX vs OPEX</h2>
-<p>Reflux kecil = kolom butuh banyak tray (CAPEX mahal), tapi hemat steam (OPEX murah). Reflux besar = kolom pendek, tapi steam jebol.</p>
-<p>Total biaya membentuk kurva U. Titik minimumnya biasanya di 1,2-1,5 kali Rmin.</p>
-</section>
-<aside class="fact">Aturan praktis industri: operasi di 1,2-1,5 x Rmin.</aside>
-<section>
-<h2>Reflux kebablasan itu kelihatan di DCS</h2>
-<p>Reboiler duty mentok tinggi tapi kemurnian produk atas stagnan. Atau kolom banjir (flooding): pressure drop naik, tray tidak efektif.</p>
-<p>Kalau steam naik terus tapi hasil lab tidak bergerak, reflux sudah lewat titik optimum.</p>
 <figure><img src="/assets/img/reflux-optimum-kolom-distilasi/foto-5.jpg" alt="Reflux kebablasan itu kelihatan di DCS" loading="lazy"><figcaption>Foto: Sergey Sergeev / Pexels</figcaption></figure>
-</section>
 <section>
-<h2>Sebelum utak-atik reflux, cek ini dulu</h2>
-<p>1. Target kemurnian tercapai atau belum? 2. Reboiler duty masih jauh dari desain atau sudah mentok?</p>
-<p>3. Kondisi kolom normal atau ada indikasi flooding/weaping? Naikkan reflux saat kolom banjir = makin parah.</p>
+<h2>Rmin, batas fisika yang tidak bisa ditawar DCS</h2>
+<p>Untuk setiap target pemisahan ada reflux minimum, disingkat Rmin, yaitu reflux terkecil yang secara teori masih mampu mencapai kemurnian yang diminta. Pada kondisi Rmin, kolom membutuhkan jumlah tray tak hingga karena di satu titik di dalam kolom komposisi uap dan cairan berhenti berubah, daerah yang dikenal sebagai titik jepit atau pinch [1]. Di bawah Rmin, target kemurnian mustahil dicapai berapapun banyaknya tray yang dipasang.</p>
+<p>Rmin bukan angka operasi dan bukan setting yang bisa diatur operator. Ia dihitung dari data kesetimbangan, antara lain lewat metode Underwood untuk campuran multikomponen dan konstruksi McCabe-Thiele untuk sistem biner [3]. Statusnya adalah batas fisika: berguna sebagai jangkar perhitungan desain, berbahaya bila diperlakukan sebagai target operasi harian.</p>
 </section>
-<aside class="fact">Reflux bukan tombol ajaib. Diagnosis dulu, baru putar.</aside>
-<section>
-<h2>Steam = uang yang menguap</h2>
-<p>Setiap kenaikan reflux menaikkan beban reboiler. Reboiler makan steam, dan steam dibeli dari boiler pakai gas atau batubara.</p>
-<p>Kolom yang reflux-nya 2x dari optimum bisa boros steam puluhan persen tanpa produk yang lebih bagus.</p>
 <figure><img src="/assets/img/reflux-optimum-kolom-distilasi/foto-7.jpg" alt="Steam = uang yang menguap" loading="lazy"><figcaption>Foto: jason hu / Pexels</figcaption></figure>
+<section>
+<h2>Garis operasi menunjukkan harga setiap kenaikan reflux</h2>
+<p>Hubungan antara reflux dan kerja kolom terlihat pada garis operasi seksi rektifikasi, y = [R/(R+1)]x + xD/(R+1), yang menghubungkan komposisi uap dan cairan antar tray [1]. Menaikkan R menggeser garis operasi mendekati garis diagonal, artinya setiap tray bekerja lebih efektif dan jumlah tray yang dibutuhkan berkurang. Harga yang dibayar muncul di neraca energi: cairan yang dikembalikan harus diuapkan lagi, sehingga beban reboiler dan kondenser naik sebanding dengan lalu lintas internal kolom.</p>
+<p>Di sinilah duel ekonominya terjadi. Reflux kecil berarti kolom tinggi dengan banyak tray, modal awal besar tetapi steam hemat. Reflux besar berarti kolom pendek, tetapi tagihan steam membengkak setiap jam operasi. Total biaya tahunan membentuk kurva berbentuk U, dan titik minimumnya pada praktik industri umumnya berada di sekitar 1,2 sampai 1,5 kali Rmin [2]. Titik itu yang disebut reflux optimum: bukan yang paling murni, melainkan yang paling murah untuk kemurnian yang diminta.</p>
 </section>
-<section class="conclusion"><p class="eyebrow">Kesimpulan</p>
-<h2>Reflux itu soal cukup, bukan soal besar.</h2>
-<ul><li>Kemurnian dibatasi kesetimbangan, bukan besarnya reflux.</li><li>Ada Rmin (batas fisika) dan R optimum di 1,2-1,5 x Rmin.</li><li>Reflux berlebih = steam terbuang = OPEX jebol.</li><li>Cek DCS dan kondisi kolom sebelum mengubah reflux.</li></ul>
+<section>
+<h2>Seperti apa reflux kebablasan terlihat di lapangan</h2>
+<p>Operator sebenarnya bisa membaca reflux yang sudah lewat optimum dari gejala di panel. Beban reboiler sudah mentok tinggi, tetapi hasil lab produk atas stagnan tidak membaik. Gejala lain adalah kolom banjir atau flooding: cairan turun tertahan uap yang naik, beda tekanan kolom melonjak, dan tray kehilangan efektivitasnya. Kondisi sebaliknya, cairan yang merembes turun tanpa kontak yang cukup, dikenal sebagai weeping dan sama merusaknya bagi pemisahan [3].</p>
+<p>Karena itu aturan lapangannya tegas. Sebelum menyentuh reflux, periksa tiga hal: apakah target kemurnian sebenarnya sudah tercapai, apakah beban reboiler masih jauh dari batas desain atau sudah mentok, dan apakah kolom sedang normal atau menunjukkan tanda flooding dan weeping. Menaikkan reflux saat kolom sedang banjir justru memperparah keadaan, karena lalu lintas cairan internal yang sudah berlebihan ditambah lagi [2]. Diagnosis dulu, baru putar.</p>
 </section>
-<section class="refs"><h2>Referensi</h2><ul><li>Perry&#x27;s Chemical Engineers&#x27; Handbook ed. 8, bagian Distillation.</li><li>Seader &amp; Henley, Separation Process Principles, bab reflux minimum.</li></ul></section>
+<section>
+<h2>Steam adalah uang yang menguap</h2>
+<p>Setiap kenaikan reflux menaikkan beban reboiler satu paket. Reboiler digerakkan steam, dan steam diproduksi boiler dengan membakar gas atau batubara yang dibeli pabrik. Kolom yang dijalankan pada dua kali reflux optimum bisa memboroskan steam puluhan persen tanpa menghasilkan produk yang lebih bagus. Kerugiannya tidak muncul sebagai alarm, melainkan sebagai tagihan utilitas yang diam-diam membengkak bulan demi bulan [4].</p>
+<p>Inilah alasan konsep ini penting jauh melampaui ruang kelas. Reflux adalah titik temu termodinamika dan ekonomi proses: kesetimbangan menentukan apa yang mungkin, kurva biaya menentukan apa yang layak. Insinyur yang baik tidak bertanya seberapa besar reflux bisa dipasang, melainkan seberapa kecil reflux yang masih memenuhi janji kemurnian produk.</p>
+</section>
+<section class="factbox"><h2>Fakta kunci</h2><ul><li>Kemurnian produk dibatasi kesetimbangan uap-cair; kurva kemurnian terhadap reflux mendatar setelah titik tertentu.</li><li>Rmin adalah reflux minimum teoritis; di bawahnya target kemurnian mustahil dicapai dengan jumlah tray berapapun.</li><li>Aturan praktis industri: operasi optimum berada di 1,2 sampai 1,5 kali Rmin, titik minimum kurva total biaya.</li><li>Reflux dua kali dari optimum bisa memboroskan steam puluhan persen tanpa produk yang lebih bagus.</li><li>Tanda reflux berlebih di lapangan: beban reboiler mentok, hasil lab stagnan, atau beda tekanan kolom naik karena flooding.</li></ul></section>
+<section><h2>Kesimpulannya</h2><p>Pelajaran dari reflux berlaku umum di pabrik: menambah selalu terasa aman, padahal yang benar adalah cukup. Reflux optimum lahir dari perpotongan batas fisika Rmin dan kurva biaya, dan operator yang memahaminya tidak akan membakar steam untuk kemurnian yang tidak pernah dijanjikan kesetimbangan. Simpan artikel ini untuk dibaca ulang sebelum menyentuh setting kolom apa pun, dan lanjutkan ke pembahasan flooding untuk melihat apa yang terjadi ketika kolom didorong melampaui kapasitasnya.</p></section>
+<section class="refs"><h2>Referensi</h2><ul><li>Seader, J. D., Henley, E. J., &amp; Roper, D. K. (2016). Separation Process Principles: Chemical and Biochemical Operations. Wiley.</li><li>Kister, H. Z. (1992). Distillation Design. McGraw-Hill.</li><li>Green, D. W., &amp; Southard, M. Z. (Eds.). (2019). Perry&#x27;s Chemical Engineers&#x27; Handbook. McGraw-Hill Education.</li><li>Sinnott, R. K., &amp; Towler, G. (2020). Chemical Engineering Design. Butterworth-Heinemann.</li><li>Perry&#x27;s Chemical Engineers&#x27; Handbook ed. 8, bagian Distillation.</li><li>Seader &amp; Henley, Separation Process Principles, bab reflux minimum.</li></ul></section>
 <nav class="post-nav"><a href="/artikel/pabrik-kelapa-sawit-tandan-ke-cpo/">&larr; Dari Tandan Berduri Jadi Minyak Sawit: Alur Lengkap Pabrik Kelapa Sawit</a><a href="/artikel/distilasi-bertingkat-minyak-mentah/">Distilasi Bertingkat: Kenapa Minyak Mentah Tidak Cukup Direbus Sekali &rarr;</a></nav>
 <div class="cta-box"><h2>Lanjut baca di Instagram</h2><p>Konten teknik kimia tiap hari: proses pabrik, safety, dan cara baca alat. Ditulis insinyur kimia ITB.</p><a class="btn" href="https://www.instagram.com/ilmutekkim" target="_blank" rel="noopener">Follow @ilmutekkim</a></div>
 </article>
@@ -90,7 +74,7 @@
   <div class="foot-brand">ilmu<span>tekkim</span></div>
   <p>Bikin teknik kimia asik. Pabrik, proses, safety, dan AI. Ditulis insinyur kimia ITB.</p>
   <p><a href="https://www.instagram.com/ilmutekkim" target="_blank" rel="noopener">@ilmutekkim di Instagram</a> &middot; <a href="/video/">Video interaktif</a> &middot; <a href="/tentang/">Tentang</a></p>
-  <p class="fine">Artikel adalah versi baca carousel Instagram @ilmutekkim. Video adalah motion graphics kode (HyperFrames), tiap video punya versi artikel lengkap di halamannya. Foto berasal dari Pexels dan Unsplash, kredit tercantum di tiap gambar.</p>
+  <p class="fine">Artikel dan video di situs ini adalah versi baca dan tonton dari konten Instagram @ilmutekkim. Foto berasal dari Pexels dan Unsplash, kredit tercantum di tiap gambar.</p>
 </footer>
 <script src="/assets/js/main.js?v=4"></script>
 </body>

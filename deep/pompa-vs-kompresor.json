@@ -1,0 +1,57 @@
+{
+ "closing": "Pompa dan kompresor bukan dua nama untuk satu alat, melainkan dua jawaban untuk dua sifat fluida yang berlawanan: cairan yang tidak bisa dimampatkan dipindahkan dengan pompa, gas yang bisa dimampatkan diperas dengan kompresor. Memahami bedanya sejak awal menghemat tiga hal sekaligus: alat tidak rusak, energi tidak bocor, dan pabrik tidak berhenti. Simpan artikel ini sebagai pegangan tiap kali memilih alat pindah fluida, dan ikuti @ilmutekkim karena alat pabrik berikutnya yang dibedah adalah penukar panas, alat paling sepele yang diam-diam bisa menghentikan seluruh unit.",
+ "facts": [
+  "Pompa sentrifugal adalah jenis pompa paling umum di pabrik proses, dari air pendingin sampai minyak mentah.",
+  "Hubungan kerja pompa mengikuti hukum afinitas: debit sebanding putaran, head sebanding kuadrat putaran, daya sebanding pangkat tiga putaran.",
+  "Kavitasi terjadi saat tekanan hisap menyentuh tekanan uap cairan; gelembung yang runtuh menggerus impeller dan berbunyi seperti kerikil.",
+  "Gas bersifat kompresibel dan bisa dimampatkan berkali lipat; cairan praktis tidak bisa dimampatkan.",
+  "Cairan yang masuk kompresor menyebabkan liquid slugging; knock-out drum dipasang sebelum kompresor untuk menangkapnya.",
+  "Pompa yang kemasukan gas mengalami vapor lock: berputar tanpa memindahkan apa pun lalu panas berlebih.",
+  "Sistem udara tekan adalah salah satu konsumen listrik terbesar di banyak pabrik."
+ ],
+ "hook_type": "Negativity",
+ "lead": "Pompa dan kompresor sama-sama memindahkan fluida, tapi tertukar memasangnya adalah resep kerusakan: pompa yang kemasukan gas berhenti memindahkan apa pun, kompresor yang kemasukan cairan bisa pecah dari dalam. Kenapa dua alat yang mirip ini tidak bisa saling menggantikan, jawabannya ada di satu sifat fluida yang sering diremehkan.",
+ "refs": [
+  "Green, D. W., & Southard, M. Z. (Eds.). (2019). Perry's Chemical Engineers' Handbook (9th ed.). McGraw-Hill Education.",
+  "Karassik, I. J., Messina, J. P., Cooper, P., & Heald, C. C. (2008). Pump Handbook (4th ed.). McGraw-Hill.",
+  "Çengel, Y. A., & Boles, M. A. (2019). Thermodynamics: An Engineering Approach (9th ed.). McGraw-Hill Education.",
+  "Bloch, H. P. (2006). A Practical Guide to Compressor Technology (2nd ed.). John Wiley & Sons."
+ ],
+ "sections": [
+  {
+   "h": "Pompa sentrifugal: melempar cairan dengan kecepatan putar",
+   "paras": [
+    "Pompa sentrifugal bekerja dengan impeller yang berputar cepat di dalam rumah pompa. Cairan yang masuk di tengah impeller, di daerah mata impeller, dilempar ke luar oleh gaya sentrifugal dan keluar dengan tekanan lebih tinggi, sementara daerah bertekanan rendah di tengah menarik cairan baru masuk. Selama putaran tidak berhenti, aliran tidak berhenti. Hubungan kerjanya diringkas persamaan Euler untuk mesin turbo: head yang dihasilkan sebanding dengan hasil kali kecepatan keliling impeller dan komponen tangensial kecepatan cairan di sisi keluar [1][2]. Dari persamaan itu lahir hukum afinitas yang dipakai insinyur tiap hari: debit sebanding dengan putaran, head sebanding dengan kuadrat putaran, dan daya sebanding dengan pangkat tiga putaran. Konsekuensinya, menaikkan putaran sedikit saja mengerek kebutuhan daya jauh lebih besar.",
+    "Kenaikan tekanan pompa dibatasi kecepatan ujung impeller dan jumlah tingkat yang disusun seri. Pompa sentrifugal adalah jenis pompa paling umum di pabrik proses, dari air pendingin sampai minyak mentah, karena konstruksinya sederhana, alirannya kontinu, dan perawatannya mudah [1]."
+   ]
+  },
+  {
+   "h": "Kenapa gas mematikan pompa: vapor lock dan kavitasi",
+   "paras": [
+    "Pompa mengandalkan massa cairan untuk dilempar impeller. Gas jauh lebih ringan daripada cairan, jadi ketika gas masuk, impeller hanya memutar angin: tidak ada massa yang cukup untuk membangun tekanan, hisapan hilang, dan aliran berhenti total. Kondisi ini disebut vapor lock. Pompa tetap berputar dan mengonsumsi listrik tanpa memindahkan apa-apa, lalu panas berlebih.",
+    "Musuh kedua lebih diam-diam: kavitasi. Kalau tekanan di sisi hisap turun terlalu rendah sampai menyentuh tekanan uap cairan, cairan mendidih setempat dan membentuk gelembung uap. Gelembung itu terbawa ke daerah bertekanan lebih tinggi lalu runtuh (collapse) tepat di permukaan impeller. Runtuhnya menghasilkan ledakan mikro berulang yang menggerus logam, terdengar sebagai bunyi kasar berderak seperti kerikil di dalam pompa [2]. Pencegahannya dirumuskan lewat konsep NPSH: tekanan hisap yang tersedia di lapangan (NPSH available) harus selalu lebih besar daripada kebutuhan minimum pompa (NPSH required), dan selisih keduanya adalah margin keamanan yang tidak boleh dikorbankan demi menghemat pipa atau menurunkan tangki."
+   ]
+  },
+  {
+   "h": "Kompresor: memeras gas, dan cairan adalah musuh bebuyutannya",
+   "paras": [
+    "Kompresor melakukan kebalikannya: menaikkan tekanan gas, karena gas bersifat kompresibel dan volumenya bisa dimampatkan berkali lipat, sedangkan cairan praktis tidak bisa dimampatkan. Tipe yang paling umum di pabrik adalah sentrifugal (berputar seperti pompa tapi untuk gas), piston atau reciprocating, dan screw [1]. Kerja kompresi mengikuti termodinamika gas: untuk kompresi adiabatik, kerja per satuan massa sebanding dengan T₁ dikali selisih pangkat nisbah tekanan, sehingga nisbah tekanan yang tinggi ditangani dengan membagi kompresi ke banyak tingkat dan mendinginkan gas di antara tingkat (intercooling) agar kerja total mendekati kompresi isotermal yang lebih hemat [3].",
+    "Sifat cairan yang tidak bisa dimampatkan berubah menjadi bahaya di dalam kompresor. Kalau cairan terbawa masuk, piston atau rotor menghantam benda yang volumenya tidak bisa menyusut, dan tekanan sesaatnya melonjak sampai alat pecah. Peristiwa ini disebut liquid slugging. Pertahanan standarnya adalah knock-out drum yang dipasang sebelum kompresor: bejana tempat gas melambat sehingga tetesan cairan jatuh dan tertangkap sebelum sempat masuk ke kompresor [4]. Kompresor sentrifugal punya batas lain, surge: pada debit terlalu rendah aliran berbalik periodik dan menggetarkan mesin, sehingga operasi harus dijaga di kanan garis surge."
+   ]
+  },
+  {
+   "h": "Asimetri energi: kenapa kompresi jauh lebih boros daripada pemompaan",
+   "paras": [
+    "Memampatkan gas butuh kerja jauh lebih besar daripada memompa cairan bervolume sama. Alasannya terlihat langsung dari persamaannya: kerja pompa hanya sebanding dengan kenaikan tekanan dibagi densitas cairan, sedangkan kerja kompresor melibatkan perubahan volume gas yang besar ditambah kenaikan suhu yang terbuang sebagai panas di intercooler [3]. Di banyak pabrik, sistem udara tekan tercatat sebagai salah satu konsumen listrik terbesar, dan kebocoran kecil yang dibiarkan bertahun-tahun adalah pemborosan yang diam-diam menggerus biaya operasi.",
+    "Di sinilah salah pilih alat menjadi mahal dalam dua arah. Memakai kompresor untuk tugas yang cukup dengan pompa berarti membayar kerja kompresi yang tidak perlu. Memakai pompa untuk gas bukan hanya boros, tapi secara fisik tidak bekerja sama sekali karena vapor lock. Kesalahan pemilihan jarang meledak di hari pertama; ia tampil sebagai tagihan listrik yang bengkak bertahun-tahun dan alat yang aus sebelum waktunya."
+   ]
+  },
+  {
+   "h": "Aturan pemilihan dan kesalahan yang paling sering terulang",
+   "paras": [
+    "Aturan praktisnya sederhana: cairan dipindahkan dengan pompa, gas dengan kompresor, dan keduanya tidak bisa dipertukarkan karena seluruh konstruksi alat dirancang mengelilingi kompresibilitas fluidanya [1][4]. Untuk cairan kental atau debit kecil bertekanan tinggi, pompa positive displacement menjadi pilihan; untuk gas bervolume besar, kompresor sentrifugal; untuk nisbah tekanan tinggi pada debit lebih kecil, reciprocating atau screw. Pemilihan yang benar dimulai dari sifat fluida dan titik kerja (head vs debit untuk pompa, nisbah tekanan vs debit untuk kompresor), bukan dari harga alat.",
+    "Kesalahan lapangan yang paling sering terulang ada tiga. Pertama, mengabaikan NPSH sehingga pompa kavitasi bertahun-tahun dan impeller diganti berulang tanpa menyentuh akar masalahnya. Kedua, membuang knock-out drum dari desain atau membiarkan levelnya tidak terkontrol, membuka pintu liquid slugging. Ketiga, membesarkan kompresor jauh di atas kebutuhan sehingga ia bekerja di dekat surge dan boros. Ketiganya adalah kesalahan rekayasa dasar yang sesungguhnya bisa dicegah di atas kertas, sebelum alat apa pun dibeli."
+   ]
+  }
+ ]
+}

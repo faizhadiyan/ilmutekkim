@@ -456,108 +456,224 @@ VIDEOS = [
 
 
 
-# --- Artikel versi baca untuk halaman video (ILM-R63: halaman video = artikel pembaca) ---
+# --- Artikel versi baca untuk halaman video (ILM-R63 + ILM-R64: mendalam, hook kitab suci, sitasi) ---
 VIDEO_ARTICLES = {
-    "sampling-rutin-lab": {"sections": [
-        {"h": "Sensor cuma membaca satu titik", "t": 6, "paras": [
-            "Sensor online memang membaca terus-menerus, tapi hanya di ujung probenya. Di pipa besar, sebagian aliran lewat jauh dari titik yang disentuh sensor, dan yang tidak tersentuh tidak ikut terukur. Angka di layar adalah angka satu titik, bukan potret seluruh aliran."]},
-        {"h": "Bacaannya bisa bergeser diam-diam", "t": 13, "paras": [
-            "Masalah kedua adalah drift: bacaan sensor bisa bergeser pelan-pelan menjauhi nilai sebenarnya tanpa alarm apa pun. Kalau tidak ada pembanding, yang bergeser bukan cuma garis di layar. Produknya ikut bergeser keluar spesifikasi."]},
-        {"h": "Urutan sampling yang benar", "t": 20, "paras": [
-            "Sampel diambil di titik sampel yang memang disediakan di pipa. Botolnya ditutup rapat, diberi label waktu, lalu diserahkan ke analis lab. Label waktu itu penting karena hasil lab harus bisa dipasangkan dengan kondisi proses pada jam yang sama."]},
-        {"h": "Lab membuktikan sensor jujur atau mulai bohong", "t": 27, "paras": [
-            "Hasil lab dibandingkan dengan bacaan sensor pada waktu yang sama. Kalau cocok, sensor terbukti jujur dan produksi lanjut dengan tenang. Kalau selisih, tindak lanjutnya adalah cek proses dan sensornya, bukan membiarkan selisih itu membesar."]},
-    ]},
-    "shift-handover-logbook": {"sections": [
-        {"h": "Layar menampilkan angka, logbook menyimpan cerita", "t": 6, "paras": [
-            "Layar DCS menampilkan angka proses: suhu, tekanan, level. Yang tidak tampil di sana adalah cerita alatnya. Contohnya katup V-204 yang rembes dan harus dipantau tiap jam. Detail kualitatif seperti itu hanya hidup kalau ditulis."]},
-        {"h": "Shift berganti, cerita tidak boleh berganti", "t": 13, "paras": [
-            "Pabrik jalan 24 jam sementara operator pulang dan berganti. Momen pergantian inilah yang paling rawan: keadaan alat tidak boleh ikut berganti cerita hanya karena orangnya berganti."]},
-        {"h": "Tiga langkah handover yang benar", "t": 20, "paras": [
-            "Urutannya: tulis keadaan alat apa adanya, baca catatan itu bersama operator pengganti, lalu keliling cek lapangan berdua. Langkah ketiga penting karena handover tidak selesai di meja control room. Katup yang dicatat harus dilihat langsung."]},
-        {"h": "Tanda tangan menutup serah terima", "t": 27, "paras": [
-            "Serah terima ditutup tanda tangan dua operator dan stempel waktu. Dari titik itu tanggung jawab berpindah dengan jelas, dan catatan bisa ditelusur kembali ke shift mana bila nanti ada kejadian."]},
-    ]},
-    "hilirisasi-nikel-baterai-ev": {"sections": [
-        {"h": "Kadarnya cuma 1 sampai 2 persen", "t": 6.8, "paras": [
-            "Bijih laterit Indonesia kadar nikelnya hanya sekitar 1 sampai 2 persen, dan bijihnya tidak seragam. Karena itu langkah pertama bukan melebur, melainkan memilah: saprolit dan limonit dipisahkan karena jalur pabriknya berbeda."]},
-        {"h": "Saprolit lewat jalur panas RKEF", "t": 13.6, "paras": [
-            "Saprolit yang kadarnya lebih tinggi masuk rotary kiln lalu electric furnace (RKEF) dan keluar sebagai nickel pig iron atau NPI. Catatan penting: NPI adalah bahan stainless steel, bukan bahan baterai langsung."]},
-        {"h": "Limonit lewat jalur basah HPAL", "t": 20.4, "paras": [
-            "Limonit yang kadarnya lebih rendah dilarutkan dengan asam sulfat di autoclave sekitar 250°C pada tekanan tinggi (HPAL). Yang bekerja melarutkan nikel adalah asamnya, bukan peleburan."]},
-        {"h": "Dari larutan jadi MHP dan nikel sulfat", "t": 27.2, "paras": [
-            "Larutan nikel dari HPAL diendapkan menjadi MHP (mixed hydroxide precipitate), lalu dimurnikan menjadi nikel sulfat untuk prekursor katoda baterai EV. Jalurnya panjang: bijih, larutan, endapan, garam murni, baru prekursor."]},
-    ]},
-    "pasir-jadi-chip-ai": {"sections": [
-        {"h": "Baru 98 persen murni, masih terlalu kotor", "t": 6.8, "paras": [
-            "Pasir kuarsa direduksi dengan karbon di furnace listrik menjadi silikon metalurgi. Kemurniannya baru sekitar 98 sampai 99 persen. Untuk transistor berukuran nanometer, sisa pengotor sekecil itu tetap terlalu kotor."]},
-        {"h": "Diubah jadi triklorosilan agar bisa dimurnikan", "t": 13.6, "paras": [
-            "Triknya: silikon diubah menjadi triklorosilan, zat yang mudah menguap. Karena mudah menguap, pengotornya bisa dipisahkan dengan distilasi, persis prinsip kolom distilasi di kilang."]},
-        {"h": "Distilasi dan proses Siemens: 99,9999999 persen", "t": 20.4, "paras": [
-            "Triklorosilan murni lalu diuraikan kembali lewat proses Siemens menumbuhkan polysilicon sekitar 99,9999999 persen murni (9N). Chip modern umumnya memakai silikon di rentang 9N sampai 11N."]},
-        {"h": "Leleh 1.414°C, tarik kristal, potong wafer", "t": 27.2, "paras": [
-            "Polysilicon dilelehkan pada 1.414°C, ditarik menjadi kristal tunggal, lalu dipotong menjadi wafer, umumnya berukuran 300 mm. Dari wafer inilah chip AI difabrikasi."]},
-    ]},
-    "distilasi-minyak-mentah": {"sections": [
-        {"h": "Bukan zat tunggal, tapi campuran hidrokarbon", "t": 6.5, "paras": [
-            "Minyak mentah bukan satu zat, melainkan campuran hidrokarbon dari yang paling ringan sampai paling berat. Karena itu umpan dipanaskan sekitar 350°C di fired heater supaya sebagian menguap dan siap dipisah."]},
-        {"h": "Uap naik, cairan turun di tray", "t": 13, "paras": [
-            "Di dalam kolom, uap naik dan cairan turun melewati tray-tray. Yang ringan lanjut menguap ke atas, yang berat mengembun dan turun. Kontak berulang uap dan cairan di tiap tray inilah mesin pemisahnya."]},
-        {"h": "Yang paling ringan didinginkan di puncak", "t": 19.5, "paras": [
-            "Uap paling ringan keluar dari puncak kolom, didinginkan di kondenser, lalu sebagian dikembalikan sebagai reflux. Reflux yang kembali inilah yang membuat pisahnya tajam, bukan sekadar mengambil produk atas."]},
-        {"h": "Atas dingin, bawah panas", "t": 26.5, "paras": [
-            "Suhu kolom bergradien: sekitar 120°C di atas dan 350°C di bawah. Produk keluar sesuai titik didihnya, dari gas paling ringan sampai residu paling berat. Distilasi adalah pisah fisik, bukan reaksi kimia."]},
-    ]},
-    "process-safety-bukan-apd": {"sections": [
-        {"h": "Kecelakaan personal vs kecelakaan proses", "t": 6.8, "paras": [
-            "Tersandung dan terjepit adalah kecelakaan personal, dan APD memang kuat di sana. Process safety menyasar kejadian lain: pelepasan bahan atau energi berbahaya berskala besar dari vessel dan pipa bertekanan. Pada kejadian kedua, helm dan sarung tangan bukan penghalang utamanya."]},
-        {"h": "Hazard dan risk itu beda", "t": 13.6, "paras": [
-            "Hazard adalah potensi bahayanya, misalnya bahan mudah terbakar di dalam vessel. Risk adalah kombinasi konsekuensi dan kemungkinan kejadian itu benar-benar terjadi. Menyederhanakan risk menjadi sekadar ada bahaya membuat prioritas pengamanan jadi salah."]},
-        {"h": "Barrier berlapis saat tekanan naik", "t": 20.4, "paras": [
-            "Saat tekanan naik, lapisan bekerja berurutan: kontrol proses menahan kondisi normal, trip otomatis menghentikan proses, relief valve membuang tekanan ke sistem tertutup atau flare, dan tanggap darurat adalah lapisan terakhir di luar."]},
-        {"h": "Hitungan lapisan yang independen", "t": 27.2, "paras": [
-            "Ilustrasinya: kejadian awal 1 kali per 10 tahun, tiga lapisan independen yang masing-masing gagal 1 dari 10 kali saat dibutuhkan, memberi 0,0001 per tahun atau 1 per 10.000 tahun. Perkalian itu hanya sah kalau lapisannya benar-benar tidak saling tergantung."]},
-    ]},
-    "heat-exchanger-penghenti-pabrik": {"sections": [
-        {"h": "Dua aliran dipisah dinding logam", "t": 6.8, "paras": [
-            "Prinsipnya sederhana: dua aliran dipisahkan dinding logam, panas menyeberang lewat dinding, dan cairannya tidak pernah bertemu. Contoh di video: aliran panas turun dari 150 ke 90°C, aliran dingin naik dari 30 ke 80°C."]},
-        {"h": "Searah atau lawan arah, beda total", "t": 13.6, "paras": [
-            "Arah alirannya bisa searah atau lawan arah, dan pilihan itu mengubah beda suhu penggerak panasnya. Angka ujung yang sama bisa memberi hasil yang jauh berbeda."]},
-        {"h": "Angka konkretnya: 65 vs 44°C", "t": 20.4, "paras": [
-            "Dengan angka ujung yang sama, lawan arah memberi beda suhu rata-rata (LMTD) sekitar 65°C, searah hanya sekitar 44°C. Rasionya 1,48: panas yang dipindah bisa sekitar 48 persen lebih besar. Itu sebabnya heat exchanger industri hampir selalu lawan arah."]},
-        {"h": "Musuhnya kerak (fouling)", "t": 27.2, "paras": [
-            "Musuh besarnya adalah fouling, endapan kerak di dinding. Kerak 1 mm saja memangkas fluks panas sekitar 10 persen, dan ujungnya satu: unit berhenti untuk dibersihkan. Literatur fouling mengestimasi biayanya sekitar 0,25 persen PDB negara industri."]},
-    ]},
-    "haber-bosch-udara-jadi-pupuk": {"sections": [
-        {"h": "Persamaan setimbang dan ikatan keras kepala", "t": 6.8, "paras": [
-            "Reaksinya N\u2082 + 3H\u2082 \u2192 2NH\u2083, atomnya seimbang: 2 nitrogen dan 6 hidrogen di kedua sisi. Masalahnya, ikatan rangkap tiga pada N\u2082 sangat kuat, sehingga nitrogen terkenal malas bereaksi."]},
-        {"h": "Tiga syarat ekstrem", "t": 13.6, "paras": [
-            "Tiga syarat dipakai bersamaan: katalis besi untuk memecah ikatan N\u2082, suhu 400 sampai 500°C untuk mempercepat reaksi, dan tekanan 150 sampai 250 bar untuk mendorong kesetimbangan ke produk, karena 4 mol gas berubah menjadi 2 mol gas (prinsip Le Chatelier)."]},
-        {"h": "Tanpa recycle, pabriknya rugi", "t": 20.4, "paras": [
-            "Sekali lewat reaktor, hanya sekitar 15 persen yang menjadi amonia. Amonia dipisahkan lewat kondensasi, lalu gas sisanya diputar balik ke reaktor. Tanpa recycle, sebagian besar bahan baku terbuang dan pabriknya rugi."]},
-        {"h": "Eksotermik, melepas panas", "t": 27.2, "paras": [
-            "Reaksinya eksotermik, melepas sekitar 92 kJ per mol. Panas ini pedang bermata dua: membantu menjaga suhu reaktor, tapi kalau terlalu panas kesetimbangan justru bergeser balik menjauhi produk."]},
-    ]},
-    "netralisasi-asam-basa": {"sections": [
-        {"h": "Tukar pasangan yang terlihat", "t": 6.5, "paras": [
-            "Di permukaan, HCl + NaOH \u2192 NaCl + H\u2082O terlihat seperti tukar pasangan. Atom dan muatannya seimbang, tapi persamaan itu belum menunjukkan apa yang sebenarnya bertabrakan."]},
-        {"h": "Reaksi ion bersih yang sebenarnya terjadi", "t": 13, "paras": [
-            "Di larutan, HCl dan NaOH sudah terurai menjadi ion-ion. Yang benar-benar bereaksi hanyalah H\u207a + OH\u207b \u2192 H\u2082O. Ion Na\u207a dan Cl\u207b hanya menonton, lalu menjadi garam NaCl."]},
-        {"h": "Tiap mol air melepas 57 kJ", "t": 19.5, "paras": [
-            "Pembentukan air dari H\u207a dan OH\u207b melepas sekitar 57 kJ panas per mol. Reaksinya eksotermik, itu sebabnya larutan terasa hangat saat asam dan basa dicampur."]},
-        {"h": "Kapan pasnya? Titrasi", "t": 26.5, "paras": [
-            "Perbandingannya tepat 1 banding 1: 1 mol HCl butuh tepat 1 mol NaOH. Kelebihan setetes saja membuat hasil meleset. Fenolftalein menjadi saksinya: bening di asam, pink di basa, dan titik akhir di pH 7."]},
-    ]},
-    "water-gas-shift-co-jadi-h2": {"sections": [
-        {"h": "Hidrogennya berasal dari air", "t": 6.5, "paras": [
-            "Reaksinya CO + H\u2082O \u2192 CO\u2082 + H\u2082, eksotermik dengan \u0394H sekitar minus 41 kJ per mol. Yang sering salah kaprah: atom H pada H\u2082 produk berasal dari air (steam), bukan dari CO."]},
-        {"h": "Tahap panas: HTS 350 sampai 450°C", "t": 13, "paras": [
-            "Tahap pertama adalah HTS (high temperature shift) dengan katalis Fe-Cr. Suhu tinggi membuat reaksi cepat, dan CO turun dari 15 persen menjadi 3 persen. Masih belum cukup bersih, tapi sebagian besar pekerjaan selesai di sini."]},
-        {"h": "Didinginkan di tengah, panasnya dipanen", "t": 19.5, "paras": [
-            "Gas lalu didinginkan sebelum tahap kedua. Panas eksotermiknya tidak dibuang, melainkan dipanen menjadi steam. Inilah heat recovery yang membuat prosesnya hemat energi."]},
-        {"h": "Tahap dingin: LTS 200 sampai 250°C", "t": 26.5, "paras": [
-            "Tahap kedua adalah LTS (low temperature shift) dengan katalis Cu-Zn, menurunkan CO dari 3 persen menjadi 0,3 persen. Setelah CO\u2082 removal dan PSA, hasilnya H\u2082 murni 99,99 persen. Dua tahap diperlukan karena satu suhu tidak bisa cepat sekaligus tuntas: kesetimbangan suka dingin, kinetika suka panas."]},
-    ]},
+    "sampling-rutin-lab": {
+        "lead": "Pabrik modern punya sensor yang membaca proses tiap detik. Kenapa operatornya masih jalan membawa botol sampel ke lab tiap jam?",
+        "sections": [
+            {"h": "Sensor hanya membaca titik yang ia sentuh", "t": 6, "paras": [
+                "Sensor online seperti probe pH, konduktivitas, atau densitas hanya mengukur fluida yang menyentuh ujung probenya. Di pipa besar, sebagian besar aliran lewat jauh dari titik itu, dan yang tidak tersentuh sensor tidak ikut terukur. Bacaan di layar adalah potret satu titik, bukan potret seluruh aliran [1].",
+                "Di sinilah sampel fisik mengambil peran. Sejumlah kecil fluida benar-benar dikeluarkan dari proses dan diperiksa langsung, sehingga yang dinilai adalah bahannya, bukan sinyal listrik yang mewakilinya."]},
+            {"h": "Bacaan sensor bisa bergeser diam-diam", "t": 13, "paras": [
+                "Sensor mengalami drift: bacaannya bergeser pelan menjauhi nilai sebenarnya karena kerak menempel di probe, elektroda menua, atau elektronikanya berubah. Pergeseran ini tidak memicu alarm, karena dari sudut pandang sistem, angkanya terlihat normal saja.",
+                "Kalau tidak ada pembanding independen, yang bergeser bukan cuma garis di layar. Produk ikut bergeser keluar spesifikasi, dan penyimpangan baru ketahuan setelah mutu produk terlanjur turun [1]."]},
+            {"h": "Sampel yang mewakili: titik, wadah, label waktu", "t": 20, "paras": [
+                "Sampling yang benar dimulai dari titik sampel yang memang dirancang di pipa, bukan dari keran sembarangan. Cairan pertama dibuang dulu agar yang masuk botol adalah fluida yang segar dari aliran, lalu botol ditutup rapat, terutama bila komponennya mudah menguap.",
+                "Setiap botol diberi label waktu. Detail ini menentukan nilai hasil lab: angka laboratorium harus bisa dipasangkan dengan kondisi proses pada jam yang sama, bukan dibandingkan dengan bacaan sensor dari waktu yang berbeda [1]."]},
+            {"h": "Lab sebagai pembanding independen", "t": 27, "paras": [
+                "Di lab, sampel diukur dengan metode yang terkalibrasi terhadap standar, misalnya titrasi atau spektrofotometri. Hasilnya adalah angka independen yang tidak mewarisi kesalahan sensor lapangan [2].",
+                "Hasil lab lalu dibandingkan dengan bacaan sensor pada waktu yang sama. Bila cocok, sensor terbukti jujur. Bila selisih melewati batas, tindak lanjutnya adalah kalibrasi atau cek proses, bukan membiarkan selisih itu membesar diam-diam."]},
+            {"h": "Kenapa tidak semua diganti sensor saja", "t": None, "paras": [
+                "Tidak semua variabel punya sensor inline yang andal dan ekonomis, dan setiap titik ukur tambahan menambah biaya pasang serta perawatan. Selama mutu produk harus dibuktikan dengan pengukuran langsung atas bahannya, sampel fisik ke lab tetap menjadi rujukan yang tidak tergantikan [1]."]},
+        ],
+        "refs": [
+            "Green, D. W., & Southard, M. Z. (Eds.). (2019). Perry's Chemical Engineers' Handbook (9th ed.). McGraw-Hill Education.",
+            "Skoog, D. A., West, D. M., Holler, F. J., & Crouch, S. R. (2014). Fundamentals of Analytical Chemistry (9th ed.). Cengage Learning.",
+        ]},
+    "shift-handover-logbook": {
+        "lead": "Alatnya tidak berubah saat shift berganti. Yang berubah orangnya, dan di celah pergantian itulah cerita alat paling sering hilang.",
+        "sections": [
+            {"h": "Layar menampilkan angka, logbook menyimpan cerita", "t": 6, "paras": [
+                "Sistem kontrol menampilkan angka proses: suhu, tekanan, level, laju alir. Yang tidak tampil di sana adalah konteks kualitatif alat, misalnya katup V-204 yang rembes dan harus dipantau tiap jam, bunyi pompa yang berubah, atau perbaikan sementara yang sedang berjalan.",
+                "Detail seperti itu tidak punya kolom di layar angka. Ia hanya hidup bila ditulis, dan logbook adalah tempat pabrik menuliskan ingatannya antar shift [1]."]},
+            {"h": "Kenapa momen ganti shift paling rawan", "t": 13, "paras": [
+                "Serah terima adalah perpindahan informasi antara dua orang dengan keadaan lapangan yang sama tapi pemahaman yang berbeda. Operator yang pulang membawa konteks delapan jam terakhir; operator yang datang mulai dari nol. Setiap detail yang tidak terucap atau tertulis akan hilang di titik ini.",
+                "Karena itu literatur keselamatan proses menempatkan komunikasi shift sebagai salah satu barrier, lapisan pengaman yang sama seriusnya dengan alarm dan interlock [1]."]},
+            {"h": "Tiga langkah handover yang benar", "t": 20, "paras": [
+                "Urutannya sederhana tapi tidak bisa dilompati. Pertama, tulis keadaan alat apa adanya, termasuk yang tidak normal. Kedua, baca catatan itu bersama operator pengganti agar salah tafsir ketahuan saat itu juga, bukan setelah kejadian.",
+                "Ketiga, keliling cek lapangan berdua. Langkah ini yang paling sering dikorbankan, padahal handover tidak selesai di meja control room: katup yang dicatat rembes harus dilihat langsung oleh orang yang akan menjaganya."]},
+            {"h": "Tanda tangan menutup serah terima", "t": 27, "paras": [
+                "Serah terima ditutup tanda tangan dua operator dan stempel waktu. Dari titik itu, tanggung jawab berpindah dengan jelas dan bisa ditelusur: bila nanti ada kejadian, catatan menunjukkan shift mana yang mengetahui apa, dan kapan [1].",
+                "Tanpa bukti tertulis yang ditandatangani, investigasi kejadian berubah jadi adu ingatan. Dengan logbook, yang diperiksa adalah catatan, bukan klaim."]},
+            {"h": "Kertas atau elektronik, prinsipnya sama", "t": None, "paras": [
+                "Banyak pabrik kini memakai logbook elektronik, dan itu sah saja. Medianya boleh berubah, prinsipnya tidak: keadaan alat ditulis spesifik, dibaca bersama oleh dua shift, diverifikasi di lapangan, lalu ditutup dengan pengesahan yang bisa ditelusur [2]."]},
+        ],
+        "refs": [
+            "Center for Chemical Process Safety. (2007). Guidelines for Risk Based Process Safety. AIChE/Wiley.",
+            "Health and Safety Executive. (2006). Managing Shift Work: Health and Safety Guidance (HSG256). HSE Books.",
+        ]},
+    "hilirisasi-nikel-baterai-ev": {
+        "lead": "Bijih nikel Indonesia kadarnya cuma sekitar 1 sampai 2 persen. Kenapa tidak langsung dibuat baterai saja?",
+        "sections": [
+            {"h": "Memilah dulu: saprolit dan limonit", "t": 6.8, "paras": [
+                "Bijih laterit tidak seragam. Profilnya berlapis, dan dua jenis utamanya, saprolit dan limonit, berbeda kadar serta kimia mineralnya. Dengan kadar nikel total hanya sekitar 1 sampai 2 persen, hampir seluruh massa bijih adalah material bukan nikel yang harus disingkirkan lewat proses [1].",
+                "Karena itu keputusan pertama di pabrik bukan melebur atau melarutkan, melainkan memilah. Jenis bijih menentukan jalur prosesnya, dan salah pilah berarti salah pabrik."]},
+            {"h": "Jalur panas RKEF untuk saprolit", "t": 13.6, "paras": [
+                "Saprolit yang kadarnya relatif lebih tinggi diolah lewat jalur pirometalurgi RKEF: dikeringkan dan dikalsinasi di rotary kiln, lalu direduksi di electric furnace. Produknya nickel pig iron (NPI), besi kasar kaya nikel [1].",
+                "NPI adalah bahan baku stainless steel, bukan bahan baterai. Bentuk kimia dan kadarnya memang dirancang untuk peleburan baja, sehingga rantai baterai tidak mulai dari sini."]},
+            {"h": "Jalur basah HPAL untuk limonit", "t": 20.4, "paras": [
+                "Limonit yang kadarnya lebih rendah menempuh jalur hidrometalurgi HPAL (high pressure acid leaching). Bijih dilarutkan dengan asam sulfat di dalam autoclave pada sekitar 250°C dan tekanan tinggi, sehingga nikel berpindah dari padatan ke larutan [1].",
+                "Angka 250°C di sini adalah kondisi pelarutan, bukan suhu lebur. Yang bekerja memisahkan nikel adalah asamnya, dan bejana prosesnya adalah bejana tekan, bukan tungku."]},
+            {"h": "Dari larutan jadi MHP dan nikel sulfat", "t": 27.2, "paras": [
+                "Larutan nikel dari HPAL tidak langsung menjadi baterai. Nikel diendapkan sebagai MHP (mixed hydroxide precipitate), produk antara yang masih harus dimurnikan lagi menjadi nikel sulfat, garam dengan kemurnian yang dituntut industri baterai [2].",
+                "Nikel sulfat inilah bahan prekursor katoda baterai kendaraan listrik. Jadi rantai nilainya panjang: bijih, larutan, endapan, garam murni, prekursor, baru sel baterai."]},
+            {"h": "Harga yang dibayar: energi, asam, dan tailing", "t": None, "paras": [
+                "Kedua jalur membayar harga prosesnya sendiri. RKEF menuntut energi listrik besar untuk furnace; HPAL menuntut asam sulfat dalam jumlah besar dan pengelolaan residu atau tailing yang volumenya raksasa, karena 98 persen lebih massa bijih berakhir bukan sebagai produk [1].",
+                "Di situlah nilai hilirisasi sebenarnya diuji: bukan pada bijihnya, tapi pada kemampuan pabrik memilah, melebur, melarutkan, dan memurnikan dengan harga proses yang masih masuk akal."]},
+        ],
+        "refs": [
+            "Habashi, F. (Ed.). (1997). Handbook of Extractive Metallurgy. Wiley-VCH.",
+            "Ullmann's Encyclopedia of Industrial Chemistry. (2012). Nickel. Wiley-VCH.",
+        ]},
+    "pasir-jadi-chip-ai": {
+        "lead": "Chip AI paling canggih berawal dari bahan yang sama dengan pasir di pantai. Yang membedakan bukan bahannya, melainkan kemurniannya.",
+        "sections": [
+            {"h": "Reduksi karbotermik: pasir jadi silikon metalurgi", "t": 6.8, "paras": [
+                "Langkah pertama adalah reduksi pasir kuarsa (SiO\u2082) dengan karbon di furnace listrik: SiO\u2082 + 2C \u2192 Si + 2CO. Produknya silikon metalurgi dengan kemurnian baru sekitar 98 sampai 99 persen [1].",
+                "Untuk baja, angka itu sudah cukup. Untuk transistor berukuran nanometer, sisa pengotor 1 sampai 2 persen terlalu kotor, karena sifat listrik semikonduktor ditentukan oleh pengotor pada tingkat yang jauh lebih halus."]},
+            {"h": "Kenapa harus jadi gas dulu: triklorosilan", "t": 13.6, "paras": [
+                "Trik teknik kimianya ada di sini. Silikon diubah menjadi triklorosilan, senyawa yang mudah menguap. Begitu berbentuk gas, pemisahan pengotor bisa dilakukan dengan distilasi fraksinasi, prinsip yang sama dengan kolom distilasi di kilang minyak [1].",
+                "Kata kuncinya adalah mudah menguap: hanya zat yang bisa diuapkan dan diembunkan berulang kali yang bisa dimurnikan sampai tingkat ekstrem lewat perbedaan titik didih."]},
+            {"h": "Proses Siemens dan arti kemurnian 9N", "t": 20.4, "paras": [
+                "Triklorosilan murni diuraikan kembali pada batang silikon panas lewat proses Siemens, menumbuhkan polysilicon dengan kemurnian sekitar 99,9999999 persen, yang ditulis 9N (sembilan angka sembilan) [1].",
+                "Chip modern umumnya memakai silikon di rentang 9N sampai 11N. Sebagai bayangan skala: pada 9N, dari satu miliar atom, hanya sekitar satu atom yang bukan silikon."]},
+            {"h": "Leleh 1.414\u00b0C, tarik kristal, potong wafer", "t": 27.2, "paras": [
+                "Polysilicon dilelehkan pada titik leleh silikon, 1.414\u00b0C, lalu ditarik perlahan menjadi kristal tunggal. Kristal ini dipotong menjadi wafer, umumnya berdiameter 300 mm, dan dari wafer itulah chip AI difabrikasi lapis demi lapis [2].",
+                "Urutan lengkapnya menunjukkan peran teknik kimia dari hulu: reaksi reduksi, pemurnian lewat distilasi, pertumbuhan kristal. Chip lahir dari proses kimia yang dikendalikan, bukan dari pasir yang dipotong begitu saja."]},
+        ],
+        "refs": [
+            "Ullmann's Encyclopedia of Industrial Chemistry. (2012). Silicon. Wiley-VCH.",
+            "Doering, R., & Nishi, Y. (Eds.). (2007). Handbook of Semiconductor Manufacturing Technology (2nd ed.). CRC Press.",
+        ]},
+    "distilasi-minyak-mentah": {
+        "lead": "Merebus minyak mentah sekali tidak akan pernah menghasilkan bensin. Campurannya terlalu rapat, dan fisika pemisahannya tidak bekerja seperti itu.",
+        "sections": [
+            {"h": "Campuran ratusan hidrokarbon, bukan zat tunggal", "t": 6.5, "paras": [
+                "Minyak mentah adalah campuran ratusan senyawa hidrokarbon dengan titik didih yang berdekatan dan bertumpuk. Sekali rebus hanya menghasilkan uap yang komposisinya tetap campuran, karena fraksi ringan dan berat menguap bersamaan [1].",
+                "Umpan karena itu dipanaskan sekitar 350°C di fired heater lalu masuk zona flash di kolom, titik awal uap dan cairan mulai berpisah. Dari titik ini, pemisahan diselesaikan bukan oleh satu pendidihan, melainkan oleh kontak berulang."]},
+            {"h": "Kontak uap dan cairan berulang di tray", "t": 13, "paras": [
+                "Di dalam kolom, uap naik dan cairan turun melewati tray-tray. Pada setiap tray, uap dan cairan berkontak dan saling bertukar komponen: yang ringan cenderung lanjut menguap, yang berat mengembun dan turun.",
+                "Satu kolom pada dasarnya adalah rangkaian banyak tahap kesetimbangan yang ditumpuk vertikal. Pengulangan kontak inilah mesin pemisahnya, dan inilah yang tidak bisa digantikan oleh satu kali rebusan [1][2]."]},
+            {"h": "Reflux: yang membuat pisahnya tajam", "t": 19.5, "paras": [
+                "Uap paling ringan keluar dari puncak kolom, didinginkan di kondenser, ditampung di reflux drum, lalu sebagian dikembalikan ke kolom sebagai reflux. Cairan yang kembali ini membasahi tray-tray atas dan mempertemukan uap naik dengan cairan yang lebih murni.",
+                "Tanpa reflux, produk atas tercemar fraksi yang lebih berat. Reflux yang dikembalikan bukan pemborosan, melainkan harga untuk ketajaman pisah [2]."]},
+            {"h": "Profil suhu dan produk per tingkat", "t": 26.5, "paras": [
+                "Karena campuran mengembun dan menguap bertingkat, suhu kolom membentuk gradien: sekitar 120°C di puncak dan 350°C di dasar yang dipanaskan reboiler. Produk diambil pada tingkat yang suhunya sesuai titik didihnya, dari gas paling ringan di atas sampai residu paling berat di bawah [1].",
+                "Urutan produknya mengikuti titik didih, bukan jenis zat yang direaksikan. Distilasi adalah pisah fisik berdasarkan volatilitas; tidak ada molekul yang diubah menjadi molekul lain di dalam kolom."]},
+        ],
+        "refs": [
+            "Seader, J. D., Henley, E. J., & Roper, D. K. (2016). Separation Process Principles (4th ed.). Wiley.",
+            "Kister, H. Z. (1992). Distillation Design. McGraw-Hill.",
+        ]},
+    "process-safety-bukan-apd": {
+        "lead": "Helm dan sarung tangan tidak menghentikan vessel yang pecah. Kecelakaan proses berskala besar dicegah jauh sebelum bahayanya terlepas.",
+        "sections": [
+            {"h": "Dua jenis kecelakaan yang sering dicampur", "t": 6.8, "paras": [
+                "Kecelakaan personal seperti terpeleset, terjepit, atau tersiram kecil adalah wilayah APD, dan APD memang efektif di sana. Process safety menyasar kejadian yang berbeda kelas: pelepasan bahan atau energi berbahaya dalam skala besar dari vessel, pipa, dan reaktor bertekanan [1].",
+                "Pada pelepasan besar, yang menentukan selamat atau tidak bukanlah helm pekerja, melainkan apakah pelepasannya dicegah sejak dari desain dan operasi prosesnya."]},
+            {"h": "Hazard, risk, dan dua komponen risk", "t": 13.6, "paras": [
+                "Hazard adalah potensi bahayanya: bahan mudah terbakar, tekanan tinggi, suhu ekstrem. Risk adalah gabungan dua komponen, seberapa parah konsekuensinya dan seberapa mungkin kejadian itu terjadi [1].",
+                "Menyederhanakan risk menjadi sekadar ada bahaya membuat prioritas pengamanan salah arah. Dua bahaya yang sama bisa menuntut perlakuan berbeda karena kemungkinan dan konsekuensinya berbeda."]},
+            {"h": "Barrier berlapis saat tekanan naik", "t": 20.4, "paras": [
+                "Pengamanan proses disusun berlapis dan bekerja berurutan. Kontrol proses dasar menahan kondisi tetap normal. Bila gagal, trip otomatis menghentikan proses. Bila tekanan masih naik, relief valve membuangnya ke sistem tertutup atau flare. Tanggap darurat adalah lapisan terakhir, bukan yang pertama [2].",
+                "Urutannya penting: setiap lapisan menangkap kegagalan lapisan sebelumnya, dan lapisan luar hanya bekerja bila semua lapisan di dalamnya sudah gagal."]},
+            {"h": "Syarat independen dalam hitungan lapisan", "t": 27.2, "paras": [
+                "Ilustrasi hitungnya begini. Kejadian awal terjadi 1 kali per 10 tahun. Tiga lapisan independen, masing-masing gagal 1 dari 10 kali saat dibutuhkan, membuat frekuensinya 0,0001 per tahun, atau 1 per 10.000 tahun.",
+                "Perkalian itu hanya sah bila lapisannya benar-benar independen. Bila satu penyebab yang sama bisa menjatuhkan dua lapisan sekaligus, misalnya sensor yang sama dipakai kontrol dan trip, angka amannya runtuh. Independensi bukan detail administratif, melainkan syarat matematisnya [2]."]},
+            {"h": "APD tetap perlu, tapi posisinya terakhir", "t": None, "paras": [
+                "Process safety tidak membuang APD. APD tetap dipakai setiap hari untuk risiko personal. Bedanya, APD berada di urutan terakhir hierarki pengendalian: ia melindungi orang setelah bahaya terlepas, sedangkan process safety bekerja agar pelepasannya tidak pernah terjadi [1]."]},
+        ],
+        "refs": [
+            "Crowl, D. A., & Louvar, J. F. (2019). Chemical Process Safety: Fundamentals with Applications (4th ed.). Pearson.",
+            "Center for Chemical Process Safety. (2007). Guidelines for Risk Based Process Safety. AIChE/Wiley.",
+        ]},
+    "heat-exchanger-penghenti-pabrik": {
+        "lead": "Kerak setebal 1 milimeter sanggup memaksa satu unit pabrik berhenti total. Dan kerak itu menempel di alat yang paling dianggap sepele.",
+        "sections": [
+            {"h": "Panas menyeberang, cairan tidak bertemu", "t": 6.8, "paras": [
+                "Heat exchanger bekerja dengan prinsip yang sangat sederhana: dua aliran dipisahkan dinding logam, panas menyeberang melewati dinding, dan kedua cairannya tidak pernah bertemu. Contoh angka di artikel ini: aliran panas turun dari 150 ke 90°C, aliran dingin naik dari 30 ke 80°C [1].",
+                "Kesederhanaannya menipu. Alat ini menentukan berapa banyak energi yang berhasil dipakai ulang di pabrik, dan energi adalah salah satu biaya operasi terbesar."]},
+            {"h": "LMTD: beda suhu penggerak panas", "t": 13.6, "paras": [
+                "Laju pindah panas digerakkan oleh beda suhu antara dua aliran, yang berubah sepanjang alat. Ukuran penggeraknya diringkas sebagai LMTD (log mean temperature difference), beda suhu rata-rata logaritmik antara ujung-ujungnya [1].",
+                "Di sinilah arah aliran menentukan. Pada konfigurasi searah, beda suhu menyusut tajam di sepanjang alat. Pada lawan arah, beda suhunya terjaga lebih merata dari ujung ke ujung, dan LMTD-nya lebih besar [2]."]},
+            {"h": "65 vs 44\u00b0C: dari mana angka 48 persen", "t": 20.4, "paras": [
+                "Dengan angka ujung yang sama persis (150 ke 90°C dan 30 ke 80°C), lawan arah menghasilkan LMTD sekitar 65°C, sedangkan searah hanya sekitar 44°C. Rasionya 65 per 44, yaitu 1,48.",
+                "Artinya, pada luas permukaan yang sama, panas yang dipindahkan bisa sekitar 48 persen lebih besar hanya dengan membalik arah aliran. Itulah sebabnya heat exchanger industri hampir selalu dirancang lawan arah [1]."]},
+            {"h": "Fouling: kerak, biaya, dan shutdown", "t": 27.2, "paras": [
+                "Musuh besarnya adalah fouling, endapan kerak yang tumbuh di dinding pindah panas. Kerak adalah isolator: tebal 1 mm saja sudah memangkas fluks panas sekitar 10 persen, dan alat harus bekerja lebih keras untuk hasil yang sama.",
+                "Skala kerugiannya tidak kecil. Literatur fouling mengestimasi biayanya sekitar 0,25 persen PDB negara industri, dan sekitar 186 juta barel minyak per tahun dipakai kilang dunia hanya untuk menambal rugi fouling. Ujung yang paling mahal: unit berhenti total untuk dibersihkan."]},
+            {"h": "Merancang melawan kerak sejak di kertas", "t": None, "paras": [
+                "Karena fouling tidak terhindarkan, perancangan heat exchanger menyisihkan margin berupa faktor pengotoran sejak awal, sebagaimana diatur dalam standar perancangan penukar panas. Alat dirancang sedikit lebih besar dari kebutuhan bersihnya, agar saat kerak tumbuh, pabrik masih punya waktu sebelum harus berhenti [3]."]},
+        ],
+        "refs": [
+            "Incropera, F. P., DeWitt, D. P., Bergman, T. L., & Lavine, A. S. (2007). Fundamentals of Heat and Mass Transfer (6th ed.). Wiley.",
+            "Kern, D. Q. (1950). Process Heat Transfer. McGraw-Hill.",
+            "Tubular Exchanger Manufacturers Association. (2019). Standards of the Tubular Exchanger Manufacturers Association (10th ed.). TEMA.",
+        ]},
+    "haber-bosch-udara-jadi-pupuk": {
+        "lead": "Udara yang kamu hirup 78 persennya nitrogen, tapi tidak ada tanaman yang bisa memakannya. Satu proses industri mengubah gas malas itu menjadi makanan dunia.",
+        "sections": [
+            {"h": "Ikatan rangkap tiga yang keras kepala", "t": 6.8, "paras": [
+                "Reaksinya ringkas: N\u2082 + 3H\u2082 \u2192 2NH\u2083. Atomnya seimbang, 2 nitrogen dan 6 hidrogen di kedua sisi. Kesulitannya bukan di persamaan, melainkan di ikatan rangkap tiga pada molekul N\u2082 yang sangat kuat, membuat nitrogen terkenal malas bereaksi [1].",
+                "Seluruh rekayasa Haber-Bosch pada dasarnya adalah cara memaksa ikatan itu putus dalam skala industri, terus-menerus, dengan harga yang masih masuk akal."]},
+            {"h": "Tiga syarat ekstrem dan tarik-menariknya", "t": 13.6, "paras": [
+                "Tiga syarat dipakai bersamaan. Katalis besi membantu memecah ikatan N\u2082. Suhu 400 sampai 500°C mempercepat reaksi. Tekanan 150 sampai 250 bar mendorong kesetimbangan ke arah produk, karena 4 mol gas berubah menjadi 2 mol gas, sesuai prinsip Le Chatelier [1][2].",
+                "Syarat-syarat ini saling bertarik. Suhu tinggi baik untuk kecepatan tapi buruk untuk kesetimbangan reaksi eksotermik. Tekanan tinggi baik untuk hasil tapi mahal untuk peralatan. Angka operasinya adalah kompromi di tengah tarik-menarik itu."]},
+            {"h": "Sekali lewat cuma 15 persen: kenapa recycle menentukan", "t": 20.4, "paras": [
+                "Sekali campuran gas melewati reaktor, hanya sekitar 15 persen yang berubah menjadi amonia. Amonia lalu dipisahkan dengan kondensasi, dan gas yang belum bereaksi diputar balik masuk reaktor lagi.",
+                "Tanpa recycle, lebih dari 80 persen bahan baku terbuang setiap putaran. Recycle bukan aksesori, melainkan penentu pabrik ini untung atau rugi [1]."]},
+            {"h": "Eksotermik: panas sebagai pedang bermata dua", "t": 27.2, "paras": [
+                "Reaksinya eksotermik dengan \u0394H sekitar minus 92 kJ per mol. Panas yang dilepas membantu menjaga suhu reaktor, tapi bila bed katalis terlalu panas, kesetimbangan justru bergeser balik menjauhi produk.",
+                "Karena itu reaktor amonia dirancang mengelola panasnya sendiri dengan hati-hati, mendinginkan antar tahap agar konversi per lintasan tetap tinggi tanpa mengorbankan kesetimbangan [1]."]},
+            {"h": "Dari amonia ke urea dan pupuk", "t": None, "paras": [
+                "Amonia adalah pintu tengahnya. Sebagian besar amonia dunia diolah lagi menjadi urea dan pupuk nitrogen lain, dan dari sanalah nitrogen dari udara akhirnya sampai ke tanaman. Tanpa proses ini, separuh lebih pangan dunia tidak punya sumber nitrogennya [2]."]},
+        ],
+        "refs": [
+            "Appl, M. (1999). Ammonia: Principles and Industrial Practice. Wiley-VCH.",
+            "Ullmann's Encyclopedia of Industrial Chemistry. (2012). Ammonia. Wiley-VCH.",
+        ]},
+    "netralisasi-asam-basa": {
+        "lead": "Persamaan asam basa yang kamu hafal di sekolah menyembunyikan pemeran utamanya. Yang benar-benar bereaksi ternyata cuma dua ion.",
+        "sections": [
+            {"h": "Tukar pasangan yang terlihat", "t": 6.5, "paras": [
+                "Ditulis sebagai molekul, netralisasi tampak seperti tukar pasangan: HCl + NaOH \u2192 NaCl + H\u2082O. Atom dan muatannya seimbang, dan untuk keperluan praktis persamaan ini benar.",
+                "Tapi persamaan molekuler menyembunyikan apa yang sebenarnya terjadi di dalam larutan, karena di dalam air, kedua zat itu sudah tidak berbentuk molekul lagi [1]."]},
+            {"h": "Reaksi ion bersih: H\u207a + OH\u207b \u2192 H\u2082O", "t": 13, "paras": [
+                "Asam kuat dan basa kuat terurai sempurna menjadi ion-ionnya di larutan. Dari semua ion yang ada, yang benar-benar bereaksi hanyalah H\u207a + OH\u207b \u2192 H\u2082O. Inilah reaksi ion bersihnya.",
+                "Ion Na\u207a dan Cl\u207b tidak berubah dari awal sampai akhir; keduanya ion penonton yang akhirnya tinggal sebagai garam NaCl di larutan. Persamaan yang panjang ternyata digerakkan satu reaksi ion yang sangat sederhana [1][2]."]},
+            {"h": "57 kJ per mol air: dari mana panasnya", "t": 19.5, "paras": [
+                "Pembentukan air dari H\u207a dan OH\u207b melepas sekitar 57 kJ panas per mol air yang terbentuk. Reaksinya eksotermik, dan itulah sebabnya gelas terasa hangat saat asam dan basa kuat dicampur.",
+                "Karena reaksi ionnya selalu sama, entalpi netralisasi asam kuat oleh basa kuat hampir konstan untuk pasangan asam basa kuat mana pun. Yang berubah hanyalah ion penontonnya [2]."]},
+            {"h": "Titrasi: tepat 1 banding 1 dan saksi fenolftalein", "t": 26.5, "paras": [
+                "Perbandingan reaksinya tepat 1 banding 1: satu mol HCl membutuhkan tepat satu mol NaOH. Kelebihan setetes saja membuat campuran meleset dari titik ekuivalen, yang untuk pasangan asam kuat dan basa kuat berada di pH 7 [1].",
+                "Fenolftalein menjadi saksi visualnya: bening di asam, pink di basa. Perubahan warnanya menandai kapan penambahan harus berhenti, setetes demi setetes."]},
+            {"h": "Satu reaksi, banyak skala", "t": None, "paras": [
+                "Reaksi yang sama bekerja di obat maag yang menetralkan asam lambung, di lab sekolah saat titrasi, dan di pabrik saat air limbah asam atau basa dinetralkan sebelum dibuang. Skalanya berbeda jauh, reaksi ionnya persis sama [1]."]},
+        ],
+        "refs": [
+            "Skoog, D. A., West, D. M., Holler, F. J., & Crouch, S. R. (2014). Fundamentals of Analytical Chemistry (9th ed.). Cengage Learning.",
+            "Atkins, P., & de Paula, J. (2014). Atkins' Physical Chemistry (10th ed.). Oxford University Press.",
+        ]},
+    "water-gas-shift-co-jadi-h2": {
+        "lead": "Untuk membuat hidrogen murni, pabrik lebih dulu menghasilkan CO, gas beracun yang kemudian harus disingkirkan sampai tinggal 0,3 persen.",
+        "sections": [
+            {"h": "Hidrogennya berasal dari air, bukan dari CO", "t": 6.5, "paras": [
+                "Reaksi water-gas shift adalah CO + H\u2082O \u2192 CO\u2082 + H\u2082, eksotermik dengan \u0394H sekitar minus 41 kJ per mol. Reaksi ini adalah tulang punggung pabrik hidrogen karena mengubah CO yang tidak diinginkan menjadi H\u2082 tambahan [1].",
+                "Yang sering salah kaprah: atom hidrogen pada produk H\u2082 berasal dari air (steam), bukan dari CO. CO menyumbang karbonnya untuk dibawa pergi sebagai CO\u2082."]},
+            {"h": "Tahap panas: HTS supaya reaksi cepat", "t": 13, "paras": [
+                "Tahap pertama adalah HTS (high temperature shift) pada 350 sampai 450°C dengan katalis Fe-Cr. Suhu tinggi membuat reaksi berjalan cepat, dan kadar CO turun dari sekitar 15 persen menjadi 3 persen [1][2].",
+                "Sebagian besar pekerjaan selesai di tahap ini, tapi 3 persen masih jauh dari cukup bersih untuk hidrogen murni. Menyelesaikan sisanya di suhu setinggi ini tidak efisien, karena kesetimbangan reaksi eksotermik memburuk saat panas."]},
+            {"h": "Didinginkan di tengah, panasnya dipanen", "t": 19.5, "paras": [
+                "Di antara dua tahap, gas didinginkan. Panas dari reaksi eksotermik tahap pertama tidak dibuang begitu saja, melainkan dipanen untuk menghasilkan steam.",
+                "Pendinginan ini melayani dua tujuan sekaligus: menyiapkan gas ke suhu tahap kedua yang lebih rendah, dan memulihkan energi reaksinya sebagai utilitas yang berguna [1]."]},
+            {"h": "Tahap dingin: LTS supaya reaksi tuntas", "t": 26.5, "paras": [
+                "Tahap kedua adalah LTS (low temperature shift) pada 200 sampai 250°C dengan katalis Cu-Zn, menurunkan CO dari 3 persen menjadi 0,3 persen. Katalisnya berbeda karena suhunya berbeda; satu katalis tidak cocok untuk dua dunia suhu ini [1][2].",
+                "Setelah CO\u2082 disingkirkan dan gas dimurnikan lewat PSA, hasilnya hidrogen murni 99,99 persen. Dua tahap reaktor dengan pendingin di tengah adalah kompromi yang menyelesaikan konflik klasik: kesetimbangan menyukai dingin, kinetika menyukai panas."]},
+        ],
+        "refs": [
+            "Ullmann's Encyclopedia of Industrial Chemistry. (2012). Hydrogen. Wiley-VCH.",
+            "Newsome, D. S. (1980). The Water-Gas Shift Reaction. Catalysis Reviews: Science and Engineering, 21(2).",
+        ]},
 }
 
 
@@ -856,12 +972,89 @@ FOOT = """
   <div class="foot-brand">ilmu<span>tekkim</span></div>
   <p>Bikin teknik kimia asik. Pabrik, proses, safety, dan AI. Ditulis insinyur kimia ITB.</p>
   <p><a href="https://www.instagram.com/ilmutekkim" target="_blank" rel="noopener">@ilmutekkim di Instagram</a> &middot; <a href="/video/">Video interaktif</a> &middot; <a href="/tentang/">Tentang</a></p>
-  <p class="fine">Artikel adalah versi baca carousel Instagram @ilmutekkim. Video adalah motion graphics kode (HyperFrames), tiap video punya versi artikel lengkap di halamannya. Foto berasal dari Pexels dan Unsplash, kredit tercantum di tiap gambar.</p>
+  <p class="fine">Artikel dan video di situs ini adalah versi baca dan tonton dari konten Instagram @ilmutekkim. Foto berasal dari Pexels dan Unsplash, kredit tercantum di tiap gambar.</p>
 </footer>
 <script src="/assets/js/main.js?v=4"></script>
 </body>
 </html>
 """
+
+
+
+def load_deep(slug):
+    fp = os.path.join(ROOT, "deep", slug + ".json")
+    if os.path.isfile(fp):
+        try:
+            return json.load(open(fp))
+        except Exception:
+            return None
+    return None
+
+
+def article_figures(d, slug):
+    figs = []
+    for idx, s in enumerate(d.get("slides", []), 1):
+        for key, name in (("photo", f"foto-{idx}"), ("diagram", f"diagram-{idx}")):
+            if s.get(key):
+                url = resolve_img(s.get(key), slug, name)
+                if url:
+                    figs.append((url, s.get("credit"), s.get("credit_url"),
+                                 clean_text(s.get("title") or "")))
+                    break
+    return figs
+
+
+def _ref_key(r):
+    return "".join(ch for ch in str(r).lower() if ch.isalnum())[:40]
+
+
+def merge_refs(deep_refs, spec_refs):
+    out = [clean_text(r) for r in (deep_refs or []) if clean_text(r)]
+    keys = {_ref_key(r) for r in out}
+    for r in spec_refs or []:
+        if _ref_key(r) not in keys:
+            out.append(r)
+            keys.add(_ref_key(r))
+    return out
+
+
+def render_deep_body(deep, figs):
+    # ILM-R64: artikel mendalam akademis (hook kitab suci, prose per subtopik, fakta, sitasi)
+    out = []
+    fi = 0
+
+    def fig_html(fig):
+        url, credit, curl, head = fig
+        cap = ""
+        if credit:
+            cap = f'Foto: {esc(credit)}'
+            if curl:
+                cap = f'Foto: <a href="{esc(curl)}" rel="noopener" target="_blank">{esc(credit)}</a>'
+        return (f'<figure><img src="{url}" alt="{esc(head)}" loading="lazy">'
+                + (f"<figcaption>{cap}</figcaption>" if cap else "") + "</figure>")
+
+    for sec in deep.get("sections") or []:
+        out.append("<section>")
+        if sec.get("h"):
+            out.append(f"<h2>{esc(sec['h'])}</h2>")
+        for p in sec.get("paras") or []:
+            if clean_text(p):
+                out.append(f"<p>{esc(p)}</p>")
+        out.append("</section>")
+        if fi < len(figs):
+            out.append(fig_html(figs[fi]))
+            fi += 1
+    while fi < len(figs):
+        out.append(fig_html(figs[fi]))
+        fi += 1
+    facts = [clean_text(f) for f in (deep.get("facts") or []) if clean_text(f)]
+    if facts:
+        out.append('<section class="factbox"><h2>Fakta kunci</h2><ul>'
+                   + "".join(f"<li>{esc(f)}</li>" for f in facts) + "</ul></section>")
+    closing = clean_text(deep.get("closing") or "")
+    if closing:
+        out.append(f'<section><h2>Kesimpulannya</h2><p>{esc(closing)}</p></section>')
+    return "\n".join(x for x in out if x)
 
 
 def main():
@@ -877,8 +1070,14 @@ def main():
             body = "\n".join(slide_section(s, slug, i)
                              for i, s in enumerate(d.get("slides", []), 1))
         refs = [clean_text(r) for r in d.get("references", []) if clean_text(r)]
+        deep = load_deep(slug)
+        deep_lead = ""
+        if deep:
+            body = render_deep_body(deep, article_figures(d, slug))
+            refs = merge_refs(deep.get("refs"), refs)
+            deep_lead = clean_text(deep.get("lead") or "")
         articles.append(dict(slug=slug, title=title, date=date, ig=ig, status=status,
-                             series=series, cover=cover, lead=lead, body=body, refs=refs,
+                             series=series, cover=cover, lead=lead, body=body, refs=refs, deep_lead=deep_lead,
                              sub=clean_text(d.get("cover_sub") or ""),
                              credit=clean_text(d.get("cover_credit") or ""),
                              credit_url=d.get("credit_url") or d.get("cover_credit_url") or "",
@@ -921,10 +1120,12 @@ def main():
                            f'target="_blank">{esc(a["credit"])}</a>')
             page += (f'<figure class="hero-img"><img src="{a["cover"]}" alt="{esc(a["title"])}">'
                      + (f"<figcaption>{cap}</figcaption>" if cap else "") + "</figure>\n")
-        if a["sub"]:
-            page += f'<p class="lead">{esc(a["sub"])}</p>\n'
-        for p in a["lead"][:2]:
-            if p != a["lead"][0] or True:
+        if a.get("deep_lead"):
+            page += f'<p class="lead">{esc(a["deep_lead"])}</p>\n'
+        else:
+            if a["sub"]:
+                page += f'<p class="lead">{esc(a["sub"])}</p>\n'
+            for p in a["lead"][:2]:
                 page += f'<p class="intro">{esc(p)}</p>\n'
         page += a["body"] + "\n"
         if a["refs"]:
@@ -957,10 +1158,9 @@ def main():
                            url=vurl_page, ogtype="article", ogimg=ogimg_v)
         page += '<article class="post video-post">\n'
         page += f'<p class="eyebrow">Video interaktif &middot; {esc(v["tag"])}</p>\n<h1>{esc(v["title"])}</h1>\n'
-        page += f'<p class="meta">{tgl_indo(v["date"])} &middot; Motion graphics kode (HyperFrames) &middot; {fmt_time(v["duration"])} &middot; tanpa voice-over, teks kinetik</p>\n'
+        page += f'<p class="meta">{tgl_indo(v["date"])} &middot; {fmt_time(v["duration"])}</p>\n'
         page += (f'<p class="ig-link">Versi Reel: <a href="{v["ig"]}" target="_blank" rel="noopener">tonton di Instagram @ilmutekkim</a></p>\n')
-        page += f'<p class="lead">{esc(v["hook"])}</p>\n'
-        page += f'<p class="intro">{esc(v["intro"])}</p>\n'
+        page += f'<p class="lead">{esc(VIDEO_ARTICLES[v["slug"]].get("lead") or v["hook"])}</p>\n'
         # player interaktif
         poster_attr = f' poster="{esc(v["poster_url"])}"' if v.get("poster_url") else ""
         page += ('<div class="player-wrap">'
@@ -975,6 +1175,10 @@ def main():
             page += ('<section class="factbox"><h2>Fakta kunci</h2><ul>'
                      + "".join(f"<li>{esc(x)}</li>" for x in v["facts"]) + "</ul></section>\n")
         page += f'<section><h2>Kesimpulannya</h2><p>{esc(v["takeaway"])}</p></section>\n'
+        _vrefs = VIDEO_ARTICLES[v["slug"]].get("refs") or []
+        if _vrefs:
+            page += ('<section class="refs"><h2>Referensi</h2><ol>'
+                     + "".join(f"<li>{esc(r)}</li>" for r in _vrefs) + "</ol></section>\n")
         # kuis interaktif
         q = v["quiz"]
         opts = "".join(
@@ -984,7 +1188,7 @@ def main():
                  f'<div class="quiz-opts">{opts}</div>'
                  f'<p class="quiz-explain" hidden>{esc(q["explain"])}</p></section>\n')
         page += ('<div class="cta-box"><h2>Tonton versi Reel-nya</h2>'
-                 "<p>Di Instagram videonya tayang vertikal penuh dengan musik dan SFX-nya. Di sini kamu bisa membaca versi artikelnya sambil lompat ke detik yang mau diulang.</p>"
+                 "<p>Tonton versi singkatnya sebagai Reel di Instagram, atau baca versi lengkapnya di sini sambil lompat ke detik yang mau diulang.</p>"
                  f'<a class="btn" href="{v["ig"]}" target="_blank" rel="noopener">Buka Reel @ilmutekkim</a> '
                  '<a class="btn ghost" href="/video/">Semua video</a></div>\n')
         prev_v = videos[vi + 1] if vi + 1 < len(videos) else None
@@ -1041,15 +1245,15 @@ def main():
                    f'<h3><a href="/video/{v["slug"]}/">{esc(v["title"])}</a></h3>'
                    f'<p>{esc(v["hook"])}</p>'
                    f'<p class="meta">{tgl_indo(v["date"])} &middot; artikel + kuis</p></div></article>\n')
-    vindex = HEAD.format(title="Video Interaktif Motion Graphics | ilmutekkim",
-                         desc="Versi artikel dari motion graphics teknik kimia @ilmutekkim: tonton videonya, baca penjelasan lengkapnya per subtopik, lalu cek pahammu lewat kuis.",
+    vindex = HEAD.format(title="Video Teknik Kimia | ilmutekkim",
+                         desc="Versi artikel dari video teknik kimia @ilmutekkim: tonton videonya, baca penjelasan mendalamnya per subtopik, lalu cek pahammu lewat kuis.",
                          url=BASE + "/video/", ogtype="website", ogimg="")
     vindex += f"""
 <article class="post wide">
 <p class="eyebrow">Video interaktif</p>
-<h1>Motion graphics, versi artikel.</h1>
-<p class="lead">Setiap video @ilmutekkim dibuat dengan kode (HyperFrames), sekitar 41 detik, tanpa voice-over.
-Di Instagram enak ditonton, di sini enak dibaca: tiap video punya versi artikel lengkap, kamu bisa lompat ke detik tertentu dari judul bagiannya, lalu menjawab kuisnya.</p>
+<h1>Video teknik kimia, versi artikel.</h1>
+<p class="lead">Sepuluh video teknik kimia dari @ilmutekkim, masing-masing dengan versi artikel lengkapnya.
+Di Instagram enak ditonton, di sini enak dibaca: tonton videonya, baca penjelasan mendalam per subtopik sambil lompat ke detik tertentu dari judul bagiannya, lalu jawab kuisnya.</p>
 <p class="meta">{len(videos)} video &middot; tersinkron dari Reel @ilmutekkim &middot; diperbarui {tgl_indo(videos[0]["date"]) if videos else ""}</p>
 </article>
 <section class="grid video-grid">
@@ -1090,12 +1294,12 @@ Di Instagram enak ditonton, di sini enak dibaca: tiap video punya versi artikel 
                    f'<p class="eyebrow">{esc(v["tag"])}</p>'
                    f'<h3><a href="/video/{v["slug"]}/">{esc(v["title"])}</a></h3>'
                    f'<p>{esc(v["hook"])}</p>'
-                   f'<p class="meta">{tgl_indo(v["date"])} &middot; klik scene untuk bedah</p></div></article>\n')
+                   f'<p class="meta">{tgl_indo(v["date"])} &middot; tonton + baca artikelnya</p></div></article>\n')
     home += f"""
 <section class="hero">
   <div class="meta-strip">
     <div><span>01</span>Artikel<b>{len(articles)} bedah proses</b></div>
-    <div><span>02</span>Video<b>{len(videos)} motion graphics</b></div>
+    <div><span>02</span>Video<b>{len(videos)} video</b></div>
     <div><span>03</span>Seri<b>{len(series_list)} seri topik</b></div>
     <div><span>04</span>Sumber<b>IG @ilmutekkim tersinkron</b></div>
   </div>
@@ -1111,7 +1315,7 @@ Di Instagram enak ditonton, di sini enak dibaca: tiap video punya versi artikel 
 </section>
 <section id="video" class="video-home">
   <div class="video-home-head"><h2>Video interaktif terbaru</h2><a href="/video/">Lihat semua video &rarr;</a></div>
-  <p class="video-home-sub">Motion graphics kode 41 detik dari Reel @ilmutekkim, dibedah per scene. Klik kartu untuk lompat ke detiknya, baca fakta yang dijaga, jawab kuisnya.</p>
+  <p class="video-home-sub">Video teknik kimia 41 detik dari @ilmutekkim, masing-masing dengan versi artikel lengkap. Klik kartu untuk menonton sambil membaca penjelasannya.</p>
   <div class="grid video-grid">
 {vstrip}
   </div>
@@ -1142,10 +1346,9 @@ bukan hafalan rumus, tapi bagaimana proses beneran jalan di lapangan.</p>
 <a href="https://www.instagram.com/ilmutekkim" target="_blank" rel="noopener">@ilmutekkim</a>:
 satu topik dibedah dari miskonsepsi yang paling sering beredar, kenyataan prosesnya,
 diagram alurnya, sampai contoh nyata di industri Indonesia.</p>
-<p>Setiap <a href="/video/">video interaktif</a> adalah versi bedah dari Reel motion graphics @ilmutekkim
-(dibuat dengan kode HyperFrames, 6 scene, sekitar 41 detik, tanpa voice-over): di sini kamu bisa
-klik scene untuk lompat ke detiknya, membaca tujuan narasi dan fakta yang dijaga benar, lalu
-mengecek paham lewat kuis singkat.</p>
+<p>Setiap <a href="/video/">video interaktif</a> adalah versi tonton dari konten @ilmutekkim:
+di sini kamu bisa menonton sambil membaca artikel lengkapnya, lompat ke detik tertentu
+dari judul bagiannya, lalu mengecek paham lewat kuis singkat.</p>
 <h2>Yang dibahas</h2>
 <ul>
 <li>Unit operasi: distilasi, heat exchanger, pompa, kompresor, cooling tower.</li>
