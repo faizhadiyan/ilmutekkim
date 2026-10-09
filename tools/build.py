@@ -974,7 +974,7 @@ FOOT = """
   <p><a href="https://www.instagram.com/ilmutekkim" target="_blank" rel="noopener">@ilmutekkim di Instagram</a> &middot; <a href="/video/">Video interaktif</a> &middot; <a href="/tentang/">Tentang</a></p>
   <p class="fine">Artikel dan video di situs ini adalah versi baca dan tonton dari konten Instagram @ilmutekkim. Foto berasal dari Pexels dan Unsplash, kredit tercantum di tiap gambar.</p>
 </footer>
-<script src="/assets/js/main.js?v=4"></script>
+<script src="/assets/js/main.js?v=5"></script>
 </body>
 </html>
 """
@@ -1265,8 +1265,9 @@ Di Instagram enak ditonton, di sini enak dibaca: tonton videonya, baca penjelasa
 
     # beranda
     series_list = sorted(set(a["series"] for a in articles))
-    chips = "".join(f'<button class="chip" data-series="{esc(s)}">{esc(s)}</button>'
-                    for s in series_list)
+    chips = ('<button class="chip" data-series="Video Interaktif">Video Interaktif</button>'
+             + "".join(f'<button class="chip" data-series="{esc(s)}">{esc(s)}</button>'
+                       for s in series_list))
     cards = ""
     for a in articles:
         excerpt = (a["lead"][1] if len(a["lead"]) > 1 else (a["lead"][0] if a["lead"] else a["sub"]))[:170]
@@ -1286,10 +1287,13 @@ Di Instagram enak ditonton, di sini enak dibaca: tonton videonya, baca penjelasa
                        url=BASE + "/", ogtype="website", ogimg="")
     # strip video terbaru untuk beranda (4 terbaru)
     vstrip = ""
-    for v in videos[:4]:
+    for vi, v in enumerate(videos):
         thumb = (f'<img src="{v["poster_url"]}" alt="{esc(v["title"])}" loading="lazy">' if v.get("poster_url")
                  else '<div class="no-img">ilmutekkim</div>')
-        vstrip += (f'<article class="card vcard"><a href="/video/{v["slug"]}/">{thumb}'
+        extra = ' v-extra' if vi >= 4 else ""
+        extstyle = ' style="display:none"' if vi >= 4 else ""
+        vstrip += (f'<article class="card vcard{extra}" data-series="Video Interaktif"{extstyle} '
+                   f'data-title="{esc(v["title"].lower())} {esc(v["tag"].lower())} video interaktif"><a href="/video/{v["slug"]}/">{thumb}'
                    f'<span class="play-badge">&#9654; {fmt_time(v["duration"])}</span></a><div class="card-body">'
                    f'<p class="eyebrow">{esc(v["tag"])}</p>'
                    f'<h3><a href="/video/{v["slug"]}/">{esc(v["title"])}</a></h3>'
@@ -1300,7 +1304,7 @@ Di Instagram enak ditonton, di sini enak dibaca: tonton videonya, baca penjelasa
   <div class="meta-strip">
     <div><span>01</span>Artikel<b>{len(articles)} bedah proses</b></div>
     <div><span>02</span>Video<b>{len(videos)} video</b></div>
-    <div><span>03</span>Seri<b>{len(series_list)} seri topik</b></div>
+    <div><span>03</span>Seri<b>{len(series_list) + 1} seri topik</b></div>
     <div><span>04</span>Sumber<b>IG @ilmutekkim tersinkron</b></div>
   </div>
   <div class="hero-grid">
@@ -1313,17 +1317,17 @@ Di Instagram enak ditonton, di sini enak dibaca: tonton videonya, baca penjelasa
     </div>
   </div>
 </section>
+<section id="seri" class="series-bar">
+  <h2>Jelajahi per seri</h2>
+  <div class="chips"><button class="chip active" data-series="all">Semua</button>{chips}</div>
+  <input id="search" type="search" placeholder="Cari artikel, contoh: distilasi, semen, pompa..." aria-label="Cari artikel">
+</section>
 <section id="video" class="video-home">
   <div class="video-home-head"><h2>Video interaktif terbaru</h2><a href="/video/">Lihat semua video &rarr;</a></div>
   <p class="video-home-sub">Video teknik kimia 41 detik dari @ilmutekkim, masing-masing dengan versi artikel lengkap. Klik kartu untuk menonton sambil membaca penjelasannya.</p>
   <div class="grid video-grid">
 {vstrip}
   </div>
-</section>
-<section id="seri" class="series-bar">
-  <h2>Jelajahi per seri</h2>
-  <div class="chips"><button class="chip active" data-series="all">Semua</button>{chips}</div>
-  <input id="search" type="search" placeholder="Cari artikel, contoh: distilasi, semen, pompa..." aria-label="Cari artikel">
 </section>
 <section id="artikel" class="grid">
 {cards}
