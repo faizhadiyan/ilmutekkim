@@ -261,3 +261,15 @@ footer .btn-ig:hover{background:#82B4DC}
 .tool-strip a i{display:block;font-style:normal;color:var(--gray);font-size:13.5px;line-height:1.45}
 .tool-strip a:hover{background:var(--paper-2)}
 @media(max-width:760px){.tool-strip{grid-template-columns:repeat(2,1fr)}.tool-strip a:nth-child(3n+1){border-left:1px solid var(--rule);padding-left:18px}.tool-strip a:nth-child(2n+1){border-left:none;padding-left:0}}
+
+/* Strip fitur: ringkas saat diam, melebar dan berdetail saat hover */
+.tool-strip{display:flex}
+.tool-strip a{flex:1 1 0;transition:flex-grow .38s ease,background .2s ease;border-left:1px solid var(--rule)}
+.tool-strip a:first-child{border-left:none;padding-left:0}
+.tool-strip a:nth-child(3n+1){border-left:1px solid var(--rule);padding-left:18px}
+.tool-strip a:first-child{border-left:none;padding-left:0}
+.tool-strip a i{max-height:0;opacity:0;overflow:hidden;margin-top:0;transition:max-height .38s ease,opacity .3s ease,margin .3s ease}
+.tool-strip a:hover,.tool-strip a:focus-visible{flex-grow:2;background:var(--paper-2)}
+.tool-strip a:hover i,.tool-strip a:focus-visible i{max-height:130px;opacity:1;margin-top:5px}
+@media (hover:none){.tool-strip a i{display:none}}
+@media(max-width:760px){.tool-strip{flex-wrap:wrap}.tool-strip a{flex:1 1 33.33%;padding:14px 12px}.tool-strip a:nth-child(3n+1){border-left:1px solid var(--rule);padding-left:12px}.tool-strip a:first-child{border-left:none;padding-left:0}.tool-strip a b{font-size:15px}}
