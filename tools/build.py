@@ -949,7 +949,7 @@ HEAD = """<!DOCTYPE html>
 {ogimg}<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/style.css?v=6">
+<link rel="stylesheet" href="/assets/css/style.css?v=7">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23131518'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='%23F4F4F2' font-family='Arial' font-weight='bold'>IT</text></svg>">
 </head>
 <body>
@@ -1598,7 +1598,7 @@ Di Instagram enak ditonton, di sini enak dibaca: tonton videonya, baca penjelasa
         links = ""
         for t in g["terkait"]:
             u, ttl = resolve_tautan(t)
-            links += f'<a class="btn ghost" href="{u}">{esc(ttl)}</a> '
+            links += f'<a class="btn ghost clamp" href="{u}">{esc(ttl)}</a> '
         gcov = gcover(g)
         gcards += (f'<article class="card" data-series="{esc(huruf)}" '
                    f'data-title="{esc(g["term"].lower())}">'

@@ -194,3 +194,4 @@ footer a{color:#fff}
 #mt-canvas{width:100%;max-width:520px;background:#0F2653;border-radius:12px;margin-top:12px}
 
 .post.tight h2:first-child,.post.tight h2:first-of-type{margin-top:0;padding-top:0;border-top:none}
+.btn.clamp{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-align:left;line-height:1.35;padding:10px 14px;border-radius:16px;max-width:100%}
