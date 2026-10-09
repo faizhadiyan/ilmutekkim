@@ -31,6 +31,7 @@
       chips.forEach(function (c) { c.classList.remove("active"); });
       chip.classList.add("active");
       active = chip.dataset.series;
+      document.querySelectorAll(".series-select").forEach(function (sel) { sel.value = active; });
       apply();
     });
   });
@@ -63,15 +64,36 @@
   });
 })();
 
-// Di mobile, baris chip berupa strip geser satu baris; fade di ujung kanan hilang saat sudah mentok
+// Di mobile, chip seri diganti dropdown pemilih; chip tetap dipakai di desktop
 (function () {
-  if (!window.matchMedia || !window.matchMedia("(max-width: 760px)").matches) return;
   document.querySelectorAll(".chips").forEach(function (c) {
-    function upd() {
-      var end = c.scrollLeft + c.clientWidth >= c.scrollWidth - 6;
-      c.classList.toggle("end", end);
-    }
-    c.addEventListener("scroll", upd, { passive: true });
-    upd();
+    var chips = c.querySelectorAll(".chip");
+    if (!chips.length) return;
+    var section = c.closest ? c.closest("section") : null;
+    var h2 = section ? section.querySelector("h2") : null;
+    var htxt = h2 ? h2.textContent.toLowerCase() : "";
+    var label = htxt.indexOf("topik") !== -1 ? "Topik" : (htxt.indexOf("huruf") !== -1 ? "Huruf" : "Seri");
+    var wrap = document.createElement("label");
+    wrap.className = "series-select-wrap";
+    var span = document.createElement("span");
+    span.textContent = label + ":";
+    var sel = document.createElement("select");
+    sel.className = "series-select";
+    sel.setAttribute("aria-label", "Pilih " + label.toLowerCase());
+    chips.forEach(function (chip) {
+      var opt = document.createElement("option");
+      opt.value = chip.dataset.series;
+      opt.textContent = chip.textContent;
+      if (chip.classList.contains("active")) opt.selected = true;
+      sel.appendChild(opt);
+    });
+    sel.addEventListener("change", function () {
+      var target = null;
+      chips.forEach(function (chip) { if (chip.dataset.series === sel.value) target = chip; });
+      if (target) target.click();
+    });
+    wrap.appendChild(span);
+    wrap.appendChild(sel);
+    c.parentNode.insertBefore(wrap, c.nextSibling);
   });
 })();

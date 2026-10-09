@@ -101,6 +101,12 @@ ARTICLES = [
     ("control-room-dcs-loop-kontrol", "specs/2026-10-08-carousel-2.json",
      "Satu Layar Berisi Satu Pabrik: Bedah Control Room dan Loop Kontrol DCS",
      "2026-10-08", "https://www.instagram.com/p/DeOqlk7E_vp/", "tayang"),
+    ("cs02-mccabe-thiele-garis-operasi", "specs/2026-10-09-carousel-1.json",
+     "CS-02 Cheat Sheet: Dua Garis Operasi McCabe-Thiele dan Tangga Tahapnya",
+     "2026-10-09", "https://www.instagram.com/p/DeQmX_cCV9e/", "tayang"),
+    ("preventive-maintenance-bongkar-terjadwal", "specs/2026-10-09-carousel-2.json",
+     "Preventive Maintenance: Mengapa Mesin yang Sehat Tetap Dibongkar Secara Terjadwal",
+     "2026-10-09", "https://www.instagram.com/p/DeRSyKSD7Eq/", "tayang"),
 ]
 
 BULAN = ["", "Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli",
@@ -998,7 +1004,7 @@ HEAD = """<!DOCTYPE html>
 {ogimg}<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/style.css?v=21">
+<link rel="stylesheet" href="/assets/css/style.css?v=22">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23131518'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='%23F4F4F2' font-family='Arial' font-weight='bold'>IT</text></svg>">
 </head>
 <body>
@@ -1025,7 +1031,7 @@ FOOT = """
   <p class="foot-links"><a href="/">Beranda</a><span>&middot;</span><a href="/video/">Video</a><span>&middot;</span><a href="/riset/">Riset</a><span>&middot;</span><a href="/jalur/">Jalur</a><span>&middot;</span><a href="/glosarium/">Glosarium</a><span>&middot;</span><a href="/referensi/">Referensi</a><span>&middot;</span><a href="/kalkulator/">Kalkulator</a><span>&middot;</span><a href="/tentang/">Tentang</a></p>
   <p class="fine">Artikel dan video di situs ini merupakan versi baca dan versi tonton dari konten Instagram @ilmutekkim. Foto berasal dari Pexels dan Unsplash, kredit tercantum di tiap gambar.</p>
 </footer>
-<script src="/assets/js/main.js?v=9"></script>
+<script src="/assets/js/main.js?v=10"></script>
 </body>
 </html>
 """

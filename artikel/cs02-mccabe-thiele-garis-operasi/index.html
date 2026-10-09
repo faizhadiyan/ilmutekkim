@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<script>(function(){try{var t=localStorage.getItem("ilm-theme");if(!t){t=window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";}document.documentElement.setAttribute("data-theme",t);}catch(e){document.documentElement.setAttribute("data-theme","light");}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CS-02 Cheat Sheet: Dua Garis Operasi McCabe-Thiele dan Tangga Tahapnya | ilmutekkim</title>
+<meta name="description" content="Gambar McCabe-Thiele pertama yang digambar mahasiswa biasanya runtuh di satu tempat yang sama: dua garis operasi tertukar posisi, lalu seluruh tangga tahap">
+<link rel="canonical" href="https://ilmutekkim.vercel.app/artikel/cs02-mccabe-thiele-garis-operasi/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CS-02 Cheat Sheet: Dua Garis Operasi McCabe-Thiele dan Tangga Tahapnya | ilmutekkim">
+<meta property="og:description" content="Gambar McCabe-Thiele pertama yang digambar mahasiswa biasanya runtuh di satu tempat yang sama: dua garis operasi tertukar posisi, lalu seluruh tangga tahap">
+<meta property="og:url" content="https://ilmutekkim.vercel.app/artikel/cs02-mccabe-thiele-garis-operasi/">
+<meta property="og:image" content="https://ilmutekkim.vercel.app/assets/img/cs02-mccabe-thiele-garis-operasi/cover.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/style.css?v=22">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23131518'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='%23F4F4F2' font-family='Arial' font-weight='bold'>IT</text></svg>">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="/">ilmu<span>tekkim</span></a>
+  <button type="button" class="theme-toggle" id="themeToggle" aria-label="Beralih antara mode terang dan mode gelap" title="Mode terang / gelap"><span class="ic-sun" aria-hidden="true">&#9728;</span><span class="ic-moon" aria-hidden="true">&#9790;</span></button>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+  <label for="nav-toggle" class="burger" aria-label="Buka menu">&#9776;</label>
+  <nav>
+    <a href="/">Articles &amp; Videos</a>
+    <a href="/riset/">Riset</a>
+    <a href="/jalur/">Jalur</a>
+  </nav>
+</header>
+<main>
+<article class="post">
+<p class="eyebrow">Seri Cheat Sheet Ujian</p>
+<h1>CS-02 Cheat Sheet: Dua Garis Operasi McCabe-Thiele dan Tangga Tahapnya</h1>
+<p class="meta">9 Oktober 2026 &middot; ilmutekkim</p>
+<p class="ig-link">Versi carousel: <a href="https://www.instagram.com/p/DeQmX_cCV9e/" target="_blank" rel="noopener">lihat di Instagram @ilmutekkim</a></p>
+<figure class="hero-img"><img src="/assets/img/cs02-mccabe-thiele-garis-operasi/cover.jpg" alt="CS-02 Cheat Sheet: Dua Garis Operasi McCabe-Thiele dan Tangga Tahapnya"><figcaption>Foto: <a href="https://www.pexels.com/photo/a-photo-of-an-industrial-business-4883682/" rel="noopener" target="_blank">Ali Mucci / Pexels</a></figcaption></figure>
+<p class="lead">Gambar McCabe-Thiele pertama yang digambar mahasiswa biasanya runtuh di satu tempat yang sama: dua garis operasi tertukar posisi, lalu seluruh tangga tahap ikut salah. Padahal diagram ini hanya menuntut satu keputusan awal yang benar, yaitu garis mana yang menempel ke distilat dan garis mana yang menempel ke bottom.</p>
+<section>
+<h2>Dua zona, dua garis, satu titik temu</h2>
+<p>Kolom distilasi tidak bekerja dengan satu rezim yang sama dari atas sampai bawah. Di atas titik masuk umpan, uap yang naik diperkaya komponen ringan karena cairan refluks yang turun berulang kali mengambil alih peran penukar massa; zona ini disebut zona rectifying atau memperkaya. Di bawah umpan, cairan yang turun dilucuti komponen ringannya oleh uap yang naik dari reboiler, sehingga komponen ringan terdorong kembali ke atas dan cairan makin berat menuju bottom. Dua karakter kerja yang berlawanan ini melahirkan dua garis operasi yang berbeda, dan keduanya hanya bertemu di satu tempat: garis q yang mewakili kondisi umpan [1][2].</p>
+<p>Konsekuensinya tegas. Garis rectifying wajib berujung di titik distilat pada diagonal diagram, garis stripping wajib berujung di titik bottom pada diagonal yang sama. Apabila salah satu garis tertukar ujungnya, tangga tahap yang digambar sesudahnya akan menghitung tray untuk kolom yang tidak ada. Inilah kesalahan yang paling sering menghabiskan nilai ujian, bukan karena konsepnya sulit, melainkan karena gambar awalnya tidak diuji.</p>
+</section>
+<figure><img src="/assets/img/cs02-mccabe-thiele-garis-operasi/diagram-3.jpg" alt="Tangga tahap di antara kurva dan garis operasi" loading="lazy"></figure>
+<section>
+<h2>Garis rectifying dari neraca komponen</h2>
+<p>Garis rectifying lahir dari neraca komponen ringan di zona memperkaya. Pada asumsi luapan molar tetap, laju cair dan uap antar tray dianggap konstan, sehingga hubungan antara komposisi uap yang naik dan cairan yang turun menjadi garis lurus: y = R/(R+1) x + xD/(R+1). Di sini R adalah rasio refluks, laju cairan yang dikembalikan ke kolom dibagi laju distilat yang diambil sebagai produk atas, dan xD adalah fraksi mol komponen ringan di distilat [1][2].</p>
+<p>Dua ciri garis ini dapat dipakai sebagai uji kewarasan sebelum tangga digambar. Pertama, kemiringannya R/(R+1) selalu di bawah 1, karena penyebutnya selalu lebih besar dari pembilangnya. Kedua, garis ini harus melewati titik distilat di diagonal, tempat y sama dengan x sama dengan xD. Menaikkan R menggeser garis mendekati diagonal, artinya pemisahan per tray membaik, tetapi uap yang harus dibangkitkan reboiler ikut naik. Di situlah trade-off klasik distilasi berada: refluks membeli tray dengan energi.</p>
+</section>
+<figure><img src="/assets/img/cs02-mccabe-thiele-garis-operasi/foto-6.jpg" alt="Tray di dalam kolom adalah anak tangga aslinya" loading="lazy"><figcaption>Foto: Dheeraj Singh / Pexels</figcaption></figure>
+<section>
+<h2>Contoh angka yang sering keluar di ujian</h2>
+<p>Perhatikan contoh yang dipakai pada carousel CS-02: rasio refluks R = 2 dan komposisi distilat xD = 0,95 fraksi mol komponen ringan. Kemiringannya 2/3 = 0,67 dan intersepnya 0,95/3 = 0,32, sehingga garis rectifying-nya y = 0,67 x + 0,32. Tiga langkah ini, data soal, kemiringan dan intersep, lalu garis siap gambar, adalah pola yang dapat ditiru untuk soal berapa pun angkanya, selama rumusnya tidak dibalik [1].</p>
+<p>Setelah garis operasi berdiri, jumlah tray teoritis dibaca dari anak tangga yang ditarik di antara kurva kesetimbangan dan garis operasi. Dimulai dari distilat di kanan atas, langkah bergerak mendatar ke kurva kesetimbangan, lalu turun tegak ke garis operasi, dan diulangi sampai melewati komposisi umpan menuju bottom. Setiap anak tangga penuh adalah satu tray teoritis. Tangga yang berhenti terlalu cepat atau melompat melewati titik temu garis q hampir selalu berarti garis operasinya tertukar sejak awal.</p>
+</section>
+<section>
+<h2>Dari ruang ujian ke kolom kilang</h2>
+<p>Diagram ini bukan latihan menggambar semata. Tangga yang sama menentukan berapa banyak tray yang dipasang di kolom pemisah propana dan butana, dan pada kolom crude yang memisahkan fraksi minyak bertingkat. Di pabrik, tray teoritis hasil gambar diterjemahkan menjadi tray aktual dan akhirnya menjadi tinggi kolom. Salah menarik garis di kelas berarti salah menghitung tray, dan salah menghitung tray di pabrik berarti kolom yang dibangun tidak mencapai komposisi produk yang diminta [2].</p>
+<p>Karena itu urutan kerja yang aman selalu sama, di ujian maupun di desain awal: gambar diagonal dan kurva kesetimbangan dulu, tandai distilat, umpan, dan bottom, tarik dua garis operasi dan pastikan keduanya bertemu di garis q, baru gambar tangga terakhir. Diagram yang dibangun dengan urutan ini hampir tidak memberi ruang bagi kesalahan tertukar yang klasik itu.</p>
+</section>
+<section class="factbox"><h2>Fakta kunci</h2><ul><li>Kolom distilasi memiliki dua zona operasi: memperkaya di atas umpan dan melucuti di bawah umpan.</li><li>Garis rectifying wajib berujung di titik distilat, garis stripping di titik bottom, keduanya pada diagonal.</li><li>Kemiringan garis rectifying R/(R+1) selalu di bawah 1.</li><li>Dua garis operasi hanya bertemu di garis q kondisi umpan.</li><li>Tiap anak tangga penuh di antara kurva kesetimbangan dan garis operasi adalah satu tray teoritis.</li><li>Menaikkan refluks menggeser garis rectifying mendekati diagonal dan memperbaiki pemisahan per tray.</li></ul></section>
+<section><h2>Kesimpulannya</h2><p>Lembar ringkasan CS-02 bermuara pada satu kebiasaan gambar: uji ujung garis sebelum menghitung tangga. Rectifying menempel ke distilat, stripping menempel ke bottom, dan keduanya bertemu di umpan. Garis yang benar di kertas adalah awal dari kolom yang benar di kilang.</p></section>
+<section class="refs"><h2>Referensi</h2><ul><li>McCabe, W. L., Smith, J. C., &amp; Harriott, P. Unit Operations of Chemical Engineering. McGraw-Hill.</li><li>Seader, J. D., Henley, E. J., &amp; Roper, D. K. Separation Process Principles. John Wiley &amp; Sons.</li><li>McCabe, Smith, Harriott, Unit Operations of Chemical Engineering</li><li>Seader, Henley, Roper, Separation Process Principles</li></ul></section>
+<nav class="post-nav"><a href="/artikel/preventive-maintenance-bongkar-terjadwal/">&larr; Preventive Maintenance: Mengapa Mesin yang Sehat Tetap Dibongkar Secara Terjadwal</a></nav>
+<div class="cta-box"><h2>Lanjut baca di Instagram</h2><p>Konten teknik kimia tiap hari: proses pabrik, safety, dan cara baca alat. Ditulis insinyur kimia ITB.</p><a class="btn" href="https://www.instagram.com/ilmutekkim" target="_blank" rel="noopener">Follow @ilmutekkim</a></div>
+</article>
+</main>
+<footer>
+  <div class="foot-brand">ilmu<span>tekkim</span></div>
+  <p>Kajian teknik kimia proses: unit operasi, alur pabrik, keselamatan proses, dan kecerdasan buatan. Ditulis oleh insinyur kimia lulusan Institut Teknologi Bandung.</p>
+  <p class="foot-btns"><a class="btn-ig" href="https://www.instagram.com/ilmutekkim" target="_blank" rel="noopener">Instagram @ilmutekkim</a> <a class="btn-ig" href="https://www.tiktok.com/@ilmutekkim" target="_blank" rel="noopener">TikTok @ilmutekkim</a></p>
+  <p class="foot-links"><a href="/">Beranda</a><span>&middot;</span><a href="/video/">Video</a><span>&middot;</span><a href="/riset/">Riset</a><span>&middot;</span><a href="/jalur/">Jalur</a><span>&middot;</span><a href="/glosarium/">Glosarium</a><span>&middot;</span><a href="/referensi/">Referensi</a><span>&middot;</span><a href="/kalkulator/">Kalkulator</a><span>&middot;</span><a href="/tentang/">Tentang</a></p>
+  <p class="fine">Artikel dan video di situs ini merupakan versi baca dan versi tonton dari konten Instagram @ilmutekkim. Foto berasal dari Pexels dan Unsplash, kredit tercantum di tiap gambar.</p>
+</footer>
+<script src="/assets/js/main.js?v=10"></script>
+</body>
+</html>
