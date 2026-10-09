@@ -39,7 +39,9 @@
     "slug": "sampling-rutin-lab",
     "note": "Kenapa sampel manual tetap diambil tiap jam padahal sensor online menyala terus."
    }
-  ]
+  ],
+  "cover_file": "/home/hatch/workspace/ilmutekkim-web/cover-src/membaca-pabrik.jpg",
+  "cover_credit": "Foto: piazap.com.pl"
  },
  {
   "slug": "distilasi-inti",
@@ -71,7 +73,9 @@
     "slug": "paten-dividing-wall-column-basf-2005",
     "note": "Level berikutnya, dari dokumen patennya: tiga produk murni dari satu kolom berdinding pemisah."
    }
-  ]
+  ],
+  "cover_file": "/home/hatch/workspace/ilmutekkim-web/cover-src/distilasi-inti.jpg",
+  "cover_credit": "Foto: gustawater.com"
  },
  {
   "slug": "kilang-petrokimia",
@@ -108,7 +112,9 @@
     "slug": "paten-mtg-mobil-1988",
     "note": "Dokumen patennya: sistem Mobil mengubah metanol menjadi bensin dan menjinakkan panas reaktornya."
    }
-  ]
+  ],
+  "cover_file": "/home/hatch/workspace/ilmutekkim-web/cover-src/kilang-petrokimia.jpg",
+  "cover_credit": "Foto: cenosco.com"
  },
  {
   "slug": "sawit-produk",
@@ -135,7 +141,9 @@
     "slug": "b40-biodiesel-sawit-transesterifikasi",
     "note": "Reaksi transesterifikasi yang mengubah minyak sawit menjadi biodiesel."
    }
-  ]
+  ],
+  "cover_file": "/home/hatch/workspace/ilmutekkim-web/cover-src/sawit-produk.jpg",
+  "cover_credit": "Foto: haisawit.co.id"
  },
  {
   "slug": "utilitas-energi",
@@ -167,7 +175,9 @@
     "slug": "heat-exchanger-penghenti-pabrik",
     "note": "Versi videonya: satu heat exchanger bermasalah, satu pabrik berhenti."
    }
-  ]
+  ],
+  "cover_file": "/home/hatch/workspace/ilmutekkim-web/cover-src/utilitas-energi.jpg",
+  "cover_credit": "Foto: hackmd.io"
  },
  {
   "slug": "keselamatan-proses",
@@ -194,7 +204,9 @@
     "slug": "process-safety-bukan-apd",
     "note": "Process safety bukan soal helm dan sarung tangan; ini soal desain sistemnya."
    }
-  ]
+  ],
+  "cover_file": "/home/hatch/workspace/ilmutekkim-web/cover-src/keselamatan-proses.jpg",
+  "cover_credit": "Foto: energydais.com"
  },
  {
   "slug": "pabrik-indonesia",
@@ -246,6 +258,8 @@
     "slug": "netralisasi-asam-basa",
     "note": "Reaksi paling dasar di pabrik, dibedah sebagai video."
    }
-  ]
+  ],
+  "cover_file": "/home/hatch/workspace/ilmutekkim-web/cover-src/pabrik-indonesia.jpg",
+  "cover_credit": "Foto: lihatjabar.com"
  }
 ]

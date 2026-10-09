@@ -37,5 +37,7 @@
  ],
  "arti_pabrik": "Ini potret jujur ekonomi biogas POME Indonesia: teknologi anaerobiknya bekerja, tetapi skala umpan dan tarif menentukan hidup matinya investasi. Pelajaran yang bisa dibawa ke pabrik lain adalah urutan diagnosisnya: cek kecukupan POME dulu sebelum menyalahkan teknologi, dan pertimbangkan bioreaktor bila lagoon tidak lagi efisien. Penilaian ini adalah apresiasi redaksi, bukan klaim paper.",
  "vonis": "Baca full paper-nya",
- "vonis_alasan": "Hasil akhirnya lengkap di abstrak, tetapi keputusan investasi menuntut asumsi di balik NPV dan IRR: tarif listrik, capex, dan biaya angkut POME. Asumsi itu hanya ada di full text."
+ "vonis_alasan": "Hasil akhirnya lengkap di abstrak, tetapi keputusan investasi menuntut asumsi di balik NPV dan IRR: tarif listrik, capex, dan biaya angkut POME. Asumsi itu hanya ada di full text.",
+ "cover_file": "/home/hatch/workspace/ilmutekkim-web/cover-src/bedah-biogas-pome-listrik-tekno-ekonomi.jpg",
+ "cover_credit": "Foto: tambang.co.id"
 }

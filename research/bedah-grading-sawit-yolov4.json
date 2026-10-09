@@ -39,5 +39,7 @@
  ],
  "arti_pabrik": "Grading adalah titik kendali mutu pertama pabrik sawit: tandan mentah dan terlalu matang menggerus rendemen dan mutu CPO. Sistem ponsel real-time seperti ini menarik karena tidak menuntut perangkat khusus di lapangan. Bedah ini menunjukkan sisi digital rantai sawit yang melengkapi artikel pabrik kelapa sawit di situs ini, dari alat berat ke algoritma. Penilaian ini adalah apresiasi redaksi, bukan klaim paper.",
  "vonis": "Baca full paper-nya",
- "vonis_alasan": "Abstrak membuktikan konsep dan keunggulan relatifnya, tetapi nilai mAP absolut, rincian dataset, dan pembagian kategori kematangan yang menentukan kepercayaan pada sistem ini hanya ada di full text."
+ "vonis_alasan": "Abstrak membuktikan konsep dan keunggulan relatifnya, tetapi nilai mAP absolut, rincian dataset, dan pembagian kategori kematangan yang menentukan kepercayaan pada sistem ini hanya ada di full text.",
+ "cover_file": "/home/hatch/workspace/ilmutekkim-web/cover-src/bedah-grading-sawit-yolov4.jpg",
+ "cover_credit": "Foto: ppw.com.co"
 }

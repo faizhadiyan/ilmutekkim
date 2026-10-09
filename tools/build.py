@@ -1082,6 +1082,10 @@ def render_bedah(d):
     out = []
     out.append(f'<p class="cov-label">{esc(d["coverage"])}</p>')
     out.append(f'<p class="lead">{esc(d["lead"])}</p>')
+    cov = resolve_img(d.get("cover_file"), d["slug"], "cover")
+    if cov:
+        out.append(f'<figure><img src="{cov}" alt="{esc(d["judul"])}">'
+                   f'<figcaption>{esc(d.get("cover_credit") or "")}</figcaption></figure>')
     out.append('<section class="paper-box"><p class="eyebrow">Paper yang dibedah</p>'
                f'<h2 class="paper-title">{esc(d["paper_title"])}</h2>'
                f'<p>{esc(authors_short(d["authors"]))} &middot; {esc(d["journal"])} &middot; {esc(str(d["year"]))}</p>'
@@ -1119,6 +1123,10 @@ def render_paten(d):
     out = []
     out.append(f'<p class="cov-label">{esc(d["coverage"])}</p>')
     out.append(f'<p class="lead">{esc(d["lead"])}</p>')
+    cov = resolve_img(d.get("cover_file"), d["slug"], "cover")
+    if cov:
+        out.append(f'<figure><img src="{cov}" alt="{esc(d["judul"])}">'
+                   f'<figcaption>{esc(d.get("cover_credit") or "")}</figcaption></figure>')
     out.append('<section class="paper-box"><p class="eyebrow">Paten yang dibedah</p>'
                f'<h2 class="paper-title">{esc(d["judul_paten"])}</h2>'
                f'<p>{esc(d["nomor"])} &middot; Inventor: {esc(d["inventor"])} &middot; Pemilik saat terbit: {esc(d["pemilik"])}</p>'
@@ -1379,7 +1387,10 @@ Di Instagram enak ditonton, di sini enak dibaca: tonton videonya, baca penjelasa
     for d in research:
         rcards += (f'<article class="card" data-series="{esc(d["topik"])}" '
                    f'data-title="{esc(d["judul"].lower())} {esc(d["topik"].lower())} {esc(d["journal"].lower())}">'
-                   f'<a href="/riset/{d["slug"]}/"><div class="no-img">Bedah Riset</div></a><div class="card-body">'
+                   f'<a href="/riset/{d["slug"]}/">'
+                   + (f'<img src="{resolve_img(d.get("cover_file"), d["slug"], "cover")}" alt="{esc(d["judul"])}" loading="lazy">'
+                      if resolve_img(d.get("cover_file"), d["slug"], "cover") else '<div class="no-img">Bedah Riset</div>')
+                   + '</a><div class="card-body">'
                    f'<p class="eyebrow">{esc(d["topik"])} &middot; {esc(d["negara"])}</p>'
                    f'<h3><a href="/riset/{d["slug"]}/">{esc(d["judul"])}</a></h3>'
                    f'<p>{esc(d["lead"])}</p>'
@@ -1442,7 +1453,10 @@ Di Instagram enak ditonton, di sini enak dibaca: tonton videonya, baca penjelasa
     for d in paten:
         pcards += (f'<article class="card" data-series="{esc(d["topik"])}" '
                    f'data-title="{esc(d["judul"].lower())} {esc(d["topik"].lower())} {esc(d["nomor"].lower())}">'
-                   f'<a href="/riset/paten/{d["slug"]}/"><div class="no-img">Bedah Paten</div></a><div class="card-body">'
+                   f'<a href="/riset/paten/{d["slug"]}/">'
+                   + (f'<img src="{resolve_img(d.get("cover_file"), d["slug"], "cover")}" alt="{esc(d["judul"])}" loading="lazy">'
+                      if resolve_img(d.get("cover_file"), d["slug"], "cover") else '<div class="no-img">Bedah Paten</div>')
+                   + '</a><div class="card-body">'
                    f'<p class="eyebrow">{esc(d["topik"])} &middot; {esc(d["nomor"])}</p>'
                    f'<h3><a href="/riset/paten/{d["slug"]}/">{esc(d["judul"])}</a></h3>'
                    f'<p>{esc(d["lead"])}</p>'
@@ -1521,7 +1535,10 @@ Di Instagram enak ditonton, di sini enak dibaca: tonton videonya, baca penjelasa
     jcards = ""
     for t in jalur:
         first_url, _ = resolve_tautan(t["steps"][0])
-        jcards += (f'<article class="card"><a href="/jalur/{t["slug"]}/"><div class="no-img">Jalur Belajar</div></a>'
+        jcov = resolve_img(t.get("cover_file"), t["slug"], "cover")
+        jcards += (f'<article class="card"><a href="/jalur/{t["slug"]}/">'
+                   + (f'<img src="{jcov}" alt="{esc(t["judul"])}" loading="lazy">' if jcov else '<div class="no-img">Jalur Belajar</div>')
+                   + '</a>'
                    f'<div class="card-body"><p class="eyebrow">Jalur belajar &middot; {len(t["steps"])} langkah</p>'
                    f'<h3><a href="/jalur/{t["slug"]}/">{esc(t["judul"])}</a></h3><p>{esc(t["desc"])}</p>'
                    f'<p class="meta"><a href="{first_url}">Mulai dari langkah 1 &rarr;</a></p></div></article>\n')
@@ -1556,6 +1573,7 @@ Di Instagram enak ditonton, di sini enak dibaca: tonton videonya, baca penjelasa
 <h1>{esc(t["judul"])}</h1>
 <p class="lead">{esc(t["desc"])}</p>
 <p class="meta">{len(t["steps"])} langkah &middot; baca berurutan dari atas</p>
+{("<figure><img src=\"" + resolve_img(t.get("cover_file"), t["slug"], "cover") + "\" alt=\"" + esc(t["judul"]) + "\"><figcaption>" + esc(t.get("cover_credit") or "") + "</figcaption></figure>") if resolve_img(t.get("cover_file"), t["slug"], "cover") else ""}
 {steps_html}
 <div class="cta-box"><h2>Semua jalur belajar</h2>
 <p>Tujuh jalur terkurasi: dari membaca pabrik untuk pemula sampai tur pabrik Indonesia.</p>
@@ -1566,6 +1584,15 @@ Di Instagram enak ditonton, di sini enak dibaca: tonton videonya, baca penjelasa
         os.makedirs(outj, exist_ok=True)
         open(os.path.join(outj, "index.html"), "w").write(jpage)
 
+    art_cover = {a["slug"]: a.get("cover") for a in articles}
+    pat_cover = {d2["slug"]: resolve_img(d2.get("cover_file"), d2["slug"], "cover") for d2 in paten}
+    vid_cover = {v["slug"]: v.get("poster_url") for v in videos}
+    def gcover(g):
+        for t in g["terkait"]:
+            c = art_cover.get(t["slug"]) if t["type"] == "artikel" else vid_cover.get(t["slug"]) if t["type"] == "video" else pat_cover.get(t["slug"]) if t["type"] == "paten" else None
+            if c:
+                return c
+        return None
     gcards = ""
     for g in sorted(glosarium, key=lambda x: x["term"].lower()):
         huruf = g["term"][0].lower()
@@ -1573,8 +1600,11 @@ Di Instagram enak ditonton, di sini enak dibaca: tonton videonya, baca penjelasa
         for t in g["terkait"]:
             u, ttl = resolve_tautan(t)
             links += f'<a class="btn ghost" href="{u}">{esc(ttl)}</a> '
+        gcov = gcover(g)
         gcards += (f'<article class="card" data-series="{esc(huruf)}" '
-                   f'data-title="{esc(g["term"].lower())}"><div class="card-body">'
+                   f'data-title="{esc(g["term"].lower())}">'
+                   + (f'<img src="{gcov}" alt="{esc(g["term"])}" loading="lazy">' if gcov else "")
+                   + '<div class="card-body">'
                    f'<p class="eyebrow">Istilah pabrik</p><h3>{esc(g["term"])}</h3>'
                    f'<p>{esc(g["definisi"])}</p><p>{links}</p></div></article>\n')
     huruf_list = sorted(set(g["term"][0].upper() for g in glosarium))

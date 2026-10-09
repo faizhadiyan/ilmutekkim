@@ -39,5 +39,7 @@
  ],
  "arti_pabrik": "Bagi pabrik yang sedang menilai tawaran vendor digitalisasi, bedah ini memberi alat uji sederhana: minta vendor menempatkan produknya pada dimensi klasifikasi seperti ini. Produk yang hanya menampilkan data tanpa model proses yang hidup akan terlihat bedanya dari digital twin yang sesungguhnya. Kaitannya langsung dengan artikel control room dan DCS di situs ini. Penilaian ini adalah apresiasi redaksi, bukan klaim paper.",
  "vonis": "Baca full paper-nya",
- "vonis_alasan": "Nilai utama paper adalah kerangka klasifikasi dan rincian tantangannya, dan keduanya tidak terbawa abstrak. Abstrak cukup untuk mengetahui peta bidangnya, tidak cukup untuk memakai kerangkanya."
+ "vonis_alasan": "Nilai utama paper adalah kerangka klasifikasi dan rincian tantangannya, dan keduanya tidak terbawa abstrak. Abstrak cukup untuk mengetahui peta bidangnya, tidak cukup untuk memakai kerangkanya.",
+ "cover_file": "/home/hatch/workspace/ilmutekkim-web/cover-src/bedah-digital-twin-energi-industri.jpg",
+ "cover_credit": "Foto: mungart.com"
 }
