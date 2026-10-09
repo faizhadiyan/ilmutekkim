@@ -949,7 +949,7 @@ HEAD = """<!DOCTYPE html>
 {ogimg}<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/style.css?v=4">
+<link rel="stylesheet" href="/assets/css/style.css?v=5">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23131518'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='%23F4F4F2' font-family='Arial' font-weight='bold'>IT</text></svg>">
 </head>
 <body>
@@ -1404,7 +1404,7 @@ Di Instagram enak ditonton, di sini enak dibaca: tonton videonya, baca penjelasa
 <p class="lead">Setiap bedah di halaman ini ditulis dari abstrak paper yang terverifikasi: masalahnya apa, metodenya bagaimana, angka temuannya persis seperti tertulis, batasnya di mana, dan artinya apa buat pabrik. Di akhir selalu ada kesimpulan yang bisa langsung dipakai: paper ini perlu dibaca penuh, atau abstraknya saja sudah cukup.</p>
 <p class="meta">{len(research)} bedah jurnal &middot; campuran internasional dan Indonesia &middot; standar bedah: angka hanya dari abstrak, abstrak tidak disalin, selalu ada catatan kritis</p>
 </article>
-<section class="post wide">
+<section class="post wide tight">
 <h2>Rak bedah paten</h2>
 <p>Paten adalah dokumen teknologi yang terbuka: paten kedaluwarsa berarti teknologi yang bebas dipelajari dan dipakai sebagai titik awal, paten aktif berarti peta arah pemegangnya. Di rak ini paten klasik teknik kimia dibedah dengan standar yang sama: nomor, inventor, dan tanggal diverifikasi dari dokumen aslinya, klaimnya diparafrase, dan statusnya ditulis apa adanya. Saat ini ada {len(paten)} bedah paten.</p>
 <p><a class="btn" href="/riset/paten/">Buka rak bedah paten</a></p>
@@ -1471,7 +1471,7 @@ Di Instagram enak ditonton, di sini enak dibaca: tonton videonya, baca penjelasa
 <p class="lead">Setiap bedah di rak ini ditulis dari dokumen paten aslinya yang terbuka untuk umum: nomor, inventor, pemilik, dan tanggalnya diverifikasi, klaim intinya diparafrase dengan kata kami, cara kerjanya dijelaskan, batasnya dicatat, dan statusnya ditulis apa adanya. Paten yang sudah kedaluwarsa adalah dokumen publik: teknologinya bebas dipelajari siapa pun.</p>
 <p class="meta">{len(paten)} bedah paten &middot; standar bedah: data hanya dari dokumen paten, klaim diparafrase, status bersumber dan bertanggal akses</p>
 </article>
-<section class="post wide">
+<section class="post wide tight">
 <h2>Rak bedah jurnal</h2>
 <p>Bedah paper jurnal teknik kimia internasional dan Indonesia ada di halaman riset: masalah, metode, temuan persis dari abstrak, catatan kritis, dan kesimpulan baca.</p>
 <p><a class="btn" href="/riset/">Buka rak bedah jurnal</a></p>
