@@ -223,3 +223,31 @@ footer a{color:#fff}
 @media(min-width:761px){
   .burger{display:none}
 }
+
+/* Mode gelap (ILM): default mengikuti sistem, pilihan tersimpan */
+:root[data-theme="dark"]{--paper:#0C1118;--paper-2:#131A24;--card:#131A24;--rule:#26303F;--ink:#E9EEF6;--ink-2:#C7D3E6;--gray:#96A6BC;--gray-2:#647890;--blue:#82B4DC;--blue-2:#A5CBEA}
+:root[data-theme="dark"] footer{background:#0E0F11}
+:root[data-theme="dark"] .btn{background:#33566E;color:#fff}
+:root[data-theme="dark"] .btn:hover{background:#4A7290;color:#fff}
+:root[data-theme="dark"] .btn-ig{background:#33566E;color:#fff!important}
+:root[data-theme="dark"] .site-header nav{background:#0C1118;border-bottom-color:#26303F}
+:root[data-theme="dark"] .stepcard{background:#131A24;border-color:#26303F;box-shadow:none}
+:root[data-theme="dark"] .stepcard h2 a{color:#E9EEF6}
+:root[data-theme="dark"] .stepcard p{color:#B7C5DA}
+:root[data-theme="dark"] .calc-card{background:#131A24;color:#DDE6F2;border-color:#26303F;box-shadow:none}
+:root[data-theme="dark"] .calc-card h2{color:#E9EEF6}
+:root[data-theme="dark"] .calc-grid label{color:#96A6BC}
+:root[data-theme="dark"] .calc-grid input,:root[data-theme="dark"] .calc-grid select{background:#0C1118;border-color:#33445E;color:#E9EEF6}
+:root[data-theme="dark"] .calc-out strong{color:#E9EEF6}
+:root[data-theme="dark"] .paper-box{background:#131A24;border-color:#26303F}
+:root[data-theme="dark"] .cov-label{color:#67C7DE;border-color:#67C7DE}
+:root[data-theme="dark"] .quiz-opt.right{background:#12351F;border-color:#2E7D4F;color:#CFEBD9}
+:root[data-theme="dark"] .quiz-opt.wrong{background:#3D1713;border-color:#A03B2E;color:#F3D2CC}
+:root[data-theme="dark"] #search{background:#131A24;color:#E9EEF6;border-color:#33445E}
+:root[data-theme="dark"] .grid{background:#26303F}
+.theme-toggle{margin-left:auto;background:transparent;border:1.5px solid var(--ink);color:var(--ink);border-radius:999px;width:38px;height:38px;font-size:17px;line-height:1;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;padding:0}
+.theme-toggle:hover{background:var(--ink);color:var(--paper)}
+.theme-toggle .ic-sun{display:none}
+:root[data-theme="dark"] .theme-toggle .ic-sun{display:inline}
+:root[data-theme="dark"] .theme-toggle .ic-moon{display:none}
+@media(min-width:761px){.theme-toggle{margin-left:18px}}
