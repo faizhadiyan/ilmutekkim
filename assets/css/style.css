@@ -202,3 +202,8 @@ footer a{color:#fff}
 .stepcard h2 a:hover{color:#0066CC;text-decoration:underline}
 .stepcard p{color:#33383D;margin:0 0 10px}
 .stepcard p:last-child{margin-bottom:0}
+.calc-card{background:#fff;color:#22272E;border:1px solid #D9E1F0;box-shadow:0 2px 10px rgba(11,27,63,.06)}
+.calc-card h2{color:#0B1B3F}
+.calc-grid label{color:#556070}
+.calc-grid input,.calc-grid select{background:#fff;border-color:#B9C6DE;color:#131518}
+.calc-out strong{color:#0B1B3F}

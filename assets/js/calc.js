@@ -145,7 +145,7 @@ if (typeof document !== "undefined") {
     ctx.clearRect(0, 0, W, H);
     function X(x) { return pad + x * (W - 2 * pad); }
     function Y(y) { return H - pad - y * (H - 2 * pad); }
-    ctx.strokeStyle = "#29406e"; ctx.lineWidth = 1;
+    ctx.strokeStyle = "#C7D3EA"; ctx.lineWidth = 1;
     ctx.strokeRect(pad, pad, W - 2 * pad, H - 2 * pad);
     ctx.beginPath(); ctx.moveTo(X(0), Y(0)); ctx.lineTo(X(1), Y(1)); ctx.strokeStyle = "#666"; ctx.stroke();
     ctx.beginPath();
@@ -153,10 +153,10 @@ if (typeof document !== "undefined") {
     ctx.strokeStyle = "#00B4D8"; ctx.lineWidth = 2; ctx.stroke();
     ctx.lineWidth = 1.5; ctx.strokeStyle = "#F59E0B";
     ctx.beginPath(); ctx.moveTo(X(xB), Y(xB)); ctx.lineTo(X(res.intersect.x), Y(res.intersect.y)); ctx.lineTo(X(xD), Y(xD)); ctx.stroke();
-    ctx.strokeStyle = "#e8eefc"; ctx.beginPath();
+    ctx.strokeStyle = "#0066CC"; ctx.beginPath();
     res.points.forEach(function (pt, i2) { i2 ? ctx.lineTo(X(pt.x), Y(pt.y)) : ctx.moveTo(X(pt.x), Y(pt.y)); });
     ctx.stroke();
-    ctx.fillStyle = "#9fb4dd"; ctx.font = "11px sans-serif";
+    ctx.fillStyle = "#556070"; ctx.font = "11px sans-serif";
     ctx.fillText("x (cairan)", W / 2 - 24, H - 12);
     ctx.save(); ctx.rotate(-Math.PI / 2); ctx.fillText("y (uap)", -H / 2 - 20, 14); ctx.restore();
     ctx.fillText("kurva setimbang", X(0.62), Y(eqY(0.62, alpha)) - 6);
