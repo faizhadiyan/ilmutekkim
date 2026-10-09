@@ -1801,7 +1801,7 @@ Video dapat ditonton bersamaan dengan membaca penjelasan mendalam per subtopik, 
 
     # beranda
     series_list = sorted(set(a["series"] for a in articles))
-    chips = ('<button class="chip" data-series="Video Interaktif">Video Interaktif</button>'
+    chips = ('<button class="chip" data-series="Video">Video</button>'
              + "".join(f'<button class="chip" data-series="{esc(s)}">{esc(s)}</button>'
                        for s in series_list))
     cards = ""
@@ -1828,8 +1828,8 @@ Video dapat ditonton bersamaan dengan membaca penjelasan mendalam per subtopik, 
                  else '<div class="no-img">ilmutekkim</div>')
         extra = ' v-extra' if vi >= 4 else ""
         extstyle = ' style="display:none"' if vi >= 4 else ""
-        vstrip += (f'<article class="card vcard{extra}" data-series="Video Interaktif"{extstyle} '
-                   f'data-title="{esc(v["title"].lower())} {esc(v["tag"].lower())} video interaktif"><a href="/video/{v["slug"]}/">{thumb}'
+        vstrip += (f'<article class="card vcard{extra}" data-series="Video"{extstyle} '
+                   f'data-title="{esc(v["title"].lower())} {esc(v["tag"].lower())} video"><a href="/video/{v["slug"]}/">{thumb}'
                    f'<span class="play-badge">&#9654; {fmt_time(v["duration"])}</span></a><div class="card-body">'
                    f'<p class="eyebrow">{esc(v["tag"])}</p>'
                    f'<h3><a href="/video/{v["slug"]}/">{esc(v["title"])}</a></h3>'
