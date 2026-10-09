@@ -1,0 +1,44 @@
+{
+ "slug": "bedah-nanozirconia-tersulfat-hydrocracking",
+ "judul": "Nanozirconia tersulfat sebagai katalis asam padat untuk hydrocracking",
+ "topik": "Katalis dan material",
+ "negara": "Indonesia",
+ "paper_title": "Recent Progress on Sulfated Nanozirconia as a Solid Acid Catalyst in the Hydrocracking Reaction",
+ "authors": [
+  "Serly Jolanda Sekewael",
+  "Remi Ayu Pratika",
+  "Latifah Hauli",
+  "Amalia Kurnia Amin",
+  "Maisari Utami",
+  "Karna Wijaya"
+ ],
+ "year": 2022,
+ "journal": "Catalysts",
+ "doi": "https://doi.org/10.3390/catal12020191",
+ "coverage": "Berdasarkan abstrak",
+ "date_bedah": "2026-10-09",
+ "terkait": [
+  {
+   "type": "artikel",
+   "slug": "bbm-dari-sampah-plastik-pirolisis",
+   "title": "BBM dari Sampah Plastik: Pirolisis"
+  }
+ ],
+ "abstract_src": "Zirconia has advantageous thermal stability and acid–base properties. The acidity character of ZrO2 can be enhanced through the sulfation process forming sulfated zirconia (ZrO2-SO4). An acidity test of the catalyst produced proved that the sulfate loading succeeded in increasing the acidity of ZrO2 as confirmed by the presence of characteristic absorptions of the sulfate group from the FTIR spectra of the catalyst. The ZrO2-SO4 catalyst can be further modified with transition metals, such as Platinum (Pt), Chromium (Cr), and Nickel (Ni) to increase catalytic activity and catalyst stability. It was observed that variations in the concentrations of Pt, Cr, and Ni produced a strong influence on the catalytic activity as the acidity and porosity of the catalyst increased with their addition. The activity, selectivity, and catalytic stability tests of Pt/ZrO2-SO4, Cr/ZrO2-SO4 and Ni/ZrO2-SO4 were carried out with their application in the hydrocracking reaction to produce liquid fuel. The percentage of liquid fractions produced using these catalysts were higher than the fraction produced using pure ZrO2 and ZrO2-SO4 catalyst.",
+ "lead": "Zirconia yang disulfatasi berubah menjadi asam padat kuat, dan promosi platinum, kromium, atau nikel menaikkan lagi aktivitasnya untuk hydrocracking menjadi bahan bakar cair. Review ini merangkum kemajuan sulfated nanozirconia dan bukti fraksi cairnya mengalahkan zirconia murni.",
+ "masalah": "Zirconia memiliki stabilitas termal dan sifat asam-basa yang menguntungkan, dan keasamannya dapat ditingkatkan lewat sulfatasi membentuk sulfated zirconia. Paper ini meninjau kemajuan katalis nanozirconia tersulfat yang dimodifikasi logam transisi untuk reaksi hydrocracking penghasil bahan bakar cair.",
+ "metode": "Review kemajuan sintesis dan modifikasi sulfated zirconia (ZrO2-SO4) dengan logam transisi platinum, kromium, dan nikel pada berbagai konsentrasi. Bukti yang ditinjau mencakup uji keasaman katalis, serapan karakteristik gugus sulfat pada spektrum FTIR, serta uji aktivitas, selektivitas, dan stabilitas katalitik pada hydrocracking, dibandingkan terhadap ZrO2 murni dan ZrO2-SO4 tanpa promosi logam.",
+ "temuan": [
+  "Uji keasaman membuktikan pembebanan sulfat berhasil menaikkan keasaman ZrO2, dikonfirmasi serapan karakteristik gugus sulfat pada spektrum FTIR katalis.",
+  "Variasi konsentrasi Pt, Cr, dan Ni berpengaruh kuat pada aktivitas katalitik karena keasaman dan porositas katalis naik dengan penambahan logam tersebut.",
+  "Persentase fraksi cair yang dihasilkan katalis Pt/ZrO2-SO4, Cr/ZrO2-SO4, dan Ni/ZrO2-SO4 lebih tinggi daripada fraksi yang dihasilkan ZrO2 murni dan ZrO2-SO4."
+ ],
+ "batas": [
+  "Abstrak menyatakan fraksi cair lebih tinggi tanpa memuat satu pun angka persen, sehingga besar keunggulan katalis terpromosi belum bisa dinilai dari abstrak.",
+  "Ini review kemajuan dari kelompok riset yang aktif di material ini; perbandingan antar studi membawa umpan dan kondisi hydrocracking yang berbeda-beda.",
+  "Stabilitas katalis disebut sebagai cakupan uji, tetapi simpulan daya tahannya tidak diringkas di abstrak, padahal sulfat pada zirconia dikenal perlu dibuktikan ketahanannya terhadap air dan regenerasi."
+ ],
+ "arti_pabrik": "Hydrocracking adalah jantung pengubahan minyak berat dan minyak nabati menjadi bahan bakar cair. Katalis asam padat dari zirconia tersulfat adalah jalur riset Indonesia yang aktif, termasuk dari kelompok yang juga bekerja pada minyak jelantah. Bedah ini memberi konteks material untuk artikel pirolisis dan biodiesel di situs ini: beda rute, sama-sama bertumpu pada katalis asam. Penilaian ini adalah apresiasi redaksi, bukan klaim paper.",
+ "vonis": "Baca full paper-nya",
+ "vonis_alasan": "Klaim komparatif utamanya tidak disertai angka di abstrak. Pembaca yang ingin tahu seberapa besar kenaikan fraksi cair dan pada umpan apa harus membuka full text."
+}

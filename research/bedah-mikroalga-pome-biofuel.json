@@ -1,0 +1,44 @@
+{
+ "slug": "bedah-mikroalga-pome-biofuel",
+ "judul": "Mikroalga di POME: pengolah limbah sekaligus calon produsen biofuel",
+ "topik": "POME dan limbah sawit",
+ "negara": "Indonesia",
+ "paper_title": "Microalgae Cultivation in Palm Oil Mill Effluent (POME) Treatment and Biofuel Production",
+ "authors": [
+  "Sze Shin Low",
+  "Kien Xiang Bong",
+  "Muhammad Mubashir",
+  "Chin Kui Cheng",
+  "Man Kee Lam",
+  "Jun Wei Lim"
+ ],
+ "year": 2021,
+ "journal": "Sustainability",
+ "doi": "https://doi.org/10.3390/su13063247",
+ "coverage": "Berdasarkan abstrak",
+ "date_bedah": "2026-10-09",
+ "terkait": [
+  {
+   "type": "artikel",
+   "slug": "pabrik-kelapa-sawit-tandan-ke-cpo",
+   "title": "Pabrik Kelapa Sawit: Tandan ke CPO"
+  }
+ ],
+ "abstract_src": "Palm oil mill effluent (POME) is the wastewater produced during the palm oil sterilization process, which contains substantial amounts of nutrients and phosphorous that are harmful to the environment. High BOD and COD of POME are as high as 100,000 mg/L, which endanger the environment. Effective pre-treatment of POME is required before disposal. As microalgae have the ability of biosorption on nutrients and phosphorous to perform photosynthesis, they can be utilized as a sustainable POME treatment operation, which contributes to effective biofuel production. Microalgae species C. pyrenoidosa has shown to achieve 68% lipid production along with 71% nutrient reduction in POME. In this study, a brief discussion about the impacts of POME that will affect the environment is presented. Additionally, the potential of microalgae in treating POME is evaluated along with its benefits. Furthermore, the condition of microalgae growth in the POME is also assessed to study the suitable condition for microalgae to be cultivated in. Moreover, experimental studies on characteristics and performance of microalgae are being evaluated for their feasibility. One of the profitable applications of POME treatment using microalgae is biofuel production, which will be discussed in this review. However, with the advantages brought from cultivating microalgae in POME, there are also some concerns, as microalgae will cause pollution if they are not handled well, as discussed in the last section of this paper.",
+ "lead": "POME membawa BOD dan COD yang bisa mencapai 100.000 mg/L. Review ini menilai mikroalga sebagai pengolahnya: menyerap nutrien dan fosfor untuk fotosintesis, menurunkan beban limbah, dan pada saat yang sama mengakumulasi lipid untuk biofuel.",
+ "masalah": "Palm oil mill effluent dari proses sterilisasi mengandung nutrien dan fosfor dalam jumlah besar yang berbahaya bagi lingkungan, dengan BOD dan COD setinggi 100.000 mg/L. Pretreatment yang efektif wajib dilakukan sebelum pembuangan. Mikroalga dinilai dapat menjadi operasi pengolahan POME yang berkelanjutan karena mampu menyerap nutrien dan fosfor untuk fotosintesis sekaligus berkontribusi pada produksi biofuel.",
+ "metode": "Review atas dampak POME terhadap lingkungan, potensi mikroalga untuk mengolah POME beserta manfaatnya, kondisi pertumbuhan mikroalga di POME, studi eksperimental karakteristik dan kinerja mikroalga, aplikasi produksi biofuel dari pengolahan POME dengan mikroalga, dan kekhawatiran bahwa mikroalga sendiri menjadi polutan bila tidak ditangani dengan baik.",
+ "temuan": [
+  "BOD dan COD POME dilaporkan setinggi 100.000 mg/L, angka yang menjelaskan mengapa pembuangan tanpa pengolahan membahayakan lingkungan.",
+  "Satu spesies yang ditinjau, C. pyrenoidosa, dilaporkan mencapai produksi lipid 68% bersamaan dengan reduksi nutrien 71% di POME.",
+  "Review menilai pengolahan POME dengan mikroalga membuka aplikasi yang menguntungkan berupa produksi biofuel, dengan catatan mikroalga dapat berbalik menjadi polutan bila tidak ditangani dengan baik."
+ ],
+ "batas": [
+  "Angka lipid 68% dan reduksi nutrien 71% berasal dari studi primer yang ditinjau, bukan hasil agregasi review ini; kondisi kultur di balik angka itu menentukan apakah ia bisa diulang di POME pabrik lain.",
+  "Abstrak tidak memuat laju pertumbuhan, produktivitas lipid per volume, atau kebutuhan lahan dan cahaya, sehingga kelayakan skala belum bisa dinilai dari abstrak.",
+  "POME mentah bersifat pekat dan keruh; abstrak tidak menjelaskan seberapa sering studi yang ditinjau memakai POME yang diencerkan atau diolah awal, padahal itu menentukan kesiapan prosesnya."
+ ],
+ "arti_pabrik": "Daya tariknya bagi pabrik sawit adalah dua fungsi dalam satu unit: menurunkan beban IPAL dan menghasilkan biomassa berlipid. Tetapi bedah ini juga menunjukkan jaraknya: yang terbukti di literatur adalah kinerja kultur, belum tentu unit proses yang ekonomis di dalam pabrik. Ini bahan baca pendamping yang realistis untuk artikel pabrik kelapa sawit di situs ini. Penilaian ini adalah apresiasi redaksi, bukan klaim paper.",
+ "vonis": "Cukup baca abstraknya",
+ "vonis_alasan": "Kerangka peluang dan kekhawatirannya, termasuk angka kinerja spesies yang paling menonjol, sudah tersampaikan di abstrak. Full text diperlukan bila pembaca ingin kondisi kultur dan perbandingan antar spesies secara rinci."
+}

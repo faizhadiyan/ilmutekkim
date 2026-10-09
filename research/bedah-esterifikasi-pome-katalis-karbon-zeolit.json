@@ -1,0 +1,47 @@
+{
+ "slug": "bedah-esterifikasi-pome-katalis-karbon-zeolit",
+ "judul": "Esterifikasi asam lemak bebas POME dengan katalis karbon-zeolit tersulfonasi",
+ "topik": "POME dan limbah sawit",
+ "negara": "Indonesia",
+ "paper_title": "Esterification of Free Fatty Acid in Palm Oil Mill Effluent using Sulfated Carbon-Zeolite Composite Catalyst",
+ "authors": [
+  "Hasanudin Hasanudin",
+  "Qodria Utami Putri",
+  "Tuty Emilia Agustina",
+  "Fitri Hadiah"
+ ],
+ "year": 2022,
+ "journal": "Pertanika journal of science & technology",
+ "doi": "https://doi.org/10.47836/pjst.30.1.21",
+ "coverage": "Berdasarkan abstrak",
+ "date_bedah": "2026-10-09",
+ "terkait": [
+  {
+   "type": "artikel",
+   "slug": "pabrik-kelapa-sawit-tandan-ke-cpo",
+   "title": "Pabrik Kelapa Sawit: Tandan ke CPO"
+  },
+  {
+   "type": "artikel",
+   "slug": "oleokimia-sawit-sabun-deterjen",
+   "title": "Oleokimia Sawit: Sabun dan Deterjen"
+  }
+ ],
+ "abstract_src": "Free fatty acid esterification (FFA) in palm oil mill waste (POME) was carried out using a sulfonated carbon-zeolite composite catalyst. The catalyst is synthesized with carbon precursor obtained from molasses, which is adsorbed on the surface of the zeolite and then carbonized and sulfonated with concentrated H2SO4 to form a sulfonated carbon-zeolite catalyst composite, which will be used for the esterification catalyst and the optimization process for the esterification reaction is carried out using the response surface methodology (RSM) and experimental central composite design (CCD). Importantly, the observed independent variables were temperature, catalyst weight, and reaction time to produce fatty acid methyl ester (FAME) products. The catalyst was successfully synthesized, which was shown from the SEM characterization strengthened by the presence of a sulfate group in the FTIR results and the calculation results of high acidity properties. Optimization of FFA esterification with SCZ catalyst obtained optimal conditions with a temperature of 79oC, a catalyst weight of 3.00 g, and a reaction time of 134 minutes with a FAME product of 93.75%, considering that the viscosity of biodiesel is below that required by the API.",
+ "lead": "Asam lemak bebas di limbah cair pabrik sawit diesterifikasi menjadi FAME memakai katalis komposit karbon-zeolit tersulfonasi yang karbonnya berasal dari molase. Optimasi statistiknya menemukan titik terbaik dengan produk FAME 93,75%.",
+ "masalah": "POME mengandung asam lemak bebas yang berpotensi menjadi bahan bakar, tetapi perlu diesterifikasi menjadi fatty acid methyl ester. Studi ini mensintesis katalis komposit karbon-zeolit tersulfonasi dan mengoptimalkan reaksi esterifikasinya agar FAME yang dihasilkan maksimal.",
+ "metode": "Prekursor karbon dari molase diadsorpsi ke permukaan zeolit, lalu dikarbonisasi dan disulfonasi dengan H2SO4 pekat membentuk komposit karbon-zeolit tersulfonasi (SCZ). Keberhasilan sintesis ditunjukkan karakterisasi SEM, gugus sulfat pada FTIR, dan sifat keasaman yang tinggi. Optimasi memakai response surface methodology dengan central composite design atas tiga variabel: suhu, berat katalis, dan waktu reaksi.",
+ "temuan": [
+  "Kondisi optimum esterifikasi FFA dengan katalis SCZ adalah suhu 79 °C, berat katalis 3,00 g, dan waktu reaksi 134 menit.",
+  "Pada kondisi optimum itu produk FAME mencapai 93,75%.",
+  "Abstrak menambahkan viskositas biodiesel berada di bawah nilai yang disyaratkan dalam rujukan yang mereka pakai."
+ ],
+ "batas": [
+  "Berat katalis optimum dinyatakan dalam gram tanpa basis volume atau massa umpan di abstrak, sehingga kondisi ini belum bisa diskalakan atau dibandingkan antar studi dari abstrak saja.",
+  "Skala uji adalah laboratorium dan umpannya POME model studi; kadar FFA awal POME, kadar air, dan uji pakai ulang katalis tidak dilaporkan di abstrak.",
+  "Rujukan syarat viskositas ditulis tidak lazim di abstrak, sehingga klaim mutu produk perlu diverifikasi ke full text dan standar biodiesel yang berlaku."
+ ],
+ "arti_pabrik": "Mengubah FFA di POME menjadi FAME berarti limbah cair pabrik sawit diperlakukan sebagai bahan baku, bukan hanya beban IPAL. Katalisnya sendiri memanfaatkan molase, produk samping industri gula, sehingga rantainya tetap berada di dalam agroindustri Indonesia. Jalur ini melengkapi artikel pabrik kelapa sawit dan oleokimia di situs ini. Penilaian ini adalah apresiasi redaksi, bukan klaim paper.",
+ "vonis": "Baca full paper-nya",
+ "vonis_alasan": "Titik optimum dan hasil FAME-nya jelas, tetapi basis dosis katalis, karakteristik umpan, dan data model RSM yang menentukan validitas optimum itu hanya ada di full text."
+}

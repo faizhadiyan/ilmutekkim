@@ -1,0 +1,44 @@
+{
+ "slug": "bedah-biodiesel-minyak-campuran",
+ "judul": "Biodiesel dari minyak campuran: menjawab ketersediaan bahan baku",
+ "topik": "Katalis dan biodiesel",
+ "negara": "Internasional",
+ "paper_title": "Biodiesel production from mixed oils: A sustainable approach towards industrial biofuel production",
+ "authors": [
+  "Sujata Brahma",
+  "Biswajit Nath",
+  "Bidangshri Basumatary",
+  "Bipul Das",
+  "Pankaj Saikia",
+  "Khemnath Patir"
+ ],
+ "year": 2022,
+ "journal": "Chemical Engineering Journal Advances",
+ "doi": "https://doi.org/10.1016/j.ceja.2022.100284",
+ "coverage": "Berdasarkan abstrak",
+ "date_bedah": "2026-10-09",
+ "terkait": [
+  {
+   "type": "artikel",
+   "slug": "b40-biodiesel-sawit-transesterifikasi",
+   "title": "B40 Biodiesel Sawit: Transesterifikasi"
+  }
+ ],
+ "abstract_src": "Biodiesel is considered eco-friendly, biodegradable, non-toxic, and carbon-neutral fuel. It is made from edible or non-edible oil feedstocks including other triglyceride sources. The production of biodiesel depends on the availability of a particular feedstock and the cost of desired raw materials. Biodiesel is mainly produced by the transesterification process using a suitable catalyst preferably a heterogeneous catalyst as it is more beneficial in terms of reusability, recovery, product purity, and production cost as well. Various reactors are developed to produce cost-effective biodiesel at the commercial level. The latest trend in biodiesel synthesis is the application of the machine learning (ML) technique to optimize the process parameters. The application of a mixture of two or more oils as feedstock either non-edible or edible oil is emphasized for biodiesel synthesis and is presently getting more importance. In this paper, the production of biodiesel from various mixed oil (hybrid oil) is reviewed and the effects of mixed oil on the reaction, physicochemical properties, fatty acid composition, and fuel quality of the product are discussed. The study highlighted the activity of various catalysts in the reaction of mixed oil and the economic feasibility. It was found that the ratio of mixed oil is an important factor in terms of conversion and quality of biodiesel. It is also revealed that the application of the ML technique is essentially useful to optimize production efficiency. The utilization of mixed oils will overcome the issues related to the non-availability of feedstocks and reduce the overall cost with improved quality of biodiesel. This approach enhances the production possibility of biodiesel at a large-scale and may boost the biorefinery sector satisfying the future energy demand if the research at the advanced level goes in the right direction.",
+ "lead": "Produksi biodiesel tersandung ketersediaan dan harga bahan baku tunggal. Review ini menilai jalan keluar yang sedang naik: mencampur dua minyak atau lebih sebagai umpan transesterifikasi, dan memakai machine learning untuk mengoptimalkan parameter prosesnya.",
+ "masalah": "Biodiesel dibuat dari minyak nabati yang dapat dimakan maupun tidak, dan produksinya bergantung pada ketersediaan bahan baku tertentu serta harga bahan mentahnya. Pemakaian campuran dua minyak atau lebih ditekankan untuk sintesis biodiesel dan makin penting untuk mengatasi ketidaktersediaan bahan baku dan menekan biaya keseluruhan dengan mutu yang membaik.",
+ "metode": "Review produksi biodiesel dari berbagai minyak campuran (hybrid oil): pengaruh minyak campuran terhadap reaksi, sifat fisikokimia, komposisi asam lemak, dan mutu bahan bakar produk; aktivitas berbagai katalis pada reaksi minyak campuran; kelayakan ekonomi; serta pemakaian teknik machine learning untuk mengoptimalkan parameter proses. Konteksnya adalah transesterifikasi dengan preferensi katalis heterogen karena dapat dipakai ulang, mudah dipulihkan, kemurnian produk, dan biaya produksi.",
+ "temuan": [
+  "Rasio minyak campuran adalah faktor penting yang menentukan konversi dan mutu biodiesel.",
+  "Penerapan teknik machine learning dinilai sangat berguna untuk mengoptimalkan efisiensi produksi biodiesel.",
+  "Pemanfaatan minyak campuran dapat mengatasi masalah ketidaktersediaan bahan baku dan menurunkan biaya keseluruhan dengan mutu biodiesel yang membaik, sekaligus menaikkan kemungkinan produksi skala besar."
+ ],
+ "batas": [
+  "Abstrak tidak memuat angka konversi, biaya, atau sifat bahan bakar dari studi mana pun, sehingga besarnya keuntungan minyak campuran belum bisa dinilai dari abstrak.",
+  "Simpulan tentang machine learning dinyatakan umum tanpa menyebut model, data, atau akurasi, jadi klaim ini belum bisa diuji dari abstrak.",
+  "Review menyatukan studi dengan minyak dan katalis berbeda-beda; rasio campuran optimal dari satu studi tidak otomatis berlaku untuk umpan lain."
+ ],
+ "arti_pabrik": "Untuk Indonesia yang memiliki sawit, jarak, kemiri sunan, dan minyak jelantah, gagasan umpan campuran relevan dengan fleksibilitas pasokan pabrik biodiesel: pabrik tidak harus bergantung pada satu komoditas. Bedah ini melengkapi artikel biodiesel di situs ini dari sisi strategi bahan baku. Penilaian ini adalah apresiasi redaksi, bukan klaim paper.",
+ "vonis": "Cukup baca abstraknya",
+ "vonis_alasan": "Peta argumennya, dari peran rasio campuran sampai machine learning dan kelayakan ekonomi, sudah tersampaikan di abstrak. Full text diperlukan hanya bila pembaca ingin data konversi dan mutu per kombinasi minyak."
+}

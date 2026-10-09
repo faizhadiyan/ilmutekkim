@@ -1,0 +1,40 @@
+{
+ "slug": "bedah-elektrolisis-hidrogen-hijau",
+ "judul": "Elektrolisis air untuk hidrogen hijau: teknologi, material, dan biaya",
+ "topik": "Hidrogen dan energi",
+ "negara": "Internasional",
+ "paper_title": "An overview of water electrolysis technologies for green hydrogen production",
+ "authors": [
+  "S. Shiva Kumar",
+  "Hankwon Lim"
+ ],
+ "year": 2022,
+ "journal": "Energy Reports",
+ "doi": "https://doi.org/10.1016/j.egyr.2022.10.127",
+ "coverage": "Berdasarkan abstrak",
+ "date_bedah": "2026-10-09",
+ "terkait": [
+  {
+   "type": "artikel",
+   "slug": "gas-alam-ke-urea-haber-bosch",
+   "title": "Gas Alam ke Urea: Haber-Bosch dan Rantai Pupuk"
+  }
+ ],
+ "abstract_src": "Decarbonizing the planet is one of the major goals that countries around the world have set for 2050 to mitigate the effects of climate change. To achieve these goals, green hydrogen that can be produced from the electrolysis of water is an important key solution to tackle global decarbonization. Consequently, in recent years there is an increase in interest towards green hydrogen production through the electrolysis process for large-scale implementation of renewable energy-based power plants and other industrial, and transportation applications. The main objective of this study was to provide a comprehensive review of various green hydrogen production technologies especially on water electrolysis. In this review, various water electrolysis technologies and their techno-commercial prospects including hydrogen production cost, along with recent developments in electrode materials, and their challenges were summarized. Further some of the most successful results also were described. Moreover this review aims to identify the gaps in water electrolysis research and development towards the techno-commercial perspective. In addition, some of the commercial electrolyzer performances and their limitations also were described along with possible solutions for cost-effective hydrogen production Finally, we outlined our ideas, and possible solutions for driving cost-effective green hydrogen production for commercial applications. This information will provide future research directions and a road map for the development/implementation of commercially viable green hydrogen projects.",
+ "lead": "Hidrogen hijau dari elektrolisis air diposisikan sebagai kunci dekarbonisasi menuju target 2050. Review ini merangkum teknologi elektrolisisnya, prospek tekno-komersial termasuk biaya produksinya, dan perkembangan material elektrodanya.",
+ "masalah": "Minat pada hidrogen hijau lewat elektrolisis naik untuk implementasi skala besar pada pembangkit berbasis energi terbarukan, industri, dan transportasi. Yang dibutuhkan adalah tinjauan komprehensif atas teknologi elektrolisis air beserta prospek tekno-komersialnya, termasuk biaya produksi hidrogen, material elektroda, dan tantangannya.",
+ "metode": "Review literatur atas berbagai teknologi elektrolisis air untuk produksi hidrogen hijau: prospek tekno-komersial dan biaya produksi, perkembangan material elektroda, tantangan, hasil-hasil paling berhasil yang dilaporkan, kinerja electrolyzer komersial dan batasannya, serta identifikasi kesenjangan riset dan pengembangan dari sudut pandang tekno-komersial.",
+ "temuan": [
+  "Hidrogen hijau dari elektrolisis air diposisikan sebagai solusi kunci dekarbonisasi planet menuju target yang ditetapkan banyak negara untuk 2050.",
+  "Review menyimpulkan gambaran teknologi elektrolisis mesti dibaca bersama biaya produksinya: biaya adalah poros penilaian tekno-komersial, bukan sekadar efisiensi.",
+  "Penulis menguraikan kinerja electrolyzer komersial beserta batasannya dan menawarkan gagasan solusi menuju produksi hidrogen hijau yang hemat biaya untuk aplikasi komersial, sekaligus arah riset dan peta jalan implementasi proyek yang layak komersial."
+ ],
+ "batas": [
+  "Abstrak tidak memuat satu pun angka biaya hidrogen per teknologi elektrolisis, padahal biaya dinyatakan sebagai cakupan review. Perbandingan teknologi secara kuantitatif tidak bisa dibuat dari abstrak.",
+  "Abstrak tidak menamai teknologi elektrolisis satu per satu, sehingga pembaca belum bisa memetakan teknologi mana yang dinilai paling siap komersial.",
+  "Sebagai review, simpulan tentang solusi hemat biaya bersifat usulan penulis, bukan hasil pengujian mereka sendiri."
+ ],
+ "arti_pabrik": "Di situs ini hidrogen selama ini dibahas dari rute gas alam (hidrogen biru dan Haber-Bosch). Bedah ini adalah sisi lainnya: rute listrik dari air. Bagi perencana energi pabrik, pertanyaan praktisnya bergeser dari harga gas ke harga listrik dan biaya electrolyzer, dan review ini memberi kerangka tekno-komersial untuk menilainya. Penilaian ini adalah apresiasi redaksi, bukan klaim paper.",
+ "vonis": "Baca full paper-nya",
+ "vonis_alasan": "Angka biaya produksi per teknologi dan kinerja electrolyzer komersial yang menjadi nilai utama review ini hanya disebut sebagai cakupan di abstrak. Isi kuantitatifnya ada di full text."
+}

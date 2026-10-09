@@ -1,0 +1,41 @@
+{
+ "slug": "bedah-biogas-pome-listrik-tekno-ekonomi",
+ "judul": "Biogas POME menjadi listrik: bersih secara teknis, tipis secara ekonomi",
+ "topik": "POME dan limbah sawit",
+ "negara": "Indonesia",
+ "paper_title": "Biogas Power Generation from Palm Oil Mill Effluent (POME): Techno-Economic and Environmental Impact Evaluation",
+ "authors": [
+  "Ahyahudin Sodri",
+  "Fentinur Evida Septriana"
+ ],
+ "year": 2022,
+ "journal": "Energies",
+ "doi": "https://doi.org/10.3390/en15197265",
+ "coverage": "Berdasarkan abstrak",
+ "date_bedah": "2026-10-09",
+ "terkait": [
+  {
+   "type": "artikel",
+   "slug": "pabrik-kelapa-sawit-tandan-ke-cpo",
+   "title": "Pabrik Kelapa Sawit: Tandan ke CPO"
+  }
+ ],
+ "abstract_src": "Using palm oil mill effluent (POME) to produce biogas is an alternative and sustainable way to control POME GHG emissions while also providing economic benefits. The increasing area of oil palm plantations encourages an increase in palm oil production and the generation of POME in Indonesia. This could increase potential GHG emissions and global warming. In contrast, biogas power plants from POME are less attractive for economic investment in Indonesia. However, as the world’s largest palm oil producer, Indonesia still lacks techno-economic and environmental studies of biogas power generation from POME. This study aimed to evaluate the technical, economic, and environmental aspects of the biogas power generation from POME at the study site (Bangka Island, Indonesia). The result shows that the biogas plant at the study site can reduce COD levels of POME by up to 91% and produce biogas at 325,292 m3/month, with a 55% methane content. Biogas can be converted into electrical energy at 696,163 kWh/month. The operation of this biogas plant can reduce GHG emissions by 1131 tons CO2-eq/month, with low profitability (NPV of IDR—1,281,136,274, IRR 6.75%, and a payback period of 10.8 years). This evaluation proves that the main problem in the factory is the POME used, which is insufficient, and which could be overcome by purchasing POME from other palm oil mills. Furthermore, using the mesophilic anaerobic degradation process at the study site is feasible. However, a technological shift from closed lagoons to more efficient bioreactors is urgently needed, to increase the process efficiency and economic benefits.",
+ "lead": "Pembangkit listrik biogas dari limbah cair pabrik sawit di Bangka menurunkan COD sampai 91% dan memangkas emisi ribuan ton CO2-eq per tahun, tetapi nilai NPV-nya negatif. Studi tekno-ekonomi ini menunjukkan masalah utamanya bukan teknologi, melainkan POME yang tidak cukup.",
+ "masalah": "Luas areal sawit yang naik menaikkan produksi minyak sawit dan POME di Indonesia, yang berpotensi menaikkan emisi gas rumah kaca. Biogas dari POME adalah cara berkelanjutan mengendalikan emisi itu sambil memberi manfaat ekonomi, tetapi pembangkit listrik biogas POME kurang menarik untuk investasi di Indonesia dan studi tekno-ekonomi serta lingkungannya masih kurang, padahal Indonesia produsen sawit terbesar dunia.",
+ "metode": "Evaluasi teknis, ekonomi, dan lingkungan pembangkit listrik biogas dari POME pada satu lokasi studi di Pulau Bangka: kinerja penurunan COD dan produksi biogas, konversi menjadi energi listrik, reduksi emisi gas rumah kaca, serta kelayakan ekonomi lewat NPV, IRR, dan payback period, dengan proses degradasi anaerobik mesofilik pada konfigurasi closed lagoon.",
+ "temuan": [
+  "Pabrik biogas di lokasi studi menurunkan kadar COD POME sampai 91% dan menghasilkan biogas 325.292 m3 per bulan dengan kandungan metana 55%.",
+  "Biogas itu dapat dikonversi menjadi energi listrik 696.163 kWh per bulan.",
+  "Operasinya mereduksi emisi gas rumah kaca 1131 ton CO2-eq per bulan.",
+  "Profitabilitasnya rendah: IRR 6,75% dan payback period 10,8 tahun, dengan NPV yang dilaporkan abstrak bertanda negatif. Masalah utama yang diidentifikasi adalah POME yang dipakai tidak mencukupi, yang dapat diatasi dengan membeli POME dari pabrik sawit lain, dan penulis menilai pergeseran teknologi dari closed lagoon ke bioreaktor yang lebih efisien sangat dibutuhkan."
+ ],
+ "batas": [
+  "Seluruh angka berasal dari satu lokasi studi di Bangka dengan pasokan POME-nya sendiri; pabrik dengan skala dan tarif listrik berbeda akan mendapatkan ekonomi yang berbeda.",
+  "Tanda negatif NPV terbaca dari konteks profitabilitas rendah dan cara abstrak menuliskan nilainya; asumsi harga listrik, biaya investasi, dan biaya operasi di balik angka itu tidak dibuka di abstrak.",
+  "Penurunan COD 91% adalah kinerja lingkungan yang kuat, tetapi abstrak tidak merinci kualitas efluen akhir terhadap baku mutu, jadi kepatuhan buangan belum bisa dinilai dari abstrak."
+ ],
+ "arti_pabrik": "Ini potret jujur ekonomi biogas POME Indonesia: teknologi anaerobiknya bekerja, tetapi skala umpan dan tarif menentukan hidup matinya investasi. Pelajaran yang bisa dibawa ke pabrik lain adalah urutan diagnosisnya: cek kecukupan POME dulu sebelum menyalahkan teknologi, dan pertimbangkan bioreaktor bila lagoon tidak lagi efisien. Penilaian ini adalah apresiasi redaksi, bukan klaim paper.",
+ "vonis": "Baca full paper-nya",
+ "vonis_alasan": "Hasil akhirnya lengkap di abstrak, tetapi keputusan investasi menuntut asumsi di balik NPV dan IRR: tarif listrik, capex, dan biaya angkut POME. Asumsi itu hanya ada di full text."
+}

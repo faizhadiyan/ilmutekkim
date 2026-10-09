@@ -1,0 +1,49 @@
+{
+ "slug": "bedah-hydrocracking-minyak-jelantah-biogasoline",
+ "judul": "Hydrocracking minyak jelantah menjadi biogasoline dengan katalis Ni dan Mo",
+ "topik": "Katalis dan biodiesel",
+ "negara": "Indonesia",
+ "paper_title": "Catalytic Hydrocracking of Fresh and Waste Frying Oil over Ni- and Mo-Based Catalysts Supported on Sulfated Silica for Biogasoline Production",
+ "authors": [
+  "Karna Wijaya",
+  "Asma Nadia",
+  "Arina Dinana",
+  "Amalia Febia Pratiwi",
+  "Alfrets Daniel Tikoalu",
+  "Arief Cahyo Wibowo"
+ ],
+ "year": 2021,
+ "journal": "Catalysts",
+ "doi": "https://doi.org/10.3390/catal11101150",
+ "coverage": "Berdasarkan abstrak",
+ "date_bedah": "2026-10-09",
+ "terkait": [
+  {
+   "type": "artikel",
+   "slug": "bbm-dari-sampah-plastik-pirolisis",
+   "title": "BBM dari Sampah Plastik: Pirolisis"
+  },
+  {
+   "type": "artikel",
+   "slug": "b40-biodiesel-sawit-transesterifikasi",
+   "title": "B40 Biodiesel Sawit: Transesterifikasi"
+  }
+ ],
+ "abstract_src": "The synthesis of a sulfated silica catalyst and its modification with Ni and/or Mo metal, along with its application for the hydrocracking of fresh and waste frying oil into biogasoline, were conducted. Synthesis of the catalysts was initiated with the sulfation of silica (SiO2) material by H2SO4 using the sol-gel method. Ni and/or Mo metal were impregnated into the SO4/SiO2 matrix with concentration variations of 1, 2, and 3 wt%. The sulfation process and promotion by Molybdenum (Mo) metal in the modified catalyst successfully increased the catalytic activity and selectivity. Among the catalysts investigated, Ni-SS2 exhibited the best performance for the hydrocracking reaction with waste frying oil. This catalyst was able to achieve a conversion of the liquid product of 71.47% and a selectivity of 58.73% for the gasoline fraction (C5-C12). NiMo-SS3 showed the highest percentage of activity and selectivity in the hydrocracking of fresh frying oil at 51.50 and 43.22 wt%, respectively.",
+ "lead": "Minyak goreng bekas dihidrocracking menjadi fraksi gasoline memakai katalis silika tersulfat yang dipromosi nikel dan molibdenum. Katalis terbaiknya berbeda untuk minyak bekas dan minyak segar, dan angka konversi serta selektivitasnya dilaporkan terbuka di abstrak.",
+ "masalah": "Studi ini mensintesis katalis silika tersulfat beserta modifikasi logam Ni dan Mo, lalu mengaplikasikannya untuk hydrocracking minyak goreng segar dan minyak goreng bekas menjadi biogasoline, mencari promosi logam dan kadar yang memberi aktivitas dan selektivitas terbaik.",
+ "metode": "Sulfatasi silika (SiO2) dengan H2SO4 memakai metode sol-gel, lalu impregnasi logam Ni dan/atau Mo ke matriks SO4/SiO2 dengan variasi kadar 1, 2, dan 3 wt%. Katalis diuji pada hydrocracking minyak goreng segar dan bekas, dinilai dari konversi produk cair dan selektivitas fraksi gasoline C5-C12.",
+ "temuan": [
+  "Proses sulfatasi dan promosi logam Mo pada katalis termodifikasi berhasil menaikkan aktivitas katalitik dan selektivitas.",
+  "Untuk minyak goreng bekas, katalis terbaik adalah Ni-SS2 dengan konversi produk cair 71,47% dan selektivitas fraksi gasoline (C5-C12) sebesar 58,73%.",
+  "Untuk minyak goreng segar, NiMo-SS3 menunjukkan aktivitas dan selektivitas tertinggi sebesar 51,50 dan 43,22 wt% sebagaimana ditulis abstrak."
+ ],
+ "batas": [
+  "Istilah konversi produk cair yang dipakai abstrak tidak lazim; apakah basisnya konversi umpan atau rendemen produk cair perlu dipastikan di full text sebelum angkanya dibandingkan dengan studi lain.",
+  "Penulisan angka aktivitas untuk minyak segar tidak konsisten satuannya di abstrak (51,50 tanpa satuan eksplisit di kalimat yang sama), detail yang harus dicek sebelum dikutip.",
+  "Eksperimen ini skala laboratorium dengan umpan minyak goreng model; minyak jelantah lapangan yang beragam, katalis pakai ulang, dan neraca hidrogen belum terlihat di abstrak."
+ ],
+ "arti_pabrik": "Indonesia menghasilkan minyak jelantah dalam volume besar dari rumah tangga dan industri makanan. Jalur hydrocracking seperti ini berbeda dari biodiesel transesterifikasi: produknya hidrokarbon fraksi gasoline, bukan metil ester. Bedah ini menunjukkan riset katalis Indonesia bekerja pada dua jalur bahan bakar terbarukan sekaligus. Penilaian ini adalah apresiasi redaksi, bukan klaim paper.",
+ "vonis": "Baca full paper-nya",
+ "vonis_alasan": "Angka utamanya ada di abstrak, tetapi definisi konversi, kondisi reaksi (suhu, tekanan, waktu), dan karakterisasi katalis yang menentukan kredibilitas angka itu hanya ada di full text."
+}

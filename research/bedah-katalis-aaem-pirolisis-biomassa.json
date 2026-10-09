@@ -1,0 +1,42 @@
+{
+ "slug": "bedah-katalis-aaem-pirolisis-biomassa",
+ "judul": "Logam alkali dan alkali tanah: katalis bawaan yang mengubah pirolisis biomassa",
+ "topik": "Biomassa dan pirolisis",
+ "negara": "Internasional",
+ "paper_title": "Review on the catalytic effects of alkali and alkaline earth metals (AAEMs) including sodium, potassium, calcium and magnesium on the pyrolysis of lignocellulosic biomass and on the co-pyrolysis of coal with biomass",
+ "authors": [
+  "Wei Wang",
+  "R. Lemaire",
+  "Ammar Bensakhria",
+  "Denis Luart"
+ ],
+ "year": 2022,
+ "journal": "Journal of Analytical and Applied Pyrolysis",
+ "doi": "https://doi.org/10.1016/j.jaap.2022.105479",
+ "coverage": "Berdasarkan abstrak",
+ "date_bedah": "2026-10-09",
+ "terkait": [
+  {
+   "type": "artikel",
+   "slug": "bbm-dari-sampah-plastik-pirolisis",
+   "title": "BBM dari Sampah Plastik: Pirolisis"
+  }
+ ],
+ "abstract_src": "Alongside the development of pyrolysis processes aimed at converting solid biomass into upgraded biofuels and biochemicals, interest has been growing in the analysis of the catalytic effects induced by inherent or externally added alkali and alkaline earth metals (AAEMs). These AAEMs greatly affect the thermal conversion of biomass, although their effects are only partly understood. Furthermore, while coal currently plays a major role in global energy demand, its massive use in a carbon-constrained world has prompted the need to identify alternative and carbon-neutral energy sources. In this context, the co-pyrolysis of biomass with coal has been shown to be a promising way to support the transition from fossil to renewable energy carriers. Because AAEMs can significantly impact such a co-processing approach, there is therefore the need for a firm understanding of their catalytic role. Consequently, and to examine and summarize the main research advances that have been made in this field, the present review first covers a description of the main properties of lignocellulosic biomass and coal, along with their decomposition processes. It then focuses on AAEM catalysts and on their impact on pyrolysis reaction pathways and kinetics. In terms of highlights, the review illustrates that the presence of inherent or impregnated AAEMs shifts the decomposition of biomass to lower temperatures while increasing the char and gas yields at the expense of bio-oil. Moreover, these effects depend significantly on the nature of the catalyst considered and on the way it is mixed with biomass. As examples, potassium tends to favor the production of low molecular weight compounds and gaseous species, magnesium promotes dehydration reactions, whereas calcium and magnesium oxides allow to upgrade volatiles by deoxygenation and deacidification. A discussion of pyrolysis reaction mechanisms is also proposed by reviewing the different pathways involved in the decomposition of the main components of biomass and coal, noting that the emphasis is particularly on the changes induced by AAEM catalysts. The synergistic effects between coal and biomass which are likely to enhance the co-pyrolysis process are then discussed. Eventually, a comprehensive reaction pathway is proposed to better explain the important role played by AAEM catalysts during primary and secondary pyrolysis reactions.",
+ "lead": "Biomassa membawa katalisnya sendiri. Logam alkali dan alkali tanah yang terkandung di dalamnya, atau ditambahkan dari luar, terbukti menggeser suhu dekomposisi, mengubah nisbah char, gas, dan bio-oil, bahkan meningkatkan mutu volatil. Review ini membedah peran Na, K, Ca, dan Mg pada pirolisis dan ko-pirolisis batu bara dengan biomassa.",
+ "masalah": "Proses pirolisis untuk mengubah biomassa padat menjadi biofuel dan biokimia yang lebih baik sedang berkembang, dan minat pada efek katalitik logam alkali dan alkali tanah (AAEM) ikut naik. Efeknya besar tetapi baru sebagian dipahami, padahal ko-pirolisis biomassa dengan batu bara dinilai menjanjikan untuk transisi energi sehingga peran katalitik AAEM perlu dipahami dengan kokoh.",
+ "metode": "Review yang dimulai dari sifat biomassa lignoselulosa dan batu bara serta proses dekomposisinya, lalu masuk ke katalis AAEM dan dampaknya pada jalur reaksi dan kinetika pirolisis. Mekanisme reaksi dekomposisi komponen utama biomassa dan batu bara ditinjau dengan penekanan pada perubahan akibat AAEM, efek sinergi ko-pirolisis dibahas, dan diusulkan jalur reaksi komprehensif untuk pirolisis primer dan sekunder.",
+ "temuan": [
+  "Kehadiran AAEM bawaan maupun yang diimpregnasi menggeser dekomposisi biomassa ke suhu lebih rendah, sekaligus menaikkan yield char dan gas dengan mengorbankan bio-oil.",
+  "Efeknya sangat tergantung jenis katalis dan cara katalis dicampurkan dengan biomassa, jadi tidak ada satu efek AAEM yang berlaku umum.",
+  "Kalium cenderung memfavoritkan pembentukan senyawa berbobot molekul rendah dan spesies gas; magnesium mempromosikan reaksi dehidrasi; oksida kalsium dan magnesium meningkatkan mutu volatil lewat deoksigenasi dan deasidifikasi."
+ ],
+ "batas": [
+  "Abstrak tidak memuat angka pergeseran suhu, perubahan yield, atau kondisi uji, sehingga kekuatan efek tiap logam belum bisa dibandingkan dari abstrak.",
+  "Jalur reaksi komprehensif yang diusulkan adalah sintesis penulis atas literatur, bukan mekanisme yang dibuktikan satu eksperimen di paper ini.",
+  "Sebagian fokus review adalah ko-pirolisis dengan batu bara; relevansinya ke pirolisis biomassa murni perlu dibaca terpisah di full text."
+ ],
+ "arti_pabrik": "Bagi pengolah biomassa Indonesia, termasuk batang dan tandan sawit, pelajaran praktisnya adalah kandungan mineral umpan bukan detail pasif: ia ikut menentukan produk pirolisis. Mencuci umpan, membiarkannya, atau menambah katalis adalah keputusan proses yang nyata. Bedah ini memperdalam sisi katalisis dari artikel pirolisis di situs ini. Penilaian ini adalah apresiasi redaksi, bukan klaim paper.",
+ "vonis": "Baca full paper-nya",
+ "vonis_alasan": "Nilai paper ada pada peta mekanisme dan perbedaan peran tiap logam, dan rincian jalur reaksinya tidak terbawa abstrak. Abstrak cukup untuk tahu arah kesimpulannya."
+}

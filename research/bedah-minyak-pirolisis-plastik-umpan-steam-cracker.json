@@ -1,0 +1,50 @@
+{
+ "slug": "bedah-minyak-pirolisis-plastik-umpan-steam-cracker",
+ "judul": "Minyak pirolisis plastik sebagai umpan steam cracker: kontaminannya jauh di atas spesifikasi",
+ "topik": "Daur ulang dan polimer",
+ "negara": "Internasional",
+ "paper_title": "Opportunities and challenges for the application of post-consumer plastic waste pyrolysis oils as steam cracker feedstocks: To decontaminate or not to decontaminate?",
+ "authors": [
+  "Marvin Kusenberg",
+  "Andreas Eschenbacher",
+  "Marko R. Djokic",
+  "Azd Zayoud",
+  "Kim Ragaert",
+  "Steven De Meester"
+ ],
+ "year": 2021,
+ "journal": "Waste Management",
+ "doi": "https://doi.org/10.1016/j.wasman.2021.11.009",
+ "coverage": "Berdasarkan abstrak",
+ "date_bedah": "2026-10-09",
+ "terkait": [
+  {
+   "type": "artikel",
+   "slug": "bbm-dari-sampah-plastik-pirolisis",
+   "title": "BBM dari Sampah Plastik: Pirolisis"
+  },
+  {
+   "type": "artikel",
+   "slug": "naphtha-ke-plastik-petrokimia",
+   "title": "Naphtha ke Plastik: Petrokimia"
+  }
+ ],
+ "abstract_src": "Thermochemical recycling of plastic waste to base chemicals via pyrolysis followed by a minimal amount of upgrading and steam cracking is expected to be the dominant chemical recycling technology in the coming decade. However, there are substantial safety and operational risks when using plastic waste pyrolysis oils instead of conventional fossil-based feedstocks. This is due to the fact that plastic waste pyrolysis oils contain a vast amount of contaminants which are the main drivers for corrosion, fouling and downstream catalyst poisoning in industrial steam cracking plants. Contaminants are therefore crucial to evaluate the steam cracking feasibility of these alternative feedstocks. Indeed, current plastic waste pyrolysis oils exceed typical feedstock specifications for numerous known contaminants, e.g. nitrogen (∼1650 vs. 100 ppm max.), oxygen (∼1250 vs. 100 ppm max.), chlorine (∼1460vs. 3 ppm max.), iron (∼33 vs. 0.001 ppm max.), sodium (∼0.8 vs. 0.125 ppm max.)and calcium (∼17vs. 0.5 ppm max.). Pyrolysis oils produced from post-consumer plastic waste can only meet the current specifications set for industrial steam cracker feedstocks if they are upgraded, with hydrogen based technologies being the most effective, in combination with an effective pre-treatment of the plastic waste such as dehalogenation. Moreover, steam crackers are reliant on a stable and predictable feedstock quality and quantity representing a challenge with plastic waste being largely influenced by consumer behavior, seasonal changes and local sorting efficiencies. Nevertheless, with standardization of sorting plants this is expected to become less problematic in the coming decade.",
+ "lead": "Daur ulang termokimia plastik menjadi bahan kimia dasar lewat pirolisis lalu steam cracking diperkirakan menjadi teknologi daur ulang kimia dominan dekade ini. Paper ini menunjukkan syarat kerasnya: minyak pirolisis plastik pascakonsumsi membawa kontaminan yang melampaui spesifikasi umpan steam cracker hingga ribuan kali pada beberapa unsur.",
+ "masalah": "Minyak pirolisis limbah plastik mengandung kontaminan dalam jumlah besar yang menjadi pendorong utama korosi, fouling, dan peracunan katalis hilir di pabrik steam cracking industri. Kontaminan ini krusial untuk menilai kelayakan steam cracking atas umpan alternatif tersebut, karena pabrik bergantung pada kualitas dan kuantitas umpan yang stabil dan dapat diprediksi.",
+ "metode": "Analisis kelayakan berbasis perbandingan kandungan kontaminan minyak pirolisis plastik pascakonsumsi terhadap spesifikasi umpan steam cracker industri, mencakup nitrogen, oksigen, klorin, besi, sodium, dan kalsium, lalu penilaian opsi peningkatan mutu termasuk teknologi berbasis hidrogen dan pretreatment limbah plastik seperti dehalogenasi.",
+ "temuan": [
+  "Kandungan kontaminan minyak pirolisis saat ini melampaui spesifikasi pada banyak unsur: nitrogen sekitar 1650 ppm berbanding maksimum 100 ppm, oksigen sekitar 1250 ppm berbanding 100 ppm, dan klorin sekitar 1460 ppm berbanding 3 ppm.",
+  "Unsur logam juga jauh di atas batas: besi sekitar 33 ppm berbanding 0,001 ppm, sodium sekitar 0,8 ppm berbanding 0,125 ppm, dan kalsium sekitar 17 ppm berbanding 0,5 ppm.",
+  "Minyak pirolisis pascakonsumsi hanya bisa memenuhi spesifikasi umpan steam cracker industri bila ditingkatkan mutunya, dengan teknologi berbasis hidrogen sebagai yang paling efektif, dikombinasikan pretreatment limbah plastik yang efektif seperti dehalogenasi.",
+  "Tantangan tambahannya adalah stabilitas pasokan: kualitas dan kuantitas limbah plastik dipengaruhi perilaku konsumen, perubahan musim, dan efisiensi pemilahan lokal, meskipun standardisasi pabrik pemilahan diperkirakan mengurangi masalah ini dalam dekade mendatang."
+ ],
+ "batas": [
+  "Angka kontaminan adalah nilai tipikal yang dikutip penulis untuk minyak pirolisis saat ini, bukan hasil pengukuran satu sampel di paper ini; batch nyata bisa lebih bersih atau lebih kotor.",
+  "Penilaian paling efektif untuk teknologi berbasis hidrogen dinyatakan tanpa perbandingan biaya peningkatan mutu di abstrak, jadi keputusan decontaminate or not secara ekonomi belum terjawab di abstrak.",
+  "Spesifikasi yang dipakai adalah spesifikasi umpan steam cracker industri saat ini; pabrik dengan toleransi berbeda bisa menilai lain."
+ ],
+ "arti_pabrik": "Bedah ini adalah pengingat keras untuk inisiatif waste-to-chemicals: lolos sebagai minyak saja tidak cukup, yang menentukan adalah spesifikasi umpan pabrik hilir. Untuk konteks Indonesia, angka-angka ini memberi patokan uji laboratorium yang konkret sebelum minyak pirolisis ditawarkan ke kompleks petrokimia. Penilaian ini adalah apresiasi redaksi, bukan klaim paper.",
+ "vonis": "Cukup baca abstraknya",
+ "vonis_alasan": "Angka kontaminan versus spesifikasi dan simpulan jalur peningkatan mutunya sudah lengkap dan kuantitatif di abstrak. Full text hanya diperlukan untuk rincian metode analisis dan opsi pretreatment per unsur."
+}
