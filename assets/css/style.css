@@ -191,9 +191,3 @@ footer a{color:#fff}
 .calc-out strong{color:#fff}
 #mt-canvas{width:100%;max-width:520px;background:#0F2653;border-radius:12px;margin-top:12px}
 
-/* Dropdown nav Konten (Artikel, Video, Seri digabung) */
-.nav-drop{position:relative}
-.nav-drop>.drop{display:none;position:absolute;top:100%;left:-12px;background:#fff;border:1px solid #E4E9F5;border-radius:12px;box-shadow:0 14px 34px rgba(11,27,63,.16);padding:10px;min-width:170px;flex-direction:column;gap:2px;z-index:20}
-.nav-drop:hover>.drop,.nav-drop:focus-within>.drop{display:flex}
-.nav-drop>.drop a{padding:8px 10px;border-radius:8px;text-transform:none;letter-spacing:0;font-size:14px}
-.nav-drop>.drop a:hover{background:#F2F6FD}

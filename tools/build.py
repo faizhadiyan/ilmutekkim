@@ -956,7 +956,8 @@ HEAD = """<!DOCTYPE html>
 <header class="site-header">
   <a class="brand" href="/">ilmu<span>tekkim</span></a>
   <nav>
-    <span class="nav-drop"><a href="/#artikel">Konten</a><span class="drop"><a href="/#artikel">Artikel</a><a href="/video/">Video</a><a href="/#seri">Seri</a></span></span>
+    <a href="/#artikel">Artikel</a>
+    <a href="/video/">Video</a>
     <a href="/riset/">Riset</a> <a href="/jalur/">Jalur</a> <a href="/glosarium/">Glosarium</a> <a href="/referensi/">Referensi</a> <a href="/kalkulator/">Kalkulator</a>
     <a class="btn-ig" href="https://www.instagram.com/ilmutekkim" target="_blank" rel="noopener">Instagram</a>
   </nav>
