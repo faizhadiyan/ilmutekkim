@@ -1404,6 +1404,12 @@ Di Instagram enak ditonton, di sini enak dibaca: tonton videonya, baca penjelasa
 <p class="lead">Setiap bedah di halaman ini ditulis dari abstrak paper yang terverifikasi: masalahnya apa, metodenya bagaimana, angka temuannya persis seperti tertulis, batasnya di mana, dan artinya apa buat pabrik. Di akhir selalu ada kesimpulan yang bisa langsung dipakai: paper ini perlu dibaca penuh, atau abstraknya saja sudah cukup.</p>
 <p class="meta">{len(research)} bedah jurnal &middot; campuran internasional dan Indonesia &middot; standar bedah: angka hanya dari abstrak, abstrak tidak disalin, selalu ada catatan kritis</p>
 </article>
+<section class="post wide">
+<h2>Rak bedah paten</h2>
+<p>Paten adalah dokumen teknologi yang terbuka: paten kedaluwarsa berarti teknologi yang bebas dipelajari dan dipakai sebagai titik awal, paten aktif berarti peta arah pemegangnya. Di rak ini paten klasik teknik kimia dibedah dengan standar yang sama: nomor, inventor, dan tanggal diverifikasi dari dokumen aslinya, klaimnya diparafrase, dan statusnya ditulis apa adanya. Saat ini ada {len(paten)} bedah paten.</p>
+<p><a class="btn" href="/riset/paten/">Buka rak bedah paten</a></p>
+</section>
+
 <section id="seri" class="series-bar">
   <h2>Jelajahi per topik</h2>
   <div class="chips"><button class="chip active" data-series="all">Semua</button>{rchips}</div>
@@ -1413,11 +1419,6 @@ Di Instagram enak ditonton, di sini enak dibaca: tonton videonya, baca penjelasa
 {rcards}
 </section>
 <p id="no-result" hidden>Tidak ada bedah yang cocok. Coba kata kunci lain.</p>
-<section class="post wide">
-<h2>Rak bedah paten</h2>
-<p>Paten adalah dokumen teknologi yang terbuka: paten kedaluwarsa berarti teknologi yang bebas dipelajari dan dipakai sebagai titik awal, paten aktif berarti peta arah pemegangnya. Di rak ini paten klasik teknik kimia dibedah dengan standar yang sama: nomor, inventor, dan tanggal diverifikasi dari dokumen aslinya, klaimnya diparafrase, dan statusnya ditulis apa adanya. Saat ini ada {len(paten)} bedah paten.</p>
-<p><a class="btn" href="/riset/paten/">Buka rak bedah paten</a></p>
-</section>
 """ + FOOT
     os.makedirs(os.path.join(ROOT, "riset"), exist_ok=True)
     open(os.path.join(ROOT, "riset", "index.html"), "w").write(rindex)
