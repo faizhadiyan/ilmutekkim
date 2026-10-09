@@ -455,6 +455,129 @@ VIDEOS = [
 ]
 
 
+
+# --- Artikel versi baca untuk halaman video (ILM-R63: halaman video = artikel pembaca) ---
+VIDEO_ARTICLES = {
+    "sampling-rutin-lab": {"sections": [
+        {"h": "Sensor cuma membaca satu titik", "t": 6, "paras": [
+            "Sensor online memang membaca terus-menerus, tapi hanya di ujung probenya. Di pipa besar, sebagian aliran lewat jauh dari titik yang disentuh sensor, dan yang tidak tersentuh tidak ikut terukur. Angka di layar adalah angka satu titik, bukan potret seluruh aliran."]},
+        {"h": "Bacaannya bisa bergeser diam-diam", "t": 13, "paras": [
+            "Masalah kedua adalah drift: bacaan sensor bisa bergeser pelan-pelan menjauhi nilai sebenarnya tanpa alarm apa pun. Kalau tidak ada pembanding, yang bergeser bukan cuma garis di layar. Produknya ikut bergeser keluar spesifikasi."]},
+        {"h": "Urutan sampling yang benar", "t": 20, "paras": [
+            "Sampel diambil di titik sampel yang memang disediakan di pipa. Botolnya ditutup rapat, diberi label waktu, lalu diserahkan ke analis lab. Label waktu itu penting karena hasil lab harus bisa dipasangkan dengan kondisi proses pada jam yang sama."]},
+        {"h": "Lab membuktikan sensor jujur atau mulai bohong", "t": 27, "paras": [
+            "Hasil lab dibandingkan dengan bacaan sensor pada waktu yang sama. Kalau cocok, sensor terbukti jujur dan produksi lanjut dengan tenang. Kalau selisih, tindak lanjutnya adalah cek proses dan sensornya, bukan membiarkan selisih itu membesar."]},
+    ]},
+    "shift-handover-logbook": {"sections": [
+        {"h": "Layar menampilkan angka, logbook menyimpan cerita", "t": 6, "paras": [
+            "Layar DCS menampilkan angka proses: suhu, tekanan, level. Yang tidak tampil di sana adalah cerita alatnya. Contohnya katup V-204 yang rembes dan harus dipantau tiap jam. Detail kualitatif seperti itu hanya hidup kalau ditulis."]},
+        {"h": "Shift berganti, cerita tidak boleh berganti", "t": 13, "paras": [
+            "Pabrik jalan 24 jam sementara operator pulang dan berganti. Momen pergantian inilah yang paling rawan: keadaan alat tidak boleh ikut berganti cerita hanya karena orangnya berganti."]},
+        {"h": "Tiga langkah handover yang benar", "t": 20, "paras": [
+            "Urutannya: tulis keadaan alat apa adanya, baca catatan itu bersama operator pengganti, lalu keliling cek lapangan berdua. Langkah ketiga penting karena handover tidak selesai di meja control room. Katup yang dicatat harus dilihat langsung."]},
+        {"h": "Tanda tangan menutup serah terima", "t": 27, "paras": [
+            "Serah terima ditutup tanda tangan dua operator dan stempel waktu. Dari titik itu tanggung jawab berpindah dengan jelas, dan catatan bisa ditelusur kembali ke shift mana bila nanti ada kejadian."]},
+    ]},
+    "hilirisasi-nikel-baterai-ev": {"sections": [
+        {"h": "Kadarnya cuma 1 sampai 2 persen", "t": 6.8, "paras": [
+            "Bijih laterit Indonesia kadar nikelnya hanya sekitar 1 sampai 2 persen, dan bijihnya tidak seragam. Karena itu langkah pertama bukan melebur, melainkan memilah: saprolit dan limonit dipisahkan karena jalur pabriknya berbeda."]},
+        {"h": "Saprolit lewat jalur panas RKEF", "t": 13.6, "paras": [
+            "Saprolit yang kadarnya lebih tinggi masuk rotary kiln lalu electric furnace (RKEF) dan keluar sebagai nickel pig iron atau NPI. Catatan penting: NPI adalah bahan stainless steel, bukan bahan baterai langsung."]},
+        {"h": "Limonit lewat jalur basah HPAL", "t": 20.4, "paras": [
+            "Limonit yang kadarnya lebih rendah dilarutkan dengan asam sulfat di autoclave sekitar 250°C pada tekanan tinggi (HPAL). Yang bekerja melarutkan nikel adalah asamnya, bukan peleburan."]},
+        {"h": "Dari larutan jadi MHP dan nikel sulfat", "t": 27.2, "paras": [
+            "Larutan nikel dari HPAL diendapkan menjadi MHP (mixed hydroxide precipitate), lalu dimurnikan menjadi nikel sulfat untuk prekursor katoda baterai EV. Jalurnya panjang: bijih, larutan, endapan, garam murni, baru prekursor."]},
+    ]},
+    "pasir-jadi-chip-ai": {"sections": [
+        {"h": "Baru 98 persen murni, masih terlalu kotor", "t": 6.8, "paras": [
+            "Pasir kuarsa direduksi dengan karbon di furnace listrik menjadi silikon metalurgi. Kemurniannya baru sekitar 98 sampai 99 persen. Untuk transistor berukuran nanometer, sisa pengotor sekecil itu tetap terlalu kotor."]},
+        {"h": "Diubah jadi triklorosilan agar bisa dimurnikan", "t": 13.6, "paras": [
+            "Triknya: silikon diubah menjadi triklorosilan, zat yang mudah menguap. Karena mudah menguap, pengotornya bisa dipisahkan dengan distilasi, persis prinsip kolom distilasi di kilang."]},
+        {"h": "Distilasi dan proses Siemens: 99,9999999 persen", "t": 20.4, "paras": [
+            "Triklorosilan murni lalu diuraikan kembali lewat proses Siemens menumbuhkan polysilicon sekitar 99,9999999 persen murni (9N). Chip modern umumnya memakai silikon di rentang 9N sampai 11N."]},
+        {"h": "Leleh 1.414°C, tarik kristal, potong wafer", "t": 27.2, "paras": [
+            "Polysilicon dilelehkan pada 1.414°C, ditarik menjadi kristal tunggal, lalu dipotong menjadi wafer, umumnya berukuran 300 mm. Dari wafer inilah chip AI difabrikasi."]},
+    ]},
+    "distilasi-minyak-mentah": {"sections": [
+        {"h": "Bukan zat tunggal, tapi campuran hidrokarbon", "t": 6.5, "paras": [
+            "Minyak mentah bukan satu zat, melainkan campuran hidrokarbon dari yang paling ringan sampai paling berat. Karena itu umpan dipanaskan sekitar 350°C di fired heater supaya sebagian menguap dan siap dipisah."]},
+        {"h": "Uap naik, cairan turun di tray", "t": 13, "paras": [
+            "Di dalam kolom, uap naik dan cairan turun melewati tray-tray. Yang ringan lanjut menguap ke atas, yang berat mengembun dan turun. Kontak berulang uap dan cairan di tiap tray inilah mesin pemisahnya."]},
+        {"h": "Yang paling ringan didinginkan di puncak", "t": 19.5, "paras": [
+            "Uap paling ringan keluar dari puncak kolom, didinginkan di kondenser, lalu sebagian dikembalikan sebagai reflux. Reflux yang kembali inilah yang membuat pisahnya tajam, bukan sekadar mengambil produk atas."]},
+        {"h": "Atas dingin, bawah panas", "t": 26.5, "paras": [
+            "Suhu kolom bergradien: sekitar 120°C di atas dan 350°C di bawah. Produk keluar sesuai titik didihnya, dari gas paling ringan sampai residu paling berat. Distilasi adalah pisah fisik, bukan reaksi kimia."]},
+    ]},
+    "process-safety-bukan-apd": {"sections": [
+        {"h": "Kecelakaan personal vs kecelakaan proses", "t": 6.8, "paras": [
+            "Tersandung dan terjepit adalah kecelakaan personal, dan APD memang kuat di sana. Process safety menyasar kejadian lain: pelepasan bahan atau energi berbahaya berskala besar dari vessel dan pipa bertekanan. Pada kejadian kedua, helm dan sarung tangan bukan penghalang utamanya."]},
+        {"h": "Hazard dan risk itu beda", "t": 13.6, "paras": [
+            "Hazard adalah potensi bahayanya, misalnya bahan mudah terbakar di dalam vessel. Risk adalah kombinasi konsekuensi dan kemungkinan kejadian itu benar-benar terjadi. Menyederhanakan risk menjadi sekadar ada bahaya membuat prioritas pengamanan jadi salah."]},
+        {"h": "Barrier berlapis saat tekanan naik", "t": 20.4, "paras": [
+            "Saat tekanan naik, lapisan bekerja berurutan: kontrol proses menahan kondisi normal, trip otomatis menghentikan proses, relief valve membuang tekanan ke sistem tertutup atau flare, dan tanggap darurat adalah lapisan terakhir di luar."]},
+        {"h": "Hitungan lapisan yang independen", "t": 27.2, "paras": [
+            "Ilustrasinya: kejadian awal 1 kali per 10 tahun, tiga lapisan independen yang masing-masing gagal 1 dari 10 kali saat dibutuhkan, memberi 0,0001 per tahun atau 1 per 10.000 tahun. Perkalian itu hanya sah kalau lapisannya benar-benar tidak saling tergantung."]},
+    ]},
+    "heat-exchanger-penghenti-pabrik": {"sections": [
+        {"h": "Dua aliran dipisah dinding logam", "t": 6.8, "paras": [
+            "Prinsipnya sederhana: dua aliran dipisahkan dinding logam, panas menyeberang lewat dinding, dan cairannya tidak pernah bertemu. Contoh di video: aliran panas turun dari 150 ke 90°C, aliran dingin naik dari 30 ke 80°C."]},
+        {"h": "Searah atau lawan arah, beda total", "t": 13.6, "paras": [
+            "Arah alirannya bisa searah atau lawan arah, dan pilihan itu mengubah beda suhu penggerak panasnya. Angka ujung yang sama bisa memberi hasil yang jauh berbeda."]},
+        {"h": "Angka konkretnya: 65 vs 44°C", "t": 20.4, "paras": [
+            "Dengan angka ujung yang sama, lawan arah memberi beda suhu rata-rata (LMTD) sekitar 65°C, searah hanya sekitar 44°C. Rasionya 1,48: panas yang dipindah bisa sekitar 48 persen lebih besar. Itu sebabnya heat exchanger industri hampir selalu lawan arah."]},
+        {"h": "Musuhnya kerak (fouling)", "t": 27.2, "paras": [
+            "Musuh besarnya adalah fouling, endapan kerak di dinding. Kerak 1 mm saja memangkas fluks panas sekitar 10 persen, dan ujungnya satu: unit berhenti untuk dibersihkan. Literatur fouling mengestimasi biayanya sekitar 0,25 persen PDB negara industri."]},
+    ]},
+    "haber-bosch-udara-jadi-pupuk": {"sections": [
+        {"h": "Persamaan setimbang dan ikatan keras kepala", "t": 6.8, "paras": [
+            "Reaksinya N\u2082 + 3H\u2082 \u2192 2NH\u2083, atomnya seimbang: 2 nitrogen dan 6 hidrogen di kedua sisi. Masalahnya, ikatan rangkap tiga pada N\u2082 sangat kuat, sehingga nitrogen terkenal malas bereaksi."]},
+        {"h": "Tiga syarat ekstrem", "t": 13.6, "paras": [
+            "Tiga syarat dipakai bersamaan: katalis besi untuk memecah ikatan N\u2082, suhu 400 sampai 500°C untuk mempercepat reaksi, dan tekanan 150 sampai 250 bar untuk mendorong kesetimbangan ke produk, karena 4 mol gas berubah menjadi 2 mol gas (prinsip Le Chatelier)."]},
+        {"h": "Tanpa recycle, pabriknya rugi", "t": 20.4, "paras": [
+            "Sekali lewat reaktor, hanya sekitar 15 persen yang menjadi amonia. Amonia dipisahkan lewat kondensasi, lalu gas sisanya diputar balik ke reaktor. Tanpa recycle, sebagian besar bahan baku terbuang dan pabriknya rugi."]},
+        {"h": "Eksotermik, melepas panas", "t": 27.2, "paras": [
+            "Reaksinya eksotermik, melepas sekitar 92 kJ per mol. Panas ini pedang bermata dua: membantu menjaga suhu reaktor, tapi kalau terlalu panas kesetimbangan justru bergeser balik menjauhi produk."]},
+    ]},
+    "netralisasi-asam-basa": {"sections": [
+        {"h": "Tukar pasangan yang terlihat", "t": 6.5, "paras": [
+            "Di permukaan, HCl + NaOH \u2192 NaCl + H\u2082O terlihat seperti tukar pasangan. Atom dan muatannya seimbang, tapi persamaan itu belum menunjukkan apa yang sebenarnya bertabrakan."]},
+        {"h": "Reaksi ion bersih yang sebenarnya terjadi", "t": 13, "paras": [
+            "Di larutan, HCl dan NaOH sudah terurai menjadi ion-ion. Yang benar-benar bereaksi hanyalah H\u207a + OH\u207b \u2192 H\u2082O. Ion Na\u207a dan Cl\u207b hanya menonton, lalu menjadi garam NaCl."]},
+        {"h": "Tiap mol air melepas 57 kJ", "t": 19.5, "paras": [
+            "Pembentukan air dari H\u207a dan OH\u207b melepas sekitar 57 kJ panas per mol. Reaksinya eksotermik, itu sebabnya larutan terasa hangat saat asam dan basa dicampur."]},
+        {"h": "Kapan pasnya? Titrasi", "t": 26.5, "paras": [
+            "Perbandingannya tepat 1 banding 1: 1 mol HCl butuh tepat 1 mol NaOH. Kelebihan setetes saja membuat hasil meleset. Fenolftalein menjadi saksinya: bening di asam, pink di basa, dan titik akhir di pH 7."]},
+    ]},
+    "water-gas-shift-co-jadi-h2": {"sections": [
+        {"h": "Hidrogennya berasal dari air", "t": 6.5, "paras": [
+            "Reaksinya CO + H\u2082O \u2192 CO\u2082 + H\u2082, eksotermik dengan \u0394H sekitar minus 41 kJ per mol. Yang sering salah kaprah: atom H pada H\u2082 produk berasal dari air (steam), bukan dari CO."]},
+        {"h": "Tahap panas: HTS 350 sampai 450°C", "t": 13, "paras": [
+            "Tahap pertama adalah HTS (high temperature shift) dengan katalis Fe-Cr. Suhu tinggi membuat reaksi cepat, dan CO turun dari 15 persen menjadi 3 persen. Masih belum cukup bersih, tapi sebagian besar pekerjaan selesai di sini."]},
+        {"h": "Didinginkan di tengah, panasnya dipanen", "t": 19.5, "paras": [
+            "Gas lalu didinginkan sebelum tahap kedua. Panas eksotermiknya tidak dibuang, melainkan dipanen menjadi steam. Inilah heat recovery yang membuat prosesnya hemat energi."]},
+        {"h": "Tahap dingin: LTS 200 sampai 250°C", "t": 26.5, "paras": [
+            "Tahap kedua adalah LTS (low temperature shift) dengan katalis Cu-Zn, menurunkan CO dari 3 persen menjadi 0,3 persen. Setelah CO\u2082 removal dan PSA, hasilnya H\u2082 murni 99,99 persen. Dua tahap diperlukan karena satu suhu tidak bisa cepat sekaligus tuntas: kesetimbangan suka dingin, kinetika suka panas."]},
+    ]},
+}
+
+
+def render_video_article(v):
+    # ILM-R63: halaman video = artikel versi baca; label struktur produksi tidak boleh tampil ke pembaca
+    art = VIDEO_ARTICLES[v["slug"]]
+    out = '<section class="article-body">\n'
+    for sec in art["sections"]:
+        t = sec.get("t")
+        if t is not None:
+            out += (f'<h2 class="art-h" data-start="{t}">{esc(sec["h"])}'
+                    f' <button class="seek" type="button" data-start="{t}" title="Lompat ke bagian ini di video">&#9654; {fmt_time(t)}</button></h2>\n')
+        else:
+            out += f'<h2 class="art-h">{esc(sec["h"])}</h2>\n'
+        for p in sec["paras"]:
+            out += f"<p>{esc(p)}</p>\n"
+    out += "</section>\n"
+    return out
+
+
 def paras_of(caption):
     parts = [clean_text(p) for p in str(caption or "").split("\n")]
     out = []
@@ -733,7 +856,7 @@ FOOT = """
   <div class="foot-brand">ilmu<span>tekkim</span></div>
   <p>Bikin teknik kimia asik. Pabrik, proses, safety, dan AI. Ditulis insinyur kimia ITB.</p>
   <p><a href="https://www.instagram.com/ilmutekkim" target="_blank" rel="noopener">@ilmutekkim di Instagram</a> &middot; <a href="/video/">Video interaktif</a> &middot; <a href="/tentang/">Tentang</a></p>
-  <p class="fine">Artikel adalah versi baca carousel Instagram @ilmutekkim. Video adalah motion graphics kode (HyperFrames) dengan bedah isi per scene. Foto berasal dari Pexels dan Unsplash, kredit tercantum di tiap gambar.</p>
+  <p class="fine">Artikel adalah versi baca carousel Instagram @ilmutekkim. Video adalah motion graphics kode (HyperFrames), tiap video punya versi artikel lengkap di halamannya. Foto berasal dari Pexels dan Unsplash, kredit tercantum di tiap gambar.</p>
 </footer>
 <script src="/assets/js/main.js?v=4"></script>
 </body>
@@ -845,27 +968,13 @@ def main():
                  f'<source src="{esc(v["video_url"] or "")}" type="video/mp4">Browser tidak mendukung video.</video>'
                  '<div class="player-bar"><span id="vnow">0:00</span><div class="track"><div id="vprog"></div></div>'
                  f'<span>{fmt_time(v["duration"])}</span></div>'
-                 '<p class="player-hint">Klik scene di bawah untuk lompat ke detiknya. Scene aktif akan menyala mengikuti video.</p></div>\n')
-        # bedah ringkas
-        page += '<section><h2>Bedah isi dalam 30 detik</h2>'
-        page += f'<div class="fact"><strong>Tension-nya:</strong> {esc(v["tension"])}</div>'
-        page += f'<p><strong>Takeaway:</strong> {esc(v["takeaway"])}</p>'
+                 '<p class="player-hint">Klik tombol &#9654; di judul bagian artikel untuk lompat ke detiknya di video. Bagian yang sedang diputar akan menyala.</p></div>\n')
+        # artikel versi baca (ILM-R63)
+        page += render_video_article(v)
         if v.get("facts"):
-            page += '<h3>Angka dan fakta yang dijaga benar</h3><ul>' + "".join(f"<li>{esc(x)}</li>" for x in v["facts"]) + "</ul>"
-        page += "</section>\n"
-        # timeline scene
-        page += '<section><h2>Bedah per scene (klik untuk lompat)</h2><ol class="scene-list">'
-        for si, s in enumerate(v["scenes"], 1):
-            page += (f'<li class="scene" data-start="{s["start"]}" data-end="{s["end"]}">'
-                     f'<button class="scene-head" type="button"><span class="scene-num">{si:02d}</span>'
-                     f'<span class="scene-time">{fmt_time(s["start"])}–{fmt_time(s["end"])}</span>'
-                     f'<span class="scene-role">{esc(s["role"])}</span>'
-                     f'<strong>{esc(s["title"])}</strong></button>'
-                     f'<div class="scene-body"><p class="on-screen">&ldquo;{esc(s["on_screen"])}&rdquo;</p>'
-                     f'<p><strong>Visual:</strong> {esc(s["visual"])}</p>'
-                     f'<p><strong>Tujuan narasi:</strong> {esc(s["purpose"])}</p>'
-                     f'<p class="watch"><strong>Yang perlu diperhatikan:</strong> {esc(s["watch"])}</p></div></li>')
-        page += "</ol></section>\n"
+            page += ('<section class="factbox"><h2>Fakta kunci</h2><ul>'
+                     + "".join(f"<li>{esc(x)}</li>" for x in v["facts"]) + "</ul></section>\n")
+        page += f'<section><h2>Kesimpulannya</h2><p>{esc(v["takeaway"])}</p></section>\n'
         # kuis interaktif
         q = v["quiz"]
         opts = "".join(
@@ -875,7 +984,7 @@ def main():
                  f'<div class="quiz-opts">{opts}</div>'
                  f'<p class="quiz-explain" hidden>{esc(q["explain"])}</p></section>\n')
         page += ('<div class="cta-box"><h2>Tonton versi Reel-nya</h2>'
-                 "<p>Di Instagram videonya tayang vertikal penuh dengan musik dan SFX-nya. Di sini kamu bisa bedah scene per scene sambil lompat ke detik yang mau diulang.</p>"
+                 "<p>Di Instagram videonya tayang vertikal penuh dengan musik dan SFX-nya. Di sini kamu bisa membaca versi artikelnya sambil lompat ke detik yang mau diulang.</p>"
                  f'<a class="btn" href="{v["ig"]}" target="_blank" rel="noopener">Buka Reel @ilmutekkim</a> '
                  '<a class="btn ghost" href="/video/">Semua video</a></div>\n')
         prev_v = videos[vi + 1] if vi + 1 < len(videos) else None
@@ -892,21 +1001,20 @@ def main():
 (function(){
   var vid=document.getElementById('vplayer'); if(!vid) return;
   var prog=document.getElementById('vprog'), now=document.getElementById('vnow');
-  var scenes=[].slice.call(document.querySelectorAll('.scene'));
+  var heads=[].slice.call(document.querySelectorAll('.art-h'));
   function fmt(t){t=Math.max(0,t|0);return (t/60|0)+':'+('0'+(t%60)).slice(-2);}
-  scenes.forEach(function(li){
-    li.querySelector('.scene-head').addEventListener('click',function(){
-      vid.currentTime=parseFloat(li.dataset.start); vid.play();
+  document.querySelectorAll('.seek').forEach(function(b){
+    b.addEventListener('click',function(){
+      vid.currentTime=parseFloat(b.dataset.start); vid.play();
     });
   });
   vid.addEventListener('timeupdate',function(){
     var t=vid.currentTime, d=vid.duration||40.9;
     if(prog) prog.style.width=(d? (t/d*100):0)+'%';
     if(now) now.textContent=fmt(t);
-    scenes.forEach(function(li){
-      var on=t>=parseFloat(li.dataset.start)&&t<parseFloat(li.dataset.end);
-      li.classList.toggle('active',on);
-    });
+    var cur=null;
+    heads.forEach(function(h){ if(parseFloat(h.dataset.start)<=t) cur=h; });
+    heads.forEach(function(h){ h.classList.toggle('active',h===cur); });
   });
   document.querySelectorAll('.quiz-opt').forEach(function(b){
     b.addEventListener('click',function(){
@@ -932,16 +1040,16 @@ def main():
                    f'<p class="eyebrow">{esc(v["tag"])}</p>'
                    f'<h3><a href="/video/{v["slug"]}/">{esc(v["title"])}</a></h3>'
                    f'<p>{esc(v["hook"])}</p>'
-                   f'<p class="meta">{tgl_indo(v["date"])} &middot; 6 scene &middot; bedah + kuis</p></div></article>\n')
+                   f'<p class="meta">{tgl_indo(v["date"])} &middot; artikel + kuis</p></div></article>\n')
     vindex = HEAD.format(title="Video Interaktif Motion Graphics | ilmutekkim",
-                         desc="Bedah motion graphics teknik kimia per scene: klik timeline untuk lompat ke detiknya, baca tujuan narasi dan fakta yang dijaga, lalu cek paham lewat kuis.",
+                         desc="Versi artikel dari motion graphics teknik kimia @ilmutekkim: tonton videonya, baca penjelasan lengkapnya per subtopik, lalu cek pahammu lewat kuis.",
                          url=BASE + "/video/", ogtype="website", ogimg="")
     vindex += f"""
 <article class="post wide">
 <p class="eyebrow">Video interaktif</p>
-<h1>Motion graphics, dibedah scene per scene.</h1>
-<p class="lead">Setiap video @ilmutekkim dibuat dengan kode (HyperFrames): 6 scene, sekitar 41 detik, tanpa voice-over.
-Di Instagram enak ditonton, di sini enak dibedah: klik scene untuk lompat ke detiknya, baca kenapa scene itu ada, angka apa yang dijaga benar, lalu jawab kuisnya.</p>
+<h1>Motion graphics, versi artikel.</h1>
+<p class="lead">Setiap video @ilmutekkim dibuat dengan kode (HyperFrames), sekitar 41 detik, tanpa voice-over.
+Di Instagram enak ditonton, di sini enak dibaca: tiap video punya versi artikel lengkap, kamu bisa lompat ke detik tertentu dari judul bagiannya, lalu menjawab kuisnya.</p>
 <p class="meta">{len(videos)} video &middot; tersinkron dari Reel @ilmutekkim &middot; diperbarui {tgl_indo(videos[0]["date"]) if videos else ""}</p>
 </article>
 <section class="grid video-grid">
