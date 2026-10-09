@@ -279,7 +279,9 @@ footer .btn-ig:hover{background:#82B4DC}
 .foot-links span{color:#7E7F82}
 .chips-more{display:none}
 @media(max-width:760px){
-  .chips{max-height:82px;overflow:hidden}
-  .chips.expanded{max-height:none}
-  .chips-more{display:inline-block;margin-top:2px}
+  .chips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;
+    -webkit-mask-image:linear-gradient(to right,#000 86%,transparent 100%);mask-image:linear-gradient(to right,#000 86%,transparent 100%)}
+  .chips::-webkit-scrollbar{display:none}
+  .chips .chip{flex:0 0 auto}
+  .chips.end{ -webkit-mask-image:none;mask-image:none}
 }
