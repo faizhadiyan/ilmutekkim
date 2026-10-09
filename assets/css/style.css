@@ -253,3 +253,11 @@ footer a{color:#fff}
 @media(min-width:761px){.theme-toggle{margin-left:18px}}
 footer .btn-ig{background:#F4F4F2;color:#0E0F11!important;border-radius:999px;padding:9px 18px;font-weight:600;display:inline-block;margin:0 8px 6px 0}
 footer .btn-ig:hover{background:#82B4DC}
+.tool-strip{display:grid;grid-template-columns:repeat(3,1fr);border-bottom:1px solid var(--rule);margin:0 -22px;padding:0 22px}
+.tool-strip a{display:block;padding:18px 18px 16px;border-left:1px solid var(--rule);text-decoration:none;color:var(--ink)}
+.tool-strip a:nth-child(3n+1){border-left:none;padding-left:0}
+.tool-strip a span{display:block;font-size:12px;letter-spacing:.1em;color:var(--blue);font-weight:700;text-transform:uppercase}
+.tool-strip a b{display:block;font-size:19px;margin:4px 0 3px;font-weight:700}
+.tool-strip a i{display:block;font-style:normal;color:var(--gray);font-size:13.5px;line-height:1.45}
+.tool-strip a:hover{background:var(--paper-2)}
+@media(max-width:760px){.tool-strip{grid-template-columns:repeat(2,1fr)}.tool-strip a:nth-child(3n+1){border-left:1px solid var(--rule);padding-left:18px}.tool-strip a:nth-child(2n+1){border-left:none;padding-left:0}}

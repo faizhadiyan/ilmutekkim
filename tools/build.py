@@ -998,7 +998,7 @@ HEAD = """<!DOCTYPE html>
 {ogimg}<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/style.css?v=15">
+<link rel="stylesheet" href="/assets/css/style.css?v=16">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23131518'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='%23F4F4F2' font-family='Arial' font-weight='bold'>IT</text></svg>">
 </head>
 <body>
@@ -1840,12 +1840,14 @@ Video dapat ditonton bersamaan dengan membaca penjelasan mendalam per subtopik, 
                    f'<p class="meta">{tgl_indo(v["date"])} &middot; tonton + baca artikelnya</p></div></article>\n')
     home += f"""
 <section class="hero">
-  <div class="meta-strip">
-    <div><span>01</span>Artikel<b>{len(articles)} bedah proses</b></div>
-    <div><span>02</span>Video<b>{len(videos)} video</b></div>
-    <div><span>03</span>Seri<b>{len(series_list) + 1} seri topik</b></div>
-    <div><span>04</span>Sumber<b>tersinkron dengan @ilmutekkim</b></div>
-  </div>
+  <nav class="tool-strip" aria-label="Fitur utama situs">
+    <a href="#artikel"><span>01</span><b>Artikel dan Video</b><i>{len(articles)} artikel mendalam bersitasi dan {len(videos)} video dengan artikel pendamping</i></a>
+    <a href="/riset/"><span>02</span><b>Riset</b><i>{len(research)} bedah jurnal dan {len(paten)} bedah paten dengan catatan kritis dan kesimpulan eksplisit</i></a>
+    <a href="/jalur/"><span>03</span><b>Jalur Belajar</b><i>{len(jalur)} jalur terkurasi, {sum(len(t["steps"]) for t in jalur)} langkah berurutan dari konsep dasar ke aplikasi</i></a>
+    <a href="/glosarium/"><span>04</span><b>Glosarium</b><i>{len(glosarium)} istilah proses terdefinisi secara tepat dengan bacaan lanjutan</i></a>
+    <a href="/referensi/"><span>05</span><b>Referensi</b><i>Seluruh literatur, paper yang dibedah, dan dokumen paten dalam satu perpustakaan</i></a>
+    <a href="/kalkulator/"><span>06</span><b>Kalkulator</b><i>Polimerisasi Carothers, LMTD, rancangan McCabe-Thiele, dan konversi satuan proses</i></a>
+  </nav>
   <div class="hero-grid">
     <h1>Teknik kimia, ditelaah dari prosesnya.</h1>
     <div class="hero-side">
