@@ -251,3 +251,5 @@ footer a{color:#fff}
 :root[data-theme="dark"] .theme-toggle .ic-sun{display:inline}
 :root[data-theme="dark"] .theme-toggle .ic-moon{display:none}
 @media(min-width:761px){.theme-toggle{margin-left:18px}}
+footer .btn-ig{background:#F4F4F2;color:#0E0F11!important;border-radius:999px;padding:9px 18px;font-weight:600;display:inline-block;margin:0 8px 6px 0}
+footer .btn-ig:hover{background:#82B4DC}
