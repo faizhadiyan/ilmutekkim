@@ -31,7 +31,6 @@
       chips.forEach(function (c) { c.classList.remove("active"); });
       chip.classList.add("active");
       active = chip.dataset.series;
-      document.querySelectorAll(".series-select").forEach(function (sel) { sel.value = active; });
       apply();
     });
   });
@@ -64,36 +63,34 @@
   });
 })();
 
-// Di mobile, chip seri diganti dropdown pemilih; chip tetap dipakai di desktop
+// Di mobile, chip seri tampil maksimal dua baris penuh; sisanya dibuka tombol berlabel jelas
 (function () {
+  if (!window.matchMedia || !window.matchMedia("(max-width: 760px)").matches) return;
   document.querySelectorAll(".chips").forEach(function (c) {
-    var chips = c.querySelectorAll(".chip");
-    if (!chips.length) return;
+    var chips = Array.prototype.slice.call(c.querySelectorAll(".chip"));
+    if (chips.length < 3) return;
     var section = c.closest ? c.closest("section") : null;
     var h2 = section ? section.querySelector("h2") : null;
     var htxt = h2 ? h2.textContent.toLowerCase() : "";
     var label = htxt.indexOf("topik") !== -1 ? "Topik" : (htxt.indexOf("huruf") !== -1 ? "Huruf" : "Seri");
-    var wrap = document.createElement("label");
-    wrap.className = "series-select-wrap";
-    var span = document.createElement("span");
-    span.textContent = label + ":";
-    var sel = document.createElement("select");
-    sel.className = "series-select";
-    sel.setAttribute("aria-label", "Pilih " + label.toLowerCase());
-    chips.forEach(function (chip) {
-      var opt = document.createElement("option");
-      opt.value = chip.dataset.series;
-      opt.textContent = chip.textContent;
-      if (chip.classList.contains("active")) opt.selected = true;
-      sel.appendChild(opt);
+    var count = chips.length - 1;
+    var rows = [];
+    chips.forEach(function (chip) { if (rows.indexOf(chip.offsetTop) === -1) rows.push(chip.offsetTop); });
+    rows.sort(function (a, b) { return a - b; });
+    if (rows.length <= 2) return;
+    var batas = rows[1];
+    chips.forEach(function (chip) { if (chip.offsetTop > batas) chip.classList.add("chip-extra"); });
+    var teksBuka = "Tampilkan semua " + label.toLowerCase() + " (" + count + ") \u25BE";
+    var btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "chip chips-more";
+    btn.textContent = teksBuka;
+    btn.setAttribute("aria-expanded", "false");
+    btn.addEventListener("click", function () {
+      var open = c.classList.toggle("expanded");
+      btn.textContent = open ? "Tutup \u25B4" : teksBuka;
+      btn.setAttribute("aria-expanded", open ? "true" : "false");
     });
-    sel.addEventListener("change", function () {
-      var target = null;
-      chips.forEach(function (chip) { if (chip.dataset.series === sel.value) target = chip; });
-      if (target) target.click();
-    });
-    wrap.appendChild(span);
-    wrap.appendChild(sel);
-    c.parentNode.insertBefore(wrap, c.nextSibling);
+    c.parentNode.insertBefore(btn, c.nextSibling);
   });
 })();
