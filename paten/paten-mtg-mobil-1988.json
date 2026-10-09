@@ -1,0 +1,44 @@
+{
+ "slug": "paten-mtg-mobil-1988",
+ "judul": "Paten sistem MTG Mobil (1988): menjinakkan panas reaktor metanol menjadi bensin",
+ "topik": "Konversi metanol",
+ "nomor": "US4788042A",
+ "judul_paten": "System for conversion of methanol to gasoline",
+ "inventor": "Susan K. Marsh, Hartley Owen, dan Bernard S. Wright",
+ "pemilik": "Mobil Oil Corporation",
+ "diajukan": "5 Oktober 1987 (prioritas 31 Desember 1985)",
+ "terbit": "29 November 1988",
+ "status": "Kedaluwarsa. Google Patents mencatat status Expired - Fee Related dengan perkiraan kedaluwarsa 31 Desember 2005, diakses 9 Oktober 2026.",
+ "sumber": "https://patents.google.com/patent/US4788042A/en",
+ "coverage": "Berdasarkan dokumen paten publik",
+ "date_bedah": "2026-10-09",
+ "lead": "Mengubah metanol menjadi bensin di atas zeolit ZSM-5 sangat eksotermik; bed katalis fixed-bed bisa mengalami kenaikan suhu yang merusak katalis dan menurunkan oktan. Paten Mobil ini mematenkan sistem pengencer recycle-nya: fraksi C3-C4 produk diuapkan kembali dan dipakai menahan suhu reaktor adiabatik.",
+ "masalah": "Konversi metanol dan dimetil eter menjadi hidrokarbon rentang bensin di reaktor fixed-bed katalitik bersifat sangat eksotermik. Kenaikan suhu lintas bed harus dimoderasi agar katalis terlindungi dan suhu outlet tidak dipaksa turun, karena oktan produk bensin berkaitan dengan suhu reaktor. Sistem reaktor kontinu yang lebih baik dibutuhkan untuk mengendalikan panas reaksi ini secara praktis.",
+ "klaim": [
+  "Sistem reaktor kontinu yang diperbaiki untuk mengubah umpan metanol dan/atau dimetil eter menjadi hidrokarbon rentang bensin dalam reaktor fixed-bed adiabatik berkatalis zeolit padat dengan kehadiran uap pengencer.",
+  "Efluen reaktor yang didinginkan dipisahkan menjadi aliran air produk samping, aliran gas hidrokarbon ringan, dan aliran hidrokarbon cair terkondensasi.",
+  "Sebagian besar hidrokarbon C3-C4 dari cairan itu diuapkan untuk menyediakan aliran pengencer recycle, dipanaskan kembali, digabungkan dengan umpan oksigenat, dan dimasukkan ke zona reaksi pada suhu dan tekanan proses, sementara cairan C5+ menjadi produk bensin."
+ ],
+ "cara": "Metanol lebih dulu didehidrasi di atas gamma-alumina menjadi campuran kesetimbangan metanol, dimetil eter, dan air, lalu campuran itu melewati katalis ZSM-5 pada suhu dan tekanan tinggi. Produk didinginkan dan dipisahkan tiga fasa: air dibuang, gas ringan diambil, dan cairan hidrokarbon dipompa ke evaporator. Fraksi C3-C4 yang menguap menjadi pengencer yang menyerap panas reaksi pada putaran berikutnya, dan LPG berlebih dipurge dari recycle. Pengencer inilah rem termal reaktornya.",
+ "batas": [
+  "Paten ini melindungi sistem reaktor dan recycle-nya, bukan katalis ZSM-5 itu sendiri yang dilindungi keluarga paten Mobil lain dari era sebelumnya.",
+  "Dokumen tidak memberi jaminan ekonomi proses MTG; kelayakan methanol-to-gasoline selalu kembali ke selisih harga metanol dan bensin, yang di luar cakupan paten.",
+  "Status Expired - Fee Related adalah catatan Google Patents yang dinyatakan bukan kesimpulan hukum; status paten keluarga di yurisdiksi lain bisa berbeda."
+ ],
+ "arti": "MTG adalah contoh proses yang secara teknis berhasil dan dikomersialkan, tetapi hidup matinya ditentukan harga bahan baku, pelajaran yang masih relevan saat metanol hijau dibicarakan sebagai bahan bakar dan bahan kimia. Untuk konteks Indonesia, dokumen ini berguna membaca ulang gagasan gas alam menjadi metanol lalu menjadi bahan bakar cair di luar FT. Penilaian ini adalah apresiasi redaksi atas dokumen publik, bukan nasihat hukum.",
+ "kesimpulan": "Cukup baca bedahnya",
+ "kesimpulan_alasan": "Arsitektur sistemnya, terutama peran recycle C3-C4 sebagai pengencer termal, sudah jelas dari bedah ini. Dokumen patennya layak dibuka bila pembaca ingin flowsheet dan rincian pemisahan tiga fasanya.",
+ "terkait": [
+  {
+   "type": "artikel",
+   "slug": "gas-alam-ke-urea-haber-bosch",
+   "title": "Gas Alam ke Urea: Haber-Bosch dan Rantai Pupuk"
+  },
+  {
+   "type": "artikel",
+   "slug": "satu-barel-minyak-jadi-apa",
+   "title": "Satu Barel Minyak Jadi Apa"
+  }
+ ],
+ "src_text": "US4788042A System for conversion of methanol to gasoline. Inventors Susan K. Marsh, Hartley Owen, Bernard S. Wright. Original Assignee Mobil Oil AS, Mobil Oil Corporation. Priority date 1985-12-31. Filing date 1987-10-05. Publication date 1988-11-29. Legal status Expired - Fee Related. Anticipated expiration 2005-12-31. This invention relates to a system for moderating the temperature rise resulting from the large heat of reaction in a catalytic fixed-bed MTG (methanol to gasoline) reactor. An oxygenated organic feedstock such as methanol or DME is converted to a hydrocarbon product in a fixed bed reaction zone contacting a conversion catalyst such as ZSM-5 zeolite. The methanol is usually first subjected to a dehydrating step using gamma-alumina to form an equilibrium mixture of methanol, dimethyl ether (DME) and water. Cooled reactor effluent is separated into a byproduct water stream, light hydrocarbon gas stream, and a condensed liquid hydrocarbon stream. Vaporize a major amount of C3-C4 hydrocarbons to provide a recycle diluent stream; reheat the C3-C4 recycle diluent stream; combine recycle diluent with feedstock and introduce to the reaction zone. Liquid stream comprising C5+ gasoline range hydrocarbons exits to a gasoline stripping column; stabilized gasoline product leaves."
+}

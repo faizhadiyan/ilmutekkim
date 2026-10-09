@@ -1,0 +1,44 @@
+{
+ "slug": "paten-dividing-wall-column-basf-2005",
+ "judul": "Paten dividing wall column BASF (2005): tiga fraksi murni dari satu kolom",
+ "topik": "Distilasi hemat energi",
+ "nomor": "US6958111B2",
+ "judul_paten": "Dividing wall column",
+ "inventor": "Harald Rust dan Gerd Kaibel",
+ "pemilik": "BASF Aktiengesellschaft",
+ "diajukan": "3 Mei 2001",
+ "terbit": "25 Oktober 2005",
+ "status": "Kedaluwarsa, dokumen publik. Dokumen mencantumkan perpanjangan masa 740 hari, dan tanggal pengajuan 2001 membuat masa perlindungannya telah berakhir. Status resmi paten keluarga lain dapat berbeda per negara.",
+ "sumber": "https://patentimages.storage.googleapis.com/b3/f2/af/f116ef32fce600/US6958111.pdf",
+ "coverage": "Berdasarkan dokumen paten publik",
+ "date_bedah": "2026-10-09",
+ "lead": "Memisahkan campuran menjadi lebih dari dua fraksi murni biasanya butuh lebih dari satu kolom, dan produk samping dari kolom satu kolom selalu tercemar komponen ringan. Paten BASF ini mematenkan kolom berdinding pemisah yang menghasilkan fraksi tengah murni dari satu bejana.",
+ "masalah": "Fraksionasi campuran umpan menjadi lebih dari dua fraksi murni normalnya menuntut beberapa kolom distilasi. Kolom dengan pengambilan samping memang ada, tetapi produk sampingnya masih mengandung bagian komponen bertitik didih rendah, sehingga produk samping yang tercemar hampir selalu diperoleh dan isolasi zat bertitik didih menengah yang murni menjadi tidak praktis tanpa rangkaian dua kolom.",
+ "klaim": [
+  "Kolom distilasi dengan dinding pemisah yang terletak di daerah tengah kolom dan membentang ke atas dan ke bawah titik umpan, membagi kolom menjadi sisi prafraksionasi dan sisi produk utama.",
+  "Susunan ini memungkinkan isolasi produk samping bertitik didih menengah dalam bentuk murni dari campuran multikomponen di dalam satu kolom, sebagai alternatif rangkaian kolom yang digandeng termal.",
+  "Aplikasi yang dibayangkan mencakup pemisahan campuran hidrokarbon dan campuran kimia bertitik didih berdekatan yang sebelumnya membutuhkan setidaknya dua kolom terpisah."
+ ],
+ "cara": "Dinding vertikal di tengah kolom membuat umpan pertama-tama dipra-fraksionasi: komponen ringan naik, komponen berat turun, dan fraksi tengah terdistribusi di kedua sisi dinding. Di sisi utama, fraksi tengah dimurnikan lalu diambil sebagai produk samping cair murni, sementara produk puncak dan dasar diambil seperti kolom biasa. Karena fraksi tengah tidak pernah tercampur ulang dengan aliran yang salah arah, pengenceran balik (back-mixing) yang merusak susunan dua kolom konvensional ditekan, dan satu reboiler serta satu kondensor melayani pekerjaan yang tadinya butuh dua pasang.",
+ "batas": [
+  "Paten ini adalah satu anggota keluarga paten dividing wall yang besar; paten terkait lain dari BASF, UOP, dan pihak lain mengatur kendali, tray, dan varian dinding, masing-masing dengan statusnya sendiri.",
+  "Dokumen tidak menjanjikan angka hemat energi tertentu; keuntungan energi dividing wall column bergantung pada komposisi umpan dan kedekatan titik didih, dan harus dibuktikan per kasus.",
+  "Pembagian aliran uap di bawah dinding tidak dapat diatur katup dari luar pada desain klasik, sehingga kendali operasinya lebih menuntut daripada dua kolom terpisah."
+ ],
+ "arti": "Dividing wall column adalah salah satu intensifikasi distilasi yang paling banyak dipasang industri karena menghemat energi dan modal sekaligus. Bagi insinyur Indonesia yang menilai revamp unit distilasi, dokumen kedaluwarsa ini bersama literatur terbukanya adalah titik mulai yang sah untuk belajar konfigurasi Kaibel. Penilaian ini adalah apresiasi redaksi atas dokumen publik, bukan nasihat hukum.",
+ "kesimpulan": "Baca dokumen patennya",
+ "kesimpulan_alasan": "Gambar penampang kolomnya menjelaskan geometri dinding lebih cepat daripada teks mana pun. Bedah ini cukup untuk memahami masalahnya, dokumen aslinya untuk memahami susunan internalnya.",
+ "terkait": [
+  {
+   "type": "artikel",
+   "slug": "distilasi-bertingkat-minyak-mentah",
+   "title": "Menara Distilasi Bertingkat"
+  },
+  {
+   "type": "artikel",
+   "slug": "reflux-optimum-kolom-distilasi",
+   "title": "Reflux Optimum dan Biaya"
+  }
+ ],
+ "src_text": "US6958111B2 Dividing wall column. Inventors Harald Rust, Neustadt (DE); Gerd Kaibel, Lampertheim (DE). Assignee BASF Aktiengesellschaft, Ludwigshafen (DE). Filed May 3, 2001 Appl. No. 09/847,299. Priority May 4, 2000 (DE) 100 21 624. Date of Patent Oct. 25, 2005. Term extended or adjusted under 35 U.S.C. 154(b) by 740 days. In the fractionation of feed mixtures into more than two pure fractions, it is normally necessary to use a plurality of distillation columns. Side products taken off at side offtakes still contain proportions of low boiling components; contaminated side products are virtually always obtained. To isolate intermediate boiling pure substances it is necessary to employ column arrangements comprising at least two separate columns. An advantageous alternative is provided by dividing wall columns or thermally coupled distillation columns. A dividing wall is located in the middle region; this extends to above and to below the feed point."
+}

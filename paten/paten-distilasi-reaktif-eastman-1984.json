@@ -1,0 +1,39 @@
+{
+ "slug": "paten-distilasi-reaktif-eastman-1984",
+ "judul": "Paten distilasi reaktif Eastman (1984): satu kolom untuk reaksi dan pemisahan metil asetat",
+ "topik": "Distilasi reaktif",
+ "nomor": "US4435595A",
+ "judul_paten": "Reactive distillation process for the production of methyl acetate",
+ "inventor": "Victor H. Agreda dan Lee R. Partin",
+ "pemilik": "Eastman Kodak Company",
+ "diajukan": "26 April 1982",
+ "terbit": "6 Maret 1984",
+ "status": "Kedaluwarsa, dokumen publik. Paten yang terbit pada 1984 telah melewati masa perlindungannya.",
+ "sumber": "https://patentimages.storage.googleapis.com/89/a9/f8/26bec6dc274b69/US4435595.pdf",
+ "coverage": "Berdasarkan dokumen paten publik",
+ "date_bedah": "2026-10-09",
+ "lead": "Metil asetat dari metanol dan asam asetat secara konvensional butuh deretan reaktor dan kolom karena reaksi kesetimbangannya dan azeotrop yang terbentuk. Paten Eastman Kodak ini mengemasnya dalam satu kolom distilasi reaktif, dan menjadi paten pertama distilasi reaktif metil asetat.",
+ "masalah": "Esterifikasi metanol dengan asam asetat glasial dibatasi kesetimbangan dan membentuk azeotrop metil asetat dengan air dan metil asetat dengan metanol, sehingga pemisahan produk dari reaktan sisa menuntut banyak unit. Paten ini menyelesaikan dua masalah itu sekaligus di dalam satu kolom: asam asetat berfungsi ganda sebagai reaktan dan sebagai agen ekstraktif yang membantu memecah persoalan azeotrop.",
+ "klaim": [
+  "Proses distilasi reaktif untuk memproduksi metil asetat kemurnian tinggi dari metanol dan asam asetat glasial, dengan asam asetat berfungsi sebagai reaktan sekaligus agen ekstraktif.",
+  "Kira-kira kuantitas stoikiometri asam asetat dan metanol dialirkan berlawanan arah melalui satu kolom distilasi reaktif dengan katalis asam, yang dipilih terutama asam sulfat.",
+  "Metil asetat kemurnian tinggi diambil kontinu dari puncak kolom dan air diambil kontinu dari dasar kolom, dengan opsi pengambilan samping uap untuk senyawa bertitik didih menengah seperti metil propionat, metil butirat, dan isopropil asetat."
+ ],
+ "cara": "Kolom memberi kontak erat antara asam asetat dan metanol, dan antara asam asetat dengan azeotrop yang terbentuk di kolom. Pada konsentrasi katalis yang dipilih, waktu tinggal di kolom setidaknya sekitar dua jam. Karena produk metil asetat terus menguap dan diambil dari puncak sementara air turun ke dasar, kesetimbangan reaksi terus digeser ke arah produk tanpa unit pemisah tambahan. Inilah contoh buku teks process intensification: reaksi dan pemisahan berbagi satu bejana.",
+ "batas": [
+  "Katalis cair asam sulfat membawa konsekuensi korosi dan penanganan yang oleh paten-paten sesudahnya diganti katalis padat resin penukar ion; paten ini adalah titik awal, bukan bentuk akhir teknologinya.",
+  "Klaim disusun atas sistem metil asetat secara spesifik; menerapkannya ke ester lain menuntut pembuktian azeotrop dan kinetika masing-masing.",
+  "Waktu tinggal sekitar dua jam menunjukkan reaksi lambat yang ditopang kolom besar; paten tidak menyatakan ini cocok untuk semua laju produksi."
+ ],
+ "arti": "Distilasi reaktif sekarang adalah keluarga teknologi matang untuk esterifikasi, hidrolisis, dan eterifikasi. Bagi perancang proses Indonesia, dokumen ini adalah studi kasus paling bersih tentang kapan menggabungkan reaktor dan kolom masuk akal: saat kesetimbangan membatasi konversi dan produk dapat ditarik keluar zona reaksi oleh volatilitasnya. Penilaian ini adalah apresiasi redaksi atas dokumen publik, bukan nasihat hukum.",
+ "kesimpulan": "Baca dokumen patennya",
+ "kesimpulan_alasan": "Abstrak patennya padat dan skema prosesnya adalah contoh klasik yang masih diajarkan. Bedah ini memberi kerangkanya, dokumen aslinya memberi rincian susunan kolom dan pengambilan sampingnya.",
+ "terkait": [
+  {
+   "type": "artikel",
+   "slug": "distilasi-bertingkat-minyak-mentah",
+   "title": "Menara Distilasi Bertingkat"
+  }
+ ],
+ "src_text": "US4435595 Reactive distillation process for the production of methyl acetate. Inventors Victor H. Agreda; Lee R. Partin, Eastman Kodak Company, Rochester, N.Y. Filed Apr. 26, 1982 Appl. No. 371,626. Mar. 6, 1984. Production of high purity methyl acetate from methanol and glacial acetic acid wherein the acetic acid functions both as a reactant and as an extractive agent. Countercurrently flowing approximately stoichiometric quantities of acetic acid and methanol through a single reactive distillation column in the presence of an acidic catalyst which is preferably sulfuric acid. At preferred catalyst concentrations, the residence time in the column is at least about two hours. Continuously removing high purity methyl acetate from the top of the column and continuously removing water from the bottom of the column. Intermediate boiling compounds such as methyl propionate, methyl butyrate, isopropyl acetate removed from a vapor sidedraw stream."
+}

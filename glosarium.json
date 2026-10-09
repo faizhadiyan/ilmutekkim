@@ -1,0 +1,496 @@
+[
+ {
+  "term": "Reflux",
+  "definisi": "Cairan hasil kondensasi uap puncak kolom yang dikembalikan masuk ke kolom. Reflux menyediakan cairan turun yang bertemu uap naik di setiap tray, dan pertemuan berulang inilah yang memperkaya produk puncak.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "reflux-optimum-kolom-distilasi"
+   },
+   {
+    "type": "artikel",
+    "slug": "distilasi-bertingkat-minyak-mentah"
+   }
+  ]
+ },
+ {
+  "term": "Rasio reflux",
+  "definisi": "Perbandingan laju cairan yang dikembalikan sebagai reflux terhadap laju produk distilat yang diambil. Rasio besar memberi pemisahan lebih tajam tetapi menuntut energi reboiler dan kondensor lebih besar.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "reflux-optimum-kolom-distilasi"
+   }
+  ]
+ },
+ {
+  "term": "Reflux minimum",
+  "definisi": "Rasio reflux terendah yang secara teori masih memungkinkan pemisahan mencapai kemurnian target, dengan konsekuensi jumlah tray yang tak berhingga. Operasi nyata selalu di atas nilai ini.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "reflux-optimum-kolom-distilasi"
+   }
+  ]
+ },
+ {
+  "term": "Reboiler",
+  "definisi": "Penukar panas di dasar kolom yang menguapkan sebagian cairan dasar agar menjadi uap pendorong pemisahan di kolom. Sumber uapnya umumnya steam atau fluida panas lain.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "distilasi-bertingkat-minyak-mentah"
+   }
+  ]
+ },
+ {
+  "term": "Kondensor",
+  "definisi": "Penukar panas di puncak kolom yang mendinginkan uap menjadi cairan agar dapat dibagi menjadi reflux dan produk distilat.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "distilasi-bertingkat-minyak-mentah"
+   }
+  ]
+ },
+ {
+  "term": "Tray",
+  "definisi": "Piringan horizontal di dalam kolom distilasi tempat uap naik berkontak dengan cairan turun. Setiap tray adalah satu panggung pemisahan.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "distilasi-bertingkat-minyak-mentah"
+   }
+  ]
+ },
+ {
+  "term": "Tahap kesetimbangan",
+  "definisi": "Tahap ideal di mana uap dan cairan yang meninggalkannya sudah berada dalam kesetimbangan fasa. Kolom nyata dinilai dari seberapa dekat setiap tray-nya ke keadaan ideal ini.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "distilasi-bertingkat-minyak-mentah"
+   }
+  ]
+ },
+ {
+  "term": "Seksi rectifying",
+  "definisi": "Bagian kolom di atas titik umpan, tempat uap yang naik diperkaya komponen ringannya oleh reflux yang turun.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "distilasi-bertingkat-minyak-mentah"
+   }
+  ]
+ },
+ {
+  "term": "Seksi stripping",
+  "definisi": "Bagian kolom di bawah titik umpan, tempat cairan yang turun dilucuti komponen ringannya oleh uap dari reboiler.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "distilasi-bertingkat-minyak-mentah"
+   }
+  ]
+ },
+ {
+  "term": "Volatilitas relatif",
+  "definisi": "Ukuran kemudahan dua komponen dipisahkan oleh distilasi, dari perbandingan kecenderungan menguapnya masing-masing. Semakin jauh dari satu, semakin mudah pemisahannya.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "distilasi-bertingkat-minyak-mentah"
+   }
+  ]
+ },
+ {
+  "term": "Azeotrop",
+  "definisi": "Campuran yang mendidih pada komposisi tetap sehingga uap dan cairannya berkomposisi sama dan tidak dapat dipisahkan lebih lanjut oleh distilasi biasa.",
+  "terkait": [
+   {
+    "type": "paten",
+    "slug": "paten-distilasi-reaktif-eastman-1984"
+   }
+  ]
+ },
+ {
+  "term": "Packing",
+  "definisi": "Isian kolom bertray digantikan material berpori atau terstruktur yang menyediakan luas kontak uap-cairan besar dalam volume kecil. Dipilih antara lain untuk beda tekanan yang rendah.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "distilasi-bertingkat-minyak-mentah"
+   }
+  ]
+ },
+ {
+  "term": "Flooding",
+  "definisi": "Kondisi operasi kolom saat aliran uap terlalu deras sehingga cairan gagal turun dan justru terbawa naik. Pemisahan rusak dan beda tekanan kolom melonjak.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "distilasi-bertingkat-minyak-mentah"
+   }
+  ]
+ },
+ {
+  "term": "Distilat",
+  "definisi": "Produk ringan yang diambil dari puncak kolom distilasi setelah uapnya dikondensasikan.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "distilasi-bertingkat-minyak-mentah"
+   }
+  ]
+ },
+ {
+  "term": "Bottoms",
+  "definisi": "Produk berat yang diambil dari dasar kolom distilasi, kaya komponen bertitik didih tinggi.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "distilasi-bertingkat-minyak-mentah"
+   }
+  ]
+ },
+ {
+  "term": "Fouling",
+  "definisi": "Endapan kotoran yang menempel pada permukaan perpindahan panas dan menurunkan koefisien perpindahan panas keseluruhan. Penyebab klasik heat exchanger kehilangan kinerja.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "heat-exchanger-bikin-shutdown"
+   },
+   {
+    "type": "video",
+    "slug": "heat-exchanger-penghenti-pabrik"
+   }
+  ]
+ },
+ {
+  "term": "LMTD",
+  "definisi": "Beda suhu rata-rata logaritmik antara aliran panas dan dingin sepanjang penukar panas; pendorong perpindahan panas yang dipakai dalam perancangan dan penilaian heat exchanger.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "heat-exchanger-bikin-shutdown"
+   }
+  ]
+ },
+ {
+  "term": "Pinch",
+  "definisi": "Titik beda suhu terkecil yang ditargetkan antara aliran panas dan dingin dalam jaringan penukar panas. Menentukan seberapa banyak panas dapat dipulihkan sebelum membeli utilitas.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "heat-exchanger-bikin-shutdown"
+   }
+  ]
+ },
+ {
+  "term": "Cooling tower",
+  "definisi": "Menara yang membuang panas pabrik ke udara dengan menguapkan sebagian kecil air sirkulasi. Itulah sebabnya menara ini mengepulkan uap air, bukan asap.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "cooling-tower-cara-kerja"
+   }
+  ]
+ },
+ {
+  "term": "Suhu wet bulb",
+  "definisi": "Suhu terendah yang dapat dicapai air yang menguap ke udara sekitar. Batas teoretis suhu air dingin keluar cooling tower ditentukan suhu wet bulb udara setempat.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "cooling-tower-wet-bulb-range-approach"
+   }
+  ]
+ },
+ {
+  "term": "Range",
+  "definisi": "Penurunan suhu air saat melintasi cooling tower, dari masuk panas ke keluar dingin.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "cooling-tower-wet-bulb-range-approach"
+   }
+  ]
+ },
+ {
+  "term": "Approach",
+  "definisi": "Selisih suhu air dingin keluar cooling tower terhadap suhu wet bulb udara. Semakin kecil, semakin baik kinerja menara, dengan biaya kipas dan ukuran yang lebih besar.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "cooling-tower-wet-bulb-range-approach"
+   }
+  ]
+ },
+ {
+  "term": "Blowdown",
+  "definisi": "Aliran air sirkulasi yang sengaja dibuang untuk mengendalikan konsentrasi padatan terlarut yang meningkat akibat penguapan, digantikan air segar makeup.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "cooling-tower-wet-bulb-range-approach"
+   },
+   {
+    "type": "artikel",
+    "slug": "utilitas-pabrik-steam-air-nitrogen"
+   }
+  ]
+ },
+ {
+  "term": "Neraca massa",
+  "definisi": "Perhitungan aliran masuk, keluar, dan akumulasi dalam suatu sistem. Hukum kekekalan massa adalah alat diagnosis pertama saat data pabrik terasa tidak masuk akal.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "neraca-massa-data-pabrik-bocor"
+   }
+  ]
+ },
+ {
+  "term": "P&ID",
+  "definisi": "Diagram perpipaan dan instrumentasi: gambar teknik yang menunjukkan peralatan, pipa, katup, dan loop kendali suatu unit proses. Bahasa gambar resmi pabrik.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "baca-pid-lima-simbol-pabrik"
+   },
+   {
+    "type": "artikel",
+    "slug": "control-room-dcs-loop-kontrol"
+   }
+  ]
+ },
+ {
+  "term": "DCS",
+  "definisi": "Sistem kendali terdistribusi yang mengoperasikan pabrik dari control room: pengendali tersebar dekat peralatan, terhubung ke layar operator pusat.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "control-room-dcs-loop-kontrol"
+   }
+  ]
+ },
+ {
+  "term": "Loop kontrol",
+  "definisi": "Rangkaian tertutup pengukuran, pengendali, dan elemen kendali akhir yang menjaga satu variabel proses pada nilai yang dikehendaki.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "control-room-dcs-loop-kontrol"
+   }
+  ]
+ },
+ {
+  "term": "Pengendali PID",
+  "definisi": "Pengendali yang menghitung aksi dari galat saat ini (proporsional), akumulasi galat (integral), dan laju perubahan galat (derivatif). Bentuk loop umpan balik yang paling umum di pabrik.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "control-room-dcs-loop-kontrol"
+   }
+  ]
+ },
+ {
+  "term": "Relief valve",
+  "definisi": "Katup pengaman yang membuka sendiri saat tekanan mencapai nilai setelnya dan menutup lagi setelah tekanan turun. Garis pertahanan mekanis terakhir bejana bertekanan.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "tekanan-relief-valve-rupture-disk"
+   }
+  ]
+ },
+ {
+  "term": "Rupture disk",
+  "definisi": "Membran tipis yang dirancang pecah pada tekanan tertentu sebagai pengaman tekanan sekali pakai. Setelah pecah, disk harus diganti.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "tekanan-relief-valve-rupture-disk"
+   }
+  ]
+ },
+ {
+  "term": "Safety instrumented system",
+  "definisi": "Lapisan pengaman otomatis yang terdiri atas sensor, pemecah logika, dan elemen akhir, yang membawa proses ke keadaan aman saat batas bahaya terlampaui. Ia terpisah dari sistem kendali biasa.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "safety-instrumented-system-lapisan-pengaman"
+   },
+   {
+    "type": "video",
+    "slug": "process-safety-bukan-apd"
+   }
+  ]
+ },
+ {
+  "term": "SIL",
+  "definisi": "Tingkat integritas keselamatan: ukuran seberapa andal suatu fungsi pengaman instrumentasi dituntut bekerja saat dibutuhkan. Ada empat tingkat, semakin tinggi semakin ketat syarat keandalannya.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "safety-instrumented-system-lapisan-pengaman"
+   }
+  ]
+ },
+ {
+  "term": "HAZOP",
+  "definisi": "Studi bahaya dan operabilitas yang sistematis: tim menelusuri penyimpangan dari maksud rancangan dengan kata pandu, mencari sebab dan akibatnya sebelum pabrik dibangun atau diubah.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "safety-instrumented-system-lapisan-pengaman"
+   }
+  ]
+ },
+ {
+  "term": "Permit to work",
+  "definisi": "Izin tertulis untuk pekerjaan berisiko seperti kerja panas, masuk ruang terbatas, dan membuka jalur proses. Menghubungkan identifikasi bahaya, isolasi, dan persetujuan sebelum pekerjaan dimulai.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "permit-to-work-kerja-panas"
+   }
+  ]
+ },
+ {
+  "term": "Flare",
+  "definisi": "Cerobong bakar untuk membuang gas bertekanan secara aman dengan membakarnya di ketinggian, dipakai saat pelepasan relief atau keadaan darurat.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "tekanan-relief-valve-rupture-disk"
+   }
+  ]
+ },
+ {
+  "term": "Konversi",
+  "definisi": "Fraksi reaktan yang berhasil berubah selama reaksi berlangsung, tanpa membedakan menjadi produk yang diinginkan atau tidak.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "polimerisasi-konversi-carothers"
+   }
+  ]
+ },
+ {
+  "term": "Selektivitas",
+  "definisi": "Dari reaktan yang terkonversi, fraksi yang menjadi produk yang diinginkan. Konversi tinggi dengan selektivitas rendah berarti bahan baku banyak terbuang ke produk samping.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "polimerisasi-konversi-carothers"
+   }
+  ]
+ },
+ {
+  "term": "Derajat polimerisasi",
+  "definisi": "Jumlah rata-rata unit monomer dalam satu rantai polimer, sering disingkat DP. Pada polimerisasi step-growth, DP sangat peka terhadap konversi dan keseimbangan stoikiometri.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "polimerisasi-konversi-carothers"
+   },
+   {
+    "type": "artikel",
+    "slug": "cs01-step-growth-carothers-dp-runtuh"
+   }
+  ]
+ },
+ {
+  "term": "Stoikiometri",
+  "definisi": "Perbandingan jumlah zat sesuai persamaan reaksi yang setara. Pada polimerisasi step-growth, meleset sedikit saja dari stoikiometri membatasi panjang rantai maksimum.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "cs01-step-growth-carothers-dp-runtuh"
+   }
+  ]
+ },
+ {
+  "term": "Utilitas",
+  "definisi": "Layanan pendukung pabrik seperti steam, air pendingin, udara instrumen, dan nitrogen. Pabrik utama tidak dapat beroperasi tanpa sistem utilitasnya.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "utilitas-pabrik-steam-air-nitrogen"
+   }
+  ]
+ },
+ {
+  "term": "Steam trap",
+  "definisi": "Katup otomatis yang membuang kondensat dan gas tak terkondensasi dari jalur steam tanpa ikut membuang steam hidup.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "utilitas-pabrik-steam-air-nitrogen"
+   }
+  ]
+ },
+ {
+  "term": "Kavitasi",
+  "definisi": "Pembentukan gelembung uap di sisi isap pompa saat tekanan setempat turun di bawah tekanan uap cairan, lalu pecahnya gelembung itu merusak impeler dan menimbulkan getaran serta bunyi berisik.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "pompa-vs-kompresor"
+   }
+  ]
+ },
+ {
+  "term": "NPSH",
+  "definisi": "Tinggi tekan bersih di sisi isap pompa. Nilai yang tersedia dari sistem harus melebihi yang dibutuhkan pompa agar kavitasi tidak terjadi.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "pompa-vs-kompresor"
+   }
+  ]
+ },
+ {
+  "term": "Batch",
+  "definisi": "Mode operasi di mana bahan dimuat, diproses dalam satu siklus, lalu dikeluarkan sebelum siklus berikutnya. Cocok untuk produk bervariasi dan volume kecil.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "batch-vs-continuous-pabrik"
+   }
+  ]
+ },
+ {
+  "term": "Continuous",
+  "definisi": "Mode operasi aliran tunak tanpa henti: umpan masuk dan produk keluar terus-menerus. Cocok untuk produk tunggal bervolume besar.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "batch-vs-continuous-pabrik"
+   }
+  ]
+ },
+ {
+  "term": "Transesterifikasi",
+  "definisi": "Reaksi pertukaran gugus ester minyak dengan alkohol berlebih menghasilkan ester baru dan gliserol. Inilah reaksi pembuatan biodiesel dari minyak sawit.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "b40-biodiesel-sawit-transesterifikasi"
+   }
+  ]
+ },
+ {
+  "term": "Proses kraft",
+  "definisi": "Pemasakan serpih kayu dengan larutan alkali bersulfur untuk melarutkan lignin dan membebaskan serat selulosa. Proses pulp dominan di dunia, termasuk pabrik pulp Indonesia.",
+  "terkait": [
+   {
+    "type": "artikel",
+    "slug": "pulp-kertas-proses-kraft"
+   }
+  ]
+ }
+]

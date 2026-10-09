@@ -1,0 +1,39 @@
+{
+ "slug": "paten-membran-monsanto-1980",
+ "judul": "Paten membran multikomponen Monsanto (1980): menambal pori demi selektivitas",
+ "topik": "Pemisahan membran",
+ "nomor": "US4230463A",
+ "judul_paten": "Multicomponent membranes for gas separations",
+ "inventor": "Jay M. S. Henis dan Mary K. Tripodi",
+ "pemilik": "Monsanto Company",
+ "diajukan": "13 September 1977",
+ "terbit": "28 Oktober 1980",
+ "status": "Kedaluwarsa, dokumen publik. Paten yang terbit pada 1980 telah melewati masa perlindungannya.",
+ "sumber": "http://patentimages.storage.googleapis.com/pdfs/US4230463.pdf",
+ "coverage": "Berdasarkan dokumen paten publik",
+ "date_bedah": "2026-10-09",
+ "lead": "Membran asimetris berpori punya selektivitas intrinsik yang baik tetapi bocor lewat pori permukaannya. Henis dan Tripodi di Monsanto mematenkan tambalannya: lapisi dengan polimer sangat permeabel yang menyumbat pori tanpa membunuh selektivitas. Dari sinilah membran pemisah gas komersial lahir.",
+ "masalah": "Membran polimer asimetris untuk pemisahan gas menjanjikan selektivitas bawaan materialnya, tetapi pori dan cacat permukaan membuat gas mengalir tanpa terseleksi sehingga selektivitas praktisnya runtuh. Membuat membran bebas cacat sepenuhnya tidak realistis pada skala produksi serat berongga. Masalahnya adalah bagaimana mempertahankan selektivitas intrinsik substrat sambil menjaga permeabilitas keseluruhan tetap tinggi.",
+ "klaim": [
+  "Membran multikomponen untuk pemisahan gas: substrat berpori asimetris dilapisi polimer yang berada dalam kontak menutup (occluding contact) dengan permukaan berporinya.",
+  "Lapisan tipis polimer berpermeabilitas tinggi, misalnya karet silikon, diendapkan di permukaan membran asimetris berpori untuk menyegel pori permukaan.",
+  "Dengan pori tersegel, sebagian besar selektivitas material polimer berpori di bawahnya dipertahankan sementara permeabilitas keseluruhan tetap cukup tinggi untuk pemisahan gas praktis."
+ ],
+ "cara": "Prinsipnya adalah tahanan seri. Lapisan penutup dibuat sangat tipis dan sangat permeabel sehingga tahanannya terhadap aliran gas kecil, tetapi ia menutup jalan pintas pori yang sebelumnya mengalirkan gas tanpa seleksi. Gas kemudian dipaksa melewati kulit selektif substrat asimetris, sehingga yang menentukan selektivitas kembali ke material substrat, sementara fluks total tetap tinggi karena kedua lapisan tipis. Pendekatan ini yang kemudian memungkinkan modul serat berongga komersial untuk recovery hidrogen dan pemisahan gas lain.",
+ "batas": [
+  "Paten ini melindungi gagasan pelapisan penutupnya; material membran modern (polimida, polisulfon termodifikasi, dan lainnya) umumnya dilindungi paten tersendiri yang statusnya harus dicek per kasus.",
+  "Dokumen tidak berarti setiap membran komposit hari ini bebas dipakai; yang kedaluwarsa adalah dokumen 1980 ini dan klaimnya, bukan seluruh teknologi membran.",
+  "Kinerja membran nyata tetap ditentukan material, modul, dan kondisi operasi; paten ini memberi arsitektur, bukan garansi angka selektivitas."
+ ],
+ "arti": "Pemisahan membran sekarang berdampingan dengan PSA dan kriogenik di pemurnian hidrogen, pengolahan gas alam, dan penangkapan karbon. Bagi pembaca Indonesia, dokumen ini menjelaskan mengapa membran industri berbentuk komposit berlapis, pengetahuan yang membantu membaca brosur vendor secara kritis. Penilaian ini adalah apresiasi redaksi atas dokumen publik, bukan nasihat hukum.",
+ "kesimpulan": "Cukup baca bedahnya",
+ "kesimpulan_alasan": "Gagasan intinya satu dan jernih, yaitu menyegel pori permukaan dengan lapisan sangat permeabel agar selektivitas substrat berlaku. Dokumen patennya baru perlu dibuka bila pembaca ingin rincian formulasi lapisan dan contoh ujinya.",
+ "terkait": [
+  {
+   "type": "artikel",
+   "slug": "gas-alam-ke-urea-haber-bosch",
+   "title": "Gas Alam ke Urea: Haber-Bosch dan Rantai Pupuk"
+  }
+ ],
+ "src_text": "US4230463 Multicomponent membranes for gas separations. Inventors Jay M. S. Henis; Mary K. Tripodi, both of Creve Coeur, Mo. Assignee Monsanto Company, St. Louis, Mo. Appl. No. 832,481, filed Sep. 13, 1977. Oct. 28, 1980. Porous substrates coated with polymers in occluding contact. A thin layer of high permeability polymer (such as silicone rubber) deposited on the surface of a porous asymmetric membrane displaying good intrinsic selectivity for one component of the gas mixture seals the surface pores; much of the selectivity of the underlying porous polymer material is retained, yet the overall permeability remains quite high. Membranes consisting of two or more films laminated together are composite membranes; total resistance of the composite is the sum of resistances of component parts."
+}

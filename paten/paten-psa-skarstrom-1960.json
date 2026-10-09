@@ -1,0 +1,39 @@
+{
+ "slug": "paten-psa-skarstrom-1960",
+ "judul": "Paten PSA Skarstrom (1960): siklus ayun tekanan untuk memisahkan gas",
+ "topik": "Pemisahan gas",
+ "nomor": "US2944627A",
+ "judul_paten": "Method and apparatus for fractionating gaseous mixtures by adsorption",
+ "inventor": "Charles W. Skarstrom",
+ "pemilik": "Esso Research and Engineering Company",
+ "diajukan": "12 Februari 1958",
+ "terbit": "12 Juli 1960",
+ "status": "Kedaluwarsa, dokumen publik. Paten Amerika Serikat yang terbit pada 1960 telah lama melewati masa perlindungannya.",
+ "sumber": "https://patentimages.storage.googleapis.com/6d/25/43/2bc6fbdf971e28/US2944627.pdf",
+ "coverage": "Berdasarkan dokumen paten publik",
+ "date_bedah": "2026-10-09",
+ "lead": "Hampir semua pabrik hidrogen dan unit pemurnian gas hari ini menjalankan siklus yang dipatenkan Charles W. Skarstrom pada 1960: adsorpsi pada tekanan tinggi, penurunan tekanan, purge, lalu tekan kembali. Dokumen inilah akta kelahiran pressure swing adsorption.",
+ "masalah": "Campuran gas perlu difraksionasi menjadi aliran-aliran produk yang masing-masing kaya akan satu komponen. Pemisahan kriogenik dan absorpsi cair menuntut peralatan besar dan energi tinggi. Yang ditawarkan paten ini adalah jalan adsorpsi siklik: memanfaatkan adsorben padat yang menangkap komponen kunci pada tekanan tinggi dan melepaskannya pada tekanan rendah, diulang terus dalam siklus.",
+ "klaim": [
+  "Metode dan peralatan untuk memfraksionasi campuran gas dengan adsorpsi, menghasilkan deretan aliran efluen yang masing-masing kaya setidaknya satu komponen dari campuran gas umpan.",
+  "Siklus dasarnya yang kemudian dikenal sebagai siklus Skarstrom terdiri atas empat langkah berurutan pada bed adsorben: adsorpsi pada tekanan tinggi, depressurization, purge dengan gas produk, dan repressurization.",
+  "Dokumen memuat 36 klaim yang mencakup susunan bed dan urutan langkah siklusnya."
+ ],
+ "cara": "Dua bed atau lebih bekerja bergantian agar produk mengalir kontinu. Saat satu bed menjerap komponen yang kuat teradsorpsi pada tekanan tinggi dan melepaskan komponen ringan sebagai produk, bed lain menjalani penurunan tekanan untuk membuang yang terjerap, dibersihkan dengan sebagian gas produk, lalu ditekan kembali siap untuk giliran berikutnya. Pemisahan terjadi bukan oleh perbedaan titik didih, melainkan oleh kesetimbangan adsorpsi yang digerakkan ayunan tekanan.",
+ "batas": [
+  "Dokumen ini paten tahun 1960: adsorben, katup, dan kendali siklus yang digambarkan adalah teknologi zamannya. PSA modern memakai zeolit dan carbon molecular sieve yang jauh lebih baik serta kendali PLC, tetapi arsitektur siklusnya tetap turunan dari sini.",
+  "Paten ini melindungi susunan dan urutan langkah pada konteksnya; ribuan paten PSA sesudahnya mematenkan variasi langkah (misalnya pressure equalization) yang masing-masing punya status sendiri.",
+  "Bedah ini membaca dokumen paten sebagai dokumen teknologi, bukan menilai kekuatan hukum klaimnya pada masa berlaku."
+ ],
+ "arti": "Bagi insinyur pabrik Indonesia, ini dokumen asal-usul unit yang mungkin ia operasikan setiap hari: PSA pemurnian hidrogen di kilang dan pabrik amonia, pengering udara instrumen, sampai generator nitrogen dan oksigen. Karena patennya sudah kedaluwarsa, siklus dasarnya bebas dipelajari, diajarkan, dan dipakai sebagai titik awal desain. Penilaian ini adalah apresiasi redaksi atas dokumen publik, bukan nasihat hukum.",
+ "kesimpulan": "Baca dokumen patennya",
+ "kesimpulan_alasan": "Gambar dan uraian siklus aslinya sederhana dan mendidik, dan dokumennya pendek untuk ukuran paten proses. Bedah ini cukup untuk konsepnya, tetapi dokumen aslinya layak dibaca sekali oleh setiap insinyur pemisahan gas.",
+ "terkait": [
+  {
+   "type": "artikel",
+   "slug": "gas-alam-ke-urea-haber-bosch",
+   "title": "Gas Alam ke Urea: Haber-Bosch dan Rantai Pupuk"
+  }
+ ],
+ "src_text": "US2944627 Method and apparatus for fractionating gaseous mixtures by adsorption. Charles W. Skarstrom, assignor to Esso Research and Engineering Company. Filed Feb. 12, 1958 Ser. No. 714,780. Patented July 12, 1960. 36 Claims. Gaseous mixture may be fractionated to provide a series of effluent product streams in which each stream is rich in at least one component portion of the gas mixture supplied as feed. Cycle steps: adsorption, depressurization, purge, repressurization. Key component selectively adsorbed from a stream fed to the system."
+}

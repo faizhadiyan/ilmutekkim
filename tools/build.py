@@ -958,7 +958,7 @@ HEAD = """<!DOCTYPE html>
   <nav>
     <a href="/#artikel">Artikel</a>
     <a href="/video/">Video</a>
-    <a href="/riset/">Riset</a>
+    <a href="/riset/">Riset</a> <a href="/jalur/">Jalur</a> <a href="/glosarium/">Glosarium</a> <a href="/referensi/">Referensi</a> <a href="/kalkulator/">Kalkulator</a>
     <a href="/#seri">Seri</a>
     <a href="/tentang/">Tentang</a>
     <a class="btn-ig" href="https://www.instagram.com/ilmutekkim" target="_blank" rel="noopener">Instagram</a>
@@ -972,7 +972,7 @@ FOOT = """
 <footer>
   <div class="foot-brand">ilmu<span>tekkim</span></div>
   <p>Bikin teknik kimia asik. Pabrik, proses, safety, dan AI. Ditulis insinyur kimia ITB.</p>
-  <p><a href="https://www.instagram.com/ilmutekkim" target="_blank" rel="noopener">@ilmutekkim di Instagram</a> &middot; <a href="/video/">Video interaktif</a> &middot; <a href="/riset/">Riset</a> &middot; <a href="/tentang/">Tentang</a></p>
+  <p><a href="https://www.instagram.com/ilmutekkim" target="_blank" rel="noopener">@ilmutekkim di Instagram</a> &middot; <a href="/video/">Video interaktif</a> &middot; <a href="/riset/">Riset</a> <a href="/jalur/">Jalur</a> <a href="/glosarium/">Glosarium</a> <a href="/referensi/">Referensi</a> <a href="/kalkulator/">Kalkulator</a> &middot; <a href="/tentang/">Tentang</a></p>
   <p class="fine">Artikel dan video di situs ini adalah versi baca dan tonton dari konten Instagram @ilmutekkim. Foto berasal dari Pexels dan Unsplash, kredit tercantum di tiap gambar.</p>
 </footer>
 <script src="/assets/js/main.js?v=5"></script>
@@ -1103,6 +1103,55 @@ def render_bedah(d):
     return "\n".join(out)
 
 
+def load_paten():
+    pdir = os.path.join(ROOT, "paten")
+    items = []
+    if os.path.isdir(pdir):
+        for f in sorted(os.listdir(pdir)):
+            if f.endswith(".json"):
+                items.append(json.load(open(os.path.join(pdir, f))))
+    items.sort(key=lambda d: d.get("date_bedah", ""), reverse=True)
+    return items
+
+
+def render_paten(d):
+    # ILM-R66: halaman bedah paten (masalah, klaim parafrase, cara kerja, batas, arti pabrik, kesimpulan)
+    out = []
+    out.append(f'<p class="cov-label">{esc(d["coverage"])}</p>')
+    out.append(f'<p class="lead">{esc(d["lead"])}</p>')
+    out.append('<section class="paper-box"><p class="eyebrow">Paten yang dibedah</p>'
+               f'<h2 class="paper-title">{esc(d["judul_paten"])}</h2>'
+               f'<p>{esc(d["nomor"])} &middot; Inventor: {esc(d["inventor"])} &middot; Pemilik saat terbit: {esc(d["pemilik"])}</p>'
+               f'<p>Diajukan {esc(d["diajukan"])} &middot; Terbit {esc(d["terbit"])}</p>'
+               f'<p><strong>Status:</strong> {esc(d["status"])}</p>'
+               f'<a class="btn ghost" href="{esc(d["sumber"])}" target="_blank" rel="noopener">Buka dokumen paten</a></section>')
+    out.append(f'<section><h2>Masalah yang diselesaikan</h2><p>{esc(d["masalah"])}</p></section>')
+    out.append('<section><h2>Klaim inti, dengan kata kami</h2><p class="meta">Klaim paten adalah teks hukum; di bawah ini parafrasenya, bukan salinan.</p><ul>'
+               + "".join(f"<li>{esc(x)}</li>" for x in d["klaim"]) + "</ul></section>")
+    out.append(f'<section><h2>Cara kerjanya</h2><p>{esc(d["cara"])}</p></section>')
+    out.append('<section><h2>Batas dan catatan kritis</h2><ul>'
+               + "".join(f"<li>{esc(x)}</li>" for x in d["batas"]) + "</ul></section>")
+    out.append(f'<section><h2>Arti buat pabrik</h2><p>{esc(d["arti"])}</p></section>')
+    out.append(f'<section class="verdict"><p class="eyebrow">Kesimpulan bedah</p><h2>{esc(d["kesimpulan"])}</h2>'
+               f'<p>{esc(d["kesimpulan_alasan"])}</p></section>')
+    if d.get("terkait"):
+        links = "".join(
+            f'<a class="btn ghost" href="/{ "artikel" if t["type"] == "artikel" else "video" }/{esc(t["slug"])}/">{esc(t["title"])}</a> '
+            for t in d["terkait"])
+        out.append(f'<section><h2>Baca terkait di ilmutekkim</h2><p>{links}</p></section>')
+    return "\n".join(out)
+
+
+def load_jalur():
+    fp = os.path.join(ROOT, "jalur.json")
+    return json.load(open(fp)) if os.path.exists(fp) else []
+
+
+def load_glosarium():
+    fp = os.path.join(ROOT, "glosarium.json")
+    return json.load(open(fp)) if os.path.exists(fp) else []
+
+
 def main():
     # ILM-R65: gate QC bedah riset. Build GAGAL bila satu bedah pun tidak lolos.
     import subprocess
@@ -1111,6 +1160,12 @@ def main():
     print(qc.stdout.strip())
     if qc.returncode != 0:
         raise SystemExit("Build dibatalkan: QC riset ILM-R65 gagal")
+    # ILM-R66: gate QC bedah paten. Build GAGAL bila satu bedah paten pun tidak lolos.
+    qcp = subprocess.run(["python3", os.path.join(ROOT, "tools", "qc_patent.py")],
+                         capture_output=True, text=True)
+    print(qcp.stdout.strip())
+    if qcp.returncode != 0:
+        raise SystemExit("Build dibatalkan: QC paten ILM-R66 gagal")
     articles = []
     for slug, rel, title, date, ig, status in ARTICLES:
         d = json.load(open(os.path.join(SRC, rel)))
@@ -1319,6 +1374,7 @@ Di Instagram enak ditonton, di sini enak dibaca: tonton videonya, baca penjelasa
 
     # halaman riset /riset/ + bedah /riset/<slug>/ (ILM-R65)
     research = load_research()
+    paten = load_paten()
     rcards = ""
     for d in research:
         rcards += (f'<article class="card" data-series="{esc(d["topik"])}" '
@@ -1350,8 +1406,9 @@ Di Instagram enak ditonton, di sini enak dibaca: tonton videonya, baca penjelasa
 </section>
 <p id="no-result" hidden>Tidak ada bedah yang cocok. Coba kata kunci lain.</p>
 <section class="post wide">
-<h2>Rak berikutnya: bedah paten</h2>
-<p>Paten adalah dokumen teknologi yang legal dan praktis: paten kedaluwarsa berarti teknologi gratis, paten aktif berarti peta arah vendor. Rak bedah paten sedang disiapkan dengan standar QC yang sama.</p>
+<h2>Rak bedah paten</h2>
+<p>Paten adalah dokumen teknologi yang terbuka: paten kedaluwarsa berarti teknologi yang bebas dipelajari dan dipakai sebagai titik awal, paten aktif berarti peta arah pemegangnya. Di rak ini paten klasik teknik kimia dibedah dengan standar yang sama: nomor, inventor, dan tanggal diverifikasi dari dokumen aslinya, klaimnya diparafrase, dan statusnya ditulis apa adanya. Saat ini ada {len(paten)} bedah paten.</p>
+<p><a class="btn" href="/riset/paten/">Buka rak bedah paten</a></p>
 </section>
 """ + FOOT
     os.makedirs(os.path.join(ROOT, "riset"), exist_ok=True)
@@ -1379,6 +1436,289 @@ Di Instagram enak ditonton, di sini enak dibaca: tonton videonya, baca penjelasa
         outr = os.path.join(ROOT, "riset", d["slug"])
         os.makedirs(outr, exist_ok=True)
         open(os.path.join(outr, "index.html"), "w").write(page)
+
+    # rak paten /riset/paten/ + bedah /riset/paten/<slug>/ (ILM-R66)
+    pcards = ""
+    for d in paten:
+        pcards += (f'<article class="card" data-series="{esc(d["topik"])}" '
+                   f'data-title="{esc(d["judul"].lower())} {esc(d["topik"].lower())} {esc(d["nomor"].lower())}">'
+                   f'<a href="/riset/paten/{d["slug"]}/"><div class="no-img">Bedah Paten</div></a><div class="card-body">'
+                   f'<p class="eyebrow">{esc(d["topik"])} &middot; {esc(d["nomor"])}</p>'
+                   f'<h3><a href="/riset/paten/{d["slug"]}/">{esc(d["judul"])}</a></h3>'
+                   f'<p>{esc(d["lead"])}</p>'
+                   f'<p class="meta">Terbit {esc(d["terbit"])} &middot; Kesimpulan: {esc(d["kesimpulan"])}</p></div></article>\n')
+    ptopics = sorted(set(d["topik"] for d in paten))
+    pchips = "".join(f'<button class="chip" data-series="{esc(t)}">{esc(t)}</button>' for t in ptopics)
+    pindex = HEAD.format(title="Bedah Paten Teknik Kimia | ilmutekkim",
+                         desc="Bedah paten klasik teknik kimia dari dokumen aslinya: masalah, klaim inti parafrase, cara kerja, batas kritis, dan status. Paten kedaluwarsa adalah teknologi yang bebas dipelajari.",
+                         url=BASE + "/riset/paten/", ogtype="website", ogimg="")
+    pindex += f"""
+<article class="post wide">
+<p class="eyebrow">Riset &middot; Paten</p>
+<h1>Bedah paten: baca dokumen teknologinya, bukan rumornya.</h1>
+<p class="lead">Setiap bedah di rak ini ditulis dari dokumen paten aslinya yang terbuka untuk umum: nomor, inventor, pemilik, dan tanggalnya diverifikasi, klaim intinya diparafrase dengan kata kami, cara kerjanya dijelaskan, batasnya dicatat, dan statusnya ditulis apa adanya. Paten yang sudah kedaluwarsa adalah dokumen publik: teknologinya bebas dipelajari siapa pun.</p>
+<p class="meta">{len(paten)} bedah paten &middot; standar bedah: data hanya dari dokumen paten, klaim diparafrase, status bersumber dan bertanggal akses</p>
+</article>
+<section id="seri" class="series-bar">
+  <h2>Jelajahi per topik</h2>
+  <div class="chips"><button class="chip active" data-series="all">Semua</button>{pchips}</div>
+  <input id="search" type="search" placeholder="Cari paten, contoh: PSA, membran, MTG..." aria-label="Cari bedah paten">
+</section>
+<section id="artikel" class="grid">
+{pcards}
+</section>
+<p id="no-result" hidden>Tidak ada bedah yang cocok. Coba kata kunci lain.</p>
+<section class="post wide">
+<h2>Rak bedah jurnal</h2>
+<p>Bedah paper jurnal teknik kimia internasional dan Indonesia ada di halaman riset: masalah, metode, temuan persis dari abstrak, catatan kritis, dan kesimpulan baca.</p>
+<p><a class="btn" href="/riset/">Buka rak bedah jurnal</a></p>
+</section>
+""" + FOOT
+    os.makedirs(os.path.join(ROOT, "riset", "paten"), exist_ok=True)
+    open(os.path.join(ROOT, "riset", "paten", "index.html"), "w").write(pindex)
+    for pi, d in enumerate(paten):
+        url = f"{BASE}/riset/paten/{d['slug']}/"
+        page = HEAD.format(title=f"{esc(d['judul'])} | Bedah Paten ilmutekkim", desc=esc(d["lead"])[:155],
+                           url=url, ogtype="article", ogimg="")
+        page += '<article class="post">\n'
+        page += f'<p class="eyebrow">Riset &middot; Paten &middot; {esc(d["topik"])}</p>\n<h1>{esc(d["judul"])}</h1>\n'
+        page += f'<p class="meta">{tgl_indo(d["date_bedah"])} &middot; ilmutekkim</p>\n'
+        page += render_paten(d) + "\n"
+        prev_p = paten[pi + 1] if pi + 1 < len(paten) else None
+        next_p = paten[pi - 1] if pi > 0 else None
+        page += '<nav class="post-nav">'
+        if prev_p:
+            page += f'<a href="/riset/paten/{prev_p["slug"]}/">&larr; {esc(prev_p["judul"])}</a>'
+        if next_p:
+            page += f'<a href="/riset/paten/{next_p["slug"]}/">{esc(next_p["judul"])} &rarr;</a>'
+        page += "</nav>\n"
+        page += ('<div class="cta-box"><h2>Semua bedah paten</h2>'
+                 "<p>Bedah paten klasik teknik kimia dari dokumen aslinya, dengan klaim parafrase dan status yang ditulis apa adanya.</p>"
+                 '<a class="btn" href="/riset/paten/">Ke rak bedah paten</a></div>\n')
+        page += "</article>" + FOOT
+        outp = os.path.join(ROOT, "riset", "paten", d["slug"])
+        os.makedirs(outp, exist_ok=True)
+        open(os.path.join(outp, "index.html"), "w").write(page)
+
+    # jalur belajar /jalur/ + /jalur/<slug>/, glosarium /glosarium/, referensi /referensi/ (ILM-R67)
+    jalur = load_jalur()
+    glosarium = load_glosarium()
+    art_map = {a["slug"]: a["title"] for a in articles}
+    vid_map = {v["slug"]: v["title"] for v in videos}
+    pat_map = {d["slug"]: d["judul"] for d in paten}
+
+    def resolve_tautan(t):
+        typ, sl = t.get("type"), t.get("slug")
+        if typ == "artikel" and sl in art_map:
+            return f"/artikel/{sl}/", art_map[sl]
+        if typ == "video" and sl in vid_map:
+            return f"/video/{sl}/", vid_map[sl]
+        if typ == "paten" and sl in pat_map:
+            return f"/riset/paten/{sl}/", pat_map[sl]
+        raise SystemExit(f"Build dibatalkan: tautan tidak dikenal (ILM-R67): {t}")
+
+    label_tipe = {"artikel": "Artikel", "video": "Video", "paten": "Bedah paten"}
+    jcards = ""
+    for t in jalur:
+        first_url, _ = resolve_tautan(t["steps"][0])
+        jcards += (f'<article class="card"><a href="/jalur/{t["slug"]}/"><div class="no-img">Jalur Belajar</div></a>'
+                   f'<div class="card-body"><p class="eyebrow">Jalur belajar &middot; {len(t["steps"])} langkah</p>'
+                   f'<h3><a href="/jalur/{t["slug"]}/">{esc(t["judul"])}</a></h3><p>{esc(t["desc"])}</p>'
+                   f'<p class="meta"><a href="{first_url}">Mulai dari langkah 1 &rarr;</a></p></div></article>\n')
+    jindex = HEAD.format(title="Jalur Belajar Teknik Kimia | ilmutekkim",
+                         desc="Urutan baca terkurasi ilmutekkim: membaca pabrik dari nol, distilasi inti, kilang dan petrokimia, sawit, utilitas, keselamatan proses, dan pabrik Indonesia.",
+                         url=BASE + "/jalur/", ogtype="website", ogimg="")
+    jindex += f"""
+<article class="post wide">
+<p class="eyebrow">Jalur belajar</p>
+<h1>Belajar teknik kimia pakai urutan, bukan acak.</h1>
+<p class="lead">Artikel yang bagus tetap membingungkan bila dibaca tanpa urutan. Di halaman ini bacaan ilmutekkim disusun menjadi {len(jalur)} jalur: setiap jalur adalah urutan langkah yang disengaja, dari yang harus dipahami dulu sampai yang baru masuk akal sesudahnya. Setiap langkah adalah artikel, video, atau bedah paten yang sudah ada di situs ini, dengan satu kalimat penjelas kenapa ia duduk di posisi itu.</p>
+<p class="meta">{len(jalur)} jalur &middot; {sum(len(t["steps"]) for t in jalur)} langkah &middot; semua langkah resolve ke konten ilmutekkim</p>
+</article>
+<section class="grid">
+{jcards}
+</section>
+""" + FOOT
+    os.makedirs(os.path.join(ROOT, "jalur"), exist_ok=True)
+    open(os.path.join(ROOT, "jalur", "index.html"), "w").write(jindex)
+    for t in jalur:
+        steps_html = ""
+        for i, st in enumerate(t["steps"], 1):
+            u, ttl = resolve_tautan(st)
+            steps_html += (f'<section class="factbox"><p class="eyebrow">Langkah {i} &middot; {label_tipe[st["type"]]}</p>'
+                           f'<h2><a href="{u}">{esc(ttl)}</a></h2><p>{esc(st["note"])}</p>'
+                           f'<p><a class="btn ghost" href="{u}">Buka langkah {i}</a></p></section>\n')
+        jpage = HEAD.format(title=f"Jalur {esc(t['judul'])} | ilmutekkim", desc=esc(t["desc"])[:155],
+                            url=f"{BASE}/jalur/{t['slug']}/", ogtype="article", ogimg="")
+        jpage += f"""
+<article class="post">
+<p class="eyebrow">Jalur belajar</p>
+<h1>{esc(t["judul"])}</h1>
+<p class="lead">{esc(t["desc"])}</p>
+<p class="meta">{len(t["steps"])} langkah &middot; baca berurutan dari atas</p>
+{steps_html}
+<div class="cta-box"><h2>Semua jalur belajar</h2>
+<p>Tujuh jalur terkurasi: dari membaca pabrik untuk pemula sampai tur pabrik Indonesia.</p>
+<a class="btn" href="/jalur/">Ke semua jalur</a></div>
+</article>
+""" + FOOT
+        outj = os.path.join(ROOT, "jalur", t["slug"])
+        os.makedirs(outj, exist_ok=True)
+        open(os.path.join(outj, "index.html"), "w").write(jpage)
+
+    gcards = ""
+    for g in sorted(glosarium, key=lambda x: x["term"].lower()):
+        huruf = g["term"][0].lower()
+        links = ""
+        for t in g["terkait"]:
+            u, ttl = resolve_tautan(t)
+            links += f'<a class="btn ghost" href="{u}">{esc(ttl)}</a> '
+        gcards += (f'<article class="card" data-series="{esc(huruf)}" '
+                   f'data-title="{esc(g["term"].lower())}"><div class="card-body">'
+                   f'<p class="eyebrow">Istilah pabrik</p><h3>{esc(g["term"])}</h3>'
+                   f'<p>{esc(g["definisi"])}</p><p>{links}</p></div></article>\n')
+    huruf_list = sorted(set(g["term"][0].upper() for g in glosarium))
+    gchips = "".join(f'<button class="chip" data-series="{esc(h.lower())}">{esc(h)}</button>' for h in huruf_list)
+    gindex = HEAD.format(title="Glosarium Istilah Pabrik | ilmutekkim",
+                         desc="Kamus istilah teknik kimia dan pabrik dalam bahasa polos: reflux, LMTD, wet bulb, SIS, SIL, kavitasi, dan lainnya, masing-masing dengan bacaan lanjutannya.",
+                         url=BASE + "/glosarium/", ogtype="website", ogimg="")
+    gindex += f"""
+<article class="post wide">
+<p class="eyebrow">Glosarium</p>
+<h1>Istilah pabrik, dijelaskan polos.</h1>
+<p class="lead">Istilah di halaman ini adalah istilah yang benar-benar muncul di artikel, video, dan bedah ilmutekkim. Setiap definisi ditulis pendek dan tepat, tanpa karangan, lalu ditautkan ke bacaan yang memakainya agar istilah langsung terlihat dalam konteks prosesnya.</p>
+<p class="meta">{len(glosarium)} istilah &middot; setiap istilah menautkan bacaan lanjutan di situs ini</p>
+</article>
+<section id="seri" class="series-bar">
+  <h2>Jelajahi per huruf</h2>
+  <div class="chips"><button class="chip active" data-series="all">Semua</button>{gchips}</div>
+  <input id="search" type="search" placeholder="Cari istilah, contoh: reflux, kavitasi, sil..." aria-label="Cari istilah glosarium">
+</section>
+<section id="artikel" class="grid">
+{gcards}
+</section>
+<p id="no-result" hidden>Tidak ada istilah yang cocok. Coba kata kunci lain.</p>
+""" + FOOT
+    os.makedirs(os.path.join(ROOT, "glosarium"), exist_ok=True)
+    open(os.path.join(ROOT, "glosarium", "index.html"), "w").write(gindex)
+
+    import re as _re
+    ref_entries = {}
+    for a in articles:
+        for r in a["refs"]:
+            key = _re.sub(r"[^a-z0-9]+", "", r.lower())[:60]
+            ref_entries.setdefault(key, {"text": r, "dipakai": []})
+            ref_entries[key]["dipakai"].append((f"/artikel/{a['slug']}/", a["title"]))
+    ref_list = sorted(ref_entries.values(), key=lambda e: e["text"].lower())
+    buku_html = ""
+    for e in ref_list:
+        links = ", ".join(f'<a href="{u}">{esc(t)}</a>' for u, t in e["dipakai"][:3])
+        if len(e["dipakai"]) > 3:
+            links += f', dan {len(e["dipakai"]) - 3} artikel lain'
+        buku_html += f'<li>{esc(e["text"])}<br><span class="meta">Dipakai di: {links}</span></li>\n'
+    paper_html = ""
+    for d in research:
+        paper_html += (f'<li><a href="/riset/{d["slug"]}/">{esc(d["paper_title"])}</a><br>'
+                       f'<span class="meta">{esc(authors_short(d["authors"]))} &middot; {esc(d["journal"])} &middot; {esc(str(d["year"]))}</span></li>\n')
+    paten_html = ""
+    for d in paten:
+        paten_html += (f'<li><a href="/riset/paten/{d["slug"]}/">{esc(d["nomor"])}: {esc(d["judul_paten"])}</a><br>'
+                       f'<span class="meta">{esc(d["pemilik"])} &middot; terbit {esc(d["terbit"])}</span></li>\n')
+    rfp = HEAD.format(title="Referensi dan Perpustakaan | ilmutekkim",
+                      desc="Semua sitasi yang dipakai ilmutekkim dikumpulkan di satu tempat: buku dan standar yang dikutip artikel, paper yang dibedah, dan paten yang dibedah.",
+                      url=BASE + "/referensi/", ogtype="website", ogimg="")
+    rfp += f"""
+<article class="post">
+<p class="eyebrow">Referensi</p>
+<h1>Perpustakaan ilmutekkim.</h1>
+<p class="lead">Semua sitasi yang muncul di situs ini dikumpulkan di satu halaman. Bagian pertama adalah buku, standar, dan literatur yang dikutip artikel dan video. Bagian berikutnya adalah paper dan paten yang dibedah di halaman riset. Tidak ada sitasi baru di halaman ini: isinya persis yang sudah dipakai tulisan-tulisan di situs ini.</p>
+<h2>Buku dan literatur yang dikutip</h2>
+<ol class="refs">
+{buku_html}
+</ol>
+<h2>Paper yang dibedah</h2>
+<ol class="refs">
+{paper_html}
+</ol>
+<h2>Paten yang dibedah</h2>
+<ol class="refs">
+{paten_html}
+</ol>
+</article>
+""" + FOOT
+    os.makedirs(os.path.join(ROOT, "referensi"), exist_ok=True)
+    open(os.path.join(ROOT, "referensi", "index.html"), "w").write(rfp)
+
+    # kalkulator interaktif /kalkulator/ (ILM-R68)
+    kpage = HEAD.format(title="Kalkulator Teknik Kimia | ilmutekkim",
+                        desc="Kalkulator teknik kimia interaktif: derajat polimerisasi Carothers, LMTD heat exchanger, McCabe-Thiele distilasi biner, dan konversi satuan proses.",
+                        url=BASE + "/kalkulator/", ogtype="website", ogimg="")
+    kpage += """
+<article class="post">
+<p class="eyebrow">Kalkulator</p>
+<h1>Hitung sendiri, jangan cuma percaya angka jadi.</h1>
+<p class="lead">Empat kalkulator kecil untuk konsep yang berulang kali muncul di situs ini. Setiap kalkulator hanya memakai persamaan standar, menulis asumsinya terang-terangan, dan menautkan artikel yang menjelaskan konsepnya. Hasilnya adalah titik awal berpikir, bukan pengganti simulasi proses.</p>
+
+<section class="calc-card">
+<h2>Derajat polimerisasi Carothers (step-growth)</h2>
+<p>Xn = (1 + r) / (1 + r &minus; 2rp). Pada stoikiometri sempurna (r = 1) persamaan menyederhana menjadi Xn = 1 / (1 &minus; p). Asumsi: polimerisasi step-growth tanpa reaksi samping.</p>
+<div class="calc-grid">
+<div><label>Konversi p</label><input id="car-p" type="number" step="0.001" min="0" max="0.9999" value="0.99"></div>
+<div><label>Rasio stoikiometri r (1 = sempurna)</label><input id="car-r" type="number" step="0.001" min="0.1" max="1" value="1"></div>
+</div>
+<div class="calc-out" id="car-out"></div>
+<p><a class="btn ghost" href="/artikel/polimerisasi-konversi-carothers/">Konsepnya: polimerisasi dan persamaan Carothers</a> <a class="btn ghost" href="/artikel/cs01-step-growth-carothers-dp-runtuh/">Cheat sheet: DP runtuh</a></p>
+</section>
+
+<section class="calc-card">
+<h2>LMTD heat exchanger</h2>
+<p>LMTD = (&Delta;T1 &minus; &Delta;T2) / ln(&Delta;T1 / &Delta;T2). Asumsi: aliran murni berlawanan arah atau searah sesuai pilihan, tanpa faktor koreksi konfigurasi shell-and-tube.</p>
+<div class="calc-grid">
+<div><label>Panas masuk (&deg;C)</label><input id="lm-thi" type="number" step="any" value="150"></div>
+<div><label>Panas keluar (&deg;C)</label><input id="lm-tho" type="number" step="any" value="100"></div>
+<div><label>Dingin masuk (&deg;C)</label><input id="lm-tci" type="number" step="any" value="30"></div>
+<div><label>Dingin keluar (&deg;C)</label><input id="lm-tco" type="number" step="any" value="80"></div>
+<div><label>Susunan aliran</label><select id="lm-mode"><option value="counter">Berlawanan arah</option><option value="co">Searah</option></select></div>
+</div>
+<div class="calc-out" id="lm-out"></div>
+<p><a class="btn ghost" href="/artikel/heat-exchanger-bikin-shutdown/">Konsepnya: heat exchanger</a></p>
+</section>
+
+<section class="calc-card">
+<h2>McCabe-Thiele distilasi biner</h2>
+<p>Metode grafis McCabe-Thiele untuk campuran biner. Asumsi: volatilitas relatif konstan, kondensor total, luapan molar konstan, dan garis umpan sesuai nilai q. Contoh baku di bawah adalah pola benzena-toluena.</p>
+<div class="calc-grid">
+<div><label>Volatilitas relatif &alpha;</label><input id="mt-alpha" type="number" step="0.01" min="1.01" value="2.45"></div>
+<div><label>Fraksi umpan zF</label><input id="mt-zf" type="number" step="0.01" min="0.01" max="0.99" value="0.44"></div>
+<div><label>Fraksi distilat xD</label><input id="mt-xd" type="number" step="0.01" min="0.01" max="0.999" value="0.97"></div>
+<div><label>Fraksi bottoms xB</label><input id="mt-xb" type="number" step="0.001" min="0.001" max="0.99" value="0.02"></div>
+<div><label>q umpan (1 = cair jenuh)</label><input id="mt-q" type="number" step="0.05" min="-1" max="2" value="1"></div>
+<div><label>Faktor R / R minimum</label><input id="mt-f" type="number" step="0.05" min="1.01" max="5" value="1.3"></div>
+</div>
+<div class="calc-out" id="mt-out"></div>
+<canvas id="mt-canvas" width="520" height="520"></canvas>
+<p><a class="btn ghost" href="/artikel/distilasi-bertingkat-minyak-mentah/">Konsepnya: distilasi bertingkat</a> <a class="btn ghost" href="/artikel/reflux-optimum-kolom-distilasi/">Konsep reflux optimum</a></p>
+</section>
+
+<section class="calc-card">
+<h2>Konversi satuan proses</h2>
+<p>Suhu, tekanan, dan aliran volumetrik yang paling sering dipakai di pabrik.</p>
+<div class="calc-grid">
+<div><label>Suhu</label><input id="cv-tv" type="number" step="any" value="100"></div>
+<div><label>Satuan suhu</label><select id="cv-tu"><option value="C">&deg;C</option><option value="F">&deg;F</option><option value="K">K</option></select></div>
+<div><label>Tekanan</label><input id="cv-pv" type="number" step="any" value="1"></div>
+<div><label>Satuan tekanan</label><select id="cv-pu"><option value="atm">atm</option><option value="bar">bar</option><option value="kPa">kPa</option><option value="Pa">Pa</option><option value="psi">psi</option></select></div>
+<div><label>Aliran</label><input id="cv-fv" type="number" step="any" value="10"></div>
+<div><label>Satuan aliran</label><select id="cv-fu"><option value="m3/h">m&sup3;/jam</option><option value="m3/s">m&sup3;/s</option><option value="L/s">L/s</option><option value="gpm (US)">gpm (US)</option></select></div>
+</div>
+<div class="calc-out" id="cv-out"></div>
+<p><a class="btn ghost" href="/artikel/utilitas-pabrik-steam-air-nitrogen/">Konsepnya: utilitas pabrik</a></p>
+</section>
+</article>
+<script src="/assets/js/calc.js?v=1"></script>
+""" + FOOT
+    os.makedirs(os.path.join(ROOT, "kalkulator"), exist_ok=True)
+    open(os.path.join(ROOT, "kalkulator", "index.html"), "w").write(kpage)
 
     # beranda
     series_list = sorted(set(a["series"] for a in articles))
@@ -1450,6 +1790,11 @@ Di Instagram enak ditonton, di sini enak dibaca: tonton videonya, baca penjelasa
 {cards}
 </section>
 <p id="no-result" hidden>Tidak ada artikel yang cocok. Coba kata kunci lain.</p>
+<section class="post wide">
+<h2>Tidak tahu mulai dari mana?</h2>
+<p>Tiga pintu masuk selain membaca acak: jalur belajar yang menyusun bacaan dalam urutan yang benar, glosarium istilah pabrik dengan bacaan lanjutannya, dan halaman referensi berisi semua sitasi yang dipakai situs ini.</p>
+<p><a class="btn" href="/jalur/">Jalur belajar</a> <a class="btn ghost" href="/glosarium/">Glosarium</a> <a class="btn ghost" href="/referensi/">Referensi</a> <a class="btn ghost" href="/kalkulator/">Kalkulator</a></p>
+</section>
 """ + FOOT
     open(os.path.join(ROOT, "index.html"), "w").write(home)
 
@@ -1491,8 +1836,11 @@ lalu <a href="/artikel/baca-pid-lima-simbol-pabrik/">cara baca P&amp;ID dalam 5 
     open(os.path.join(ROOT, "tentang", "index.html"), "w").write(tentang)
 
     # sitemap + robots
-    urls = ([BASE + "/", BASE + "/tentang/", BASE + "/video/", BASE + "/riset/"]
+    urls = ([BASE + "/", BASE + "/tentang/", BASE + "/video/", BASE + "/riset/", BASE + "/riset/paten/",
+             BASE + "/jalur/", BASE + "/glosarium/", BASE + "/referensi/", BASE + "/kalkulator/"]
+            + [f"{BASE}/jalur/{t['slug']}/" for t in jalur]
             + [f"{BASE}/riset/{d['slug']}/" for d in research]
+            + [f"{BASE}/riset/paten/{d['slug']}/" for d in paten]
             + [f"{BASE}/artikel/{a['slug']}/" for a in articles]
             + [f"{BASE}/video/{v['slug']}/" for v in videos])
     sm = ('<?xml version="1.0" encoding="UTF-8"?>\n'

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kalkulator Teknik Kimia | ilmutekkim</title>
+<meta name="description" content="Kalkulator teknik kimia interaktif: derajat polimerisasi Carothers, LMTD heat exchanger, McCabe-Thiele distilasi biner, dan konversi satuan proses.">
+<link rel="canonical" href="https://ilmutekkim.vercel.app/kalkulator/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kalkulator Teknik Kimia | ilmutekkim">
+<meta property="og:description" content="Kalkulator teknik kimia interaktif: derajat polimerisasi Carothers, LMTD heat exchanger, McCabe-Thiele distilasi biner, dan konversi satuan proses.">
+<meta property="og:url" content="https://ilmutekkim.vercel.app/kalkulator/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/style.css?v=4">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23131518'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='%23F4F4F2' font-family='Arial' font-weight='bold'>IT</text></svg>">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="/">ilmu<span>tekkim</span></a>
+  <nav>
+    <a href="/#artikel">Artikel</a>
+    <a href="/video/">Video</a>
+    <a href="/riset/">Riset</a> <a href="/jalur/">Jalur</a> <a href="/glosarium/">Glosarium</a> <a href="/referensi/">Referensi</a> <a href="/kalkulator/">Kalkulator</a>
+    <a href="/#seri">Seri</a>
+    <a href="/tentang/">Tentang</a>
+    <a class="btn-ig" href="https://www.instagram.com/ilmutekkim" target="_blank" rel="noopener">Instagram</a>
+  </nav>
+</header>
+<main>
+
+<article class="post">
+<p class="eyebrow">Kalkulator</p>
+<h1>Hitung sendiri, jangan cuma percaya angka jadi.</h1>
+<p class="lead">Empat kalkulator kecil untuk konsep yang berulang kali muncul di situs ini. Setiap kalkulator hanya memakai persamaan standar, menulis asumsinya terang-terangan, dan menautkan artikel yang menjelaskan konsepnya. Hasilnya adalah titik awal berpikir, bukan pengganti simulasi proses.</p>
+
+<section class="calc-card">
+<h2>Derajat polimerisasi Carothers (step-growth)</h2>
+<p>Xn = (1 + r) / (1 + r &minus; 2rp). Pada stoikiometri sempurna (r = 1) persamaan menyederhana menjadi Xn = 1 / (1 &minus; p). Asumsi: polimerisasi step-growth tanpa reaksi samping.</p>
+<div class="calc-grid">
+<div><label>Konversi p</label><input id="car-p" type="number" step="0.001" min="0" max="0.9999" value="0.99"></div>
+<div><label>Rasio stoikiometri r (1 = sempurna)</label><input id="car-r" type="number" step="0.001" min="0.1" max="1" value="1"></div>
+</div>
+<div class="calc-out" id="car-out"></div>
+<p><a class="btn ghost" href="/artikel/polimerisasi-konversi-carothers/">Konsepnya: polimerisasi dan persamaan Carothers</a> <a class="btn ghost" href="/artikel/cs01-step-growth-carothers-dp-runtuh/">Cheat sheet: DP runtuh</a></p>
+</section>
+
+<section class="calc-card">
+<h2>LMTD heat exchanger</h2>
+<p>LMTD = (&Delta;T1 &minus; &Delta;T2) / ln(&Delta;T1 / &Delta;T2). Asumsi: aliran murni berlawanan arah atau searah sesuai pilihan, tanpa faktor koreksi konfigurasi shell-and-tube.</p>
+<div class="calc-grid">
+<div><label>Panas masuk (&deg;C)</label><input id="lm-thi" type="number" step="any" value="150"></div>
+<div><label>Panas keluar (&deg;C)</label><input id="lm-tho" type="number" step="any" value="100"></div>
+<div><label>Dingin masuk (&deg;C)</label><input id="lm-tci" type="number" step="any" value="30"></div>
+<div><label>Dingin keluar (&deg;C)</label><input id="lm-tco" type="number" step="any" value="80"></div>
+<div><label>Susunan aliran</label><select id="lm-mode"><option value="counter">Berlawanan arah</option><option value="co">Searah</option></select></div>
+</div>
+<div class="calc-out" id="lm-out"></div>
+<p><a class="btn ghost" href="/artikel/heat-exchanger-bikin-shutdown/">Konsepnya: heat exchanger</a></p>
+</section>
+
+<section class="calc-card">
+<h2>McCabe-Thiele distilasi biner</h2>
+<p>Metode grafis McCabe-Thiele untuk campuran biner. Asumsi: volatilitas relatif konstan, kondensor total, luapan molar konstan, dan garis umpan sesuai nilai q. Contoh baku di bawah adalah pola benzena-toluena.</p>
+<div class="calc-grid">
+<div><label>Volatilitas relatif &alpha;</label><input id="mt-alpha" type="number" step="0.01" min="1.01" value="2.45"></div>
+<div><label>Fraksi umpan zF</label><input id="mt-zf" type="number" step="0.01" min="0.01" max="0.99" value="0.44"></div>
+<div><label>Fraksi distilat xD</label><input id="mt-xd" type="number" step="0.01" min="0.01" max="0.999" value="0.97"></div>
+<div><label>Fraksi bottoms xB</label><input id="mt-xb" type="number" step="0.001" min="0.001" max="0.99" value="0.02"></div>
+<div><label>q umpan (1 = cair jenuh)</label><input id="mt-q" type="number" step="0.05" min="-1" max="2" value="1"></div>
+<div><label>Faktor R / R minimum</label><input id="mt-f" type="number" step="0.05" min="1.01" max="5" value="1.3"></div>
+</div>
+<div class="calc-out" id="mt-out"></div>
+<canvas id="mt-canvas" width="520" height="520"></canvas>
+<p><a class="btn ghost" href="/artikel/distilasi-bertingkat-minyak-mentah/">Konsepnya: distilasi bertingkat</a> <a class="btn ghost" href="/artikel/reflux-optimum-kolom-distilasi/">Konsep reflux optimum</a></p>
+</section>
+
+<section class="calc-card">
+<h2>Konversi satuan proses</h2>
+<p>Suhu, tekanan, dan aliran volumetrik yang paling sering dipakai di pabrik.</p>
+<div class="calc-grid">
+<div><label>Suhu</label><input id="cv-tv" type="number" step="any" value="100"></div>
+<div><label>Satuan suhu</label><select id="cv-tu"><option value="C">&deg;C</option><option value="F">&deg;F</option><option value="K">K</option></select></div>
+<div><label>Tekanan</label><input id="cv-pv" type="number" step="any" value="1"></div>
+<div><label>Satuan tekanan</label><select id="cv-pu"><option value="atm">atm</option><option value="bar">bar</option><option value="kPa">kPa</option><option value="Pa">Pa</option><option value="psi">psi</option></select></div>
+<div><label>Aliran</label><input id="cv-fv" type="number" step="any" value="10"></div>
+<div><label>Satuan aliran</label><select id="cv-fu"><option value="m3/h">m&sup3;/jam</option><option value="m3/s">m&sup3;/s</option><option value="L/s">L/s</option><option value="gpm (US)">gpm (US)</option></select></div>
+</div>
+<div class="calc-out" id="cv-out"></div>
+<p><a class="btn ghost" href="/artikel/utilitas-pabrik-steam-air-nitrogen/">Konsepnya: utilitas pabrik</a></p>
+</section>
+</article>
+<script src="/assets/js/calc.js?v=1"></script>
+
+</main>
+<footer>
+  <div class="foot-brand">ilmu<span>tekkim</span></div>
+  <p>Bikin teknik kimia asik. Pabrik, proses, safety, dan AI. Ditulis insinyur kimia ITB.</p>
+  <p><a href="https://www.instagram.com/ilmutekkim" target="_blank" rel="noopener">@ilmutekkim di Instagram</a> &middot; <a href="/video/">Video interaktif</a> &middot; <a href="/riset/">Riset</a> <a href="/jalur/">Jalur</a> <a href="/glosarium/">Glosarium</a> <a href="/referensi/">Referensi</a> <a href="/kalkulator/">Kalkulator</a> &middot; <a href="/tentang/">Tentang</a></p>
+  <p class="fine">Artikel dan video di situs ini adalah versi baca dan tonton dari konten Instagram @ilmutekkim. Foto berasal dari Pexels dan Unsplash, kredit tercantum di tiap gambar.</p>
+</footer>
+<script src="/assets/js/main.js?v=5"></script>
+</body>
+</html>

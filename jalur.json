@@ -1,0 +1,251 @@
+[
+ {
+  "slug": "membaca-pabrik",
+  "judul": "Membaca Pabrik dari Nol",
+  "desc": "Jalur masuk untuk yang baru pertama kali melihat pabrik sebagai sistem: peta mata kuliahnya, hukum neraca massa, bahasa gambar P&ID, dua mode operasi, dan cara semuanya dikendalikan dari control room.",
+  "steps": [
+   {
+    "type": "artikel",
+    "slug": "roadmap-enam-mata-kuliah-pabrik",
+    "note": "Peta besarnya dulu: enam mata kuliah yang menjalankan pabrik, supaya bacaan berikutnya punya tempat menempel."
+   },
+   {
+    "type": "artikel",
+    "slug": "neraca-massa-data-pabrik-bocor",
+    "note": "Hukum pertama pabrik: massa tidak hilang. Semua analisis proses berangkat dari neraca ini."
+   },
+   {
+    "type": "artikel",
+    "slug": "baca-pid-lima-simbol-pabrik",
+    "note": "Bahasa gambar pabrik. Lima simbol ini muncul di hampir semua P&ID yang akan kamu temui."
+   },
+   {
+    "type": "artikel",
+    "slug": "batch-vs-continuous-pabrik",
+    "note": "Dua mode operasi yang membedakan cara kerja pabrik makanan dari petrokimia."
+   },
+   {
+    "type": "artikel",
+    "slug": "control-room-dcs-loop-kontrol",
+    "note": "Cara operator mengendalikan satu pabrik dari satu layar, dan apa sebenarnya loop kontrol itu."
+   },
+   {
+    "type": "video",
+    "slug": "shift-handover-logbook",
+    "note": "Sisi manusianya: kenapa serah terima shift adalah titik rawan yang diatur ketat."
+   },
+   {
+    "type": "video",
+    "slug": "sampling-rutin-lab",
+    "note": "Kenapa sampel manual tetap diambil tiap jam padahal sensor online menyala terus."
+   }
+  ]
+ },
+ {
+  "slug": "distilasi-inti",
+  "judul": "Distilasi, Jantung Pemisahan",
+  "desc": "Dari prinsip tray sampai keputusan ekonomi reflux, ditutup konfigurasi lanjut dividing wall column dari dokumen patennya langsung.",
+  "steps": [
+   {
+    "type": "video",
+    "slug": "distilasi-minyak-mentah",
+    "note": "Gambaran utuhnya dulu: satu kolom distilasi, banyak produk keluar berurutan."
+   },
+   {
+    "type": "artikel",
+    "slug": "distilasi-bertingkat-minyak-mentah",
+    "note": "Kenapa minyak mentah tidak cukup direbus sekali: tray, uap, dan cairan yang bertemu berulang kali."
+   },
+   {
+    "type": "artikel",
+    "slug": "reflux-optimum-kolom-distilasi",
+    "note": "Reflux menukar energi dengan kemurnian. Di sinilah letak optimum ekonominya."
+   },
+   {
+    "type": "artikel",
+    "slug": "pompa-vs-kompresor",
+    "note": "Alat yang memindahkan fluida di sekitar kolom: kapan pompa cukup, kapan harus kompresor."
+   },
+   {
+    "type": "paten",
+    "slug": "paten-dividing-wall-column-basf-2005",
+    "note": "Level berikutnya, dari dokumen patennya: tiga produk murni dari satu kolom berdinding pemisah."
+   }
+  ]
+ },
+ {
+  "slug": "kilang-petrokimia",
+  "judul": "Kilang dan Petrokimia",
+  "desc": "Mengikuti karbon: satu barel minyak dipecah jadi produk, naphtha jadi plastik, dan pelajaran konversi dari paten methanol-to-gasoline.",
+  "steps": [
+   {
+    "type": "artikel",
+    "slug": "satu-barel-minyak-jadi-apa",
+    "note": "Satu barel minyak mentah menjadi apa saja setelah melewati kilang."
+   },
+   {
+    "type": "artikel",
+    "slug": "naphtha-ke-plastik-petrokimia",
+    "note": "Alur naphtha di steam cracker sampai menjadi polimer plastik."
+   },
+   {
+    "type": "artikel",
+    "slug": "bbm-dari-sampah-plastik-pirolisis",
+    "note": "Arah sebaliknya: plastik bekas dipecah lagi menjadi bahan bakar lewat pirolisis."
+   },
+   {
+    "type": "artikel",
+    "slug": "polimerisasi-konversi-carothers",
+    "note": "Konversi tinggi pun belum cukup pada polimerisasi step-growth; kenapa, lewat persamaan Carothers."
+   },
+   {
+    "type": "artikel",
+    "slug": "cs01-step-growth-carothers-dp-runtuh",
+    "note": "Cheat sheet ujiannya: DP runtuh hanya karena stoikiometri meleset sedikit."
+   },
+   {
+    "type": "paten",
+    "slug": "paten-mtg-mobil-1988",
+    "note": "Dokumen patennya: sistem Mobil mengubah metanol menjadi bensin dan menjinakkan panas reaktornya."
+   }
+  ]
+ },
+ {
+  "slug": "sawit-produk",
+  "judul": "Sawit: dari Tandan ke Produk",
+  "desc": "Rantai sawit Indonesia utuh: pabrik kelapa sawit, refinery menjadi minyak goreng, oleokimia menjadi sabun, dan transesterifikasi menjadi biodiesel.",
+  "steps": [
+   {
+    "type": "artikel",
+    "slug": "pabrik-kelapa-sawit-tandan-ke-cpo",
+    "note": "Dari tandan berduri masuk sterilizer sampai keluar CPO."
+   },
+   {
+    "type": "artikel",
+    "slug": "refinery-sawit-cpo-ke-minyak-goreng",
+    "note": "Empat tahap refinery yang membedakan olein dari stearin."
+   },
+   {
+    "type": "artikel",
+    "slug": "oleokimia-sawit-sabun-deterjen",
+    "note": "Jalur kimia sawit ke sabun dan deterjen yang dipakai di rumah."
+   },
+   {
+    "type": "artikel",
+    "slug": "b40-biodiesel-sawit-transesterifikasi",
+    "note": "Reaksi transesterifikasi yang mengubah minyak sawit menjadi biodiesel."
+   }
+  ]
+ },
+ {
+  "slug": "utilitas-energi",
+  "judul": "Utilitas dan Energi Pabrik",
+  "desc": "Pabrik di dalam pabrik: steam, air, dan nitrogen yang tidak terlihat, menara pendingin yang sering dikira cerobong, dan heat exchanger yang bisa menghentikan pabrik.",
+  "steps": [
+   {
+    "type": "artikel",
+    "slug": "utilitas-pabrik-steam-air-nitrogen",
+    "note": "Sistem pendukung yang membuat pabrik utama bisa hidup sama sekali."
+   },
+   {
+    "type": "artikel",
+    "slug": "cooling-tower-cara-kerja",
+    "note": "Cara kerja menara pendingin, AC raksasa pabrik yang sering disangka cerobong asap."
+   },
+   {
+    "type": "artikel",
+    "slug": "cooling-tower-wet-bulb-range-approach",
+    "note": "Menilai kinerja cooling tower dengan benar: wet bulb, range, approach, dan neraca airnya."
+   },
+   {
+    "type": "artikel",
+    "slug": "heat-exchanger-bikin-shutdown",
+    "note": "Alat paling sederhana yang paling sering menghentikan pabrik, dan sebabnya."
+   },
+   {
+    "type": "video",
+    "slug": "heat-exchanger-penghenti-pabrik",
+    "note": "Versi videonya: satu heat exchanger bermasalah, satu pabrik berhenti."
+   }
+  ]
+ },
+ {
+  "slug": "keselamatan-proses",
+  "judul": "Keselamatan Proses",
+  "desc": "Lapisan-lapisan yang menjaga tekanan dan reaksi tetap di dalam pipa: relief, sistem instrumentasi keselamatan, izin kerja, dan cara pandang process safety.",
+  "steps": [
+   {
+    "type": "artikel",
+    "slug": "tekanan-relief-valve-rupture-disk",
+    "note": "Garis pertahanan mekanis terakhir saat tekanan naik melebihi rancangan."
+   },
+   {
+    "type": "artikel",
+    "slug": "safety-instrumented-system-lapisan-pengaman",
+    "note": "Pabrik aman bukan karena operator sigap, melainkan karena lapisan pengaman yang dirancang."
+   },
+   {
+    "type": "artikel",
+    "slug": "permit-to-work-kerja-panas",
+    "note": "Kenapa mengelas lima menit pun butuh izin tertulis di pabrik kimia."
+   },
+   {
+    "type": "video",
+    "slug": "process-safety-bukan-apd",
+    "note": "Process safety bukan soal helm dan sarung tangan; ini soal desain sistemnya."
+   }
+  ]
+ },
+ {
+  "slug": "pabrik-indonesia",
+  "judul": "Pabrik Indonesia di Peta",
+  "desc": "Tur pabrik-pabrik Indonesia: gula, semen, pulp, pupuk, lalu hilirisasi nikel dan pasir kuarsa sampai chip, ditutup dua reaksi fondasi yang videonya tersedia.",
+  "steps": [
+   {
+    "type": "artikel",
+    "slug": "tebu-ke-gula-pabrik-gula",
+    "note": "Tebu tidak cuma diperas: alur lengkap dari ladang sampai kristal gula."
+   },
+   {
+    "type": "artikel",
+    "slug": "batu-kapur-ke-semen-kiln",
+    "note": "Batu kapur menjadi semen lewat api kiln, dari tambang sampai kantong."
+   },
+   {
+    "type": "artikel",
+    "slug": "pulp-kertas-proses-kraft",
+    "note": "Kayu keras menjadi kertas lewat proses kraft di pabrik pulp."
+   },
+   {
+    "type": "artikel",
+    "slug": "gas-alam-ke-urea-haber-bosch",
+    "note": "Gas alam dan udara menjadi pupuk urea lewat Haber-Bosch."
+   },
+   {
+    "type": "video",
+    "slug": "hilirisasi-nikel-baterai-ev",
+    "note": "Nikel Indonesia diolah sampai bahan baterai kendaraan listrik."
+   },
+   {
+    "type": "video",
+    "slug": "pasir-jadi-chip-ai",
+    "note": "Pasir kuarsa menjadi chip: rantai pemurnian paling ekstrem di industri."
+   },
+   {
+    "type": "video",
+    "slug": "haber-bosch-udara-jadi-pupuk",
+    "note": "Versi video reaksi yang memberi makan separuh dunia."
+   },
+   {
+    "type": "video",
+    "slug": "water-gas-shift-co-jadi-h2",
+    "note": "Reaksi geser yang mengubah karbon monoksida menjadi hidrogen."
+   },
+   {
+    "type": "video",
+    "slug": "netralisasi-asam-basa",
+    "note": "Reaksi paling dasar di pabrik, dibedah sebagai video."
+   }
+  ]
+ }
+]

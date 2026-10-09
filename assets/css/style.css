@@ -180,3 +180,13 @@ footer a{color:#fff}
 .paper-title{margin:4px 0 8px;font-size:1.25rem;line-height:1.35}
 .verdict{border:2px solid #131518;border-radius:14px;padding:18px 20px;margin:26px 0}
 .verdict h2{margin:4px 0 8px}
+
+/* Kalkulator interaktif (ILM-R68) */
+.calc-card{background:#0B1B3F;color:#EAF4FB;border-radius:14px;padding:20px 22px;margin:22px 0}
+.calc-card h2{color:#fff;margin-top:0}
+.calc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:14px 0}
+.calc-grid label{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:#9FB4DD;display:block}
+.calc-grid input,.calc-grid select{width:100%;margin-top:6px;padding:9px 10px;border-radius:8px;border:1px solid #29406E;background:#0F2653;color:#fff;font:inherit}
+.calc-out{margin-top:10px;line-height:1.65}
+.calc-out strong{color:#fff}
+#mt-canvas{width:100%;max-width:520px;background:#0F2653;border-radius:12px;margin-top:12px}
