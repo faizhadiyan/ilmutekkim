@@ -1,0 +1,43 @@
+{
+ "slug": "bedah-digital-twin-energi-industri",
+ "judul": "Digital twin energi industri: peta klaim dan kerangka klasifikasinya",
+ "topik": "Digital dan AI proses",
+ "negara": "Internasional",
+ "paper_title": "Energy digital twin technology for industrial energy management: Classification, challenges and future",
+ "authors": [
+  "Wei Yu",
+  "Panos Patros",
+  "Brent Richmond Young",
+  "Elsa Klinac",
+  "Timothy Gordon Walmsley"
+ ],
+ "year": 2022,
+ "journal": "Renewable and Sustainable Energy Reviews",
+ "doi": "https://doi.org/10.1016/j.rser.2022.112407",
+ "coverage": "Berdasarkan abstrak",
+ "date_bedah": "2026-10-09",
+ "terkait": [
+  {
+   "type": "artikel",
+   "slug": "control-room-dcs-loop-kontrol",
+   "title": "Control Room dan DCS: Loop Kontrol Pabrik"
+  }
+ ],
+ "abstract_src": "Digitalisation of the process and energy industries through energy digital twin technology promises step-improvements in energy management and optimisation, better servicing and maintenance, energy-efficient design and evolution of existing sites, and integration with locally and regionally generated renewable energy. This systematic and critical review aims to accelerate the understanding, classification, and application of energy digital twin technology. It adds to the literature by developing an original multi-dimensional digital twin classification framework, summarising the applications of energy digital twins throughout a site's lifecycle, and constructing a proposal of how to apply the technology to industrial sites and local areas to enable a reduction in carbon and other environmental footprints. The review concludes by identifying key challenges that face uptake of energy digital twins and a framework to apply the energy digital twins.",
+ "lead": "Digital twin dijanjikan sebagai lompatan manajemen energi industri. Review sistematis ini memilah janji tersebut ke dalam kerangka klasifikasi baru, lalu memetakan pemakaiannya sepanjang umur sebuah situs industri.",
+ "masalah": "Pemahaman, klasifikasi, dan penerapan teknologi energy digital twin masih tersebar, padahal digitalisasi industri proses dan energi menjanjikan perbaikan besar pada manajemen energi, perawatan, desain hemat energi, dan integrasi energi terbarukan. Bidang ini membutuhkan peta bersama agar klaim yang beredar bisa dinilai dengan kerangka yang sama.",
+ "metode": "Review sistematis dan kritis atas literatur energy digital twin. Penulis membangun kerangka klasifikasi digital twin multi-dimensi yang orisinal, merangkum aplikasi digital twin energi sepanjang siklus hidup situs industri, dan menyusun proposal penerapan teknologi ini untuk situs industri dan kawasan lokal guna menurunkan jejak karbon dan lingkungan.",
+ "temuan": [
+  "Digitalisasi lewat energy digital twin dinilai menjanjikan perbaikan bertahap pada empat wilayah: manajemen dan optimasi energi, servis dan pemeliharaan yang lebih baik, desain hemat energi dan evolusi situs yang sudah ada, serta integrasi dengan energi terbarukan yang dibangkitkan lokal dan regional.",
+  "Kontribusi utama paper adalah kerangka klasifikasinya: cara memilah digital twin berdasarkan beberapa dimensi, bukan sekadar label pemasaran.",
+  "Review ditutup dengan identifikasi tantangan kunci yang menghambat adopsi energy digital twin dan kerangka penerapannya pada situs industri."
+ ],
+ "batas": [
+  "Abstrak tidak memuat satu pun angka kinerja terukur, misalnya persen penghematan energi dari implementasi nyata. Dari abstrak saja, janji perbaikan bertahap belum bisa dinilai kekuatannya.",
+  "Abstrak menyebut ada tantangan kunci adopsi tetapi tidak merincinya, sehingga isi paling praktis dari review ini justru tidak terbawa ke abstrak.",
+  "Ini review konseptual atas literatur, bukan studi implementasi; kerangka klasifikasinya belum teruji pada kasus plant di dalam abstrak."
+ ],
+ "arti_pabrik": "Bagi pabrik yang sedang menilai tawaran vendor digitalisasi, bedah ini memberi alat uji sederhana: minta vendor menempatkan produknya pada dimensi klasifikasi seperti ini. Produk yang hanya menampilkan data tanpa model proses yang hidup akan terlihat bedanya dari digital twin yang sesungguhnya. Kaitannya langsung dengan artikel control room dan DCS di situs ini. Penilaian ini adalah apresiasi redaksi, bukan klaim paper.",
+ "vonis": "Baca full paper",
+ "vonis_alasan": "Nilai utama paper adalah kerangka klasifikasi dan rincian tantangannya, dan keduanya tidak terbawa abstrak. Abstrak cukup untuk mengetahui peta bidangnya, tidak cukup untuk memakai kerangkanya."
+}

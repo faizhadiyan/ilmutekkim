@@ -1,0 +1,50 @@
+{
+ "slug": "bedah-ko-pirolisis-batang-sawit-polipropilena",
+ "judul": "Batang sawit bertemu polipropilena: kimia ko-pirolisis",
+ "topik": "Biomassa dan pirolisis",
+ "negara": "Indonesia",
+ "paper_title": "Co-pyrolysis of oil palm trunk and polypropylene: Pyrolysis oil composition and formation mechanism",
+ "authors": [
+  "Liza Melia Terry",
+  "Melvin Xin Jie Wee",
+  "Jiuan Jing Chew",
+  "Deni Shidqi Khaerudini",
+  "Gerald Ensang Timuda",
+  "Aqsha Aqsha"
+ ],
+ "year": 2022,
+ "journal": "South African Journal of Chemical Engineering",
+ "doi": "https://doi.org/10.1016/j.sajce.2022.12.001",
+ "coverage": "Berdasarkan abstrak",
+ "date_bedah": "2026-10-09",
+ "terkait": [
+  {
+   "type": "artikel",
+   "slug": "pabrik-kelapa-sawit-tandan-ke-cpo",
+   "title": "Pabrik Kelapa Sawit: Tandan ke CPO"
+  },
+  {
+   "type": "artikel",
+   "slug": "bbm-dari-sampah-plastik-pirolisis",
+   "title": "BBM dari Sampah Plastik: Pirolisis"
+  }
+ ],
+ "abstract_src": "Pyrolysis oil can be used as a precursor to synthesize value-added biochemicals. Co-pyrolysis of two or more feedstocks generally improves the selectivity and yield of the target compounds. In this work, oil palm trunk (OPT) was subjected to single-feed pyrolysis and co-pyrolysis with polypropylene (PP) from 500 to 700 °C. The highest pyrolysis oil yield of 26.33 wt.% was obtained from OPT at 700 °C, which mainly contributed by the lignin decomposition in OPT. Phenolics (51.77–57.78%) and oxygenates (36.31–46.99%) were the major compounds detected in the OPT-derived pyrolysis oil. The addition of PP enhanced the formation of hydrocarbons (5.19–10.22%) and decreased the contents of phenolics (34.01–41.85%) in the co-pyrolysis oil. In the case of co-pyrolysis, the intermolecular reactions between PP and OPT-derived radicals led to the formation of ketones and alcohols, which contributed to the increase of oxygenates content. The highest oil yield of 16.17 wt.% was obtained at 600 °C from co-pyrolysis, the oil of which contained mainly phenolic compounds, oxygenated compounds (i.e., ketones and furans), and hydrocarbons. These findings highlighted the potential of oil derived from the pyrolysis of OPT (single feed) and co-pyrolysis of OPT and PP (binary feed) for the production of value-added chemicals.",
+ "lead": "Batang sawit tua dari peremajaan kebun dipirolisis bersama plastik polipropilena. Hasilnya bukan sekadar gabungan dua minyak: plastik mengubah kimia produknya, menaikkan golongan hidrokarbon dan menekan fenolik, lewat reaksi antar radikal kedua umpan.",
+ "masalah": "Minyak pirolisis dapat menjadi prekursor bahan kimia bernilai tambah, dan ko-pirolisis dua umpan atau lebih umumnya menaikkan selektivitas serta yield senyawa target. Studi ini menguji batang sawit (oil palm trunk) sebagai umpan tunggal dan sebagai ko-pirolisis dengan polypropylene, untuk membaca komposisi minyak dan mekanisme pembentukannya.",
+ "metode": "Pirolisis umpan tunggal batang sawit dan ko-pirolisis batang sawit dengan polypropylene pada rentang 500 sampai 700 °C. Komposisi minyak pirolisis dianalisis per golongan senyawa, dan perubahan komposisi antar umpan dipakai untuk menyusun mekanisme pembentukan produk.",
+ "temuan": [
+  "Yield minyak tertinggi umpan tunggal batang sawit adalah 26,33 wt.% pada 700 °C, terutama disumbang dekomposisi lignin batang sawit.",
+  "Minyak dari batang sawit didominasi phenolics 51,77 sampai 57,78% dan oxygenates 36,31 sampai 46,99%.",
+  "Penambahan polypropylene menaikkan hidrokarbon menjadi 5,19 sampai 10,22% dan menurunkan phenolics menjadi 34,01 sampai 41,85%. Reaksi intermolekuler antara radikal dari polypropylene dan batang sawit membentuk ketones dan alcohols yang menaikkan kandungan oxygenates.",
+  "Pada ko-pirolisis, yield minyak tertinggi 16,17 wt.% diperoleh pada 600 °C, dengan isi utama senyawa fenolik, oksigenat seperti ketones dan furans, serta hidrokarbon."
+ ],
+ "batas": [
+  "Perbandingan yield perlu dibaca hati-hati: optimum umpan tunggal terjadi pada 700 °C sedangkan optimum ko-pirolisis pada 600 °C, jadi selisihnya bukan perbandingan pada suhu yang sama.",
+  "Komposisi dilaporkan per golongan senyawa, bukan per molekul target. Minyaknya tetap kaya fenolik dan oksigenat, sehingga jalan menuju bahan kimia bernilai atau bahan bakar masih membutuhkan tahap peningkatan mutu yang tidak diuji di paper ini.",
+  "Skala dan mode reaktor tidak dirinci di abstrak; kesiapan skala proses tidak bisa dinilai dari abstrak."
+ ],
+ "arti_pabrik": "Indonesia menghasilkan batang sawit peremajaan dalam volume besar dan polypropylene adalah fraksi plastik yang umum. Ko-pirolisis menawarkan satu reaktor untuk dua limbah sekaligus, dengan produk yang lebih kaya hidrokarbon daripada pirolisis biomassa murni. Bedah ini melengkapi artikel pirolisis plastik dan pabrik kelapa sawit di situs ini dari sisi risetnya. Penilaian ini adalah apresiasi redaksi, bukan klaim paper.",
+ "vonis": "Cukup abstraknya",
+ "vonis_alasan": "Angka yield dan pergeseran komposisi yang menjadi inti temuan sudah lengkap di abstrak, termasuk arah mekanismenya. Full text diperlukan hanya bila pembaca ingin mereplikasi kondisi atau membaca mekanisme radikalnya secara rinci."
+}

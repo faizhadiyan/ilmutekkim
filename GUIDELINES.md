@@ -25,3 +25,15 @@ Semua halaman artikel di website (dari carousel maupun video) WAJIB memenuhi sta
 3. Isi membedah sangat mendalam dan akademis: prinsip dasar, mekanisme, persamaan yang relevan, angka terverifikasi, alasan pilihan desain, kesalahan umum, dan konteks industri.
 4. Klaim kunci dirujuk dengan sitasi bernomor [n] ke daftar Referensi di akhir artikel. Referensi wajib literatur nyata (buku teks, standar, ensiklopedia industri). DILARANG mengarang nomor halaman, DOI, atau volume.
 5. Angka hanya dari sumber terverifikasi (spec carousel, brief video, artikel yang sudah lolos QC). DILARANG mengarang angka, kapasitas, atau kejadian baru saat memperdalam artikel.
+
+## Standar bedah riset (page research)
+
+<!-- R:ILM-R65 -->
+
+Halaman riset berisi bedah paper jurnal dengan standar QC tertinggi di situs ini (perintah Hadi 2026-10-09):
+
+1. CAKUPAN JUJUR: bedah ditulis hanya dari abstrak yang terverifikasi dari sumber bibliografis (OpenAlex/Crossref) dan WAJIB dilabeli "Berdasarkan abstrak". Dilarang mengklaim membaca full text bila belum dibaca.
+2. ANGKA: setiap angka di badan bedah WAJIB persis tertulis di abstrak sumbernya. Angka hasil hitungan sendiri DILARANG, kecuali ditandai eksplisit sebagai hitungan turunan beserta dasarnya.
+3. PARAFRASE: abstrak DILARANG disalin utuh atau nyaris utuh; bedah ditulis dengan kata sendiri. Sitasi lengkap (penulis, tahun, jurnal) dan tautan DOI wajib ada.
+4. APRESIASI KRITIS: setiap bedah wajib memuat batas/catatan kritis (skala penelitian, keterbatasan klaim abstrak) dan vonis eksplisit: "baca full paper" atau "cukup abstraknya". Vonis tanpa dasar dinyatakan di teks dilarang.
+5. GATE MEKANIS: `tools/qc_research.py` memeriksa setiap bedah sebelum build (angka subset dari abstrak, kemiripan teks dengan abstrak, kelengkapan field, format DOI). Build GAGAL bila satu bedah pun tidak lolos; tidak ada bedah yang tayang tanpa lolos gate. Sumber wajib campuran jurnal internasional dan jurnal Indonesia.

@@ -958,6 +958,7 @@ HEAD = """<!DOCTYPE html>
   <nav>
     <a href="/#artikel">Artikel</a>
     <a href="/video/">Video</a>
+    <a href="/riset/">Riset</a>
     <a href="/#seri">Seri</a>
     <a href="/tentang/">Tentang</a>
     <a class="btn-ig" href="https://www.instagram.com/ilmutekkim" target="_blank" rel="noopener">Instagram</a>
@@ -971,7 +972,7 @@ FOOT = """
 <footer>
   <div class="foot-brand">ilmu<span>tekkim</span></div>
   <p>Bikin teknik kimia asik. Pabrik, proses, safety, dan AI. Ditulis insinyur kimia ITB.</p>
-  <p><a href="https://www.instagram.com/ilmutekkim" target="_blank" rel="noopener">@ilmutekkim di Instagram</a> &middot; <a href="/video/">Video interaktif</a> &middot; <a href="/tentang/">Tentang</a></p>
+  <p><a href="https://www.instagram.com/ilmutekkim" target="_blank" rel="noopener">@ilmutekkim di Instagram</a> &middot; <a href="/video/">Video interaktif</a> &middot; <a href="/riset/">Riset</a> &middot; <a href="/tentang/">Tentang</a></p>
   <p class="fine">Artikel dan video di situs ini adalah versi baca dan tonton dari konten Instagram @ilmutekkim. Foto berasal dari Pexels dan Unsplash, kredit tercantum di tiap gambar.</p>
 </footer>
 <script src="/assets/js/main.js?v=5"></script>
@@ -1057,7 +1058,59 @@ def render_deep_body(deep, figs):
     return "\n".join(x for x in out if x)
 
 
+
+def load_research():
+    rdir = os.path.join(ROOT, "research")
+    items = []
+    if os.path.isdir(rdir):
+        for f in sorted(os.listdir(rdir)):
+            if f.endswith(".json"):
+                items.append(json.load(open(os.path.join(rdir, f))))
+    items.sort(key=lambda d: d.get("date_bedah", ""), reverse=True)
+    return items
+
+
+def authors_short(authors):
+    a = [str(x) for x in (authors or []) if str(x).strip()]
+    if len(a) > 3:
+        return ", ".join(a[:3]) + ", dkk."
+    return ", ".join(a)
+
+
+def render_bedah(d):
+    # ILM-R65: halaman bedah riset (masalah, metode, temuan, batas kritis, arti pabrik, vonis)
+    out = []
+    out.append(f'<p class="cov-label">{esc(d["coverage"])}</p>')
+    out.append(f'<p class="lead">{esc(d["lead"])}</p>')
+    out.append('<section class="paper-box"><p class="eyebrow">Paper yang dibedah</p>'
+               f'<h2 class="paper-title">{esc(d["paper_title"])}</h2>'
+               f'<p>{esc(authors_short(d["authors"]))} &middot; {esc(d["journal"])} &middot; {esc(str(d["year"]))}</p>'
+               f'<a class="btn ghost" href="{esc(d["doi"])}" target="_blank" rel="noopener">Buka DOI paper</a></section>')
+    out.append(f'<section><h2>Masalah yang diselesaikan</h2><p>{esc(d["masalah"])}</p></section>')
+    out.append(f'<section><h2>Metode dan skala</h2><p>{esc(d["metode"])}</p></section>')
+    out.append('<section><h2>Temuan kunci</h2><ul>'
+               + "".join(f"<li>{esc(x)}</li>" for x in d["temuan"]) + "</ul></section>")
+    out.append('<section><h2>Batas dan catatan kritis</h2><ul>'
+               + "".join(f"<li>{esc(x)}</li>" for x in d["batas"]) + "</ul></section>")
+    out.append(f'<section><h2>Arti buat pabrik</h2><p>{esc(d["arti_pabrik"])}</p></section>')
+    out.append(f'<section class="verdict"><p class="eyebrow">Vonis bedah</p><h2>{esc(d["vonis"])}</h2>'
+               f'<p>{esc(d["vonis_alasan"])}</p></section>')
+    if d.get("terkait"):
+        links = "".join(
+            f'<a class="btn ghost" href="/{ "artikel" if t["type"] == "artikel" else "video" }/{esc(t["slug"])}/">{esc(t["title"])}</a> '
+            for t in d["terkait"])
+        out.append(f'<section><h2>Baca terkait di ilmutekkim</h2><p>{links}</p></section>')
+    return "\n".join(out)
+
+
 def main():
+    # ILM-R65: gate QC bedah riset. Build GAGAL bila satu bedah pun tidak lolos.
+    import subprocess
+    qc = subprocess.run(["python3", os.path.join(ROOT, "tools", "qc_research.py")],
+                        capture_output=True, text=True)
+    print(qc.stdout.strip())
+    if qc.returncode != 0:
+        raise SystemExit("Build dibatalkan: QC riset ILM-R65 gagal")
     articles = []
     for slug, rel, title, date, ig, status in ARTICLES:
         d = json.load(open(os.path.join(SRC, rel)))
@@ -1263,6 +1316,70 @@ Di Instagram enak ditonton, di sini enak dibaca: tonton videonya, baca penjelasa
     os.makedirs(os.path.join(ROOT, "video"), exist_ok=True)
     open(os.path.join(ROOT, "video", "index.html"), "w").write(vindex)
 
+
+    # halaman riset /riset/ + bedah /riset/<slug>/ (ILM-R65)
+    research = load_research()
+    rcards = ""
+    for d in research:
+        rcards += (f'<article class="card" data-series="{esc(d["topik"])}" '
+                   f'data-title="{esc(d["judul"].lower())} {esc(d["topik"].lower())} {esc(d["journal"].lower())}">'
+                   f'<a href="/riset/{d["slug"]}/"><div class="no-img">Bedah Riset</div></a><div class="card-body">'
+                   f'<p class="eyebrow">{esc(d["topik"])} &middot; {esc(d["negara"])}</p>'
+                   f'<h3><a href="/riset/{d["slug"]}/">{esc(d["judul"])}</a></h3>'
+                   f'<p>{esc(d["lead"])}</p>'
+                   f'<p class="meta">{esc(d["journal"])} &middot; {esc(str(d["year"]))} &middot; Vonis: {esc(d["vonis"])}</p></div></article>\n')
+    rtopics = sorted(set(d["topik"] for d in research))
+    rchips = "".join(f'<button class="chip" data-series="{esc(t)}">{esc(t)}</button>' for t in rtopics)
+    rindex = HEAD.format(title="Riset Teknik Kimia, Dibedah | ilmutekkim",
+                         desc="Bedah paper jurnal teknik kimia internasional dan Indonesia: masalah, metode, temuan, catatan kritis, dan vonis baca full paper atau cukup abstraknya.",
+                         url=BASE + "/riset/", ogtype="website", ogimg="")
+    rindex += f"""
+<article class="post wide">
+<p class="eyebrow">Riset</p>
+<h1>Paper jurnal, dibedah sampai vonis.</h1>
+<p class="lead">Setiap bedah di halaman ini ditulis dari abstrak paper yang terverifikasi: masalahnya apa, metodenya bagaimana, angka temuannya persis seperti tertulis, batasnya di mana, dan artinya apa buat pabrik. Ditutup vonis jujur: baca full paper-nya, atau cukup abstraknya.</p>
+<p class="meta">{len(research)} bedah jurnal &middot; campuran internasional dan Indonesia &middot; standar bedah: angka hanya dari abstrak, abstrak tidak disalin, selalu ada catatan kritis</p>
+</article>
+<section id="seri" class="series-bar">
+  <h2>Jelajahi per topik</h2>
+  <div class="chips"><button class="chip active" data-series="all">Semua</button>{rchips}</div>
+  <input id="search" type="search" placeholder="Cari bedah, contoh: hidrogen, katalis, pirolisis..." aria-label="Cari bedah riset">
+</section>
+<section id="artikel" class="grid">
+{rcards}
+</section>
+<p id="no-result" hidden>Tidak ada bedah yang cocok. Coba kata kunci lain.</p>
+<section class="post wide">
+<h2>Rak berikutnya: bedah paten</h2>
+<p>Paten adalah dokumen teknologi yang legal dan praktis: paten kedaluwarsa berarti teknologi gratis, paten aktif berarti peta arah vendor. Rak bedah paten sedang disiapkan dengan standar QC yang sama.</p>
+</section>
+""" + FOOT
+    os.makedirs(os.path.join(ROOT, "riset"), exist_ok=True)
+    open(os.path.join(ROOT, "riset", "index.html"), "w").write(rindex)
+    for ri, d in enumerate(research):
+        url = f"{BASE}/riset/{d['slug']}/"
+        page = HEAD.format(title=f"{esc(d['judul'])} | Riset ilmutekkim", desc=esc(d["lead"])[:155],
+                           url=url, ogtype="article", ogimg="")
+        page += '<article class="post">\n'
+        page += f'<p class="eyebrow">Riset &middot; {esc(d["topik"])} &middot; {esc(d["negara"])}</p>\n<h1>{esc(d["judul"])}</h1>\n'
+        page += f'<p class="meta">{tgl_indo(d["date_bedah"])} &middot; ilmutekkim</p>\n'
+        page += render_bedah(d) + "\n"
+        prev_r = research[ri + 1] if ri + 1 < len(research) else None
+        next_r = research[ri - 1] if ri > 0 else None
+        page += '<nav class="post-nav">'
+        if prev_r:
+            page += f'<a href="/riset/{prev_r["slug"]}/">&larr; {esc(prev_r["judul"])}</a>'
+        if next_r:
+            page += f'<a href="/riset/{next_r["slug"]}/">{esc(next_r["judul"])} &rarr;</a>'
+        page += "</nav>\n"
+        page += ('<div class="cta-box"><h2>Semua bedah riset</h2>'
+                 "<p>Bedah jurnal teknik kimia internasional dan Indonesia, ditulis dari abstrak terverifikasi dengan catatan kritis dan vonis.</p>"
+                 '<a class="btn" href="/riset/">Ke halaman riset</a></div>\n')
+        page += "</article>" + FOOT
+        outr = os.path.join(ROOT, "riset", d["slug"])
+        os.makedirs(outr, exist_ok=True)
+        open(os.path.join(outr, "index.html"), "w").write(page)
+
     # beranda
     series_list = sorted(set(a["series"] for a in articles))
     chips = ('<button class="chip" data-series="Video Interaktif">Video Interaktif</button>'
@@ -1374,7 +1491,8 @@ lalu <a href="/artikel/baca-pid-lima-simbol-pabrik/">cara baca P&amp;ID dalam 5 
     open(os.path.join(ROOT, "tentang", "index.html"), "w").write(tentang)
 
     # sitemap + robots
-    urls = ([BASE + "/", BASE + "/tentang/", BASE + "/video/"]
+    urls = ([BASE + "/", BASE + "/tentang/", BASE + "/video/", BASE + "/riset/"]
+            + [f"{BASE}/riset/{d['slug']}/" for d in research]
             + [f"{BASE}/artikel/{a['slug']}/" for a in articles]
             + [f"{BASE}/video/{v['slug']}/" for v in videos])
     sm = ('<?xml version="1.0" encoding="UTF-8"?>\n'

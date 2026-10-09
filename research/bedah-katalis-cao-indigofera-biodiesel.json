@@ -1,0 +1,45 @@
+{
+ "slug": "bedah-katalis-cao-indigofera-biodiesel",
+ "judul": "Abu daun indigofera jadi katalis biodiesel dari RBDPO",
+ "topik": "Katalis dan biodiesel",
+ "negara": "Indonesia",
+ "paper_title": "Sustainable production of CaO rich-indigofera (Indigofera zollingeriana) as heterogeneous catalyst of biodiesel from refined bleached deodorized palm olein using associated transesterification process",
+ "authors": [
+  "Taslim Taslim",
+  "Silvia Nova",
+  "Renita Manurung",
+  "Iriany",
+  "Vikram Alexander",
+  "Anggara Dwita Burmana"
+ ],
+ "year": 2025,
+ "journal": "Results in Engineering",
+ "doi": "https://doi.org/10.1016/j.rineng.2025.105507",
+ "coverage": "Berdasarkan abstrak",
+ "date_bedah": "2026-10-09",
+ "terkait": [
+  {
+   "type": "artikel",
+   "slug": "b40-biodiesel-sawit-transesterifikasi",
+   "title": "B40 Biodiesel Sawit: Transesterifikasi"
+  }
+ ],
+ "abstract_src": "Biodiesel as an environmentally friendly alternative fuel is produced by considering the best operating conditions with the help of a catalyst to increase biodiesel yield. This study aims to apply the potential of indigofera leaves ash ( Indigofera zollingeriana ) as a heterogeneous catalyst sourced from biomass as an environmentally friendly solution in producing biodiesel from refined bleached deodorized palm olein. The novelty of this research is utilizing local renewable biomass as a green catalyst, minimizing alcohol usage for safer, sustainable biodiesel production while maintaining yield, and employing refined bleached deodorized palm olein (RBDPO) with a leaves-based catalyst not previously reported. This study is significant because it supports the development of renewable catalyst technologies that align with green chemistry principles and can potentially improve the efficiency of biodiesel production. The research stages include making an indigofera leaves ash catalyst and the transesterification procedure. Indigofera leaves ash with a particle size passing a 100-mesh sieve is calcined using furnace at temperature of 700 °C for 3 h. The biodiesel transesterification stage involves RBDPO heated at various temperatures of 55, 60, and 65°C, methanol is added with methanol to oil molar ratio of 6:1, 9:1, and 12:1 (v/v), and a catalyst of 1%, 2%, 3%, and 4% (%w). The reaction was carried out with a magnetic stirrer stirring at 300 rpm for 90, 120, 150, and 180 min. Based on the results of the study, the highest biodiesel yield was obtained at 94.20% at a temperature of calcination of 700 °C, 3% percentage of catalyst, temperature of reaction of 60 °C, a molar ratio of methanol: oil of 9:1, and a reaction time of 120 min. Analysis using gas chromatography on the significant composition of RBDPO fatty acids and biodiesel, namely oleic acid and palmitic acid. Based on the analysis using Energy Dispersive X-ray Spectroscopy, X-ray diffraction, and Fourier Transform Infra-Red, it was confirmed that a calcium component was the target in indigofera leaves ash. Based on the analysis using Brunner Emmet Teller–Barrett-Joyner-Halenda, the surface area was 9.318 m 2 /g, the pore volume was 0.047 cc/g, and the pore size was 144.70 Å on the indigofera leaves ash catalyst. Therefore, the indigofea leaves ash catalyst can be apply in sustainable biodiesel production.",
+ "lead": "Abu daun indigofera, tanaman yang dikenal sebagai pakan ternak, ternyata kaya kalsium dan dapat bekerja sebagai katalis heterogen biodiesel. Studi dari Indonesia ini mengujinya pada refined bleached deodorized palm olein dan mencapai yield 94,20% pada kondisi terbaiknya.",
+ "masalah": "Biodiesel sebagai bahan bakar alternatif yang ramah lingkungan diproduksi dengan bantuan katalis untuk menaikkan yield. Paper ini mengajukan katalis heterogen dari biomassa lokal terbarukan sebagai solusi hijau, dengan kebaruan pada pemakaian abu daun indigofera untuk RBDPO yang belum pernah dilaporkan, sekaligus mengurangi pemakaian alkohol agar proses lebih aman dan berkelanjutan.",
+ "metode": "Abu daun indigofera lolos ayakan 100-mesh dikalsinasi pada 700 °C selama 3 jam. Transesterifikasi RBDPO diuji pada suhu reaksi 55, 60, dan 65 °C, rasio molar metanol terhadap minyak 6:1, 9:1, dan 12:1, kadar katalis 1%, 2%, 3%, dan 4%, pengadukan magnetic stirrer 300 rpm selama 90, 120, 150, dan 180 menit. Komposisi asam lemak dianalisis dengan gas chromatography, kandungan kalsium dikonfirmasi dengan X-ray diffraction, Energy Dispersive X-ray Spectroscopy, dan Fourier Transform Infra-Red, dan tekstur pori diukur dengan metode Brunner-Emmett-Teller dan Barrett-Joyner-Halenda.",
+ "temuan": [
+  "Yield biodiesel tertinggi 94,20% diperoleh pada kalsinasi 700 °C, katalis 3%, suhu reaksi 60 °C, rasio molar metanol terhadap minyak 9:1, dan waktu reaksi 120 menit.",
+  "Komposisi asam lemak signifikan pada RBDPO dan biodieselnya adalah oleic acid dan palmitic acid berdasarkan analisis gas chromatography.",
+  "Analisis gabungan XRD, EDX, dan FTIR mengonfirmasi komponen target pada abu daun indigofera adalah kalsium.",
+  "Luas permukaan katalis 9,318 m2/g dengan volume pori 0,047 cc/g dan ukuran pori 144,70 Å."
+ ],
+ "batas": [
+  "Ini eksperimen skala laboratorium dengan pengaduk magnetik. Abstrak tidak melaporkan uji pakai ulang katalis, pelindian kalsium ke produk, atau kesesuaian biodiesel terhadap standar mutu bahan bakar, sehingga kesiapan prosesnya belum bisa dinilai dari abstrak.",
+  "Angka 94,20% adalah yield pada satu kombinasi kondisi optimum hasil penyapuan variabel satu per satu; abstrak tidak menunjukkan rancangan eksperimen faktorial, jadi interaksi antar variabel belum terlihat.",
+  "Penulisan rasio molar di abstrak diberi satuan (v/v), inkonsistensi kecil yang layak dicek ke full text sebelum mengutip kondisi operasinya."
+ ],
+ "arti_pabrik": "Untuk program biodiesel Indonesia, katalis heterogen dari biomassa lokal menarik karena pemisahan katalis dari produk lebih mudah daripada katalis homogen dan bahan bakunya tersedia di dalam negeri. Bedah ini menunjukkan riset katalis biodiesel lokal berjalan dengan karakterisasi yang lengkap, tinggal dibuktikan pada ketahanan katalis dan mutu produk akhir. Penilaian ini adalah apresiasi redaksi, bukan klaim paper.",
+ "vonis": "Baca full paper",
+ "vonis_alasan": "Kondisi optimum sudah jelas dari abstrak, tetapi pertanyaan yang menentukan nilai industrinya, yaitu pakai ulang, pelindian, dan mutu biodiesel terhadap standar, hanya bisa dijawab full text."
+}

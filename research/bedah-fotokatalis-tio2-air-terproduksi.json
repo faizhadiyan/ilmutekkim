@@ -1,0 +1,44 @@
+{
+ "slug": "bedah-fotokatalis-tio2-air-terproduksi",
+ "judul": "Fotokatalis TiO2 untuk air terproduksi migas: janji dan batasnya",
+ "topik": "Lingkungan dan air proses",
+ "negara": "Indonesia",
+ "paper_title": "A Review of Titanium Dioxide (TiO2)-Based Photocatalyst for Oilfield-Produced Water Treatment",
+ "authors": [
+  "Hadi Nugraha Cipta Dharma",
+  "Juhana Jaafar",
+  "Nurul Widiastuti",
+  "Hideto Matsuyama",
+  "Saied Rajabsadeh",
+  "Mohd Hafiz Dzarfan Othman"
+ ],
+ "year": 2022,
+ "journal": "Membranes",
+ "doi": "https://doi.org/10.3390/membranes12030345",
+ "coverage": "Berdasarkan abstrak",
+ "date_bedah": "2026-10-09",
+ "terkait": [
+  {
+   "type": "artikel",
+   "slug": "satu-barel-minyak-jadi-apa",
+   "title": "Satu Barel Minyak Jadi Apa"
+  }
+ ],
+ "abstract_src": "Oilfield produced water (OPW) has become a primary environmental concern due to the high concentration of dissolved organic pollutants that lead to bioaccumulation with high toxicity, resistance to biodegradation, carcinogenicity, and the inhibition of reproduction, endocrine, and non-endocrine systems in aquatic biota. Photodegradation using photocatalysts has been considered as a promising technology to sustainably resolve OPW pollutants due to its benefits, including not requiring additional chemicals and producing a harmless compound as the result of pollutant photodegradation. Currently, titanium dioxide (TiO2) has gained great attention as a promising photocatalyst due to its beneficial properties among the other photocatalysts, such as excellent optical and electronic properties, high chemical stability, low cost, non-toxicity, and eco-friendliness. However, the photoactivity of TiO2 is still inhibited because it has a wide band gap and a low quantum field. Hence, the modification approaches for TiO2 can improve its properties in terms of the photocatalytic ability, which would likely boost the charge carrier transfer, prevent the recombination of electrons and holes, and enhance the visible light response. In this review, we provide an overview of several routes for modifying TiO2. The as-improved photocatalytic performance of the modified TiO2 with regard to OPW treatment is reviewed. The stability of modified TiO2 was also studied. The future perspective and challenges in developing the modification of TiO2-based photocatalysts are explained.",
+ "lead": "Air terproduksi dari ladang migas membawa polutan organik terlarut yang toksik dan sulit terurai secara hayati. Review ini menilai satu kandidat penanganannya, fotokatalis TiO2, material murah dan stabil yang aktivitas fotonya masih terbatasi band gap lebar.",
+ "masalah": "Oilfield produced water menjadi perhatian lingkungan utama karena konsentrasi polutan organik terlarutnya tinggi dan memicu bioakumulasi dengan toksisitas tinggi, resistensi terhadap biodegradasi, karsinogenisitas, dan gangguan sistem reproduksi serta endokrin biota akuatik. Fotodegradasi dengan fotokatalis dipandang menjanjikan karena tidak membutuhkan bahan kimia tambahan dan menghasilkan senyawa yang tidak berbahaya dari degradasi polutan.",
+ "metode": "Review atas rute modifikasi TiO2 untuk menaikkan kemampuan fotokatalitiknya, kinerja TiO2 termodifikasi terhadap pengolahan oilfield produced water, stabilitas TiO2 termodifikasi, serta perspektif masa depan dan tantangan pengembangan fotokatalis berbasis TiO2.",
+ "temuan": [
+  "TiO2 dinilai menjanjikan karena sifat optik dan elektroniknya baik, stabilitas kimianya tinggi, biayanya rendah, tidak toksik, dan ramah lingkungan dibanding fotokatalis lain.",
+  "Penghambat intinya diakui terbuka: aktivitas foto TiO2 masih terbatas karena band gap yang lebar dan efisiensi proses fotokatalitiknya rendah.",
+  "Arah modifikasi yang ditinjau terpusat pada tiga target: mempercepat transfer pembawa muatan, mencegah rekombinasi elektron dan hole, dan menaikkan respons terhadap cahaya tampak."
+ ],
+ "batas": [
+  "Ini review literatur, bukan pengujian plant. Abstrak tidak memuat angka efisiensi degradasi oilfield produced water yang terukur, sehingga keberhasilan untuk air terproduksi nyata belum bisa diverifikasi dari abstrak.",
+  "Air terproduksi nyata adalah matriks kompleks; abstrak menempatkan tantangan scale-up sebagai perspektif, artinya jembatan dari fotokatalis laboratorium ke unit pengolahan lapangan masih terbuka.",
+  "Penilaian stabilitas TiO2 termodifikasi disebut sebagai cakupan review, tetapi simpulannya tidak diringkas di abstrak."
+ ],
+ "arti_pabrik": "Bagi fasilitas migas Indonesia, pengelolaan air terproduksi adalah kewajiban lingkungan yang nyata dan mahal. Bedah ini membantu profesional membaca klaim fotokatalisis dengan proporsional: teknologinya aktif diteliti termasuk oleh peneliti Indonesia, tetapi posisinya masih jalur riset, bukan pengganti unit pengolahan yang mapan. Penilaian ini adalah apresiasi redaksi, bukan klaim paper.",
+ "vonis": "Cukup abstraknya",
+ "vonis_alasan": "Sebagai peta rute modifikasi dan batas TiO2, abstrak sudah menyampaikan kerangka dan simpulan arahnya. Full text diperlukan bila pembaca ingin membandingkan kinerja antar modifikasi secara kuantitatif."
+}

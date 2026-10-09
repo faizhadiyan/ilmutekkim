@@ -1,0 +1,49 @@
+{
+ "lead": "Ada pemandangan yang membingungkan orang baru di pabrik: pompa yang kemarin berputar normal hari ini dibongkar teknisi, seal dan bearing-nya diganti, padahal tidak ada yang rusak. Itu bukan buang waktu. Itu preventive maintenance, cara pabrik membeli berhenti yang terencana supaya tidak membayar berhenti yang mendadak.",
+ "hook_type": "Curiosity",
+ "sections": [
+  {
+   "h": "Dibongkar justru karena masih sehat",
+   "paras": [
+    "Preventive maintenance adalah perawatan terjadwal untuk mencegah kegagalan sebelum terjadi. Jadwalnya datang dari tiga sumber: berbasis kalender dari jam dan bulan operasi, berbasis kondisi dari getaran dan suhu alat, dan berbasis temuan dari hasil inspeksi terakhir. Tujuannya menjaga keandalan alat putar seperti pompa dan kompresor serta alat statis seperti penukar panas, supaya produksi tidak berhenti mendadak di tengah jalan [1][2].",
+    "Logikanya ekonomis sebelum teknis. Berhenti tidak terencana jauh lebih mahal daripada rawat terjadwal: produksi hilang tanpa persiapan, suku cadang dicari dalam keadaan darurat, dan kerusakan satu komponen sering merambat ke komponen tetangganya. Berhenti yang direncanakan membalik semua itu; waktunya dipilih, suku cadangnya disiapkan, dan orangnya dijadwalkan. Mesin dibongkar saat sehat karena saat itulah pembongkarannya paling murah."
+   ]
+  },
+  {
+   "h": "Enam tahap dari jadwal sampai kembali operasi",
+   "paras": [
+    "Alur fisiknya selalu maju dan tidak ada langkah yang dilompati. Kalender atau data kondisi memanggil inspeksi; temuan inspeksi menentukan pembongkaran; saat dibongkar, komponen aus diganti; alat yang sudah dirakit diuji jalan; lalu alat kembali operasi dengan catatan yang rapi. Enam tahap ini membuat preventive maintenance berbeda dari sekadar servis: setiap tahap memberi makan tahap berikutnya, dan tahap terakhir menulis riwayat yang akan dibaca inspeksi berikutnya [1].",
+    "Selama alat dibongkar, teknisi memasang pengaman energi dan setiap orang mengunci dengan gembok pribadinya, sehingga alat tidak bisa dinyalakan orang lain selama tangan masih di dalam mesin. Pekerjaan mengikuti izin kerja dan daftar periksa. Detail yang terlihat administratif ini adalah bagian dari bedah alurnya, karena alat yang kembali operasi tanpa riwayat yang jelas akan menyulitkan keputusan rawat berikutnya."
+   ]
+  },
+  {
+   "h": "Getaran dan suhu: peringatan dini yang dibaca sebagai tren",
+   "paras": [
+    "Inspeksi alat putar membaca empat hal: getaran di rumah bearing, suhu di motor dan seal, kebocoran seal, dan suara putaran. Angka tunggal dari satu kali pengukuran kurang berarti; yang menunjukkan keausan adalah tren antar inspeksi yang dibandingkan dari bulan ke bulan. Tren getaran yang naik pelan adalah tanda awal bearing aus, jauh sebelum poros macet atau seal jebol [1][3].",
+    "Di sinilah preventive maintenance bertemu predictive maintenance. Kalender memberi tahu kapan alat terakhir dirawat, data kondisi memberi tahu apakah jadwal perlu dimajukan. Alat yang getarannya stabil boleh menunggu jadwal berikutnya; alat yang trennya naik ditarik lebih cepat ke meja bongkar. Keputusan seperti ini yang membuat jadwal rawat tidak kaku, melainkan hidup mengikuti kondisi alat yang sebenarnya."
+   ]
+  },
+  {
+   "h": "Komponen aus diganti sebelum gagal, putaran dibuktikan sebelum melayani",
+   "paras": [
+    "Pembongkaran terjadwal mengganti komponen yang umur ausnya terukur: seal mekanik untuk mencegah bocornya fluida, bearing untuk menopang poros yang berputar, gasket untuk merapatkan flensa, dan pelumas yang sudah menua. Komponen-komponen ini diganti berkala sebelum gagal, karena harga sebuah seal tidak sebanding dengan harga satu kali kebocoran fluida proses atau satu kali produksi berhenti mendadak [2][3].",
+    "Sesudah dirakit ulang, alat tidak langsung melayani proses. Putarannya dibuktikan dulu tanpa beban untuk memeriksa putaran, getaran, dan kebocoran, lalu dibebani bertahap sambil suhu dan kebocoran dicek lagi. Alat yang lolos uji jalan kembali operasi dengan riwayat lengkap: apa yang ditemukan, apa yang diganti, dan bagaimana hasil ujinya. Rantai bukti inilah yang membuat bongkar terjadwal berikutnya makin tepat sasaran.",
+    "Pola pikir yang sama berlaku untuk alat statis. Penukar panas dibersihkan mengikuti jadwal karena kerak yang menumpuk pelan-pelan menaikkan konsumsi energi jauh sebelum alat itu benar-benar buntu, dan kolom dibuka pada jendela rawat besar untuk mengganti internal yang aus sebelum kegagalannya memaksa pabrik berhenti di luar rencana. Di semua kasus itu prinsipnya identik: keausan yang terukur diganti pada waktu yang dipilih, bukan ditunggu sampai memilih waktunya sendiri [1][2]."
+   ]
+  }
+ ],
+ "facts": [
+  "Jadwal preventive maintenance datang dari jam operasi, data kondisi getaran dan suhu, dan temuan inspeksi terakhir.",
+  "Berhenti tidak terencana jauh lebih mahal daripada rawat terjadwal.",
+  "Alur kerjanya enam tahap dari jadwal sampai kembali operasi dan tidak ada tahap yang dilompati.",
+  "Tren getaran yang naik pelan adalah tanda awal bearing aus.",
+  "Seal mekanik, bearing, dan gasket diganti berkala sebelum gagal total.",
+  "Alat lolos uji jalan tanpa beban dan berbeban bertahap sebelum kembali melayani proses."
+ ],
+ "closing": "Membongkar mesin sehat bukan pemborosan; itu premi asuransi yang dibayar pabrik dalam bentuk jadwal, bukan dalam bentuk kerugian mendadak. Simpan artikel ini buat bekal masuk pabrik, karena membaca alur rawat terjadwal adalah cara tercepat memahami kenapa pabrik yang andal jarang berhenti tanpa rencana.",
+ "refs": [
+  "Mobley, R. K. An Introduction to Predictive Maintenance. Butterworth-Heinemann.",
+  "Green, D. W., & Southard, M. Z. (Eds.). Perry's Chemical Engineers' Handbook. McGraw-Hill.",
+  "Lees, F. P. Loss Prevention in the Process Industries. Butterworth-Heinemann."
+ ]
+}

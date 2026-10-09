@@ -1,0 +1,45 @@
+{
+ "slug": "bedah-hidrogen-biru-smr-atr-ngd",
+ "judul": "Hidrogen biru: rute termurah bukan yang paling bersih",
+ "topik": "Hidrogen dan energi",
+ "negara": "Internasional",
+ "paper_title": "Comparative assessment of blue hydrogen from steam methane reforming, autothermal reforming, and natural gas decomposition technologies for natural gas-producing regions",
+ "authors": [
+  "Abayomi Olufemi Oni",
+  "Karina Anaya",
+  "Temitayo Giwa",
+  "Giovanni Di Lullo",
+  "Amit Kumar"
+ ],
+ "year": 2022,
+ "journal": "Energy Conversion and Management",
+ "doi": "https://doi.org/10.1016/j.enconman.2022.115245",
+ "coverage": "Berdasarkan abstrak",
+ "date_bedah": "2026-10-09",
+ "terkait": [
+  {
+   "type": "artikel",
+   "slug": "gas-alam-ke-urea-haber-bosch",
+   "title": "Gas Alam ke Urea: Haber-Bosch dan Rantai Pupuk"
+  }
+ ],
+ "abstract_src": "Interest in blue hydrogen production technologies is growing. Some researchers have evaluated the environmental and/or economic feasibility of producing blue hydrogen, but a holistic assessment is still needed. Many aspects of hydrogen production have not been investigated. There is very limited information in the literature on the impact of plant size on production and the extent of carbon capture on the cost and life cycle greenhouse gas (GHG) emissions of blue hydrogen production through various production pathways. Detailed uncertainty and sensitivity analyses have not been included in most of the earlier studies. This study conducts a holistic comparative cost and life cycle GHG emissions’ footprint assessment of three natural gas-based blue hydrogen production technologies – steam methane reforming (SMR), autothermal reforming (ATR), and natural gas decomposition (NGD) to address these research gaps. A hydrogen production plant capacity of 607 tonnes per day was considered. For SMR, based on the percentage of carbon capture and capture points, we considered two scenarios, SMR-52% (indicates 52% carbon capture) and SMR-85% (indicates 85% carbon capture). A scale factor was developed for each technology to understand the hydrogen production cost with a change in production plant size. Hydrogen cost is 1.22, 1.23, 2.12, 1.69, 2.36, 1.66, and 2.55 $/kg H2 for SMR, ATR, NGD, SMR-52%, SMR-85%, ATR with carbon capture and sequestration (ATR-CCS), and NGD with carbon capture and sequestration (NGD-CCS), respectively. The results indicate that when uncertainty is considered, SMR-52% and ATR are economically preferable to NGD and SMR-85%. SMR-52% could outperform ATR-CCS when the natural gas price decreases and the rate of return increases. SMR-85% is the least attractive pathway; however, it could outperform NGD economically when CO2 transportation cost and natural gas price decrease. Hydrogen storage cost significantly impacts the hydrogen production cost. SMR-52%, SMR-85%, ATR-CCS, and NGD-CCS have scale factors of 0.67, 0.68, 0.54, and 0.65, respectively. The hydrogen cost variation with capacity shows that operating SMR-52% and ATR-CCS above hydrogen capacity of 200 tonnes/day is economically attractive. Blue hydrogen from autothermal reforming has the lowest life cycle GHG emissions of 3.91 kgCO2eq/kg H2, followed by blue hydrogen from NGD (4.54 kgCO2eq/kg H2), SMR-85% (6.66 kgCO2eq/kg H2), and SMR-52% (8.20 kgCO2eq/kg H2). The findings of this study are useful for decision-making at various levels.",
+ "lead": "Tiga rute hidrogen biru dari gas alam dibandingkan dalam satu studi tekno-ekonomi dan emisi siklus hidup. Hasilnya menunjukkan rute dengan biaya terendah bukan rute dengan emisi terendah, dan tangkapan karbon yang lebih tinggi tidak otomatis lebih baik.",
+ "masalah": "Literatur hidrogen biru sudah menilai kelayakan ekonomi atau lingkungan secara terpisah, tetapi penilaian holistiknya masih kurang. Dampak ukuran pabrik dan tingkat tangkapan karbon terhadap biaya serta emisi gas rumah kaca siklus hidup belum banyak diteliti, dan analisis ketidakpastian serta sensitivitas belum disertakan pada sebagian besar studi sebelumnya.",
+ "metode": "Penilaian komparatif biaya dan jejak emisi gas rumah kaca siklus hidup untuk tiga teknologi: steam methane reforming (SMR), autothermal reforming (ATR), dan natural gas decomposition (NGD). Kapasitas pabrik yang dimodelkan 607 ton per hari. Untuk SMR dibuat dua skenario tangkapan karbon, 52% dan 85%. Setiap teknologi diberi faktor skala untuk membaca perubahan biaya terhadap ukuran pabrik, dilengkapi analisis ketidakpastian dan sensitivitas.",
+ "temuan": [
+  "Biaya hidrogen per kg H2: SMR 1,22; ATR 1,23; NGD 2,12; SMR-52% 1,69; SMR-85% 2,36; ATR dengan tangkapan dan penyimpanan karbon 1,66; NGD dengan tangkapan dan penyimpanan karbon 2,55 dolar AS.",
+  "Emisi gas rumah kaca siklus hidup terendah berasal dari ATR sebesar 3,91 kg CO2eq per kg H2, diikuti NGD 4,54, SMR-85% 6,66, dan SMR-52% 8,20.",
+  "Dengan ketidakpastian diperhitungkan, SMR-52% dan ATR lebih disukai secara ekonomi dibanding NGD dan SMR-85%. SMR-85% adalah jalur paling tidak menarik, tetapi bisa mengungguli NGD bila biaya transportasi CO2 dan harga gas alam turun.",
+  "Faktor skala SMR-52%, SMR-85%, ATR-CCS, dan NGD-CCS berturut-turut 0,67, 0,68, 0,54, dan 0,65. Mengoperasikan SMR-52% dan ATR-CCS di atas kapasitas 200 ton per hari dinilai menarik secara ekonomi.",
+  "Biaya penyimpanan hidrogen berdampak signifikan terhadap biaya produksi hidrogen."
+ ],
+ "batas": [
+  "Seluruh angka adalah hasil pemodelan tekno-ekonomi dan LCA, bukan data operasi pabrik nyata. Abstrak sendiri menunjukkan hasilnya sensitif: SMR-52% bisa mengungguli ATR-CCS bila harga gas alam turun dan tingkat pengembalian naik.",
+  "Studi dibingkai untuk wilayah penghasil gas alam, sehingga asumsi harga dan ketersediaan gasnya mungkin tidak berlaku sama di lokasi dengan gas mahal atau terbatas.",
+  "Perbandingan emisi di abstrak tidak dirinci per titik tangkap (capture point) untuk semua skenario, sehingga pembaca yang butuh rincian batas sistem LCA harus memeriksa full text."
+ ],
+ "arti_pabrik": "Bagi negara produsen gas seperti Indonesia, pelajaran utamanya adalah pilihan rute dan titik tangkap menentukan ekonomi hidrogen biru sekaligus, bukan dua keputusan terpisah. Ambang kapasitas dari faktor skala juga relevan untuk perencanaan pabrik hidrogen bagi amonia dan kilang: studi ini memberi alasan kuantitatif kenapa pabrik kecil sulit bersaing. Penilaian ini adalah apresiasi redaksi, bukan klaim paper.",
+ "vonis": "Baca full paper",
+ "vonis_alasan": "Abstrak memuat angka biaya dan emisi utama, tetapi tabel sensitivitas, rincian batas LCA, dan asumsi harga yang menggerakkan kesimpulan hanya ada di full text. Untuk keputusan rute, abstrak belum cukup."
+}

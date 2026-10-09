@@ -1,0 +1,47 @@
+{
+ "lead": "Gambar McCabe-Thiele pertama yang digambar mahasiswa biasanya runtuh di satu tempat yang sama: dua garis operasi tertukar posisi, lalu seluruh tangga tahap ikut salah. Padahal diagram ini hanya menuntut satu keputusan awal yang benar, yaitu garis mana yang menempel ke distilat dan garis mana yang menempel ke bottom.",
+ "hook_type": "Negativity",
+ "sections": [
+  {
+   "h": "Dua zona, dua garis, satu titik temu",
+   "paras": [
+    "Kolom distilasi tidak bekerja dengan satu rezim yang sama dari atas sampai bawah. Di atas titik masuk umpan, uap yang naik diperkaya komponen ringan karena cairan refluks yang turun berulang kali mengambil alih peran penukar massa; zona ini disebut zona rectifying atau memperkaya. Di bawah umpan, cairan yang turun dilucuti komponen ringannya oleh uap yang naik dari reboiler, sehingga komponen ringan terdorong kembali ke atas dan cairan makin berat menuju bottom. Dua karakter kerja yang berlawanan ini melahirkan dua garis operasi yang berbeda, dan keduanya hanya bertemu di satu tempat: garis q yang mewakili kondisi umpan [1][2].",
+    "Konsekuensinya tegas. Garis rectifying wajib berujung di titik distilat pada diagonal diagram, garis stripping wajib berujung di titik bottom pada diagonal yang sama. Kalau salah satu garis tertukar ujungnya, tangga tahap yang digambar sesudahnya akan menghitung tray untuk kolom yang tidak ada. Inilah kesalahan yang paling sering menghabiskan nilai ujian, bukan karena konsepnya sulit, melainkan karena gambar awalnya tidak diuji."
+   ]
+  },
+  {
+   "h": "Garis rectifying dari neraca komponen",
+   "paras": [
+    "Garis rectifying lahir dari neraca komponen ringan di zona memperkaya. Pada asumsi luapan molar tetap, laju cair dan uap antar tray dianggap konstan, sehingga hubungan antara komposisi uap yang naik dan cairan yang turun menjadi garis lurus: y = R/(R+1) x + xD/(R+1). Di sini R adalah rasio refluks, laju cairan yang dikembalikan ke kolom dibagi laju distilat yang diambil sebagai produk atas, dan xD adalah fraksi mol komponen ringan di distilat [1][2].",
+    "Dua ciri garis ini bisa dipakai sebagai uji kewarasan sebelum tangga digambar. Pertama, kemiringannya R/(R+1) selalu di bawah 1, karena penyebutnya selalu lebih besar dari pembilangnya. Kedua, garis ini harus melewati titik distilat di diagonal, tempat y sama dengan x sama dengan xD. Menaikkan R menggeser garis mendekati diagonal, artinya pemisahan per tray membaik, tetapi uap yang harus dibangkitkan reboiler ikut naik. Di situlah trade-off klasik distilasi tinggal: refluks membeli tray dengan energi."
+   ]
+  },
+  {
+   "h": "Contoh angka yang sering keluar di ujian",
+   "paras": [
+    "Ambil contoh yang dipakai di carousel CS-02: rasio refluks R = 2 dan komposisi distilat xD = 0,95 fraksi mol komponen ringan. Kemiringannya 2/3 = 0,67 dan intersepnya 0,95/3 = 0,32, sehingga garis rectifying-nya y = 0,67 x + 0,32. Tiga langkah ini, data soal, kemiringan dan intersep, lalu garis siap gambar, adalah pola yang bisa ditiru untuk soal berapa pun angkanya, selama rumusnya tidak dibalik [1].",
+    "Setelah garis operasi berdiri, jumlah tray teoritis dibaca dari anak tangga yang ditarik di antara kurva kesetimbangan dan garis operasi. Mulai dari distilat di kanan atas, melangkah mendatar ke kurva kesetimbangan, lalu turun tegak ke garis operasi, dan ulangi sampai melewati komposisi umpan menuju bottom. Setiap anak tangga penuh adalah satu tray teoritis. Tangga yang berhenti terlalu cepat atau melompat melewati titik temu garis q hampir selalu berarti garis operasinya tertukar sejak awal."
+   ]
+  },
+  {
+   "h": "Dari ruang ujian ke kolom kilang",
+   "paras": [
+    "Diagram ini bukan latihan menggambar semata. Tangga yang sama menentukan berapa banyak tray yang dipasang di kolom pemisah propana dan butana, dan pada kolom crude yang memisahkan fraksi minyak bertingkat. Di pabrik, tray teoritis hasil gambar diterjemahkan menjadi tray aktual dan akhirnya menjadi tinggi kolom. Salah menarik garis di kelas berarti salah menghitung tray, dan salah menghitung tray di pabrik berarti kolom yang dibangun tidak mencapai komposisi produk yang diminta [2].",
+    "Karena itu urutan kerja yang aman selalu sama, di ujian maupun di desain awal: gambar diagonal dan kurva kesetimbangan dulu, tandai distilat, umpan, dan bottom, tarik dua garis operasi dan pastikan keduanya bertemu di garis q, baru gambar tangga terakhir. Diagram yang dibangun dengan urutan ini hampir tidak memberi ruang bagi kesalahan tertukar yang klasik itu."
+   ]
+  }
+ ],
+ "facts": [
+  "Kolom distilasi punya dua zona operasi: memperkaya di atas umpan dan melucuti di bawah umpan.",
+  "Garis rectifying wajib berujung di titik distilat, garis stripping di titik bottom, keduanya pada diagonal.",
+  "Kemiringan garis rectifying R/(R+1) selalu di bawah 1.",
+  "Dua garis operasi hanya bertemu di garis q kondisi umpan.",
+  "Tiap anak tangga penuh di antara kurva kesetimbangan dan garis operasi adalah satu tray teoritis.",
+  "Menaikkan refluks menggeser garis rectifying mendekati diagonal dan memperbaiki pemisahan per tray."
+ ],
+ "closing": "Cheat sheet CS-02 bermuara pada satu kebiasaan gambar: uji ujung garis sebelum menghitung tangga. Rectifying menempel ke distilat, stripping menempel ke bottom, dan keduanya bertemu di umpan. Simpan artikel ini sebagai bekal UTS separasi, karena garis yang benar di kertas adalah awal dari kolom yang benar di kilang.",
+ "refs": [
+  "McCabe, W. L., Smith, J. C., & Harriott, P. Unit Operations of Chemical Engineering. McGraw-Hill.",
+  "Seader, J. D., Henley, E. J., & Roper, D. K. Separation Process Principles. John Wiley & Sons."
+ ]
+}

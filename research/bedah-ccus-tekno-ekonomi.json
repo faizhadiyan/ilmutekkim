@@ -1,0 +1,39 @@
+{
+ "slug": "bedah-ccus-tekno-ekonomi",
+ "judul": "CCUS menuju net-zero: review tekno-ekonomi seluruh rantai",
+ "topik": "Karbon dan net-zero",
+ "negara": "Internasional",
+ "paper_title": "A techno-economic review on carbon capture, utilisation and storage systems for achieving a net-zero CO2 emissions future",
+ "authors": [
+  "Wan Yun Hong"
+ ],
+ "year": 2022,
+ "journal": "Carbon Capture Science & Technology",
+ "doi": "https://doi.org/10.1016/j.ccst.2022.100044",
+ "coverage": "Berdasarkan abstrak",
+ "date_bedah": "2026-10-09",
+ "terkait": [
+  {
+   "type": "artikel",
+   "slug": "gas-alam-ke-urea-haber-bosch",
+   "title": "Gas Alam ke Urea: Haber-Bosch dan Rantai Pupuk"
+  }
+ ],
+ "abstract_src": "Carbon capture and storage (CCS)/carbon capture, utilisation and storage (CCUS) systems are widely recognised to have the potential in reducing CO2 emissions. However, current their global deployment is still not sufficient to reach the anticipated net-zero CO2 emissions target by 2050. This article aims to provide a general techno-economic review of CCUS systems. The technology readiness, technical performance, energy requirement and cost associated with CO2 capture, separation, transport, utilisation and storage technologies were discussed and compared. The CO2 capture technological pathways include industrial separation, post-combustion, pre-combustion, oxy-fuel combustion, chemical looping combustion and direct air capture. CO2 separation technologies such as absorption, adsorption, membrane, cryogenic and biological were also covered. Then, a review on CO2 transportation by pipeline, ship, truck and rail was presented, followed by a review on CO2 utilisation pathways for direct usage and through conversion into other products. Lastly, different CO2 storage options were reviewed, which include storage through CO2-enhanced oil recovery, in depleted oil and gas fields, in saline formations, in basalt and ultramafic rocks, in coal seams through enhanced coal bed methane recovery and in the deep ocean. This article concluded that the challenges with current CCUS technologies can possibly be overcome by developing a commercially viable hybrid system comprising more than one technology. However, this approach needs to be further investigated for industrial applications.",
+ "lead": "CCUS diakui berpotensi memangkas emisi CO2, tetapi deploy globalnya masih jauh dari cukup untuk target net-zero pada 2050. Review ini membedah seluruh rantainya, dari tangkap, pisah, angkut, pakai, sampai simpan, beserta kesiapan dan biayanya.",
+ "masalah": "Sistem carbon capture and storage dan carbon capture, utilisation and storage dipandang penting untuk menurunkan emisi CO2, tetapi penyebaran globalnya saat ini belum memadai untuk mencapai target emisi net-zero CO2 pada 2050. Dibutuhkan tinjauan tekno-ekonomi umum yang membandingkan pilihan di setiap mata rantai.",
+ "metode": "Review tekno-ekonomi menyeluruh: kesiapan teknologi, kinerja teknis, kebutuhan energi, dan biaya untuk penangkapan, pemisahan, transportasi, utilisasi, dan penyimpanan CO2. Jalur tangkapnya meliputi pembakaran oxy-fuel, chemical looping combustion, penangkapan langsung dari udara (direct air capture), pemisahan pada sumber industri, serta skema sesudah pembakaran (post-combustion) dan sebelum pembakaran (pre-combustion). Teknologi pemisahan mencakup absorption, adsorption, membrane, cryogenic, dan biological. Transportasi dibahas untuk pipeline, kapal, truk, dan rel. Penyimpanan mencakup CO2-enhanced oil recovery, ladang minyak dan gas yang telah habis, formasi salin, batuan basalt dan ultramafik, lapisan batu bara lewat enhanced coal bed methane recovery, dan samudra dalam.",
+ "temuan": [
+  "Kesimpulan utama abstrak: tantangan teknologi CCUS saat ini mungkin dapat diatasi dengan mengembangkan sistem hybrid yang layak komersial dan terdiri dari lebih dari satu teknologi.",
+  "Pendekatan hybrid tersebut dinyatakan masih perlu diteliti lebih lanjut untuk aplikasi industri, jadi kesimpulan ini adalah arah riset, bukan teknologi yang sudah terbukti di abstrak.",
+  "Cakupan review menegaskan tidak ada satu mata rantai pun yang bisa dinilai sendirian: pilihan tangkap menentukan beban pemisahan, transportasi, dan penyimpanan di hilirnya."
+ ],
+ "batas": [
+  "Abstrak tidak memuat angka biaya, kebutuhan energi, atau kinerja spesifik per teknologi, sehingga perbandingan kuantitatif antar opsi tidak bisa dibuat dari abstrak.",
+  "Review seluas ini menilai banyak teknologi sekaligus; kedalaman penilaian per mata rantai harus diverifikasi di full text sebelum dipakai untuk keputusan proyek.",
+  "Rekomendasi sistem hybrid bersifat umum dan belum ditautkan ke konfigurasi industri tertentu di dalam abstrak."
+ ],
+ "arti_pabrik": "Untuk Indonesia, mata rantai yang paling dekat dengan industri eksisting adalah penyimpanan di ladang migas yang menipis, formasi salin, dan CO2-enhanced oil recovery, serta jalur pre-combustion yang bersinggungan dengan reforming gas untuk hidrogen dan amonia. Review ini berguna sebagai peta awal sebelum masuk ke studi lokasi spesifik. Penilaian ini adalah apresiasi redaksi, bukan klaim paper.",
+ "vonis": "Cukup abstraknya",
+ "vonis_alasan": "Nilai paper ini ada pada peta cakupannya, dan kesimpulan utamanya sudah tersampaikan utuh di abstrak. Full text baru diperlukan bila pembaca membutuhkan angka biaya per teknologi, yang memang tidak diberikan abstrak."
+}

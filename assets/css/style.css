@@ -172,3 +172,11 @@ footer a{color:#fff}
 /* referensi bernomor (ILM-R64) */
 .refs ol{margin:0;padding-left:22px}
 .refs li{margin:6px 0;line-height:1.6}
+
+
+/* bedah riset (ILM-R65) */
+.cov-label{display:inline-block;font-weight:700;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:#0e7490;border:1px solid #0e7490;border-radius:999px;padding:4px 12px;margin:0 0 14px}
+.paper-box{border:1px solid #d7dde3;border-radius:14px;padding:18px 20px;margin:22px 0;background:#f7fafc}
+.paper-title{margin:4px 0 8px;font-size:1.25rem;line-height:1.35}
+.verdict{border:2px solid #131518;border-radius:14px;padding:18px 20px;margin:26px 0}
+.verdict h2{margin:4px 0 8px}

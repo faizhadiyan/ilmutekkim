@@ -1,0 +1,45 @@
+{
+ "slug": "bedah-bentonit-sonikasi-katalis-asam",
+ "judul": "Sonikasi memotong pilarisasi bentonit untuk katalis asam padat",
+ "topik": "Katalis dan material",
+ "negara": "Indonesia",
+ "paper_title": "Bentonite pillarization using sonication in a solid acid catalyst preparation for the oleic acid esterification reaction",
+ "authors": [
+  "Nino Rinaldi",
+  "Nova Dwi Enjelina Purba",
+  "Anis Kristiani",
+  "Egi Agustian",
+  "Robert Ronal Widjaya",
+  "Adid Adep Dwiatmoko"
+ ],
+ "year": 2022,
+ "journal": "Catalysis Communications",
+ "doi": "https://doi.org/10.1016/j.catcom.2022.106598",
+ "coverage": "Berdasarkan abstrak",
+ "date_bedah": "2026-10-09",
+ "terkait": [
+  {
+   "type": "artikel",
+   "slug": "oleokimia-sawit-sabun-deterjen",
+   "title": "Oleokimia Sawit: Sabun dan Deterjen"
+  }
+ ],
+ "abstract_src": "Bentonite is one of the abundant non-metallic minerals and still was not used optimally. Bentonite could be tailored into a high-value material, one of which is a solid catalyst for a particular reaction. In general, the modification of bentonite is by the pillarization process, which is exchanging cations between the alumina-silicate layers of bentonite with a single or mixture of metal oxide, thereby modifying the distance between the layers and its physicochemical properties from the original bentonite. However, the conventional pillarization process is usually time-consuming, especially during on aging process (almost one day). Using sonication during the pillarization process could prepare the pillarization process to become shorter, at least eliminating the aging process. Thus, this study investigated the sonication effect on the pillarization process of bentonite, especially its physicochemical properties. A solid acid catalyst is prepared by the pillarization method with or without the sonication. Zirconium (Zr) and titanium (Ti) are used as the pillared metals. In the bentonite pillarization process using sonication, the amplitude of the ultrasonic probe will be varied at 30, 50, and 70% with a sonication time of 20 min, respectively. The prepared solid acid catalysts are tested for their catalytic activity in the esterification reaction of oleic acid to methyl oleate. Several characterization techniques are also conducted on the prepared solid acid catalysts to obtain information on their physicochemical properties, such as N2 gas adsorption, XRD, NH3-TPD, XRF, and SEM. Conversion of the esterification reaction is verified by calculating the acid value and GC–MS analysis. It is found that the surface area increased after the pillarization process for Ti-PILC and Zr-PILC catalysts, with/without the sonication. The XRD results also confirmed that the basal spacing shifted after the pillarization for both prepared catalysts. It is assumed that the pillarization is prepared successfully by using sonication. Furthermore, the surface area of Zr-PiLC catalysts was significantly enhanced when using sonication, however, not observed for the Ti-PiLC catalyst. The N2 gas adsorption results disclosed that the sonication effects extensively enlarge the pore volume. Similar results are described in the NH3-TPD analysis that the acidity of the prepared catalysts also increased due to the sonication. Therefore, the conversion of the esterification reaction of oleic acid also increased. The maximum value of oleic acid conversion obtained in this study was 62.66% for the solid acid catalyst Ti/PILC, with an amplitude of 70%. It is achieved that using the sonication in the bentonite pillarization process could reduce the pillarization time drastically and cause the prepared material to become more porous.",
+ "lead": "Pilarisasi bentonit konvensional menghabiskan hampir satu hari hanya untuk tahap aging. Studi ini mengganti tahap itu dengan sonikasi 20 menit, lalu membuktikan katalis asam padatnya pada esterifikasi asam oleat dengan konversi maksimum 62,66%.",
+ "masalah": "Bentonit adalah mineral nonlogam yang melimpah tetapi belum dimanfaatkan optimal, padahal dapat diubah menjadi material bernilai tinggi seperti katalis padat. Pilarisasi, yaitu menukar kation antar lapisan alumina-silikat bentonit dengan oksida logam, terkendala proses yang lama terutama pada tahap aging yang memakan hampir satu hari.",
+ "metode": "Katalis asam padat dibuat dengan pilarisasi memakai logam zirconium dan titanium, dengan dan tanpa sonikasi. Pada varian sonikasi, amplitudo probe ultrasonik divariasi 30, 50, dan 70% dengan waktu sonikasi 20 menit. Katalis dikarakterisasi dengan adsorpsi gas N2, XRD, NH3-TPD, XRF, dan SEM, lalu diuji pada esterifikasi oleic acid menjadi methyl oleate. Konversi diverifikasi lewat perhitungan acid value dan analisis GC-MS.",
+ "temuan": [
+  "Luas permukaan naik setelah pilarisasi untuk katalis Ti-PILC dan Zr-PILC, baik dengan maupun tanpa sonikasi, dan hasil XRD menunjukkan basal spacing bergeser setelah pilarisasi pada kedua katalis.",
+  "Luas permukaan Zr-PILC meningkat signifikan dengan sonikasi, tetapi efek itu tidak teramati pada Ti-PILC. Sonikasi juga memperbesar volume pori secara ekstensif dan menaikkan keasaman katalis berdasarkan analisis NH3-TPD.",
+  "Konversi esterifikasi oleic acid ikut naik dengan sonikasi. Nilai maksimumnya 62,66% untuk katalis Ti/PILC pada amplitudo 70%.",
+  "Kesimpulan penulis: sonikasi memangkas waktu pilarisasi secara drastis dan membuat material lebih berpori."
+ ],
+ "batas": [
+  "Abstrak melaporkan keberhasilan preparasi dan satu angka konversi maksimum, tetapi tidak memuat perbandingan konversi lengkap antar katalis dan kondisi, sehingga peringkat katalis terbaik belum bisa disusun dari abstrak.",
+  "Penulisan nama katalis tidak konsisten di abstrak (Ti-PILC dan Ti/PILC dipakai bergantian), detail kecil yang perlu diperhatikan saat mengutip.",
+  "Belum ada uji pakai ulang atau stabilitas katalis di abstrak, dan skala preparasinya adalah skala laboratorium."
+ ],
+ "arti_pabrik": "Bentonit tersedia melimpah di Indonesia dan katalis asam padat adalah kebutuhan oleokimia, termasuk esterifikasi asam lemak menjadi metil ester. Memotong tahap aging hampir satu hari menjadi sonikasi 20 menit adalah penghematan waktu preparasi yang konkret, meski nilai industrinya tetap menunggu bukti pakai ulang dan skala. Bedah ini bersambung dengan artikel oleokimia sawit di situs ini. Penilaian ini adalah apresiasi redaksi, bukan klaim paper.",
+ "vonis": "Baca full paper",
+ "vonis_alasan": "Abstrak membuktikan konsepnya dan memberi satu angka konversi terbaik, tetapi tabel konversi per katalis dan kondisi yang dibutuhkan untuk menilai sonikasi secara adil hanya ada di full text."
+}
