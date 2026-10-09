@@ -10,10 +10,14 @@ contoh nyata di industri Indonesia, dan referensinya.
 
 ## Isi
 
-- 25 artikel lengkap (distilasi, reflux, P&ID, kilang, sawit, biodiesel B40,
+- 28 artikel lengkap (distilasi, reflux, P&ID, kilang, sawit, biodiesel B40,
   petrokimia, cooling tower, urea Haber-Bosch, neraca massa, oleokimia,
   batch vs continuous, gula, utilitas, semen, safety instrumented system,
-  pulp kraft, permit to work, dan lainnya)
+  pulp kraft, permit to work, roadmap mata kuliah, cheat sheet Carothers,
+  control room DCS, dan lainnya)
+- 10 video interaktif (motion graphics): player dengan timeline per scene
+  yang bisa diklik untuk lompat ke detik tertentu, bedah isi per scene,
+  fakta kunci, dan kuis singkat di akhir tiap video
 - Filter per seri dan pencarian artikel
 - Halaman tentang
 
