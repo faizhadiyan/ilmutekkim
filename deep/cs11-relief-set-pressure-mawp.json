@@ -1,0 +1,54 @@
+{
+ "closing": "Urutan tiga angka tekanan adalah rangkuman keselamatan bejana dalam satu baris: operasi di bawah set pressure, set pressure tidak di atas MAWP, dan relief penuh tidak melewati MAWP ditambah 10 persen. Contoh bejana 10 barg memperlihatkan bahwa seluruh aturan tersebut dapat diperiksa dengan aritmetika sederhana sebelum katup dipasang. Relief valve yang disetel terlalu tinggi sama berbahayanya dengan relief valve yang tidak dipasang, karena keduanya membiarkan bejana menghadapi tekanan berlebih tanpa perlindungan.",
+ "facts": [
+  "Set pressure adalah tekanan saat relief valve mulai membuka dan ditentukan oleh pegas katup, bukan tekanan maksimum bejana.",
+  "MAWP adalah tekanan maksimum yang diizinkan bejana pada suhu desain dan ditentukan oleh desain bejana.",
+  "Aturan ASME Section VIII menyatakan set pressure tidak boleh melebihi MAWP, atau P_set ≤ MAWP.",
+  "Untuk satu katup, tekanan saat relief penuh maksimal MAWP ditambah 10 persen, sehingga bejana dengan MAWP 10 barg memiliki batas relief penuh 11 barg.",
+  "Tekanan operasi lazimnya dijaga tidak lebih dari 90 persen set pressure agar katup tidak bergetar dan bocor sebelum waktunya."
+ ],
+ "hook_type": "Negativity",
+ "lead": "Tiga angka tekanan pada satu bejana sering tertukar, dan tertukarnya satu angka dapat membuat bejana pecah sebelum katup pengamannya sempat terbuka. Urutan yang benar bersifat tetap: tekanan operasi berada di bawah set pressure, dan set pressure tidak boleh melampaui MAWP [1][2].",
+ "refs": [
+  "American Society of Mechanical Engineers. ASME Boiler and Pressure Vessel Code, Section VIII, Division 1: Rules for Construction of Pressure Vessels (UG-125, UG-134). ASME.",
+  "Towler, G., & Sinnott, R. (2013). Chemical Engineering Design: Principles, Practice and Economics of Plant and Process Design (2nd ed.). Elsevier.",
+  "American Petroleum Institute. API Standard 520: Sizing, Selection, and Installation of Pressure-relieving Devices. API."
+ ],
+ "sections": [
+  {
+   "h": "Tiga tekanan dengan pemilik yang berbeda",
+   "paras": [
+    "Tekanan operasi adalah tekanan kerja sehari-hari bejana, dan posisinya harus berada di bawah set pressure dengan jarak aman. Set pressure adalah tekanan saat relief valve mulai membuka, dan besarnya ditentukan oleh pegas katup. MAWP adalah tekanan maksimum yang diizinkan bejana pada suhu desain, dan besarnya ditentukan oleh desain bejana itu sendiri [1][2].",
+    "Ketiga angka tersebut berbeda karena pemilik keputusannya berbeda. Tekanan operasi ditentukan oleh kebutuhan proses, set pressure ditentukan oleh penyetelan katup, dan MAWP ditentukan oleh kekuatan konstruksi bejana. Menyamakan set pressure dengan tekanan maksimum bejana adalah jebakan yang paling sering muncul, karena set pressure menandai awal pembukaan katup, bukan batas kekuatan bejana [1]."
+   ]
+  },
+  {
+   "h": "Jalur buang saat tekanan naik",
+   "paras": [
+    "Skema perlindungannya terdiri atas satu bejana tekan, satu relief valve pada nosel atas, dan satu jalur buang menuju flare. Saat tekanan naik melewati batas normal, relief valve terbuka tepat pada set pressure dan membuang uap bertekanan keluar dari bejana melalui jalur tersebut [1].",
+    "Urutan kejadian itulah yang menjaga bejana. Karena katup telah terbuka lebih dahulu pada set pressure yang tidak melampaui MAWP, bejana tidak pernah merasakan tekanan di atas MAWP [1][2]. Tidak ada aliran yang hilang dalam skema ini: uap yang dibuang tetap terhitung sebagai aliran keluar dari bejana menuju flare, hanya saja aliran tersebut terjadi pada saat darurat dan bukan pada operasi normal."
+   ]
+  },
+  {
+   "h": "Aturan kode: set pressure tidak melampaui MAWP",
+   "paras": [
+    "Aturan intinya dirumuskan dalam satu pertidaksamaan, P_set ≤ MAWP, yang berarti set pressure tidak boleh melebihi MAWP. Aturan ini berasal dari ASME Boiler and Pressure Vessel Code Section VIII dan bersifat baku, bukan anjuran, sehingga melanggarnya berarti desain tidak lolos kode [1].",
+    "Kode yang sama mengatur akumulasi, yaitu kenaikan tekanan yang masih diizinkan saat relief berlangsung penuh. Untuk satu katup, tekanan saat relief penuh maksimal adalah MAWP ditambah 10 persen [1]. Kedua aturan ini bekerja sebagai pasangan: pertidaksamaan pertama mengatur kapan katup mulai membuka, dan batas akumulasi mengatur seberapa jauh tekanan masih boleh naik sesudahnya."
+   ]
+  },
+  {
+   "h": "Contoh hitung: bejana 10 barg yang dioperasikan pada 8 barg",
+   "paras": [
+    "Contoh angka dalam pembahasan ini dikerjakan langkah demi langkah. Sebuah bejana memiliki MAWP 10 barg dan dioperasikan pada tekanan operasi 8 barg. Relief valve dipasang dengan set pressure 10 barg, yaitu tepat pada MAWP dan tidak melampauinya, sesuai pertidaksamaan P_set ≤ MAWP [1].",
+    "Saat gangguan terjadi, katup terbuka pada 10 barg dan tekanan saat relief penuh tidak pernah melewati 11 barg, yaitu MAWP 10 barg ditambah akumulasi 10 persen [1]. Sebaliknya, apabila relief valve disetel pada 12 barg dengan alasan mengurangi kebocoran, set pressure tersebut telah melampaui MAWP. Bejana akan pecah lebih dahulu sebelum katup sempat terbuka, dan alasan menghindari kebocoran tidak dapat membenarkan pelanggaran kode tersebut."
+   ]
+  },
+  {
+   "h": "Margin operasi dan pengujian berkala di pabrik",
+   "paras": [
+    "Tekanan operasi tidak boleh menempel pada set pressure. Jarak aman sehari-hari dijaga dengan tekanan operasi lazimnya tidak lebih dari 90 persen set pressure, karena operasi yang terlalu dekat membuat katup bergetar dan bocor sebelum waktunya, gejala yang disebut simmer [2]. Sebaliknya, jarak yang terlalu jauh juga merugikan karena bejana harus didesain lebih tebal dari kebutuhan.",
+    "Di pabrik, relief valve terpasang pada hampir setiap bejana tekan dan diperiksa tekanan bukanya, yaitu pop pressure, secara berkala [1][2]. Pengujian berkala tersebut adalah konsekuensi logis dari seluruh aturan angka dalam artikel ini: relief valve adalah perangkat keras yang kinerjanya harus dibuktikan, bukan simbol pada gambar yang diasumsikan bekerja. Salah mengurutkan tiga angka tekanan berarti salah memasang pengaman."
+   ]
+  }
+ ]
+}

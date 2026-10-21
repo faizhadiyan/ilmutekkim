@@ -1,0 +1,54 @@
+{
+ "lead": "Helm dan sepatu keselamatan sering diperlakukan sebagai jawaban untuk semua pekerjaan, padahal keduanya hanya menempati level paling dasar dalam pemilihan alat pelindung diri di pabrik kimia. Bahaya di area proses tidak berhenti pada benda jatuh: api, cipratan kimia, gas beracun, dan kekurangan oksigen menuntut perlindungan yang berbeda kelas. Salah memilih level perlindungan berarti salah pula kelas cedera yang mungkin diterima.",
+ "hook_type": "Negativity",
+ "sections": [
+  {
+   "h": "Tiga level perlindungan di pabrik kimia",
+   "paras": [
+    "Pemilihan alat pelindung diri disusun bertingkat mengikuti tingkat bahaya zona kerja [1]. Level 1 terdiri atas helm, sepatu keselamatan, kacamata, dan sarung tangan kerja, dan ditujukan untuk area umum serta pekerjaan konstruksi. Perlengkapan ini menjawab bahaya mekanis yang paling dasar, seperti benda jatuh dan tusukan pada kaki.",
+    "Level 2 berlaku di area proses dan menambah FR coverall, pelindung wajah, serta sarung tangan kimia. Level 3 menjawab bahaya atmosfer dan mewajibkan alat bantu napas berupa SCBA atau masker pelarian untuk gas beracun dan kondisi oksigen rendah. Setiap kenaikan level bukan penambahan aksesori, melainkan jawaban atas jenis bahaya yang sama sekali berbeda [1][3]."
+   ]
+  },
+  {
+   "h": "Memilih APD dari bahaya di zona kerja",
+   "paras": [
+    "Aturan pemilihannya dibaca dalam satu arah: kenali bahaya di zona kerja terlebih dahulu, kemudian ambil perlindungan minimum yang disyaratkan untuk bahaya tersebut. Satu baris yang salah dalam pemetaan ini membuat perlindungan jebol tepat pada bahaya yang benar-benar hadir. Setiap zona bahaya memiliki syarat minimum yang berbeda, dan syarat itu mengikat siapa pun yang memasukinya [1].",
+    "Konsekuensi aturan tersebut tegas: alat pelindung diri dipilih dari bahayanya, bukan dari jabatan pemakainya. Pekerja, pengawas, dan tamu yang memasuki zona yang sama menghadapi bahaya yang sama, sehingga syarat minimum yang sama berlaku untuk ketiganya. Pertanyaan yang wajib diajukan sebelum memasuki zona kerja selalu sama, yaitu bahaya apa yang ada di tempat itu dan perlindungan minimum apa yang disyaratkan."
+   ]
+  },
+  {
+   "h": "Perlindungan napas: SCBA memberi udara, bukan menyaring udara",
+   "paras": [
+    "SCBA bekerja dengan prinsip yang berbeda dari masker penyaring. Alat ini membawa tabung udara sendiri, dan pemakainya bernapas dari tabung tersebut, terpisah sepenuhnya dari atmosfer di sekitarnya [1]. Prinsip ini yang membuatnya layak dipakai saat memasuki ruang terbatas atau area yang mengandung gas beracun.",
+    "Perbedaan prinsip itu menentukan batas pakai setiap alat. Pada atmosfer yang kekurangan oksigen, masker penyaring tidak berguna karena alat tersebut hanya membersihkan udara yang ada, sedangkan udara yang ada memang tidak mengandung cukup oksigen untuk bernapas. Menyaring udara yang tidak layak napas tidak membuatnya layak napas, dan kesalahpahaman pada titik ini adalah salah satu yang paling berbahaya di lapangan."
+   ]
+  },
+  {
+   "h": "Masker pelarian untuk keluar, SCBA untuk bekerja",
+   "paras": [
+    "Masker pelarian adalah alat napas darurat yang dirancang untuk membawa pemakainya keluar dengan cepat dari area berbahaya. Alat ini bukan perlengkapan kerja dan tidak dirancang untuk berlama-lama di dalam atmosfer berbahaya. Sebaliknya, SCBA adalah alat untuk beraktivitas di atmosfer semacam itu, dengan pasokan udara mandiri yang mendukung pekerjaan yang direncanakan [1].",
+    "Pekerjaan di ruang terbatas mengikat ketiga unsur secara bersamaan: alat bantu napas yang tepat, izin kerja, rekan pendamping, dan pengujian gas sebelum masuk. Memasuki ruang terbatas tanpa SCBA dan tanpa izin dapat berakibat fatal, dan catatan kecelakaan berulang kali menunjukkan pola yang sama: penolong yang masuk tanpa SCBA sering menjadi korban kedua [3]."
+   ]
+  },
+  {
+   "h": "Perlindungan tubuh dari api: sifat FR coverall",
+   "paras": [
+    "FR coverall menjawab bahaya yang tidak dapat dilawan pakaian kerja biasa. Pakaian katun dapat terbakar dan bahan yang meleleh menempel pada kulit, dan lelehan yang menempel itu memperparah luka bakar. Bahan FR tidak meleleh menempel pada kulit ketika terkena api, dan ia padam sendiri ketika sumber api dijauhkan, sehingga nyala tidak dilanjutkan oleh pakaian itu sendiri [2].",
+    "Karena sifat tersebut, FR coverall di area furnace dan area yang berisiko flash fire adalah syarat masuk, bukan pilihan pribadi. Helm dan sepatu keselamatan tetap dipakai, tetapi keduanya tidak menjawab bahaya panas dan api sama sekali. Level perlindungan yang benar selalu merupakan gabungan yang sesuai dengan seluruh bahaya di zona itu, bukan satu perlengkapan yang paling mudah dikenakan."
+   ]
+  }
+ ],
+ "facts": [
+  "Level 1 APD terdiri atas helm, sepatu keselamatan, kacamata, dan sarung tangan kerja untuk area umum dan konstruksi.",
+  "Level 2 untuk area proses mewajibkan FR coverall, pelindung wajah, dan sarung tangan kimia.",
+  "Level 3 untuk gas beracun atau oksigen rendah mewajibkan SCBA atau masker pelarian.",
+  "SCBA membawa tabung udara sendiri, sedangkan masker penyaring tidak berguna pada atmosfer yang kekurangan oksigen.",
+  "Masker pelarian hanya untuk keluar dari area berbahaya, dan FR coverall padam sendiri ketika api dijauhkan serta tidak meleleh menempel pada kulit."
+ ],
+ "closing": "Pemilihan alat pelindung diri yang benar dimulai dari bahaya, bukan dari kebiasaan. Helm dan sepatu keselamatan hanya menempati level pertama; area proses menuntut FR coverall beserta perlindungan wajah dan tangan dari bahan kimia, dan atmosfer berbahaya menuntut pasokan napas mandiri. Menanyakan bahaya di zona kerja dan perlindungan minimumnya sebelum masuk adalah langkah kecil yang menentukan kelas cedera apabila kejadian buruk benar-benar terjadi.",
+ "refs": [
+  "Occupational Safety and Health Administration. (n.d.). 29 CFR 1910 Subpart I: Personal Protective Equipment. U.S. Department of Labor.",
+  "National Fire Protection Association. (2018). NFPA 2112: Standard on Flame-Resistant Clothing for Protection of Industrial Personnel Against Short-Duration Thermal Exposures from Fire. NFPA.",
+  "Green, D. W., & Southard, M. Z. (Eds.). (2019). Perry's Chemical Engineers' Handbook (9th ed.). McGraw-Hill Education."
+ ]
+}

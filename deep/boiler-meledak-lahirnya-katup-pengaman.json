@@ -1,0 +1,54 @@
+{
+ "closing": "Tekanan yang tidak memiliki jalan keluar akan membuat jalannya sendiri, dan riwayat katup pengaman adalah riwayat penyediaan jalan keluar tersebut secara bertahap. Papin menyediakan alatnya pada 1679, Brockton menyediakan alasan hukumnya pada 1905, dan ASME menyediakan kodifikasinya pada 1915. Relief valve dan rupture disk yang menjaga pabrik hari ini adalah keturunan langsung dari rangkaian tersebut, lengkap dengan aturan angka yang mengikatnya: operasi di bawah set pressure, dan set pressure tidak di atas MAWP.",
+ "facts": [
+  "Katup pengaman pertama dipasang oleh Denis Papin pada 1679 pada steam digester setelah model awal alat tersebut meledak.",
+  "Beban di ujung tuas katup Papin menentukan tekanan bukanya, dengan beban yang lebih berat menahan tekanan yang lebih tinggi sebelum uap lolos.",
+  "Ledakan boiler di pabrik sepatu Grover, Brockton, pada 10 Maret 1905 menewaskan 58 orang dan melukai 117 orang.",
+  "Tragedi Brockton melahirkan ASME Boiler and Pressure Vessel Code yang terbit pertama pada 1915 dan masih dipakai sampai hari ini.",
+  "Relief valve membuka pada set pressure dan menutup lagi saat tekanan turun, sedangkan rupture disk pecah satu kali pada burst pressure dan wajib diganti baru."
+ ],
+ "hook_type": "Negativity",
+ "lead": "Katup pengaman lahir pada 1679 dari sebuah panci bertekanan yang model awalnya meledak, kemudian menjadi kewajiban standar setelah satu boiler menewaskan 58 orang di Brockton pada 1905. Riwayat tersebut menjelaskan mengapa setiap bejana tekan hari ini wajib memiliki pelepas tekanan [1][2].",
+ "refs": [
+  "Encyclopedia.com. Denis Papin Invents the Pressure Cooker. Encyclopedia.com.",
+  "American Society of Mechanical Engineers. History of ASME's Boiler and Pressure Vessel Code. ASME.",
+  "American Society of Mechanical Engineers. ASME Boiler and Pressure Vessel Code, Section VIII: Rules for Construction of Pressure Vessels. ASME."
+ ],
+ "sections": [
+  {
+   "h": "Abad ke-19: ledakan boiler dianggap sebagai nasib",
+   "paras": [
+    "Pada abad ke-19, ribuan boiler meledak di Amerika dan Eropa. Pada masa itu belum ada satu pun aturan hukum yang mengatur cara membuat boiler, sehingga ledakan berulang diterima sebagai risiko pekerjaan dan nasib [2]. Bejana yang dipanaskan terus tanpa pelepas tekanan menjadi bom waktu, karena air yang berubah menjadi uap mengembang volumenya lebih dari seribu kali.",
+    "Hari ini setiap bejana tekan wajib memiliki pelepas tekanan, berupa relief valve yang dapat menutup lagi atau rupture disk yang pecah satu kali. Pelepas tekanan adalah pengaman terakhir antara tekanan berlebih dan ledakan bejana [3]. Perubahan dari penerimaan sebagai nasib menjadi kewajiban standar memerlukan dua hal: penemuan alatnya dan tragedi yang memaksa aturannya ditulis."
+   ]
+  },
+  {
+   "h": "Denis Papin dan steam digester tahun 1679",
+   "paras": [
+    "Denis Papin, fisikawan Prancis, membangun steam digester pada 1679, yaitu panci besi tertutup untuk melunakkan tulang dengan uap bertekanan. Model awal alat tersebut meledak. Menanggapi kejadian itu, Papin memasang katup pelepas uap berupa tuas berbeban yang terangkat saat tekanan berbahaya dan membuang uap berlebih [1].",
+    "Alat tersebut adalah katup pengaman pertama dalam sejarah, dan prinsip penyetelannya sudah terkandung dalam konstruksinya. Beban di ujung tuas menentukan tekanan bukanya: beban yang lebih berat menahan tekanan yang lebih tinggi sebelum uap lolos [1]. Dengan konstruksi itu, tekanan buka katup menjadi besaran yang dapat diatur, bukan kejadian yang ditunggu tanpa kendali."
+   ]
+  },
+  {
+   "h": "Brockton, 10 Maret 1905, dan lahirnya kode pada 1915",
+   "paras": [
+    "Pada 10 Maret 1905, pabrik sepatu Grover di Brockton, Massachusetts, memakai boiler tua sebagai cadangan. Boiler itu meledak dan menembus tiga lantai, menewaskan 58 orang dan melukai 117 orang [2]. Skala korban menjadikan peristiwa ini tidak lagi dapat diperlakukan sebagai nasib pabrik setempat.",
+    "Tragedi Brockton memaksa lahirnya aturan boiler pada tingkat negara bagian, kemudian ASME Boiler and Pressure Vessel Code yang terbit pertama pada 1915 dan masih dipakai sampai hari ini [2]. Negara bagian mulai mewajibkan inspeksi boiler, dan para insinyur menulis standar desain yang dapat diaudit. Aturan bejana tekan modern lahir dari rangkaian tersebut: penemuan pada 1679, tragedi pada 1905, dan kodifikasi pada 1915."
+   ]
+  },
+  {
+   "h": "Dua pengaman dengan dua cara kerja",
+   "paras": [
+    "Bejana tekan dijaga oleh dua alat dengan karakter berbeda. Relief valve, atau PSV, bekerja dengan pegas: alat ini terbuka pada set pressure, kemudian menutup lagi saat tekanan turun, sehingga dapat dipakai berulang kali. Rupture disk dirancang pecah pada burst pressure: alat ini pecah satu kali dan tidak dapat menutup, sehingga wajib diganti baru sesudah bekerja [3].",
+    "Keduanya dipasang pada titik tertinggi bejana agar yang keluar adalah fasa uap. Rupture disk dipilih untuk fluida korosif atau untuk pelepasan yang harus berlangsung sangat cepat, sedangkan relief valve dipilih apabila alat harus menutup kembali dan melanjutkan perlindungan sesudah kejadian [3]. Keduanya menjaga aturan yang sama: set pressure dan burst pressure tetap tidak boleh melewati MAWP."
+   ]
+  },
+  {
+   "h": "Angka pada CS-11 dan alat pada kisah ini",
+   "paras": [
+    "Pembahasan angka dan pembahasan alat adalah dua sisi dari perlindungan yang sama. Aturan angkanya menyatakan tekanan operasi berada di bawah set pressure, dan set pressure tidak berada di atas MAWP [3]. Katup pengaman Papin dan rupture disk adalah perangkat keras yang menjaga urutan angka tersebut tetap berlaku pada bejana nyata.",
+    "Di pabrik hari ini, relief valve berdiri pada hampir setiap bejana tekan dan jalur uap di pabrik kimia, dan setiap relief valve diuji pop pressure secara berkala. Rupture disk menunggu dalam keadaan diam sebagai cadangan terakhir untuk skenario terburuk [2][3]. Bentuk alat berubah sejak 1679, tetapi prinsip Papin tidak berubah: buang tekanan sebelum bejana jebol."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<script>(function(){try{var t=localStorage.getItem("ilm-theme");if(!t){t=window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";}document.documentElement.setAttribute("data-theme",t);}catch(e){document.documentElement.setAttribute("data-theme","light");}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CS-07 Cheat Sheet: Pompa atau Kompresor, Head atau Pressure Ratio | ilmutekkim</title>
+<meta name="description" content="Pompa dan kompresor sama-sama memindahkan fluida, tetapi menjawab soal pompa dengan rumus kompresor, atau sebaliknya, menggugurkan jawaban ujian secara kes">
+<link rel="canonical" href="https://ilmutekkim.vercel.app/artikel/cs07-pompa-kompresor-versi-ujian/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CS-07 Cheat Sheet: Pompa atau Kompresor, Head atau Pressure Ratio | ilmutekkim">
+<meta property="og:description" content="Pompa dan kompresor sama-sama memindahkan fluida, tetapi menjawab soal pompa dengan rumus kompresor, atau sebaliknya, menggugurkan jawaban ujian secara kes">
+<meta property="og:url" content="https://ilmutekkim.vercel.app/artikel/cs07-pompa-kompresor-versi-ujian/">
+<meta property="og:image" content="https://ilmutekkim.vercel.app/assets/img/cs07-pompa-kompresor-versi-ujian/cover.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/style.css?v=23">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23131518'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='%23F4F4F2' font-family='Arial' font-weight='bold'>IT</text></svg>">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="/">ilmu<span>tekkim</span></a>
+  <button type="button" class="theme-toggle" id="themeToggle" aria-label="Beralih antara mode terang dan mode gelap" title="Mode terang / gelap"><span class="ic-sun" aria-hidden="true">&#9728;</span><span class="ic-moon" aria-hidden="true">&#9790;</span></button>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+  <label for="nav-toggle" class="burger" aria-label="Buka menu">&#9776;</label>
+  <nav>
+    <a href="/">Articles &amp; Videos</a>
+    <a href="/riset/">Riset</a>
+    <a href="/jalur/">Jalur</a>
+  </nav>
+</header>
+<main>
+<article class="post">
+<p class="eyebrow">Seri Cheat Sheet Ujian</p>
+<h1>CS-07 Cheat Sheet: Pompa atau Kompresor, Head atau Pressure Ratio</h1>
+<p class="meta">14 Oktober 2026 &middot; ilmutekkim</p>
+<p class="ig-link">Versi carousel: <a href="https://www.instagram.com/p/Dedf1zYDyml/" target="_blank" rel="noopener">lihat di Instagram @ilmutekkim</a></p>
+<figure class="hero-img"><img src="/assets/img/cs07-pompa-kompresor-versi-ujian/cover.jpg" alt="CS-07 Cheat Sheet: Pompa atau Kompresor, Head atau Pressure Ratio"><figcaption>Foto: <a href="https://www.pexels.com/photo/industrial-pumps-at-dubai-power-plant-35645884/" rel="noopener" target="_blank">Mumtaz Niazi / Pexels</a></figcaption></figure>
+<p class="lead">Pompa dan kompresor sama-sama memindahkan fluida, tetapi menjawab soal pompa dengan rumus kompresor, atau sebaliknya, menggugurkan jawaban ujian secara keseluruhan. Perbedaan keduanya ditentukan oleh satu kata kunci pada soal, yaitu cair atau gas, karena kata tersebut menentukan apakah spesifikasi dinyatakan dengan head atau dengan pressure ratio. Artikel ini membedah keputusan lima detik tersebut beserta dua contoh hitung lengkapnya [1][3].</p>
+<section>
+<h2>Satu kata kunci: cairan dinyatakan dengan head, gas dengan pressure ratio</h2>
+<p>Cairan hampir tidak termampatkan, sehingga densitasnya tetap dari sisi isap sampai sisi buang pompa. Karena densitas tetap, kinerja pompa paling tepat dinyatakan dengan head dalam meter, yaitu ketinggian kolom fluida yang setara dengan energi yang diberikan pompa. Hubungannya ditulis sebagai H sama dengan perubahan tekanan dibagi hasil kali densitas dan gravitasi, atau H sama dengan delta P dibagi rho dikali g [1][3].</p>
+<p>Gas berperilaku sebaliknya: gas termampatkan, sehingga densitas dan suhunya berubah selama ditekan di dalam kompresor. Menyatakan kinerja kompresor dengan head akan menyembunyikan perubahan tersebut, sehingga kompresor dinyatakan dengan pressure ratio, atau r, yaitu perbandingan tekanan buang terhadap tekanan isap, r sama dengan P2 dibagi P1. Head berbicara tentang ketinggian kolom fluida, sedangkan pressure ratio berbicara tentang seberapa keras gas dipadatkan [2][3].</p>
+</section>
+<figure><img src="/assets/img/cs07-pompa-kompresor-versi-ujian/diagram-3.jpg" alt="Pompa lawan kompresor, beda fluida beda bahasa" loading="lazy"></figure>
+<section>
+<h2>Contoh pompa: dari tekanan menjadi head, langkah demi langkah</h2>
+<p>Materi sumber memberikan contoh ilustrasi pompa air dengan debit Q sebesar 0,05 meter kubik per detik yang menaikkan tekanan sebesar 500 kPa, dengan densitas air rho sebesar 1000 kilogram per meter kubik dan gravitasi g sebesar 9,81 meter per detik kuadrat. Langkah pertama adalah daya hidrolik dengan rumus P sama dengan Q dikali delta P, yaitu 0,05 dikali 500.000 sama dengan 25.000 watt, atau 25 kW [1][3].</p>
+<p>Langkah kedua adalah mengubah kenaikan tekanan menjadi head dengan H sama dengan delta P dibagi rho dikali g, yaitu 500.000 dibagi hasil kali 1000 dan 9,81, sehingga diperoleh H sebesar 51 meter. Langkah ketiga memperlihatkan sifat terpenting head: apabila fluida diganti menjadi minyak dengan densitas 800 kilogram per meter kubik, head pompa tetap 51 meter, sedangkan kenaikan tekanannya yang berubah menjadi 400 kPa. Pompa yang sama menghasilkan head yang sama untuk fluida apa pun; yang berubah mengikuti densitas adalah tekanannya [1].</p>
+</section>
+<figure><img src="/assets/img/cs07-pompa-kompresor-versi-ujian/foto-6.jpg" alt="Kompresor udara instrumen di kilang" loading="lazy"><figcaption>Foto: Mazhar Ulazhar / Pexels</figcaption></figure>
+<section>
+<h2>Contoh kompresor: pressure ratio yang menaikkan suhu</h2>
+<p>Untuk gas, besaran yang dihitung bukan head, melainkan pressure ratio dan akibatnya terhadap suhu. Materi sumber memberikan contoh udara pada tekanan 1 bar absolut dan suhu 300 K yang dimampatkan sampai 4 bar absolut, dengan indeks politropik n sebesar 1,4. Langkah pertama adalah pressure ratio: r sama dengan 4 dibagi 1 sama dengan 4, yang berarti tekanan naik empat kali lipat [2].</p>
+<p>Langkah kedua menggunakan hubungan suhu dan pressure ratio untuk pemampatan politropik, yaitu T2 dibagi T1 sama dengan r pangkat (n dikurangi 1) dibagi n. Dengan angka contoh, T2 sama dengan 300 dikali 4 pangkat 0,286, yaitu 446 K, atau sekitar 173 derajat Celsius. Kenaikan suhu ini bukan efek samping yang dapat diabaikan: udara yang dimampatkan empat kali lipat keluar dalam keadaan jauh lebih panas, dan fakta inilah yang memaksa desain kompresor bertingkat dilengkapi pendinginan antar tingkat [2][3].</p>
+</section>
+<section>
+<h2>Kompresor udara instrumen di kilang: bertingkat dengan intercooler</h2>
+<p>Di kilang, ratusan katup pneumatik digerakkan oleh udara bertekanan yang disebut udara instrumen. Udara ini dihasilkan oleh kompresor yang bekerja bertingkat: setiap tingkat menaikkan pressure ratio sebagian, kemudian intercooler mendinginkan udara sebelum masuk tingkat berikutnya agar suhu tidak terus naik mengikuti pola contoh hitung sebelumnya [3].</p>
+<p>Tanpa intercooler antar tingkat, suhu udara keluar kompresor dapat merusak seal dan memboroskan energi, karena memampatkan gas yang lebih panas memerlukan kerja yang lebih besar untuk pressure ratio yang sama. Pembagian pemampatan menjadi beberapa tingkat dengan pendinginan di antaranya adalah penerapan langsung dari hubungan suhu dan pressure ratio: persoalan suhu dipecah menjadi kenaikan kecil yang terkendali pada setiap tingkat, bukan satu lonjakan besar pada satu tingkat [2][3].</p>
+</section>
+<section>
+<h2>Checklist anti jebakan sebelum menulis jawaban</h2>
+<p>Lima cek menutup pembahasan ini. Pertama, cairan yang tidak termampatkan berarti pompa, dan jawaban dinyatakan dengan head dalam meter. Kedua, gas yang termampatkan berarti kompresor, dan jawaban dinyatakan dengan pressure ratio. Ketiga, konversi head ke tekanan selalu melewati densitas dengan hubungan delta P sama dengan rho dikali g dikali H, bukan dengan perbandingan tekanan [1][3].</p>
+<p>Keempat, kompresor bertingkat wajib dilengkapi intercooler karena suhu keluar naik mengikuti pressure ratio. Kelima, untuk pompa sentrifugal, pemeriksaan tidak berhenti pada head: nilai NPSH wajib diperiksa agar pompa tidak mengalami kavitasi. Satu kata kunci pada soal, cair atau gas, menentukan seluruh rumus yang dipakai, dan checklist ini memastikan kata kunci tersebut dibaca sebelum angka apa pun dihitung.</p>
+</section>
+<section class="factbox"><h2>Fakta kunci</h2><ul><li>Cairan hampir tidak termampatkan sehingga pompa dinyatakan dengan head dalam meter, sedangkan gas termampatkan sehingga kompresor dinyatakan dengan pressure ratio.</li><li>Head pompa dihitung dengan H sama dengan perubahan tekanan dibagi densitas dikali gravitasi, dan pompa yang sama menghasilkan head yang sama untuk fluida apa pun.</li><li>Contoh hitung materi sumber: pompa air 0,05 meter kubik per detik yang menaikkan tekanan 500 kPa memerlukan daya hidrolik 25 kW dan menghasilkan head 51 meter.</li><li>Contoh hitung materi sumber: udara yang dimampatkan dari 1 bar absolut ke 4 bar absolut mengalami kenaikan suhu sampai sekitar 173 derajat Celsius.</li><li>Kompresor bertingkat memerlukan intercooler antar tingkat untuk menahan kenaikan suhu udara sebelum masuk tingkat berikutnya.</li></ul></section>
+<section><h2>Kesimpulannya</h2><p>Perbedaan pompa dan kompresor bukan perbedaan nama alat, melainkan perbedaan sifat fluida yang dipindahkan: cairan yang densitasnya tetap dinyatakan dengan head, sedangkan gas yang densitasnya berubah dinyatakan dengan pressure ratio. Dua contoh hitung pada artikel ini memperlihatkan akibat praktisnya, dari head 51 meter yang tidak berubah saat fluida diganti, sampai suhu udara yang naik ke sekitar 173 derajat Celsius akibat pemampatan empat kali lipat. Soal kuis pada materi sumber dikerjakan dengan rumus yang sama: untuk udara dari 1 bar absolut pada 300 K yang dimampatkan ke 6 bar absolut dengan n sebesar 1,3, eksponennya adalah 0,3 dibagi 1,3 atau sekitar 0,231, sehingga T2 sama dengan 300 dikali 6 pangkat 0,231, yaitu sekitar 454 K atau sekitar 181 derajat Celsius. Pembaca yang memeriksa jenis fluida sebelum memilih rumus telah menyelesaikan separuh soal sebelum menulis satu angka pun.</p></section>
+<section class="refs"><h2>Referensi</h2><ul><li>Cengel, Y. A., &amp; Cimbala, J. M. (2018). Fluid Mechanics: Fundamentals and Applications (4th ed.). McGraw-Hill Education.</li><li>Smith, J. M., Van Ness, H. C., Abbott, M. M., &amp; Swihart, M. T. (2018). Introduction to Chemical Engineering Thermodynamics (8th ed.). McGraw-Hill Education.</li><li>McCabe, W. L., Smith, J. C., &amp; Harriott, P. (2005). Unit Operations of Chemical Engineering (7th ed.). McGraw-Hill.</li><li>Cengel, Y. A. dan Cimbala, J. M., Fluid Mechanics: Fundamentals and Applications (bab pompa, head, dan kurva pompa)</li><li>Smith, J. M., Van Ness, H. C., dan Abbott, M. M., Introduction to Chemical Engineering Thermodynamics (kompresi politropik gas)</li><li>McCabe, W. L., Smith, J. C., dan Harriott, P., Unit Operations of Chemical Engineering (pompa dan kompresor)</li></ul></section>
+<nav class="post-nav"><a href="/artikel/warna-pipa-bahasa-peringatan/">&larr; Warna Pipa di Pabrik: Bahasa Peringatan yang Lahir dari Kecelakaan</a><a href="/artikel/satuan-tekanan-torricelli-titik-nol/">Satuan Tekanan: Torricelli, Gauge, Absolut, dan Titik Nol yang Menentukan &rarr;</a></nav>
+<div class="cta-box"><h2>Lanjut baca di Instagram</h2><p>Konten teknik kimia tiap hari: proses pabrik, safety, dan cara baca alat. Ditulis insinyur kimia ITB.</p><a class="btn" href="https://www.instagram.com/ilmutekkim" target="_blank" rel="noopener">Follow @ilmutekkim</a></div>
+</article>
+</main>
+<footer>
+  <div class="foot-brand">ilmu<span>tekkim</span></div>
+  <p>Kajian teknik kimia proses: unit operasi, alur pabrik, keselamatan proses, dan kecerdasan buatan. Ditulis oleh insinyur kimia lulusan Institut Teknologi Bandung.</p>
+  <p class="foot-btns"><a class="btn-ig" href="https://www.instagram.com/ilmutekkim" target="_blank" rel="noopener">Instagram @ilmutekkim</a> <a class="btn-ig" href="https://www.tiktok.com/@ilmutekkim" target="_blank" rel="noopener">TikTok @ilmutekkim</a></p>
+  <p class="foot-links"><a href="/">Beranda</a><span>&middot;</span><a href="/video/">Video</a><span>&middot;</span><a href="/riset/">Riset</a><span>&middot;</span><a href="/jalur/">Jalur</a><span>&middot;</span><a href="/glosarium/">Glosarium</a><span>&middot;</span><a href="/referensi/">Referensi</a><span>&middot;</span><a href="/kalkulator/">Kalkulator</a><span>&middot;</span><a href="/tentang/">Tentang</a></p>
+  <p class="fine">Artikel dan video di situs ini merupakan versi baca dan versi tonton dari konten Instagram @ilmutekkim. Foto berasal dari Pexels dan Unsplash, kredit tercantum di tiap gambar.</p>
+</footer>
+<script src="/assets/js/main.js?v=11"></script>
+</body>
+</html>

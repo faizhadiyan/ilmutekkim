@@ -1,0 +1,54 @@
+{
+ "closing": "Kisah Seligman memperlihatkan bahwa inovasi peralatan proses tidak selalu lahir dari persoalan perpindahan panas itu sendiri. Plate heat exchanger lahir dari persoalan membersihkan tangki, dan jawaban atas persoalan tersebut, yaitu pelat tipis yang dapat dibuka dan dialiri fluida berlawanan arah, ternyata merupakan pula jawaban yang baik untuk perpindahan panas secara umum. Satu abad sesudah paten 1923, musuh lamanya belum berubah: fouling tetap menurunkan U, menurunkan Q, dan memaksa alat dibongkar untuk dibersihkan.",
+ "facts": [
+  "Richard Seligman (1878 sampai 1972) adalah ahli aluminium Inggris yang mendirikan Aluminium Plant and Vessel Company (APV) pada 1910.",
+  "Seligman mematenkan plate heat exchanger pada 1923 untuk pasteurisasi susu.",
+  "Sebelum 1923, pasteurisasi susu memakai tangki batch besar yang dinding dalamnya sulit dijangkau sehingga sisa susu menumbuhkan bakteri.",
+  "Pada plate heat exchanger, fluida panas dan fluida dingin mengalir berlawanan arah pada saluran bersebelahan tanpa bercampur, dan setiap pelat dapat dilepas satu per satu untuk dicuci.",
+  "Fouling menambah tahanan pada pelat sehingga U turun dan Q ikut turun menurut persamaan Q = U × A × ΔT_lm, walaupun A dan ΔT_lm tetap."
+ ],
+ "hook_type": "Curiosity",
+ "lead": "Penemu plate heat exchanger bukan orang dari industri susu, melainkan ahli aluminium yang mematenkan pelat tipis yang dijepit menjadi satu kesatuan pada 1923 untuk menyelesaikan persoalan pembersihan tangki pasteurisasi. Temuan tersebut mengubah persoalan mencuci alat menjadi prinsip perpindahan panas yang masih dipakai di kilang dan pabrik kimia sampai hari ini [1][2].",
+ "refs": [
+  "Aluminium Plant and Vessel Company (APV). Riwayat Perusahaan: Plate Heat Exchanger Seligman 1923 untuk Pasteurisasi Susu. APV.",
+  "Kern, D. Q. (1950). Process Heat Transfer. McGraw-Hill.",
+  "Towler, G., & Sinnott, R. (2013). Chemical Engineering Design: Principles, Practice and Economics of Plant and Process Design (2nd ed.). Elsevier."
+ ],
+ "sections": [
+  {
+   "h": "Persoalan sebelum 1923: tangki batch yang sulit dibersihkan",
+   "paras": [
+    "Sebelum 1923, pasteurisasi susu memakai tangki batch besar, tempat susu dipanaskan dalam satu wadah raksasa. Persoalan utamanya bukan memanaskan susu, melainkan membersihkan alat sesudah dipakai, karena dinding dalam tangki sulit dijangkau dan pencuciannya memerlukan usaha yang besar [1].",
+    "Sisa susu yang tertinggal pada bagian yang tidak bersih menumbuhkan bakteri. Akibatnya bersifat terbalik dari tujuan pasteurisasi: susu yang seharusnya aman justru menjadi berbahaya [1]. Persoalan kebersihan ini adalah persoalan geometri alat, dan penyelesaiannya menuntut alat yang dapat dibuka, bukan sekadar alat yang dapat dipanaskan lebih kuat."
+   ]
+  },
+  {
+   "h": "Richard Seligman dan Aluminium Plant and Vessel Company",
+   "paras": [
+    "Richard Seligman, yang hidup pada 1878 sampai 1972, adalah ahli aluminium dari Inggris. Pada 1910 ia mendirikan Aluminium Plant and Vessel Company, yang dikenal sebagai APV, sebuah perusahaan pembuat bejana aluminium [1]. Latar belakangnya berada di industri logam, bukan di industri susu.",
+    "Pada 1923 Seligman mematenkan plate heat exchanger, yaitu susunan pelat tipis yang dijepit menjadi satu untuk pasteurisasi susu [1]. Keahlian aluminiumnya relevan pada titik ini: alat penukar panas berbentuk pelat menuntut kemampuan membuat lembaran logam tipis dan bejana yang presisi. Persoalan industri susu diselesaikan oleh peralatan yang lahir dari industri yang berbeda."
+   ]
+  },
+  {
+   "h": "Pelat yang dapat dibuka dan aliran berlawanan arah",
+   "paras": [
+    "Keunggulan utama temuan Seligman adalah setiap pelat dapat dilepas satu per satu untuk dicuci. Dengan kemampuan bongkar tersebut, persoalan bakteri dari sisa susu teratasi karena tidak ada lagi permukaan dalam yang tidak terjangkau [1]. Desain ini menjawab langsung penyebab kegagalan tangki batch, yaitu permukaan yang tidak dapat dibersihkan.",
+    "Di dalam susunan pelat, fluida panas dan fluida dingin mengalir pada saluran yang bersebelahan, berlawanan arah, dan tanpa bercampur. Panas berpindah melalui pelat tipis yang memisahkan keduanya. Aliran berlawanan arah memberikan beda suhu rata-rata yang terbesar di sepanjang alat, dan prinsip susunan ini tetap dipertahankan pada plate heat exchanger modern [2][3]."
+   ]
+  },
+  {
+   "h": "Persamaan desain Q = U A ΔT_lm dan peran fouling",
+   "paras": [
+    "Laju perpindahan panas pada penukar panas dihitung dengan persamaan Q = U × A × ΔT_lm. Pada persamaan tersebut, Q adalah laju perpindahan panas, U adalah koefisien perpindahan panas menyeluruh, A adalah luas permukaan perpindahan panas, dan ΔT_lm adalah beda suhu rata-rata logaritmik [2][3]. Persamaan ini berlaku untuk semua penukar panas, termasuk susunan pelat Seligman.",
+    "Fouling bekerja langsung pada persamaan tersebut. Lapisan kerak yang menempel pada pelat menambah tahanan perpindahan panas, sehingga U turun. Apabila U turun sedangkan A dan ΔT_lm tetap, maka Q ikut turun [3]. Inilah alasan fouling membuat perhitungan berbasis ΔT_lm menjadi tidak lagi mencerminkan kinerja nyata alat, persoalan yang dibahas khusus pada pembahasan fouling dan LMTD."
+   ]
+  },
+  {
+   "h": "Warisan satu abad: dari persoalan susu ke kilang",
+   "paras": [
+    "Seligman menyelesaikan persoalan pencucian pada 1923, tetapi fouling tidak pernah benar-benar hilang. Kerak tetap terbentuk selama alat beroperasi, dan sampai hari ini fouling adalah alasan utama heat exchanger dibongkar untuk dibersihkan [3]. Pelat yang dapat dibuka mempermudah pembersihan, namun tidak menghapus pembentukan kerak itu sendiri.",
+    "Dari persoalan cuci tangki susu, alat ini berkembang menjadi peralatan yang mendinginkan kilang minyak dan pabrik kimia di seluruh dunia. Prinsipnya tidak berubah selama satu abad: aliran berlawanan arah dan pelat yang dapat dibersihkan [1][2]. Plate heat exchanger adalah bukti bahwa satu penyelesaian yang tepat atas persoalan praktis dapat hidup jauh melampaui industri tempatnya lahir."
+   ]
+  }
+ ]
+}

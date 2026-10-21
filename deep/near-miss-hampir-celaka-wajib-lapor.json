@@ -1,0 +1,54 @@
+{
+ "lead": "Kejadian yang berakhir tanpa korban sering dianggap selesai dengan sendirinya, padahal kejadian semacam itu adalah peringatan paling murah yang dapat diterima sebuah pabrik. Near miss menunjukkan pola kegagalan yang sama dengan kecelakaan, hanya akibatnya yang belum terjadi. Membuang peringatan itu berarti menunggu kesempatan berikutnya, yang pemicunya dapat berbeda dan hasilnya dapat jauh lebih buruk.",
+ "hook_type": "Negativity",
+ "sections": [
+  {
+   "h": "Near miss bukan kecelakaan dan bukan kondisi aman biasa",
+   "paras": [
+    "Tiga keadaan perlu dibedakan dengan tegas. Kecelakaan adalah kejadian yang sudah menimbulkan korban atau kerusakan. Near miss adalah kejadian yang hampir menimbulkan akibat tersebut tetapi berhenti satu langkah sebelumnya, misalnya beban yang hampir jatuh di dekat pekerja. Kondisi tak aman adalah keadaan yang menunggu pemicu, yaitu situasi yang belum menghasilkan kejadian apa pun tetapi menyimpan potensi yang sama [1][2].",
+    "Perbedaan ketiganya terletak pada akibat, bukan pada bahayanya. Pola yang melahirkan sebuah near miss dapat menjadi kecelakaan pada kesempatan berikutnya apabila pemicunya berbeda. Karena itu near miss yang hilang tanpa laporan setara dengan peringatan gratis yang dibuang, dan kejadian semacam ini sering membuka kondisi tak aman lain yang sebelumnya tidak terlihat [2]."
+   ]
+  },
+  {
+   "h": "Alur dari kejadian menuju perbaikan yang nyata",
+   "paras": [
+    "Penanganan near miss mengikuti alur yang tetap. Kejadian diamankan terlebih dahulu, kemudian dilaporkan secara tertulis, diselidiki akar penyebabnya, diperbaiki dengan tindakan nyata, dan pembelajarannya dibagikan ke area lain. Pengamanan mendahului seluruh urusan kertas, karena area yang aman memungkinkan investigasi berlangsung tanpa korban baru [1][2].",
+    "Langkah pelaporan tertulis memiliki fungsi yang tidak dapat digantikan ingatan lisan. Laporan tertulis mengubah ingatan satu orang menjadi data yang dapat diselidiki bersama, diperiksa ulang, dan ditindaklanjuti dengan jadwal serta penanggung jawab yang jelas. Tanpa catatan itu, kejadian hanya hidup sebagai cerita yang memudar bersama pergantian shift."
+   ]
+  },
+  {
+   "h": "Laporan yang baik mencatat fakta, bukan opini",
+   "paras": [
+    "Isi laporan near miss yang berguna terdiri atas tiga kelompok fakta: waktu dan tempat kejadian, alat dan kondisi yang terlibat, serta urutan kejadian yang hampir terjadi. Ketiganya menjawab kapan dan di mana, apa yang terlibat, dan apa yang nyaris berlangsung, tanpa campuran penilaian pribadi [2].",
+    "Fakta pendukung memperkuat laporan tersebut. Foto kondisi di lapangan, keterangan saksi, dan catatan pengamanan pertama yang telah dilakukan membuat investigasi memeriksa fakta, bukan merekonstruksi cerita dari ingatan yang berbeda-beda. Laporan yang spesifik membuat akar penyebab lebih mudah ditemukan, sedangkan laporan yang kabur hanya menghasilkan perbaikan yang kabur pula."
+   ]
+  },
+  {
+   "h": "Investigasi mencari kegagalan sistem, bukan kambing hitam",
+   "paras": [
+    "Investigasi near miss bertanya mengapa kondisi itu dapat terjadi, dan jawabannya hampir selalu berada pada sistem: prosedur yang langkahnya tidak jelas, perawatan yang membiarkan alat aus, pelatihan yang belum memadai, atau desain area yang mudah memancing kesalahan. Empat wilayah ini adalah tempat perbaikan yang kuat berada, karena perbaikan yang mengubah alat atau prosedur menutup jalan kejadian, bukan sekadar menasihati orang [1][2].",
+    "Menyalahkan orang terakhir yang terlibat tidak menutup jalan tersebut. Orang berikutnya yang menempati posisi yang sama akan menghadapi prosedur, alat, dan desain area yang sama, sehingga kejadian yang sama tetap dapat terulang. Investigasi yang berhenti pada kesalahan individu gagal pada tugas utamanya, yaitu memastikan pengulangan tidak terjadi."
+   ]
+  },
+  {
+   "h": "Pembelajaran dibagikan sebelum pola berulang",
+   "paras": [
+    "Hasil investigasi tidak berhenti di area asal kejadian. Pembelajaran dibagikan pada briefing pagi dengan urutan yang sama: apa yang hampir terjadi, mengapa hal itu dapat terjadi, dan apa yang berubah sesudahnya. Satu laporan yang baik dengan demikian mengubah banyak area, bukan hanya lokasi tempat kejadian pertama berlangsung [2][3].",
+    "Sesudah pembagian itu, area lain memeriksa kondisi yang sama pada alat mereka sendiri, dan tindak lanjutnya dicatat dengan jadwal serta penanggung jawab. Rantai amankan, laporkan, selidiki, perbaiki, dan bagikan inilah yang mengubah satu kejadian tanpa korban menjadi perbaikan yang nyata di seluruh pabrik."
+   ]
+  }
+ ],
+ "facts": [
+  "Near miss adalah kejadian yang hampir menimbulkan korban atau kerusakan tetapi berhenti satu langkah sebelum akibat terjadi.",
+  "Pola yang sama dengan pemicu berbeda dapat menjadi kecelakaan pada kesempatan berikutnya.",
+  "Laporan near miss yang baik mencatat waktu dan tempat, alat dan kondisi yang terlibat, serta urutan kejadian.",
+  "Investigasi near miss menelusuri prosedur, perawatan, pelatihan, dan desain area, bukan mencari kambing hitam.",
+  "Pengamanan area selalu mendahului pelaporan tertulis, dan pembelajaran hasil investigasi dibagikan ke area lain dengan kondisi yang sama."
+ ],
+ "closing": "Near miss adalah peringatan gratis sebelum ada korban, dan nilainya ditentukan oleh perlakuan sesudahnya. Area diamankan terlebih dahulu, kejadian dituliskan sebagai fakta, akar sistemnya diselidiki, perbaikannya dilaksanakan, dan pembelajarannya dibagikan ke area yang kondisinya sama. Pabrik yang menjalankan rantai ini belajar dari kejadian termurah yang mungkin diterimanya.",
+ "refs": [
+  "Mannan, S. (Ed.). (2012). Lees' Loss Prevention in the Process Industries (4th ed.). Butterworth-Heinemann.",
+  "Center for Chemical Process Safety. (2019). Guidelines for Investigating Process Safety Incidents (3rd ed.). John Wiley & Sons.",
+  "Green, D. W., & Southard, M. Z. (Eds.). (2019). Perry's Chemical Engineers' Handbook (9th ed.). McGraw-Hill Education."
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "lead": "Saran yang terdengar paling hemat dalam perancangan kolom distilasi, yaitu mengoperasikan kolom tepat pada reflux minimum, justru merupakan jebakan yang paling mahal. Pada titik itu jumlah tray menuju tak hingga, sehingga kolomnya tidak pernah dapat dibangun. Reflux minimum adalah batas hitung, bukan titik operasi.",
+ "hook_type": "Negativity",
+ "sections": [
+  {
+   "h": "Tiga titik reflux yang tidak boleh tertukar",
+   "paras": [
+    "Rasio reflux didefinisikan sebagai R = L/D, dengan L adalah laju cairan yang dikembalikan ke puncak kolom sebagai reflux dan D adalah laju distilat yang diambil sebagai produk atas [1]. Dari definisi sederhana ini muncul tiga titik yang maknanya sangat berbeda. Pada reflux total, seluruh cairan kondensat dikembalikan ke kolom dan D bernilai nol, sehingga tidak ada produk atas yang dihasilkan. Pemisahan pada kondisi ini memang paling tajam, tetapi kolom tidak menghasilkan apa pun.",
+    "Pada ujung yang berlawanan terdapat reflux minimum, yaitu rasio terkecil yang secara teoritis masih memungkinkan pemisahan yang diminta. Harga yang dibayar pada titik ini adalah jumlah tray yang menuju tak hingga, sehingga kolomnya tidak dapat dibangun secara fisik. Di antara kedua ekstrem itu terdapat reflux operasi, yaitu titik yang benar-benar dipilih perancang, selalu di atas minimum, agar jumlah tray berhingga dan kolom dapat dibangun serta dijalankan [1][2]."
+   ]
+  },
+  {
+   "h": "Skema kolom: cairan yang kembali dan produk yang diambil",
+   "paras": [
+    "Aliran puncak kolom menjelaskan asal kedua laju dalam definisi R = L/D. Uap overhead keluar dari puncak kolom, dikondensasi, lalu ditampung di drum. Dari drum tersebut, sebagian cairan dikembalikan ke kolom sebagai reflux L dan sebagian lagi diambil sebagai distilat D [1]. Reflux bukan aliran baru; ia adalah bagian dari produk atas yang dikorbankan untuk mempertajam pemisahan di tray-tray di bawahnya.",
+    "Di ujung bawah kolom, cairan yang turun mencapai reboiler dan residu B keluar setelah melewati reboiler, bukan langsung dari dasar kolom. Neraca puncak yang sederhana, V = L + D, menghubungkan laju uap yang naik di puncak dengan kedua aliran cair tersebut. Neraca inilah yang membuat setiap perubahan R langsung terasa pada laju uap, beban kondenser, dan beban reboiler [2]."
+   ]
+  },
+  {
+   "h": "Contoh hitung: dari Rmin 1,2 menuju operasi 1,8",
+   "paras": [
+    "Contoh pada lembar ringkasan CS-03 memberikan Rmin = 1,2 dan laju distilat D = 100. Langkah pertama bukan memakai 1,2 apa adanya, melainkan memilih reflux operasi sebesar 1,5 kali Rmin, sehingga R operasi = 1,5 × 1,2 = 1,8. Pengali ini adalah keputusan perancangan yang menempatkan kolom cukup jauh dari titik pinch agar jumlah tray tetap berhingga [1][2].",
+    "Langkah kedua menghitung laju reflux dari definisi R = L/D, yaitu L = R × D = 1,8 × 100 = 180. Langkah ketiga menutup neraca puncak dengan V = L + D = 180 + 100 = 280. Jadi pada kondisi operasi tersebut, laju cair yang kembali ke kolom adalah 180 dan laju uap di puncak kolom adalah 280, dalam satuan laju yang sama dengan D. Berhenti pada angka Rmin tanpa dua langkah ini berarti jawaban belum selesai."
+   ]
+  },
+  {
+   "h": "Tukar tambah antara jumlah tray, beban energi, dan diameter",
+   "paras": [
+    "Hubungan antara reflux dan jumlah tray bersifat berlawanan arah dan tidak linier. Mendekati reflux minimum, laju uap memang turun, tetapi jumlah tray yang dibutuhkan naik dengan cepat dan menuju tak hingga tepat di titik minimum. Sebaliknya, menaikkan reflux menurunkan jumlah tray yang dibutuhkan, tetapi laju uap V naik mengikuti L, dan bersama laju uap itu naik pula diameter kolom serta beban energi kondenser dan reboiler [1][3].",
+    "Karena itu tidak ada titik yang unggul pada semua sisi. Reflux kecil menghemat uap tetapi membayar dengan kolom yang sangat tinggi, sedangkan reflux besar menghemat tray tetapi membayar dengan energi dan diameter setiap hari selama kolom beroperasi. Reflux operasi dipilih di atas minimum sebagai kompromi yang dapat dibangun dan dapat dibiayai, bukan sebagai angka yang paling ekstrem pada salah satu sisi [2]."
+   ]
+  },
+  {
+   "h": "Cara menjawab soal reflux sampai selesai",
+   "paras": [
+    "Urutan menjawab yang aman terdiri atas tiga langkah. Pertama, hitung Rmin dari kondisi pinch umpan. Kedua, pilih R operasi di atas Rmin dengan pengali yang ditetapkan soal atau perancang. Ketiga, hitung L dan V dari neraca puncak, lalu lanjutkan ke perhitungan jumlah tray. Pengali Rmin hanyalah awal pekerjaan, bukan hasil akhir [1].",
+    "Pola yang sama dapat diuji pada kuis CS-03: Rmin = 1,0 dan D = 50, dengan R operasi 1,3 kalinya. R operasi menjadi 1,3, sehingga L = 1,3 × 50 = 65 dan V = 65 + 50 = 115. Di pabrik, kesalahan pada urutan ini bukan sekadar kehilangan nilai ujian; pada kolom crude di kilang minyak, pilihan reflux yang sama menentukan tinggi kolom, beban furnace, dan beban kondenser setiap hari [3]."
+   ]
+  }
+ ],
+ "facts": [
+  "Rasio reflux didefinisikan sebagai R = L/D, dengan L laju reflux dan D laju distilat.",
+  "Pada reflux total seluruh cairan kondensat kembali ke kolom, D bernilai nol, dan tidak ada produk atas.",
+  "Pada reflux minimum jumlah tray yang dibutuhkan menuju tak hingga, sehingga titik itu tidak dapat dibangun.",
+  "Pada contoh CS-03, Rmin 1,2 dengan pengali 1,5 menghasilkan R operasi 1,8, L sebesar 180, dan V sebesar 280 untuk D sebesar 100.",
+  "Menaikkan reflux menurunkan jumlah tray, tetapi menaikkan laju uap, diameter kolom, dan beban kondenser serta reboiler."
+ ],
+ "closing": "Reflux minimum adalah garis batas pada kertas hitung, bukan alamat operasi sebuah kolom. Perancang yang memahami CS-03 selalu bergerak satu langkah sesudahnya: memilih reflux operasi di atas minimum, menghitung L dan V, lalu memastikan jumlah tray yang dihasilkan masih berhingga dan layak dibangun. Kolom nyata membayar tray dan uapnya sekaligus, sehingga kompromi itulah titik yang benar.",
+ "refs": [
+  "McCabe, W. L., Smith, J. C., & Harriott, P. (2005). Unit Operations of Chemical Engineering (7th ed.). McGraw-Hill.",
+  "Seader, J. D., Henley, E. J., & Roper, D. K. (2016). Separation Process Principles (4th ed.). John Wiley & Sons.",
+  "Green, D. W., & Southard, M. Z. (Eds.). (2019). Perry's Chemical Engineers' Handbook (9th ed.). McGraw-Hill Education."
+ ]
+}

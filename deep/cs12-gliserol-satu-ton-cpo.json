@@ -1,0 +1,54 @@
+{
+ "closing": "Gliserol adalah ujian paling sederhana untuk memeriksa pemahaman neraca massa pada transesterifikasi. Persamaan reaksi menempatkannya sebagai produk dengan stoikiometri yang pasti, contoh hitung menutup angkanya pada 104 kg untuk setiap 1.000 kg CPO, dan separator pabrik memisahkannya sebagai fase berat pada setiap batch. Gliserol yang dimurnikan kemudian masuk ke industri sabun, kosmetik, farmasi, dan pakan ternak. Produk samping dalam persamaan reaksi bukanlah massa yang hilang, melainkan aliran yang wajib direncanakan pemisahan dan pasarnya.",
+ "facts": [
+  "Satu mol trigliserida bereaksi dengan 3 mol metanol menghasilkan 3 mol FAME dan 1 mol gliserol, dengan katalis NaOH atau KOH pada 60°C dan 1 atm.",
+  "Pabrik memakai metanol berlebih dengan rasio mol 6:1 untuk menggeser kesetimbangan ke kanan, sedangkan katalis tidak dikonsumsi oleh reaksi.",
+  "Dari 1.000 kg CPO sebagai triolein murni dengan massa molar 885 g/mol diperoleh 1130 mol trigliserida dan 104 kg gliserol.",
+  "Kebutuhan metanol stoikiometri untuk basis 1.000 kg CPO tersebut adalah 108,5 kg.",
+  "Indonesia mewajibkan B40 sejak 1 Januari 2025, dengan kandungan 40 persen FAME dari sawit."
+ ],
+ "hook_type": "Curiosity",
+ "lead": "Setiap satu ton minyak sawit yang diubah menjadi biodiesel menghasilkan sekitar 104 kilogram gliserol, dan massa tersebut tidak hilang di dalam reaktor. Neraca massa transesterifikasi menutup dengan tepat: gliserol keluar sebagai fase berat di separator, kemudian dimurnikan untuk industri lain [1][2].",
+ "refs": [
+  "Fogler, H. S. (2016). Elements of Chemical Reaction Engineering (5th ed.). Pearson.",
+  "Knothe, G., Krahl, J., & Van Gerpen, J. (Eds.). (2010). The Biodiesel Handbook (2nd ed.). AOCS Press.",
+  "Kementerian Energi dan Sumber Daya Mineral Republik Indonesia. (2025). Kebijakan Mandatori B40. Kementerian Energi dan Sumber Daya Mineral Republik Indonesia."
+ ],
+ "sections": [
+  {
+   "h": "Reaksi transesterifikasi: satu trigliserida dan tiga metanol",
+   "paras": [
+    "Transesterifikasi mengubah trigliserida minyak sawit menjadi metil ester, yang disebut FAME atau biodiesel, dan gliserol. Dengan model trigliserida berupa triolein, reaksinya tertulis C₅₇H₁₀₄O₆ + 3 CH₃OH → 3 C₁₉H₃₆O₂ + C₃H₈O₃. Satu mol trigliserida memerlukan 3 mol metanol dan menghasilkan 3 mol FAME serta 1 mol gliserol [1][2].",
+    "Reaksi berlangsung dengan katalis NaOH atau KOH pada 60°C dan 1 atm. Katalis mempercepat reaksi tanpa dikonsumsi oleh reaksi, sehingga katalis tidak muncul sebagai reaktan yang habis dalam neraca massa [1]. Jebakan yang sering muncul adalah anggapan bahwa gliserol hilang dengan sendirinya, padahal persamaan reaksi menempatkannya secara eksplisit sebagai produk."
+   ]
+  },
+  {
+   "h": "Metanol berlebih dengan rasio mol 6:1 untuk menggeser kesetimbangan",
+   "paras": [
+    "Pabrik tidak memakai metanol tepat sebesar kebutuhan stoikiometri. Metanol dipakai berlebih dengan rasio mol 6:1 terhadap trigliserida untuk menggeser kesetimbangan reaksi ke kanan, ke arah pembentukan FAME dan gliserol [1][2]. Rasio tersebut adalah dua kali kebutuhan stoikiometri 3 mol metanol per mol trigliserida.",
+    "Metanol berlebih yang tidak bereaksi tidak dibuang begitu saja. Pada alur proses, metanol berlebih dipulihkan dan didaur ulang ke reaktor, sedangkan katalis keluar bersama fase gliserol dan kemudian dinetralkan [2]. Perbedaan antara angka stoikiometri dan angka operasi ini penting dalam perhitungan neraca massa: kebutuhan stoikiometri menentukan produk yang terbentuk, sedangkan kelebihan umpan menentukan beban pemisahan dan daur ulang."
+   ]
+  },
+  {
+   "h": "Contoh hitung: dari 1.000 kilogram CPO menjadi 104 kilogram gliserol",
+   "paras": [
+    "Contoh hitung memakai basis 1.000 kg CPO yang dianggap sebagai triolein murni dengan massa molar 885 g/mol. Jumlah mol trigliserida dihitung sebagai n = 1.000.000 g dibagi 885 g/mol, dan hasilnya 1130 mol. Kebutuhan metanol stoikiometri kemudian dihitung sebagai 3 dikali 1130 mol dikali 32 g/mol, dan hasilnya 108,5 kg [1][2].",
+    "Gliserol yang terbentuk dihitung dari jumlah mol yang sama. Karena 1 mol trigliserida menghasilkan 1 mol gliserol, jumlah gliserol adalah 1130 mol dikali 92 g/mol, dan hasilnya 104 kg [1][2]. Angka tersebut setara dengan 10 persen massa minyak yang diolah. Neraca massa menutup: gliserol tidak hilang, melainkan terhitung penuh sebagai produk dengan massa sepersepuluh dari umpan minyak."
+   ]
+  },
+  {
+   "h": "Alur proses: reaktor, separator, pencucian, dan blending B40",
+   "paras": [
+    "Umpan CPO, metanol berlebih, dan katalis NaOH masuk ke reaktor, kemudian campuran FAME dan gliserol dipisahkan di separator. Gliserol keluar sebagai fase berat di separator dan tidak ikut bersama biodiesel. FAME sebagai fase ringan dicuci, kemudian diblending menjadi B40 [2].",
+    "Konteks kebijakannya adalah mandatori B40 di Indonesia yang berlaku sejak 1 Januari 2025, dengan kandungan 40 persen FAME dari sawit dalam bahan bakar [3]. Skala kebijakan tersebut berarti persoalan gliserol bukan persoalan laboratorium: setiap pabrik biodiesel yang memasok rantai B40 menghasilkan gliserol dalam jumlah besar pada setiap batch pemisahan."
+   ]
+  },
+  {
+   "h": "Pemurnian gliserol dan pasar pemakaiannya",
+   "paras": [
+    "Gliserol kasar dari separator belum dapat langsung dipakai. Gliserol kasar masih mengandung sisa katalis, metanol, dan sabun, sehingga wajib dinetralkan dan didistilasi sebelum dapat dijual sebagai gliserol murni [2]. Tahap netralisasi menangani sisa katalis dan sabun, sedangkan distilasi memisahkan gliserol dari pengotor yang tersisa.",
+    "Gliserol murni dipakai untuk sabun dan deterjen sebagai bahan surfaktan, untuk kosmetik sebagai pelembap, untuk farmasi sebagai pelarut obat, dan untuk pakan ternak sebagai sumber energi [2]. Volumenya menjelaskan mengapa rantai ini tidak dapat diabaikan: pabrik memisahkan sekitar satu drum gliserol untuk setiap sepuluh drum minyak yang diolah. Satu kebijakan bahan bakar menggerakkan rantai sawit sampai industri sabun."
+   ]
+  }
+ ]
+}

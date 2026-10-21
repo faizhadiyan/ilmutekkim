@@ -1,0 +1,54 @@
+{
+ "lead": "Hasil hitung beda suhu rata-rata logaritmik dapat saja benar secara matematis, tetapi duty penukar panas yang dihitung darinya tetap meleset jauh apabila koefisien perpindahan panas yang dipakai adalah koefisien alat bersih. Kerak tipis pada dinding tube menambah tahanan termal yang selalu hadir dalam persamaan, dan pada contoh CS-04 tahanan itu memotong duty hampir sepertiga. Yang keliru bukan LMTD, melainkan U yang dianggap tidak berubah.",
+ "hook_type": "Negativity",
+ "sections": [
+  {
+   "h": "Persamaan duty dan peran masing-masing simbol",
+   "paras": [
+    "Seluruh perhitungan penukar panas bertumpu pada satu persamaan: Q = U × A × ΔTlm. Di sini Q adalah laju perpindahan panas atau duty, U adalah koefisien perpindahan panas keseluruhan, A adalah luas permukaan perpindahan panas, dan ΔTlm adalah beda suhu rata-rata logaritmik antara kedua fluida [1]. Tiga faktor di ruas kanan menentukan hasil secara bersama-sama, sehingga kesalahan pada salah satunya langsung menjadi kesalahan duty.",
+    "Dari ketiga faktor itu, luas A bersifat tetap karena ditentukan oleh geometri alat yang sudah terpasang. Beda suhu dapat diukur langsung di lapangan. Faktor yang bergerak selama alat beroperasi adalah U, dan ia bergerak ke bawah ketika permukaan perpindahan panas tertutup kerak. Di sinilah letak jebakannya: perhitungan yang memakai U alat bersih untuk alat yang telah beroperasi lama menghasilkan duty yang tidak pernah dicapai alat tersebut [1][3]."
+   ]
+  },
+  {
+   "h": "Menghitung LMTD dari dua beda suhu ujung",
+   "paras": [
+    "Contoh CS-04 memakai penukar panas aliran berlawanan arah. Fluida panas mengalir pada sisi shell dari 90°C menjadi 60°C, sedangkan fluida dingin mengalir pada sisi tube dari 25°C menjadi 45°C. Beda suhu pada ujung panas adalah ΔT1 = 90 - 45 = 45°C, dan beda suhu pada ujung dingin adalah ΔT2 = 60 - 25 = 35°C [1].",
+    "Kedua beda suhu itu dimasukkan ke persamaan ΔTlm = (ΔT1 - ΔT2) / ln(ΔT1/ΔT2), sehingga diperoleh ΔTlm = (45 - 35) / ln(45/35) = 10 / 0,2513 = 39,8°C. Hasil ini selalu berada di bawah rata-rata aritmetik kedua beda suhu ujung, yang pada contoh ini bernilai 40°C. Perhitungan pada langkah ini benar dan tidak berubah oleh keberadaan kerak; kerak bekerja pada faktor lain dalam persamaan duty."
+   ]
+  },
+  {
+   "h": "Fouling menambah tahanan dan memotong koefisien keseluruhan",
+   "paras": [
+    "Kerak pada permukaan tube diperlakukan sebagai tahanan termal tambahan Rf yang tersusun seri dengan tahanan alat bersih, sesuai persamaan 1/Uf = 1/Ub + Rf [1][2]. Pada contoh CS-04, koefisien bersih Ub = 800 W/m².K dan faktor fouling Rf = 0,0005 m².K/W. Langkah hitungnya adalah 1/Uf = 1/800 + 0,0005 = 0,00125 + 0,0005 = 0,00175 m².K/W, sehingga Uf = 1/0,00175 = 571 W/m².K.",
+    "Dua angka turunan memperjelas besarnya pengaruh kerak yang terlihat tipis itu. Tahanan termal total naik dari 0,00125 menjadi 0,00175 m².K/W, yaitu kenaikan sebesar 40 persen. Akibatnya koefisien keseluruhan turun dari 800 menjadi 571 W/m².K. Tahanan kerak selalu menambah tahanan total; tidak ada kerak yang memperbaiki perpindahan panas [1]."
+   ]
+  },
+  {
+   "h": "Duty yang hilang dan bebannya pada preheat train",
+   "paras": [
+    "Dengan luas dan beda suhu yang sama, duty sebanding langsung dengan U, sehingga penurunan U dari 800 menjadi 571 W/m².K menurunkan duty dalam proporsi yang sama. Pada contoh CS-04, duty turun dari 167,2 kW menjadi 119,3 kW, yaitu kehilangan sebesar 28,6 persen [1]. Hampir sepertiga kemampuan alat hilang oleh lapisan kerak yang secara visual tampak sepele.",
+    "Pola yang sama terlihat pada kuis CS-04: Ub = 600 W/m².K, Rf = 0,0008 m².K/W, A = 10 m², dan ΔTlm = 50°C. Duty bersihnya adalah 600 × 10 × 50 = 300 kW, sedangkan 1/Uf = 1/600 + 0,0008 menghasilkan Uf sekitar 405 W/m².K dan duty kotor sekitar 202,7 kW. Di kilang, kehilangan semacam ini muncul pada preheat train: minyak mentah yang dipanaskan bertahap tiba di furnace dalam keadaan lebih dingin, sehingga furnace membakar bahan bakar lebih banyak untuk mengejar suhu yang sama [3]."
+   ]
+  },
+  {
+   "h": "Empat pemeriksaan sebelum mempercayai hasil hitung",
+   "paras": [
+    "Soal ujian dan lembar data alat sama-sama dapat menyembunyikan fouling, sehingga empat pemeriksaan perlu dilakukan sebelum angka LMTD dipercaya. Pertama, periksa apakah faktor fouling Rf diberikan, termasuk apabila ia disembunyikan pada kalimat terakhir soal. Kedua, hitung ulang U dengan persamaan 1/Uf = 1/Ub + Rf. Ketiga, bandingkan duty bersih dengan duty kotor. Keempat, tanyakan kondisi asal U yang dipakai [1][2].",
+    "Pemeriksaan keempat adalah yang paling menentukan di lapangan. U pada brosur dan lembar data perancangan adalah U alat bersih, bukan U alat yang telah beroperasi bertahun-tahun dengan kerak yang menebal perlahan. Duty yang dilaporkan untuk alat lama wajib dihitung dari kondisi aktualnya, dan selisih antara kedua duty itu adalah biaya energi yang dibayar pabrik setiap hari."
+   ]
+  }
+ ],
+ "facts": [
+  "Duty penukar panas dihitung dengan Q = U × A × ΔTlm, dan luas A tetap sedangkan U yang turun ketika alat kotor.",
+  "Pada contoh CS-04, ΔT1 sebesar 45°C dan ΔT2 sebesar 35°C menghasilkan LMTD sebesar 39,8°C.",
+  "Fouling menambah tahanan termal secara seri melalui persamaan 1/Uf = 1/Ub + Rf.",
+  "Ub sebesar 800 W/m².K dengan Rf sebesar 0,0005 m².K/W menghasilkan Uf sebesar 571 W/m².K dan kenaikan tahanan total sebesar 40 persen.",
+  "Duty pada contoh CS-04 turun dari 167,2 kW menjadi 119,3 kW, yaitu penurunan sebesar 28,6 persen."
+ ],
+ "closing": "LMTD yang dihitung dari suhu ukur tidak berbohong; yang berbohong adalah koefisien bersih yang dipakai untuk alat yang telah kotor. Setiap perhitungan duty yang melewatkan Rf sedang mengasumsikan alat yang tidak pernah ada di lapangan, dan di preheat train asumsi itu dibayar sebagai bahan bakar furnace tambahan. Memeriksa fouling sebelum mempercayai duty adalah perbedaan antara angka di atas kertas dan kemampuan alat yang sesungguhnya.",
+ "refs": [
+  "Incropera, F. P., DeWitt, D. P., Bergman, T. L., & Lavine, A. S. (2007). Fundamentals of Heat and Mass Transfer (6th ed.). John Wiley & Sons.",
+  "Cengel, Y. A., & Ghajar, A. J. (2015). Heat and Mass Transfer: Fundamentals and Applications (5th ed.). McGraw-Hill Education.",
+  "Green, D. W., & Southard, M. Z. (Eds.). (2019). Perry's Chemical Engineers' Handbook (9th ed.). McGraw-Hill Education."
+ ]
+}

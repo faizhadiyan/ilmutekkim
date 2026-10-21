@@ -1,0 +1,54 @@
+{
+ "closing": "Flixborough bukan kisah tentang satu pipa yang patah, melainkan tentang satu gambar yang tidak pernah dibuat. Sketsa kapur tidak dapat ditinjau, tidak dapat dihitung, dan tidak dapat diuji, sehingga seluruh kelemahan pipa darurat baru diketahui setelah 40 ton sikloheksana terlepas. Manajemen perubahan dan gambar teknik baku adalah jawaban industri atas kekosongan tersebut: setiap perubahan harus dapat diperiksa di atas kertas oleh orang lain, karena kesalahan yang ditemukan di atas kertas tidak menewaskan siapa pun.",
+ "facts": [
+  "Pada 1 Juni 1974 pabrik Nypro di Flixborough, Inggris, meledak dan menewaskan 28 orang.",
+  "Pipa bypass darurat berdiameter 20 inci dipasang pada Maret 1974 setelah reaktor nomor 5 retak dan bocor.",
+  "Satu-satunya gambar pipa tersebut adalah sketsa kapur di lantai bengkel, tanpa perhitungan tegangan dan tanpa uji tekan, menurut penyelidikan resmi 1975.",
+  "Saat pabrik dinyalakan ulang, bellows melintir dan pipa patah sehingga sekitar 40 ton sikloheksana keluar dan meledak.",
+  "P&ID memakai simbol baku global, misalnya standar ISA-5.1 untuk instrumentasi, sehingga gambar dapat ditinjau oleh insinyur mana pun sebelum modifikasi dipasang."
+ ],
+ "hook_type": "Negativity",
+ "lead": "Sebuah pipa darurat yang digambar dengan kapur di lantai bengkel meledakkan satu pabrik dan menewaskan 28 orang pada 1 Juni 1974. Peristiwa Flixborough menunjukkan bahwa modifikasi tanpa gambar teknik yang dapat ditinjau ulang bukan persoalan administrasi, melainkan persoalan keselamatan proses [1][2].",
+ "refs": [
+  "Court of Inquiry. (1975). Report of the Court of Inquiry into the Flixborough Disaster. Her Majesty's Stationery Office.",
+  "Health and Safety Executive. Flixborough Case Study. Health and Safety Executive.",
+  "International Society of Automation. ANSI/ISA-5.1: Instrumentation Symbols and Identification. International Society of Automation."
+ ],
+ "sections": [
+  {
+   "h": "Kejadian 1 Juni 1974 dan pipa yang bekerja dua bulan",
+   "paras": [
+    "Pada 1 Juni 1974, pabrik kimia Nypro di Flixborough, Inggris, meledak dan menewaskan 28 orang [1]. Peristiwa tersebut berawal pada Maret 1974, ketika reaktor nomor 5 retak dan bocor. Reaktor yang retak dicopot, kemudian dipasang pipa bypass berdiameter 20 inci berbentuk dog-leg agar produksi tetap berjalan [1][2].",
+    "Pipa darurat tersebut dipasang dalam keadaan serba terbatas. Di lokasi tidak tersedia pipa 28 inci yang sesuai, dan perhitungan tegangan untuk belokan serta bellows pipa tidak pernah dibuat [1]. Pipa itu bekerja selama dua bulan tanpa masalah yang tampak, sampai pabrik dimatikan dan kemudian dinyalakan ulang. Riwayat dua bulan yang tampak aman tersebut justru menutupi kelemahan yang sejak awal tidak pernah diperiksa di atas kertas."
+   ]
+  },
+  {
+   "h": "Temuan penyelidikan resmi 1975: gambar yang tidak pernah ada",
+   "paras": [
+    "Penyelidikan resmi yang diterbitkan pada 1975 mencatat temuan yang menentukan: pipa bypass tersebut tidak memiliki gambar teknik sama sekali. Satu-satunya gambar yang ada adalah sketsa kapur di lantai bengkel, tanpa perhitungan tegangan dan tanpa uji tekan sebelum pipa dipasang [1]. Dengan kata lain, tidak pernah ada dokumen yang dapat diperiksa oleh insinyur lain untuk menemukan kelemahan desainnya.",
+    "Akibatnya baru terlihat saat pabrik dinyalakan ulang. Tekanan membuat bellows melintir dan pipa patah, kemudian sekitar 40 ton sikloheksana keluar dan meledak [1][2]. Dua temuan penyelidikan merangkum rantai sebabnya: modifikasi dikerjakan tanpa gambar teknik, dan tegangan komponennya tidak dihitung serta tidak diuji tekan. Kegagalan tersebut bukan kegagalan material semata, melainkan kegagalan proses peninjauan."
+   ]
+  },
+  {
+   "h": "Sketsa kapur berhadapan dengan gambar baku",
+   "paras": [
+    "Perbandingan dua cara menggambar modifikasi yang sama memperlihatkan perbedaan mendasarnya. Sketsa kapur tahun 1974 berupa garis tanpa ukuran dan tanpa simbol baku, sehingga arti setiap garis bergantung pada ingatan pembuatnya. Gambar baku modern memakai simbol standar, arah aliran, dan label, sehingga maksud gambar tercatat dan tidak hilang bersama ingatan seseorang [2].",
+    "Perbedaan terpenting dari keduanya bukan kerapian, melainkan keterbacaan oleh pihak lain. Gambar baku dapat ditinjau ulang oleh insinyur yang tidak terlibat dalam pembuatannya, dan pada tahap peninjauan itulah kesalahan dapat ditemukan. Prinsip yang lahir dari perbandingan ini sederhana: gambar teknik yang baku membuat kesalahan terlihat di atas kertas, bukan di pabrik [1][2]."
+   ]
+  },
+  {
+   "h": "P&ID dan bahasa gambar yang berlaku global",
+   "paras": [
+    "P&ID memakai simbol baku yang berlaku global, misalnya standar ISA-5.1 untuk instrumentasi [3]. Simbol pompa pada gambar di Indonesia memiliki arti yang sama dengan simbol pompa pada gambar di Inggris. Kebakuan yang sama berlaku untuk simbol peralatan seperti pompa, tangki, dan kolom, serta untuk simbol katup dan tag instrumen [3].",
+    "Karena bahasanya satu, insinyur mana pun dapat membaca gambar pabrik mana pun, dan peninjau dapat menemukan kesalahan sebelum peralatan dipasang [2][3]. Tag instrumen pun terbaca dengan pola yang tetap, sebagai contoh FIC-101 yang langsung terbaca maknanya oleh pembaca yang memahami konvensi tag. Yang diuji dalam pembacaan P&ID bukan kerapian menggambar, melainkan ketepatan membaca arti setiap simbol."
+   ]
+  },
+  {
+   "h": "Manajemen perubahan sebagai warisan Flixborough",
+   "paras": [
+    "Ledakan Flixborough menjadi pelajaran yang melahirkan praktik management of change di industri proses [2]. Dalam praktik tersebut, setiap perubahan pada pipa dan peralatan wajib melalui gambar teknik baku yang dapat ditinjau, lengkap dengan perhitungan dan pengujian yang relevan, sebelum perubahan dipasang dan dioperasikan. Modifikasi darurat tidak lagi dibenarkan hanya atas dasar kebutuhan menjaga produksi berjalan.",
+    "Warisan itu terasa sampai ruang ujian. Pembahasan simbol P&ID diuji dengan serius karena kemampuan membaca gambar adalah kemampuan membaca bahasa pabrik, dan seri pendamping pada hari yang sama menguji 10 simbol yang paling sering muncul beserta rumus baca tag instrumen [3]. Flixborough mengajarkan alasan keberadaan aturan tersebut: satu modifikasi yang tidak digambar dengan benar dapat menghapus seluruh pabrik."
+   ]
+  }
+ ]
+}

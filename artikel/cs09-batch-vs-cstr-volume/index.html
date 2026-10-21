@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<script>(function(){try{var t=localStorage.getItem("ilm-theme");if(!t){t=window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";}document.documentElement.setAttribute("data-theme",t);}catch(e){document.documentElement.setAttribute("data-theme","light");}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CS-09 Cheat Sheet: Batch vs CSTR, Mengapa Volumenya Berbeda Empat Kali | ilmutekkim</title>
+<meta name="description" content="Dua reaktor diminta mencapai konversi yang sama, dan anggapan yang terdengar modern menyatakan bahwa reaktor kontinu pasti membutuhkan volume yang lebih ke">
+<link rel="canonical" href="https://ilmutekkim.vercel.app/artikel/cs09-batch-vs-cstr-volume/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CS-09 Cheat Sheet: Batch vs CSTR, Mengapa Volumenya Berbeda Empat Kali | ilmutekkim">
+<meta property="og:description" content="Dua reaktor diminta mencapai konversi yang sama, dan anggapan yang terdengar modern menyatakan bahwa reaktor kontinu pasti membutuhkan volume yang lebih ke">
+<meta property="og:url" content="https://ilmutekkim.vercel.app/artikel/cs09-batch-vs-cstr-volume/">
+<meta property="og:image" content="https://ilmutekkim.vercel.app/assets/img/cs09-batch-vs-cstr-volume/cover.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/style.css?v=23">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23131518'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='%23F4F4F2' font-family='Arial' font-weight='bold'>IT</text></svg>">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="/">ilmu<span>tekkim</span></a>
+  <button type="button" class="theme-toggle" id="themeToggle" aria-label="Beralih antara mode terang dan mode gelap" title="Mode terang / gelap"><span class="ic-sun" aria-hidden="true">&#9728;</span><span class="ic-moon" aria-hidden="true">&#9790;</span></button>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+  <label for="nav-toggle" class="burger" aria-label="Buka menu">&#9776;</label>
+  <nav>
+    <a href="/">Articles &amp; Videos</a>
+    <a href="/riset/">Riset</a>
+    <a href="/jalur/">Jalur</a>
+  </nav>
+</header>
+<main>
+<article class="post">
+<p class="eyebrow">Seri Cheat Sheet Ujian</p>
+<h1>CS-09 Cheat Sheet: Batch vs CSTR, Mengapa Volumenya Berbeda Empat Kali</h1>
+<p class="meta">16 Oktober 2026 &middot; ilmutekkim</p>
+<p class="ig-link">Versi carousel: <a href="https://www.instagram.com/p/DejC39Mj_jM/" target="_blank" rel="noopener">lihat di Instagram @ilmutekkim</a></p>
+<figure class="hero-img"><img src="/assets/img/cs09-batch-vs-cstr-volume/cover.jpg" alt="CS-09 Cheat Sheet: Batch vs CSTR, Mengapa Volumenya Berbeda Empat Kali"><figcaption>Foto: <a href="https://www.pexels.com/photo/industrial-plant-seen-from-a-car-10666081/" rel="noopener" target="_blank">Nikolai Kolosov / Pexels</a></figcaption></figure>
+<p class="lead">Dua reaktor diminta mencapai konversi yang sama, dan anggapan yang terdengar modern menyatakan bahwa reaktor kontinu pasti membutuhkan volume yang lebih kecil. Untuk kinetika orde positif, anggapan itu terbalik: seluruh isi CSTR terkunci pada konsentrasi keluar yang paling encer, sehingga volumenya justru berlipat dibandingkan reaktor batch [1][2].</p>
+<section>
+<h2>Jebakan menyamakan volume batch dan CSTR</h2>
+<p>Jebakan ini sering keluar melalui tiga pintu. Soal memberikan volume batch lalu menanyakan volume CSTR, kata kontinu terdengar lebih canggih daripada batch, dan persamaan desain keduanya tertukar sehingga persamaan batch dipakai untuk CSTR. Ketiga pintu itu mengantar pada satu kesalahan yang sama: menganggap kedua reaktor bekerja pada profil konsentrasi yang sama [1][2].</p>
+<p>Kenyataannya berlawanan untuk orde positif. Reaktor batch tertutup selama reaksi dan konsentrasinya turun dari C_A0 ke C_A seiring waktu. CSTR menerima umpan C_A0 secara terus-menerus dan mengeluarkan produk C_A secara terus-menerus, sedangkan isi tangkinya selalu C_A. Satu tangki menyapu rentang konsentrasi, tangki lain diam di ujung rentang tersebut [1].</p>
+</section>
+<figure><img src="/assets/img/cs09-batch-vs-cstr-volume/diagram-3.jpg" alt="Satu tangki tertutup lawan satu tangki beraliran" loading="lazy"></figure>
+<section>
+<h2>Mengapa CSTR terkunci pada laju paling lambat</h2>
+<p>Laju reaksi orde positif mengikuti konsentrasi, sehingga konsentrasi tinggi berarti laju tinggi. Reaktor batch memulai reaksi dari umpan pekat C_A0 dan konsentrasinya turun terus sampai C_A; laju reaksi ikut turun, tetapi sempat tinggi di awal. CSTR berbeda secara mendasar: seluruh isi tangki sama dengan konsentrasi keluar C_A, yang paling encer, sehingga laju reaksi di semua titik sama dengan laju pada C_A, titik paling lambat [1][2].</p>
+<p>Konsekuensi itu tertulis langsung pada persamaan desainnya: V_CSTR = v0 X / (k (1 - X)), dengan V volume reaktor, v0 laju alir volumetrik umpan, X konversi, dan k konstanta laju reaksi. Persamaan desain CSTR memakai laju pada konsentrasi keluar, bukan konsentrasi umpan. Volume yang besar bukan kegagalan desain, melainkan harga matematis dari keputusan menahan seluruh isi reaktor pada konsentrasi terendah [1].</p>
+</section>
+<figure><img src="/assets/img/cs09-batch-vs-cstr-volume/foto-7.jpg" alt="Batch di spesialti, CSTR di komoditas" loading="lazy"><figcaption>Foto: Policarpo Brito / Pexels</figcaption></figure>
+<section>
+<h2>Contoh hitung waktu tinggal: orde satu dan konversi 0,9</h2>
+<p>Diberikan reaksi orde satu dengan target konversi X = 0,9. Untuk reaktor batch, waktu reaksi diperoleh dari t = -ln(1 - 0,9)/k = 2,303/k, karena 1 - 0,9 = 0,1 dan nilai logaritma naturalnya menghasilkan 2,303. Untuk CSTR, waktu tinggalnya adalah tau = 0,9/(k dikali 0,1) = 9/k, karena penyebutnya memuat (1 - X) = 0,1 yang kecil. Dua angka ini, 2,303/k melawan 9/k, adalah inti seluruh perbandingan [1][2].</p>
+<p>Volume diperoleh dengan mengalikan waktu tinggal dengan laju alir v0. Volume batch adalah 2,303 v0/k dan volume CSTR adalah 9 v0/k. Rasionya 9/2,303 = 3,9. Dengan demikian, untuk orde satu dan X = 0,9, CSTR membutuhkan volume 3,9 kali volume batch, angka yang dibulatkan dalam pernyataan umum menjadi sekitar empat kali lipat [2].</p>
+</section>
+<section>
+<h2>Contoh terapan lengkap: k = 0,5 per jam dan umpan 2 m³/jam</h2>
+<p>Pola yang sama diterapkan pada data kuis CS-09: orde satu, k = 0,5/jam, umpan v0 = 2 m³/jam, dan target X = 0,9. Langkah pertama menghitung waktu. Waktu batch adalah t = 2,303/k = 2,303/0,5 = 4,606 jam. Waktu tinggal CSTR adalah tau = 9/k = 9/0,5 = 18 jam. Seluruh perbedaan volume sudah terlihat pada langkah ini, sebelum laju alir dimasukkan [1].</p>
+<p>Langkah kedua mengalikan waktu dengan laju alir. Volume batch adalah V_batch = v0 dikali t = 2 dikali 4,606 = 9,212 m³, yang sama dengan 2,303 dikali 2 dibagi 0,5. Volume CSTR adalah V_CSTR = v0 dikali tau = 2 dikali 18 = 36 m³, yang sama dengan 9 dikali 2 dibagi 0,5. Perbandingan akhirnya tetap 36/9,212 = 3,9, membuktikan bahwa rasio itu tidak bergantung pada pilihan k dan v0 selama target konversinya sama [1][2].</p>
+</section>
+<section>
+<h2>Catatan adil: waktu mati batch dan pilihan di pabrik nyata</h2>
+<p>Perhitungan di atas memakai waktu reaksi ideal, dan terdapat catatan adil yang wajib menyertainya. Reaktor batch mempunyai waktu mati berupa pengisian, pemanasan, pengosongan, dan pembersihan, dan hitungan ideal tersebut belum memasukkan waktu mati itu. CSTR menang di skala besar karena bekerja kontinu 24 jam tanpa henti, tanpa siklus berhenti di antara dua operasi [1].</p>
+<p>Pilihan reaktor di pabrik nyata ditentukan oleh skala produksi dan variasi produk. Reaktor batch umum di farmasi dan kimia spesialti dengan kampanye kecil, pergantian produk yang cepat, dan resep yang berganti tiap batch. CSTR berderet dipakai di petrokimia dan polimer dengan satu produk, volume raksasa, dan operasi kontinu 24 jam. Tiga pemeriksaan menutup pekerjaan di ujian: tulis persamaan desain yang benar untuk tiap reaktor, periksa orde reaksi di soal sebelum membandingkan, dan cari kata waktu mati pada soal cerita tanpa mengabaikannya [1][2].</p>
+</section>
+<section class="factbox"><h2>Fakta kunci</h2><ul><li>Seluruh isi CSTR berada pada konsentrasi keluar, yaitu titik dengan laju reaksi paling kecil.</li><li>Persamaan desain CSTR memakai laju pada konsentrasi keluar, bukan pada konsentrasi umpan.</li><li>Untuk reaksi orde satu dengan X = 0,9, waktu batch adalah 2,303/k dan waktu tinggal CSTR adalah 9/k.</li><li>Volume CSTR untuk contoh tersebut adalah 9 v0/k, berbanding 2,303 v0/k untuk batch, dengan rasio 3,9.</li><li>Perhitungan ideal tersebut belum memasukkan waktu mati batch berupa pengisian, pemanasan, pengosongan, dan pembersihan.</li></ul></section>
+<section><h2>Kesimpulannya</h2><p>Perbandingan batch dan CSTR bermuara pada satu kalimat: untuk orde positif, batch menyapu rentang konsentrasi dan sempat bekerja pada laju tinggi, sedangkan CSTR diam di konsentrasi keluar yang paling encer sejak awal. Pada orde satu dan konversi 0,9, harga dari perbedaan itu terukur sebagai volume 3,9 kali lipat, dan jawaban ujian yang benar selalu menyebut orde reaksi serta persamaan desain yang dipakai untuk masing-masing reaktor.</p></section>
+<section class="refs"><h2>Referensi</h2><ul><li>Fogler, H. S. Elements of Chemical Reaction Engineering. Prentice Hall.</li><li>Levenspiel, O. Chemical Reaction Engineering. John Wiley &amp; Sons.</li><li>Green, D. W., &amp; Southard, M. Z. (Eds.). (2019). Perry&#x27;s Chemical Engineers&#x27; Handbook (9th ed.). McGraw-Hill Education.</li><li>Levenspiel, O., Chemical Reaction Engineering (perbandingan volume batch vs CSTR untuk kinetika orde positif)</li></ul></section>
+<nav class="post-nav"><a href="/artikel/cs08-cooling-tower-wet-bulb-ujian/">&larr; CS-08 Cheat Sheet: Wet Bulb, Penentu Suhu Air Dingin Cooling Tower</a><a href="/artikel/coffey-still-1830-distilasi-kontinu/">Coffey Still 1830: Ketika Distilasi Berhenti Menjadi Kerja Batch &rarr;</a></nav>
+<div class="cta-box"><h2>Lanjut baca di Instagram</h2><p>Konten teknik kimia tiap hari: proses pabrik, safety, dan cara baca alat. Ditulis insinyur kimia ITB.</p><a class="btn" href="https://www.instagram.com/ilmutekkim" target="_blank" rel="noopener">Follow @ilmutekkim</a></div>
+</article>
+</main>
+<footer>
+  <div class="foot-brand">ilmu<span>tekkim</span></div>
+  <p>Kajian teknik kimia proses: unit operasi, alur pabrik, keselamatan proses, dan kecerdasan buatan. Ditulis oleh insinyur kimia lulusan Institut Teknologi Bandung.</p>
+  <p class="foot-btns"><a class="btn-ig" href="https://www.instagram.com/ilmutekkim" target="_blank" rel="noopener">Instagram @ilmutekkim</a> <a class="btn-ig" href="https://www.tiktok.com/@ilmutekkim" target="_blank" rel="noopener">TikTok @ilmutekkim</a></p>
+  <p class="foot-links"><a href="/">Beranda</a><span>&middot;</span><a href="/video/">Video</a><span>&middot;</span><a href="/riset/">Riset</a><span>&middot;</span><a href="/jalur/">Jalur</a><span>&middot;</span><a href="/glosarium/">Glosarium</a><span>&middot;</span><a href="/referensi/">Referensi</a><span>&middot;</span><a href="/kalkulator/">Kalkulator</a><span>&middot;</span><a href="/tentang/">Tentang</a></p>
+  <p class="fine">Artikel dan video di situs ini merupakan versi baca dan versi tonton dari konten Instagram @ilmutekkim. Foto berasal dari Pexels dan Unsplash, kredit tercantum di tiap gambar.</p>
+</footer>
+<script src="/assets/js/main.js?v=11"></script>
+</body>
+</html>

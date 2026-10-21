@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<script>(function(){try{var t=localStorage.getItem("ilm-theme");if(!t){t=window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";}document.documentElement.setAttribute("data-theme",t);}catch(e){document.documentElement.setAttribute("data-theme","light");}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CS-11 Cheat Sheet: Set Pressure Bukan Tekanan Maksimum Bejana | ilmutekkim</title>
+<meta name="description" content="Tiga angka tekanan pada satu bejana sering tertukar, dan tertukarnya satu angka dapat membuat bejana pecah sebelum katup pengamannya sempat terbuka. Urutan">
+<link rel="canonical" href="https://ilmutekkim.vercel.app/artikel/cs11-relief-set-pressure-mawp/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CS-11 Cheat Sheet: Set Pressure Bukan Tekanan Maksimum Bejana | ilmutekkim">
+<meta property="og:description" content="Tiga angka tekanan pada satu bejana sering tertukar, dan tertukarnya satu angka dapat membuat bejana pecah sebelum katup pengamannya sempat terbuka. Urutan">
+<meta property="og:url" content="https://ilmutekkim.vercel.app/artikel/cs11-relief-set-pressure-mawp/">
+<meta property="og:image" content="https://ilmutekkim.vercel.app/assets/img/cs11-relief-set-pressure-mawp/cover.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/style.css?v=23">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23131518'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='%23F4F4F2' font-family='Arial' font-weight='bold'>IT</text></svg>">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="/">ilmu<span>tekkim</span></a>
+  <button type="button" class="theme-toggle" id="themeToggle" aria-label="Beralih antara mode terang dan mode gelap" title="Mode terang / gelap"><span class="ic-sun" aria-hidden="true">&#9728;</span><span class="ic-moon" aria-hidden="true">&#9790;</span></button>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+  <label for="nav-toggle" class="burger" aria-label="Buka menu">&#9776;</label>
+  <nav>
+    <a href="/">Articles &amp; Videos</a>
+    <a href="/riset/">Riset</a>
+    <a href="/jalur/">Jalur</a>
+  </nav>
+</header>
+<main>
+<article class="post">
+<p class="eyebrow">Seri Cheat Sheet Ujian</p>
+<h1>CS-11 Cheat Sheet: Set Pressure Bukan Tekanan Maksimum Bejana</h1>
+<p class="meta">18 Oktober 2026 &middot; ilmutekkim</p>
+<figure class="hero-img"><img src="/assets/img/cs11-relief-set-pressure-mawp/cover.jpg" alt="CS-11 Cheat Sheet: Set Pressure Bukan Tekanan Maksimum Bejana"><figcaption>Foto: <a href="https://www.pexels.com/photo/large-metal-pipes-for-industrial-machinery-5711732/" rel="noopener" target="_blank">Arshan Ali / Pexels</a></figcaption></figure>
+<p class="lead">Tiga angka tekanan pada satu bejana sering tertukar, dan tertukarnya satu angka dapat membuat bejana pecah sebelum katup pengamannya sempat terbuka. Urutan yang benar bersifat tetap: tekanan operasi berada di bawah set pressure, dan set pressure tidak boleh melampaui MAWP [1][2].</p>
+<section>
+<h2>Tiga tekanan dengan pemilik yang berbeda</h2>
+<p>Tekanan operasi adalah tekanan kerja sehari-hari bejana, dan posisinya harus berada di bawah set pressure dengan jarak aman. Set pressure adalah tekanan saat relief valve mulai membuka, dan besarnya ditentukan oleh pegas katup. MAWP adalah tekanan maksimum yang diizinkan bejana pada suhu desain, dan besarnya ditentukan oleh desain bejana itu sendiri [1][2].</p>
+<p>Ketiga angka tersebut berbeda karena pemilik keputusannya berbeda. Tekanan operasi ditentukan oleh kebutuhan proses, set pressure ditentukan oleh penyetelan katup, dan MAWP ditentukan oleh kekuatan konstruksi bejana. Menyamakan set pressure dengan tekanan maksimum bejana adalah jebakan yang paling sering muncul, karena set pressure menandai awal pembukaan katup, bukan batas kekuatan bejana [1].</p>
+</section>
+<figure><img src="/assets/img/cs11-relief-set-pressure-mawp/diagram-3.jpg" alt="Jalur buang saat tekanan naik" loading="lazy"></figure>
+<section>
+<h2>Jalur buang saat tekanan naik</h2>
+<p>Skema perlindungannya terdiri atas satu bejana tekan, satu relief valve pada nosel atas, dan satu jalur buang menuju flare. Saat tekanan naik melewati batas normal, relief valve terbuka tepat pada set pressure dan membuang uap bertekanan keluar dari bejana melalui jalur tersebut [1].</p>
+<p>Urutan kejadian itulah yang menjaga bejana. Karena katup telah terbuka lebih dahulu pada set pressure yang tidak melampaui MAWP, bejana tidak pernah merasakan tekanan di atas MAWP [1][2]. Tidak ada aliran yang hilang dalam skema ini: uap yang dibuang tetap terhitung sebagai aliran keluar dari bejana menuju flare, hanya saja aliran tersebut terjadi pada saat darurat dan bukan pada operasi normal.</p>
+</section>
+<figure><img src="/assets/img/cs11-relief-set-pressure-mawp/foto-7.jpg" alt="Katup ini diuji, bukan dipajang" loading="lazy"><figcaption>Foto: Zhengyang TIAN / Pexels</figcaption></figure>
+<section>
+<h2>Aturan kode: set pressure tidak melampaui MAWP</h2>
+<p>Aturan intinya dirumuskan dalam satu pertidaksamaan, P_set ≤ MAWP, yang berarti set pressure tidak boleh melebihi MAWP. Aturan ini berasal dari ASME Boiler and Pressure Vessel Code Section VIII dan bersifat baku, bukan anjuran, sehingga melanggarnya berarti desain tidak lolos kode [1].</p>
+<p>Kode yang sama mengatur akumulasi, yaitu kenaikan tekanan yang masih diizinkan saat relief berlangsung penuh. Untuk satu katup, tekanan saat relief penuh maksimal adalah MAWP ditambah 10 persen [1]. Kedua aturan ini bekerja sebagai pasangan: pertidaksamaan pertama mengatur kapan katup mulai membuka, dan batas akumulasi mengatur seberapa jauh tekanan masih boleh naik sesudahnya.</p>
+</section>
+<section>
+<h2>Contoh hitung: bejana 10 barg yang dioperasikan pada 8 barg</h2>
+<p>Contoh angka dalam pembahasan ini dikerjakan langkah demi langkah. Sebuah bejana memiliki MAWP 10 barg dan dioperasikan pada tekanan operasi 8 barg. Relief valve dipasang dengan set pressure 10 barg, yaitu tepat pada MAWP dan tidak melampauinya, sesuai pertidaksamaan P_set ≤ MAWP [1].</p>
+<p>Saat gangguan terjadi, katup terbuka pada 10 barg dan tekanan saat relief penuh tidak pernah melewati 11 barg, yaitu MAWP 10 barg ditambah akumulasi 10 persen [1]. Sebaliknya, apabila relief valve disetel pada 12 barg dengan alasan mengurangi kebocoran, set pressure tersebut telah melampaui MAWP. Bejana akan pecah lebih dahulu sebelum katup sempat terbuka, dan alasan menghindari kebocoran tidak dapat membenarkan pelanggaran kode tersebut.</p>
+</section>
+<section>
+<h2>Margin operasi dan pengujian berkala di pabrik</h2>
+<p>Tekanan operasi tidak boleh menempel pada set pressure. Jarak aman sehari-hari dijaga dengan tekanan operasi lazimnya tidak lebih dari 90 persen set pressure, karena operasi yang terlalu dekat membuat katup bergetar dan bocor sebelum waktunya, gejala yang disebut simmer [2]. Sebaliknya, jarak yang terlalu jauh juga merugikan karena bejana harus didesain lebih tebal dari kebutuhan.</p>
+<p>Di pabrik, relief valve terpasang pada hampir setiap bejana tekan dan diperiksa tekanan bukanya, yaitu pop pressure, secara berkala [1][2]. Pengujian berkala tersebut adalah konsekuensi logis dari seluruh aturan angka dalam artikel ini: relief valve adalah perangkat keras yang kinerjanya harus dibuktikan, bukan simbol pada gambar yang diasumsikan bekerja. Salah mengurutkan tiga angka tekanan berarti salah memasang pengaman.</p>
+</section>
+<section class="factbox"><h2>Fakta kunci</h2><ul><li>Set pressure adalah tekanan saat relief valve mulai membuka dan ditentukan oleh pegas katup, bukan tekanan maksimum bejana.</li><li>MAWP adalah tekanan maksimum yang diizinkan bejana pada suhu desain dan ditentukan oleh desain bejana.</li><li>Aturan ASME Section VIII menyatakan set pressure tidak boleh melebihi MAWP, atau P_set ≤ MAWP.</li><li>Untuk satu katup, tekanan saat relief penuh maksimal MAWP ditambah 10 persen, sehingga bejana dengan MAWP 10 barg memiliki batas relief penuh 11 barg.</li><li>Tekanan operasi lazimnya dijaga tidak lebih dari 90 persen set pressure agar katup tidak bergetar dan bocor sebelum waktunya.</li></ul></section>
+<section><h2>Kesimpulannya</h2><p>Urutan tiga angka tekanan adalah rangkuman keselamatan bejana dalam satu baris: operasi di bawah set pressure, set pressure tidak di atas MAWP, dan relief penuh tidak melewati MAWP ditambah 10 persen. Contoh bejana 10 barg memperlihatkan bahwa seluruh aturan tersebut dapat diperiksa dengan aritmetika sederhana sebelum katup dipasang. Relief valve yang disetel terlalu tinggi sama berbahayanya dengan relief valve yang tidak dipasang, karena keduanya membiarkan bejana menghadapi tekanan berlebih tanpa perlindungan.</p></section>
+<section class="refs"><h2>Referensi</h2><ul><li>American Society of Mechanical Engineers. ASME Boiler and Pressure Vessel Code, Section VIII, Division 1: Rules for Construction of Pressure Vessels (UG-125, UG-134). ASME.</li><li>Towler, G., &amp; Sinnott, R. (2013). Chemical Engineering Design: Principles, Practice and Economics of Plant and Process Design (2nd ed.). Elsevier.</li><li>American Petroleum Institute. API Standard 520: Sizing, Selection, and Installation of Pressure-relieving Devices. API.</li><li>ASME Boiler and Pressure Vessel Code, Section VIII Division 1 (UG-125, UG-134: set pressure dan accumulation)</li><li>Towler, G. dan Sinnott, R., Chemical Engineering Design (sistem relief tekanan)</li></ul></section>
+<nav class="post-nav"><a href="/artikel/seligman-1923-plate-heat-exchanger/">&larr; Seligman 1923: Ahli Aluminium yang Mengubah Cara Susu Dipanaskan</a><a href="/artikel/cs12-gliserol-satu-ton-cpo/">CS-12 Cheat Sheet: Satu Ton CPO dan 104 Kilogram Gliserol &rarr;</a></nav>
+<div class="cta-box"><h2>Lanjut baca di Instagram</h2><p>Konten teknik kimia tiap hari: proses pabrik, safety, dan cara baca alat. Ditulis insinyur kimia ITB.</p><a class="btn" href="https://www.instagram.com/ilmutekkim" target="_blank" rel="noopener">Follow @ilmutekkim</a></div>
+</article>
+</main>
+<footer>
+  <div class="foot-brand">ilmu<span>tekkim</span></div>
+  <p>Kajian teknik kimia proses: unit operasi, alur pabrik, keselamatan proses, dan kecerdasan buatan. Ditulis oleh insinyur kimia lulusan Institut Teknologi Bandung.</p>
+  <p class="foot-btns"><a class="btn-ig" href="https://www.instagram.com/ilmutekkim" target="_blank" rel="noopener">Instagram @ilmutekkim</a> <a class="btn-ig" href="https://www.tiktok.com/@ilmutekkim" target="_blank" rel="noopener">TikTok @ilmutekkim</a></p>
+  <p class="foot-links"><a href="/">Beranda</a><span>&middot;</span><a href="/video/">Video</a><span>&middot;</span><a href="/riset/">Riset</a><span>&middot;</span><a href="/jalur/">Jalur</a><span>&middot;</span><a href="/glosarium/">Glosarium</a><span>&middot;</span><a href="/referensi/">Referensi</a><span>&middot;</span><a href="/kalkulator/">Kalkulator</a><span>&middot;</span><a href="/tentang/">Tentang</a></p>
+  <p class="fine">Artikel dan video di situs ini merupakan versi baca dan versi tonton dari konten Instagram @ilmutekkim. Foto berasal dari Pexels dan Unsplash, kredit tercantum di tiap gambar.</p>
+</footer>
+<script src="/assets/js/main.js?v=11"></script>
+</body>
+</html>

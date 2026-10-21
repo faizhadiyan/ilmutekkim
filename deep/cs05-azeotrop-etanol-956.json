@@ -1,0 +1,54 @@
+{
+ "lead": "Ada batas pemisahan yang tidak dapat dilewati dengan menambah tray atau menaikkan reflux, dan batas itu bernama azeotrop. Etanol dan air membentuk azeotrop titik didih minimum pada kadar 95,6 persen berat, tempat komposisi uap menjadi identik dengan komposisi cairan. Sesudah titik itu, setiap tray berhenti memperkaya apa pun, dan kolom distilasi biasa kehabisan cara.",
+ "hook_type": "Negativity",
+ "sections": [
+  {
+   "h": "Hukum Raoult termodifikasi dan penyimpangan positif etanol air",
+   "paras": [
+    "Kesetimbangan uap cair campuran etanol dan air tidak mengikuti hukum Raoult ideal, melainkan hukum Raoult yang dimodifikasi oleh koefisien aktivitas: y1 × P = γ1 × x1 × P1sat, dengan komponen 1 adalah etanol. Di sini y1 adalah fraksi mol etanol di fase uap, x1 fraksi molnya di fase cairan, γ1 koefisien aktivitas, dan P1sat tekanan uap jenuh etanol murni [3]. Koefisien aktivitas bernilai 1 pada campuran ideal, dan penyimpangannya dari 1 mengukur ketidakidealan campuran.",
+    "Etanol dan air menyimpang positif dari perilaku ideal, sehingga γ1 berada di atas 1. Penyimpangan positif menekan titik didih campuran ke bawah, dan pada komposisi tertentu tekanan uap campuran menjadi sedemikian tinggi sehingga campuran mendidih sebagai satu kesatuan. Titik itulah yang disebut azeotrop titik didih minimum, dan ia adalah sifat campuran, bukan batas kemampuan alat [1][2]."
+   ]
+  },
+  {
+   "h": "Titik azeotrop: uap dan cairan menjadi identik",
+   "paras": [
+    "Azeotrop etanol dan air berada pada kadar 95,6 persen berat dan mendidih pada 78,2°C, lebih rendah daripada titik didih etanol murni yang berada pada 78,4°C [1]. Pada komposisi itu berlaku y = x: komposisi uap yang terangkat dari cairan persis sama dengan komposisi cairan itu sendiri. Campuran mendidih tetap, seolah-olah ia adalah zat murni, dan distilasi kehilangan mekanisme pemisahannya.",
+    "Keadaan ini terbaca jelas pada diagram x-y etanol dan air pada tekanan 1 atm. Setiap anak tangga McCabe-Thiele pada diagram tersebut mewakili satu tray ideal yang memperkaya uap dari cairan. Makin dekat komposisi menuju titik azeotrop, anak tangga makin rapat, dan tepat di titik azeotrop anak tangga berhenti total karena kurva kesetimbangan menyentuh garis diagonal tempat y sama dengan x [2]."
+   ]
+  },
+  {
+   "h": "Mengapa tray dan reflux tambahan tidak mengubah hasil",
+   "paras": [
+    "Prinsip kerja tray hanya satu: membuat uap yang naik lebih kaya komponen ringan daripada cairan yang ditinggalkannya. Pengayaan per tahap inilah yang, ditumpuk dari tray ke tray, membawa distilat menuju kemurnian tinggi. Di titik azeotrop pengayaan itu bernilai nol, karena uap dan cairan identik, sehingga tidak ada tahap yang menaikkan kemurnian [2].",
+    "Konsekuensinya berlaku tanpa kecuali pada dua tuas yang biasa dipakai mahasiswa. Menambah tray berarti menambah tahap dengan pengayaan nol, dan memperbesar reflux berarti mengulang titik macet yang sama lebih sering. Keduanya menghabiskan biaya dan energi tanpa menggeser komposisi produk satu pun. Batas 95,6 persen adalah sifat campuran etanol dan air pada tekanan tersebut, bukan kekurangan kolomnya [1]."
+   ]
+  },
+  {
+   "h": "Contoh neraca massa: 100 kg umpan berkadar 40 persen",
+   "paras": [
+    "Neraca massa memperlihatkan konsekuensi batas itu dalam angka. Umpan F sebesar 100 kg/jam berkadar etanol 40 persen berat didistilasi dengan distilat pada komposisi azeotrop 95,6 persen dan bottoms berkadar 0,1 persen. Persamaan yang dipakai adalah neraca total D + B = 100 dan neraca etanol F × z = D × xD + B × xB, yaitu 0,956D + 0,001B = 40, dengan z dan x menyatakan fraksi berat etanol [1].",
+    "Penyelesaiannya berjalan dua langkah. Dari neraca total diperoleh B = 100 - D, yang disubstitusikan ke neraca etanol menjadi 0,956D + 0,001(100 - D) = 40, atau 0,955D = 39,9. Hasilnya D = 41,8 kg/jam dan B = 58,2 kg/jam. Artinya, dari 100 kg umpan, produk terbanyak yang dapat diambil sebagai distilat azeotrop hanyalah 41,8 kg, dan komposisinya tetap terkunci pada 95,6 persen."
+   ]
+  },
+  {
+   "h": "Jalan industri melewati batas: rantai produksi dan molecular sieve",
+   "paras": [
+    "Rantai produksi etanol bahan bakar menunjukkan letak batas itu di pabrik nyata. Fermentasi tetes tebu menghasilkan bir berkadar 10 persen, kolom bir menaikkannya menjadi 40 persen, dan rektifikasi membawanya sampai berhenti pada 95,6 persen. Etanol untuk bahan bakar dituntut berada di atas 99 persen, sehingga kolom biasa tidak cukup dan pabrik menambahkan tahap yang bekerja dengan prinsip berbeda [1][2].",
+    "Tahap tambahan itu adalah molecular sieve 3A, yang menyerap air dan mengangkat kadar produk menjadi 99,5 persen. Pemisahannya berdasarkan ukuran molekul, bukan titik didih, sehingga batas azeotrop tidak berlaku baginya. Dua petunjuk lain perlu dikenali pada soal dan praktik: komposisi azeotrop bergeser mengikuti tekanan, yang dimanfaatkan pressure swing distillation, dan penyebutan zat seperti sikloheksana atau benzena menandakan jalur entrainer. Produk berkadar 99,5 persen kemudian disimpan di tangki sebelum dicampur ke bahan bakar."
+   ]
+  }
+ ],
+ "facts": [
+  "Azeotrop etanol dan air berada pada kadar 95,6 persen berat dengan titik didih 78,2°C, lebih rendah daripada titik didih etanol murni 78,4°C.",
+  "Pada titik azeotrop berlaku y = x, sehingga tray tidak menambah kemurnian apa pun.",
+  "Kesetimbangan etanol dan air mengikuti hukum Raoult termodifikasi, y1 × P = γ1 × x1 × P1sat, dengan penyimpangan positif dari perilaku ideal.",
+  "Umpan 100 kg/jam berkadar 40 persen menghasilkan distilat azeotrop maksimum 41,8 kg/jam dan bottoms 58,2 kg/jam.",
+  "Molecular sieve 3A mengangkat etanol dari 95,6 persen menjadi 99,5 persen dengan menyerap air berdasarkan ukuran molekul."
+ ],
+ "closing": "Azeotrop mengajarkan batas yang tidak dapat dinegosiasikan oleh jumlah tray: apabila uap dan cairan telah identik, distilasi berhenti menjadi alat pemisah. Mengenali titik 95,6 persen sejak awal mengubah seluruh keputusan sesudahnya, dari cara menjawab soal sampai cara pabrik menyusun rantai produksinya, yaitu menutup kolom pada batasnya dan menyerahkan langkah terakhir kepada molecular sieve.",
+ "refs": [
+  "Green, D. W., & Southard, M. Z. (Eds.). (2019). Perry's Chemical Engineers' Handbook (9th ed.). McGraw-Hill Education.",
+  "Seader, J. D., Henley, E. J., & Roper, D. K. (2016). Separation Process Principles (4th ed.). John Wiley & Sons.",
+  "Smith, J. M., Van Ness, H. C., Abbott, M. M., & Swihart, M. T. (2018). Introduction to Chemical Engineering Thermodynamics (8th ed.). McGraw-Hill Education."
+ ]
+}
