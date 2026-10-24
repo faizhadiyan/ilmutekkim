@@ -1,0 +1,54 @@
+{
+ "lead": "Sebagian besar angka suhu yang tampil di ruang kendali pabrik lahir dari dua kawat logam yang dilas pada satu titik, tanpa baterai dan tanpa elemen pemanas. Prinsipnya ditemukan pada tahun 1821, ketika sebuah kompas menyimpang di dekat rangkaian logam yang dipanaskan, dan prinsip yang sama tetap bekerja pada sensor suhu industri sampai saat ini.",
+ "hook_type": "Curiosity",
+ "sections": [
+  {
+   "h": "Dari pembacaan manual di lapangan menuju sinyal di ruang kendali",
+   "paras": [
+    "Sebelum sensor elektronik tersebar, suhu proses dibaca dari termometer yang dipasang di lapangan, kemudian dicatat secara manual oleh operator. Cara tersebut lambat, bergantung pada kehadiran petugas di titik ukur, dan tidak menyediakan sinyal berkelanjutan untuk alarm serta pengendalian otomatis.",
+    "Termokopel mengubah keadaan tersebut. Sepasang kawat logam mengirim sinyal listrik ke ruang kendali, dan angka suhu muncul di layar DCS secara otomatis [1]. Perubahan ini tampak sederhana, namun akibatnya besar: suhu menjadi variabel yang dapat dipantau, dicatat, dan dikendalikan setiap saat, bukan hanya pada saat operator berkeliling."
+   ]
+  },
+  {
+   "h": "Penemuan tahun 1821: kompas yang menyimpang di dekat logam panas",
+   "paras": [
+    "Pada tahun 1821, Thomas Johann Seebeck merangkai tembaga dan bismut dalam satu loop tertutup. Ketika satu sambungan dipanaskan, jarum kompas di dekat rangkaian menyimpang. Seebeck menafsirkan gejala itu sebagai efek termomagnetik, yaitu kemagnetan yang ditimbulkan oleh panas [3].",
+    "Penafsiran tersebut kemudian dikoreksi. Ørsted membuktikan bahwa yang mengalir di dalam loop adalah arus listrik, bukan kemagnetan yang bekerja langsung pada jarum. Dengan koreksi itu, gejala yang diamati Seebeck dipahami sebagai pembangkitan tegangan oleh perbedaan suhu pada dua logam yang berbeda, dan efeknya disebut efek Seebeck [3]."
+   ]
+  },
+  {
+   "h": "Anatomi termokopel: dua kawat dan dua sambungan",
+   "paras": [
+    "Termokopel modern tersusun dari dua kawat logam yang berbeda, dilas pada ujung ukur yang disebut hot junction atau sambungan panas. Ujung yang lain terhubung ke alat ukur dan disebut cold junction atau sambungan dingin. Sambungan panas ditempatkan pada suhu proses, sedangkan sambungan dingin berada pada suhu referensi di alat ukur [1].",
+    "Pasangan yang paling umum di industri adalah tipe K, yang tersusun dari chromel dan alumel. Chromel merupakan paduan nikel dan kromium, sedangkan alumel merupakan paduan nikel dan aluminium [2]. Tipe K dipilih secara luas karena harganya murah dan rentang ukurnya lebar, sebagaimana ditunjukkan pada perhitungan di seksi berikut."
+   ]
+  },
+  {
+   "h": "Persamaan Seebeck dan contoh perhitungan tipe K",
+   "paras": [
+    "Hubungan dasarnya ditulis sebagai V = S x ΔT, dengan V adalah tegangan yang terbangkit, S adalah sensitivitas atau koefisien Seebeck, dan ΔT adalah beda suhu antara sambungan panas dan sambungan dingin. Untuk tipe K, nilai S sekitar 41 µV/°C, artinya setiap beda suhu sebesar 1 °C menghasilkan tegangan sekitar 41 mikrovolt [1][2].",
+    "Contoh perhitungan dari sumber dikerjakan sebagai berikut. Langkah pertama, tuliskan beda suhu yang diukur, yaitu ΔT = 500 °C. Langkah kedua, kalikan dengan sensitivitas tipe K: 41 µV/°C x 500 °C = 20.500 µV. Langkah ketiga, ubah satuannya menjadi milivolt: 20.500 µV sama dengan 20,5 mV. Tegangan sebesar itulah yang dibaca voltmeter pada alat ukur, kemudian diubah menjadi angka suhu dengan tabel referensi [2]. Rentang khas tipe K membentang dari minus 200 °C sampai 1.350 °C [1]."
+   ]
+  },
+  {
+   "h": "Koreksi sambungan dingin dan kesalahan yang sering terjadi",
+   "paras": [
+    "Konsekuensi terpenting dari persamaan tersebut adalah termokopel mengukur beda suhu, bukan suhu mutlak. Tegangan yang terbaca selalu merupakan selisih antara suhu sambungan panas dan suhu sambungan dingin. Apabila suhu sambungan dingin berubah dan tidak dikoreksi, angka suhu yang tampil ikut bergeser sebesar perubahan itu [1].",
+    "Karena itu, alat ukur modern dilengkapi kompensasi cold junction, yaitu koreksi otomatis atas suhu ujung dinginnya sendiri. Tanpa koreksi tersebut, pembacaan meleset meskipun sambungan panas dan kedua kawat berada dalam keadaan baik. Kesalahan umum di lapangan adalah memperlakukan angka termokopel sebagai suhu mutlak tanpa memastikan kompensasi sambungan dingin bekerja, padahal koreksi inilah yang membuat angka di layar dapat dipercaya [1][2]."
+   ]
+  }
+ ],
+ "facts": [
+  "Efek Seebeck ditemukan pada tahun 1821 oleh Thomas Johann Seebeck melalui rangkaian tembaga dan bismut yang salah satu sambungannya dipanaskan.",
+  "Jarum kompas yang menyimpang pada percobaan Seebeck disebabkan oleh arus listrik, sebagaimana dibuktikan oleh Ørsted, bukan oleh efek magnet langsung.",
+  "Termokopel tipe K tersusun dari chromel (paduan nikel dan kromium) dan alumel (paduan nikel dan aluminium), dengan rentang khas minus 200 °C sampai 1.350 °C.",
+  "Sensitivitas tipe K sekitar 41 µV/°C, sehingga beda suhu 500 °C menghasilkan tegangan sekitar 20,5 mV.",
+  "Termokopel mengukur beda suhu antara sambungan panas dan sambungan dingin, sehingga alat ukur wajib menerapkan kompensasi cold junction."
+ ],
+ "closing": "Dua kawat logam yang dilas pada satu titik tetap menjadi tulang punggung pengukuran suhu pabrik karena prinsipnya sederhana, konstruksinya kokoh, dan sinyalnya lahir langsung dari beda suhu tanpa sumber daya tambahan. Setiap angka suhu di layar ruang kendali merupakan kelanjutan dari percobaan tahun 1821: beda suhu diubah menjadi tegangan, tegangan diubah menjadi angka, dan angka itu menjadi dasar alarm, pengendalian, dan proteksi proses.",
+ "refs": [
+  "International Electrotechnical Commission. IEC 60584-1: Thermocouples, Part 1: EMF Specifications and Tolerances. IEC.",
+  "National Institute of Standards and Technology. ITS-90 Thermocouple Database: Type K (Chromel-Alumel). NIST.",
+  "National Aeronautics and Space Administration. What is the Seebeck Effect. NASA Science."
+ ]
+}
