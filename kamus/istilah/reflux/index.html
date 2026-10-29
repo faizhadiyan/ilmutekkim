@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reflux — Kamus Industri Kimia IlmuTekkim</title>
+<meta name="description" content="Reflux adalah sebagian cairan hasil kondensasi uap puncak kolom yang dikembalikan ke dalam kolom. Cairan ini mengalir turun dan berkontak berlawanan arah d">
+<link rel="canonical" href="https://ilmutekkim.site">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/kamus/assets/kamus.css">
+<link rel="stylesheet" href="/kamus/assets/chat.css">
+<script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+<header class="khead"><div class="wrap">
+<a class="brand" href="/kamus/">ilmu<span>tekkim</span> · Kamus</a>
+<nav>
+<a href="/kamus/">Kamus</a><a href="/">Beranda Situs</a><a href="/artikel/">Artikel</a>
+<a href="/video/">Video</a><a href="/glosarium/">Glosarium</a><a href="/jalur/">Jalur Belajar</a>
+</nav></div></header>
+
+<div class="wrap">
+<div class="crumbs"><a href="/kamus/">Kamus</a> › Unit Operasi &amp; Separasi › Reflux</div>
+<div class="termhead"><h1>Reflux</h1>
+<div class="badges"><span class="badge ver">Glosarium terverifikasi</span>
+<span class="badge fon">Unit Operasi &amp; Separasi</span><a class="badge sec" href="/kamus/sektor/kilang-migas/">Kilang &amp; Migas</a><a class="badge sec" href="/kamus/sektor/oleokimia/">Oleokimia</a><a class="badge sec" href="/kamus/sektor/petrokimia/">Petrokimia</a></div></div>
+
+<div class="l0"><h2>Definisi</h2><p>Reflux adalah sebagian cairan hasil kondensasi uap puncak kolom yang dikembalikan ke dalam kolom. Cairan ini mengalir turun dan berkontak berlawanan arah dengan uap yang naik, menyediakan fase cair yang diperlukan untuk memperkaya pemisahan pada setiap tray.</p>
+<div class="analogi"><strong>Analogi:</strong> Reflux serupa dengan mengulang pemeriksaan pada setiap anak tangga: sebagian hasil yang sudah naik dikirim turun kembali agar pemisahan pada tangga berikutnya menjadi lebih tajam.</div></div>
+
+<div class="seg" role="tablist" aria-label="Level kedalaman">
+<button type="button" data-lv="awam">Awam</button>
+<button type="button" data-lv="tekkim" class="on">Tekkim</button>
+<button type="button" data-lv="plant">Plant</button>
+<button type="button" data-lv="semua">Semua</button>
+</div>
+<p class="note">Pilih level kedalaman: Awam menampilkan lapis inti konsep pada kedalaman pengantar,
+Tekkim menampilkan lapis mekanisme dan persamaan, Plant menampilkan lapis penerapan di pabrik.
+Definisi selalu ditampilkan pada setiap level.</p>
+
+<section class="layer" data-layer="tekkim"><h2>Lapis Tekkim — Mekanisme dan Prinsip</h2>
+<h3>Mekanisme</h3><p>Tanpa reflux, bagian atas kolom kekurangan cairan dan kontak uap dan cair tidak terbentuk. Reflux menyediakan aliran cair internal; semakin besar alirannya, komposisi pada setiap tray semakin dekat ke kesetimbangan ideal dan jumlah tray yang diperlukan untuk kemurnian tertentu semakin sedikit.</p>
+<h3>Prinsip dan Persamaan Kunci</h3><p>Rasio reflux menghubungkan aliran cair internal dengan produk yang diambil. Pada reflux minimum, jumlah tray yang diperlukan menjadi tak hingga; pada reflux total, tidak ada produk yang diambil dan jumlah tray mencapai minimum.</p><div class="eq"><div class="rumus">R = L / D</div><div class="simbol">R = rasio reflux; L = laju mol cairan yang dikembalikan; D = laju mol distilat yang diambil.</div><div class="asumsi">Asumsi: Definisi berlaku untuk reflux eksternal pada kondensor total.</div></div><div class="eq"><div class="rumus">R<sub>operasi</sub> &asymp; 1,1 s.d. 1,5 &times; R<sub>min</sub></div><div class="simbol">R_min = rasio reflux minimum dari perhitungan pintas, misalnya metode Underwood.</div><div class="asumsi">Asumsi: Kisaran heuristik textbook untuk titik awal optimasi ekonomi; nilai optimum sesungguhnya ditentukan oleh biaya energi dan biaya kolom.</div></div>
+<h3>Variabel Operasi dan Sensitivitas</h3>
+<p class="note">Seluruh rentang adalah rentang umum textbook, bukan data plant.</p>
+<table class="sens"><thead><tr><th>Variabel</th><th>Rentang Umum</th><th>Arah Perubahan</th><th>Efek dan Alasannya</th></tr></thead>
+<tbody><tr><td><strong>Rasio reflux</strong></td><td>Umumnya sedikit di atas R_min; kolom pemisah berat dapat beroperasi pada R di atas 5 (rentang umum textbook, bukan data plant)</td><td><span class="up">↑ naik</span></td><td>kemurnian distilat meningkat dan jumlah tray yang dibutuhkan menurun, karena kontak uap dan cair per tray menjadi lebih efektif; beban reboiler dan kondensor naik hampir sebanding.</td></tr><tr><td><strong>Kondisi termal umpan (q)</strong></td><td>q = 0 untuk uap jenuh s.d. q = 1 untuk cair jenuh (rentang umum textbook, bukan data plant)</td><td><span class="up">↑ naik</span></td><td>aliran cair internal di bawah titik umpan bertambah, karena fraksi cair umpan langsung bergabung dengan aliran turun.</td></tr></tbody></table>
+<h3>Batas Operasi dan Mode Kegagalan</h3><ul class="tight"><li>Reflux di bawah R_min: kemurnian target tidak tercapai berapapun jumlah tray yang tersedia.</li><li>Reflux berlebihan: kolom mendekati flooding dan konsumsi energi naik tanpa tambahan kemurnian yang berarti.</li><li>Gangguan kondensor menurunkan reflux aktual meskipun set point tidak berubah.</li></ul></section>
+
+<section class="layer" data-layer="plant"><h2>Lapis Plant — Biaya, Diagnosis, dan Contoh</h2>
+<h3>Pendorong Biaya dan Efisiensi</h3><ul class="tight"><li>Setiap kenaikan rasio reflux menaikkan konsumsi steam reboiler dan air pendingin kondensor secara langsung.</li><li>Reflux adalah tuas kemurnian termurah dari sisi modal, tetapi termahal dari sisi energi harian.</li></ul>
+<h3>Daftar Periksa Diagnosis Sebab-Akibat</h3>
+<table class="sens check"><thead><tr><th>Gejala</th><th>Penyebab yang Mungkin</th><th>Tindakan Pemeriksaan</th></tr></thead>
+<tbody><tr><td>Kemurnian naik tetapi konsumsi steam melonjak</td><td>Rasio reflux berada jauh di atas titik optimum ekonomi</td><td>Turunkan reflux bertahap sambil memantau kemurnian produk terhadap spesifikasi.</td></tr><tr><td>Kemurnian turun mendadak</td><td>Kondensor kehilangan kapasitas atau pompa reflux terganggu</td><td>Periksa suhu keluar kondensor dan aliran aktual reflux, bukan hanya sinyal kontrol.</td></tr></tbody></table>
+<div class="contoh"><strong>Contoh hitungan (angka textbook):</strong> Contoh textbook: apabila R_min suatu pemisahan adalah 2,0, titik operasi awal yang lazim adalah R sekitar 2,2 s.d. 3,0. Menaikkan R dari 2,4 menjadi 4,0 menaikkan laju uap internal dan beban panas kira-kira sebanding dengan kenaikan (R+1), yaitu dari 3,4 menjadi 5,0 satuan relatif, atau naik sekitar 47 persen, sementara tambahan kemurnian umumnya sudah mengecil.</div>
+</section>
+
+<section class="layer" data-layer="awam"><h2>Mulai dari Sini</h2>
+<p>Untuk pembaca yang baru pertama kali menemui istilah ini, definisi dan analogi pada bagian atas
+halaman adalah ringkasan yang memadai. Lapis Tekkim menambahkan mekanisme, persamaan, dan variabel
+yang menentukan perilaku konsep ini, sedangkan Lapis Plant menunjukkan penerapannya pada operasi pabrik.</p></section>
+
+<section class="blk"><h2>Istilah Terkait</h2><div class="chips"><a class="chip" href="/kamus/istilah/distilasi/">Distilasi</a><a class="chip" href="/kamus/istilah/flooding/">Flooding</a><a class="chip" href="/kamus/istilah/distilasi-atmosferik-cdu/">Distilasi Atmosferik Minyak Mentah (CDU)</a></div></section>
+<section class="blk refs"><h2>Referensi</h2><ul class="tight"><li>Geankoplis, C.J., Transport Processes and Separation Process Principles, Prentice Hall.</li><li>Kister, H.Z., Distillation Design, McGraw-Hill.</li><li>Coulson, J.M. &amp; Richardson, J.F., Chemical Engineering, Butterworth-Heinemann.</li></ul>
+<p>Terakhir diperbarui: 2026-10-29 · Sumber entri: Glosarium terverifikasi IlmuTekkim.
+Seluruh angka adalah rentang umum textbook, bukan data plant.</p></section>
+
+<div class="foot">Kamus Industri Kimia — bagian dari <a href="/">ilmutekkim.site</a>.
+Seluruh angka operasi pada kamus ini adalah rentang umum textbook, bukan data plant atau data perusahaan mana pun.</div>
+</div>
+<script src="/kamus/assets/chat.js" defer></script>
+</body>
+</html>
+
+<script>
+document.querySelectorAll('.seg button').forEach(function(b){
+  b.addEventListener('click',function(){
+    document.querySelectorAll('.seg button').forEach(function(x){x.classList.toggle('on',x===b);});
+    var lv=b.getAttribute('data-lv');
+    document.querySelectorAll('[data-layer]').forEach(function(el){
+      var l=el.getAttribute('data-layer');
+      el.style.display = (lv==='semua' || l===lv) ? '' : 'none';
+    });
+  });
+});
+var def=document.querySelector('.seg button[data-lv="tekkim"]');
+if(def){def.click();}
+</script>

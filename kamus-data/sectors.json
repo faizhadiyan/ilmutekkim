@@ -1,0 +1,190 @@
+{
+ "sectors": [
+  {
+   "slug": "oleokimia",
+   "nama": "Oleokimia",
+   "tagline": "Turunan minyak nabati menjadi asam lemak, gliserin, alkohol lemak, dan biodiesel.",
+   "deskripsi": "Sektor oleokimia mengolah trigliserida dari minyak sawit, minyak inti sawit, dan minyak nabati lain melalui hidrolisis, transesterifikasi, hidrogenasi, dan pemurnian bertingkat. Produknya menjadi bahan baku sabun, deterjen, kosmetik, pangan, dan biodiesel.",
+   "aliran": "Minyak nabati masuk sebagai trigliserida, dipecah atau ditukar gugus alkoholnya, kemudian dimurnikan menurut titik didih dan titik leleh fraksinya.",
+   "flow": [
+    {
+     "label": "Minyak Nabati (Trigliserida)",
+     "slug": null
+    },
+    {
+     "label": "Splitting / Hidrolisis",
+     "slug": "splitting"
+    },
+    {
+     "label": "Asam Lemak + Gliserin",
+     "slug": "ffa-dan-acid-value"
+    },
+    {
+     "label": "Distilasi Asam Lemak",
+     "slug": "distilasi"
+    },
+    {
+     "label": "Hidrogenasi",
+     "slug": "hidrogenasi"
+    },
+    {
+     "label": "Transesterifikasi ke Biodiesel",
+     "slug": "transesterifikasi"
+    }
+   ],
+   "bahan": "CPO, minyak inti sawit, stearin, PFAD, metanol, hidrogen, katalis nikel.",
+   "produk": "Asam lemak, gliserin, fatty alcohol, metil ester (biodiesel), sabun dan surfaktan."
+  },
+  {
+   "slug": "kilang-migas",
+   "nama": "Kilang & Migas",
+   "tagline": "Pemisahan dan konversi minyak mentah menjadi bahan bakar dan bahan baku petrokimia.",
+   "deskripsi": "Kilang minyak memisahkan minyak mentah berdasarkan fraksi titik didih, kemudian mengonversi fraksi berat menjadi produk ringan bernilai lebih tinggi melalui perengkahan katalitik, reforming, dan hydrotreating.",
+   "aliran": "Minyak mentah dipanaskan dan dipisahkan di kolom distilasi atmosferik; residu berat diolah lebih lanjut di unit konversi seperti FCC.",
+   "flow": [
+    {
+     "label": "Minyak Mentah",
+     "slug": null
+    },
+    {
+     "label": "Desalter + Furnace",
+     "slug": "heat-exchanger-dan-lmtd"
+    },
+    {
+     "label": "Distilasi Atmosferik (CDU)",
+     "slug": "distilasi-atmosferik-cdu"
+    },
+    {
+     "label": "Fraksi Nafta, Kerosin, Solar",
+     "slug": "distilasi"
+    },
+    {
+     "label": "Residu / VGO",
+     "slug": null
+    },
+    {
+     "label": "FCC",
+     "slug": "fcc-fluid-catalytic-cracking"
+    },
+    {
+     "label": "Bensin + LPG",
+     "slug": "absorpsi-dan-stripping"
+    }
+   ],
+   "bahan": "Minyak mentah, hidrogen, katalis FCC, steam, gas alam.",
+   "produk": "LPG, bensin, avtur, solar, minyak bakar, aspal, nafta petrokimia, propilena."
+  },
+  {
+   "slug": "petrokimia",
+   "nama": "Petrokimia",
+   "tagline": "Perengkahan hidrokarbon menjadi olefin dan aromatik, kemudian polimer dan bahan kimia dasar.",
+   "deskripsi": "Petrokimia mengubah nafta dan gas alam menjadi etilena, propilena, dan aromatik melalui steam cracking, kemudian mengolahnya menjadi polimer, pelarut, dan bahan kimia antara melalui reaksi terkendali.",
+   "aliran": "Umpan hidrokarbon dipecah pada suhu sangat tinggi dalam waktu sangat singkat, didinginkan cepat, dipisahkan, lalu dipolimerisasi atau direaksikan menjadi produk akhir.",
+   "flow": [
+    {
+     "label": "Nafta / Etana",
+     "slug": null
+    },
+    {
+     "label": "Steam Cracking",
+     "slug": "steam-cracking"
+    },
+    {
+     "label": "Etilena + Propilena",
+     "slug": "distilasi"
+    },
+    {
+     "label": "Reaktor Polimerisasi",
+     "slug": "reaktor-konversi-selektivitas"
+    },
+    {
+     "label": "Polimerisasi",
+     "slug": "polimerisasi"
+    },
+    {
+     "label": "Resin Plastik",
+     "slug": null
+    }
+   ],
+   "bahan": "Nafta, etana, propana, steam, katalis Ziegler-Natta dan metalosena.",
+   "produk": "Polietilena, polipropilena, PVC, stirena, glikol, pelarut dan resin."
+  }
+ ],
+ "fondasi": [
+  {
+   "slug": "unit-operasi",
+   "nama": "Unit Operasi & Separasi"
+  },
+  {
+   "slug": "equipment",
+   "nama": "Equipment"
+  },
+  {
+   "slug": "utilitas",
+   "nama": "Utilitas & Energi"
+  },
+  {
+   "slug": "lab-qc",
+   "nama": "Lab & QC"
+  },
+  {
+   "slug": "safety",
+   "nama": "Safety"
+  },
+  {
+   "slug": "ekonomi",
+   "nama": "Ekonomi Proses"
+  }
+ ],
+ "sector_terms": {
+  "oleokimia": [
+   "distilasi",
+   "reflux",
+   "heat-exchanger-dan-lmtd",
+   "fouling",
+   "pompa-kavitasi-npsh",
+   "neraca-massa",
+   "reaktor-konversi-selektivitas",
+   "cooling-tower",
+   "steam-dan-utilitas",
+   "relief-valve",
+   "splitting",
+   "transesterifikasi",
+   "ffa-dan-acid-value",
+   "hidrogenasi"
+  ],
+  "kilang-migas": [
+   "distilasi",
+   "reflux",
+   "flooding",
+   "heat-exchanger-dan-lmtd",
+   "fouling",
+   "pompa-kavitasi-npsh",
+   "neraca-massa",
+   "reaktor-konversi-selektivitas",
+   "cooling-tower",
+   "absorpsi-dan-stripping",
+   "steam-dan-utilitas",
+   "relief-valve",
+   "distilasi-atmosferik-cdu",
+   "fcc-fluid-catalytic-cracking"
+  ],
+  "petrokimia": [
+   "distilasi",
+   "reflux",
+   "flooding",
+   "heat-exchanger-dan-lmtd",
+   "fouling",
+   "pompa-kavitasi-npsh",
+   "neraca-massa",
+   "reaktor-konversi-selektivitas",
+   "cooling-tower",
+   "absorpsi-dan-stripping",
+   "steam-dan-utilitas",
+   "relief-valve",
+   "transesterifikasi",
+   "steam-cracking",
+   "polimerisasi"
+  ]
+ }
+}

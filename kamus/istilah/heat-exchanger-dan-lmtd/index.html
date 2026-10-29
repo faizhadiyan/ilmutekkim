@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Heat Exchanger dan LMTD — Kamus Industri Kimia IlmuTekkim</title>
+<meta name="description" content="Heat exchanger adalah alat untuk memindahkan panas antara dua fluida tanpa mencampurnya. LMTD (log mean temperature difference) adalah beda suhu rata-rata ">
+<link rel="canonical" href="https://ilmutekkim.site">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/kamus/assets/kamus.css">
+<link rel="stylesheet" href="/kamus/assets/chat.css">
+<script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+<header class="khead"><div class="wrap">
+<a class="brand" href="/kamus/">ilmu<span>tekkim</span> · Kamus</a>
+<nav>
+<a href="/kamus/">Kamus</a><a href="/">Beranda Situs</a><a href="/artikel/">Artikel</a>
+<a href="/video/">Video</a><a href="/glosarium/">Glosarium</a><a href="/jalur/">Jalur Belajar</a>
+</nav></div></header>
+
+<div class="wrap">
+<div class="crumbs"><a href="/kamus/">Kamus</a> › Equipment › Heat Exchanger dan LMTD</div>
+<div class="termhead"><h1>Heat Exchanger dan LMTD</h1>
+<div class="badges"><span class="badge ver">Glosarium terverifikasi</span>
+<span class="badge fon">Equipment</span><a class="badge sec" href="/kamus/sektor/kilang-migas/">Kilang &amp; Migas</a><a class="badge sec" href="/kamus/sektor/oleokimia/">Oleokimia</a><a class="badge sec" href="/kamus/sektor/petrokimia/">Petrokimia</a></div></div>
+
+<div class="l0"><h2>Definisi</h2><p>Heat exchanger adalah alat untuk memindahkan panas antara dua fluida tanpa mencampurnya. LMTD (log mean temperature difference) adalah beda suhu rata-rata logaritmik yang menjadi gaya dorong perpindahan panas di sepanjang alat, karena beda suhu kedua fluida berubah dari ujung ke ujung.</p>
+<div class="analogi"><strong>Analogi:</strong> Perpindahan panas di dalam heat exchanger serupa dengan mengosongkan tangki melalui lubang yang mengecil: lajunya besar pada awal ketika beda suhu besar, kemudian melambat ketika beda suhu mengecil; LMTD adalah rata-rata yang mewakili seluruh proses tersebut.</div></div>
+
+<div class="seg" role="tablist" aria-label="Level kedalaman">
+<button type="button" data-lv="awam">Awam</button>
+<button type="button" data-lv="tekkim" class="on">Tekkim</button>
+<button type="button" data-lv="plant">Plant</button>
+<button type="button" data-lv="semua">Semua</button>
+</div>
+<p class="note">Pilih level kedalaman: Awam menampilkan lapis inti konsep pada kedalaman pengantar,
+Tekkim menampilkan lapis mekanisme dan persamaan, Plant menampilkan lapis penerapan di pabrik.
+Definisi selalu ditampilkan pada setiap level.</p>
+
+<section class="layer" data-layer="tekkim"><h2>Lapis Tekkim — Mekanisme dan Prinsip</h2>
+<h3>Mekanisme</h3><p>Panas berpindah secara konveksi dari fluida panas ke dinding, konduksi melalui dinding, lalu konveksi ke fluida dingin. Laju perpindahan dibatasi oleh gabungan ketiga tahanan tersebut, dinyatakan sebagai koefisien perpindahan panas keseluruhan U.</p>
+<h3>Prinsip dan Persamaan Kunci</h3><p>Luas permukaan yang diperlukan berbanding terbalik dengan U dan LMTD. Konfigurasi aliran berlawanan arah memberikan LMTD terbesar dan memungkinkan temperature approach yang lebih rapat daripada aliran searah.</p><div class="eq"><div class="rumus">Q = U &times; A &times; &Delta;T<sub>lm</sub></div><div class="simbol">Q = beban panas (W); U = koefisien perpindahan panas keseluruhan (W/m2.K); A = luas permukaan (m2); deltaT_lm = LMTD (K).</div><div class="asumsi">Asumsi: U konstan di sepanjang alat dan tidak ada perubahan fase, atau perubahan fase ditangani per zona.</div></div><div class="eq"><div class="rumus">&Delta;T<sub>lm</sub> = (&Delta;T<sub>1</sub> &minus; &Delta;T<sub>2</sub>) / ln(&Delta;T<sub>1</sub> / &Delta;T<sub>2</sub>)</div><div class="simbol">deltaT_1 dan deltaT_2 = beda suhu kedua fluida pada ujung panas dan ujung dingin.</div><div class="asumsi">Asumsi: Untuk aliran berlawanan arah murni; susunan multipass memerlukan faktor koreksi F.</div></div>
+<h3>Variabel Operasi dan Sensitivitas</h3>
+<p class="note">Seluruh rentang adalah rentang umum textbook, bukan data plant.</p>
+<table class="sens"><thead><tr><th>Variabel</th><th>Rentang Umum</th><th>Arah Perubahan</th><th>Efek dan Alasannya</th></tr></thead>
+<tbody><tr><td><strong>Temperature approach ujung dingin</strong></td><td>Umumnya 5 s.d. 20 K untuk penukar cair-cair (rentang umum textbook, bukan data plant)</td><td><span class="down">↓ turun</span></td><td>pemulihan panas meningkat, karena fluida dingin dapat dipanaskan lebih dekat ke suhu fluida panas; luas permukaan yang dibutuhkan naik tajam.</td></tr><tr><td><strong>Kecepatan fluida dalam tube</strong></td><td>Umumnya 1 s.d. 2,5 m/s untuk cairan dalam tube (rentang umum textbook, bukan data plant)</td><td><span class="up">↑ naik</span></td><td>koefisien konveksi dan U naik serta fouling berkurang, karena aliran lebih turbulen; penurunan tekanan dan biaya pompa ikut naik.</td></tr><tr><td><strong>Faktor fouling</strong></td><td>Bertambah seiring waktu operasi (rentang umum textbook, bukan data plant)</td><td><span class="up">↑ naik</span></td><td>U efektif menurun sehingga suhu keluar menyimpang dari target, karena lapisan deposit menambah tahanan panas.</td></tr></tbody></table>
+<h3>Batas Operasi dan Mode Kegagalan</h3><ul class="tight"><li>Temperature cross yang tidak terdeteksi pada desain multipass tanpa faktor koreksi F.</li><li>Vibrasi dan kebocoran tube akibat kecepatan dan penyangga yang tidak memadai.</li><li>Kinerja menurun progresif karena fouling hingga memaksa penghentian untuk pembersihan.</li></ul></section>
+
+<section class="layer" data-layer="plant"><h2>Lapis Plant — Biaya, Diagnosis, dan Contoh</h2>
+<h3>Pendorong Biaya dan Efisiensi</h3><ul class="tight"><li>Jaringan heat exchanger menentukan konsumsi bahan bakar furnace: setiap panas yang tidak dipulihkan dari aliran panas harus dibayar sebagai bahan bakar.</li><li>Penurunan tekanan yang berlebihan menaikkan biaya pompa dan kompresor.</li></ul>
+<h3>Daftar Periksa Diagnosis Sebab-Akibat</h3>
+<table class="sens check"><thead><tr><th>Gejala</th><th>Penyebab yang Mungkin</th><th>Tindakan Pemeriksaan</th></tr></thead>
+<tbody><tr><td>Suhu keluar fluida dingin menurun perlahan selama berminggu-minggu</td><td>Fouling progresif pada permukaan perpindahan panas</td><td>Bandingkan U aktual dengan U awal operasi untuk memutuskan jadwal pembersihan.</td></tr><tr><td>Suhu keluar berubah mendadak</td><td>Perubahan laju alir, bypass terbuka, atau kebocoran internal</td><td>Periksa posisi bypass dan keseimbangan aliran kedua sisi.</td></tr></tbody></table>
+<div class="contoh"><strong>Contoh hitungan (angka textbook):</strong> Contoh hitungan: beban panas 2.000 kW, U = 500 W/m2.K, dan LMTD = 40 K memerlukan luas A = 2.000.000 / (500 x 40) = 100 m2. Apabila fouling menurunkan U menjadi 350 W/m2.K, luas yang diperlukan untuk tugas yang sama naik menjadi sekitar 143 m2; pada alat yang sudah terpasang, akibatnya adalah suhu keluar yang tidak lagi tercapai.</div>
+</section>
+
+<section class="layer" data-layer="awam"><h2>Mulai dari Sini</h2>
+<p>Untuk pembaca yang baru pertama kali menemui istilah ini, definisi dan analogi pada bagian atas
+halaman adalah ringkasan yang memadai. Lapis Tekkim menambahkan mekanisme, persamaan, dan variabel
+yang menentukan perilaku konsep ini, sedangkan Lapis Plant menunjukkan penerapannya pada operasi pabrik.</p></section>
+
+<section class="blk"><h2>Istilah Terkait</h2><div class="chips"><a class="chip" href="/kamus/istilah/fouling/">Fouling</a><a class="chip" href="/kamus/istilah/steam-dan-utilitas/">Steam dan Sistem Utilitas</a><a class="chip" href="/kamus/istilah/cooling-tower/">Cooling Tower</a></div></section>
+<section class="blk refs"><h2>Referensi</h2><ul class="tight"><li>Coulson, J.M. &amp; Richardson, J.F., Chemical Engineering, Butterworth-Heinemann.</li><li>Sinnott, R.K., Coulson &amp; Richardson&#x27;s Chemical Engineering Design, Butterworth-Heinemann.</li><li>Perry, R.H. &amp; Green, D.W., Perry&#x27;s Chemical Engineers&#x27; Handbook, McGraw-Hill.</li></ul>
+<p>Terakhir diperbarui: 2026-10-29 · Sumber entri: Glosarium terverifikasi IlmuTekkim.
+Seluruh angka adalah rentang umum textbook, bukan data plant.</p></section>
+
+<div class="foot">Kamus Industri Kimia — bagian dari <a href="/">ilmutekkim.site</a>.
+Seluruh angka operasi pada kamus ini adalah rentang umum textbook, bukan data plant atau data perusahaan mana pun.</div>
+</div>
+<script src="/kamus/assets/chat.js" defer></script>
+</body>
+</html>
+
+<script>
+document.querySelectorAll('.seg button').forEach(function(b){
+  b.addEventListener('click',function(){
+    document.querySelectorAll('.seg button').forEach(function(x){x.classList.toggle('on',x===b);});
+    var lv=b.getAttribute('data-lv');
+    document.querySelectorAll('[data-layer]').forEach(function(el){
+      var l=el.getAttribute('data-layer');
+      el.style.display = (lv==='semua' || l===lv) ? '' : 'none';
+    });
+  });
+});
+var def=document.querySelector('.seg button[data-lv="tekkim"]');
+if(def){def.click();}
+</script>

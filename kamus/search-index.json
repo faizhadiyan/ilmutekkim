@@ -1,0 +1,798 @@
+{
+ "terms": [
+  {
+   "slug": "distilasi",
+   "term": "Distilasi",
+   "aliases": [
+    "penyulingan",
+    "distillation",
+    "kolom distilasi"
+   ],
+   "fondasi": "unit-operasi",
+   "sectors": [
+    "kilang-migas",
+    "oleokimia",
+    "petrokimia"
+   ],
+   "definisi": "Distilasi adalah operasi pemisahan campuran cair berdasarkan perbedaan volatilitas komponennya. Uap yang terbentuk dari cairan yang mendidih selalu lebih kaya komponen yang lebih volatil, sehingga kontak uap dan cair yang berulang pada banyak tahap memperkaya produk puncak secara bertahap.",
+   "analogi": "Distilasi bekerja seperti tangga pemisahan: setiap anak tangga (tray) memperkaya uap dengan komponen ringan sedikit demi sedikit, hingga produk puncak mencapai kemurnian yang dikehendaki.",
+   "mekanisme": "Fenomena yang bekerja adalah kesetimbangan uap dan cair (vapor-liquid equilibrium, VLE). Pada setiap tray, uap yang naik berkontak dengan cairan yang turun; komponen volatil berpindah ke fase uap dan komponen kurang volatil berpindah ke fase cair. Perpindahan massa berhenti mendekati kesetimbangan pada tray tersebut, lalu berulang pada tray berikutnya.",
+   "prinsip": "Komposisi uap pada kesetimbangan ditentukan oleh koefisien K setiap komponen, dan kemampuan pisah dua komponen dinyatakan oleh volatilitas relatif. Semakin besar volatilitas relatif, semakin sedikit tahap dan energi yang dibutuhkan.",
+   "plant": {
+    "biaya": [
+     "Energi reboiler dan kondensor adalah biaya variabel dominan; keduanya naik hampir sebanding dengan laju reflux dan laju uap internal kolom.",
+     "Tekanan operasi menentukan kebutuhan tingkat utilitas (steam tekanan lebih tinggi berharga lebih mahal)."
+    ],
+    "checklist": [
+     {
+      "gejala": "Kemurnian produk puncak menurun",
+      "penyebab": "Reflux tidak mencukupi, tray kotor, atau komposisi umpan berubah",
+      "tindakan": "Periksa laju reflux, profil suhu kolom, dan hasil laboratorium umpan sebelum mengubah suhu reboiler."
+     },
+     {
+      "gejala": "Beda tekanan kolom naik tajam",
+      "penyebab": "Flooding atau fouling pada tray dan packing",
+      "tindakan": "Turunkan beban umpan bertahap dan amati pemulihan beda tekanan."
+     }
+    ],
+    "contoh": "Contoh textbook: campuran biner dengan volatilitas relatif 2,5 memerlukan tahap yang jauh lebih sedikit daripada campuran dengan volatilitas relatif 1,2 pada kemurnian yang sama. Inilah alasan pemisahan komponen bertitik didih berdekatan, misalnya propilena dan propana, memerlukan kolom sangat tinggi dengan lebih dari 100 tray dan reflux besar."
+   },
+   "search_text": "Distilasi adalah operasi pemisahan campuran cair berdasarkan perbedaan volatilitas komponennya. Uap yang terbentuk dari cairan yang mendidih selalu lebih kaya komponen yang lebih volatil, sehingga kontak uap dan cair yang berulang pada banyak tahap memperkaya produk puncak secara bertahap. Fenomena yang bekerja adalah kesetimbangan uap dan cair (vapor-liquid equilibrium, VLE). Pada setiap tray, uap yang naik berkontak dengan cairan yang turun; komponen volatil berpindah ke fase uap dan komponen kurang volatil berpindah ke fase cair. Perpindahan massa berhenti mendekati kesetimbangan pada tray tersebut, lalu berulang pada tray berikutnya. Komposisi uap pada kesetimbangan ditentukan oleh koefisien K setiap komponen, dan kemampuan pisah dua komponen dinyatakan oleh volatilitas relatif. Semakin besar volatilitas relatif, semakin sedikit tahap dan energi yang dibutuhkan. Distilasi bekerja seperti tangga pemisahan: setiap anak tangga (tray) memperkaya uap dengan komponen ringan sedikit demi sedikit, hingga produk puncak mencapai kemurnian yang dikehendaki. Tekanan kolom volatilitas relatif umumnya menurun sehingga pemisahan menjadi lebih sulit, karena titik didih komponen saling mendekat pada tekanan tinggi. Jumlah tray / packing kemurnian produk meningkat dan kebutuhan reflux menurun, karena jumlah tahap kesetimbangan bertambah. Suhu reboiler laju uap naik dan pemisahan menguat, karena lebih banyak komponen volatil teruapkan; konsekuensinya beban kondensor dan risiko degradasi produk ikut naik. Flooding: kecepatan uap terlalu tinggi sehingga cairan terbawa naik dan pemisahan runtuh. Weeping: kecepatan uap terlalu rendah sehingga cairan bocor melalui lubang tray tanpa berkontak. Degradasi termal produk dasar apabila suhu reboiler melampaui ketahanan produk. Kehilangan vakum pada distilasi vakum, yang menaikkan titik didih dan suhu operasi."
+  },
+  {
+   "slug": "reflux",
+   "term": "Reflux",
+   "aliases": [
+    "rasio reflux",
+    "reflux ratio",
+    "reflux minimum"
+   ],
+   "fondasi": "unit-operasi",
+   "sectors": [
+    "kilang-migas",
+    "oleokimia",
+    "petrokimia"
+   ],
+   "definisi": "Reflux adalah sebagian cairan hasil kondensasi uap puncak kolom yang dikembalikan ke dalam kolom. Cairan ini mengalir turun dan berkontak berlawanan arah dengan uap yang naik, menyediakan fase cair yang diperlukan untuk memperkaya pemisahan pada setiap tray.",
+   "analogi": "Reflux serupa dengan mengulang pemeriksaan pada setiap anak tangga: sebagian hasil yang sudah naik dikirim turun kembali agar pemisahan pada tangga berikutnya menjadi lebih tajam.",
+   "mekanisme": "Tanpa reflux, bagian atas kolom kekurangan cairan dan kontak uap dan cair tidak terbentuk. Reflux menyediakan aliran cair internal; semakin besar alirannya, komposisi pada setiap tray semakin dekat ke kesetimbangan ideal dan jumlah tray yang diperlukan untuk kemurnian tertentu semakin sedikit.",
+   "prinsip": "Rasio reflux menghubungkan aliran cair internal dengan produk yang diambil. Pada reflux minimum, jumlah tray yang diperlukan menjadi tak hingga; pada reflux total, tidak ada produk yang diambil dan jumlah tray mencapai minimum.",
+   "plant": {
+    "biaya": [
+     "Setiap kenaikan rasio reflux menaikkan konsumsi steam reboiler dan air pendingin kondensor secara langsung.",
+     "Reflux adalah tuas kemurnian termurah dari sisi modal, tetapi termahal dari sisi energi harian."
+    ],
+    "checklist": [
+     {
+      "gejala": "Kemurnian naik tetapi konsumsi steam melonjak",
+      "penyebab": "Rasio reflux berada jauh di atas titik optimum ekonomi",
+      "tindakan": "Turunkan reflux bertahap sambil memantau kemurnian produk terhadap spesifikasi."
+     },
+     {
+      "gejala": "Kemurnian turun mendadak",
+      "penyebab": "Kondensor kehilangan kapasitas atau pompa reflux terganggu",
+      "tindakan": "Periksa suhu keluar kondensor dan aliran aktual reflux, bukan hanya sinyal kontrol."
+     }
+    ],
+    "contoh": "Contoh textbook: apabila R_min suatu pemisahan adalah 2,0, titik operasi awal yang lazim adalah R sekitar 2,2 s.d. 3,0. Menaikkan R dari 2,4 menjadi 4,0 menaikkan laju uap internal dan beban panas kira-kira sebanding dengan kenaikan (R+1), yaitu dari 3,4 menjadi 5,0 satuan relatif, atau naik sekitar 47 persen, sementara tambahan kemurnian umumnya sudah mengecil."
+   },
+   "search_text": "Reflux adalah sebagian cairan hasil kondensasi uap puncak kolom yang dikembalikan ke dalam kolom. Cairan ini mengalir turun dan berkontak berlawanan arah dengan uap yang naik, menyediakan fase cair yang diperlukan untuk memperkaya pemisahan pada setiap tray. Tanpa reflux, bagian atas kolom kekurangan cairan dan kontak uap dan cair tidak terbentuk. Reflux menyediakan aliran cair internal; semakin besar alirannya, komposisi pada setiap tray semakin dekat ke kesetimbangan ideal dan jumlah tray yang diperlukan untuk kemurnian tertentu semakin sedikit. Rasio reflux menghubungkan aliran cair internal dengan produk yang diambil. Pada reflux minimum, jumlah tray yang diperlukan menjadi tak hingga; pada reflux total, tidak ada produk yang diambil dan jumlah tray mencapai minimum. Reflux serupa dengan mengulang pemeriksaan pada setiap anak tangga: sebagian hasil yang sudah naik dikirim turun kembali agar pemisahan pada tangga berikutnya menjadi lebih tajam. Rasio reflux kemurnian distilat meningkat dan jumlah tray yang dibutuhkan menurun, karena kontak uap dan cair per tray menjadi lebih efektif; beban reboiler dan kondensor naik hampir sebanding. Kondisi termal umpan (q) aliran cair internal di bawah titik umpan bertambah, karena fraksi cair umpan langsung bergabung dengan aliran turun. Reflux di bawah R_min: kemurnian target tidak tercapai berapapun jumlah tray yang tersedia. Reflux berlebihan: kolom mendekati flooding dan konsumsi energi naik tanpa tambahan kemurnian yang berarti. Gangguan kondensor menurunkan reflux aktual meskipun set point tidak berubah."
+  },
+  {
+   "slug": "flooding",
+   "term": "Flooding",
+   "aliases": [
+    "banjir kolom",
+    "jet flood",
+    "downcomer flood"
+   ],
+   "fondasi": "unit-operasi",
+   "sectors": [
+    "kilang-migas",
+    "petrokimia"
+   ],
+   "definisi": "Flooding adalah kondisi kegagalan hidrodinamik kolom distilasi atau absorpsi ketika kecepatan uap terlalu tinggi sehingga cairan tidak lagi mengalir turun secara normal. Cairan terbawa naik oleh uap, beda tekanan melonjak, dan efisiensi pemisahan runtuh.",
+   "analogi": "Flooding serupa dengan arus lalu lintas dua arah pada jalan sempit ketika satu arah terlalu padat: aliran yang berlawanan berhenti bergerak dan seluruh jalan tersumbat.",
+   "mekanisme": "Dua mekanisme utama dikenal: jet flood, ketika tetesan cairan terentrain oleh uap berkecepatan tinggi, dan downcomer flood, ketika kapasitas saluran turun cairan terlampaui sehingga cairan menumpuk dari tray ke tray. Keduanya menaikkan hold-up cairan hingga kolom kehilangan gradien komposisi.",
+   "prinsip": "Kecepatan uap banjir diestimasi dengan korelasi Fair berdasarkan parameter aliran dan selisih densitas kedua fase. Desain kolom umumnya dibatasi pada fraksi tertentu dari kecepatan banjir.",
+   "plant": {
+    "biaya": [
+     "Flooding memaksa penurunan laju umpan, sehingga kerugian terbesar adalah kehilangan kapasitas produksi, bukan kerusakan alat.",
+     "Operasi terlalu dekat batas banjir membuat konsumsi energi per ton produk memburuk karena pemisahan tidak efisien."
+    ],
+    "checklist": [
+     {
+      "gejala": "Beda tekanan naik dan kemurnian kedua produk memburuk bersamaan",
+      "penyebab": "Kolom memasuki flooding",
+      "tindakan": "Turunkan beban reboiler dan umpan bertahap hingga beda tekanan kembali ke pola normal."
+     },
+     {
+      "gejala": "Flooding muncul pada beban lebih rendah dari biasanya",
+      "penyebab": "Fouling tray, kerusakan internal, atau umpan berbusa",
+      "tindakan": "Periksa kualitas umpan dan riwayat beda tekanan untuk membedakan penyebab mekanis dan proses."
+     }
+    ],
+    "contoh": "Contoh textbook: kolom yang dirancang pada 80 persen kecepatan banjir hanya memiliki ruang naik beban sekitar 25 persen sebelum mencapai titik banjir teoritis. Kenaikan reflux yang menaikkan laju uap internal sebesar 30 persen dapat mendorong kolom melewati batas tersebut meskipun laju umpan tidak berubah."
+   },
+   "search_text": "Flooding adalah kondisi kegagalan hidrodinamik kolom distilasi atau absorpsi ketika kecepatan uap terlalu tinggi sehingga cairan tidak lagi mengalir turun secara normal. Cairan terbawa naik oleh uap, beda tekanan melonjak, dan efisiensi pemisahan runtuh. Dua mekanisme utama dikenal: jet flood, ketika tetesan cairan terentrain oleh uap berkecepatan tinggi, dan downcomer flood, ketika kapasitas saluran turun cairan terlampaui sehingga cairan menumpuk dari tray ke tray. Keduanya menaikkan hold-up cairan hingga kolom kehilangan gradien komposisi. Kecepatan uap banjir diestimasi dengan korelasi Fair berdasarkan parameter aliran dan selisih densitas kedua fase. Desain kolom umumnya dibatasi pada fraksi tertentu dari kecepatan banjir. Flooding serupa dengan arus lalu lintas dua arah pada jalan sempit ketika satu arah terlalu padat: aliran yang berlawanan berhenti bergerak dan seluruh jalan tersumbat. Laju uap internal kolom mendekati flooding, karena entrainment cairan oleh uap meningkat dengan kecepatan uap. Tekanan kolom kecepatan banjir menurun, karena selisih densitas cair dan uap mengecil. Kecenderungan berbusa (foaming) flooding terjadi pada laju yang lebih rendah, karena busa memenuhi ruang antar tray dan downcomer. Beda tekanan kolom naik curam dan berfluktuasi. Produk puncak terkontaminasi komponen berat akibat entrainment. Level dasar kolom tidak stabil karena cairan tertahan di bagian atas."
+  },
+  {
+   "slug": "heat-exchanger-dan-lmtd",
+   "term": "Heat Exchanger dan LMTD",
+   "aliases": [
+    "penukar panas",
+    "LMTD",
+    "log mean temperature difference"
+   ],
+   "fondasi": "equipment",
+   "sectors": [
+    "kilang-migas",
+    "oleokimia",
+    "petrokimia"
+   ],
+   "definisi": "Heat exchanger adalah alat untuk memindahkan panas antara dua fluida tanpa mencampurnya. LMTD (log mean temperature difference) adalah beda suhu rata-rata logaritmik yang menjadi gaya dorong perpindahan panas di sepanjang alat, karena beda suhu kedua fluida berubah dari ujung ke ujung.",
+   "analogi": "Perpindahan panas di dalam heat exchanger serupa dengan mengosongkan tangki melalui lubang yang mengecil: lajunya besar pada awal ketika beda suhu besar, kemudian melambat ketika beda suhu mengecil; LMTD adalah rata-rata yang mewakili seluruh proses tersebut.",
+   "mekanisme": "Panas berpindah secara konveksi dari fluida panas ke dinding, konduksi melalui dinding, lalu konveksi ke fluida dingin. Laju perpindahan dibatasi oleh gabungan ketiga tahanan tersebut, dinyatakan sebagai koefisien perpindahan panas keseluruhan U.",
+   "prinsip": "Luas permukaan yang diperlukan berbanding terbalik dengan U dan LMTD. Konfigurasi aliran berlawanan arah memberikan LMTD terbesar dan memungkinkan temperature approach yang lebih rapat daripada aliran searah.",
+   "plant": {
+    "biaya": [
+     "Jaringan heat exchanger menentukan konsumsi bahan bakar furnace: setiap panas yang tidak dipulihkan dari aliran panas harus dibayar sebagai bahan bakar.",
+     "Penurunan tekanan yang berlebihan menaikkan biaya pompa dan kompresor."
+    ],
+    "checklist": [
+     {
+      "gejala": "Suhu keluar fluida dingin menurun perlahan selama berminggu-minggu",
+      "penyebab": "Fouling progresif pada permukaan perpindahan panas",
+      "tindakan": "Bandingkan U aktual dengan U awal operasi untuk memutuskan jadwal pembersihan."
+     },
+     {
+      "gejala": "Suhu keluar berubah mendadak",
+      "penyebab": "Perubahan laju alir, bypass terbuka, atau kebocoran internal",
+      "tindakan": "Periksa posisi bypass dan keseimbangan aliran kedua sisi."
+     }
+    ],
+    "contoh": "Contoh hitungan: beban panas 2.000 kW, U = 500 W/m2.K, dan LMTD = 40 K memerlukan luas A = 2.000.000 / (500 x 40) = 100 m2. Apabila fouling menurunkan U menjadi 350 W/m2.K, luas yang diperlukan untuk tugas yang sama naik menjadi sekitar 143 m2; pada alat yang sudah terpasang, akibatnya adalah suhu keluar yang tidak lagi tercapai."
+   },
+   "search_text": "Heat exchanger adalah alat untuk memindahkan panas antara dua fluida tanpa mencampurnya. LMTD (log mean temperature difference) adalah beda suhu rata-rata logaritmik yang menjadi gaya dorong perpindahan panas di sepanjang alat, karena beda suhu kedua fluida berubah dari ujung ke ujung. Panas berpindah secara konveksi dari fluida panas ke dinding, konduksi melalui dinding, lalu konveksi ke fluida dingin. Laju perpindahan dibatasi oleh gabungan ketiga tahanan tersebut, dinyatakan sebagai koefisien perpindahan panas keseluruhan U. Luas permukaan yang diperlukan berbanding terbalik dengan U dan LMTD. Konfigurasi aliran berlawanan arah memberikan LMTD terbesar dan memungkinkan temperature approach yang lebih rapat daripada aliran searah. Perpindahan panas di dalam heat exchanger serupa dengan mengosongkan tangki melalui lubang yang mengecil: lajunya besar pada awal ketika beda suhu besar, kemudian melambat ketika beda suhu mengecil; LMTD adalah rata-rata yang mewakili seluruh proses tersebut. Temperature approach ujung dingin pemulihan panas meningkat, karena fluida dingin dapat dipanaskan lebih dekat ke suhu fluida panas; luas permukaan yang dibutuhkan naik tajam. Kecepatan fluida dalam tube koefisien konveksi dan U naik serta fouling berkurang, karena aliran lebih turbulen; penurunan tekanan dan biaya pompa ikut naik. Faktor fouling U efektif menurun sehingga suhu keluar menyimpang dari target, karena lapisan deposit menambah tahanan panas. Temperature cross yang tidak terdeteksi pada desain multipass tanpa faktor koreksi F. Vibrasi dan kebocoran tube akibat kecepatan dan penyangga yang tidak memadai. Kinerja menurun progresif karena fouling hingga memaksa penghentian untuk pembersihan."
+  },
+  {
+   "slug": "fouling",
+   "term": "Fouling",
+   "aliases": [
+    "pengotoran permukaan",
+    "deposit",
+    "scaling"
+   ],
+   "fondasi": "equipment",
+   "sectors": [
+    "kilang-migas",
+    "oleokimia",
+    "petrokimia"
+   ],
+   "definisi": "Fouling adalah penumpukan material yang tidak diinginkan pada permukaan perpindahan panas, misalnya kerak garam, polimer, kokas, produk korosi, dan pertumbuhan biologis. Deposit ini bersifat isolator panas dan mempersempit lintasan aliran.",
+   "analogi": "Fouling serupa dengan kerak pada dinding panci: api yang sama menghasilkan pemanasan yang lebih lambat, dan kerak bertambah tebal selama pemakaian tanpa pembersihan.",
+   "mekanisme": "Mekanisme fouling meliputi kristalisasi garam yang kelarutannya menurun pada dinding panas, reaksi kimia dan polimerisasi pada permukaan, pengendapan partikel, korosi, serta pertumbuhan mikroorganisme. Laju penumpukan adalah selisih antara laju deposisi dan laju pelepasan oleh geseran aliran.",
+   "prinsip": "Dalam desain, fouling dinyatakan sebagai tahanan tambahan Rf yang ditambahkan pada tahanan perpindahan panas bersih. Nilai Rf desain dipilih dari tabel standar menurut jenis fluida dan kecepatan alirannya.",
+   "plant": {
+    "biaya": [
+     "Biaya fouling muncul tiga kali: energi tambahan selama operasi, biaya pembersihan, dan kehilangan produksi selama penghentian.",
+     "Pemilihan Rf desain yang terlalu besar membuat alat lebih mahal dan justru berkecepatan rendah sehingga fouling lebih cepat."
+    ],
+    "checklist": [
+     {
+      "gejala": "U aktual menurun dan beda tekanan naik bersamaan",
+      "penyebab": "Deposit menebal pada permukaan dan lintasan aliran",
+      "tindakan": "Hitung U dari data operasi dan bandingkan dengan kurva penurunan sejak pembersihan terakhir."
+     },
+     {
+      "gejala": "Fouling kembali sangat cepat setelah pembersihan",
+      "penyebab": "Penyebab kimiawi umpan belum diatasi, misalnya oksigen terlarut atau garam",
+      "tindakan": "Periksa kualitas umpan dan pengolahan air, bukan hanya jadwal pembersihan mekanis."
+     }
+    ],
+    "contoh": "Contoh textbook: koefisien bersih 600 W/m2.K dengan tahanan fouling total 0,0004 m2.K/W menghasilkan U kotor = 1 / (1/600 + 0,0004) = sekitar 484 W/m2.K, turun sekitar 19 persen. Penurunan ini cukup untuk menggeser suhu preheat umpan dan menaikkan beban furnace dengan persentase yang sebanding."
+   },
+   "search_text": "Fouling adalah penumpukan material yang tidak diinginkan pada permukaan perpindahan panas, misalnya kerak garam, polimer, kokas, produk korosi, dan pertumbuhan biologis. Deposit ini bersifat isolator panas dan mempersempit lintasan aliran. Mekanisme fouling meliputi kristalisasi garam yang kelarutannya menurun pada dinding panas, reaksi kimia dan polimerisasi pada permukaan, pengendapan partikel, korosi, serta pertumbuhan mikroorganisme. Laju penumpukan adalah selisih antara laju deposisi dan laju pelepasan oleh geseran aliran. Dalam desain, fouling dinyatakan sebagai tahanan tambahan Rf yang ditambahkan pada tahanan perpindahan panas bersih. Nilai Rf desain dipilih dari tabel standar menurut jenis fluida dan kecepatan alirannya. Fouling serupa dengan kerak pada dinding panci: api yang sama menghasilkan pemanasan yang lebih lambat, dan kerak bertambah tebal selama pemakaian tanpa pembersihan. Suhu dinding fouling bertambah cepat, karena garam tertentu mengendap pada permukaan panas dan reaksi polimerisasi terakselerasi. Kecepatan aliran deposit menumpuk lebih cepat, karena gaya geser yang melepaskan deposit melemah. Kualitas air pendingin laju pembentukan kerak CaCO3 dan silika meningkat. Konsumsi bahan bakar furnace naik karena preheat umpan menurun. Penurunan tekanan alat naik hingga membatasi laju produksi. Korosi di bawah deposit (under-deposit corrosion) yang menimbulkan kebocoran tube."
+  },
+  {
+   "slug": "pompa-kavitasi-npsh",
+   "term": "Pompa, Kavitasi, dan NPSH",
+   "aliases": [
+    "kavitasi",
+    "NPSH",
+    "pompa sentrifugal",
+    "cavitation"
+   ],
+   "fondasi": "equipment",
+   "sectors": [
+    "kilang-migas",
+    "oleokimia",
+    "petrokimia"
+   ],
+   "definisi": "Pompa sentrifugal menaikkan tekanan cairan dengan energi kinetik dari impeller yang berputar. Kavitasi adalah pembentukan dan keruntuhan gelembung uap cairan di dalam pompa ketika tekanan lokal turun di bawah tekanan uap cairan. NPSH (net positive suction head) adalah margin tekanan pada sisi isap yang menjaga pompa terhindar dari kavitasi.",
+   "analogi": "Kavitasi serupa dengan bunyi kerikil yang menghantam logam dari dalam pompa: setiap gelembung yang runtuh melepaskan hantaman kecil, dan jutaan hantaman mengikis permukaan impeller.",
+   "mekanisme": "Tekanan terendah di dalam pompa terjadi pada mata impeller. Apabila tekanan tersebut turun di bawah tekanan uap cairan pada suhu operasi, cairan mendidih secara lokal membentuk gelembung. Gelembung terbawa ke daerah bertekanan lebih tinggi dan runtuh secara kekerasan, menimbulkan kebisingan, getaran, dan erosi material.",
+   "prinsip": "Kondisi aman dicapai apabila NPSH yang tersedia dari sistem (NPSHa) melebihi NPSH yang dibutuhkan pompa (NPSHr) dengan margin yang memadai. NPSHr adalah karakteristik pompa dari pabrikan; NPSHa sepenuhnya ditentukan oleh instalasi dan kondisi cairan.",
+   "plant": {
+    "biaya": [
+     "Kerusakan kavitasi adalah penyebab umum kegagalan seal dan perbaikan pompa yang tidak terencana.",
+     "Mengatasi NPSH dengan menurunkan suhu atau menaikkan level umumnya lebih murah daripada mengganti impeller secara berulang."
+    ],
+    "checklist": [
+     {
+      "gejala": "Pompa berbunyi seperti mengaduk kerikil dan bergetar",
+      "penyebab": "Kavitasi akibat NPSHa tidak mencukupi",
+      "tindakan": "Periksa level tangki, suhu cairan, dan sumbatan saringan isap; turunkan laju alir untuk menguji hipotesis."
+     },
+     {
+      "gejala": "Kavitasi muncul hanya pada laju alir tinggi",
+      "penyebab": "Kurva NPSHr dan rugi pipa isap melampaui NPSHa pada ujung kurva",
+      "tindakan": "Batasi laju maksimum atau perbesar pipa isap."
+     }
+    ],
+    "contoh": "Contoh hitungan: tangki terbuka berisi air pada 60 derajat C (tekanan uap sekitar 0,20 bar abs, densitas sekitar 983 kg/m3), permukaan cairan 3 m di atas sumbu pompa, rugi pipa isap 0,8 m. NPSHa = (1,013 - 0,20) bar / (983 x 9,81) + 3 - 0,8 = sekitar 8,4 + 2,2 = 10,6 m. Nilai ini dibandingkan dengan NPSHr pada kurva pompa; apabila NPSHr 4 m, margin yang tersedia masih besar."
+   },
+   "search_text": "Pompa sentrifugal menaikkan tekanan cairan dengan energi kinetik dari impeller yang berputar. Kavitasi adalah pembentukan dan keruntuhan gelembung uap cairan di dalam pompa ketika tekanan lokal turun di bawah tekanan uap cairan. NPSH (net positive suction head) adalah margin tekanan pada sisi isap yang menjaga pompa terhindar dari kavitasi. Tekanan terendah di dalam pompa terjadi pada mata impeller. Apabila tekanan tersebut turun di bawah tekanan uap cairan pada suhu operasi, cairan mendidih secara lokal membentuk gelembung. Gelembung terbawa ke daerah bertekanan lebih tinggi dan runtuh secara kekerasan, menimbulkan kebisingan, getaran, dan erosi material. Kondisi aman dicapai apabila NPSH yang tersedia dari sistem (NPSHa) melebihi NPSH yang dibutuhkan pompa (NPSHr) dengan margin yang memadai. NPSHr adalah karakteristik pompa dari pabrikan; NPSHa sepenuhnya ditentukan oleh instalasi dan kondisi cairan. Kavitasi serupa dengan bunyi kerikil yang menghantam logam dari dalam pompa: setiap gelembung yang runtuh melepaskan hantaman kecil, dan jutaan hantaman mengikis permukaan impeller. Suhu cairan NPSHa menurun dan risiko kavitasi naik, karena selisih tekanan terhadap tekanan uap mengecil. Level tangki isap NPSHa menurun, karena sumbangan head statis berkurang. Laju alir pompa margin NPSH menyempit dari dua arah, karena NPSHr naik dan rugi gesek pipa isap ikut naik. Erosi pitting pada impeller dan volute akibat keruntuhan gelembung. Getaran dan kebisingan berlebih yang merusak seal dan bantalan. Head dan kapasitas pompa turun tidak stabil (surging hisap)."
+  },
+  {
+   "slug": "neraca-massa",
+   "term": "Neraca Massa",
+   "aliases": [
+    "material balance",
+    "kesetimbangan massa",
+    "neraca bahan"
+   ],
+   "fondasi": "ekonomi",
+   "sectors": [
+    "kilang-migas",
+    "oleokimia",
+    "petrokimia"
+   ],
+   "definisi": "Neraca massa adalah penerapan hukum kekekalan massa pada suatu sistem proses: akumulasi massa di dalam sistem sama dengan massa masuk dikurangi massa keluar, ditambah pembentukan dan dikurangi konsumsi oleh reaksi. Neraca massa adalah alat diagnosis pertama untuk menilai konsistensi data pabrik dan menelusuri kehilangan produk.",
+   "analogi": "Neraca massa serupa dengan pembukuan keuangan: setiap kilogram bahan harus tercatat masuk, keluar, tersimpan, atau berubah bentuk melalui reaksi; selisih yang tidak terjelaskan adalah petunjuk adanya kesalahan ukur atau kehilangan nyata.",
+   "mekanisme": "Untuk sistem tunak tanpa reaksi, total massa masuk sama dengan total massa keluar. Reaksi kimia tidak mengubah total massa, tetapi mengubah neraca setiap komponen: komponen yang bereaksi berkurang sebesar laju konsumsinya menurut stoikiometri, dan produk bertambah sebanding.",
+   "prinsip": "Neraca komponen dengan reaksi memerlukan variabel laju reaksi atau konversi sebagai penghubung. Komponen inert yang tidak bereaksi (tie component) memungkinkan penelusuran aliran internal yang tidak terukur secara langsung.",
+   "plant": {
+    "biaya": [
+     "Selisih neraca yang tidak terjelaskan secara langsung terbaca sebagai penurunan yield, yaitu biaya bahan baku per ton produk yang naik.",
+     "Neraca massa yang tertutup baik adalah prasyarat perhitungan biaya variabel yang dapat dipercaya."
+    ],
+    "checklist": [
+     {
+      "gejala": "Imbalance konsisten searah setiap hari",
+      "penyebab": "Bias sistematis salah satu alat ukur atau aliran tidak terukur yang konstan",
+      "tindakan": "Uji alat ukur dengan penimbangan atau tangki ukur, dan petakan aliran kecil yang tidak terinstrumentasi."
+     },
+     {
+      "gejala": "Imbalance acak dan berubah tanda",
+      "penyebab": "Kebisingan pengukuran atau perbedaan waktu pencatatan antar aliran",
+      "tindakan": "Samakan basis waktu data dan gunakan rata-rata periode yang lebih panjang."
+     }
+    ],
+    "contoh": "Contoh hitungan: umpan 100 ton per hari menghasilkan produk terukur 92 ton, produk samping 5 ton, dan inventori naik 1 ton. Kehilangan tidak terjelaskan = 100 - 92 - 5 - 1 = 2 ton per hari, atau 2 persen umpan. Nilai ini adalah batas atas kehilangan nyata; bagian yang berasal dari kesalahan ukur harus disingkirkan melalui verifikasi alat sebelum kesimpulan diambil."
+   },
+   "search_text": "Neraca massa adalah penerapan hukum kekekalan massa pada suatu sistem proses: akumulasi massa di dalam sistem sama dengan massa masuk dikurangi massa keluar, ditambah pembentukan dan dikurangi konsumsi oleh reaksi. Neraca massa adalah alat diagnosis pertama untuk menilai konsistensi data pabrik dan menelusuri kehilangan produk. Untuk sistem tunak tanpa reaksi, total massa masuk sama dengan total massa keluar. Reaksi kimia tidak mengubah total massa, tetapi mengubah neraca setiap komponen: komponen yang bereaksi berkurang sebesar laju konsumsinya menurut stoikiometri, dan produk bertambah sebanding. Neraca komponen dengan reaksi memerlukan variabel laju reaksi atau konversi sebagai penghubung. Komponen inert yang tidak bereaksi (tie component) memungkinkan penelusuran aliran internal yang tidak terukur secara langsung. Neraca massa serupa dengan pembukuan keuangan: setiap kilogram bahan harus tercatat masuk, keluar, tersimpan, atau berubah bentuk melalui reaksi; selisih yang tidak terjelaskan adalah petunjuk adanya kesalahan ukur atau kehilangan nyata. Akurasi pengukuran aliran selisih neraca (imbalance) membesar dan kehilangan semu muncul, karena kesalahan ukur terakumulasi pada selisih dua aliran besar. Inventori dalam alat (hold-up) neraca sesaat tampak tidak tertutup, karena sebagian massa tertahan di dalam sistem dan tercatat sebagai akumulasi. Aliran tidak terukur (kebocoran, venting, sampling) kehilangan produk nyata bertambah dan yield terhitung menurun. Menuduh kehilangan produk padahal penyebabnya adalah kesalahan kalibrasi alat ukur. Neraca tidak tertutup selama periode transisi karena akumulasi diabaikan. Rekonsiliasi data yang menyesuaikan angka tanpa menelusuri penyebab fisiknya."
+  },
+  {
+   "slug": "reaktor-konversi-selektivitas",
+   "term": "Reaktor, Konversi, dan Selektivitas",
+   "aliases": [
+    "konversi",
+    "selektivitas",
+    "yield",
+    "perolehan"
+   ],
+   "fondasi": "unit-operasi",
+   "sectors": [
+    "petrokimia",
+    "oleokimia",
+    "kilang-migas"
+   ],
+   "definisi": "Konversi menyatakan fraksi pereaksi yang bereaksi, selektivitas menyatakan fraksi pereaksi yang bereaksi dan menjadi produk yang dikehendaki, dan yield adalah hasil kali keduanya. Ketiga besaran ini adalah bahasa dasar untuk menilai kinerja reaktor dan ekonomi suatu rute reaksi.",
+   "analogi": "Konversi serupa dengan jumlah soal yang dikerjakan, selektivitas serupa dengan ketepatan jawaban ke arah yang dinilai, dan yield adalah nilai akhir yang diperoleh dari keduanya.",
+   "mekanisme": "Di dalam reaktor, reaksi utama bersaing dengan reaksi samping yang membentuk produk tidak dikehendaki dan reaksi lanjut yang mengonsumsi produk. Persaingan ini diatur oleh kinetika setiap reaksi, yang kepekaannya terhadap suhu, tekanan, dan konsentrasi berbeda-beda; perbedaan kepekaan inilah yang memungkinkan pengaturan selektivitas.",
+   "prinsip": "Untuk banyak sistem, energi aktivasi reaksi samping lebih tinggi daripada reaksi utama, sehingga kenaikan suhu menaikkan konversi tetapi menurunkan selektivitas. Yield melewati titik maksimum terhadap waktu tinggal dan suhu, dan titik inilah target operasi sesungguhnya.",
+   "plant": {
+    "biaya": [
+     "Satu titik persen selektivitas pada skala besar bernilai bahan baku yang jauh lebih besar daripada penghematan energi pada umumnya.",
+     "Konversi per lintasan yang rendah menaikkan biaya pemisahan dan daur ulang pereaksi yang tidak bereaksi."
+    ],
+    "checklist": [
+     {
+      "gejala": "Konversi normal tetapi yield menurun",
+      "penyebab": "Selektivitas memburuk, misalnya suhu terlalu tinggi atau katalis menua",
+      "tindakan": "Bandingkan distribusi produk samping terhadap pola awal dan periksa profil suhu reaktor."
+     },
+     {
+      "gejala": "Konversi menurun bertahap",
+      "penyebab": "Deaktivasi katalis atau penurunan aktivitas bertahap",
+      "tindakan": "Nilai laju penurunan untuk memperkirakan sisa umur katalis dan jadwal penggantian."
+     }
+    ],
+    "contoh": "Contoh hitungan: konversi 80 persen dengan selektivitas 90 persen memberikan yield 72 persen. Apabila suhu dinaikkan sehingga konversi menjadi 90 persen tetapi selektivitas turun menjadi 75 persen, yield justru turun menjadi 67,5 persen. Contoh ini menunjukkan alasan yield, bukan konversi, yang menjadi besaran ekonomi penentu."
+   },
+   "search_text": "Konversi menyatakan fraksi pereaksi yang bereaksi, selektivitas menyatakan fraksi pereaksi yang bereaksi dan menjadi produk yang dikehendaki, dan yield adalah hasil kali keduanya. Ketiga besaran ini adalah bahasa dasar untuk menilai kinerja reaktor dan ekonomi suatu rute reaksi. Di dalam reaktor, reaksi utama bersaing dengan reaksi samping yang membentuk produk tidak dikehendaki dan reaksi lanjut yang mengonsumsi produk. Persaingan ini diatur oleh kinetika setiap reaksi, yang kepekaannya terhadap suhu, tekanan, dan konsentrasi berbeda-beda; perbedaan kepekaan inilah yang memungkinkan pengaturan selektivitas. Untuk banyak sistem, energi aktivasi reaksi samping lebih tinggi daripada reaksi utama, sehingga kenaikan suhu menaikkan konversi tetapi menurunkan selektivitas. Yield melewati titik maksimum terhadap waktu tinggal dan suhu, dan titik inilah target operasi sesungguhnya. Konversi serupa dengan jumlah soal yang dikerjakan, selektivitas serupa dengan ketepatan jawaban ke arah yang dinilai, dan yield adalah nilai akhir yang diperoleh dari keduanya. Suhu reaksi konversi naik, karena laju reaksi mengikuti hubungan Arrhenius; selektivitas sering menurun apabila reaksi samping berenergi aktivasi lebih tinggi. Waktu tinggal konversi naik, tetapi produk dikehendaki dapat terkonversi lanjut menjadi produk samping sehingga yield melewati maksimum. Rasio umpan pereaksi konversi pereaksi pembatas dan selektivitas dapat naik, dengan biaya pemisahan dan daur ulang pereaksi berlebih. Pelarian termal (thermal runaway) pada reaksi eksotermik apabila pelepasan panas melampaui kapasitas pendinginan. Penurunan aktivitas katalis (deaktivasi) oleh keracunan, sintering, atau pembentukan kokas. Yield menurun meskipun konversi naik, karena selektivitas yang memburuk tidak terpantau."
+  },
+  {
+   "slug": "cooling-tower",
+   "term": "Cooling Tower",
+   "aliases": [
+    "menara pendingin",
+    "range",
+    "approach",
+    "wet bulb"
+   ],
+   "fondasi": "utilitas",
+   "sectors": [
+    "kilang-migas",
+    "oleokimia",
+    "petrokimia"
+   ],
+   "definisi": "Cooling tower adalah alat kontak langsung udara dan air untuk membuang panas proses ke atmosfer, terutama melalui penguapan sebagian kecil air sirkulasi. Kinerja alat dinyatakan dengan range (penurunan suhu air melintasi menara) dan approach (selisih suhu air dingin keluar terhadap suhu bola basah udara).",
+   "analogi": "Cooling tower bekerja seperti keringat pada kulit: sebagian kecil air menguap dan membawa panas pergi, sehingga sisa air menjadi lebih dingin daripada udara kering di sekitarnya.",
+   "mekanisme": "Air panas disebarkan di atas media isian (fill) membentuk film tipis dan tetesan dengan luas kontak besar. Udara yang mengalir berlawanan menyerap uap air; penguapan sekitar satu persen air sirkulasi membuang sebagian besar panas, sedangkan perpindahan panas sensibel hanya menyumbang bagian kecil. Batas pendinginan adalah suhu bola basah udara, bukan suhu bola kering.",
+   "prinsip": "Approach tidak dapat mencapai nol karena memerlukan luas kontak tak hingga; approach yang lebih kecil memerlukan menara lebih besar dan daya kipas lebih tinggi. Range ditentukan oleh beban panas dan laju sirkulasi, sedangkan approach ditentukan oleh desain menara dan kondisi udara.",
+   "plant": {
+    "biaya": [
+     "Suhu air pendingin menentukan suhu kondensasi dan tekanan operasi banyak kolom dan reaktor; kenaikan beberapa derajat dapat menurunkan kapasitas produksi.",
+     "Biaya utama adalah daya kipas dan pompa sirkulasi serta air make-up dan pengolahan kimianya."
+    ],
+    "checklist": [
+     {
+      "gejala": "Approach melebar dibandingkan pola cuaca yang sama",
+      "penyebab": "Fill kotor, nozzle tersumbat, atau aliran udara menurun",
+      "tindakan": "Bandingkan approach pada suhu bola basah yang setara, bukan terhadap hari sebelumnya secara langsung."
+     },
+     {
+      "gejala": "Konsumsi air make-up naik",
+      "penyebab": "Blowdown berlebihan, drift tinggi, atau kebocoran sistem",
+      "tindakan": "Neraca air sirkulasi dan periksa konduktivitas terhadap batas siklus konsentrasi."
+     }
+    ],
+    "contoh": "Contoh hitungan: air masuk menara pada 42 derajat C dan keluar pada 32 derajat C, dengan suhu bola basah 27 derajat C. Range = 10 K dan approach = 5 K. Untuk laju sirkulasi 500 ton per jam, beban panas yang dibuang adalah 500.000 kg/jam x 4,186 kJ/kg.K x 10 K = sekitar 20,9 GJ per jam, atau sekitar 5,8 MW."
+   },
+   "search_text": "Cooling tower adalah alat kontak langsung udara dan air untuk membuang panas proses ke atmosfer, terutama melalui penguapan sebagian kecil air sirkulasi. Kinerja alat dinyatakan dengan range (penurunan suhu air melintasi menara) dan approach (selisih suhu air dingin keluar terhadap suhu bola basah udara). Air panas disebarkan di atas media isian (fill) membentuk film tipis dan tetesan dengan luas kontak besar. Udara yang mengalir berlawanan menyerap uap air; penguapan sekitar satu persen air sirkulasi membuang sebagian besar panas, sedangkan perpindahan panas sensibel hanya menyumbang bagian kecil. Batas pendinginan adalah suhu bola basah udara, bukan suhu bola kering. Approach tidak dapat mencapai nol karena memerlukan luas kontak tak hingga; approach yang lebih kecil memerlukan menara lebih besar dan daya kipas lebih tinggi. Range ditentukan oleh beban panas dan laju sirkulasi, sedangkan approach ditentukan oleh desain menara dan kondisi udara. Cooling tower bekerja seperti keringat pada kulit: sebagian kecil air menguap dan membawa panas pergi, sehingga sisa air menjadi lebih dingin daripada udara kering di sekitarnya. Suhu bola basah udara suhu air dingin naik hampir sebanding, karena batas termodinamika pendinginan evaporatif bergeser naik. Laju udara (kipas) approach mengecil dan air keluar lebih dingin, karena laju perpindahan massa uap ke udara meningkat; daya kipas naik mendekati pangkat tiga kecepatan. Beban panas proses range melebar; apabila menara jenuh, suhu air keluar ikut naik dan pendinginan proses terganggu. Fouling dan penyumbatan fill oleh kerak, lumpur, dan pertumbuhan biologis. Distribusi air tidak merata akibat nozzle tersumbat, menimbulkan daerah kering pada fill. Kehilangan drift dan blowdown yang tidak terkendali menaikkan konsumsi air make-up dan bahan kimia."
+  },
+  {
+   "slug": "absorpsi-dan-stripping",
+   "term": "Absorpsi dan Stripping",
+   "aliases": [
+    "absorpsi",
+    "stripping",
+    "penyerapan gas",
+    "Kremser"
+   ],
+   "fondasi": "unit-operasi",
+   "sectors": [
+    "kilang-migas",
+    "petrokimia"
+   ],
+   "definisi": "Absorpsi adalah pemindahan komponen dari fase gas ke fase cair pelarut yang berkontak dengannya, sedangkan stripping adalah kebalikannya, yaitu pemindahan komponen dari cairan ke fase gas. Pasangan operasi ini digunakan antara lain untuk menangkap H2S dan CO2 dari gas, memulihkan komponen ringan, dan meregenerasi pelarut.",
+   "analogi": "Absorpsi serupa dengan spons yang menyerap zat dari aliran gas, dan stripping adalah memeras spons tersebut agar siap digunakan kembali.",
+   "mekanisme": "Gaya dorong perpindahan adalah selisih antara tekanan parsial komponen dalam gas dan tekanan kesetimbangannya di atas cairan. Pada absorpsi, komponen berpindah ke cairan selama tekanan parsialnya dalam gas lebih tinggi; pada stripping, gas inert atau steam menurunkan tekanan parsial sehingga komponen terlepas dari cairan.",
+   "prinsip": "Hubungan kesetimbangan dinyatakan oleh hukum Henry atau koefisien distribusi. Faktor absorpsi A menentukan fraksi komponen yang dapat ditangkap untuk jumlah tahap tertentu melalui persamaan Kremser.",
+   "plant": {
+    "biaya": [
+     "Energi reboiler stripper untuk regenerasi pelarut adalah biaya variabel utama pada unit penangkapan gas asam.",
+     "Kehilangan pelarut melalui carry-over dan degradasi menambah biaya bahan kimia."
+    ],
+    "checklist": [
+     {
+      "gejala": "Komponen target pada gas keluar meningkat",
+      "penyebab": "Suhu absorber naik, laju pelarut turun, atau pelarut kurus tidak teregenerasi",
+      "tindakan": "Periksa suhu dan kandungan pelarut kurus sebelum menaikkan laju pelarut."
+     },
+     {
+      "gejala": "Beda tekanan absorber naik",
+      "penyebab": "Foaming atau fouling internal",
+      "tindakan": "Periksa kualitas pelarut dan kebutuhan antifoam serta penyaringan pelarut."
+     }
+    ],
+    "contoh": "Contoh textbook: dengan faktor absorpsi A = 1,5 dan 6 tahap teoritis, persamaan Kremser memberikan fraksi komponen yang tidak terserap sekitar (A - 1) / (A pangkat 7 - 1) = 0,5 / 16,1 = sekitar 3 persen, atau penangkapan sekitar 97 persen. Kenaikan A menjadi 2 menaikkan penangkapan menjadi sekitar 99 persen, dengan konsekuensi laju pelarut dan energi regenerasi yang lebih besar."
+   },
+   "search_text": "Absorpsi adalah pemindahan komponen dari fase gas ke fase cair pelarut yang berkontak dengannya, sedangkan stripping adalah kebalikannya, yaitu pemindahan komponen dari cairan ke fase gas. Pasangan operasi ini digunakan antara lain untuk menangkap H2S dan CO2 dari gas, memulihkan komponen ringan, dan meregenerasi pelarut. Gaya dorong perpindahan adalah selisih antara tekanan parsial komponen dalam gas dan tekanan kesetimbangannya di atas cairan. Pada absorpsi, komponen berpindah ke cairan selama tekanan parsialnya dalam gas lebih tinggi; pada stripping, gas inert atau steam menurunkan tekanan parsial sehingga komponen terlepas dari cairan. Hubungan kesetimbangan dinyatakan oleh hukum Henry atau koefisien distribusi. Faktor absorpsi A menentukan fraksi komponen yang dapat ditangkap untuk jumlah tahap tertentu melalui persamaan Kremser. Absorpsi serupa dengan spons yang menyerap zat dari aliran gas, dan stripping adalah memeras spons tersebut agar siap digunakan kembali. Laju pelarut (L/G) penangkapan komponen meningkat, karena faktor absorpsi bertambah; biaya regenerasi pelarut dan pemompaan ikut naik. Suhu absorber kelarutan gas dalam pelarut meningkat, karena konstanta Henry umumnya menurun pada suhu lebih rendah. Tekanan operasi tekanan parsial komponen naik dan gaya dorong perpindahan membesar. Pelarut terdegradasi atau terkontaminasi sehingga kapasitas serap menurun. Busa (foaming) pada sistem amin yang menurunkan kapasitas kolom dan menaikkan carry-over. Regenerasi tidak sempurna sehingga pelarut kurus (lean) masih memuat komponen dan batas penangkapan tercapai."
+  },
+  {
+   "slug": "steam-dan-utilitas",
+   "term": "Steam dan Sistem Utilitas",
+   "aliases": [
+    "steam",
+    "uap air",
+    "boiler",
+    "kondensat",
+    "steam trap"
+   ],
+   "fondasi": "utilitas",
+   "sectors": [
+    "kilang-migas",
+    "oleokimia",
+    "petrokimia"
+   ],
+   "definisi": "Steam adalah utilitas pemanas utama pabrik kimia karena membawa panas laten yang besar dan dilepaskan pada suhu yang hampir konstan saat mengembun. Sistem utilitas mencakup pembangkitan steam di boiler, distribusi pada beberapa tingkat tekanan, pemakaian pada alat proses, serta pengembunan dan pengembalian kondensat.",
+   "analogi": "Sistem steam serupa dengan jaringan distribusi energi dengan baterai yang dapat diisi ulang: boiler mengisi energi ke dalam uap, alat proses mengambilnya saat uap mengembun, dan kondensat yang dikembalikan membawa pulang sebagian energi yang tersisa.",
+   "mekanisme": "Steam jenuh mengembun pada permukaan alat dan melepaskan panas laten penguapan, yang jauh lebih besar daripada panas sensibel per satuan massa. Suhu pengembunan ditentukan semata-mata oleh tekanan steam, sehingga pengaturan tekanan adalah pengaturan suhu pemanasan. Kondensat harus dibuang oleh steam trap tanpa membiarkan steam lolos.",
+   "prinsip": "Hubungan tekanan dan suhu jenuh air bersifat tetap dan tercantum pada tabel uap (steam table). Panas laten menurun ketika tekanan naik, sedangkan suhu jenuh naik; pemilihan tingkat tekanan adalah kompromi antara suhu yang dibutuhkan dan panas laten per kilogram.",
+   "plant": {
+    "biaya": [
+     "Bahan bakar boiler adalah komponen biaya variabel terbesar pada kebanyakan pabrik proses; kebocoran dan trap yang gagal adalah kehilangan yang paling mudah dihilangkan.",
+     "Setiap tingkat tekanan steam memiliki harga berbeda; pemakaian steam tekanan tinggi untuk tugas bersuhu rendah adalah pemborosan termodinamika dan ekonomi."
+    ],
+    "checklist": [
+     {
+      "gejala": "Konsumsi steam naik tanpa kenaikan produksi",
+      "penyebab": "Trap gagal, kebocoran, atau kondensat tidak kembali",
+      "tindakan": "Lakukan survei steam trap dan neraca kondensat sebelum menaikkan kapasitas boiler."
+     },
+     {
+      "gejala": "Suhu alat yang dipanaskan steam tidak tercapai",
+      "penyebab": "Kondensat terperangkap atau udara terakumulasi di dalam alat",
+      "tindakan": "Periksa trap dan venting udara pada sisi steam."
+     }
+    ],
+    "contoh": "Contoh hitungan: tugas pemanasan 4.030 kW dengan steam 10 bar abs (h_fg sekitar 2.015 kJ/kg) memerlukan laju pengembunan 4.030 / 2.015 = 2,0 kg per detik, atau 7,2 ton per jam. Apabila kondensat pada 180 derajat C dikembalikan, setiap kilogram membawa kembali sekitar 760 kJ panas sensibel dibandingkan air make-up dingin, yang merupakan penghematan bahan bakar langsung."
+   },
+   "search_text": "Steam adalah utilitas pemanas utama pabrik kimia karena membawa panas laten yang besar dan dilepaskan pada suhu yang hampir konstan saat mengembun. Sistem utilitas mencakup pembangkitan steam di boiler, distribusi pada beberapa tingkat tekanan, pemakaian pada alat proses, serta pengembunan dan pengembalian kondensat. Steam jenuh mengembun pada permukaan alat dan melepaskan panas laten penguapan, yang jauh lebih besar daripada panas sensibel per satuan massa. Suhu pengembunan ditentukan semata-mata oleh tekanan steam, sehingga pengaturan tekanan adalah pengaturan suhu pemanasan. Kondensat harus dibuang oleh steam trap tanpa membiarkan steam lolos. Hubungan tekanan dan suhu jenuh air bersifat tetap dan tercantum pada tabel uap (steam table). Panas laten menurun ketika tekanan naik, sedangkan suhu jenuh naik; pemilihan tingkat tekanan adalah kompromi antara suhu yang dibutuhkan dan panas laten per kilogram. Sistem steam serupa dengan jaringan distribusi energi dengan baterai yang dapat diisi ulang: boiler mengisi energi ke dalam uap, alat proses mengambilnya saat uap mengembun, dan kondensat yang dikembalikan membawa pulang sebagian energi yang tersisa. Tekanan steam suhu pemanasan naik, karena suhu jenuh naik dengan tekanan; panas laten per kilogram menurun. Fraksi kondensat yang kembali konsumsi bahan bakar dan air make-up boiler menurun, karena kondensat kembali dalam keadaan panas dan telah terolah. Steam trap gagal terbuka kehilangan energi meningkat tanpa gejala proses yang jelas, karena steam lolos langsung ke jalur kondensat. Water hammer akibat kondensat terakumulasi pada jalur steam yang dingin atau miring tidak tepat. Steam trap gagal tertutup menimbulkan genangan kondensat dan pemanasan tidak merata. Kualitas air boiler buruk menimbulkan carry-over, kerak, dan korosi pada sistem."
+  },
+  {
+   "slug": "relief-valve",
+   "term": "Relief Valve dan Proteksi Tekanan Berlebih",
+   "aliases": [
+    "PSV",
+    "pressure safety valve",
+    "katup pengaman",
+    "rupture disk"
+   ],
+   "fondasi": "safety",
+   "sectors": [
+    "kilang-migas",
+    "oleokimia",
+    "petrokimia"
+   ],
+   "definisi": "Relief valve (katup pelepas tekanan) adalah perangkat pengaman mekanis yang membuka secara otomatis ketika tekanan bejana mencapai tekanan setel, membuang sebagian isi ke sistem pembuangan yang aman, dan menutup kembali setelah tekanan turun. Perangkat ini adalah lapisan perlindungan terakhir terhadap tekanan berlebih, di luar sistem kontrol dan alarm.",
+   "analogi": "Relief valve serupa dengan pintu darurat berpegas pada ruangan yang penuh sesak: pintu tetap tertutup pada kondisi normal, terbuka hanya ketika tekanan kerumunan melampaui batas, dan menutup kembali setelah keadaan aman.",
+   "mekanisme": "Gaya tekanan pada cakram katup dilawan oleh gaya pegas yang dikalibrasi pada tekanan setel. Ketika tekanan melampaui gaya pegas, cakram terangkat dan fluida mengalir keluar; penurunan tekanan memungkinkan pegas menutup kembali katup pada tekanan reseat yang lebih rendah. Kapasitas katup harus melampaui laju pembentukan tekanan pada skenario terburuk yang kredibel, misalnya kebakaran eksternal atau keluaran tertutup (blocked outlet).",
+   "prinsip": "Tekanan setel tidak boleh melampaui MAWP (maximum allowable working pressure) bejana. Standar mengizinkan akumulasi tekanan terbatas di atas MAWP selama pelepasan, umumnya 10 persen untuk skenario nonkebakaran dan 21 persen untuk skenario kebakaran, menurut kode bejana tekan yang berlaku.",
+   "plant": {
+    "biaya": [
+     "Biaya relief valve kecil dibandingkan nilai bejana dan konsekuensi kegagalannya; penghematan melalui pengurangan pengujian berkala adalah ekonomi yang keliru.",
+     "Pembukaan katup yang tidak perlu menimbulkan kehilangan produk ke flare dan potensi penghentian operasi."
+    ],
+    "checklist": [
+     {
+      "gejala": "Katup membuka berulang pada tekanan normal",
+      "penyebab": "Tekanan operasi naik mendekati tekanan setel, atau pegas melemah",
+      "tindakan": "Bandingkan tekanan operasi aktual terhadap margin setel dan jadwalkan pengujian bangku."
+     },
+     {
+      "gejala": "Jejak pelepasan pada flare tanpa kejadian proses yang tercatat",
+      "penyebab": "Katup bocor pada dudukan (passing)",
+      "tindakan": "Lakukan deteksi kebocoran akustik dan rencanakan perbaikan pada penghentian berikutnya."
+     }
+    ],
+    "contoh": "Contoh textbook: bejana dengan MAWP 10 bar g dilengkapi satu relief valve dengan tekanan setel 10 bar g. Selama kejadian nonkebakaran, tekanan bejana diizinkan terakumulasi hingga 11 bar g (110 persen MAWP) ketika katup mengalirkan kapasitas penuhnya; pada skenario kebakaran, batas akumulasi adalah 12,1 bar g (121 persen MAWP). Katup harus berkapasitas cukup untuk membatasi tekanan dalam kedua batas tersebut."
+   },
+   "search_text": "Relief valve (katup pelepas tekanan) adalah perangkat pengaman mekanis yang membuka secara otomatis ketika tekanan bejana mencapai tekanan setel, membuang sebagian isi ke sistem pembuangan yang aman, dan menutup kembali setelah tekanan turun. Perangkat ini adalah lapisan perlindungan terakhir terhadap tekanan berlebih, di luar sistem kontrol dan alarm. Gaya tekanan pada cakram katup dilawan oleh gaya pegas yang dikalibrasi pada tekanan setel. Ketika tekanan melampaui gaya pegas, cakram terangkat dan fluida mengalir keluar; penurunan tekanan memungkinkan pegas menutup kembali katup pada tekanan reseat yang lebih rendah. Kapasitas katup harus melampaui laju pembentukan tekanan pada skenario terburuk yang kredibel, misalnya kebakaran eksternal atau keluaran tertutup (blocked outlet). Tekanan setel tidak boleh melampaui MAWP (maximum allowable working pressure) bejana. Standar mengizinkan akumulasi tekanan terbatas di atas MAWP selama pelepasan, umumnya 10 persen untuk skenario nonkebakaran dan 21 persen untuk skenario kebakaran, menurut kode bejana tekan yang berlaku. Relief valve serupa dengan pintu darurat berpegas pada ruangan yang penuh sesak: pintu tetap tertutup pada kondisi normal, terbuka hanya ketika tekanan kerumunan melampaui batas, dan menutup kembali setelah keadaan aman. Tekanan balik (back pressure) tekanan pembukaan efektif bergeser dan kapasitas pelepasan menurun, karena tekanan pada sisi keluar melawan pembukaan katup. Skenario kebakaran eksternal kebutuhan kapasitas pelepasan naik tajam, karena seluruh cairan yang terpanaskan menguap dan harus dibuang. Tekanan setel relatif terhadap operasi katup berisiko membuka berulang dan rusak dudukannya, karena tekanan operasi terlalu dekat dengan tekanan setel. Katup terisolasi tertutup oleh katup blok yang tidak terkunci terbuka, meniadakan perlindungan sepenuhnya. Korosi dan penumpukan deposit membuat katup macet dan tidak membuka pada tekanan setel. Ukuran katup tidak pernah dinilai ulang setelah laju produksi atau skenario proses berubah (management of change yang terlewat)."
+  },
+  {
+   "slug": "splitting",
+   "term": "Splitting (Hidrolisis Lemak)",
+   "aliases": [
+    "fat splitting",
+    "hidrolisis trigliserida",
+    "Colgate-Emery"
+   ],
+   "fondasi": "unit-operasi",
+   "sectors": [
+    "oleokimia"
+   ],
+   "definisi": "Splitting adalah hidrolisis trigliserida minyak nabati dengan air pada suhu dan tekanan tinggi, menghasilkan asam lemak bebas dan gliserin. Reaksi ini adalah gerbang utama sektor oleokimia, karena asam lemak adalah bahan antara bagi sebagian besar produk turunan.",
+   "analogi": "Splitting serupa dengan membongkar satu paket menjadi isinya: satu molekul trigliserida yang besar dibongkar menjadi tiga molekul asam lemak dan satu molekul gliserin yang masing-masing dapat diolah terpisah.",
+   "mekanisme": "Reaksi berlangsung bertahap: trigliserida menjadi digliserida, monogliserida, dan akhirnya gliserol, dengan satu molekul asam lemak terlepas pada setiap tahap. Reaksi bersifat reversibel dan digeser ke kanan oleh kelebihan air serta pemisahan fase gliserin (sweet water) secara kontinu. Kelarutan air dalam fase minyak naik tajam pada suhu tinggi, sehingga proses kontinu modern tidak memerlukan katalis.",
+   "prinsip": "Kesetimbangan dan laju reaksi ditentukan oleh suhu, rasio air terhadap minyak, dan efisiensi pemisahan fase. Kolom splitting kontinu berlawanan arah mencapai derajat pemecahan sangat tinggi dalam satu alat karena fase gliserin yang terbentuk terus dikeluarkan dari zona reaksi.",
+   "plant": {
+    "biaya": [
+     "Steam tekanan tinggi untuk mencapai suhu reaksi adalah biaya variabel utama, disusul energi penguapan sweet water untuk memperoleh gliserin.",
+     "Derajat splitting menentukan rendemen gliserin dan asam lemak sekaligus, sehingga penyimpangannya terbaca pada dua produk."
+    ],
+    "checklist": [
+     {
+      "gejala": "Derajat splitting menurun",
+      "penyebab": "Suhu kolom turun, rasio air berubah, atau distribusi umpan terganggu",
+      "tindakan": "Periksa profil suhu kolom dan laju air proses terhadap laju minyak."
+     },
+     {
+      "gejala": "Pemisahan fase di separator memburuk",
+      "penyebab": "Emulsi akibat pengotor umpan atau suhu pemisahan tidak tepat",
+      "tindakan": "Periksa mutu minyak umpan dan suhu separator; tinjau kebutuhan pencucian umpan."
+     }
+    ],
+    "contoh": "Contoh hitungan: 100 kg minyak sawit (berat molekul rata-rata trigliserida sekitar 850 g/mol) setara dengan sekitar 0,118 kmol trigliserida. Hidrolisis sempurna menghasilkan sekitar 3 x 0,118 = 0,353 kmol asam lemak (sekitar 95 kg pada berat molekul rata-rata 270 g/mol) dan 0,118 kmol gliserol (sekitar 10,8 kg). Pada derajat splitting 98 persen, gliserin yang terbentuk sekitar 10,6 kg per 100 kg minyak sebelum memperhitungkan kehilangan proses."
+   },
+   "search_text": "Splitting adalah hidrolisis trigliserida minyak nabati dengan air pada suhu dan tekanan tinggi, menghasilkan asam lemak bebas dan gliserin. Reaksi ini adalah gerbang utama sektor oleokimia, karena asam lemak adalah bahan antara bagi sebagian besar produk turunan. Reaksi berlangsung bertahap: trigliserida menjadi digliserida, monogliserida, dan akhirnya gliserol, dengan satu molekul asam lemak terlepas pada setiap tahap. Reaksi bersifat reversibel dan digeser ke kanan oleh kelebihan air serta pemisahan fase gliserin (sweet water) secara kontinu. Kelarutan air dalam fase minyak naik tajam pada suhu tinggi, sehingga proses kontinu modern tidak memerlukan katalis. Kesetimbangan dan laju reaksi ditentukan oleh suhu, rasio air terhadap minyak, dan efisiensi pemisahan fase. Kolom splitting kontinu berlawanan arah mencapai derajat pemecahan sangat tinggi dalam satu alat karena fase gliserin yang terbentuk terus dikeluarkan dari zona reaksi. Splitting serupa dengan membongkar satu paket menjadi isinya: satu molekul trigliserida yang besar dibongkar menjadi tiga molekul asam lemak dan satu molekul gliserin yang masing-masing dapat diolah terpisah. Suhu reaksi laju hidrolisis dan kelarutan air dalam minyak meningkat sehingga derajat splitting naik, karena hambatan perpindahan massa antarfase menurun. Tekanan operasi air dipertahankan pada fase cair dan kontak antarfase terjaga; tekanan itu sendiri bukan penggerak reaksi. Rasio air terhadap minyak kesetimbangan bergeser ke produk dan derajat splitting naik, dengan konsekuensi beban penguapan sweet water untuk pemekatan gliserin meningkat. Pembentukan emulsi stabil yang menghambat pemisahan fase asam lemak dan sweet water. Warna asam lemak memburuk akibat suhu berlebih atau kandungan logam pengotor dalam umpan. Derajat splitting rendah yang terbawa sebagai trigliserida sisa ke distilasi asam lemak dan menurunkan mutu fraksi."
+  },
+  {
+   "slug": "transesterifikasi",
+   "term": "Transesterifikasi",
+   "aliases": [
+    "metanolisis",
+    "biodiesel",
+    "metil ester",
+    "FAME"
+   ],
+   "fondasi": "unit-operasi",
+   "sectors": [
+    "oleokimia",
+    "petrokimia"
+   ],
+   "definisi": "Transesterifikasi adalah pertukaran gugus alkohol pada trigliserida dengan metanol, menghasilkan metil ester asam lemak (biodiesel, FAME) dan gliserin sebagai produk samping. Reaksi dikatalisis basa kuat pada kondisi ringan dan merupakan jalur utama produksi biodiesel dari minyak nabati.",
+   "analogi": "Transesterifikasi serupa dengan mengganti gantungan pada rangkaian manik-manik: rantai asam lemak yang semula tergantung pada rangka gliserol dipindahkan satu per satu ke molekul metanol yang kecil.",
+   "mekanisme": "Reaksi berlangsung tiga tahap reversibel melalui digliserida dan monogliserida. Katalis basa (natrium atau kalium metoksida/hidroksida) membentuk spesi metoksida yang menyerang karbon karbonil trigliserida. Pemisahan fase gliserin yang terbentuk menarik kesetimbangan ke arah produk, sehingga pemisahan gliserin di antara tahap reaksi meningkatkan konversi akhir.",
+   "prinsip": "Kesetimbangan digeser dengan metanol berlebih, umumnya dua kali stoikiometri, dan dengan pengeluaran gliserin. Air dan asam lemak bebas adalah racun proses: keduanya mengonsumsi katalis basa dan membentuk sabun yang menimbulkan emulsi.",
+   "plant": {
+    "biaya": [
+     "Metanol adalah biaya bahan utama kedua setelah minyak; efisiensi pemulihan metanol menentukan biaya variabel secara langsung.",
+     "Mutu umpan menentukan kebutuhan pretreatment: umpan ber-FFA tinggi memerlukan tahap esterifikasi asam yang menambah modal dan operasi."
+    ],
+    "checklist": [
+     {
+      "gejala": "Pemisahan fase gliserin lambat atau tidak terbentuk",
+      "penyebab": "Pembentukan sabun akibat umpan basah atau ber-FFA tinggi",
+      "tindakan": "Uji kadar air dan FFA umpan dan periksa dosis katalis aktual."
+     },
+     {
+      "gejala": "Kandungan gliserida total produk melampaui spesifikasi",
+      "penyebab": "Konversi tahap kedua tidak sempurna atau pemisahan gliserin antara tahap kurang baik",
+      "tindakan": "Periksa waktu tinggal, suhu, dan efisiensi pemisahan antara tahap reaksi."
+     }
+    ],
+    "contoh": "Contoh hitungan: 1.000 kg minyak (sekitar 1,18 kmol trigliserida pada berat molekul 850 g/mol) memerlukan metanol stoikiometri 3 x 1,18 = 3,53 kmol atau sekitar 113 kg. Pada rasio 6:1, metanol yang diumpankan sekitar 226 kg, dan selisih sekitar 113 kg harus dipulihkan dari fase ester dan fase gliserin untuk dipakai kembali. Hasil teoretisnya adalah sekitar 1.005 kg metil ester dan 108 kg gliserin kasar."
+   },
+   "search_text": "Transesterifikasi adalah pertukaran gugus alkohol pada trigliserida dengan metanol, menghasilkan metil ester asam lemak (biodiesel, FAME) dan gliserin sebagai produk samping. Reaksi dikatalisis basa kuat pada kondisi ringan dan merupakan jalur utama produksi biodiesel dari minyak nabati. Reaksi berlangsung tiga tahap reversibel melalui digliserida dan monogliserida. Katalis basa (natrium atau kalium metoksida/hidroksida) membentuk spesi metoksida yang menyerang karbon karbonil trigliserida. Pemisahan fase gliserin yang terbentuk menarik kesetimbangan ke arah produk, sehingga pemisahan gliserin di antara tahap reaksi meningkatkan konversi akhir. Kesetimbangan digeser dengan metanol berlebih, umumnya dua kali stoikiometri, dan dengan pengeluaran gliserin. Air dan asam lemak bebas adalah racun proses: keduanya mengonsumsi katalis basa dan membentuk sabun yang menimbulkan emulsi. Transesterifikasi serupa dengan mengganti gantungan pada rangkaian manik-manik: rantai asam lemak yang semula tergantung pada rangka gliserol dipindahkan satu per satu ke molekul metanol yang kecil. Kadar FFA dan air umpan konsumsi katalis dan pembentukan sabun meningkat sehingga konversi dan pemisahan fase memburuk, karena katalis terpakai untuk menetralkan asam dan bukan untuk reaksi utama. Rasio metanol terhadap minyak konversi kesetimbangan meningkat, karena kelebihan metanol menggeser reaksi ke produk; beban pemulihan metanol ikut naik. Suhu reaksi laju reaksi meningkat; suhu yang melampaui titik didih metanol menguapkan pereaksi dan memerlukan tekanan. Pembentukan sabun dan emulsi yang menghambat pemisahan gliserin dan ester. Konversi tidak sempurna meninggalkan mono- dan digliserida yang melampaui spesifikasi biodiesel. Metanol tidak terpulihkan dengan baik menaikkan biaya bahan dan beban emisi."
+  },
+  {
+   "slug": "ffa-dan-acid-value",
+   "term": "FFA dan Acid Value",
+   "aliases": [
+    "FFA",
+    "free fatty acid",
+    "acid value",
+    "bilangan asam",
+    "AV"
+   ],
+   "fondasi": "lab-qc",
+   "sectors": [
+    "oleokimia"
+   ],
+   "definisi": "Asam lemak bebas (free fatty acid, FFA) adalah asam lemak yang tidak lagi terikat pada gliserol, terbentuk dari hidrolisis trigliserida oleh air dengan bantuan panas dan enzim. Acid value (bilangan asam, AV) adalah ukuran keasaman minyak yang dinyatakan sebagai miligram KOH yang diperlukan untuk menetralkan asam bebas dalam satu gram sampel. Kedua besaran ini adalah indikator mutu dan degradasi terpenting pada minyak nabati dan produk oleokimia.",
+   "analogi": "FFA serupa dengan retakan pada bangunan minyak: retakan bertambah selama penyimpanan yang buruk, dan acid value adalah alat ukur yang menyatakan besar retakan tersebut dalam satu angka.",
+   "mekanisme": "Hidrolisis memutuskan ikatan ester trigliserida secara bertahap. Pada buah sawit, enzim lipase yang teraktivasi setelah panen mempercepat pembentukan FFA, sehingga keterlambatan pengolahan menaikkan FFA tandan secara nyata. FFA juga terbentuk kembali selama penyimpanan minyak yang mengandung air pada suhu tinggi.",
+   "prinsip": "Penetapan AV dilakukan dengan titrasi asam dan basa: sampel dilarutkan dalam pelarut organik dan dititrasi dengan larutan KOH atau NaOH berstandar hingga titik akhir indikator. Persen FFA dihitung dari AV dengan faktor yang bergantung pada asam lemak acuan yang dipilih, umumnya asam oleat untuk minyak sawit.",
+   "plant": {
+    "biaya": [
+     "FFA menentukan harga beli minyak mentah dan besarnya kehilangan netralisasi (refining loss) pada refinery.",
+     "Pada pabrik biodiesel, FFA tinggi memaksa tahap esterifikasi asam tambahan dengan katalis asam dan metanol lebih besar."
+    ],
+    "checklist": [
+     {
+      "gejala": "FFA minyak mentah naik dari pemasok yang sama",
+      "penyebab": "Keterlambatan pengolahan buah atau buah memar berlebihan",
+      "tindakan": "Telusuri waktu panen hingga sterilisasi dan mutu penerimaan tandan."
+     },
+     {
+      "gejala": "Hasil AV laboratorium tidak konsisten antar pengulangan",
+      "penyebab": "Sampel tidak homogen, titran berubah konsentrasi, atau titik akhir dibaca tidak konsisten",
+      "tindakan": "Lakukan titrasi blanko, standarisasi ulang titran, dan pemanasan sampel hingga homogen sebelum analisis."
+     }
+    ],
+    "contoh": "Contoh hitungan: sampel 5,00 g minyak dititrasi dengan KOH 0,1 N dan memerlukan 3,6 mL. AV = (56,1 x 3,6 x 0,1) / 5,00 = 4,04 mg KOH/g. Dinyatakan sebagai asam oleat, FFA = 4,04 x 0,503 = sekitar 2,03 persen. Nilai ini berada pada kisaran umum minyak sawit mentah yang bermutu baik menurut literatur perdagangan minyak nabati."
+   },
+   "search_text": "Asam lemak bebas (free fatty acid, FFA) adalah asam lemak yang tidak lagi terikat pada gliserol, terbentuk dari hidrolisis trigliserida oleh air dengan bantuan panas dan enzim. Acid value (bilangan asam, AV) adalah ukuran keasaman minyak yang dinyatakan sebagai miligram KOH yang diperlukan untuk menetralkan asam bebas dalam satu gram sampel. Kedua besaran ini adalah indikator mutu dan degradasi terpenting pada minyak nabati dan produk oleokimia. Hidrolisis memutuskan ikatan ester trigliserida secara bertahap. Pada buah sawit, enzim lipase yang teraktivasi setelah panen mempercepat pembentukan FFA, sehingga keterlambatan pengolahan menaikkan FFA tandan secara nyata. FFA juga terbentuk kembali selama penyimpanan minyak yang mengandung air pada suhu tinggi. Penetapan AV dilakukan dengan titrasi asam dan basa: sampel dilarutkan dalam pelarut organik dan dititrasi dengan larutan KOH atau NaOH berstandar hingga titik akhir indikator. Persen FFA dihitung dari AV dengan faktor yang bergantung pada asam lemak acuan yang dipilih, umumnya asam oleat untuk minyak sawit. FFA serupa dengan retakan pada bangunan minyak: retakan bertambah selama penyimpanan yang buruk, dan acid value adalah alat ukur yang menyatakan besar retakan tersebut dalam satu angka. Waktu antara panen dan pengolahan buah FFA minyak mentah meningkat, karena aktivitas lipase pada buah yang memar terus memutuskan trigliserida. Kadar air dan suhu penyimpanan minyak FFA bertambah selama penyimpanan dan nilai jual minyak menurun. Efisiensi netralisasi dan pemucatan pada refinery FFA produk akhir menurun mendekati batas spesifikasi, dengan konsekuensi kehilangan minyak netral yang terbawa ke soapstock meningkat apabila alkali berlebih. FFA tinggi pada bahan pangan menurunkan mutu rasa dan mempercepat ketengikan oksidatif. Pada biodiesel berkatalis basa, FFA tinggi menimbulkan sabun dan kegagalan pemisahan. Hasil AV yang menyimpang karena titran tidak terstandarisasi atau sampel tidak homogen."
+  },
+  {
+   "slug": "hidrogenasi",
+   "term": "Hidrogenasi Lemak",
+   "aliases": [
+    "hydrogenation",
+    "pengerasan lemak",
+    "iodine value",
+    "katalis nikel"
+   ],
+   "fondasi": "unit-operasi",
+   "sectors": [
+    "oleokimia"
+   ],
+   "definisi": "Hidrogenasi adalah penambahan hidrogen pada ikatan rangkap asam lemak tidak jenuh dengan katalis logam, umumnya nikel, untuk menaikkan titik leleh dan kestabilan oksidatif minyak. Derajat pengerasan dipantau melalui penurunan iodine value (IV), yaitu ukuran jumlah ikatan rangkap yang tersisa.",
+   "analogi": "Hidrogenasi serupa dengan meluruskan rantai yang bengkok: ikatan rangkap membuat rantai asam lemak menekuk dan sulit tersusun rapat; setelah ikatan itu dijenuhkan, rantai menjadi lurus, tersusun padat, dan meleleh pada suhu lebih tinggi.",
+   "mekanisme": "Hidrogen teradsorpsi pada permukaan katalis nikel dan terdisosiasi, lalu ditambahkan ke ikatan rangkap yang juga teradsorpsi. Reaksi bersifat eksotermik dan terbatas oleh perpindahan hidrogen dari fase gas ke cairan dan ke permukaan katalis. Pada kondisi tertentu terjadi isomerisasi posisi dan geometri yang membentuk asam lemak trans, terutama pada hidrogenasi parsial.",
+   "prinsip": "Penurunan IV sebanding dengan jumlah hidrogen yang terserap. Selektivitas pengerasan menentukan urutan penjenuhan asam lemak poli-tidak jenuh menjadi mono-tidak jenuh dan selanjutnya jenuh, yang mengatur profil leleh produk.",
+   "plant": {
+    "biaya": [
+     "Hidrogen adalah biaya variabel utama; sumbernya menentukan ekonomi proses, disusul katalis nikel dan penyaringannya.",
+     "Titik leleh dan profil padatan produk menentukan nilai jual margarin, shortening, dan bahan kosmetik."
+    ],
+    "checklist": [
+     {
+      "gejala": "Waktu reaksi memanjang pada kondisi yang sama",
+      "penyebab": "Aktivitas katalis menurun atau umpan mengandung racun katalis",
+      "tindakan": "Periksa riwayat mutu umpan dan lakukan uji aktivitas katalis sebelum menaikkan dosis."
+     },
+     {
+      "gejala": "Titik leleh produk tercapai tetapi tekstur menyimpang",
+      "penyebab": "Selektivitas dan isomerisasi berubah akibat suhu atau tekanan di luar pola",
+      "tindakan": "Bandingkan kurva kandungan lemak padat (SFC) produk terhadap acuan, bukan hanya titik leleh."
+     }
+    ],
+    "contoh": "Contoh hitungan: mengeraskan 1.000 kg minyak dari IV 55 menjadi IV 5 berarti menghilangkan 50 satuan IV. Setiap satuan IV setara dengan penyerapan yodium 1 g per 100 g minyak, dan secara stoikiometri hidrogen yang diperlukan adalah sekitar 50 x (2/254) g per 100 g minyak, atau sekitar 3,9 kg hidrogen per 1.000 kg minyak, di luar hidrogen untuk ruang uap dan kehilangan."
+   },
+   "search_text": "Hidrogenasi adalah penambahan hidrogen pada ikatan rangkap asam lemak tidak jenuh dengan katalis logam, umumnya nikel, untuk menaikkan titik leleh dan kestabilan oksidatif minyak. Derajat pengerasan dipantau melalui penurunan iodine value (IV), yaitu ukuran jumlah ikatan rangkap yang tersisa. Hidrogen teradsorpsi pada permukaan katalis nikel dan terdisosiasi, lalu ditambahkan ke ikatan rangkap yang juga teradsorpsi. Reaksi bersifat eksotermik dan terbatas oleh perpindahan hidrogen dari fase gas ke cairan dan ke permukaan katalis. Pada kondisi tertentu terjadi isomerisasi posisi dan geometri yang membentuk asam lemak trans, terutama pada hidrogenasi parsial. Penurunan IV sebanding dengan jumlah hidrogen yang terserap. Selektivitas pengerasan menentukan urutan penjenuhan asam lemak poli-tidak jenuh menjadi mono-tidak jenuh dan selanjutnya jenuh, yang mengatur profil leleh produk. Hidrogenasi serupa dengan meluruskan rantai yang bengkok: ikatan rangkap membuat rantai asam lemak menekuk dan sulit tersusun rapat; setelah ikatan itu dijenuhkan, rantai menjadi lurus, tersusun padat, dan meleleh pada suhu lebih tinggi. Tekanan hidrogen laju reaksi dan kelarutan hidrogen dalam minyak meningkat, karena gaya dorong perpindahan massa gas ke cair bertambah. Suhu reaksi reaksi mempercepat, tetapi pembentukan isomer trans dan penurunan selektivitas ikut meningkat. Konsentrasi dan umur katalis waktu reaksi memanjang, karena situs aktif berkurang oleh pemakaian, keracunan belerang, dan sisa sabun. Pembentukan asam lemak trans berlebih pada hidrogenasi parsial, yang dibatasi oleh regulasi pangan di banyak negara. Keracunan katalis oleh senyawa belerang, fosfor, dan sabun dalam umpan yang tidak dimurnikan baik. Kenaikan suhu tak terkendali karena reaksi eksotermik dan pendinginan yang tidak memadai."
+  },
+  {
+   "slug": "distilasi-atmosferik-cdu",
+   "term": "Distilasi Atmosferik Minyak Mentah (CDU)",
+   "aliases": [
+    "CDU",
+    "crude distillation unit",
+    "distilasi atmosferik",
+    "topping unit"
+   ],
+   "fondasi": "unit-operasi",
+   "sectors": [
+    "kilang-migas"
+   ],
+   "definisi": "Unit distilasi atmosferik (crude distillation unit, CDU) adalah unit pertama kilang minyak yang memisahkan minyak mentah menjadi fraksi-fraksi berdasarkan rentang titik didihnya pada tekanan mendekati atmosfer. Fraksi yang dihasilkan bukan produk akhir, melainkan umpan bagi unit pengolahan lanjutan.",
+   "analogi": "CDU serupa dengan memilah kiriman berdasarkan ukuran di gerbang pertama gudang: pemilahan awal ini menentukan ke rak pengolahan mana setiap kelompok barang dikirim berikutnya.",
+   "mekanisme": "Minyak mentah yang telah dihilangkan garamnya dipanaskan melalui rangkaian penukar panas dan furnace hingga sebagian menguap, kemudian dimasukkan ke zona flash kolom. Uap naik dan mengembun bertahap pada tray dengan suhu menurun ke arah puncak; cairan yang tidak menguap menjadi residu atmosferik. Aliran samping diambil pada ketinggian dengan rentang didih yang sesuai, dan steam stripping pada bagian dasar serta stripper samping mempertajam batas antar fraksi.",
+   "prinsip": "Pemisahan pada CDU adalah pemisahan kasar berdasarkan kurva distilasi umpan (true boiling point). Mutu pemisahan dinyatakan dengan jurang atau tumpang tindih (gap/overlap) antara titik didih akhir fraksi ringan dan titik didih awal fraksi berikutnya pada kurva ASTM D86.",
+   "plant": {
+    "biaya": [
+     "Furnace CDU adalah pemakai bahan bakar terbesar di kilang; efisiensi preheat train menentukan konsumsi bahan bakar per barel.",
+     "Perolehan dan ketajaman fraksi menentukan beban serta nilai produk seluruh unit hilir."
+    ],
+    "checklist": [
+     {
+      "gejala": "Perolehan distilat menurun pada suhu furnace yang sama",
+      "penyebab": "Komposisi minyak mentah berubah lebih berat, atau fouling preheat train menurunkan suhu masuk furnace sebenarnya",
+      "tindakan": "Bandingkan assay minyak mentah terbaru dan nilai suhu antar titik pada rangkaian preheat."
+     },
+     {
+      "gejala": "Korosi dan deposit pada sirkuit puncak meningkat",
+      "penyebab": "Kinerja desalter menurun sehingga garam terbawa",
+      "tindakan": "Periksa kadar garam keluar desalter dan injeksi bahan kimia penetral."
+     }
+    ],
+    "contoh": "Contoh textbook: potongan fraksi kasar minyak mentah ringan pada CDU adalah gas dan nafta di bawah sekitar 180 derajat C, kerosin sekitar 180 s.d. 240 derajat C, solar sekitar 240 s.d. 340 derajat C, dan residu atmosferik di atas sekitar 340 derajat C. Angka ini adalah ilustrasi rentang didih umum dan bergeser menurut assay minyak mentah serta konfigurasi kilang."
+   },
+   "search_text": "Unit distilasi atmosferik (crude distillation unit, CDU) adalah unit pertama kilang minyak yang memisahkan minyak mentah menjadi fraksi-fraksi berdasarkan rentang titik didihnya pada tekanan mendekati atmosfer. Fraksi yang dihasilkan bukan produk akhir, melainkan umpan bagi unit pengolahan lanjutan. Minyak mentah yang telah dihilangkan garamnya dipanaskan melalui rangkaian penukar panas dan furnace hingga sebagian menguap, kemudian dimasukkan ke zona flash kolom. Uap naik dan mengembun bertahap pada tray dengan suhu menurun ke arah puncak; cairan yang tidak menguap menjadi residu atmosferik. Aliran samping diambil pada ketinggian dengan rentang didih yang sesuai, dan steam stripping pada bagian dasar serta stripper samping mempertajam batas antar fraksi. Pemisahan pada CDU adalah pemisahan kasar berdasarkan kurva distilasi umpan (true boiling point). Mutu pemisahan dinyatakan dengan jurang atau tumpang tindih (gap/overlap) antara titik didih akhir fraksi ringan dan titik didih awal fraksi berikutnya pada kurva ASTM D86. CDU serupa dengan memilah kiriman berdasarkan ukuran di gerbang pertama gudang: pemilahan awal ini menentukan ke rak pengolahan mana setiap kelompok barang dikirim berikutnya. Suhu keluar furnace (coil outlet) fraksi yang menguap di zona flash bertambah dan perolehan distilat naik, karena lebih banyak komponen memasuki rentang penguapan; risiko perengkahan termal dalam furnace ikut naik. Laju steam stripping dasar kolom komponen ringan pada residu berkurang dan perolehan fraksi samping naik, karena tekanan parsial hidrokarbon diturunkan oleh steam. Laju pumparound profil suhu kolom terkendali dan panas tersedia untuk pemulihan pada tingkat suhu lebih tinggi; reflux internal pada seksi terkait berubah. Pembentukan kokas dalam tube furnace akibat suhu film berlebih atau aliran rendah. Korosi bagian puncak kolom oleh HCl dari garam yang tidak terhilangkan pada desalter, membentuk korosi asam klorida dan deposit amonium klorida. Tumpang tindih fraksi melebar karena tray rusak atau beban kolom melampaui kapasitas hidraulik."
+  },
+  {
+   "slug": "fcc-fluid-catalytic-cracking",
+   "term": "FCC (Fluid Catalytic Cracking)",
+   "aliases": [
+    "FCC",
+    "perengkahan katalitik",
+    "cat cracker"
+   ],
+   "fondasi": "unit-operasi",
+   "sectors": [
+    "kilang-migas"
+   ],
+   "definisi": "FCC adalah proses perengkahan katalitik terfluidisasi yang mengubah fraksi minyak berat, terutama vacuum gas oil, menjadi bensin, LPG, dan olefin ringan dengan katalis zeolit berbentuk serbuk halus yang bersirkulasi antara reaktor riser dan regenerator. Kokas yang menempel pada katalis dibakar di regenerator, dan panas pembakaran itu memasok energi reaksi perengkahan yang endotermik.",
+   "analogi": "FCC serupa dengan angkutan pulang-pergi yang tidak pernah berhenti: katalis mengantar reaksi di riser, pulang membawa kokas, dibersihkan dengan pembakaran di regenerator, dan kembali dalam keadaan panas untuk mengantar kembali.",
+   "mekanisme": "Umpan berat berkontak dengan katalis panas dalam riser selama beberapa detik. Ion karbonium pada situs asam zeolit memecah molekul besar menjadi molekul lebih kecil. Kokas terdeposit pada katalis dan menonaktifkannya; di regenerator kokas dibakar dengan udara, memulihkan aktivitas dan memanaskan katalis. Sirkulasi katalis menghubungkan neraca panas kedua bejana.",
+   "prinsip": "Konversi FCC dinyatakan terhadap umpan segar dan keseimbangan panas unit dijaga melalui laju sirkulasi katalis serta rasio katalis terhadap minyak. Selektivitas produk diatur oleh suhu riser, aktivitas dan jenis katalis, serta waktu kontak.",
+   "plant": {
+    "biaya": [
+     "FCC umumnya adalah unit penentu laba kilang: perolehan bensin dan propilena bernilai tinggi dibandingkan umpan beratnya.",
+     "Biaya variabel utama adalah katalis makeup untuk mengganti kehilangan dan deaktivasi, serta utilitas kompresor gas basah."
+    ],
+    "checklist": [
+     {
+      "gejala": "Konversi turun pada suhu riser yang sama",
+      "penyebab": "Aktivitas katalis menurun oleh logam umpan atau kerusakan zeolit",
+      "tindakan": "Nilai aktivitas katalis keseimbangan (MAT) dan kandungan logamnya; sesuaikan laju makeup katalis segar."
+     },
+     {
+      "gejala": "Suhu regenerator naik tidak terkendali",
+      "penyebab": "Kokas pada katalis berlebih atau distribusi udara terganggu",
+      "tindakan": "Kurangi umpan dan periksa pembakaran CO serta kebutuhan promotor CO."
+     }
+    ],
+    "contoh": "Contoh textbook: pada umpan 100 satuan, hasil FCC tipikal berada pada kisaran bensin sekitar 45 s.d. 55, LPG sekitar 15 s.d. 20, gas kering dan kokas masing-masing beberapa satuan, dan sisanya fraksi siklus. Angka ini adalah ilustrasi pola hasil dari literatur penyulingan dan sangat bergantung pada umpan, katalis, dan tujuan operasi, misalnya mode bensin maksimum atau olefin maksimum."
+   },
+   "search_text": "FCC adalah proses perengkahan katalitik terfluidisasi yang mengubah fraksi minyak berat, terutama vacuum gas oil, menjadi bensin, LPG, dan olefin ringan dengan katalis zeolit berbentuk serbuk halus yang bersirkulasi antara reaktor riser dan regenerator. Kokas yang menempel pada katalis dibakar di regenerator, dan panas pembakaran itu memasok energi reaksi perengkahan yang endotermik. Umpan berat berkontak dengan katalis panas dalam riser selama beberapa detik. Ion karbonium pada situs asam zeolit memecah molekul besar menjadi molekul lebih kecil. Kokas terdeposit pada katalis dan menonaktifkannya; di regenerator kokas dibakar dengan udara, memulihkan aktivitas dan memanaskan katalis. Sirkulasi katalis menghubungkan neraca panas kedua bejana. Konversi FCC dinyatakan terhadap umpan segar dan keseimbangan panas unit dijaga melalui laju sirkulasi katalis serta rasio katalis terhadap minyak. Selektivitas produk diatur oleh suhu riser, aktivitas dan jenis katalis, serta waktu kontak. FCC serupa dengan angkutan pulang-pergi yang tidak pernah berhenti: katalis mengantar reaksi di riser, pulang membawa kokas, dibersihkan dengan pembakaran di regenerator, dan kembali dalam keadaan panas untuk mengantar kembali. Suhu riser konversi dan perolehan gas naik, karena laju reaksi perengkahan meningkat; perolehan bensin melewati titik maksimum dan kokas bertambah. Rasio katalis terhadap minyak (C/O) konversi naik, karena jumlah situs aktif dan panas yang dibawa katalis per satuan umpan bertambah. Logam pengotor pada umpan (Ni, V, Na) aktivitas dan selektivitas katalis menurun secara permanen, karena logam meracuni zeolit dan memicu reaksi dehidrogenasi yang menambah gas dan kokas. Afterburn di regenerator: pembakaran CO berlanjut di fase encer dan menaikkan suhu melampaui batas metalurgi siklon. Kehilangan katalis berlebih melalui siklon dan cerobong, menaikkan biaya katalis dan emisi partikulat. Sirkulasi katalis tidak stabil (stall) akibat aerasi atau katup geser terganggu, menghentikan konversi secara mendadak."
+  },
+  {
+   "slug": "steam-cracking",
+   "term": "Steam Cracking",
+   "aliases": [
+    "pirolisis hidrokarbon",
+    "ethylene cracker",
+    "perengkahan uap"
+   ],
+   "fondasi": "unit-operasi",
+   "sectors": [
+    "petrokimia"
+   ],
+   "definisi": "Steam cracking adalah pirolisis hidrokarbon (nafta atau etana) dengan steam pada suhu sangat tinggi dan waktu tinggal sangat singkat untuk menghasilkan olefin ringan, terutama etilena dan propilena. Proses ini adalah sumber olefin terbesar industri petrokimia.",
+   "analogi": "Steam cracking serupa dengan memotong tali dengan satu ayunan cepat pada suhu ekstrem: molekul panjang dipecah seketika, dan hasil potongan segera dibekukan dengan pendinginan cepat sebelum berubah menjadi potongan yang tidak diinginkan.",
+   "mekanisme": "Di dalam tube furnace, radikal bebas terbentuk dan memecah rantai hidrokarbon melalui reaksi berantai radikal. Steam menurunkan tekanan parsial hidrokarbon, menekan reaksi pembentukan kokas, dan menggeser hasil ke olefin. Gas hasil harus didinginkan sangat cepat pada quench exchanger agar reaksi berhenti pada komposisi hasil yang optimum.",
+   "prinsip": "Keparahan (severity) operasi ditentukan gabungan suhu keluar koil, waktu tinggal, dan tekanan parsial hidrokarbon. Kenaikan severity menaikkan konversi dan perolehan etilena hingga titik optimum, setelah itu olefin terkonversi lanjut menjadi aromatik dan kokas.",
+   "plant": {
+    "biaya": [
+     "Bahan bakar furnace dan bahan baku adalah biaya dominan; selisih kecil selektivitas etilena menentukan margin keseluruhan kompleks petrokimia.",
+     "Siklus decoking menentukan ketersediaan furnace dan memerlukan penjadwalan bergilir antar sel."
+    ],
+    "checklist": [
+     {
+      "gejala": "Suhu kulit tube naik pada laju umpan yang sama",
+      "penyebab": "Lapisan kokas di dalam tube mengisolasi dinding dan menghambat perpindahan panas",
+      "tindakan": "Pantau tren beda tekanan koil dan suhu kulit untuk menjadwalkan decoking sebelum batas suhu logam tercapai."
+     },
+     {
+      "gejala": "Perolehan etilena menurun pada severity yang sama",
+      "penyebab": "Komposisi umpan berubah lebih berat atau quench tidak efektif",
+      "tindakan": "Periksa karakterisasi umpan (misalnya kandungan parafin) dan suhu keluar quench exchanger."
+     }
+    ],
+    "contoh": "Contoh textbook: perengkahan nafta pada severity tinggi menghasilkan etilena pada kisaran sekitar 25 s.d. 32 persen massa umpan, disertai propilena sekitar 13 s.d. 16 persen dan fraksi lain termasuk bensin pirolisis dan gas bahan bakar. Perengkahan etana memberikan etilena jauh lebih tinggi, sekitar 75 s.d. 80 persen terhadap etana yang terkonversi, dengan produk samping lebih sedikit. Rentang ini adalah pola literatur dan bukan jaminan kinerja unit tertentu."
+   },
+   "search_text": "Steam cracking adalah pirolisis hidrokarbon (nafta atau etana) dengan steam pada suhu sangat tinggi dan waktu tinggal sangat singkat untuk menghasilkan olefin ringan, terutama etilena dan propilena. Proses ini adalah sumber olefin terbesar industri petrokimia. Di dalam tube furnace, radikal bebas terbentuk dan memecah rantai hidrokarbon melalui reaksi berantai radikal. Steam menurunkan tekanan parsial hidrokarbon, menekan reaksi pembentukan kokas, dan menggeser hasil ke olefin. Gas hasil harus didinginkan sangat cepat pada quench exchanger agar reaksi berhenti pada komposisi hasil yang optimum. Keparahan (severity) operasi ditentukan gabungan suhu keluar koil, waktu tinggal, dan tekanan parsial hidrokarbon. Kenaikan severity menaikkan konversi dan perolehan etilena hingga titik optimum, setelah itu olefin terkonversi lanjut menjadi aromatik dan kokas. Steam cracking serupa dengan memotong tali dengan satu ayunan cepat pada suhu ekstrem: molekul panjang dipecah seketika, dan hasil potongan segera dibekukan dengan pendinginan cepat sebelum berubah menjadi potongan yang tidak diinginkan. Suhu keluar koil (coil outlet temperature) konversi dan perolehan etilena naik hingga optimum, karena pemutusan rantai terakselerasi; laju pembentukan kokas dalam tube meningkat. Rasio steam terhadap hidrokarbon tekanan parsial hidrokarbon turun sehingga selektivitas olefin membaik dan kokas berkurang, dengan biaya pembangkitan steam yang lebih besar. Waktu tinggal dalam koil reaksi lanjut mengonsumsi olefin menjadi produk lebih berat dan kokas, sehingga terdapat waktu optimum yang singkat. Pembentukan kokas pada dinding tube menaikkan suhu logam dan memaksa penghentian untuk decoking berkala. Kegagalan quench menimbulkan degradasi hasil dan fouling berat pada jalur gas hasil. Retak tube furnace akibat operasi suhu logam melampaui batas desain."
+  },
+  {
+   "slug": "polimerisasi",
+   "term": "Polimerisasi",
+   "aliases": [
+    "polymerization",
+    "derajat polimerisasi",
+    "Carothers",
+    "step growth",
+    "chain growth"
+   ],
+   "fondasi": "unit-operasi",
+   "sectors": [
+    "petrokimia"
+   ],
+   "definisi": "Polimerisasi adalah penggabungan banyak molekul kecil (monomer) menjadi rantai molekul raksasa (polimer). Dua mekanisme besar dibedakan: polimerisasi pertumbuhan rantai (chain growth) melalui pusat aktif radikal atau ionik, dan polimerisasi pertumbuhan bertahap (step growth) melalui reaksi antar gugus fungsi yang bertahap membangun oligomer menjadi polimer.",
+   "analogi": "Polimerisasi rantai serupa dengan merangkai gerbong dari satu ujung lokomotif aktif yang terus menyambung gerbong baru, sedangkan polimerisasi bertahap serupa dengan banyak pasangan gerbong pendek yang saling menyambung menjadi rangkaian yang semakin panjang di semua titik sekaligus.",
+   "mekanisme": "Pada chain growth, pusat aktif pada ujung rantai menambahkan monomer satu per satu dengan sangat cepat, sehingga rantai panjang terbentuk sejak awal dan monomer tersisa banyak. Pada step growth, semua spesies saling bereaksi; berat molekul naik perlahan dan hanya melonjak pada konversi gugus fungsi yang sangat tinggi, sebagaimana dinyatakan persamaan Carothers.",
+   "prinsip": "Persamaan Carothers menunjukkan bahwa derajat polimerisasi step growth sangat peka terhadap konversi di dekat nilai sempurna dan terhadap kemurnian stoikiometri monomer. Ketidakseimbangan stoikiometri sekecil apa pun membatasi panjang rantai maksimum secara permanen.",
+   "plant": {
+    "biaya": [
+     "Kemurnian monomer adalah biaya yang menentukan mutu polimer; penghematan pada pemurnian monomer dibayar sebagai berat molekul yang tidak tercapai.",
+     "Pengendalian suhu dan pengadukan pada viskositas tinggi menentukan kapasitas reaktor polimerisasi yang aman."
+    ],
+    "checklist": [
+     {
+      "gejala": "Berat molekul produk di bawah target pada konversi yang sama",
+      "penyebab": "Stoikiometri monomer menyimpang atau pengotor berfungsi sebagai penghenti rantai",
+      "tindakan": "Audit kemurnian dan rasio umpan kedua monomer dengan ketelitian lebih tinggi daripada parameter lain."
+     },
+     {
+      "gejala": "Suhu reaktor sulit dikendalikan pada akhir batch",
+      "penyebab": "Efek gel menaikkan laju reaksi sementara viskositas menghambat perpindahan panas",
+      "tindakan": "Tinjau profil penambahan inisiator dan kapasitas pendinginan pada fase viskositas tinggi."
+     }
+    ],
+    "contoh": "Contoh hitungan Carothers: pada konversi 0,90, DP_n = 1/(1 - 0,90) = 10, masih berupa oligomer pendek. Pada konversi 0,99, DP_n = 100, dan pada 0,999 menjadi 1.000. Seperseribu konversi terakhir bernilai ratusan satuan rantai, yang menjelaskan tuntutan kemurnian dan kelengkapan reaksi yang ekstrem pada produksi nilon dan poliester."
+   },
+   "search_text": "Polimerisasi adalah penggabungan banyak molekul kecil (monomer) menjadi rantai molekul raksasa (polimer). Dua mekanisme besar dibedakan: polimerisasi pertumbuhan rantai (chain growth) melalui pusat aktif radikal atau ionik, dan polimerisasi pertumbuhan bertahap (step growth) melalui reaksi antar gugus fungsi yang bertahap membangun oligomer menjadi polimer. Pada chain growth, pusat aktif pada ujung rantai menambahkan monomer satu per satu dengan sangat cepat, sehingga rantai panjang terbentuk sejak awal dan monomer tersisa banyak. Pada step growth, semua spesies saling bereaksi; berat molekul naik perlahan dan hanya melonjak pada konversi gugus fungsi yang sangat tinggi, sebagaimana dinyatakan persamaan Carothers. Persamaan Carothers menunjukkan bahwa derajat polimerisasi step growth sangat peka terhadap konversi di dekat nilai sempurna dan terhadap kemurnian stoikiometri monomer. Ketidakseimbangan stoikiometri sekecil apa pun membatasi panjang rantai maksimum secara permanen. Polimerisasi rantai serupa dengan merangkai gerbong dari satu ujung lokomotif aktif yang terus menyambung gerbong baru, sedangkan polimerisasi bertahap serupa dengan banyak pasangan gerbong pendek yang saling menyambung menjadi rangkaian yang semakin panjang di semua titik sekaligus. Konversi gugus fungsi derajat polimerisasi melonjak tajam mendekati konversi sempurna, karena hubungan Carothers bersifat hiperbolik. Kemurnian dan stoikiometri monomer panjang rantai maksimum terpotong, karena ujung rantai kehabisan pasangan reaksi. Pengendalian panas reaksi risiko pelarian termal meningkat, karena pelepasan panas bertambah sementara kemampuan pengadukan dan perpindahan panas menurun oleh viskositas. Pelarian termal dan pembentukan gel pada polimerisasi massa akibat efek gel (Trommsdorff) pada chain growth radikal. Berat molekul tidak tercapai akibat monomer tidak murni atau stoikiometri menyimpang. Produk berubah warna dan terdegradasi pada waktu tinggal suhu tinggi yang berlebihan."
+  }
+ ],
+ "sectors": [
+  {
+   "slug": "oleokimia",
+   "nama": "Oleokimia",
+   "tagline": "Turunan minyak nabati menjadi asam lemak, gliserin, alkohol lemak, dan biodiesel."
+  },
+  {
+   "slug": "kilang-migas",
+   "nama": "Kilang & Migas",
+   "tagline": "Pemisahan dan konversi minyak mentah menjadi bahan bakar dan bahan baku petrokimia."
+  },
+  {
+   "slug": "petrokimia",
+   "nama": "Petrokimia",
+   "tagline": "Perengkahan hidrokarbon menjadi olefin dan aromatik, kemudian polimer dan bahan kimia dasar."
+  }
+ ]
+}

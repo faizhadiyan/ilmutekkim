@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flooding — Kamus Industri Kimia IlmuTekkim</title>
+<meta name="description" content="Flooding adalah kondisi kegagalan hidrodinamik kolom distilasi atau absorpsi ketika kecepatan uap terlalu tinggi sehingga cairan tidak lagi mengalir turun ">
+<link rel="canonical" href="https://ilmutekkim.site">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/kamus/assets/kamus.css">
+<link rel="stylesheet" href="/kamus/assets/chat.css">
+<script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+<header class="khead"><div class="wrap">
+<a class="brand" href="/kamus/">ilmu<span>tekkim</span> · Kamus</a>
+<nav>
+<a href="/kamus/">Kamus</a><a href="/">Beranda Situs</a><a href="/artikel/">Artikel</a>
+<a href="/video/">Video</a><a href="/glosarium/">Glosarium</a><a href="/jalur/">Jalur Belajar</a>
+</nav></div></header>
+
+<div class="wrap">
+<div class="crumbs"><a href="/kamus/">Kamus</a> › Unit Operasi &amp; Separasi › Flooding</div>
+<div class="termhead"><h1>Flooding</h1>
+<div class="badges"><span class="badge ver">Glosarium terverifikasi</span>
+<span class="badge fon">Unit Operasi &amp; Separasi</span><a class="badge sec" href="/kamus/sektor/kilang-migas/">Kilang &amp; Migas</a><a class="badge sec" href="/kamus/sektor/petrokimia/">Petrokimia</a></div></div>
+
+<div class="l0"><h2>Definisi</h2><p>Flooding adalah kondisi kegagalan hidrodinamik kolom distilasi atau absorpsi ketika kecepatan uap terlalu tinggi sehingga cairan tidak lagi mengalir turun secara normal. Cairan terbawa naik oleh uap, beda tekanan melonjak, dan efisiensi pemisahan runtuh.</p>
+<div class="analogi"><strong>Analogi:</strong> Flooding serupa dengan arus lalu lintas dua arah pada jalan sempit ketika satu arah terlalu padat: aliran yang berlawanan berhenti bergerak dan seluruh jalan tersumbat.</div></div>
+
+<div class="seg" role="tablist" aria-label="Level kedalaman">
+<button type="button" data-lv="awam">Awam</button>
+<button type="button" data-lv="tekkim" class="on">Tekkim</button>
+<button type="button" data-lv="plant">Plant</button>
+<button type="button" data-lv="semua">Semua</button>
+</div>
+<p class="note">Pilih level kedalaman: Awam menampilkan lapis inti konsep pada kedalaman pengantar,
+Tekkim menampilkan lapis mekanisme dan persamaan, Plant menampilkan lapis penerapan di pabrik.
+Definisi selalu ditampilkan pada setiap level.</p>
+
+<section class="layer" data-layer="tekkim"><h2>Lapis Tekkim — Mekanisme dan Prinsip</h2>
+<h3>Mekanisme</h3><p>Dua mekanisme utama dikenal: jet flood, ketika tetesan cairan terentrain oleh uap berkecepatan tinggi, dan downcomer flood, ketika kapasitas saluran turun cairan terlampaui sehingga cairan menumpuk dari tray ke tray. Keduanya menaikkan hold-up cairan hingga kolom kehilangan gradien komposisi.</p>
+<h3>Prinsip dan Persamaan Kunci</h3><p>Kecepatan uap banjir diestimasi dengan korelasi Fair berdasarkan parameter aliran dan selisih densitas kedua fase. Desain kolom umumnya dibatasi pada fraksi tertentu dari kecepatan banjir.</p><div class="eq"><div class="rumus">u<sub>f</sub> = C<sub>sb</sub> &times; &radic;((&rho;<sub>L</sub> &minus; &rho;<sub>V</sub>) / &rho;<sub>V</sub>)</div><div class="simbol">u_f = kecepatan uap banjir (m/s); C_sb = parameter kapasitas dari korelasi Fair; rho_L dan rho_V = densitas cair dan uap (kg/m3).</div><div class="asumsi">Asumsi: Korelasi empiris untuk tray dengan jarak tray dan tegangan permukaan tertentu.</div></div><div class="eq"><div class="rumus">u<sub>desain</sub> &asymp; 70 s.d. 85% &times; u<sub>f</sub></div><div class="simbol">u_desain = kecepatan uap operasi yang diizinkan.</div><div class="asumsi">Asumsi: Fraksi keamanan desain yang lazim pada textbook desain kolom; sistem berbusa memerlukan fraksi lebih rendah.</div></div>
+<h3>Variabel Operasi dan Sensitivitas</h3>
+<p class="note">Seluruh rentang adalah rentang umum textbook, bukan data plant.</p>
+<table class="sens"><thead><tr><th>Variabel</th><th>Rentang Umum</th><th>Arah Perubahan</th><th>Efek dan Alasannya</th></tr></thead>
+<tbody><tr><td><strong>Laju uap internal</strong></td><td>Naik sebanding dengan beban reboiler dan reflux (rentang umum textbook, bukan data plant)</td><td><span class="up">↑ naik</span></td><td>kolom mendekati flooding, karena entrainment cairan oleh uap meningkat dengan kecepatan uap.</td></tr><tr><td><strong>Tekanan kolom</strong></td><td>Tekanan lebih tinggi menaikkan densitas uap (rentang umum textbook, bukan data plant)</td><td><span class="up">↑ naik</span></td><td>kecepatan banjir menurun, karena selisih densitas cair dan uap mengecil.</td></tr><tr><td><strong>Kecenderungan berbusa (foaming)</strong></td><td>Busa menurunkan kapasitas efektif kolom secara nyata (rentang umum textbook, bukan data plant)</td><td><span class="up">↑ naik</span></td><td>flooding terjadi pada laju yang lebih rendah, karena busa memenuhi ruang antar tray dan downcomer.</td></tr></tbody></table>
+<h3>Batas Operasi dan Mode Kegagalan</h3><ul class="tight"><li>Beda tekanan kolom naik curam dan berfluktuasi.</li><li>Produk puncak terkontaminasi komponen berat akibat entrainment.</li><li>Level dasar kolom tidak stabil karena cairan tertahan di bagian atas.</li></ul></section>
+
+<section class="layer" data-layer="plant"><h2>Lapis Plant — Biaya, Diagnosis, dan Contoh</h2>
+<h3>Pendorong Biaya dan Efisiensi</h3><ul class="tight"><li>Flooding memaksa penurunan laju umpan, sehingga kerugian terbesar adalah kehilangan kapasitas produksi, bukan kerusakan alat.</li><li>Operasi terlalu dekat batas banjir membuat konsumsi energi per ton produk memburuk karena pemisahan tidak efisien.</li></ul>
+<h3>Daftar Periksa Diagnosis Sebab-Akibat</h3>
+<table class="sens check"><thead><tr><th>Gejala</th><th>Penyebab yang Mungkin</th><th>Tindakan Pemeriksaan</th></tr></thead>
+<tbody><tr><td>Beda tekanan naik dan kemurnian kedua produk memburuk bersamaan</td><td>Kolom memasuki flooding</td><td>Turunkan beban reboiler dan umpan bertahap hingga beda tekanan kembali ke pola normal.</td></tr><tr><td>Flooding muncul pada beban lebih rendah dari biasanya</td><td>Fouling tray, kerusakan internal, atau umpan berbusa</td><td>Periksa kualitas umpan dan riwayat beda tekanan untuk membedakan penyebab mekanis dan proses.</td></tr></tbody></table>
+<div class="contoh"><strong>Contoh hitungan (angka textbook):</strong> Contoh textbook: kolom yang dirancang pada 80 persen kecepatan banjir hanya memiliki ruang naik beban sekitar 25 persen sebelum mencapai titik banjir teoritis. Kenaikan reflux yang menaikkan laju uap internal sebesar 30 persen dapat mendorong kolom melewati batas tersebut meskipun laju umpan tidak berubah.</div>
+</section>
+
+<section class="layer" data-layer="awam"><h2>Mulai dari Sini</h2>
+<p>Untuk pembaca yang baru pertama kali menemui istilah ini, definisi dan analogi pada bagian atas
+halaman adalah ringkasan yang memadai. Lapis Tekkim menambahkan mekanisme, persamaan, dan variabel
+yang menentukan perilaku konsep ini, sedangkan Lapis Plant menunjukkan penerapannya pada operasi pabrik.</p></section>
+
+<section class="blk"><h2>Istilah Terkait</h2><div class="chips"><a class="chip" href="/kamus/istilah/distilasi/">Distilasi</a><a class="chip" href="/kamus/istilah/reflux/">Reflux</a></div></section>
+<section class="blk refs"><h2>Referensi</h2><ul class="tight"><li>Kister, H.Z., Distillation Design, McGraw-Hill.</li><li>Coulson, J.M. &amp; Richardson, J.F., Chemical Engineering, Butterworth-Heinemann.</li><li>Perry, R.H. &amp; Green, D.W., Perry&#x27;s Chemical Engineers&#x27; Handbook, McGraw-Hill.</li></ul>
+<p>Terakhir diperbarui: 2026-10-29 · Sumber entri: Glosarium terverifikasi IlmuTekkim.
+Seluruh angka adalah rentang umum textbook, bukan data plant.</p></section>
+
+<div class="foot">Kamus Industri Kimia — bagian dari <a href="/">ilmutekkim.site</a>.
+Seluruh angka operasi pada kamus ini adalah rentang umum textbook, bukan data plant atau data perusahaan mana pun.</div>
+</div>
+<script src="/kamus/assets/chat.js" defer></script>
+</body>
+</html>
+
+<script>
+document.querySelectorAll('.seg button').forEach(function(b){
+  b.addEventListener('click',function(){
+    document.querySelectorAll('.seg button').forEach(function(x){x.classList.toggle('on',x===b);});
+    var lv=b.getAttribute('data-lv');
+    document.querySelectorAll('[data-layer]').forEach(function(el){
+      var l=el.getAttribute('data-layer');
+      el.style.display = (lv==='semua' || l===lv) ? '' : 'none';
+    });
+  });
+});
+var def=document.querySelector('.seg button[data-lv="tekkim"]');
+if(def){def.click();}
+</script>

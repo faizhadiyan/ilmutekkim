@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pompa, Kavitasi, dan NPSH — Kamus Industri Kimia IlmuTekkim</title>
+<meta name="description" content="Pompa sentrifugal menaikkan tekanan cairan dengan energi kinetik dari impeller yang berputar. Kavitasi adalah pembentukan dan keruntuhan gelembung uap cair">
+<link rel="canonical" href="https://ilmutekkim.site">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/kamus/assets/kamus.css">
+<link rel="stylesheet" href="/kamus/assets/chat.css">
+<script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+<header class="khead"><div class="wrap">
+<a class="brand" href="/kamus/">ilmu<span>tekkim</span> · Kamus</a>
+<nav>
+<a href="/kamus/">Kamus</a><a href="/">Beranda Situs</a><a href="/artikel/">Artikel</a>
+<a href="/video/">Video</a><a href="/glosarium/">Glosarium</a><a href="/jalur/">Jalur Belajar</a>
+</nav></div></header>
+
+<div class="wrap">
+<div class="crumbs"><a href="/kamus/">Kamus</a> › Equipment › Pompa, Kavitasi, dan NPSH</div>
+<div class="termhead"><h1>Pompa, Kavitasi, dan NPSH</h1>
+<div class="badges"><span class="badge ver">Glosarium terverifikasi</span>
+<span class="badge fon">Equipment</span><a class="badge sec" href="/kamus/sektor/kilang-migas/">Kilang &amp; Migas</a><a class="badge sec" href="/kamus/sektor/oleokimia/">Oleokimia</a><a class="badge sec" href="/kamus/sektor/petrokimia/">Petrokimia</a></div></div>
+
+<div class="l0"><h2>Definisi</h2><p>Pompa sentrifugal menaikkan tekanan cairan dengan energi kinetik dari impeller yang berputar. Kavitasi adalah pembentukan dan keruntuhan gelembung uap cairan di dalam pompa ketika tekanan lokal turun di bawah tekanan uap cairan. NPSH (net positive suction head) adalah margin tekanan pada sisi isap yang menjaga pompa terhindar dari kavitasi.</p>
+<div class="analogi"><strong>Analogi:</strong> Kavitasi serupa dengan bunyi kerikil yang menghantam logam dari dalam pompa: setiap gelembung yang runtuh melepaskan hantaman kecil, dan jutaan hantaman mengikis permukaan impeller.</div></div>
+
+<div class="seg" role="tablist" aria-label="Level kedalaman">
+<button type="button" data-lv="awam">Awam</button>
+<button type="button" data-lv="tekkim" class="on">Tekkim</button>
+<button type="button" data-lv="plant">Plant</button>
+<button type="button" data-lv="semua">Semua</button>
+</div>
+<p class="note">Pilih level kedalaman: Awam menampilkan lapis inti konsep pada kedalaman pengantar,
+Tekkim menampilkan lapis mekanisme dan persamaan, Plant menampilkan lapis penerapan di pabrik.
+Definisi selalu ditampilkan pada setiap level.</p>
+
+<section class="layer" data-layer="tekkim"><h2>Lapis Tekkim — Mekanisme dan Prinsip</h2>
+<h3>Mekanisme</h3><p>Tekanan terendah di dalam pompa terjadi pada mata impeller. Apabila tekanan tersebut turun di bawah tekanan uap cairan pada suhu operasi, cairan mendidih secara lokal membentuk gelembung. Gelembung terbawa ke daerah bertekanan lebih tinggi dan runtuh secara kekerasan, menimbulkan kebisingan, getaran, dan erosi material.</p>
+<h3>Prinsip dan Persamaan Kunci</h3><p>Kondisi aman dicapai apabila NPSH yang tersedia dari sistem (NPSHa) melebihi NPSH yang dibutuhkan pompa (NPSHr) dengan margin yang memadai. NPSHr adalah karakteristik pompa dari pabrikan; NPSHa sepenuhnya ditentukan oleh instalasi dan kondisi cairan.</p><div class="eq"><div class="rumus">NPSHa = (p<sub>isap</sub> &minus; p<sub>uap</sub>) / (&rho;g) + &Delta;z &minus; h<sub>f</sub></div><div class="simbol">p_isap = tekanan pada permukaan cairan tangki isap; p_uap = tekanan uap cairan pada suhu operasi; rho = densitas; g = gravitasi; delta z = beda tinggi permukaan cairan terhadap sumbu pompa; h_f = rugi gesek pipa isap (dinyatakan setara dalam bentuk head).</div><div class="asumsi">Asumsi: Bentuk praktis untuk tangki isap terbuka atau bertekanan; semua suku dinyatakan dalam meter kolom cairan.</div></div><div class="eq"><div class="rumus">NPSHa &gt; NPSHr + margin</div><div class="simbol">Margin lazim sekitar 0,5 s.d. 1 m atau mengikuti rekomendasi pabrikan (rentang umum textbook, bukan data plant).</div><div class="asumsi">Asumsi: NPSHr adalah nilai uji pabrikan pada penurunan head 3 persen.</div></div>
+<h3>Variabel Operasi dan Sensitivitas</h3>
+<p class="note">Seluruh rentang adalah rentang umum textbook, bukan data plant.</p>
+<table class="sens"><thead><tr><th>Variabel</th><th>Rentang Umum</th><th>Arah Perubahan</th><th>Efek dan Alasannya</th></tr></thead>
+<tbody><tr><td><strong>Suhu cairan</strong></td><td>Tekanan uap naik tajam dengan suhu (rentang umum textbook, bukan data plant)</td><td><span class="up">↑ naik</span></td><td>NPSHa menurun dan risiko kavitasi naik, karena selisih tekanan terhadap tekanan uap mengecil.</td></tr><tr><td><strong>Level tangki isap</strong></td><td>Level lebih tinggi menambah head statis isap (rentang umum textbook, bukan data plant)</td><td><span class="down">↓ turun</span></td><td>NPSHa menurun, karena sumbangan head statis berkurang.</td></tr><tr><td><strong>Laju alir pompa</strong></td><td>NPSHr naik mendekati kuadrat laju alir (rentang umum textbook, bukan data plant)</td><td><span class="up">↑ naik</span></td><td>margin NPSH menyempit dari dua arah, karena NPSHr naik dan rugi gesek pipa isap ikut naik.</td></tr></tbody></table>
+<h3>Batas Operasi dan Mode Kegagalan</h3><ul class="tight"><li>Erosi pitting pada impeller dan volute akibat keruntuhan gelembung.</li><li>Getaran dan kebisingan berlebih yang merusak seal dan bantalan.</li><li>Head dan kapasitas pompa turun tidak stabil (surging hisap).</li></ul></section>
+
+<section class="layer" data-layer="plant"><h2>Lapis Plant — Biaya, Diagnosis, dan Contoh</h2>
+<h3>Pendorong Biaya dan Efisiensi</h3><ul class="tight"><li>Kerusakan kavitasi adalah penyebab umum kegagalan seal dan perbaikan pompa yang tidak terencana.</li><li>Mengatasi NPSH dengan menurunkan suhu atau menaikkan level umumnya lebih murah daripada mengganti impeller secara berulang.</li></ul>
+<h3>Daftar Periksa Diagnosis Sebab-Akibat</h3>
+<table class="sens check"><thead><tr><th>Gejala</th><th>Penyebab yang Mungkin</th><th>Tindakan Pemeriksaan</th></tr></thead>
+<tbody><tr><td>Pompa berbunyi seperti mengaduk kerikil dan bergetar</td><td>Kavitasi akibat NPSHa tidak mencukupi</td><td>Periksa level tangki, suhu cairan, dan sumbatan saringan isap; turunkan laju alir untuk menguji hipotesis.</td></tr><tr><td>Kavitasi muncul hanya pada laju alir tinggi</td><td>Kurva NPSHr dan rugi pipa isap melampaui NPSHa pada ujung kurva</td><td>Batasi laju maksimum atau perbesar pipa isap.</td></tr></tbody></table>
+<div class="contoh"><strong>Contoh hitungan (angka textbook):</strong> Contoh hitungan: tangki terbuka berisi air pada 60 derajat C (tekanan uap sekitar 0,20 bar abs, densitas sekitar 983 kg/m3), permukaan cairan 3 m di atas sumbu pompa, rugi pipa isap 0,8 m. NPSHa = (1,013 - 0,20) bar / (983 x 9,81) + 3 - 0,8 = sekitar 8,4 + 2,2 = 10,6 m. Nilai ini dibandingkan dengan NPSHr pada kurva pompa; apabila NPSHr 4 m, margin yang tersedia masih besar.</div>
+</section>
+
+<section class="layer" data-layer="awam"><h2>Mulai dari Sini</h2>
+<p>Untuk pembaca yang baru pertama kali menemui istilah ini, definisi dan analogi pada bagian atas
+halaman adalah ringkasan yang memadai. Lapis Tekkim menambahkan mekanisme, persamaan, dan variabel
+yang menentukan perilaku konsep ini, sedangkan Lapis Plant menunjukkan penerapannya pada operasi pabrik.</p></section>
+
+<section class="blk"><h2>Istilah Terkait</h2><div class="chips"><a class="chip" href="/kamus/istilah/flooding/">Flooding</a><a class="chip" href="/kamus/istilah/steam-dan-utilitas/">Steam dan Sistem Utilitas</a></div></section>
+<section class="blk refs"><h2>Referensi</h2><ul class="tight"><li>Coulson, J.M. &amp; Richardson, J.F., Chemical Engineering, Butterworth-Heinemann.</li><li>Perry, R.H. &amp; Green, D.W., Perry&#x27;s Chemical Engineers&#x27; Handbook, McGraw-Hill.</li><li>Lieberman, N.P., A Working Guide to Process Equipment, McGraw-Hill.</li></ul>
+<p>Terakhir diperbarui: 2026-10-29 · Sumber entri: Glosarium terverifikasi IlmuTekkim.
+Seluruh angka adalah rentang umum textbook, bukan data plant.</p></section>
+
+<div class="foot">Kamus Industri Kimia — bagian dari <a href="/">ilmutekkim.site</a>.
+Seluruh angka operasi pada kamus ini adalah rentang umum textbook, bukan data plant atau data perusahaan mana pun.</div>
+</div>
+<script src="/kamus/assets/chat.js" defer></script>
+</body>
+</html>
+
+<script>
+document.querySelectorAll('.seg button').forEach(function(b){
+  b.addEventListener('click',function(){
+    document.querySelectorAll('.seg button').forEach(function(x){x.classList.toggle('on',x===b);});
+    var lv=b.getAttribute('data-lv');
+    document.querySelectorAll('[data-layer]').forEach(function(el){
+      var l=el.getAttribute('data-layer');
+      el.style.display = (lv==='semua' || l===lv) ? '' : 'none';
+    });
+  });
+});
+var def=document.querySelector('.seg button[data-lv="tekkim"]');
+if(def){def.click();}
+</script>
