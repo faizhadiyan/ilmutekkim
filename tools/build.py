@@ -1145,6 +1145,7 @@ HEAD = """<!DOCTYPE html>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23131518'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='%23F4F4F2' font-family='Arial' font-weight='bold'>IT</text></svg>">
 <script>window.va=window.va||function(){{(window.vaq=window.vaq||[]).push(arguments);}};</script>
 <script defer src="/_vercel/insights/script.js"></script>
+<link rel="stylesheet" href="/kamus/assets/chat.css">
 </head>
 <body>
 <header class="site-header">
@@ -1156,6 +1157,7 @@ HEAD = """<!DOCTYPE html>
     <a href="/">Articles &amp; Videos</a>
     <a href="/riset/">Riset</a>
     <a href="/jalur/">Jalur</a>
+    <a href="/kamus">Kamus</a>
   </nav>
 </header>
 <main>
@@ -1167,10 +1169,11 @@ FOOT = """
   <div class="foot-brand">ilmu<span>tekkim</span></div>
   <p>Kajian teknik kimia proses: unit operasi, alur pabrik, keselamatan proses, dan kecerdasan buatan. Ditulis oleh insinyur kimia lulusan Institut Teknologi Bandung.</p>
   <p class="foot-btns"><a class="btn-ig" href="https://www.instagram.com/ilmutekkim" target="_blank" rel="noopener">Instagram @ilmutekkim</a> <a class="btn-ig" href="https://www.tiktok.com/@ilmutekkim" target="_blank" rel="noopener">TikTok @ilmutekkim</a></p>
-  <p class="foot-links"><a href="/">Beranda</a><span>&middot;</span><a href="/video/">Video</a><span>&middot;</span><a href="/riset/">Riset</a><span>&middot;</span><a href="/jalur/">Jalur</a><span>&middot;</span><a href="/glosarium/">Glosarium</a><span>&middot;</span><a href="/referensi/">Referensi</a><span>&middot;</span><a href="/kalkulator/">Kalkulator</a><span>&middot;</span><a href="/tentang/">Tentang</a></p>
+  <p class="foot-links"><a href="/">Beranda</a><span>&middot;</span><a href="/video/">Video</a><span>&middot;</span><a href="/riset/">Riset</a><span>&middot;</span><a href="/jalur/">Jalur</a><span>&middot;</span><a href="/kamus">Kamus</a><span>&middot;</span><a href="/referensi/">Referensi</a><span>&middot;</span><a href="/kalkulator/">Kalkulator</a><span>&middot;</span><a href="/tentang/">Tentang</a></p>
   <p class="fine">Artikel dan video di situs ini merupakan versi baca dan versi tonton dari konten Instagram @ilmutekkim. Foto berasal dari Pexels dan Unsplash, kredit tercantum di tiap gambar.</p>
 </footer>
 <script src="/assets/js/main.js?v=11"></script>
+<script defer src="/kamus/assets/chat.js"></script>
 </body>
 </html>
 """
@@ -1353,6 +1356,44 @@ def load_jalur():
 def load_glosarium():
     fp = os.path.join(ROOT, "glosarium.json")
     return json.load(open(fp)) if os.path.exists(fp) else []
+
+
+def _kamus_key(value):
+    return re.sub(r"[^a-z0-9]+", " ", str(value).lower()).strip()
+
+
+def _kamus_slug(value):
+    return re.sub(r"[^a-z0-9]+", "-", _kamus_key(value)).strip("-")
+
+
+def load_kamus_catalog(glosarium):
+    """Katalog Kamus gabungan untuk strip beranda dan sitemap.
+
+    Istilah glosarium lama yang sudah memiliki entri dalam tidak dihitung
+    sebagai entri dasar terpisah; entri dalamnya yang menjadi kanonis.
+    """
+    terms_fp = os.path.join(ROOT, "kamus-data", "terms.json")
+    sectors_fp = os.path.join(ROOT, "kamus-data", "sectors.json")
+    if not (os.path.exists(terms_fp) and os.path.exists(sectors_fp)):
+        return {"deep_slugs": [], "dasar_slugs": [], "sector_slugs": [], "total": len(glosarium)}
+    deep_terms = json.load(open(terms_fp))
+    sector_meta = json.load(open(sectors_fp))
+    deep_keys = set()
+    for term in deep_terms:
+        for value in [term.get("term", ""), term.get("slug", "")] + term.get("aliases", []):
+            deep_keys.add(_kamus_key(value))
+            deep_keys.add(_kamus_slug(value))
+    dasar_slugs = []
+    for entry in glosarium:
+        slug = _kamus_slug(entry["term"])
+        if _kamus_key(entry["term"]) not in deep_keys and slug not in deep_keys:
+            dasar_slugs.append(slug)
+    return {
+        "deep_slugs": [term["slug"] for term in deep_terms],
+        "dasar_slugs": dasar_slugs,
+        "sector_slugs": [sector["slug"] for sector in sector_meta.get("sectors", [])],
+        "total": len(deep_terms) + len(dasar_slugs),
+    }
 
 
 def main():
@@ -1711,9 +1752,10 @@ Video dapat ditonton bersamaan dengan membaca penjelasan mendalam per subtopik, 
         os.makedirs(outp, exist_ok=True)
         open(os.path.join(outp, "index.html"), "w").write(page)
 
-    # jalur belajar /jalur/ + /jalur/<slug>/, glosarium /glosarium/, referensi /referensi/ (ILM-R67)
+    # jalur belajar /jalur/ + /jalur/<slug>/, pengalihan kamus, referensi /referensi/ (ILM-R67)
     jalur = load_jalur()
     glosarium = load_glosarium()
+    kamus = load_kamus_catalog(glosarium)
     art_map = {a["slug"]: a["title"] for a in articles}
     vid_map = {v["slug"]: v["title"] for v in videos}
     pat_map = {d["slug"]: d["judul"] for d in paten}
@@ -1781,50 +1823,19 @@ Video dapat ditonton bersamaan dengan membaca penjelasan mendalam per subtopik, 
         os.makedirs(outj, exist_ok=True)
         open(os.path.join(outj, "index.html"), "w").write(jpage)
 
-    art_cover = {a["slug"]: a.get("cover") for a in articles}
-    pat_cover = {d2["slug"]: resolve_img(d2.get("cover_file"), d2["slug"], "cover") for d2 in paten}
-    vid_cover = {v["slug"]: v.get("poster_url") for v in videos}
-    def gcover(g):
-        for t in g["terkait"]:
-            c = art_cover.get(t["slug"]) if t["type"] == "artikel" else vid_cover.get(t["slug"]) if t["type"] == "video" else pat_cover.get(t["slug"]) if t["type"] == "paten" else None
-            if c:
-                return c
-        return None
-    gcards = ""
-    for g in sorted(glosarium, key=lambda x: x["term"].lower()):
-        huruf = g["term"][0].lower()
-        links = ""
-        for t in g["terkait"]:
-            u, ttl = resolve_tautan(t)
-            links += f'<a class="btn ghost clamp" href="{u}">{esc(ttl)}</a> '
-        gcov = gcover(g)
-        gcards += (f'<article class="card" data-series="{esc(huruf)}" '
-                   f'data-title="{esc(g["term"].lower())}">'
-                   + (f'<img src="{gcov}" alt="{esc(g["term"])}" loading="lazy">' if gcov else "")
-                   + '<div class="card-body">'
-                   f'<p class="eyebrow">Istilah pabrik</p><h3>{esc(g["term"])}</h3>'
-                   f'<p>{esc(g["definisi"])}</p><p>{links}</p></div></article>\n')
-    huruf_list = sorted(set(g["term"][0].upper() for g in glosarium))
-    gchips = "".join(f'<button class="chip" data-series="{esc(h.lower())}">{esc(h)}</button>' for h in huruf_list)
-    gindex = HEAD.format(title="Glosarium Istilah Pabrik | ilmutekkim",
-                         desc="Kamus istilah teknik kimia dan pabrik dalam bahasa polos: reflux, LMTD, wet bulb, SIS, SIL, kavitasi, dan lainnya, masing-masing dengan bacaan lanjutannya.",
-                         url=BASE + "/glosarium/", ogtype="website", ogimg="")
-    gindex += f"""
+    # Glosarium lama telah digabungkan ke Kamus. Rute lama hanya menjadi
+    # pengalihan agar tautan eksternal dan penanda lama tetap berguna.
+    gindex = HEAD.format(title="Kamus Industri Kimia | ilmutekkim",
+                         desc="Kamus Industri Kimia IlmuTekkim: istilah teknik kimia dengan definisi, mekanisme, persamaan, sensitivitas, dan bedah plant.",
+                         url=BASE + "/kamus/", ogtype="website", ogimg="")
+    gindex = gindex.replace("<head>\n", "<head>\n<meta http-equiv=\"refresh\" content=\"0; url=/kamus\">\n", 1)
+    gindex += """
 <article class="post wide">
-<p class="eyebrow">Glosarium</p>
-<h1>Istilah pabrik, dijelaskan polos.</h1>
-<p class="lead">Istilah di halaman ini adalah istilah yang benar-benar muncul di artikel, video, dan bedah ilmutekkim. Setiap definisi dirumuskan secara ringkas dan tepat, kemudian ditautkan ke bacaan yang menggunakannya agar istilah tersebut dapat dipahami dalam konteks prosesnya.</p>
-<p class="meta">{len(glosarium)} istilah &middot; setiap istilah menautkan bacaan lanjutan di situs ini</p>
+<p class="eyebrow">Kamus</p>
+<h1>Kamus Industri Kimia IlmuTekkim</h1>
+<p class="lead">Glosarium telah digabungkan ke dalam Kamus Industri Kimia. Anda akan dialihkan secara otomatis ke satu-satunya kamus di situs ini.</p>
+<p>Jika pengalihan tidak berjalan, <a href="/kamus">buka Kamus Industri Kimia</a>.</p>
 </article>
-<section id="seri" class="series-bar">
-  <h2>Jelajahi per huruf</h2>
-  <div class="chips"><button class="chip active" data-series="all">Semua</button>{gchips}</div>
-  <input id="search" type="search" placeholder="Cari istilah, contoh: reflux, kavitasi, sil..." aria-label="Cari istilah glosarium">
-</section>
-<section id="artikel" class="grid">
-{gcards}
-</section>
-<p id="no-result" hidden>Tidak ditemukan istilah yang sesuai. Silakan gunakan kata kunci lain.</p>
 """ + FOOT
     os.makedirs(os.path.join(ROOT, "glosarium"), exist_ok=True)
     open(os.path.join(ROOT, "glosarium", "index.html"), "w").write(gindex)
@@ -1989,7 +2000,7 @@ Video dapat ditonton bersamaan dengan membaca penjelasan mendalam per subtopik, 
     <a href="#artikel"><span>01</span><b>Artikel dan Video</b><i>{len(articles)} artikel mendalam bersitasi dan {len(videos)} video dengan artikel pendamping</i></a>
     <a href="/riset/"><span>02</span><b>Riset</b><i>{len(research)} bedah jurnal dan {len(paten)} bedah paten dengan catatan kritis dan kesimpulan eksplisit</i></a>
     <a href="/jalur/"><span>03</span><b>Jalur Belajar</b><i>{len(jalur)} jalur terkurasi, {sum(len(t["steps"]) for t in jalur)} langkah berurutan dari konsep dasar ke aplikasi</i></a>
-    <a href="/glosarium/"><span>04</span><b>Glosarium</b><i>{len(glosarium)} istilah proses terdefinisi secara tepat dengan bacaan lanjutan</i></a>
+    <a href="/kamus"><span>04</span><b>Kamus</b><i>{kamus['total']} istilah teknik kimia: {len(kamus['deep_slugs'])} entri dalam dan {len(kamus['dasar_slugs'])} entri dasar dengan bacaan lanjutan</i></a>
     <a href="/referensi/"><span>05</span><b>Referensi</b><i>Seluruh literatur, paper yang dibedah, dan dokumen paten dalam satu perpustakaan</i></a>
     <a href="/kalkulator/"><span>06</span><b>Kalkulator</b><i>Polimerisasi Carothers, LMTD, rancangan McCabe-Thiele, dan konversi satuan proses</i></a>
   </nav>
@@ -2061,7 +2072,9 @@ kemudian <a href="/artikel/baca-pid-lima-simbol-pabrik/">pembacaan P&amp;ID</a>.
 
     # sitemap + robots
     urls = ([BASE + "/", BASE + "/tentang/", BASE + "/video/", BASE + "/riset/", BASE + "/riset/paten/",
-             BASE + "/jalur/", BASE + "/glosarium/", BASE + "/referensi/", BASE + "/kalkulator/"]
+             BASE + "/jalur/", BASE + "/kamus/", BASE + "/referensi/", BASE + "/kalkulator/"]
+            + [f"{BASE}/kamus/sektor/{slug}/" for slug in kamus["sector_slugs"]]
+            + [f"{BASE}/kamus/istilah/{slug}/" for slug in kamus["deep_slugs"] + kamus["dasar_slugs"]]
             + [f"{BASE}/jalur/{t['slug']}/" for t in jalur]
             + [f"{BASE}/riset/{d['slug']}/" for d in research]
             + [f"{BASE}/riset/paten/{d['slug']}/" for d in paten]

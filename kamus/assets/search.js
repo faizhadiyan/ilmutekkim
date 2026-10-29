@@ -41,7 +41,7 @@
         return norm(s.nama + " " + s.tagline).indexOf(q) >= 0;
       });
       if (!terms.length && !secs.length) {
-        box.innerHTML = '<div class="zero"><strong>Tidak ditemukan di glosarium.</strong><br>' +
+        box.innerHTML = '<div class="zero"><strong>Tidak ditemukan di kamus.</strong><br>' +
           "Istilah ini belum tersedia sebagai entri terverifikasi. Ajukan pertanyaan melalui tombol " +
           "<em>Tanya Tekkim</em> di kanan bawah untuk jawaban AI (akan dilabeli sebagai belum terverifikasi), " +
           "atau coba kata kunci yang lebih umum.</div>";
@@ -52,7 +52,8 @@
         h += '<div class="sgroup">Istilah</div>';
         terms.forEach(function (x) {
           h += '<a class="sresult" href="/kamus/istilah/' + x.t.slug + '/"><span class="t">' +
-            esc(x.t.term) + '</span><div class="snip">' + esc(x.t.definisi.slice(0, 150)) + "…</div></a>";
+            esc(x.t.term) + '</span>' + (x.t.kind === "dasar" ? ' <span class="count">Entri dasar</span>' : '') +
+            '<div class="snip">' + esc(x.t.definisi.slice(0, 150)) + "…</div></a>";
         });
       }
       if (secs.length) {

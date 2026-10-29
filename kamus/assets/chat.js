@@ -80,6 +80,12 @@
   }
   function entryAnswer(t) {
     var body = "";
+    if (t.kind === "dasar" || !t.mekanisme) {
+      body = "<strong>" + esc(t.term) + ".</strong> " + esc(t.definisi) +
+        "<br><em>Entri dasar:</em> bedah dalam (mekanisme, persamaan, sensitivitas) menyusul.";
+      return body + '<br><span class="tt-src glos">Sumber: Glosarium terverifikasi · Entri dasar</span>' +
+        '<a class="tt-cite" href="/kamus/istilah/' + t.slug + '/">Baca entri lengkap: ' + esc(t.term) + "</a>";
+    }
     if (level === "awam") {
       body = "<strong>" + esc(t.term) + ".</strong> " + esc(t.definisi) +
         (t.analogi ? "<br><em>Analogi:</em> " + esc(t.analogi) : "");

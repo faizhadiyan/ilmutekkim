@@ -3,11 +3,11 @@
 """
 Generator Kamus Industri Kimia IlmuTekkim (mandiri, tanpa dependensi).
 
-Sumber: kamus-data/terms.json dan kamus-data/sectors.json
+Sumber: kamus-data/terms.json, kamus-data/sectors.json, dan glosarium.json
 Keluaran:
-  kamus/index.html                     beranda pencarian
+  kamus/index.html                     beranda pencarian + daftar lengkap A-Z
   kamus/sektor/<slug>/index.html       halaman sektor + diagram alur
-  kamus/istilah/<slug>/index.html      halaman istilah 3 lapis
+  kamus/istilah/<slug>/index.html      halaman istilah dalam 3 lapis dan entri dasar
   kamus/search-index.json              indeks pencarian + data chatbot
 
 Gate kedalaman (depth gate): build GAGAL apabila satu entri pun tidak
@@ -18,7 +18,9 @@ Jalankan: python3 tools/build_kamus.py
 import html
 import json
 import os
+import re
 import sys
+import unicodedata
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "kamus-data")
@@ -37,6 +39,75 @@ def esc(s):
 def load(name):
     with open(os.path.join(DATA, name), encoding="utf-8") as f:
         return json.load(f)
+
+
+def norm_key(value):
+    text = unicodedata.normalize("NFKD", str(value)).encode("ascii", "ignore").decode("ascii")
+    return re.sub(r"[^a-z0-9]+", " ", text.lower()).strip()
+
+
+def slugify(value):
+    return re.sub(r"[^a-z0-9]+", "-", norm_key(value)).strip("-")
+
+
+def load_glosarium():
+    with open(os.path.join(ROOT, "glosarium.json"), encoding="utf-8") as f:
+        return json.load(f)
+
+
+def target_title(relative_path, fallback_slug):
+    path = os.path.join(ROOT, relative_path)
+    if os.path.isfile(path):
+        with open(path, encoding="utf-8") as f:
+            match = re.search(r"<title>(.*?)</title>", f.read(), flags=re.I | re.S)
+        if match:
+            title = re.sub(r"\s+", " ", html.unescape(match.group(1))).strip()
+            for suffix in (" | ilmutekkim", " — ilmutekkim", " - ilmutekkim"):
+                if title.lower().endswith(suffix.lower()):
+                    title = title[:-len(suffix)].strip()
+            if title:
+                return title
+    return fallback_slug.replace("-", " ").title()
+
+
+def basic_terms(deep_terms):
+    """Gabungkan glosarium lama sebagai entri dasar, kecuali yang sudah dibedah dalam."""
+    deep_keys = set()
+    for term in deep_terms:
+        for value in [term.get("term", ""), term.get("slug", "")] + term.get("aliases", []):
+            deep_keys.add(norm_key(value))
+            deep_keys.add(slugify(value))
+
+    type_map = {
+        "artikel": ("artikel", "Artikel"),
+        "video": ("video", "Video"),
+        "paten": (os.path.join("riset", "paten"), "Bedah paten"),
+    }
+    merged = []
+    for entry in load_glosarium():
+        term = entry["term"]
+        slug = slugify(term)
+        if norm_key(term) in deep_keys or slug in deep_keys:
+            continue
+        links = []
+        for related in entry.get("terkait", []):
+            folder, label = type_map.get(related.get("type"), type_map["artikel"])
+            rel_slug = related["slug"]
+            relative_page = os.path.join(folder, rel_slug, "index.html")
+            links.append({
+                "type": related.get("type", "artikel"),
+                "label": target_title(relative_page, rel_slug),
+                "type_label": label,
+                "url": "/" + relative_page.replace(os.sep, "/").replace("index.html", ""),
+            })
+        merged.append({
+            "slug": slug,
+            "term": term,
+            "definisi": entry["definisi"],
+            "terkait": links,
+            "kind": "dasar",
+        })
+    return sorted(merged, key=lambda x: x["term"].lower())
 
 
 def depth_gate(terms):
@@ -88,15 +159,16 @@ def head(title, desc):
 <header class="khead"><div class="wrap">
 <a class="brand" href="/kamus/">ilmu<span>tekkim</span> · Kamus</a>
 <nav>
-<a href="/kamus/">Kamus</a><a href="/">Beranda Situs</a><a href="/artikel/">Artikel</a>
-<a href="/video/">Video</a><a href="/glosarium/">Glosarium</a><a href="/jalur/">Jalur Belajar</a>
+<a href="/kamus">Kamus</a><a href="/">Beranda Situs</a><a href="/artikel/">Artikel</a>
+<a href="/video/">Video</a><a href="/riset/">Riset</a><a href="/jalur/">Jalur Belajar</a>
 </nav></div></header>
 """
 
 
 FOOT = """
-<div class="foot">Kamus Industri Kimia — bagian dari <a href="/">ilmutekkim.site</a>.
-Seluruh angka operasi pada kamus ini adalah rentang umum textbook, bukan data plant atau data perusahaan mana pun.</div>
+<div class="foot"><nav><a href="/kamus">Kamus</a> · <a href="/artikel/">Artikel</a> · <a href="/video/">Video</a> · <a href="/riset/">Riset</a> · <a href="/jalur/">Jalur Belajar</a></nav>
+<p>Kamus Industri Kimia — bagian dari <a href="/">ilmutekkim.site</a>.
+Seluruh angka operasi pada kamus ini adalah rentang umum textbook, bukan data plant atau data perusahaan mana pun.</p></div>
 </div>
 <script src="/kamus/assets/chat.js" defer></script>
 </body>
@@ -128,7 +200,7 @@ def term_card(t, fondasi_nama):
             f'{esc(t["definisi"][:130])}…</div></a>')
 
 
-def build_index(terms, sectors, fondasi, sector_terms):
+def build_index(terms, sectors, fondasi, sector_terms, dasar):
     fondasi_nama = {f["slug"]: f["nama"] for f in fondasi}
     counts = {}
     for t in terms:
@@ -142,8 +214,13 @@ def build_index(terms, sectors, fondasi, sector_terms):
         f'<a class="chip" href="#fondasi-{f["slug"]}">{esc(f["nama"])} <b>{counts.get(f["slug"], 0)}</b></a>'
         for f in fondasi)
     populer = "".join(term_card(t, fondasi_nama) for t in terms if t.get("populer"))
-    terbaru = "".join(term_card(t, fondasi_nama)
-                      for t in sorted(terms, key=lambda x: x["slug"])[:6])
+    all_items = [(t["term"].lower(), term_card(t, fondasi_nama)) for t in terms]
+    for b in dasar:
+        all_items.append((b["term"].lower(),
+                          f'<a class="sresult" href="/kamus/istilah/{b["slug"]}/">'
+                          f'<span class="t">{esc(b["term"])}</span> <span class="count">Entri dasar</span>'
+                          f'<div class="snip">{esc(b["definisi"][:150])}…</div></a>'))
+    all_cards = "".join(card for _, card in sorted(all_items, key=lambda x: x[0]))
     fondasi_sections = ""
     for f in fondasi:
         items = [t for t in terms if t["fondasi"] == f["slug"]]
@@ -157,7 +234,8 @@ def build_index(terms, sectors, fondasi, sector_terms):
 <h1>Kamus Industri Kimia</h1>
 <p class="sub">Kamus proses teknik kimia untuk seluruh industri kimia Indonesia: istilah, mekanisme,
 persamaan kunci, variabel operasi, dan bedah plant — disusun per sektor industri dan per fondasi keilmuan,
-dengan kedalaman teknik kimia sebagai standar setiap entri.</p>
+dengan kedalaman teknik kimia sebagai standar entri utamanya.</p>
+<p class="lead">{len(terms) + len(dasar)} istilah tersedia: {len(terms)} entri dalam dan {len(dasar)} entri dasar.</p>
 <form class="searchbox" id="search-form" role="search">
 <input id="kamus-search" type="search" autocomplete="off"
  placeholder="Cari istilah: reflux, FFA, steam cracking, kavitasi…  (tekan / untuk fokus)">
@@ -172,7 +250,8 @@ dengan kedalaman teknik kimia sebagai standar setiap entri.</p>
 <p class="lead">Istilah fondasi berlaku lintas sektor dan menjadi rumah kanonis setiap konsep.</p>
 <div class="chips">{chips}</div></section>
 <section class="blk"><h2>Istilah Populer</h2>{populer}</section>
-<section class="blk"><h2>Jelajahi Kamus</h2>{terbaru}</section>
+<section class="blk" id="semua-istilah"><h2>Semua Istilah A–Z ({len(terms) + len(dasar)})</h2>
+<p class="lead">Daftar lengkap kamus gabungan. Entri dalam memuat mekanisme, persamaan, sensitivitas, dan bedah plant; entri dasar memuat definisi serta bacaan terkait dan akan diperdalam secara bertahap.</p>{all_cards}</section>
 {fondasi_sections}
 """
     return head("Kamus Industri Kimia — IlmuTekkim",
@@ -206,6 +285,32 @@ def build_sector(s, terms_by_slug, sector_term_slugs, fondasi_nama):
 """
     return head(f"Sektor {s['nama']} — Kamus Industri Kimia IlmuTekkim",
                 s["tagline"]) + body + FOOT
+
+
+def build_basic_term(b):
+    links = "".join(
+        f'<a class="sresult" href="{esc(link["url"])}"><span class="t">{esc(link["label"])}</span>'
+        f'<div class="snip">{esc(link["type_label"])} terkait dengan istilah ini</div></a>'
+        for link in b["terkait"])
+    if not links:
+        links = '<p class="lead">Belum ada bacaan terkait yang terhubung ke entri ini.</p>'
+    body = f"""
+<div class="wrap">
+<div class="crumbs"><a href="/kamus/">Kamus</a> › Entri Dasar › {esc(b['term'])}</div>
+<div class="termhead"><h1>{esc(b['term'])}</h1>
+<div class="badges"><span class="badge ver">Entri glosarium</span>
+<span class="badge fon">Entri dasar</span></div></div>
+
+<div class="l0"><h2>Definisi</h2><p>{esc(b['definisi'])}</p></div>
+
+<section class="layer"><h2>Status Kedalaman</h2>
+<p><strong>Entri dasar — bedah dalam (mekanisme, persamaan, sensitivitas) menyusul.</strong></p>
+<p>Entri ini dipertahankan sebagai definisi awal dalam kamus gabungan agar istilah dan bacaan terkaitnya tetap dapat ditemukan. Statusnya tidak disamakan dengan entri dalam yang telah melalui gate kedalaman Kamus Industri Kimia.</p></section>
+
+<section class="blk"><h2>Bacaan Terkait</h2>{links}</section>
+<section class="blk"><p><a class="chip" href="/kamus/#semua-istilah">Lihat semua istilah A–Z</a></p></section>
+"""
+    return head(f"{b['term']} — Kamus Industri Kimia IlmuTekkim", b["definisi"][:155]) + body + FOOT
 
 
 def build_term(t, terms_by_slug, sectors_by_slug, fondasi_nama):
@@ -301,6 +406,11 @@ def main():
         for e in errs:
             print(" -", e)
         return 1
+    dasar = basic_terms(terms)
+    dasar_slugs = [b["slug"] for b in dasar]
+    if len(set(dasar_slugs)) != len(dasar_slugs) or known.intersection(dasar_slugs):
+        print("BUILD GAGAL — slug entri dasar ganda atau bertabrakan dengan entri dalam.")
+        return 1
     terms_by_slug = {t["slug"]: t for t in terms}
     sectors_by_slug = {s["slug"]: s for s in sectors}
     fondasi_nama = {f["slug"]: f["nama"] for f in fondasi}
@@ -312,13 +422,15 @@ def main():
             f.write(content)
         print("wrote", rel)
 
-    write("index.html", build_index(terms, sectors, fondasi, sector_terms))
+    write("index.html", build_index(terms, sectors, fondasi, sector_terms, dasar))
     for s in sectors:
         write(os.path.join("sektor", s["slug"], "index.html"),
               build_sector(s, terms_by_slug, sector_terms.get(s["slug"], []), fondasi_nama))
     for t in terms:
         write(os.path.join("istilah", t["slug"], "index.html"),
               build_term(t, terms_by_slug, sectors_by_slug, fondasi_nama))
+    for b in dasar:
+        write(os.path.join("istilah", b["slug"], "index.html"), build_basic_term(b))
 
     index_terms = []
     for t in terms:
@@ -332,14 +444,29 @@ def main():
             "fondasi": t["fondasi"], "sectors": t["sectors"],
             "definisi": t["definisi"], "analogi": t["analogi"],
             "mekanisme": t["mekanisme"], "prinsip": t["prinsip"],
-            "plant": t["plant"], "search_text": search_text,
+            "plant": t["plant"], "search_text": search_text, "kind": "dalam",
+        })
+    for b in dasar:
+        search_text = " ".join([
+            b["term"], b["definisi"],
+            " ".join(link["label"] for link in b["terkait"]),
+        ])
+        index_terms.append({
+            "slug": b["slug"], "term": b["term"], "aliases": [],
+            "fondasi": "entri-dasar", "sectors": [],
+            "definisi": b["definisi"], "analogi": "",
+            "mekanisme": "", "prinsip": "",
+            "plant": {"biaya": [], "checklist": [], "contoh": ""},
+            "search_text": search_text, "kind": "dasar",
+            "terkait": b["terkait"],
         })
     idx = {"terms": index_terms,
            "sectors": [{"slug": s["slug"], "nama": s["nama"], "tagline": s["tagline"]} for s in sectors]}
     with open(os.path.join(OUT, "search-index.json"), "w", encoding="utf-8") as f:
         json.dump(idx, f, ensure_ascii=False, indent=1)
     print("wrote search-index.json")
-    print(f"OK: {len(terms)} entri, {len(sectors)} sektor, gate kedalaman lolos untuk semua entri.")
+    print(f"OK: {len(terms)} entri dalam, {len(dasar)} entri dasar, {len(sectors)} sektor, "
+          "gate kedalaman lolos untuk semua entri dalam.")
     return 0
 
 

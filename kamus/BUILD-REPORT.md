@@ -117,3 +117,49 @@ demikian pada setiap variabel. Tidak ada data perusahaan/plant spesifik.
   dibuka karena belum memiliki konten nyata, sesuai prinsip rancangan yang disetujui.
 - Kata "Semua" pada kontrol segmen adalah pilihan keempat di samping Awam | Tekkim | Plant,
   untuk menampilkan seluruh lapis sekaligus; keadaan awal adalah Tekkim.
+
+## Koreksi owner 2026-10-29 (site-wide)
+
+Status: **selesai dan terverifikasi secara lokal; tidak di-push dan tidak di-deploy.** Detailed per-file injector log tersimpan di `staging/kamus-fix-log.json` (folder internal yang tidak ikut diterbitkan), termasuk daftar file per koreksi dan suplemen file generator/template.
+
+### Koreksi 1 — Chatbot Tanya Tekkim di setiap halaman
+
+- `kamus/assets/chat.js` terbukti mandiri: membuat tombol dan panel sendiri, memuat `/kamus/search-index.json` dengan path absolut, dan mengirim pertanyaan ke `/api/ask` dengan path absolut. Tidak ada path relatif yang perlu diperbaiki.
+- Injector menambahkan `<link rel="stylesheet" href="/kamus/assets/chat.css">` sebelum `</head>` dan `<script defer src="/kamus/assets/chat.js"></script>` sebelum `</body>` pada **132 HTML non-Kamus** yang belum memiliki widget.
+- **52 halaman Kamus** memperoleh widget dari `tools/build_kamus.py`; **1 halaman pengalihan Glosarium** memperolehnya dari template `tools/build.py` yang telah diperbarui. Total cakupan akhir: **185/185 HTML**.
+- Audit akhir setiap file: referensi `chat.css` tepat 1, referensi `chat.js` tepat 1, Vercel Analytics tepat 1, `<title>` tepat 1, dan `</html>` tepat 1; tidak ada duplikasi.
+- `tools/build.py` diperbarui mengikuti preseden Analytics: `HEAD` memuat stylesheet chat dan `FOOT` memuat script chat. `py_compile` lolos dan render test membuktikan masing-masing aset muncul tepat satu kali.
+
+### Koreksi 2 — Kamus dan Glosarium menjadi satu
+
+- `tools/build_kamus.py` sekarang juga membaca `glosarium.json`. Pencocokan tabrakan memakai nama/istilah ternormalisasi, slug, dan alias entri dalam.
+- **19 istilah glosarium lama bertabrakan dengan entri dalam dan memakai entri dalam sebagai kanonis:** Reflux, Rasio reflux, Reflux minimum, LMTD, Fouling, Neraca massa, Relief valve, Rupture disk, Cooling tower, Range, Approach, Konversi, Selektivitas, Derajat polimerisasi, Steam trap, Kavitasi, NPSH, Transesterifikasi, dan Flooding.
+- **28 istilah lain menjadi entri dasar:** Azeotrop, Batch, Blowdown, Bottoms, Continuous, DCS, Distilat, Flare, HAZOP, Kondensor, Loop kontrol, P&ID, Packing, Pengendali PID, Permit to work, Pinch, Proses kraft, Reboiler, Safety instrumented system, Seksi rectifying, Seksi stripping, SIL, Stoikiometri, Suhu wet bulb, Tahap kesetimbangan, Tray, Utilitas, dan Volatilitas relatif.
+- Total katalog gabungan: **48 istilah = 20 entri dalam + 28 entri dasar**. Daftar lengkap A–Z tampil di beranda Kamus; `kamus/search-index.json` memuat 48 istilah dengan penanda `kind: "dalam"` atau `kind: "dasar"`.
+- Setiap entri dasar memiliki halaman `/kamus/istilah/<slug>/` berisi definisi, bacaan terkait yang ter-resolve ke artikel/video/bedah paten yang benar, dan catatan persis: **“Entri dasar — bedah dalam (mekanisme, persamaan, sensitivitas) menyusul.”** Seluruh tautan bacaan terkait entri dasar terverifikasi menunjuk file yang ada (0 hilang).
+- Chatbot dapat menjawab dari entri dasar dan melabelinya **“Sumber: Glosarium terverifikasi · Entri dasar”**. Gate kedalaman untuk 20 entri dalam tidak dilemahkan dan tetap lolos 20/20.
+- Sebanyak **132 HTML standar** mengalami penulisan ulang tautan/label Glosarium oleh injector, ditambah `sitemap.xml`; 52 halaman Kamus di-generate ulang tanpa tautan lama. Audit akhir: **0** kemunculan `href="/glosarium` dan **0** label tautan `>Glosarium<` di seluruh HTML di luar `staging/`.
+- `glosarium/index.html` diganti menjadi halaman pengalihan ke `/kamus` dengan meta refresh, canonical ke `/kamus/`, dan tautan fallback yang terlihat. Di `tools/build.py`, blok generator halaman Glosarium lama diganti generator pengalihan yang sama; tidak ada pola tautan `/glosarium` yang tersisa di `tools/build.py`. File `glosarium.json` tetap dipakai hanya sebagai sumber data penggabungan, bukan lagi halaman/sistem terpisah.
+- `sitemap.xml`: 1 URL `/glosarium/` dihapus dan **52 URL Kamus** ditambahkan (1 beranda Kamus, 3 sektor, 48 istilah). Sitemap akhir memuat **184 URL unik**, tanpa URL Glosarium.
+
+### Koreksi 3 — Navigasi menuju Kamus
+
+- Injector menyisipkan `<a href="/kamus">Kamus</a>` tepat setelah tautan Jalur pada header **132 HTML standar**; halaman pengalihan sudah memilikinya dari template `tools/build.py` yang diperbarui.
+- Footer standar: **133/133** halaman ber-`foot-links` kini memuat Kamus sebagai pengganti Glosarium.
+- Beranda: item strip fitur 04 diubah dari Glosarium menjadi Kamus tanpa renumbering. Teksnya kini menyebut katalog gabungan **48 istilah: 20 entri dalam dan 28 entri dasar**.
+- Halaman Kamus: tautan header di `tools/build_kamus.py` diselaraskan ke `<a href="/kamus">Kamus</a>`, dan footer Kamus ditambah nav berisi Kamus. Audit akhir: **185/185 HTML** memuat tautan navigasi persis tersebut setidaknya satu kali; **52/52 halaman Kamus** memuatnya juga di footer.
+- `tools/build.py`: nav `HEAD` memuat Kamus setelah Jalur, footer `FOOT` mengganti Glosarium dengan Kamus, strip beranda memakai katalog Kamus gabungan, dan sitemap masa depan memuat Kamus beserta sektor dan seluruh istilahnya.
+
+### Verifikasi lokal terakhir
+
+| Pemeriksaan | Hasil |
+|---|---|
+| `python3 tools/build_kamus.py` | OK — 20 entri dalam, 28 entri dasar, 3 sektor; gate kedalaman 20/20 |
+| `python3 -m py_compile tools/build.py tools/build_kamus.py` | OK |
+| Render test `HEAD` + `FOOT` dari `tools/build.py` | chat CSS 1, chat JS 1, Analytics 1, nav/footer Kamus 2, tautan Glosarium 0 |
+| `node --check kamus/assets/chat.js` dan `search.js` | OK |
+| Server statis: `GET /` | 200; nav Kamus ada, strip 48 istilah ada, chat CSS/JS masing-masing 1 |
+| Server statis: `GET /artikel/distilasi-bertingkat-minyak-mentah/` | 200; nav Kamus ada, chat CSS/JS masing-masing 1 |
+| Server statis: `GET /glosarium/` | 200; meta refresh, canonical Kamus, dan fallback terlihat semua ada |
+| Server statis: `GET /kamus/` dan `search-index.json` | 200; daftar A–Z 48; indeks 20 dalam + 28 dasar |
+| Server statis: `GET /kamus/istilah/azeotrop/` | 200; catatan entri dasar dan tautan bedah paten terkait tampil |
