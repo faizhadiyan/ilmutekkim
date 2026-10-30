@@ -163,3 +163,12 @@ Status: **selesai dan terverifikasi secara lokal; tidak di-push dan tidak di-dep
 | Server statis: `GET /glosarium/` | 200; meta refresh, canonical Kamus, dan fallback terlihat semua ada |
 | Server statis: `GET /kamus/` dan `search-index.json` | 200; daftar A–Z 48; indeks 20 dalam + 28 dasar |
 | Server statis: `GET /kamus/istilah/azeotrop/` | 200; catatan entri dasar dan tautan bedah paten terkait tampil |
+
+## Addendum 2026-10-30 — Router heuristik Tanya Tekkim (keputusan Hadi: heuristik dulu, tanpa Jev)
+
+- `api/ask.js` ditulis ulang: setelah glosarium lokal, pertanyaan dinilai router heuristik skor lokal (kelompok sinyal: angka+satuan +3, hitung +3, persamaan/mekanisme +3, mode gagal/gejala +3, diagnosis +3, bandingkan +2, level plant +2 / tekkim +1, sebab-akibat +1, panjang/multi-pertanyaan +1; ambang kompleks >= 4).
+- Simple -> Gemini `gemini-3.5-flash-lite` (REST v1beta generateContent, header `x-goog-api-key`, env `GEMINI_API_KEY`, model dapat diganti via env `GEMINI_MODEL`). Kompleks -> DeepSeek `deepseek-flash` (env `DEEPSEEK_API_KEY`, tidak berubah).
+- Fallback dua arah: kegagalan/429/kunci hilang di penyedia utama -> penyedia cadangan; tanpa kedua kunci -> 503 `ai_not_configured` (perilaku lama). Respons menambah `route`, `router: "heuristic"`, `score`, `reasons`, `fallback`; label UI kini menampilkan nama model yang menjawab.
+- Bias router disengaja ke kompleks: salah lempar ke DeepSeek rugi biaya sangat kecil; salah lempar hitungan/diagnosis ke model ringan berisiko jawaban dangkal.
+- Uji lokal (harness Node, fetch stub): klasifikasi 10/10 contoh lolos (termasuk flooding, kavitasi, hitung steam 1000 kg/h, PSV lifting), routing simple->Gemini, kompleks->DeepSeek, fallback Gemini 429->DeepSeek, hanya-Gemini kompleks->fallback Gemini, tanpa key->503, pertanyaan kosong->400. Semua lolos.
+- SISA: `GEMINI_API_KEY` belum dipasang di Vercel Production — selama belum dipasang, pertanyaan simple otomatis fallback ke DeepSeek (chatbot tetap berfungsi penuh seperti sebelumnya).
