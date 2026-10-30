@@ -38,7 +38,7 @@ export default function KamusPage() {
         ))}</div>
       </section>
       <section className="blk"><h2>Istilah Populer</h2>{deepTerms.filter((term) => term.populer).map((term) => <KamusTermCard key={term.slug} term={term} />)}</section>
-      <section className="blk" id="semua-istilah"><h2>Semua Istilah A–Z ({count})</h2>
+      <section className="blk" id="semua-istilah"><h2>{`Semua Istilah A–Z (${count})`}</h2>
         <p className="lead">Daftar lengkap kamus gabungan. Entri dalam memuat mekanisme, persamaan, sensitivitas, dan bedah plant; entri dasar memuat definisi serta bacaan terkait dan akan diperdalam secara bertahap.</p>
         {alphabeticalTerms.map((term) => <KamusTermCard key={term.slug} term={term} />)}
       </section>

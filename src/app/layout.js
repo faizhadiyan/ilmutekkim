@@ -1,5 +1,4 @@
 import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 import ChatWidget from "@/components/ChatWidget";
 import "./globals.css";
 import "./chat.css";
@@ -40,7 +39,6 @@ export default function RootLayout({ children }) {
       <body>
         <Header />
         {children}
-        <Footer />
         <ChatWidget />
       </body>
     </html>

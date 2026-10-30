@@ -40,7 +40,7 @@ export default async function KamusSectorPage({ params }) {
         <div className="card"><p><strong>Bahan baku:</strong> {sector.bahan}</p>
           <p style={{ marginTop: 8 }}><strong>Produk:</strong> {sector.produk}</p></div>
       </section>
-      <section className="blk"><h2>Istilah pada Sektor Ini ({items.length})</h2>{items.map((item) => <KamusTermCard key={item} term={termsBySlug[item]} />)}</section>
+      <section className="blk"><h2>{`Istilah pada Sektor Ini (${items.length})`}</h2>{items.map((item) => <KamusTermCard key={item} term={termsBySlug[item]} />)}</section>
     </KamusShell>
   );
 }
