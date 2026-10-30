@@ -1,7 +1,8 @@
 // Tanya Tekkim: chatbot pop-up Kamus Industri Kimia.
 // Alur: (1) cari di search-index.json lokal; kecocokan kuat dijawab dari
 // entri glosarium pada lapis level terpilih + sitasi. (2) Selain itu POST
-// /api/ask dan jawaban dilabeli "AI — belum terverifikasi".
+// /api/ask (router heuristik di server: simple -> Gemini, kompleks ->
+// DeepSeek) dan jawaban dilabeli "AI — belum terverifikasi" + nama model.
 (function () {
   var level = "awam";
   var INDEX = null;
@@ -121,7 +122,8 @@
         .then(function (res) {
           if (res.ok && res.j.answer) {
             wait.innerHTML = esc(res.j.answer).replace(/\n/g, "<br>") +
-              '<br><span class="tt-src ai">AI — belum terverifikasi</span>';
+              '<br><span class="tt-src ai">AI — belum terverifikasi' +
+              (res.j.model ? " · " + esc(res.j.model) : "") + "</span>";
           } else if (res.j && res.j.error === "ai_not_configured") {
             wait.innerHTML = "Istilah ini belum ada di glosarium dan fitur AI belum dikonfigurasi pada server. " +
               "Coba cari istilah terkait melalui kolom pencarian kamus." +
