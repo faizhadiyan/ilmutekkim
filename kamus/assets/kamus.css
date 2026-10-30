@@ -8,12 +8,6 @@ h1,h2,h3,.pj{font-family:"Plus Jakarta Sans","Noto Sans",sans-serif}
 a{color:#0077A3;text-decoration:none}
 a:hover{text-decoration:underline}
 .wrap{max-width:1080px;margin:0 auto;padding:0 18px 64px}
-.khead{background:var(--navy);color:#fff;padding:14px 0}
-.khead .wrap{padding-bottom:0;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
-.khead .brand{color:#fff;font-family:"Plus Jakarta Sans",sans-serif;font-weight:800;font-size:20px}
-.khead .brand span{color:var(--cyan)}
-.khead nav{margin-left:auto;display:flex;gap:16px;flex-wrap:wrap}
-.khead nav a{color:#C9D8F2;font-size:14px}
 .hero{padding:38px 0 8px}
 .hero h1{font-size:34px;line-height:1.2;margin:0 0 8px;color:var(--navy)}
 .hero p.sub{color:var(--mut);font-size:17px;margin:0 0 20px;max-width:720px}
@@ -77,5 +71,20 @@ a.fnode:hover{background:#E6F7FB;text-decoration:none}
 @media(max-width:640px){
   .hero h1{font-size:27px}.termhead h1{font-size:25px}
   .searchbox{flex-direction:column}.searchbox button{width:100%}
-  .khead nav{margin-left:0}
+  }
+
+/* Mode gelap: variabel kamus mengikuti tema situs (data-theme di <html>) */
+:root[data-theme="dark"]{
+  --navy:#A5CBEA; --cyan:#67C7DE; --amber:#F5B04C;
+  --mut:#96A6BC; --line:#26303F; --bg:#0C1118;
 }
+:root[data-theme="dark"] body{background:var(--bg)}
+:root[data-theme="dark"] a{color:#82B4DC}
+:root[data-theme="dark"] .searchbox input{background:transparent;color:var(--ink)}
+:root[data-theme="dark"] .seg button{background:var(--card)}
+:root[data-theme="dark"] .analogi{background:#16202E}
+:root[data-theme="dark"] .zero{background:#2A2110}
+:root[data-theme="dark"] .count{background:#14303C;color:#67C7DE}
+:root[data-theme="dark"] .badge.fon{background:#1B2A44;color:#A5CBEA}
+:root[data-theme="dark"] .badge.sec{background:#14303C;color:#67C7DE}
+:root[data-theme="dark"] .foot{color:var(--mut)}

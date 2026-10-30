@@ -150,18 +150,26 @@ def head(title, desc):
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
 <link rel="canonical" href="{BASE}">
+<script>(function(){{try{{var t=localStorage.getItem("ilm-theme");if(!t){{t=window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";}}document.documentElement.setAttribute("data-theme",t);}}catch(e){{document.documentElement.setAttribute("data-theme","light");}}}})();</script>
 {FONTS}
+<link rel="stylesheet" href="/assets/css/style.css?v=24">
 <link rel="stylesheet" href="/kamus/assets/kamus.css">
-<link rel="stylesheet" href="/kamus/assets/chat.css">
+<link rel="stylesheet" href="/kamus/assets/chat.css?v=2">
 <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
-<header class="khead"><div class="wrap">
-<a class="brand" href="/kamus/">ilmu<span>tekkim</span> · Kamus</a>
-<nav>
-<a href="/kamus">Kamus</a><a href="/">Beranda Situs</a><a href="/artikel/">Artikel</a>
-<a href="/video/">Video</a><a href="/riset/">Riset</a><a href="/jalur/">Jalur Belajar</a>
-</nav></div></header>
+<header class="site-header">
+  <a class="brand" href="/">ilmu<span>tekkim</span></a>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+  <label for="nav-toggle" class="burger" aria-label="Buka menu">&#9776;</label>
+  <nav>
+    <a href="/">Articles &amp; Videos</a>
+    <a href="/riset/">Riset</a>
+    <a href="/jalur/">Jalur</a>
+    <a href="/kamus">Kamus</a>
+  </nav>
+  <button type="button" class="theme-toggle" id="themeToggle" aria-label="Beralih antara mode terang dan mode gelap" title="Mode terang / gelap"><span class="ic-sun" aria-hidden="true">&#9728;</span><span class="ic-moon" aria-hidden="true">&#9790;</span></button>
+</header>
 """
 
 
@@ -170,6 +178,7 @@ FOOT = """
 <p>Kamus Industri Kimia — bagian dari <a href="/">ilmutekkim.site</a>.
 Seluruh angka operasi pada kamus ini adalah rentang umum textbook, bukan data plant atau data perusahaan mana pun.</p></div>
 </div>
+<script src="/assets/js/main.js?v=11"></script>
 <script src="/kamus/assets/chat.js" defer></script>
 </body>
 </html>

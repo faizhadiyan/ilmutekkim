@@ -245,12 +245,13 @@ footer a{color:#fff}
 :root[data-theme="dark"] .quiz-opt.wrong{background:#3D1713;border-color:#A03B2E;color:#F3D2CC}
 :root[data-theme="dark"] #search{background:#131A24;color:#E9EEF6;border-color:#33445E}
 :root[data-theme="dark"] .grid{background:#26303F}
-.theme-toggle{margin-left:auto;background:transparent;border:1.5px solid var(--ink);color:var(--ink);border-radius:999px;width:38px;height:38px;font-size:17px;line-height:1;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;padding:0}
+.theme-toggle{margin-left:0;flex:none;background:transparent;border:1.5px solid var(--ink);color:var(--ink);border-radius:999px;width:38px;height:38px;font-size:17px;line-height:1;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;padding:0}
 .theme-toggle:hover{background:var(--ink);color:var(--paper)}
 .theme-toggle .ic-sun{display:none}
 :root[data-theme="dark"] .theme-toggle .ic-sun{display:inline}
 :root[data-theme="dark"] .theme-toggle .ic-moon{display:none}
-@media(min-width:761px){.theme-toggle{margin-left:18px}}
+@media(min-width:761px){.theme-toggle{margin-left:18px}.site-header nav{margin-left:auto}}
+@media(max-width:760px){.theme-toggle{margin-left:10px}}
 footer .btn-ig{background:#F4F4F2;color:#0E0F11!important;border-radius:999px;padding:9px 18px;font-weight:600;display:inline-block;margin:0 8px 6px 0}
 footer .btn-ig:hover{background:#82B4DC}
 .tool-strip{display:grid;grid-template-columns:repeat(3,1fr);border-bottom:1px solid var(--rule);margin:0 -22px;padding:0 22px}
