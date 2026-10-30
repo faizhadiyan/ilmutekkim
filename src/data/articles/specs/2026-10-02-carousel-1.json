@@ -1,0 +1,117 @@
+{
+ "caption": "Tekanan bisa naik diam-diam. Satu valve kecil ini yang mencegah ledakan.\n\nTekanan di bejana dan pipa bisa naik sendiri: outlet tersumbat, kebakaran dari luar, pendingin mati, sampai reaksi yang tak terkendali. Relief valve membuka otomatis saat tekanan melewati batas, lalu menutup lagi. Rupture disk beda: sekali jebol, langsung ganti baru.\n\nDi plant kalian, safety valve pernah bunyi tidak? Ceritain di komen.\n\nFollow @ilmutekkim buat teknik kimia tiap hari.\n\n#teknikkimia #chemicalengineering #pabrik #safety #proses #alatpabrik #insinyurkimia #ilmutekkim",
+ "cover_brief": "foto kilang atau pabrik kimia saat senja, menara dan pipa baja",
+ "cover_credit": "Zeca Souza / Pexels",
+ "cover_credit_url": "https://www.pexels.com/photo/dramatic-silhouette-of-industrial-plant-at-sunset-35416840/",
+ "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-02/carousel-1/cover.jpg",
+ "cover_sub": "Dua alat kecil penjaga tekanan pabrik.",
+ "cta_question": "Di plant kalian, safety valve pernah bunyi tidak? Ceritain di komen.",
+ "cta_teaser": "Siang ini: isi satu barel minyak, dari bensin sampai aspal, pakai angka.",
+ "format": "real",
+ "hook": "TEKANAN NAIK DIAM-DIAM. SATU VALVE INI YANG MENCEGAH LEDAKAN",
+ "photo_briefs": [
+  {
+   "cari": "close up safety valve relief valve di pipa pabrik industri",
+   "slide": 3
+  },
+  {
+   "cari": "teknisi memeriksa pressure gauge valve di pabrik kimia",
+   "slide": 7
+  }
+ ],
+ "references": [
+  "API 576, Inspection of Pressure-Relieving Devices",
+  "ASME Boiler and Pressure Vessel Code, Section VIII (aturan bejana tekan)"
+ ],
+ "series_label": "SERI TEKANAN",
+ "slides": [
+  {
+   "hook": "Justru kalau dia tidak pernah bunyi, artinya pabriknya sehat.",
+   "pill": "YANG SERING DIKIRA",
+   "quote": "Safety valve itu cuma formalitas. Kan jarang banget kepake.",
+   "type": "quote"
+  },
+  {
+   "callout": "FAKTA: tekanan berlebih adalah salah satu penyebab utama kegagalan bejana tekan di industri proses.",
+   "paras": [
+    "Outlet tersumbat, kebakaran dari luar, sistem pendingin mati, sampai reaksi yang tak terkendali. Semua bisa menaikkan tekanan tanpa ada yang menyentuh valve.",
+    "Cairan yang terperangkap di pipa lalu memuai karena panas pun cukup untuk memecahkan pipa baja."
+   ],
+   "pill": "KENAPA TEKANAN NAIK",
+   "title": "Tekanan bisa naik tanpa disadari",
+   "type": "body"
+  },
+  {
+   "credit": "Robert So / Pexels",
+   "paras": [
+    "Pegas menahan katup tetap tertutup selama operasi normal. Begitu tekanan melewati set pressure, katup terangkat dan membuang fluida keluar.",
+    "Begitu tekanan turun kembali, pegas menutup katup otomatis. Bisa dipakai berulang kali tanpa diganti."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-02/carousel-1/photo-1.jpg",
+   "pill": "ALAT PERTAMA",
+   "title": "Relief valve: buka sendiri, nutup sendiri",
+   "type": "photo"
+  },
+  {
+   "callout": "FAKTA: rupture disk dipilih untuk fluida korosif atau lonjakan tekanan sangat cepat yang tidak bisa ditangani valve biasa.",
+   "paras": [
+    "Membran logam tipis yang dirancang jebol tepat di tekanan tertentu. Responnya seketika dan tidak bocor sama sekali sebelum jebol.",
+    "Bedanya dengan relief valve: rupture disk tidak bisa menutup lagi. Sekali kejadian, wajib diganti baru."
+   ],
+   "pill": "ALAT KEDUA",
+   "title": "Rupture disk: sekali pakai, langsung jebol",
+   "type": "body"
+  },
+  {
+   "chart": "tradeoff",
+   "chart_cfg": {
+    "opt_label": "set ideal",
+    "opt_sub": "di bawah batas bejana",
+    "s1_label": "kebocoran",
+    "s2_label": "bejana jebol",
+    "s3_label": "risiko total",
+    "x_label": "Tekanan set valve",
+    "y_label": "Risiko"
+   },
+   "paras": [
+    "Set terlalu rendah: valve membuka terus, produk terbuang, katup bergetar rusak (chatter).",
+    "Set terlalu tinggi: bejana mencapai batasnya duluan sebelum valve sempat membuka."
+   ],
+   "pill": "SETELAN KRUSIAL",
+   "title": "Tekanan set harus pas, tidak boleh asal",
+   "type": "chart"
+  },
+  {
+   "callout": "FAKTA: kombinasi ini umum di pabrik kimia karena jauh lebih murah mengganti disk daripada mengganti valve yang korosi.",
+   "paras": [
+    "Rupture disk dipasang di depan relief valve untuk melindunginya dari fluida korosif atau lengket.",
+    "Saat darurat, disk jebol duluan, lalu valve yang mengatur buangannya. Valve awet, disk yang dikorbankan."
+   ],
+   "pill": "KOMBINASI CERDAS",
+   "title": "Disk di depan, valve di belakang",
+   "type": "body"
+  },
+  {
+   "credit": "МОБО Модульные Котельные / Pexels",
+   "paras": [
+    "Valve yang dibiarkan bertahun-tahun bisa macet karena korosi atau kerak. Saat dibutuhkan, dia tidak membuka.",
+    "Makanya ada jadwal inspeksi dan bench test berkala (rujukan API 576) untuk memastikan set pressure masih akurat."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-02/carousel-1/photo-2.jpg",
+   "pill": "DI LAPANGAN",
+   "title": "Valve ini diuji berkala, bukan dipasang lalu dilupakan",
+   "type": "photo"
+  },
+  {
+   "bullets": [
+    "Tekanan bisa naik sendiri dari banyak sebab, tanpa peringatan.",
+    "Relief valve buka tutup otomatis; rupture disk sekali pakai lalu diganti.",
+    "Set pressure harus pas: di atas operasi normal, di bawah batas bejana."
+   ],
+   "head": "Tekanan itu nyawa, valve itu asuransinya.",
+   "pill": "KESIMPULANNYA",
+   "type": "conclusion"
+  }
+ ],
+ "topic": "Kenapa tekanan itu nyawa di pabrik kimia (relief valve, rupture disk)"
+}

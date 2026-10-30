@@ -1,0 +1,189 @@
+{
+  "caption": "Data pabrik selalu bocor angka? Cek neraca massanya dulu.\n\nMasuk harus sama dengan keluar plus akumulasi. Selisih kecil itu normal asal bisa ditelusur: akumulasi di alat, error meter, atau side stream yang lupa dicatat. Yang bahaya adalah selisih tanpa sebab yang berulang.\n\nDi tempat lo, selisih angka produksi paling sering karena apa? Tulis di komen.\n\nFollow @ilmutekkim buat teknik kimia tiap hari.\n\n#teknikkimia #chemicalengineering #neracamassa #pabrik #proses #industri #ilmutekkim",
+  "cover_brief": "foto pabrik kimia pipa industri dan tangki dari jauh",
+  "cover_credit": "Ricardo Gomez Angel / Unsplash",
+  "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-04/carousel-1/cover.jpg",
+  "cover_sub": "Satu persamaan buat membaca data pabrik.",
+  "credit_url": "https://unsplash.com/photos/industrial-metal-pipes-and-valves-41X6FwTwPh4",
+  "cta_question": "Di tempat lo, selisih angka produksi paling sering karena apa?",
+  "cta_teaser": "Besok: oleokimia sawit, turunan yang masuk ke sabun dan deterjen.",
+  "format": "real",
+  "hook": "DATA PABRIK SELALU BOCOR ANGKA? CEK NERACA MASSANYA DULU",
+  "hook_options": [
+    "DATA PABRIK SELALU BOCOR ANGKA? CEK NERACA MASSANYA DULU",
+    "MASUK 100 KELUAR 97. SISA 3 KG KE MANA?",
+    "SATU PERSAMAAN INI BONGKAR DATA PABRIK YANG TIDAK BALANCE"
+  ],
+  "hook_payoff_slide": 4,
+  "photo_briefs": [
+    {
+      "cari": "foto control room pabrik operator layar monitor",
+      "slide": 3
+    },
+    {
+      "cari": "foto tangki industri dan flow meter pabrik",
+      "slide": 5
+    }
+  ],
+  "references": [
+    "Felder and Rousseau, Elementary Principles of Chemical Processes",
+    "Perry's Chemical Engineers' Handbook (bab material balance)"
+  ],
+  "series_label": "SERI NERACA MASSA",
+  "slides": [
+    {
+      "callout": "FAKTA: neraca massa yang sehat selalu menyisakan selisih kecil yang bisa dijelaskan.",
+      "fill_rows": [
+        [
+          "01",
+          "MASUK = KELUAR + AKUMULASI",
+          "persamaan intinya"
+        ],
+        [
+          "02",
+          "SELISIH KECIL ITU NORMAL",
+          "asal bisa ditelusur"
+        ],
+        [
+          "03",
+          "YANG BAHAYA ITU SELISIH TANPA SEBAB",
+          "itu baru investigasi"
+        ]
+      ],
+      "fill_rows_title": "PETA SLIDE INI",
+      "hook": "Belum tentu. Selisih kecil sering cuma akumulasi dan error ukur.",
+      "pill": "YANG SERING DIKIRA",
+      "quote": "Neraca massa yang tidak balance berarti ada yang bocor atau nyolong.",
+      "type": "quote"
+    },
+    {
+      "callout": "FAKTA: neraca massa tidak pernah salah. Yang salah biasanya pencatatannya.",
+      "fill_bar": {
+        "examples": [
+          [
+            "Masuk",
+            "bahan baku + utilitas"
+          ],
+          [
+            "Keluar",
+            "produk + limbah + sampel"
+          ]
+        ],
+        "left_frac": 0.5,
+        "left_label": "YANG MASUK",
+        "right_label": "YANG KELUAR"
+      },
+      "formula": "Masuk = Keluar + Akumulasi",
+      "paras": [
+        "Semua bahan yang masuk harus keluar, berubah bentuk, atau tertahan sebagai akumulasi."
+      ],
+      "pill": "PERSAMAAN INTINYA",
+      "title": "Masuk sama dengan keluar plus akumulasi",
+      "type": "body",
+      "fill_bar_title": "DUA SISI NERACA"
+    },
+    {
+      "callout": "FAKTA: logsheet harian pabrik pada dasarnya adalah neraca massa yang disederhanakan.",
+      "credit": "Dmitrijs Safrans / Unsplash",
+      "paras": [
+        "Operator membaca aliran masuk dan keluar dari layar DCS tiap shift.",
+        "Selisih yang muncul di layar adalah sinyal pertama buat cek lapangan."
+      ],
+      "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-04/carousel-1/photo-1.jpg",
+      "pill": "DI CONTROL ROOM",
+      "title": "Angka di layar itu hasil neraca",
+      "type": "photo"
+    },
+    {
+      "callout": "FAKTA: sebagian besar selisih neraca massa hilang setelah side stream dicatat lengkap.",
+      "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-04/carousel-1/diagram-mass.png",
+      "paras": [
+        "Baca dari kiri ke kanan. Kotak tengah adalah sistem yang diaudit.",
+        "Side stream seperti uap, limbah, dan sampel sering lupa dicatat padahal ikut mengurangi keluaran."
+      ],
+      "pill": "PETA LENGKAPNYA",
+      "title": "Aliran masuk, keluar, dan side stream",
+      "type": "diagram"
+    },
+    {
+      "callout": "FAKTA: kalibrasi alat ukur adalah bagian dari menjaga neraca massa tetap jujur.",
+      "credit": "Alan Rostovtev / Unsplash",
+      "paras": [
+        "Level tangki dan flow meter adalah sumber angka neraca yang paling sering dibaca.",
+        "Meter yang belum dikalibrasi bisa bikin selisih palsu bertahun tahun."
+      ],
+      "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-04/carousel-1/photo-2.jpg",
+      "pill": "DI LAPANGAN",
+      "title": "Tangki dan meter penentu angkanya",
+      "type": "photo"
+    },
+    {
+      "callout": "FAKTA: selisih tanpa penjelasan yang berulang adalah tanda awal kebocoran atau pencatatan yang buruk.",
+      "fill_cards": [
+        [
+          "01",
+          "Akumulasi",
+          "Bahan tertahan di reaktor atau tangki"
+        ],
+        [
+          "02",
+          "Error ukur",
+          "Meter meleset atau belum kalibrasi"
+        ],
+        [
+          "03",
+          "Side stream lupa",
+          "Sampel dan limbah tidak dicatat"
+        ]
+      ],
+      "paras": [
+        "Pertama akumulasi di dalam alat. Kedua error alat ukur. Ketiga aliran kecil yang tidak masuk catatan.",
+        "Selama tiga itu bisa dijelaskan angkanya, neraca masih sehat."
+      ],
+      "pill": "KENAPA SELALU ADA SELISIH",
+      "title": "Tiga penyebab selisih yang paling umum",
+      "type": "body"
+    },
+    {
+      "callout": "FAKTA: pola selisih lebih penting daripada besar selisihnya sendiri.",
+      "fill_grid": [
+        [
+          "ALIRAN BESAR",
+          "cek pertama"
+        ],
+        [
+          "SIDE STREAM",
+          "sering terlupa"
+        ],
+        [
+          "POLA TETAP",
+          "error sistematis"
+        ],
+        [
+          "POLA ACAK",
+          "error pembacaan"
+        ]
+      ],
+      "fill_grid_eyebrow": "",
+      "fill_note": "Empat cek pertama saat neraca tidak balance.",
+      "paras": [
+        "Mulai dari aliran terbesar, lalu telusuri side stream satu per satu.",
+        "Selisih yang polanya tetap biasanya error sistematis. Selisih acak biasanya error baca."
+      ],
+      "pill": "CARA MEMBACANYA",
+      "title": "Baca neraca seperti detektif",
+      "type": "body"
+    },
+    {
+      "bullets": [
+        "Masuk harus sama dengan keluar plus akumulasi.",
+        "Selisih kecil normal asal bisa dijelaskan.",
+        "Side stream dan kalibrasi adalah tersangka pertama."
+      ],
+      "equation": "Masuk = Keluar + Akumulasi",
+      "head": "Neraca massa adalah alat detektif pabrik.",
+      "pill": "KESIMPULANNYA",
+      "type": "conclusion"
+    }
+  ]
+}

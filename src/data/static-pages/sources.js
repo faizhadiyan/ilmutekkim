@@ -1,0 +1,27 @@
+// JSON imports retain filename order before the stable date sort in build.py.
+import research0 from "./research/bedah-b100-mesin-diesel.json";
+import research1 from "./research/bedah-bentonit-sonikasi-katalis-asam.json";
+import research2 from "./research/bedah-biodiesel-minyak-campuran.json";
+import research3 from "./research/bedah-biogas-pome-listrik-tekno-ekonomi.json";
+import research4 from "./research/bedah-ccus-tekno-ekonomi.json";
+import research5 from "./research/bedah-daur-ulang-plastik-kimia.json";
+import research6 from "./research/bedah-digital-twin-energi-industri.json";
+import research7 from "./research/bedah-elektrolisis-hidrogen-hijau.json";
+import research8 from "./research/bedah-esterifikasi-pome-katalis-karbon-zeolit.json";
+import research9 from "./research/bedah-fotokatalis-tio2-air-terproduksi.json";
+import research10 from "./research/bedah-grading-sawit-yolov4.json";
+import research11 from "./research/bedah-hidrogen-biru-smr-atr-ngd.json";
+import research12 from "./research/bedah-hydrocracking-minyak-jelantah-biogasoline.json";
+import research13 from "./research/bedah-katalis-aaem-pirolisis-biomassa.json";
+import research14 from "./research/bedah-katalis-cao-indigofera-biodiesel.json";
+import research15 from "./research/bedah-ko-pirolisis-batang-sawit-polipropilena.json";
+import research16 from "./research/bedah-mikroalga-pome-biofuel.json";
+import research17 from "./research/bedah-minyak-pirolisis-plastik-umpan-steam-cracker.json";
+import research18 from "./research/bedah-nanozirconia-tersulfat-hydrocracking.json";
+export const research = [research0, research1, research2, research3, research4, research5, research6, research7, research8, research9, research10, research11, research12, research13, research14, research15, research16, research17, research18];
+import paten0 from "./paten/paten-distilasi-reaktif-eastman-1984.json";
+import paten1 from "./paten/paten-dividing-wall-column-basf-2005.json";
+import paten2 from "./paten/paten-membran-monsanto-1980.json";
+import paten3 from "./paten/paten-mtg-mobil-1988.json";
+import paten4 from "./paten/paten-psa-skarstrom-1960.json";
+export const paten = [paten0, paten1, paten2, paten3, paten4];

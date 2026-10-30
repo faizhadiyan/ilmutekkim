@@ -1,0 +1,141 @@
+{
+ "caption": "X1 = 0,4 TAPI Y1 = 0,63, BEGITU CARA MENGHITUNGNYA\n\nIni CS-13 dari seri cheat sheet ujian @ilmutekkim. Hukum Raoult: komposisi uap dihitung dari fraksi cairan dikali tekanan uap jenuh. Contoh benzena-toluena 80°C: cairan 40 persen benzena menghasilkan uap 63 persen benzena.\n\nCampuran nyata menyimpang: kalau deviasinya besar, lahir azeotrop, titik di mana uap dan cairan sama komposisinya. Di titik itu kolom distilasi biasa menyerah, berapapun stage-nya. Etanol tidak bisa 100 persen dari kolom biasa karena azeotropnya di 95,6 persen.\n\nDi kilang, tiap tray kolom adalah satu kesetimbangan uap-cair. Hukum ini yang menentukan berapa tray harus dibangun.\n\nIni simpul 02 dari peta roadmap. Peta lengkapnya ada di postingan roadmap yang ter-pin di profil.\n\nSave buat UTS, tag teman sekelas, follow seri berikutnya.\n\n#teknikkimia #chemicalengineering #termodinamika #distilasi #hukumraoult #uts #belajar #ilmutekkim",
+ "cover_brief": "foto menara distilasi atau kolom fraksinasi pabrik kimia atau kilang, tampak menjulang dari bawah, suasana industri nyata",
+ "cover_credit": "Dheeraj Singh / Pexels",
+ "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-20/carousel-1/cover.jpg",
+ "cover_sub": "CS-13 | Kesetimbangan Uap-Cair",
+ "credit_url": "https://www.pexels.com/photo/industrial-refinery-tower-in-early-daylight-38343899/",
+ "cta_question": "Dosenmu pernah menjebak dengan azeotrop? Ceritakan di komen.",
+ "cta_teaser": "Besok CS-14: absorpsi vs stripping, kapan gas dibersihkan dan kapan komponen diambil.",
+ "format": "real",
+ "hook": "X1 = 0,4 TAPI Y1 = 0,63, BEGITU CARA MENGHITUNGNYA",
+ "hook_options": [
+  "X1 = 0,4 TAPI Y1 = 0,63, BEGITU CARA MENGHITUNGNYA",
+  "HUKUM RAOULT SALAH PAKAI, JAWABAN UJIANMU IKUT SALAH",
+  "CAMPURAN NYATA TIDAK PATUH RAOULT, INI KOREKSINYA"
+ ],
+ "hook_payoff_slide": 5,
+ "photo_briefs": [
+  {
+   "cari": "close-up kolom distilasi atau tray kolom atau pipa dan bejana pabrik kimia",
+   "slide": "slide foto pabrik nyata"
+  }
+ ],
+ "references": [
+  "Smith, Van Ness, Abbott, Swihart, Introduction to Chemical Engineering Thermodynamics (hukum Raoult, persamaan Antoine)",
+  "Seader, Henley, Separation Process Principles (McCabe-Thiele, distilasi azeotrop)",
+  "Perry's Chemical Engineers' Handbook (konstanta Antoine, azeotrop etanol-air 95,6 persen pada 78,2°C)"
+ ],
+ "series_label": "SERI CHEAT SHEET UJIAN",
+ "slides": [
+  {
+   "callout": "Fakta kunci: Raoult murni hanya untuk larutan ideal; sisanya pakai faktor koreksi gamma.",
+   "fill_rows": [
+    [
+     "01",
+     "Gamma dilupakan",
+     "campuran nyata pakai koefisien aktivitas"
+    ],
+    [
+     "02",
+     "Azeotrop dianggap bisa dipecah stage",
+     "di titik azeotrop y = x, stage tak hingga pun gagal"
+    ],
+    [
+     "03",
+     "Tekanan total dianggap rata-rata",
+     "P = jumlah x₁P₁sat, bukan rata-rata biasa"
+    ]
+   ],
+   "fill_rows_title": "Kenapa jebakan ini sering keluar",
+   "hook": "Hanya untuk larutan ideal. Campuran nyata butuh koreksi.",
+   "pill": "JEBAKAN DOSEN",
+   "quote": "Hukum Raoult bisa dipakai untuk campuran apa saja.",
+   "type": "quote"
+  },
+  {
+   "callout": "Fakta kunci: untuk larutan ideal gamma = 1 dan rumusnya kembali ke Raoult murni.",
+   "formula": "y₁P = x₁γ₁P₁sat",
+   "formula_tex": "y_{1} P = x_{1} \\gamma_{1} P_{1}^{\\mathrm{sat}}",
+   "paras": [
+    "Hukum Raoult untuk larutan ideal: tekanan parsial tiap komponen sebanding dengan fraksi molnya di cairan. Bentuk kerjanya menghubungkan komposisi uap dan cairan lewat tekanan uap jenuh.",
+    "Campuran nyata dikoreksi dengan koefisien aktivitas gamma. Gamma = 1 berarti ideal; gamma di atas 1 berarti deviasi positif, di bawah 1 deviasi negatif."
+   ],
+   "pill": "RUMUS INTI",
+   "title": "Raoult dan koreksinya",
+   "type": "body"
+  },
+  {
+   "callout": "Fakta kunci: jarak kurva ke diagonal menentukan jumlah stage; kurva menempel diagonal berarti pemisahan sulit.",
+   "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-20/carousel-1/diagram-vle-yx.png",
+   "diagram_scope": "Diagram ini mencakup kurva kesetimbangan y-x benzena-toluena pada 80°C (alfa = 2,60), garis diagonal 45° (y₁ = x₁), tiga langkah stage pada refluks total, dan titik contoh x₁ = 0,4 menjadi y₁ = 0,63. Yang digambar: sumbu x₁ (cairan) dan y₁ (uap), kurva kesetimbangan, diagonal, stage 1 sampai 3, titik contoh. Yang sengaja tidak digambar: garis operasi refluks parsial, neraca energi kolom, dan dimensi tray.",
+   "paras": [
+    "Sumbu x₁: benzena di cairan. Sumbu y₁: benzena di uap. Kurva di atas diagonal 45° berarti uap lebih kaya komponen ringan.",
+    "Tiap stage = satu langkah: horizontal ke kurva, vertikal ke garis operasi."
+   ],
+   "pill": "SKEMA",
+   "title": "Membaca kurva y-x",
+   "type": "diagram"
+  },
+  {
+   "callout": "Fakta kunci: x₁ = 0,4 menghasilkan y₁ = 0,63.",
+   "fill_cards": [
+    [
+     "01",
+     "Tekanan total",
+     "P = x₁P₁sat + x₂P₂sat = 0,4 × 758 + 0,6 × 291 = 478 mmHg."
+    ],
+    [
+     "02",
+     "Fraksi uap",
+     "y₁ = x₁P₁sat / P = 303 / 478 = 0,63."
+    ],
+    [
+     "03",
+     "Volatilitas relatif",
+     "α = P₁sat / P₂sat = 758 / 291 = 2,60."
+    ]
+   ],
+   "paras": [
+    "P₁sat = 758, P₂sat = 291 mmHg (Antoine, NIST)."
+   ],
+   "pill": "CONTOH HITUNG",
+   "title": "Benzena-toluena 80°C, x₁ = 0,4",
+   "type": "body"
+  },
+  {
+   "callout": "Fakta kunci: di titik azeotrop uap dan cairan sama komposisinya, kolom biasa tidak bisa lewat.",
+   "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-20/carousel-1/diagram-vle-azeotrop.png",
+   "diagram_scope": "Sketsa kualitatif kurva y-x deviasi positif (gamma > 1), misal etanol-air. Yang digambar: kurva deviasi, kurva ideal sebagai pembanding, garis 45°, titik azeotrop (y₁ = x₁, alfa = 1), dan tiga panah stage yang makin rapat menuju titik jepit. Yang sengaja tidak digambar: nilai numerik campuran spesifik dan kurva T-x-y.",
+   "paras": [
+    "Deviasi positif (gamma > 1): molekul sejenis lebih suka sesamanya, tekanan uap naik di atas prediksi Raoult.",
+    "Kalau deviasinya besar, kurva menyentuh diagonal di titik azeotrop: y₁ = x₁, alfa = 1. Contoh: etanol-air 95,6 persen pada 78,2°C."
+   ],
+   "pill": "SKEMA",
+   "title": "Deviasi melahirkan azeotrop",
+   "type": "diagram"
+  },
+  {
+   "callout": "Fakta kunci: jumlah tray kolom distilasi dihitung dari kurva kesetimbangan ini.",
+   "credit": "orlando s / Pexels",
+   "paras": [
+    "Di kilang, tiap tray kolom mencapai kesetimbangan uap-cair: uap naik, cairan turun, keduanya bertukar komponen.",
+    "Hukum Raoult menentukan berapa tray harus dibangun, dan kapan kolom menyerah karena azeotrop."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-20/carousel-1/photo-1.jpg",
+   "pill": "DI PABRIK NYATA",
+   "title": "Tiap tray adalah satu kesetimbangan",
+   "type": "photo"
+  },
+  {
+   "bullets": [
+    "Save buat UTS",
+    "Tag teman sekelas",
+    "Follow seri berikutnya, CS-14 terbit besok"
+   ],
+   "head": "Campuran benzena-toluena 80°C, x₁ = 0,7. Hitung P total dan y₁ dengan angka Antoine di slide 5. Tulis jawabanmu di komen.",
+   "pill": "KUIS CS-13",
+   "type": "conclusion"
+  }
+ ]
+}

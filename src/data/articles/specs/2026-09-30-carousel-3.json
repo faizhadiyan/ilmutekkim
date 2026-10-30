@@ -1,0 +1,71 @@
+{
+ "bad_hook_line": "Padahal isinya cuma diulang-ulang dari segelintir simbol yang sama.",
+ "bad_pill": "MASALAHNYA",
+ "bad_prompt": "P&ID dilihat sekilas cuma garis dan kotak. Banyak yang bingung mulai baca dari mana.",
+ "bad_result_lines": [
+  "Katup: mengatur atau menutup aliran fluida di pipa.",
+  "Pompa: mendorong fluida mengalir dan menaikkan tekanannya.",
+  "Tangki dan bejana: menampung atau memisahkan fluida.",
+  "Heat exchanger: memindahkan panas antar dua aliran fluida.",
+  "Instrumen: mengukur dan mengendalikan, contohnya PT untuk tekanan."
+ ],
+ "bad_result_pill": "5 SIMBOL WAJIB",
+ "bad_why": "",
+ "bad_why_title": "",
+ "caption": "5 simbol P&ID ini muncul di hampir semua pabrik.\n\nP&ID itu peta pabrik, bukan sekadar gambar aliran. Cara baca cepatnya: ikuti garis alir dari ujung ke ujung, catat tiap simbol yang dilewati, lalu baca tag nomornya untuk tahu fungsi tiap alat. Insinyur baru biasanya langsung disuruh walkdown: cocokkan gambar dengan alat aslinya di lapangan.\n\nFollow @ilmutekkim buat teknik kimia tiap hari.\n\n#teknikkimia #chemicalengineering #pabrik #industri #proses #insinyurkimia #ilmutekkim #pid",
+ "conclusion_body": "P&ID itu peta pabrik. Yang jago baca peta, jarang nyasar di lapangan. Lima menit hafal simbol, bertahun-tahun kepake.",
+ "conclusion_head": "Peta sebelum medan.",
+ "cover_brief": "Square 1:1 flat modern illustration, NO text letters or numbers inside the image. An engineering piping and instrumentation diagram aesthetic: glowing cyan pipes, valve symbols, pump and tank icons floating over a dark navy blueprint grid, one engineer silhouette studying it. Dominant palette deep navy blue and cyan, clean minimal vector style, high contrast.",
+ "cover_sub": "Simbol yang paling sering muncul di pabrik",
+ "cta_teaser": "Besok: dari CPO jadi minyak goreng, olein lawan stearin.",
+ "format": "before_after",
+ "good_prompt_segments": [
+  [
+   "Ikuti satu garis alir dari ujung ke ujung dan catat tiap simbol yang dilewati, lalu ",
+   "white"
+  ],
+  [
+   "baca tag nomornya.",
+   "orange"
+  ]
+ ],
+ "good_result_lines": [
+  "Insinyur baru di pabrik biasanya diminta walkdown: mencocokkan P&ID dengan alat aslinya di lapangan.",
+  "Cari P-101 di gambar, temukan pompanya di lapangan. Salah baca satu simbol katup saja bisa berujung salah isolasi jalur saat maintenance."
+ ],
+ "good_result_note": "",
+ "good_result_pill": "CONTOH NYATA",
+ "good_why": "Contoh: lingkaran bertuliskan PT-101 artinya pressure transmitter nomor 101. Huruf = jenis pengukuran, angka = nomor urut alat.",
+ "good_why_title": "Cara baca tag nomor",
+ "hook": "5 simbol P&ID ini muncul di hampir semua pabrik.",
+ "series_label": "SERI PROSES PABRIK",
+ "cover_image": "media/2026-09-30/carousel-3/cover.png",
+ "good_pill": "CARA BACANYA",
+ "slide3_symbols": [
+  {
+   "key": "valve",
+   "name": "Katup",
+   "desc": "Mengatur atau menutup aliran di pipa."
+  },
+  {
+   "key": "pump",
+   "name": "Pompa",
+   "desc": "Mendorong fluida mengalir, menaikkan tekanan."
+  },
+  {
+   "key": "vessel",
+   "name": "Tangki / bejana",
+   "desc": "Menampung atau memisahkan fluida."
+  },
+  {
+   "key": "exchanger",
+   "name": "Heat exchanger",
+   "desc": "Pindah panas antar dua aliran fluida."
+  },
+  {
+   "key": "instrument",
+   "name": "Instrumen",
+   "desc": "Mengukur dan mengendalikan. Contoh: PT = tekanan."
+  }
+ ]
+}

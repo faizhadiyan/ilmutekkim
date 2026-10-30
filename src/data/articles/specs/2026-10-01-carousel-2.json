@@ -1,0 +1,112 @@
+{
+ "caption": "Heat exchanger itu alat simpel. Tapi justru dia langganan bikin pabrik shutdown.\n\nKerak (fouling) menumpuk di tabungnya diam-diam, perpindahan panas turun, energi jadi boros, dan satu-satunya cara membersihkan adalah berhenti total.\n\nSwipe buat kenal 3 tipenya dan kenapa fouling tidak bisa dihindari.\n\nAlat pabrik apa lagi yang mau dibahas? Tulis di komen.\n\nFollow @ilmutekkim buat teknik kimia tiap hari.\n\n#teknikkimia #chemicalengineering #pabrik #industri #heatexchanger #proses #maintenance #ilmutekkim",
+ "cover_credit": "AR Abnoy / Pexels",
+ "cover_credit_url": "TBD (browser task)",
+ "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-01/carousel-2/cover.jpg",
+ "cover_sub": "Kenapa alat penukar panas ini langganan masalah.",
+ "cta_question": "Pernah lihat heat exchanger dari dekat? Ceritain di komen.",
+ "cta_teaser": "Sore ini: B40, angka-angka penting di balik solar campur sawit.",
+ "format": "padat",
+ "hook": "ALAT PALING SIMPEL, PALING SERING BIKIN SHUTDOWN",
+ "photo_briefs": [
+  {
+   "cari": "shell and tube heat exchanger industri",
+   "slide": 3,
+   "brief": "diagram shell-and-tube digambar manual (tidak ada foto gratis yang cocok)",
+   "credit": "@ilmutekkim (diagram)"
+  },
+  {
+   "cari": "teknisi maintenance membersihkan pipa industri / air cooler fin fan",
+   "slide": 5,
+   "brief": "diagram plate heat exchanger digambar manual (tidak ada foto gratis yang cocok)",
+   "credit": "@ilmutekkim (diagram)"
+  }
+ ],
+ "references": [
+  "Incropera's Fundamentals of Heat and Mass Transfer (bab heat exchanger dan fouling)",
+  "TEMA Standards of the Tubular Exchanger Manufacturers Association"
+ ],
+ "series_label": "SERI ALAT PABRIK",
+ "slides": [
+  {
+   "hook": "Justru alat 'simpel' ini biang kerok downtime pabrik.",
+   "pill": "YANG SERING DIKIRA",
+   "quote": "Heat exchanger kan alat simpel, nggak mungkin jadi penyebab shutdown.",
+   "type": "quote"
+  },
+  {
+   "callout": "FAKTA: shell and tube paling tahan tekanan dan suhu tinggi, makanya merajai kilang dan petrokimia.",
+   "paras": [
+    "Alat untuk memindahkan panas dari satu fluida ke fluida lain tanpa mencampurnya. Panas dibuang atau diambil sesuai kebutuhan proses.",
+    "Tiga tipe paling umum: shell and tube (tabung di dalam selongsong), plate (lempengan logam berlapis), dan air cooler (kipas meniup sirip). Hampir semua pabrik punya."
+   ],
+   "pill": "KENALAN DULU",
+   "title": "Apa sih heat exchanger",
+   "type": "body"
+  },
+  {
+   "credit": "@ilmutekkim (diagram)",
+   "paras": [
+    "Satu fluida mengalir di dalam tabung, fluida lain di selongsong luar. Panas berpindah lewat dinding tabung.",
+    "Desainnya sederhana dan kuat. Tapi di situlah masalahnya bermula."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-01/carousel-2/photo-1.jpg",
+   "pill": "TIPE PALING UMUM",
+   "title": "Shell and tube: tabung di dalam tabung",
+   "type": "visual"
+  },
+  {
+   "callout": "FAKTA: fouling tidak bisa dicegah total, hanya diperlambat. Makanya desain heat exchanger selalu menyisakan fouling margin.",
+   "paras": [
+    "Endapan mineral, kerak, atau coke menempel di permukaan tabung sedikit demi sedikit. Lapisan tipis ini bertindak sebagai isolator panas.",
+    "Makin tebal keraknya, makin susah panas berpindah. Alat yang sama, performanya terus turun."
+   ],
+   "pill": "MASALAH UTAMA",
+   "title": "Fouling: kerak yang menumpuk diam-diam",
+   "type": "body"
+  },
+  {
+   "credit": "@ilmutekkim (diagram)",
+   "paras": [
+    "Hydroblasting menyemprot kerak dengan air bertekanan sangat tinggi. Chemical cleaning melarutkannya dengan bahan kimia.",
+    "Keduanya mensyaratkan alat berhenti dan dibuka. Tidak ada cara membersihkan heat exchanger sambil tetap jalan."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-01/carousel-2/photo-2.jpg",
+   "pill": "KENYATAANNYA",
+   "title": "Membersihkannya berarti berhenti",
+   "type": "visual"
+  },
+  {
+   "type": "body",
+   "pill": "MENCEGAHNYA",
+   "title": "Mencegah lebih murah daripada mengobati",
+   "paras": [
+    "Treatment air umpan mengurangi endapan mineral. Kecepatan aliran dijaga agar kotoran tidak sempat menempel di dinding tabung.",
+    "Kuncinya monitoring: beda suhu dan beda tekanan dipantau terus. Kalau mulai menyimpang, jadwal cleaning dimajukan sebelum parah."
+   ],
+   "callout": "FAKTA: banyak pabrik memasang sensor pressure drop khusus untuk mendeteksi fouling sejak dini."
+  },
+  {
+   "callout": "FAKTA: di kilang, rangkaian preheat yang fouling memaksa furnace membakar lebih banyak bahan bakar untuk mencapai suhu target.",
+   "paras": [
+    "Panas tidak pindah sempurna: butuh steam lebih banyak, suhu target tidak tercapai, kapasitas produksi turun.",
+    "Kalau dibiarkan, satu-satunya jalan adalah shutdown terjadwal untuk cleaning besar. Alat simpel, konsekuensinya mahal."
+   ],
+   "pill": "DAMPAKNYA",
+   "title": "Dari boros energi sampai shutdown",
+   "type": "body"
+  },
+  {
+   "bullets": [
+    "Heat exchanger memindahkan panas tanpa mencampur kedua fluida.",
+    "Fouling menumpuk diam-diam dan menurunkan perpindahan panas.",
+    "Membersihkannya butuh shutdown: makanya ia langganan downtime."
+   ],
+   "head": "Alat simpel bukan berarti bebas masalah.",
+   "pill": "KESIMPULANNYA",
+   "type": "conclusion"
+  }
+ ],
+ "topic": "heat exchanger: alat paling sederhana tapi paling sering bikin pabrik shutdown",
+ "cover_brief": "foto teknisi maintenance mengencangkan pipa industri (pengganti: tidak ada foto HX gratis yang cocok)"
+}

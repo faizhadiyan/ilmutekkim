@@ -1,0 +1,193 @@
+{
+ "format": "real",
+ "series_label": "SERI CONTROL ROOM",
+ "hook": "SATU LAYAR ISINYA SATU PABRIK, BEGINI CARA BACANYA",
+ "hook_options": [
+  "SATU LAYAR ISINYA SATU PABRIK, BEGINI CARA BACANYA",
+  "OPERATOR PABRIK KERJANYA CUMA DUDUK? CEK LAYAR INI",
+  "KATUP DI LAPANGAN GERAK SENDIRI, OTAKNYA DI RUANGAN INI"
+ ],
+ "hook_payoff_slide": 4,
+ "cover_brief": "foto ruang kontrol pabrik dengan banyak monitor dan operator",
+ "cover_sub": "Control room dan DCS: pabrik dikendalikan dari balik layar.",
+ "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-08/carousel-2/cover.jpg",
+ "cover_credit": "Hyundai Motor Group / Pexels",
+ "credit_url": "https://www.pexels.com/photo/men-and-women-sitting-in-front-of-computers-and-a-large-screen-19317897/",
+ "photo_briefs": [
+  {
+   "slide": 4,
+   "cari": "foto operator di depan layar monitor ruang kontrol industri"
+  }
+ ],
+ "slides": [
+  {
+   "type": "quote",
+   "pill": "YANG SERING DIKIRA",
+   "quote": "Operator pabrik itu yang muter-muter valve di lapangan.",
+   "hook": "Itu operator lapangan. Di control room, pabrik dikendalikan dari layar.",
+   "fill_rows": [
+    [
+     "01",
+     "OPERATOR LAPANGAN",
+     "cek fisik dan valve"
+    ],
+    [
+     "02",
+     "OPERATOR PANEL",
+     "jaga layar DCS"
+    ],
+    [
+     "03",
+     "LOOP KONTROL",
+     "jembatan keduanya"
+    ]
+   ],
+   "fill_rows_title": "PETA SLIDE INI",
+   "callout": "FAKTA: dua peran ini kerja bareng, operator panel melihat gambaran besar pabrik dari sinyal."
+  },
+  {
+   "type": "body",
+   "pill": "SISTEMNYA",
+   "title": "DCS mengumpulkan sinyal dari seluruh pabrik",
+   "paras": [
+    "DCS membagi kendali ke banyak controller lokal, lalu menampilkannya terpusat di control room.",
+    "Sensor suhu, tekanan, dan level mengirim sinyal ke controller buat dipantau operator."
+   ],
+   "fill_rows": [
+    [
+     "1",
+     "Sensor lapangan",
+     "ukur suhu dan tekanan"
+    ],
+    [
+     "2",
+     "Controller lokal",
+     "olah sinyal jadi perintah"
+    ],
+    [
+     "3",
+     "Layar operator",
+     "tampilkan kondisi pabrik"
+    ]
+   ],
+   "fill_rows_title": "TIGA LAPIS DCS",
+   "callout": "FAKTA: distributed artinya kendali tersebar di lapangan."
+  },
+  {
+   "type": "diagram",
+   "pill": "PETA LENGKAPNYA",
+   "title": "Loop kontrol dari sensor sampai katup",
+   "paras": [
+    "Baca kiri ke kanan: sensor mengukur, transmitter mengirim sinyal, DCS membandingkan, katup bergerak.",
+    "Garis putus-putus di bawah adalah umpan balik ke controller."
+   ],
+   "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-08/carousel-2/diagram-dcs.png",
+   "callout": "FAKTA: loop ini berputar terus tiap detik, makanya suhu reaktor bisa stabil tanpa disentuh tangan."
+  },
+  {
+   "type": "photo",
+   "pill": "BUKTI FISIKNYA",
+   "title": "Beginilah layar yang dijaga operator panel",
+   "paras": [
+    "Satu operator bisa memantau banyak unit sekaligus lewat ringkasan layar, grafik tren, dan daftar alarm.",
+    "Warna dan bunyi alarm memberi tahu bagian mana yang mulai menyimpang dari kondisi normal."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-08/carousel-2/photo-1.jpg",
+   "credit": "Fernando Narvaez / Pexels",
+   "callout": "FAKTA: operator membaca tren, bukan angka sesaat."
+  },
+  {
+   "type": "body",
+   "pill": "CARA BACANYA",
+   "title": "Error adalah jarak dari target operasi",
+   "paras": [
+    "Controller bekerja dari selisih antara nilai ukur dan setpoint atau target yang ditetapkan insinyur proses.",
+    "Suhu di bawah target, pemanas dibuka. Di atas target, aliran dikecilkan."
+   ],
+   "formula": "Error = Setpoint - Nilai ukur",
+   "fill_grid": [
+    [
+     "SETPOINT",
+     "target dari insinyur"
+    ],
+    [
+     "NILAI UKUR",
+     "dari sensor lapangan"
+    ]
+   ],
+   "fill_grid_eyebrow": "",
+   "callout": "FAKTA: setpoint datang dari batas aman dan kualitas produk."
+  },
+  {
+   "type": "body",
+   "pill": "SAATNYA TURUN",
+   "title": "Alarm tidak jelas, operator cek ke lapangan",
+   "paras": [
+    "Kalau sinyal di layar meragukan, operator panel menghubungi operator lapangan lewat radio buat cek fisik alatnya.",
+    "Cek fisik memisahkan gangguan asli dari sensor yang salah baca."
+   ],
+   "fill_rows": [
+    [
+     "1",
+     "Alarm berbunyi",
+     "panel menandai unitnya"
+    ],
+    [
+     "2",
+     "Radio ke lapangan",
+     "minta cek fisik alat"
+    ],
+    [
+     "3",
+     "Keputusan bareng",
+     "panel dan lapangan sepakat"
+    ]
+   ],
+   "fill_rows_title": "URUTAN CEKNYA",
+   "callout": "FAKTA: keputusan diambil dari layar plus cek fisik."
+  },
+  {
+   "type": "body",
+   "pill": "YANG DIJAGA 24 JAM",
+   "title": "Pabrik tidak pernah ditinggal tanpa panel",
+   "paras": [
+    "Control room dijaga bergantian selama pabrik berjalan, termasuk malam dan hari libur.",
+    "Serah terima shift memastikan daftar alarm aktif dan gangguan kecil berpindah jelas ke operator berikut."
+   ],
+   "fill_grid": [
+    [
+     "JAGA BERGANTIAN",
+     "panel selalu terisi"
+    ],
+    [
+     "CATAT ALARM AKTIF",
+     "tetap tercatat"
+    ],
+    [
+     "TREN DILIHAT TERUS",
+     "arah gangguan terbaca"
+    ]
+   ],
+   "fill_grid_eyebrow": "",
+   "callout": "FAKTA: panel yang kosong beberapa menit saja bisa membuat alarm pertama tidak terbaca siapa pun."
+  },
+  {
+   "type": "conclusion",
+   "pill": "INTINYA",
+   "head": "Layar itu jendela, loop kontrolnya yang bekerja",
+   "bullets": [
+    "Sensor dan katup bekerja tiap detik, operator menjaga arahnya",
+    "Alarm membawa operator kembali ke alat yang menyimpang",
+    "Cek fisik lapangan tetap jadi penentu terakhir"
+   ]
+  }
+ ],
+ "references": [
+  "Seborg dkk., Process Dynamics and Control",
+  "Luyben, Plantwide Dynamic Simulators in Chemical Processing and Control",
+  "Lees, Loss Prevention in the Process Industries"
+ ],
+ "cta_question": "Menurut lo, jaga panel itu membosankan atau menegangkan? Tulis alasannya.",
+ "cta_teaser": "Besok: kenapa sampel pabrik diambil tiap jam walau sensor online menyala terus.",
+ "caption": "Satu layar isinya satu pabrik, begini cara bacanya.\n\nDi control room, operator panel memantau suhu, tekanan, dan level dari banyak unit sekaligus lewat DCS. Sensor mengukur di lapangan, controller membandingkan dengan setpoint, katup bergerak mengatur aliran, dan hasilnya diukur lagi dalam loop yang berputar terus.\n\nOperator panel membaca tren dan alarm, lalu memanggil operator lapangan buat cek fisik kalau sinyal meragukan. Dua peran, satu pabrik yang sama.\n\nMenurut lo, jaga panel itu membosankan atau menegangkan? Tulis di komen.\n\nFollow @ilmutekkim buat teknik kimia tiap hari.\n\n#teknikkimia #chemicalengineering #pabrik #operator #kontrol #industri #ilmutekkim"
+}

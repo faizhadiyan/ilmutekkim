@@ -1,0 +1,183 @@
+{
+ "format": "real",
+ "hook": "PABRIK MAKANAN KOK BEDA JAUH SAMA PETROKIMIA? INI SEBABNYA",
+ "hook_options": [
+  "PABRIK MAKANAN KOK BEDA JAUH SAMA PETROKIMIA? INI SEBABNYA",
+  "BATCH DAN KONTINU TIDAK BISA DITUKAR. SALAH PILIH BONCOS",
+  "DUA CARA JALAN PABRIK INI MENENTUKAN MUTU DAN BIAYA"
+ ],
+ "hook_payoff_slide": 4,
+ "series_label": "SERI MODE OPERASI",
+ "cover_brief": "foto lini produksi pabrik makanan dan pabrik kimia besar",
+ "cover_sub": "Batch itu per angkatan. Kontinu itu mengalir terus.",
+ "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-04/carousel-3/cover.jpg",
+ "cover_credit": "Arno Senoner / Unsplash",
+ "credit_url": "https://unsplash.com/photos/a-factory-with-many-machines-8V56CnwVJRE",
+ "photo_briefs": [
+  {
+   "slide": 3,
+   "cari": "foto produksi makanan batch dapur industri"
+  },
+  {
+   "slide": 5,
+   "cari": "foto pabrik kimia kontinu pipa besar malam"
+  }
+ ],
+ "slides": [
+  {
+   "type": "quote",
+   "pill": "YANG SERING DIKIRA",
+   "quote": "Batch sama kontinu hasilnya sama saja, beda wadah doang.",
+   "hook": "Beda besar. Cara jalan ini menentukan mutu, biaya, dan ritme kerja.",
+   "callout": "FAKTA: memilih batch atau kontinu adalah keputusan desain pabrik paling awal.",
+   "fill_rows": [
+    [
+     "01",
+     "BATCH ITU PER ANGKATAN",
+     "isi, proses, kosongkan"
+    ],
+    [
+     "02",
+     "KONTINU ITU MENGALIR TERUS",
+     "masuk dan keluar nonstop"
+    ],
+    [
+     "03",
+     "PILIHANNYA DARI VOLUME",
+     "dan variasi produk"
+    ]
+   ],
+   "fill_rows_title": "PETA SLIDE INI"
+  },
+  {
+   "type": "body",
+   "pill": "MODE BATCH",
+   "title": "Batch jalan per angkatan yang jelas",
+   "paras": [
+    "Bahan dimasukkan, diproses sampai selesai, lalu dikeluarkan sebelum angkatan berikutnya masuk.",
+    "Setiap batch bisa dicek mutunya sebelum lanjut."
+   ],
+   "callout": "FAKTA: batch unggul saat produk sering ganti resep dan volume masih kecil sampai menengah.",
+   "fill_cards": [
+    [
+     "01",
+     "Isi bahan",
+     "satu resep penuh"
+    ],
+    [
+     "02",
+     "Proses lalu cek",
+     "mutu per angkatan"
+    ]
+   ]
+  },
+  {
+   "type": "photo",
+   "pill": "CONTOH BATCH",
+   "title": "Produksi makanan khas batch",
+   "paras": [
+    "Pabrik makanan, saus, dan minuman rasa baru sering jalan batch karena resepnya berganti.",
+    "Satu angkatan selesai, alat dibersihkan, lalu resep berikutnya masuk."
+   ],
+   "callout": "FAKTA: batch memudahkan ganti rasa dan membersihkan alat antar resep.",
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-04/carousel-3/photo-1.jpg",
+   "credit": "DDP / Unsplash"
+  },
+  {
+   "type": "diagram",
+   "pill": "PETA LENGKAPNYA",
+   "title": "Batch vs kontinu dalam satu gambar",
+   "paras": [
+    "Baris atas batch, baris bawah kontinu. Ujung kanan adalah cara memilihnya.",
+    "Volume besar dan produk tunggal condong ke kontinu. Variasi tinggi condong ke batch."
+   ],
+   "callout": "FAKTA: kebanyakan pabrik besar adalah campuran, batch di awal lalu kontinu di akhir.",
+   "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-04/carousel-3/diagram-batch.png"
+  },
+  {
+   "type": "photo",
+   "pill": "CONTOH KONTINU",
+   "title": "Petrokimia khas kontinu nonstop",
+   "paras": [
+    "Kilang dan petrokimia mengalirkan bahan terus menerus siang malam.",
+    "Menghentikan pabrik kontinu jauh lebih mahal daripada menjalankannya."
+   ],
+   "callout": "FAKTA: pabrik kontinu dirancang jalan berbulan bulan tanpa berhenti total.",
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-04/carousel-3/photo-2.jpg",
+   "credit": "mos design / Unsplash"
+  },
+  {
+   "type": "body",
+   "pill": "KENAPA TIDAK DITUKAR",
+   "title": "Salah mode bikin biaya membengkak",
+   "paras": [
+    "Kontinu untuk produk yang sering ganti resep bikin waktu bersih bersih menghabiskan kapasitas.",
+    "Batch untuk volume raksasa bikin jumlah angkatan tidak masuk akal."
+   ],
+   "callout": "FAKTA: mode operasi dipilih dari volume, variasi, dan nilai produk, bukan dari kebiasaan.",
+   "fill_grid": [
+    [
+     "VOLUME BESAR",
+     "kontinu"
+    ],
+    [
+     "VARIASI TINGGI",
+     "batch"
+    ],
+    [
+     "MUTU STABIL",
+     "kontinu"
+    ],
+    [
+     "FLEKSIBEL RESEP",
+     "batch"
+    ]
+   ],
+   "fill_grid_eyebrow": "",
+   "fill_note": "Empat pertimbangan memilih mode operasi."
+  },
+  {
+   "type": "body",
+   "pill": "DI DUNIA NYATA",
+   "title": "Banyak pabrik memakai keduanya",
+   "paras": [
+    "Tahap reaksi bisa batch, tahap pemurnian bisa kontinu dalam satu pabrik yang sama.",
+    "Insinyur proses mencampur keduanya sesuai kebutuhan tiap tahap."
+   ],
+   "callout": "FAKTA: mode operasi adalah pilihan per tahap, bukan label satu pabrik penuh.",
+   "fill_bar": {
+    "left_label": "BATCH",
+    "right_label": "KONTINU",
+    "left_frac": 0.4,
+    "examples": [
+     [
+      "Fleksibel, volume kecil",
+      "ganti resep mudah"
+     ],
+     [
+      "Stabil, volume besar",
+      "kontrol otomatis"
+     ]
+    ]
+   },
+   "fill_bar_title": "PERBANDINGAN CEPAT"
+  },
+  {
+   "type": "conclusion",
+   "pill": "KESIMPULANNYA",
+   "head": "Mode operasi adalah keputusan desain, bukan detail kecil.",
+   "bullets": [
+    "Batch unggul di variasi dan volume kecil.",
+    "Kontinu unggul di volume besar dan mutu stabil.",
+    "Pabrik nyata sering mencampur keduanya."
+   ]
+  }
+ ],
+ "references": [
+  "Coulson and Richardson, Chemical Engineering Design",
+  "Perry's Chemical Engineers' Handbook (bab plant operation)"
+ ],
+ "cta_question": "Di bayangan lo, kerja di pabrik batch atau kontinu lebih enak? Kenapa?",
+ "cta_teaser": "Besok: tebu ke gula, alur pabrik gula PTPN dari peras sampai kristal.",
+ "caption": "Pabrik makanan kok beda jauh sama petrokimia? Ini sebabnya.\n\nBatch jalan per angkatan: isi, proses, cek, kosongkan. Kontinu mengalir terus siang malam dengan kontrol otomatis. Salah pilih mode bikin biaya dan mutu berantakan, makanya insinyur mencampur keduanya per tahap.\n\nDi bayangan lo, kerja di pabrik batch atau kontinu lebih enak? Tulis di komen.\n\nFollow @ilmutekkim buat teknik kimia tiap hari.\n\n#teknikkimia #chemicalengineering #batch #kontinu #pabrik #proses #industri #ilmutekkim"
+}

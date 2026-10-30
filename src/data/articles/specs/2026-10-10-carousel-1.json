@@ -1,0 +1,193 @@
+{
+ "format": "real",
+ "hook": "PAKAI REFLUX MINIMUM PERSIS ITU JEBAKAN MAHAL DI KOLOM",
+ "hook_options": [
+  "PAKAI REFLUX MINIMUM PERSIS ITU JEBAKAN MAHAL DI KOLOM",
+  "REFLUX TOTAL PALING MURNI TAPI PRODUKNYA NOL BESAR",
+  "MAKIN KECIL REFLUX MAKIN HEMAT ITU SALAH HITUNG UJIAN"
+ ],
+ "hook_payoff_slide": 6,
+ "series_label": "SERI CHEAT SHEET UJIAN",
+ "cover_brief": "foto kolom distilasi kilang minyak dari jauh dengan menara tinggi dan pipa",
+ "cover_sub": "CS-03: reflux minimum lawan total.",
+ "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-10/carousel-1/cover.jpg",
+ "cover_credit": "Jakub Pabis / Unsplash",
+ "credit_url": "https://unsplash.com/photos/a-factory-with-pipes-and-a-sky-background-vOtSZd_8Af4",
+ "photo_briefs": [
+  {
+   "slide": 7,
+   "cari": "foto kolom distilasi kilang dengan pipa dan tray dari dekat"
+  }
+ ],
+ "slides": [
+  {
+   "type": "quote",
+   "pill": "JEBAKAN DOSEN",
+   "quote": "Pakai reflux minimum persis saja, energi paling hemat.",
+   "hook": "Reflux minimum itu batas hitung, bukan titik jalan.",
+   "callout": "FAKTA: di minimum, tray menuju tak hingga.",
+   "fill_rows": [
+    [
+     "01",
+     "REFLUX TOTAL",
+     "tidak ada produk atas"
+    ],
+    [
+     "02",
+     "REFLUX MINIMUM",
+     "tray menuju tak hingga"
+    ],
+    [
+     "03",
+     "REFLUX OPERASI",
+     "titik yang benar dipilih"
+    ]
+   ],
+   "fill_rows_title": "PETA SLIDE INI"
+  },
+  {
+   "type": "body",
+   "pill": "TIGA TITIK KUNCINYA",
+   "title": "Total, minimum, dan operasi itu tiga hal berbeda",
+   "paras": [
+    "Total: semua cairan kembali, D nol. Minimum: tray tak hingga.",
+    "Operasi dipilih di atas minimum agar tray berhingga dan bisa dibangun."
+   ],
+   "formula": "R = L / D",
+   "fill_grid": [
+    [
+     "REFLUX TOTAL",
+     "D nol"
+    ],
+    [
+     "REFLUX MINIMUM",
+     "tray tak hingga"
+    ]
+   ],
+   "fill_grid_eyebrow": "",
+   "callout": "FAKTA: L itu reflux, D itu distilat."
+  },
+  {
+   "type": "diagram",
+   "pill": "SKEMA KOLOMNYA",
+   "title": "Reflux adalah cairan yang kembali ke puncak kolom",
+   "paras": [
+    "Uap overhead keluar dari puncak, dikondensasi, ditampung di drum, lalu sebagian kembali sebagai reflux L dan sebagian diambil sebagai distilat D."
+   ],
+   "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-10/carousel-1/diagram-reflux.png",
+   "callout": "FAKTA: residu B keluar setelah reboiler, bukan langsung dari dasar kolom."
+  },
+  {
+   "type": "body",
+   "pill": "CONTOH ANGKA",
+   "title": "Contoh angka: Rmin 1,2 dipilih 1,5 kalinya",
+   "paras": [
+    "Rmin 1,2 dan D 100. Pilih R operasi 1,5 kali Rmin menjadi 1,8.",
+    "L = R x D = 180. V = L + D = 280 di puncak kolom."
+   ],
+   "fill_rows": [
+    [
+     "1",
+     "Rmin = 1,2 dan D = 100",
+     "data soalnya"
+    ],
+    [
+     "2",
+     "R operasi = 1,8",
+     "satu setengah kali Rmin"
+    ],
+    [
+     "3",
+     "L = 180 dan V = 280",
+     "laju puncak kolom"
+    ]
+   ],
+   "fill_rows_title": "LANGKAH HITUNGNYA",
+   "callout": "FAKTA: naik R, naik L dan V, beban kondenser dan reboiler ikut naik."
+  },
+  {
+   "type": "body",
+   "pill": "JEBAKAN HEMATNYA",
+   "title": "Dekat minimum hemat uap, tapi jumlah tray meledak",
+   "paras": [
+    "Dekat minimum laju uap turun, tetapi tray naik cepat menuju tak hingga di titik minimum.",
+    "Reflux besar menurunkan tray, tetapi menaikkan laju uap, diameter, dan beban energi."
+   ],
+   "fill_grid": [
+    [
+     "JUMLAH TRAY",
+     "meledak di minimum"
+    ],
+    [
+     "BEBAN ENERGI",
+     "naik ikut reflux"
+    ],
+    [
+     "DIAMETER",
+     "ikut laju uap"
+    ]
+   ],
+   "fill_grid_eyebrow": "",
+   "callout": "FAKTA: operasi dipilih di atas minimum, bukan tepat di minimum."
+  },
+  {
+   "type": "photo",
+   "pill": "BUKTI FISIKNYA",
+   "title": "Kolom nyata membayar tray dan uapnya sekaligus",
+   "paras": [
+    "Kolom membayar tinggi tray dan uap reboiler sekaligus.",
+    "Salah reflux di kelas, salah beban di pabrik."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-10/carousel-1/photo-1.jpg",
+   "credit": "Christian Harb / Unsplash",
+   "callout": "FAKTA: kolom tinggi memuat banyak tray."
+  },
+  {
+   "type": "body",
+   "pill": "CARA JAWAB SOAL",
+   "title": "Di ujian jangan berhenti di angka Rmin saja",
+   "paras": [
+    "Hitung Rmin dari pinch, lalu pilih R operasi di atasnya.",
+    "Lalu hitung L, V, dan tray. Berhenti di Rmin belum selesai."
+   ],
+   "fill_rows": [
+    [
+     "1",
+     "Hitung Rmin",
+     "dari pinch umpan"
+    ],
+    [
+     "2",
+     "Pilih R operasi",
+     "di atas Rmin"
+    ],
+    [
+     "3",
+     "Hitung L dan V",
+     "lalu tray kolom"
+    ]
+   ],
+   "fill_rows_title": "URUTAN JAWABNYA",
+   "callout": "FAKTA: pengali Rmin hanya awal."
+  },
+  {
+   "type": "conclusion",
+   "pill": "KUIS CS-03",
+   "head": "Rmin = 1,0 dan D = 50. R operasi 1,3 kalinya, L dan V berapa?",
+   "bullets": [
+    "Tulis jawaban L dan V plus langkah hitungnya di komen",
+    "Save buat UTS",
+    "Tag teman sekelas",
+    "Follow seri berikutnya di @ilmutekkim"
+   ]
+  }
+ ],
+ "references": [
+  "McCabe, Smith, Harriott, Unit Operations of Chemical Engineering",
+  "Seader, Henley, Roper, Separation Process Principles",
+  "Perry's Chemical Engineers' Handbook"
+ ],
+ "cta_question": "Berapa L dan V jawaban kuis lo? Tulis langkahnya di komen.",
+ "cta_teaser": "Besok CS-04: heat exchanger, fouling bikin LMTD bohong.",
+ "caption": "Pakai reflux minimum persis itu jebakan mahal di kolom.\n\nIni CS-03 dari seri cheat sheet ujian @ilmutekkim. Reflux total mengembalikan semua cairan ke kolom dan produk atasnya nol. Reflux minimum adalah batas terkecil yang tray nya menuju tak hingga. Reflux operasi dipilih di atas minimum supaya kolom bisa dibangun dan dijalankan.\n\nDi kilang minyak, pilihan reflux yang sama menentukan tinggi kolom crude, beban furnace, dan beban kondenser setiap hari. Salah hitung di kelas berarti salah tinggi kolom dan salah beban energi di pabrik.\n\nIni simpul 05 dari peta roadmap. Peta lengkapnya ada di postingan roadmap yang ter-pin di profil.\n\nSave buat UTS, tag teman sekelas, follow seri berikutnya.\n\n#teknikkimia #chemicalengineering #distilasi #uts #belajar #kilang #industri #ilmutekkim"
+}

@@ -1,0 +1,193 @@
+{
+ "caption": "Mesin sehat tetap dibongkar terjadwal. Ini bukan buang waktu.\n\nPreventive maintenance membongkar pompa, kompresor, dan penukar panas mengikuti kalender dan data inspeksi, bukan menunggu rusak. Getaran, suhu, dan temuan ukur menentukan seal, bearing, dan gasket mana yang diganti sebelum alat itu berhenti mendadak di tengah produksi.\n\nBedah alur fisiknya: jadwal memanggil inspeksi, inspeksi menemukan keausan, bongkar terjadwal mengganti komponen aus, uji jalan membuktikan putaran normal, lalu alat kembali operasi dengan catatan yang rapi.\n\nMenurut lo, bongkar alat sehat itu boros atau justru pengaman produksi? Tulis di komen.\n\nFollow @ilmutekkim buat teknik kimia tiap hari.\n\n#teknikkimia #chemicalengineering #pabrik #maintenance #perawatan #industri #ilmutekkim",
+ "cover_brief": "foto teknisi maintenance memakai helm membongkar pompa industri di pabrik",
+ "cover_credit": "Bulat843 / Pexels",
+ "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-09/carousel-2/cover.jpg",
+ "cover_sub": "Mesin sehat dibongkar terjadwal: alur lengkap preventive maintenance.",
+ "credit_url": "https://www.pexels.com/photo/technician-repairing-industrial-machinery-indoors-34054471/",
+ "cta_question": "Menurut lo, bongkar alat sehat itu boros atau pengaman produksi? Tulis alasannya.",
+ "cta_teaser": "Besok: turnaround, kenapa pabrik berhenti total berminggu-minggu tiap beberapa tahun.",
+ "format": "real",
+ "hook": "MESIN SEHAT KOK DIBONGKAR? INI ALUR RAWAT TERJADWALNYA",
+ "hook_options": [
+  "MESIN SEHAT KOK DIBONGKAR? INI ALUR RAWAT TERJADWALNYA",
+  "NUNGGU RUSAK DULU BARU SERVIS BIAR HEMAT, KATANYA",
+  "ALAT DIBONGKAR PAS SEHAT BIAR TIDAK MATI DI TENGAH PRODUKSI"
+ ],
+ "hook_payoff_slide": 4,
+ "photo_briefs": [
+  {
+   "cari": "foto teknisi maintenance membongkar pompa atau motor industri",
+   "slide": 6
+  }
+ ],
+ "references": [
+  "Mobley, An Introduction to Predictive Maintenance",
+  "Perry's Chemical Engineers' Handbook",
+  "Lees, Loss Prevention in the Process Industries"
+ ],
+ "series_label": "SERI PERAWATAN PABRIK",
+ "slides": [
+  {
+   "callout": "FAKTA: jadwal PM datang dari jam operasi dan data kegagalan alat.",
+   "fill_rows": [
+    [
+     "01",
+     "BERBASIS KALENDER",
+     "jam dan bulan operasi"
+    ],
+    [
+     "02",
+     "BERBASIS KONDISI",
+     "getaran dan suhu alat"
+    ],
+    [
+     "03",
+     "BERBASIS TEMUAN",
+     "hasil inspeksi terakhir"
+    ]
+   ],
+   "fill_rows_title": "PETA SLIDE INI",
+   "hook": "Preventive maintenance memang membongkar alat yang masih jalan mengikuti jadwal.",
+   "pill": "YANG SERING DIKIRA",
+   "quote": "Kalau alatnya tidak rusak, jangan diutak-atik sama sekali.",
+   "type": "quote"
+  },
+  {
+   "callout": "FAKTA: berhenti tidak terencana jauh lebih mahal dari rawat terjadwal.",
+   "fill_grid": [
+    [
+     "RAWAT TERJADWAL",
+     "berhenti direncanakan"
+    ],
+    [
+     "RUSAK MENDADAK",
+     "stop tak terduga"
+    ],
+    [
+     "DATA INSPEKSI",
+     "penentu waktunya"
+    ]
+   ],
+   "fill_grid_eyebrow": "",
+   "paras": [
+    "Preventive maintenance adalah perawatan terjadwal untuk mencegah kegagalan sebelum terjadi.",
+    "Tujuannya menjaga keandalan alat putar dan alat statis supaya produksi tidak berhenti mendadak."
+   ],
+   "pill": "KONSEPNYA",
+   "title": "Dibongkar buat mencegah berhenti mendadak",
+   "type": "body"
+  },
+  {
+   "callout": "FAKTA: alur kerjanya selalu maju, tidak ada langkah yang dilompati.",
+   "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-09/carousel-2/diagram-pm.png",
+   "paras": [
+    "Baca kiri ke kanan: kalender memanggil inspeksi, temuan inspeksi menentukan pembongkaran, komponen aus diganti, lalu alat diuji jalan."
+   ],
+   "pill": "ALUR FISIKNYA",
+   "title": "Enam tahap dari jadwal sampai kembali operasi",
+   "type": "diagram"
+  },
+  {
+   "callout": "FAKTA: tren getaran naik pelan adalah tanda awal bearing aus.",
+   "fill_rows": [
+    [
+     "1",
+     "Ukur getaran",
+     "di rumah bearing"
+    ],
+    [
+     "2",
+     "Ukur suhu",
+     "di motor dan seal"
+    ],
+    [
+     "3",
+     "Catat trennya",
+     "dibandingkan bulan lalu"
+    ]
+   ],
+   "fill_rows_title": "YANG DIUKUR TEKNISI",
+   "paras": [
+    "Inspeksi alat putar membaca getaran, suhu rumah bearing, kebocoran seal, dan suara putaran.",
+    "Angka tunggal kurang berarti. Tren antar inspeksi yang menunjukkan keausan."
+   ],
+   "pill": "INSPEKSINYA",
+   "title": "Getaran dan suhu dibaca sebagai peringatan dini",
+   "type": "body"
+  },
+  {
+   "callout": "FAKTA: seal dan bearing diganti berkala sebelum gagal.",
+   "fill_grid": [
+    [
+     "SEAL MEKANIK",
+     "cegah bocor fluida"
+    ],
+    [
+     "BEARING",
+     "topang poros putar"
+    ],
+    [
+     "GASKET",
+     "rapatkan flensa"
+    ]
+   ],
+   "fill_grid_eyebrow": "",
+   "paras": [
+    "Pembongkaran terjadwal mengganti komponen yang umur ausnya terukur: seal mekanik, bearing, gasket, dan pelumas."
+   ],
+   "pill": "YANG DIGANTI",
+   "title": "Komponen aus diganti sebelum gagal total",
+   "type": "body"
+  },
+  {
+   "callout": "FAKTA: gembok pengaman pribadi mencegah alat dinyalakan orang lain.",
+   "credit": "Bulat843 / Pexels",
+   "paras": [
+    "Selama alat dibongkar, teknisi memasang pengaman energi dan mencatat komponen yang diganti.",
+    "Pekerjaan mengikuti izin kerja dan daftar periksa."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-09/carousel-2/photo-1.jpg",
+   "pill": "BUKTI LAPANGANNYA",
+   "title": "Beginilah teknisi membongkar alat yang masih sehat",
+   "type": "photo"
+  },
+  {
+   "callout": "FAKTA: alat lolos uji jalan kembali operasi dengan riwayat lengkap.",
+   "fill_rows": [
+    [
+     "1",
+     "Tanpa beban",
+     "putaran dan getaran cek"
+    ],
+    [
+     "2",
+     "Berbeban bertahap",
+     "suhu dan bocor cek"
+    ],
+    [
+     "3",
+     "Serah terima",
+     "catatan masuk riwayat"
+    ]
+   ],
+   "fill_rows_title": "TAHAP UJI JALANNYA",
+   "paras": [
+    "Setelah rakit ulang, alat dijalankan tanpa beban untuk memeriksa putaran, getaran, dan kebocoran, lalu dibebani bertahap."
+   ],
+   "pill": "UJI JALANNYA",
+   "title": "Putaran dibuktikan normal sebelum melayani proses",
+   "type": "body"
+  },
+  {
+   "bullets": [
+    "Jadwal dan inspeksi menentukan alat mana yang dibongkar",
+    "Komponen aus diganti sebelum gagal dan merusak alat",
+    "Uji jalan membuktikan alat layak kembali melayani proses"
+   ],
+   "head": "Sehat di luar, aus di dalam. Jadwal yang menangkapnya",
+   "pill": "INTINYA",
+   "type": "conclusion"
+  }
+ ]
+}

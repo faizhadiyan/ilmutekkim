@@ -1,0 +1,137 @@
+{
+ "caption": "SKETSA KAPUR DI LANTAI BENGKEL INI MELEDAKKAN PABRIK\n\n1 Juni 1974, pabrik kimia Nypro di Flixborough Inggris meledak. 28 orang tewas. Penyebabnya satu pipa bypass 20 inci yang dipasang dua bulan sebelumnya.\n\nPenyelidikan resmi 1975 menemukan: pipa itu tidak punya gambar teknik. Satu-satunya gambar adalah sketsa kapur di lantai bengkel. Tidak ada perhitungan tegangan, tidak ada uji tekan.\n\nHari ini setiap modifikasi pipa wajib lewat gambar teknik baku (P&ID) yang bisa direview. Simbolnya standar global, misalnya ISA-5.1 untuk instrumentasi.\n\nItulah alasan ujian menguji baca P&ID dengan serius. CS-10 hari ini menguji 10 simbolnya.\n\nPernah lihat modifikasi asal-asalan di tempat kerjamu? Ceritakan di komen.\n\n#teknikkimia #chemicalengineering #keselamatanproses #sejarahteknik #pabrik #flixborough #ilmutekkim",
+ "cover_brief": "foto pabrik kimia atau kilang minyak dari jauh, suasana industrial",
+ "cover_credit": "Tom Fisk / Pexels",
+ "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-17/carousel-2/cover.jpg",
+ "cover_sub": "Kisah Flixborough, 1 Juni 1974.",
+ "credit_url": "https://www.pexels.com/photo/pine-bend-oil-refinery-in-rosemount-minnesota-united-states-10407691/",
+ "cta_question": "Pernah lihat modifikasi asal-asalan di tempat kerjamu? Ceritakan di komen.",
+ "cta_teaser": "Besok kisah lain dari dunia proses.",
+ "format": "real",
+ "hook": "SKETSA KAPUR DI LANTAI BENGKEL INI MELEDAKKAN PABRIK",
+ "hook_options": [
+  "SKETSA KAPUR DI LANTAI BENGKEL INI MELEDAKKAN PABRIK",
+  "28 ORANG TEWAS KARENA PIPA YANG TIDAK PERNAH DIGAMBAR",
+  "MODIFIKASI PIPA TANPA GAMBAR TEKNIK, 28 NYAWA MELAYANG"
+ ],
+ "hook_payoff_slide": 3,
+ "photo_briefs": [],
+ "references": [
+  "Court of Inquiry, Report of the Court of Inquiry into the Flixborough disaster (1975)",
+  "HSE, Flixborough case study (Health and Safety Executive)"
+ ],
+ "series_label": "KISAH TEKNIK KIMIA",
+ "slides": [
+  {
+   "callout": "Fakta kunci: 1 Juni 1974, pabrik Nypro di Flixborough Inggris meledak; 28 orang tewas.",
+   "paras": [
+    "Hari ini setiap perubahan pipa di pabrik wajib lewat gambar teknik yang direview. Lima puluh tahun lalu tidak begitu.",
+    "Di satu pabrik Inggris, sebuah pipa bypass dipasang dari sketsa kapur di lantai bengkel. Dua bulan kemudian pabrik itu meledak.",
+    "P&ID yang kita kenal hari ini lahir dari kebutuhan agar kesalahan seperti itu tidak terulang."
+   ],
+   "pill": "TAHUKAH KAMU?",
+   "title": "Dulu modifikasi pipa bisa cuma sketsa, sekarang wajib gambar baku",
+   "type": "body"
+  },
+  {
+   "callout": "Fakta kunci: satu-satunya gambar pipa itu adalah sketsa kapur di lantai bengkel, menurut temuan penyelidikan resmi 1975.",
+   "paras": [
+    "Maret 1974, reaktor nomor 5 retak dan bocor. Reaktor dicopot, lalu dipasang pipa bypass 20 inci berbentuk dog-leg agar produksi jalan terus.",
+    "Tidak ada pipa 28 inci yang cocok di lokasi. Perhitungan tegangan untuk belokan dan bellows-nya tidak pernah dibuat.",
+    "Pipa darurat itu bekerja dua bulan tanpa masalah, sampai pabrik dimatikan dan dinyalakan ulang."
+   ],
+   "pill": "PERISTIWANYA",
+   "title": "Reaktor retak, dipasang pipa darurat",
+   "type": "body"
+  },
+  {
+   "callout": "Fakta kunci: ledakan Flixborough menjadi pelajaran yang melahirkan praktik management of change di industri.",
+   "paras": [
+    "Penyelidikan resmi 1975 mencatat: tidak ada gambar teknik selain sketsa kapur, tidak ada uji tekan sebelum dipasang.",
+    "Saat restart, tekanan membuat bellows melintir dan pipa patah. Sekitar 40 ton sikloheksana keluar dan meledak."
+   ],
+   "pill": "TEMUAN RESMI",
+   "title": "Penyelidikan menyalahkan gambar yang tak pernah ada",
+   "type": "body",
+   "fill_rows_title": "Tiga temuan penyelidikan",
+   "fill_rows": [
+    [
+     "01",
+     "Tanpa gambar teknik",
+     "cuma sketsa kapur di lantai"
+    ],
+    [
+     "02",
+     "Tanpa hitungan dan uji",
+     "tegangan tak dihitung, tak diuji tekan"
+    ]
+   ]
+  },
+  {
+   "callout": "Fakta kunci: gambar baku membuat kesalahan bisa ditemukan di atas kertas, bukan di pabrik.",
+   "diagram": "/home/hatch/workspace/ig-ilmutekkim/diagrams/2026-10-17-sketsa-vs-pid.png",
+   "diagram_scope": "Diagram ini membandingkan dua cara menggambar modifikasi pipa yang sama: sketsa kapur 1974 (tanpa ukuran, tanpa simbol baku) dan P&ID baku modern (simbol standar, arah aliran, label). Yang sengaja tidak digambar: detail dimensi dan kondisi operasi.",
+   "paras": [
+    "Kiri: yang dipasang tahun 1974, garis tanpa ukuran dan tanpa simbol baku. Kanan: cara yang benar hari ini, tiap simbol punya arti pasti.",
+    "Yang membedakan keduanya: gambar baku bisa direview orang lain sebelum dipasang."
+   ],
+   "pill": "BANDINGKAN",
+   "title": "Sketsa kapur lawan gambar baku",
+   "type": "diagram"
+  },
+  {
+   "callout": "Fakta kunci: simbol baku berarti gambar bisa direview; gambar bisa direview berarti kesalahan ketahuan lebih awal.",
+   "paras": [
+    "P&ID memakai simbol baku global, misalnya standar ISA-5.1 untuk instrumentasi. Simbol pompa di Indonesia artinya sama dengan di Inggris.",
+    "Karena bakunya sama, insinyur mana pun bisa membaca gambar pabrik mana pun, dan reviewer bisa menemukan kesalahan sebelum dipasang."
+   ],
+   "pill": "KONSEPNYA",
+   "title": "P&ID: satu bahasa gambar untuk semua pabrik",
+   "type": "body",
+   "fill_rows_title": "Yang dibakukan",
+   "fill_rows": [
+    [
+     "01",
+     "Simbol equipment",
+     "pompa, tangki, kolom"
+    ],
+    [
+     "02",
+     "Simbol katup dan tag",
+     "bentuk dan huruf baku"
+    ]
+   ]
+  },
+  {
+   "callout": "Fakta kunci: yang diuji bukan kerapian menggambar, melainkan ketepatan membaca arti tiap simbol.",
+   "paras": [
+    "Itulah alasan ujian menguji baca P&ID dengan serius: yang diuji adalah kemampuan membaca bahasa pabrik, bukan hafalan gambar.",
+    "CS-10 hari ini menguji 10 simbol yang paling sering keluar, dari pompa sampai PSV, plus rumus baca tag instrumen."
+   ],
+   "pill": "PLOT TWIST",
+   "title": "Hari ini 10 simbolnya masuk ujian",
+   "type": "body",
+   "fill_rows_title": "Sambungan ke hari ini",
+   "fill_rows": [
+    [
+     "01",
+     "CS-10 hari ini",
+     "kuis 10 simbol P&ID"
+    ],
+    [
+     "02",
+     "Rumus baca tag",
+     "FIC-101 langsung kebaca"
+    ]
+   ]
+  },
+  {
+   "bullets": [
+    "Pernah lihat modifikasi asal-asalan di tempat kerjamu? Ceritakan di komen."
+   ],
+   "head": "Gambar teknik yang baku membuat kesalahan ketahuan di atas kertas, sebelum menjadi ledakan di pabrik.",
+   "pill": "INTINYA",
+   "type": "conclusion"
+  }
+ ]
+}

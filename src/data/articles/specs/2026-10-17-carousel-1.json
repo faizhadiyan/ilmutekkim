@@ -1,0 +1,220 @@
+{
+ "caption": "10 SIMBOL P&ID INI KELUAR TERUS DI UJIAN\n\nIni CS-10 dari seri cheat sheet ujian @ilmutekkim. P&ID itu bahasa gambar pabrik: tiap simbol punya arti baku yang sama di semua pabrik dunia.\n\nTiga yang paling sering ketukar: gate, globe, ball. Bentuknya mirip semua (bowtie), fungsinya beda total. Gate cuma buka tutup, globe mengatur laju, ball buka tutup cepat. Ditambah rumus baca tag instrumen: FIC-101 langsung kebaca artinya tanpa hafalan.\n\nDi pabrik nyata, operator membuka gambar ini setiap startup dan troubleshooting. Salah baca satu simbol bisa berarti salah buka katup.\n\nIni simpul 03 dari peta roadmap. Peta lengkapnya ada di postingan roadmap yang ter-pin di profil.\n\nSave buat UTS, tag teman sekelas, follow seri berikutnya.\n\n#teknikkimia #chemicalengineering #pid #pabrik #uts #belajar #simbol #ilmutekkim",
+ "cover_brief": "foto pipe rack pabrik kimia dari dekat, deretan pipa baja dan katup asli di kilang",
+ "cover_credit": "Jakub Zerdzicki / Pexels",
+ "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-17/carousel-1/cover.jpg",
+ "cover_sub": "CS-10: hafal bentuknya, paham fungsinya.",
+ "credit_url": "https://www.pexels.com/photo/industrial-factory-pipes-and-structures-33813584/",
+ "cta_question": "Di gambar ada bowtie + aktuator diafragma di atasnya, labelnya FIC-101. Katup apa itu dan apa arti tiap huruf tag-nya? Tulis jawabanmu di komen.",
+ "cta_teaser": "Besok CS-11: relief valve, set pressure vs MAWP.",
+ "format": "real",
+ "hook": "10 SIMBOL P&ID INI KELUAR TERUS DI UJIAN",
+ "hook_options": [
+  "10 SIMBOL P&ID INI KELUAR TERUS DI UJIAN",
+  "HAFAL 10 SIMBOL INI, SOAL P&ID JADI GAMPANG",
+  "TIGA KATUP INI SERING KETUKER DI UJIAN"
+ ],
+ "hook_payoff_slide": 5,
+ "photo_briefs": [
+  {
+   "cari": "foto insinyur atau operator memeriksa gambar teknik atau jaringan pipa di pabrik kimia",
+   "slide": "Di pabrik nyata: operator membaca P&ID"
+  }
+ ],
+ "references": [
+  "Towler, G. dan Sinnott, R., Chemical Engineering Design (simbol P&ID dan perancangan pabrik)",
+  "ISA-5.1, Instrumentation Symbols and Identification (standar simbol instrumentasi)"
+ ],
+ "series_label": "SERI CHEAT SHEET UJIAN",
+ "slides": [
+  {
+   "callout": "Fakta kunci: di P&ID, bentuk mirip tidak berarti fungsi sama; yang diuji justru bedanya.",
+   "fill_rows": [
+    [
+     "01",
+     "Gate, globe, ball",
+     "tiga-tiganya bowtie, fungsinya beda"
+    ],
+    [
+     "02",
+     "Check vs control",
+     "sama-sama di jalur pipa, cara kerja beda"
+    ],
+    [
+     "03",
+     "PSV vs control valve",
+     "dua-duanya otomatis, pemicunya beda"
+    ]
+   ],
+   "fill_rows_title": "Kenapa jebakan ini sering keluar",
+   "hook": "Salah. Tiga bowtie ini beda total.",
+   "pill": "JEBAKAN DOSEN",
+   "quote": "Simbol katup yang bentuknya mirip pasti fungsinya sama.",
+   "type": "quote"
+  },
+  {
+   "callout": "Fakta kunci: tiap keluarga punya logika bentuk sendiri; hafalkan per keluarga, bukan per simbol acak.",
+   "fill_grid": [
+    [
+     "Equipment",
+     "Tangki, pompa, kolom"
+    ],
+    [
+     "Katup",
+     "Gate, globe, ball"
+    ],
+    [
+     "Instrumen",
+     "FIC, PSV, sensor"
+    ]
+   ],
+   "fill_grid_eyebrow": "Tiga keluarga simbol",
+   "paras": [
+    "P&ID dibaca per keluarga: equipment, katup, dan instrumen.",
+    "Keluarga perpipaan dan katup: garis aliran plus simbol katup yang menutup, mengatur, atau mengamankan aliran."
+   ],
+   "pill": "PETA SIMBOL",
+   "title": "Satu gambar, tiga keluarga simbol",
+   "type": "body"
+  },
+  {
+   "callout": "Fakta kunci: tidak ada stream yang hilang; tiap aliran yang disebut di teks ada di gambar.",
+   "diagram": "/home/hatch/workspace/ig-ilmutekkim/diagrams/2026-10-17-pid-10simbol.png",
+   "diagram_scope": "Diagram ini mencakup satu aliran cair: tangki, pompa sentrifugal, check valve, gate valve, control valve FIC-101, heat exchanger, kolom distilasi, plus cabang PSV ke flare dan panel tiga bowtie. Yang sengaja tidak digambar: nomor tag tiap equipment, ukuran pipa, dan kondisi operasi.",
+   "paras": [
+    "Ikuti aliran dari kiri ke kanan. Tiap simbol di gambar ini salah satu dari 10 yang diuji.",
+    "Perhatikan: panah selalu searah aliran, katup duduk di garis pipa, PSV keluar lewat cabang ke flare."
+   ],
+   "pill": "SKEMANYA",
+   "title": "Sepuluh simbol dalam satu aliran",
+   "type": "diagram"
+  },
+  {
+   "callout": "Fakta kunci: gate buka-tutup, globe pengatur laju.",
+   "fill_cards": [
+    [
+     "01",
+     "Pompa sentrifugal",
+     "Lingkaran + segitiga solid searah aliran. Memindahkan cairan, bukan gas."
+    ],
+    [
+     "02",
+     "Gate valve",
+     "Bowtie polos dua segitiga bertemu. Buka atau tutup penuh, bukan untuk mengatur laju."
+    ],
+    [
+     "03",
+     "Globe valve",
+     "Bowtie + titik solid di tengah. Dipakai untuk mengatur laju aliran."
+    ]
+   ],
+   "pill": "KUIS 01-03",
+   "title": "Tiga simbol pertama: penggerak dan katup",
+   "type": "body"
+  },
+  {
+   "callout": "Fakta kunci: check pasif, control aktif.",
+   "fill_cards": [
+    [
+     "04",
+     "Ball valve",
+     "Bowtie + lingkaran kecil di tengah. Buka tutup cepat dengan putaran seperempat."
+    ],
+    [
+     "05",
+     "Check valve",
+     "Segitiga searah aliran + garis dudukan. Cairan hanya boleh mengalir satu arah."
+    ],
+    [
+     "06",
+     "Control valve",
+     "Bowtie + aktuator diafragma di atas. Membuka menutup sendiri mengikuti sinyal."
+    ]
+   ],
+   "pill": "KUIS 04-06",
+   "title": "Tiga simbol kedua: arah dan kendali",
+   "type": "body"
+  },
+  {
+   "type": "body",
+   "pill": "KUIS 07-08",
+   "title": "Dua simbol: pengaman dan penukar panas",
+   "fill_cards": [
+    [
+     "07",
+     "PSV",
+     "Bowtie + pegas di atas, outlet ke samping. Membuang tekanan berlebih secara otomatis."
+    ],
+    [
+     "08",
+     "Heat exchanger",
+     "Kotak + garis zigzag di dalam. Dua aliran bertukar panas tanpa bercampur."
+    ]
+   ],
+   "callout": "Fakta kunci: PSV bekerja otomatis oleh tekanan, tanpa sinyal dari luar."
+  },
+  {
+   "type": "body",
+   "pill": "KUIS 09-10",
+   "title": "Dua simbol: pemisah dan penampung",
+   "fill_cards": [
+    [
+     "09",
+     "Kolom distilasi",
+     "Persegi panjang vertikal + garis tray. Memisahkan komponen secara bertingkat."
+    ],
+    [
+     "10",
+     "Tangki",
+     "Persegi panjang horizontal. Menampung cairan, bukan memproses."
+    ]
+   ],
+   "callout": "Fakta kunci: heat exchanger memproses aliran, tangki hanya menampung."
+  },
+  {
+   "callout": "Fakta kunci: F = flow, T = temperature, P = pressure; I = indicate, C = control, SV = safety valve.",
+   "fill_grid": [
+    [
+     "FIC-101",
+     "Pengendali laju alir"
+    ],
+    [
+     "TIC-201",
+     "Pengendali suhu"
+    ]
+   ],
+   "fill_grid_eyebrow": "Contoh decode yang bisa ditiru",
+   "formula": "TAG = [besaran] + [fungsi] - [nomor loop]",
+   "formula_tex": "\\mathrm{TAG}=[\\mathrm{besaran}]+[\\mathrm{fungsi}]-[\\mathrm{loop}]",
+   "paras": [
+    "Lingkaran kecil di P&ID selalu berlabel seperti FIC-101. Cara bacanya pakai rumus ini, bukan hafalan.",
+    "Huruf pertama = besaran yang diukur. Huruf berikut = fungsinya. Angka = nomor loop."
+   ],
+   "pill": "RUMUS BACA TAG",
+   "title": "Satu rumus untuk semua lingkaran instrumen",
+   "type": "body"
+  },
+  {
+   "callout": "Fakta kunci: P&ID adalah dokumen kerja harian operator, bukan sekadar bahan ujian.",
+   "credit": "Marianna Zuzanna / Pexels",
+   "paras": [
+    "Saat startup, shutdown, atau troubleshooting, operator membuka P&ID untuk tahu katup mana yang boleh dibuka.",
+    "Salah baca satu simbol bisa berarti salah buka katup."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-17/carousel-1/photo-1.jpg",
+   "pill": "DI PABRIK NYATA",
+   "title": "Operator membaca gambar ini tiap hari",
+   "type": "photo"
+  },
+  {
+   "bullets": [
+    "Save buat UTS",
+    "Tag teman sekelas",
+    "Follow seri berikutnya, CS-11 terbit besok"
+   ],
+   "head": "Di gambar ada bowtie + aktuator diafragma di atasnya, labelnya FIC-101. Katup apa itu dan apa arti tiap huruf tag-nya? Tulis jawabanmu di komen.",
+   "pill": "KUIS CS-10",
+   "type": "conclusion"
+  }
+ ]
+}

@@ -1,0 +1,110 @@
+{
+ "caption": "B40 bukan solar yang diaduk minyak goreng.\n\nAngkanya: 40 persen FAME dari sawit + 60 persen solar fosil, wajib nasional sejak Januari 2025. Kimianya: transesterifikasi, trigliserida + metanol menjadi biodiesel + gliserol.\n\nSwipe buat paham kenapa CPO tidak bisa langsung dituang ke tangki.\n\nGimana pendapat lo soal B40? Tulis di komen.\n\nFollow @ilmutekkim buat teknik kimia tiap hari.\n\n#teknikkimia #chemicalengineering #b40 #biodiesel #sawit #energi #pabrik #ilmutekkim",
+ "cover_credit": "jason hu / Pexels",
+ "cover_credit_url": "TBD (browser task)",
+ "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-01/carousel-3/cover.jpg",
+ "cover_sub": "Angka-angka penting di balik biodiesel Indonesia.",
+ "cta_question": "Gimana pendapat lo soal B40? Tulis di komen.",
+ "cta_teaser": "Besok: kenapa tekanan itu nyawa di pabrik kimia.",
+ "format": "padat",
+ "hook": "B40: 40 PERSEN SOLAR DARI SAWIT",
+ "photo_briefs": [
+  {
+   "cari": "kebun kelapa sawit hijau luas",
+   "slide": 3,
+   "credit": "Tom Fisk / Pexels"
+  },
+  {
+   "cari": "nozzle pompa bensin SPBU sedang mengisi BBM",
+   "slide": 5,
+   "credit": "Engin Akyurt / Pexels"
+  }
+ ],
+ "references": [
+  "Kementerian ESDM: kebijakan mandatori B40 (dokumen publik)",
+  "SNI 7182 tentang biodiesel (Badan Standardisasi Nasional)"
+ ],
+ "series_label": "SERI ENERGI SAWIT",
+ "slides": [
+  {
+   "hook": "Bukan aduk-aduk. Ada reaksi kimianya, dan ada angkanya.",
+   "pill": "YANG SERING DIKIRA",
+   "quote": "B40 itu solar yang dicampur minyak goreng 40 persen, aduk-aduk jadi.",
+   "type": "quote"
+  },
+  {
+   "callout": "FAKTA: FAME dibuat dari minyak sawit (CPO atau refined palm oil), bukan dari minyak goreng curah.",
+   "paras": [
+    "B40 artinya 40 persen biodiesel dicampur 60 persen solar fosil, dihitung per volume. Biodieselnya disebut FAME: fatty acid methyl ester.",
+    "Campuran ini wajib dipakai secara nasional mulai Januari 2025, menggantikan B35."
+   ],
+   "pill": "ANGKA PERTAMA",
+   "title": "40 tambah 60",
+   "type": "body"
+  },
+  {
+   "credit": "Tom Fisk / Pexels",
+   "paras": [
+    "Indonesia produsen minyak sawit terbesar dunia, jadi bahan baku biodiesel tidak perlu impor.",
+    "Satu alasan B40 dipilih: mengurangi impor solar fosil sekaligus menyerap produksi sawit domestik."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-01/carousel-3/photo-1.jpg",
+   "pill": "BAHAN BAKU",
+   "title": "Sawitnya dari kebun sendiri",
+   "type": "visual"
+  },
+  {
+   "callout": "FAKTA: gliserol hasil sampingnya tidak dibuang, dipakai industri sabun, kosmetik, dan farmasi.",
+   "paras": [
+    "Trigliserida (minyak sawit) direaksikan dengan metanol memakai katalis basa. Hasilnya FAME dan gliserol.",
+    "Satu molekul minyak pecah menjadi tiga molekul biodiesel plus satu molekul gliserol. Inilah langkah kimianya."
+   ],
+   "pill": "REAKSINYA",
+   "title": "Transesterifikasi, bukan aduk-aduk",
+   "type": "body",
+   "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-01/carousel-3-rev/diagram-b40.png"
+  },
+  {
+   "credit": "Engin Akyurt / Pexels",
+   "paras": [
+    "Minyak sawit mentah terlalu kental, titik nyalanya beda, dan meninggalkan deposit di injektor mesin diesel.",
+    "Transesterifikasi memangkas viskositasnya sampai mirip solar. Tanpa langkah ini, mesin cepat rusak."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-01/carousel-3/photo-2.jpg",
+   "pill": "KENAPA HARUS DIUBAH",
+   "title": "CPO tidak bisa langsung dituang ke tangki",
+   "type": "visual"
+  },
+  {
+   "type": "body",
+   "pill": "ALASANNYA",
+   "title": "Kenapa pemerintah mendorong B40",
+   "paras": [
+    "Mengurangi impor solar fosil yang membebani devisa. Menyerap produksi sawit dalam negeri agar harga TBS petani terjaga.",
+    "Biodiesel juga terbarukan: karbonnya baru diserap pohon sawit, bukan karbon fosil yang terkubur jutaan tahun."
+   ],
+   "callout": "FAKTA: B40 adalah campuran nabati tertinggi yang pernah diwajibkan Indonesia, naik dari B35."
+  },
+  {
+   "callout": "FAKTA: angka setana biodiesel sawit umumnya memenuhi syarat mesin diesel modern.",
+   "paras": [
+    "FAME untuk campuran solar wajib lolos SNI 7182 tentang biodiesel. Yang diuji antara lain viskositas, titik nyala, kadar air, dan angka setana.",
+    "Tidak lolos uji berarti tidak boleh dicampur ke solar. Kualitas dijaga di level regulasi."
+   ],
+   "pill": "STANDARNYA",
+   "title": "Ada SNI yang mengawal",
+   "type": "body"
+  },
+  {
+   "bullets": [
+    "B40 = 40 persen FAME sawit + 60 persen solar, mandatori sejak Januari 2025.",
+    "FAME dibuat lewat transesterifikasi: trigliserida + metanol menjadi biodiesel + gliserol.",
+    "Tanpa reaksi ini, minyak sawit terlalu kental untuk mesin diesel."
+   ],
+   "head": "B40 itu kimia, bukan aduk-aduk.",
+   "pill": "KESIMPULANNYA",
+   "type": "conclusion"
+  }
+ ],
+ "topic": "B40: sawit jadi biodiesel lewat transesterifikasi"
+}

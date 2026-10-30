@@ -1,0 +1,198 @@
+{
+ "caption": "Batu kapur jadi semen lewat api 1450 °C. Ini prosesnya.\n\nBatu kapur dan tanah liat digiling jadi raw meal, dipanaskan bertahap di preheater, lalu dibakar di kiln putar sampai jadi klinker. Klinker digiling lagi bareng gipsum jadi semen yang lo kenal. Satu reaksi dekomposisi di kiln adalah jantungnya.\n\nBagian pabrik semen mana yang paling bikin lo penasaran? Tulis di komen.\n\nFollow @ilmutekkim buat teknik kimia tiap hari.\n\n#teknikkimia #chemicalengineering #semen #kiln #pabrik #proses #industri #ilmutekkim",
+ "cover_brief": "foto pabrik semen kiln putar besar dan cerobong",
+ "cover_credit": "janilson furtado / Unsplash",
+ "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-05/carousel-3/cover.jpg",
+ "cover_sub": "Dari tambang batu kapur sampai kantong semen, lewat kiln berputar yang membara.",
+ "credit_url": "https://unsplash.com/photos/industrial-cement-plant-with-palm-trees-under-cloudy-sky-tBUnGJncEkU",
+ "cta_question": "Bagian pabrik semen mana yang paling bikin lo penasaran, kiln atau penggilingannya?",
+ "cta_teaser": "Besok: lapisan pengaman sebelum ledakan, cara kerja safety instrumented system.",
+ "format": "real",
+ "hook": "BATU KAPUR JADI SEMEN LEWAT API 1450°C. INI PROSESNYA",
+ "hook_options": [
+  "BATU KAPUR JADI SEMEN LEWAT API 1450°C. INI PROSESNYA",
+  "SEMEN BUKAN BATU DITUMBUK. ADA KILN RAKSASA DI TENGAHNYA",
+  "DARI TAMBANG KE KANTONG SEMEN. ALURNYA PANJANG DAN PANAS"
+ ],
+ "hook_payoff_slide": 5,
+ "photo_briefs": [
+  {
+   "cari": "foto tambang batu kapur dan crusher pabrik semen",
+   "slide": 3
+  },
+  {
+   "cari": "foto rotary kiln pabrik semen api menyala",
+   "slide": 5
+  }
+ ],
+ "references": [
+  "Taylor, Cement Chemistry",
+  "Perry's Chemical Engineers' Handbook (bab cement and lime)"
+ ],
+ "series_label": "SERI SEMEN",
+ "slides": [
+  {
+   "callout": "FAKTA: semen modern adalah hasil pembakaran terkendali, bukan campuran batu yang ditumbuk biasa.",
+   "fill_rows": [
+    [
+     "01",
+     "GILING JADI RAW MEAL",
+     "tepung bahan baku halus"
+    ],
+    [
+     "02",
+     "BAKAR DI KILN PUTAR",
+     "suhu bahan sekitar 1450 °C"
+    ],
+    [
+     "03",
+     "GILING JADI SEMEN",
+     "klinker plus gipsum"
+    ]
+   ],
+   "fill_rows_title": "PETA SLIDE INI",
+   "hook": "Ada kiln putar raksasa yang membakar bahan sampai berubah total.",
+   "pill": "YANG SERING DIKIRA",
+   "quote": "Semen itu batu kapur yang ditumbuk halus lalu dicampur air.",
+   "type": "quote"
+  },
+  {
+   "callout": "FAKTA: kehalusan raw meal menentukan seberapa sempurna reaksi di kiln nantinya.",
+   "formula": "Batu kapur + tanah liat → raw meal",
+   "paras": [
+    "Batu kapur dihancurkan, dicampur tanah liat dan koreksi, lalu digiling halus dengan komposisi yang diatur ketat."
+   ],
+   "pill": "TAHAP AWAL",
+   "title": "Batu kapur dan tanah liat jadi tepung baku",
+   "type": "body",
+   "fill_rows_title": "KOMPOSISI BAHAN BAKU",
+   "fill_rows": [
+    [
+     "1",
+     "Batu kapur",
+     "bagian terbesar, sumber kapur"
+    ],
+    [
+     "2",
+     "Bahan koreksi",
+     "tanah liat plus koreksi, mengatur komposisi akhir"
+    ]
+   ]
+  },
+  {
+   "callout": "FAKTA: crusher pabrik semen termasuk mesin penghancur terbesar di industri proses.",
+   "credit": "Attila Pál / Unsplash",
+   "paras": [
+    "Batu kapur hasil peledakan tambang ukurannya besar dan tidak seragam.",
+    "Penghancur primer dan sekunder mengecilkannya sebelum masuk penggilingan bahan baku."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-05/carousel-3/photo-1.jpg",
+   "pill": "DI TAMBANGNYA",
+   "title": "Batu kapur dihancurkan sebelum digiling",
+   "type": "photo"
+  },
+  {
+   "callout": "FAKTA: warna semen yang abu abu datang dari klinkernya, bukan dari batu kapur aslinya.",
+   "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-05/carousel-3/diagram-semen.png",
+   "paras": [
+    "Baca dari kiri ke kanan mengikuti aliran bahan yang makin panas.",
+    "Perhatikan gas panas kiln yang balik ke preheater. Panas buang itu dipakai memanaskan bahan sebelum masuk kiln."
+   ],
+   "pill": "PETA LENGKAPNYA",
+   "title": "Alur batu kapur jadi kantong semen",
+   "type": "diagram"
+  },
+  {
+   "type": "body",
+   "pill": "JANTUNGNYA PABRIK",
+   "title": "Kiln putar, tungku terpanjang di pabrik",
+   "paras": [
+    "Kiln adalah silinder baja miring berputar pelan berlapis bata tahan api, bahan mengalir melawan gas panas."
+   ],
+   "callout": "FAKTA: seperempat putaran kiln yang miring membuat bahan bergerak maju sambil terbakar merata.",
+   "fill_grid": [
+    [
+     "PANJANG",
+     "puluhan meter"
+    ],
+    [
+     "MIRING",
+     "beberapa derajat"
+    ],
+    [
+     "PUTARAN",
+     "pelan kontinu"
+    ],
+    [
+     "LAPISAN",
+     "bata tahan api"
+    ]
+   ],
+   "fill_grid_eyebrow": "",
+   "fill_note": "Empat ciri kiln sebagai tungku kontinu."
+  },
+  {
+   "callout": "FAKTA: tanpa suhu setinggi itu, batu kapur tidak akan berubah jadi senyawa semen yang reaktif.",
+   "fill_cards": [
+    [
+     "01",
+     "Kalsinasi",
+     "kapur terurai melepas gas"
+    ],
+    [
+     "02",
+     "Pembentukan klinker",
+     "senyawa semen lahir"
+    ]
+   ],
+   "formula": "CaCO₃ → CaO + CO₂",
+   "paras": [
+    "Di kiln, kapur terurai melepas CO₂ lalu bereaksi jadi senyawa klinker pemberi kekuatan semen."
+   ],
+   "pill": "REAKSI KUNCINYA",
+   "title": "Api 1450 °C yang mengubah batu jadi klinker",
+   "type": "body"
+  },
+  {
+   "callout": "FAKTA: gipsum tidak menguatkan semen. Tugasnya mengatur waktu ikat supaya semen tidak keburu keras.",
+   "fill_grid": [
+    [
+     "KLINKER",
+     "senjata utama semen"
+    ],
+    [
+     "GIPSUM",
+     "pengatur waktu ikat"
+    ],
+    [
+     "SEJUKKAN CEPAT",
+     "jaga mutu klinker"
+    ],
+    [
+     "KANTONG",
+     "siap kirim"
+    ]
+   ],
+   "fill_grid_eyebrow": "",
+   "fill_note": "Empat hal yang terjadi setelah klinker keluar kiln.",
+   "paras": [
+    "Klinker panas didinginkan cepat di cooler, lalu digiling halus bareng gipsum.",
+    "Tanpa pendinginan dan gipsum yang pas, semen yang keluar tidak akan punya mutu dan waktu ikat yang benar."
+   ],
+   "pill": "TAHAP AKHIR",
+   "title": "Klinker digiling jadi semen siap pakai",
+   "type": "body"
+  },
+  {
+   "bullets": [
+    "Batu kapur dan tanah liat digiling jadi raw meal yang halus.",
+    "Kiln 1450 °C mengubah raw meal jadi klinker lewat kalsinasi.",
+    "Klinker digiling bareng gipsum jadi semen siap pakai."
+   ],
+   "equation": "CaCO₃ → CaO + CO₂",
+   "head": "Semen lahir dari api kiln, bukan dari tumbukan batu.",
+   "pill": "KESIMPULANNYA",
+   "type": "conclusion"
+  }
+ ]
+}

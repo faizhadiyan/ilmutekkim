@@ -1,0 +1,216 @@
+{
+ "caption": "KENAPA UAP 450°C DISEMPROT AIR SEBELUM MASUK TURBIN\n\nSteam keluar superheater bisa 450°C, sedangkan turbin minta 400°C. Solusinya adalah desuperheater: air umpan disemprot menjadi kabut halus ke dalam aliran steam.\n\nKabut menguap seketika dan menyerap panas. Yang keluar adalah steam kering bersuhu setpoint, siap masuk turbin tanpa tetesan air.\n\nNeraca energinya sederhana. Contoh tabel uap IAPWS-IF97 pada 40 bar: tiap 100 kg steam butuh sekitar 4,5 kg air semprotan untuk turun dari 450°C ke 400°C.\n\nFollow @ilmutekkim buat bedah alat pabrik tiap hari.\n\n#teknikkimia #chemicalengineering #pltu #steam #turbin #ilmutekkim",
+ "cover_brief": "foto PLTU malam hari, menara dan jaringan pipa steam yang dramatis",
+ "cover_credit": "Mehmet Orak / Pexels",
+ "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-24/carousel-1/cover.jpg",
+ "cover_sub": "Air umpan disemprot ke steam 450°C.",
+ "credit_url": "https://www.pexels.com/photo/dramatic-lightning-over-industrial-power-plant-31516243/",
+ "cta_question": "Di tempat kerjamu, suhu main steam dijaga di berapa °C? Tulis di komen.",
+ "cta_teaser": "Besok: dua kawat logam yang membaca suhu tanpa baterai sejak 1821.",
+ "format": "real",
+ "hook": "KENAPA UAP 450°C DISEMPROT AIR SEBELUM MASUK TURBIN",
+ "hook_options": [
+  "KENAPA UAP 450°C DISEMPROT AIR SEBELUM MASUK TURBIN",
+  "STEAM KELEWAT PANAS BISA MERUSAK TURBIN",
+  "4,5 PERSEN AIR INI MENYELAMATKAN TURBIN UAP"
+ ],
+ "hook_payoff_slide": 4,
+ "photo_briefs": [
+  {
+   "cari": "foto ruang turbin pembangkit listrik, pipa steam berinsulasi",
+   "slide": "ruang turbin dan jalur steam di PLTU"
+  }
+ ],
+ "references": [
+  "IAPWS-IF97, Revised Release on the IAPWS Industrial Formulation 1997 for the Thermodynamic Properties of Water and Steam",
+  "Cengel, Y.A. & Boles, M.A., Thermodynamics: An Engineering Approach (superheat pada siklus Rankine)"
+ ],
+ "series_label": "SERI STEAM",
+ "slides": [
+  {
+   "fill_rows": [
+    [
+     "01",
+     "Anggapannya",
+     "Makin panas selalu makin bagus"
+    ],
+    [
+     "02",
+     "Kenyataannya",
+     "Tiap alat punya batas suhu desain"
+    ],
+    [
+     "03",
+     "Akibatnya",
+     "Kelewat panas merusak turbin"
+    ]
+   ],
+   "fill_rows_title": "Yang perlu diluruskan",
+   "hook": "Kelewat panas justru merusak alat.",
+   "pill": "YANG SERING DIKIRA",
+   "quote": "Steam makin panas makin bagus. Ngapain repot-repot didinginkan? Turbin kan justru butuh panas.",
+   "type": "quote",
+   "callout": "Fakta kunci: desuperheater menjaga suhu steam tetap di setpoint."
+  },
+  {
+   "callout": "Fakta kunci: uap jenuh membawa tetesan air yang menggerus sudu turbin, jadi steam dipanaskan sampai superpanas.",
+   "fill_rows": [
+    [
+     "01",
+     "Bebas tetesan air",
+     "Tidak ada erosi sudu turbin"
+    ],
+    [
+     "02",
+     "Efisiensi naik",
+     "Suhu rata-rata pemasukan panas lebih tinggi"
+    ]
+   ],
+   "fill_rows_title": "Dua alasan superheat",
+   "paras": [
+    "Superheater memanaskan steam sampai di atas titik jenuhnya. Tujuannya ganda.",
+    "Pertama, uap jenuh selalu membawa tetesan air yang menggerus sudu turbin. Kedua, suhu rata-rata pemasukan panas yang lebih tinggi menaikkan efisiensi siklus Rankine."
+   ],
+   "pill": "KENAPA DIPANASKAN",
+   "title": "Uap superpanas menaikkan efisiensi",
+   "type": "body"
+  },
+  {
+   "callout": "Fakta kunci: kekuatan logam turun di suhu sangat tinggi, jadi suhu steam wajib dijaga di bawah batas desain.",
+   "fill_rows": [
+    [
+     "01",
+     "Creep logam",
+     "Deformasi permanen di suhu tinggi"
+    ],
+    [
+     "02",
+     "Thermal stress",
+     "Naik turun suhu meretakkan komponen"
+    ]
+   ],
+   "fill_rows_title": "Dua risiko kelewat panas",
+   "paras": [
+    "Logam mengalami creep dan kehilangan kekuatan di suhu sangat tinggi. Turbin, pipa, dan katup didesain untuk suhu operasi tertentu.",
+    "Steam yang kelewat panas mempercepat kerusakan itu. Makanya suhu steam tidak boleh dibiarkan liar."
+   ],
+   "pill": "BATASNYA",
+   "title": "Tiap alat punya batas suhu",
+   "type": "body"
+  },
+  {
+   "callout": "Fakta kunci: air semprotan menguap total di dalam pipa, tidak ada tetesan yang lolos ke turbin.",
+   "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-24/carousel-1/diagram-desuperheater.png",
+   "diagram_scope": "Jalur steam satu tahap: superheater mengeluarkan steam 450°C, desuperheater menerima semprotan air umpan 150°C lewat katup kontrol, keluar steam 400°C menuju turbin. Sensor suhu di outlet mengatur bukaan katup lewat loop kontrol. Yang sengaja tidak digambar: tahap superheater berikutnya, kondensor, dan sistem air umpan detail.",
+   "paras": [
+    "Steam 450°C masuk desuperheater; air umpan 150°C disemprot lewat nozzle menjadi kabut halus.",
+    "Kabut menguap sempurna. Keluarnya steam 400°C terkontrol, siap masuk turbin."
+   ],
+   "pill": "SKEMA",
+   "title": "Jalur steam lewat desuperheater",
+   "type": "diagram"
+  },
+  {
+   "callout": "Fakta kunci: kabut halus menguap seketika, jadi yang masuk turbin tetap uap kering.",
+   "fill_rows": [
+    [
+     "01",
+     "Nozzle",
+     "Air umpan menjadi kabut halus"
+    ],
+    [
+     "02",
+     "Sensor suhu outlet",
+     "Membaca suhu steam keluar"
+    ],
+    [
+     "03",
+     "Katup kontrol",
+     "Mengatur laju semprotan"
+    ]
+   ],
+   "fill_rows_title": "Tiga unsur pengendali",
+   "paras": [
+    "Nozzle mengubah air umpan menjadi kabut halus yang menguap seketika.",
+    "Sensor suhu outlet mengatur bukaan katup semprotan mengikuti setpoint."
+   ],
+   "pill": "CARA KERJA",
+   "title": "Disemprot kabut, bukan disiram air",
+   "type": "body"
+  },
+  {
+   "callout": "Fakta kunci: 4,5 kg air semprotan per 100 kg steam.",
+   "formula": "m_air / m_steam = (h_steam - h_target) / (h_target - h_air) = 4,5 %",
+   "formula_tex": "\\frac{m_{air}}{m_{steam}} = \\frac{h_{steam} - h_{target}}{h_{target} - h_{air}} = 4{,}5\\%",
+   "paras": [
+    "Contoh IAPWS-IF97 pada 40 bar, hasilnya 4,5 persen dari laju steam."
+   ],
+   "pill": "HITUNGANNYA",
+   "title": "Neraca energi menentukan takaran semprotan",
+   "type": "body",
+   "fill_rows_title": "Tiga entalpi dari tabel uap",
+   "fill_rows": [
+    [
+     "01",
+     "Steam 450°C",
+     "3331,0 kJ/kg"
+    ],
+    [
+     "02",
+     "Target 400°C",
+     "3214,4 kJ/kg"
+    ],
+    [
+     "03",
+     "Air umpan 150°C",
+     "635,7 kJ/kg"
+    ]
+   ]
+  },
+  {
+   "callout": "Fakta kunci: pabrik kimia juga memakai desuperheater.",
+   "credit": "Malcolm Hill / Pexels",
+   "paras": [
+    "Di PLTU, desuperheater dipasang di antara superheater primer dan sekunder.",
+    "Fungsinya: menjaga suhu main steam di setpoint dan melindungi turbin."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-24/carousel-1/photo-1.jpg",
+   "pill": "DI LAPANGAN",
+   "title": "Attemperator di antara tingkat superheater",
+   "type": "photo"
+  },
+  {
+   "callout": "Fakta kunci: kontrol suhu steam adalah soal takaran, bukan soal dingin atau panas.",
+   "fill_rows": [
+    [
+     "01",
+     "Semprotan kurang",
+     "Suhu ketinggian, turbin kepanasan"
+    ],
+    [
+     "02",
+     "Semprotan berlebih",
+     "Tetesan air menggerus sudu turbin"
+    ]
+   ],
+   "fill_rows_title": "Dua sisi salah takaran",
+   "paras": [
+    "Semprotan kurang: suhu steam ketinggian, sudu turbin kepanasan dan umur pakainya pendek.",
+    "Semprotan berlebih: air tidak menguap sempurna, tetesan masuk turbin dan menggerus sudu."
+   ],
+   "pill": "SALAH TAKARAN",
+   "title": "Kurang atau lebih, dua-duanya rugi",
+   "type": "body"
+  },
+  {
+   "bullets": [
+    "Steam dipanaskan berlebih agar bebas tetesan dan efisien",
+    "Air umpan disemprot jadi kabut untuk menurunkan suhu ke setpoint",
+    "Neraca energi menentukan takaran: contoh 40 bar, 4,5% dari laju steam"
+   ],
+   "head": "Desuperheater = rem suhu untuk steam",
+   "pill": "INTINYA",
+   "type": "conclusion"
+  }
+ ]
+}

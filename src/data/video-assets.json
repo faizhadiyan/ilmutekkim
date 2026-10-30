@@ -1,0 +1,346 @@
+{
+  "sampling-rutin-lab": {
+    "video_url": "/assets/video/sampling-rutin-lab.mp4",
+    "poster_url": "/assets/video/sampling-rutin-lab-poster.jpg",
+    "sectionStarts": [
+      "6",
+      "13",
+      "20",
+      "27",
+      null
+    ]
+  },
+  "shift-handover-logbook": {
+    "video_url": "/assets/video/shift-handover-logbook.mp4",
+    "poster_url": "/assets/video/shift-handover-logbook-poster.jpg",
+    "sectionStarts": [
+      "6",
+      "13",
+      "20",
+      "27",
+      null
+    ]
+  },
+  "hilirisasi-nikel-baterai-ev": {
+    "video_url": "/assets/video/hilirisasi-nikel-baterai-ev.mp4",
+    "poster_url": "/assets/video/hilirisasi-nikel-baterai-ev-poster.jpg",
+    "sectionStarts": [
+      "6.8",
+      "13.6",
+      "20.4",
+      "27.2",
+      null
+    ]
+  },
+  "pasir-jadi-chip-ai": {
+    "video_url": "/assets/video/pasir-jadi-chip-ai.mp4",
+    "poster_url": "/assets/video/pasir-jadi-chip-ai-poster.jpg",
+    "sectionStarts": [
+      "6.8",
+      "13.6",
+      "20.4",
+      "27.2"
+    ]
+  },
+  "distilasi-minyak-mentah": {
+    "video_url": null,
+    "poster_url": null,
+    "sectionStarts": [
+      "6.5",
+      "13",
+      "19.5",
+      "26.5"
+    ]
+  },
+  "process-safety-bukan-apd": {
+    "video_url": "/assets/video/process-safety-bukan-apd.mp4",
+    "poster_url": "/assets/video/process-safety-bukan-apd-poster.jpg",
+    "sectionStarts": [
+      "6.8",
+      "13.6",
+      "20.4",
+      "27.2",
+      null
+    ]
+  },
+  "heat-exchanger-penghenti-pabrik": {
+    "video_url": "/assets/video/heat-exchanger-penghenti-pabrik.mp4",
+    "poster_url": "/assets/video/heat-exchanger-penghenti-pabrik-poster.jpg",
+    "sectionStarts": [
+      "6.8",
+      "13.6",
+      "20.4",
+      "27.2",
+      null
+    ]
+  },
+  "haber-bosch-udara-jadi-pupuk": {
+    "video_url": "/assets/video/haber-bosch-udara-jadi-pupuk.mp4",
+    "poster_url": "/assets/video/haber-bosch-udara-jadi-pupuk-poster.jpg",
+    "sectionStarts": [
+      "6.8",
+      "13.6",
+      "20.4",
+      "27.2",
+      null
+    ]
+  },
+  "netralisasi-asam-basa": {
+    "video_url": "/assets/video/netralisasi-asam-basa.mp4",
+    "poster_url": "/assets/video/netralisasi-asam-basa-poster.jpg",
+    "sectionStarts": [
+      "6.5",
+      "13",
+      "19.5",
+      "26.5",
+      null
+    ]
+  },
+  "water-gas-shift-co-jadi-h2": {
+    "video_url": null,
+    "poster_url": null,
+    "sectionStarts": [
+      "6.5",
+      "13",
+      "19.5",
+      "26.5"
+    ]
+  },
+  "b40-transesterifikasi-motion": {
+    "video_url": "/assets/video/b40-transesterifikasi-motion.mp4",
+    "poster_url": "/assets/video/b40-transesterifikasi-motion-poster.jpg",
+    "sectionStarts": [
+      "7",
+      "14",
+      "21",
+      "28",
+      null
+    ]
+  },
+  "confined-space-masuk-tangki": {
+    "video_url": "/assets/video/confined-space-masuk-tangki.mp4",
+    "poster_url": "/assets/video/confined-space-masuk-tangki-poster.jpg",
+    "sectionStarts": [
+      "6",
+      "13",
+      "20",
+      "27",
+      null
+    ]
+  },
+  "dead-leg-pipa-buntu-berbahaya": {
+    "video_url": "/assets/video/dead-leg-pipa-buntu-berbahaya.mp4",
+    "poster_url": "/assets/video/dead-leg-pipa-buntu-berbahaya-poster.jpg",
+    "sectionStarts": [
+      "6",
+      "13",
+      "13",
+      "20",
+      "27"
+    ]
+  },
+  "flare-stack-api-kilang-menyala": {
+    "video_url": "/assets/video/flare-stack-api-kilang-menyala.mp4",
+    "poster_url": "/assets/video/flare-stack-api-kilang-menyala-poster.jpg",
+    "sectionStarts": [
+      "13",
+      "20",
+      "27",
+      "27",
+      null
+    ]
+  },
+  "gudang-bahan-kimia-segregasi-bunding": {
+    "video_url": "/assets/video/gudang-bahan-kimia-segregasi-bunding.mp4",
+    "poster_url": "/assets/video/gudang-bahan-kimia-segregasi-bunding-poster.jpg",
+    "sectionStarts": [
+      "6.5",
+      "13",
+      "20",
+      "27",
+      null
+    ]
+  },
+  "hybrid-pompa-sentrifugal": {
+    "video_url": "/assets/video/hybrid-pompa-sentrifugal.mp4",
+    "poster_url": "/assets/video/hybrid-pompa-sentrifugal-poster.jpg",
+    "sectionStarts": [
+      "0",
+      "6.5",
+      "13",
+      "20",
+      "27",
+      null
+    ]
+  },
+  "hybrid-shell-and-tube-heat-exchanger": {
+    "video_url": "/assets/video/hybrid-shell-and-tube-heat-exchanger.mp4",
+    "poster_url": "/assets/video/hybrid-shell-and-tube-heat-exchanger-poster.jpg",
+    "sectionStarts": [
+      "6.5",
+      "13",
+      "20",
+      "27",
+      "27"
+    ]
+  },
+  "loto-gembok-pribadi-motion": {
+    "video_url": "/assets/video/loto-gembok-pribadi-motion.mp4",
+    "poster_url": "/assets/video/loto-gembok-pribadi-motion-poster.jpg",
+    "sectionStarts": [
+      "6",
+      "13",
+      "20",
+      "27",
+      "34"
+    ]
+  },
+  "pks-tbs-menjadi-cpo-motion": {
+    "video_url": "/assets/video/pks-tbs-menjadi-cpo-motion.mp4",
+    "poster_url": "/assets/video/pks-tbs-menjadi-cpo-motion-poster.jpg",
+    "sectionStarts": [
+      "5",
+      "17",
+      "17",
+      "27",
+      "27"
+    ]
+  },
+  "refinery-sawit-olein-stearin-motion": {
+    "video_url": "/assets/video/refinery-sawit-olein-stearin-motion.mp4",
+    "poster_url": "/assets/video/refinery-sawit-olein-stearin-motion-poster.jpg",
+    "sectionStarts": [
+      "7",
+      "14",
+      "28",
+      "35",
+      null
+    ]
+  },
+  "satu-barel-minyak-motion": {
+    "video_url": "/assets/video/satu-barel-minyak-motion.mp4",
+    "poster_url": "/assets/video/satu-barel-minyak-motion-poster.jpg",
+    "sectionStarts": [
+      "0",
+      "6.5",
+      "13",
+      "20",
+      "27.5"
+    ]
+  },
+  "sistem-kerja-tiga-shift": {
+    "video_url": "/assets/video/sistem-kerja-tiga-shift.mp4",
+    "poster_url": "/assets/video/sistem-kerja-tiga-shift-poster.jpg",
+    "sectionStarts": [
+      "6",
+      "13",
+      "20",
+      "27",
+      null
+    ]
+  },
+  "tangki-putih-floating-roof": {
+    "video_url": "/assets/video/tangki-putih-floating-roof.mp4",
+    "poster_url": "/assets/video/tangki-putih-floating-roof-poster.jpg",
+    "sectionStarts": [
+      "6",
+      "13",
+      "20",
+      "27",
+      null
+    ]
+  },
+  "turnaround-pabrik-berhenti-total": {
+    "video_url": "/assets/video/turnaround-pabrik-berhenti-total.mp4",
+    "poster_url": "/assets/video/turnaround-pabrik-berhenti-total-poster.jpg",
+    "sectionStarts": [
+      "0",
+      "6",
+      "13",
+      "20",
+      "27"
+    ]
+  },
+  "buildup-boiler-pltu-dari-ceret": {
+    "video_url": "/assets/video/buildup-boiler-pltu-dari-ceret.mp4",
+    "poster_url": "/assets/video/buildup-boiler-pltu-dari-ceret-poster.jpg",
+    "sectionStarts": [
+      "0.0",
+      "16.3",
+      "40.7"
+    ]
+  },
+  "buildup-kolom-distilasi-alembik": {
+    "video_url": "/assets/video/buildup-kolom-distilasi-alembik.mp4",
+    "poster_url": "/assets/video/buildup-kolom-distilasi-alembik-poster.jpg",
+    "sectionStarts": [
+      "0.0",
+      "10.9",
+      "33.8",
+      "45.9"
+    ]
+  },
+  "buildup-kolom-distilasi-remake": {
+    "video_url": "/assets/video/buildup-kolom-distilasi-remake.mp4",
+    "poster_url": "/assets/video/buildup-kolom-distilasi-remake-poster.jpg",
+    "sectionStarts": [
+      "0.0",
+      "19.1",
+      "33.7",
+      "56.0"
+    ]
+  },
+  "buildup-reaktor-dari-panci-presto": {
+    "video_url": "/assets/video/buildup-reaktor-dari-panci-presto.mp4",
+    "poster_url": "/assets/video/buildup-reaktor-dari-panci-presto-poster.jpg",
+    "sectionStarts": [
+      "0.0",
+      "20.3",
+      "33.5"
+    ]
+  },
+  "ko-drum-penjaga-kompresor": {
+    "video_url": "/assets/video/ko-drum-penjaga-kompresor.mp4",
+    "poster_url": "/assets/video/ko-drum-penjaga-kompresor-poster.jpg",
+    "sectionStarts": [
+      "4",
+      "11",
+      "18",
+      "26",
+      null
+    ]
+  },
+  "lpg-cairan-dalam-tabung": {
+    "video_url": "/assets/video/lpg-cairan-dalam-tabung.mp4",
+    "poster_url": "/assets/video/lpg-cairan-dalam-tabung-poster.jpg",
+    "sectionStarts": [
+      "6",
+      "13",
+      "13",
+      "20",
+      "27"
+    ]
+  },
+  "ntu-efektivitas-penukar-panas": {
+    "video_url": "/assets/video/ntu-efektivitas-penukar-panas.mp4",
+    "poster_url": "/assets/video/ntu-efektivitas-penukar-panas-poster.jpg",
+    "sectionStarts": [
+      "0",
+      "5",
+      "11",
+      "17.5",
+      "24"
+    ]
+  },
+  "steam-trap-katup-kondensat": {
+    "video_url": "/assets/video/steam-trap-katup-kondensat.mp4",
+    "poster_url": "/assets/video/steam-trap-katup-kondensat-poster.jpg",
+    "sectionStarts": [
+      "0",
+      "6.5",
+      "13",
+      "20",
+      "29"
+    ]
+  }
+}

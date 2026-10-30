@@ -1,0 +1,110 @@
+{
+ "caption": "Minyak goreng itu bukan CPO yang disaring.\n\nDari pabrik kelapa sawit, CPO masih mentah: merah gelap, bau tengik, masih ada getahnya. Sebelum layak masuk wajan, ia lewat degumming, bleaching, deodorisasi, lalu fraksinasi yang memisah olein cair dan stearin padat.\n\nSwipe buat lihat alur lengkapnya per tahap.\n\nProses pabrik apa lagi yang mau dibedah? Tulis di komen.\n\nFollow @ilmutekkim buat teknik kimia tiap hari.\n\n#teknikkimia #chemicalengineering #pabrik #industri #sawit #minyakgoreng #proses #ilmutekkim",
+ "cover_credit": "FCL by Photofabianni.com / Pexels",
+ "cover_credit_url": "TBD (browser task)",
+ "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-01/carousel-1/cover.jpg",
+ "cover_sub": "Empat tahap pemurnian sebelum sawit layak masuk wajan.",
+ "cta_question": "Baru tahu minyak goreng lewat 4 tahap? Proses pabrik apa lagi yang mau dibedah?",
+ "cta_teaser": "Siang ini: heat exchanger, alat paling sederhana yang paling sering bikin pabrik shutdown.",
+ "format": "padat",
+ "hook": "DARI CPO JADI MINYAK GORENG",
+ "photo_briefs": [
+  {
+   "cari": "close-up tangki stainless / pipa kilang industri pengolahan minyak",
+   "slide": 3,
+   "credit": "Mumtaz Niazi / Pexels"
+  },
+  {
+   "cari": "botol minyak goreng berjejer di rak",
+   "slide": 7,
+   "credit": "Towfiqu barbhuiya / Pexels"
+  }
+ ],
+ "references": [
+  "Bailey's Industrial Oil and Fat Products, 6th ed., Wiley (bab refining dan fraksinasi minyak nabati)",
+  "MPOB: Palm Oil Refinery Process (dokumen publik)"
+ ],
+ "series_label": "SERI REFINERY SAWIT",
+ "slides": [
+  {
+   "hook": "Padahal ada 4 tahap pemurnian sebelum layak dimakan.",
+   "pill": "YANG SERING DIKIRA",
+   "quote": "Minyak goreng itu CPO yang disaring bersih, udah gitu doang.",
+   "type": "quote"
+  },
+  {
+   "callout": "FAKTA: CPO mentah mengandung getah (fosfolipid), pigmen karoten, dan asam lemak bebas yang semuanya harus dibuang.",
+   "paras": [
+    "CPO (crude palm oil) keluar dari PKS masih minyak mentah: warnanya merah gelap, baunya tengik, masih ada getah, pigmen warna, dan asam lemak bebas.",
+    "Minyak seperti ini belum layak dikonsumsi. Tugas refinery adalah membuang semua pengotor itu satu per satu."
+   ],
+   "pill": "BAHAN BAKU",
+   "title": "Mulai dari CPO yang belum layak makan",
+   "type": "body"
+  },
+  {
+   "callout": "FAKTA: bleaching earth yang sudah jenuh menyerap kotoran (spent bleaching earth) keluar sebagai limbah padat.",
+   "credit": "Mumtaz Niazi / Pexels",
+   "paras": [
+    "Degumming: asam fosfat dan air panas ditambahkan agar getah menggumpal, lalu disaring keluar.",
+    "Bleaching: bleaching earth, sejenis tanah aktif, menyerap sisa warna dan kotoran. Minyak mulai terlihat jernih."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-01/carousel-1/photo-1.jpg",
+   "pill": "TAHAP 1 DAN 2",
+   "title": "Degumming lalu bleaching",
+   "type": "visual"
+  },
+  {
+   "callout": "FAKTA: asam lemak yang teruapkan ditampung sebagai PFAD (palm fatty acid distillate), bahan baku sabun dan oleokimia.",
+   "paras": [
+    "Uap bersuhu tinggi disemburkan melewati minyak di dalam bejana vakum. Bau tengik dan asam lemak bebas ikut terbawa uap.",
+    "Hasilnya RBD palm oil: refined, bleached, deodorized. Sudah tidak berbau dan netral."
+   ],
+   "pill": "TAHAP 3",
+   "title": "Deodorisasi: mandi uap dalam vakum",
+   "type": "body"
+  },
+  {
+   "paras": [
+    "CPO masuk, lalu degumming, bleaching, deodorisasi, menjadi RBD. Terakhir fraksinasi memisah olein cair dan stearin padat.",
+    "Aliran samping: getah, spent bleaching earth, dan PFAD keluar di tiap tahap."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-01/carousel-1/flow-refinery.png",
+   "pill": "SKEMA ALIR",
+   "title": "Urutan lengkapnya begini",
+   "type": "visual"
+  },
+  {
+   "callout": "FAKTA: fraksinasi kering tidak memakai bahan kimia tambahan, hanya pengaturan suhu dan penyaringan kristal.",
+   "paras": [
+    "RBD didinginkan perlahan di dalam kristalizer. Trigliserida yang titik lelehnya tinggi mengkristal lebih dulu, lalu disaring.",
+    "Fraksi cairnya disebut olein, fraksi padatnya stearin. Satu bahan baku, dua wujud berbeda."
+   ],
+   "pill": "TAHAP 4",
+   "title": "Fraksinasi: memisah yang cair dan padat",
+   "type": "body"
+  },
+  {
+   "credit": "Towfiqu barbhuiya / Pexels",
+   "paras": [
+    "Olein tetap cair di suhu ruang: inilah minyak goreng yang dipakai sehari-hari.",
+    "Stearin berbentuk padat: bahan baku margarin dan shortening untuk kue."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-01/carousel-1/photo-2.jpg",
+   "pill": "PRODUK AKHIR",
+   "title": "Olein ke dapur, stearin ke roti",
+   "type": "visual"
+  },
+  {
+   "bullets": [
+    "CPO mentah belum layak makan: masih ada getah, warna, dan bau.",
+    "Degumming, bleaching, dan deodorisasi membersihkannya menjadi RBD.",
+    "Fraksinasi memisah RBD jadi olein cair (minyak goreng) dan stearin padat."
+   ],
+   "head": "Minyak goreng itu hasil 4 tahap pemurnian.",
+   "pill": "KESIMPULANNYA",
+   "type": "conclusion"
+  }
+ ],
+ "topic": "refinery sawit: dari CPO ke minyak goreng (olein vs stearin)"
+}

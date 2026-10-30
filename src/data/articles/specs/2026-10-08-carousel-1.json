@@ -1,0 +1,194 @@
+{
+ "format": "real",
+ "series_label": "SERI CHEAT SHEET UJIAN",
+ "hook": "MELESET 1 PERSEN, DP POLIMER LO RUNTUH TOTAL",
+ "hook_options": [
+  "MELESET 1 PERSEN, DP POLIMER LO RUNTUH TOTAL",
+  "DP 199 ATAU 100, BEDANYA CUMA STOIKIOMETRI MONOMER",
+  "DOSEN JARANG TEKANIN INI: DP DIKUNCI RASIO MONOMER"
+ ],
+ "hook_payoff_slide": 6,
+ "cover_brief": "foto pabrik petrokimia dengan reaktor dan tangki besar dari jauh",
+ "cover_sub": "Cheat sheet CS-01: step-growth dan persamaan Carothers buat UTS.",
+ "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-08/carousel-1/cover.jpg",
+ "cover_credit": "FCL / Pexels",
+ "credit_url": "https://www.pexels.com/photo/stainless-steel-storage-tanks-with-stainless-pipes-5411674/",
+ "photo_briefs": [
+  {
+   "slide": 6,
+   "cari": "foto pelet resin polimer atau butiran plastik di tangan"
+  }
+ ],
+ "slides": [
+  {
+   "type": "quote",
+   "pill": "JEBAKAN DOSEN",
+   "quote": "Kejar konversi 99 persen, DP pasti tinggi sendiri.",
+   "hook": "Salah. Stoikiometri meleset 1 persen, DP mentok di bawah 200.",
+   "fill_rows": [
+    [
+     "01",
+     "KONVERSI TINGGI",
+     "belum cukup buat DP tinggi"
+    ],
+    [
+     "02",
+     "RASIO MONOMER",
+     "penentu batas DP"
+    ],
+    [
+     "03",
+     "RUMUS CAROTHERS",
+     "alat hitungnya"
+    ]
+   ],
+   "fill_rows_title": "PETA SLIDE INI",
+   "callout": "FAKTA: di step-growth, DP dikunci dua hal sekaligus: konversi dan rasio monomer."
+  },
+  {
+   "type": "body",
+   "pill": "RUMUS INTINYA",
+   "title": "Persamaan Carothers dalam satu kotak",
+   "paras": [
+    "Buat step-growth dua monomer AA dan BB, derajat polimerisasi rata-rata jumlah dihitung dari rasio monomer dan konversi gugus pembatas.",
+    "r adalah mol gugus minor dibagi mol gugus mayor, jadi r tidak pernah lebih dari 1."
+   ],
+   "formula": "DPₙ = (1 + r) / (1 + r - 2rp)",
+   "fill_grid": [
+    [
+     "r",
+     "rasio monomer maks 1"
+    ],
+    [
+     "p",
+     "konversi gugus minor"
+    ]
+   ],
+   "fill_grid_eyebrow": "",
+   "callout": "FAKTA: rumus Carothers ini dipakai buat poliester dan nilon."
+  },
+  {
+   "type": "diagram",
+   "pill": "SKEMA REAKSINYA",
+   "title": "Dua monomer menyatu, air keluar tiap sambungan",
+   "paras": [
+    "Asam AA dan diol BB bereaksi membentuk oligomer, lalu rantai tumbuh jadi poliester.",
+    "Tiap sambungan ester baru melepaskan satu molekul H₂O."
+   ],
+   "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-08/carousel-1/diagram-stepgrowth.png",
+   "callout": "FAKTA: ujung rantai yang tersisa menentukan apakah rantai masih bisa tumbuh atau berhenti."
+  },
+  {
+   "type": "body",
+   "pill": "CONTOH ANGKA 1",
+   "title": "Stoikiometri pas, konversi 99 persen",
+   "paras": [
+    "Kasus ideal: r = 1,00 dan p = 0,99. Rumus Carothers menyederhana jadi DPₙ = 1 / (1 - p).",
+    "Hitung: 1 - 0,99 = 0,01, lalu 1 / 0,01 = 100. Jadi DPₙ = 100."
+   ],
+   "fill_rows": [
+    [
+     "1",
+     "r = 1,00",
+     "monomer seimbang pas"
+    ],
+    [
+     "2",
+     "p = 0,99",
+     "konversi 99 persen"
+    ],
+    [
+     "3",
+     "DPₙ = 100",
+     "hasil hitungnya"
+    ]
+   ],
+   "fill_rows_title": "LANGKAH HITUNGNYA",
+   "callout": "FAKTA: konversi 99 persen cuma memberi DP 100 di step-growth."
+  },
+  {
+   "type": "body",
+   "pill": "CONTOH ANGKA 2",
+   "title": "Meleset 1 persen, konversi sempurna pun kalah",
+   "paras": [
+    "r = 0,99 dan p = 1,00: satu monomer kurang 1 persen, semua gugus minor bereaksi habis.",
+    "Hitung: (1 + 0,99) / (1 + 0,99 - 2 × 0,99 × 1,00) = 1,99 / 0,01 = 199. DP mentok di 199."
+   ],
+   "fill_rows": [
+    [
+     "1",
+     "r = 0,99",
+     "meleset 1 persen"
+    ],
+    [
+     "2",
+     "p = 1,00",
+     "konversi sempurna"
+    ],
+    [
+     "3",
+     "DPₙ = 199",
+     "batas mutlaknya"
+    ]
+   ],
+   "fill_rows_title": "LANGKAH HITUNGNYA",
+   "callout": "FAKTA: monomer mayor berlebih jadi ujung mati, rantai berhenti di DP 199."
+  },
+  {
+   "type": "photo",
+   "pill": "BUKTI FISIKNYA",
+   "title": "Rantai yang berhenti tumbuh",
+   "paras": [
+    "Butiran resin seperti ini berisi jutaan rantai polimer yang diatur rasio monomer di reaktor.",
+    "Insinyur memberi sedikit kelebihan monomer buat mengunci berat molekul."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-08/carousel-1/photo-1.jpg",
+   "credit": "Fran Zaina / Pexels",
+   "callout": "FAKTA: meleset sedikit dipakai sebagai rem panjang rantai."
+  },
+  {
+   "type": "body",
+   "pill": "KENAPA DOSEN SUKA",
+   "title": "Soal ini memisahkan yang hafal dan yang paham",
+   "paras": [
+    "Banyak mahasiswa menaikkan p terus di hitungannya dan lupa mengecek r, padahal r yang membatasi DP lebih dulu.",
+    "Urutan cek yang aman: tulis r dulu, pastikan tidak lebih dari 1, baru masukkan p."
+   ],
+   "fill_grid": [
+    [
+     "CEK r DULU",
+     "rasio minor per mayor"
+    ],
+    [
+     "CEK p",
+     "konversi gugus minor"
+    ],
+    [
+     "BACA BATAS",
+     "DP maksimal saat p = 1"
+    ]
+   ],
+   "fill_grid_eyebrow": "",
+   "callout": "FAKTA: saat p = 1, DP maksimal cuma fungsi r. Konversi tidak bisa menolong lagi."
+  },
+  {
+   "type": "conclusion",
+   "pill": "KUIS CS-01",
+   "head": "r = 0,98 dan p = 1. DP maksimalnya berapa?",
+   "bullets": [
+    "Tulis jawaban plus langkah hitung lo di komen",
+    "Save carousel ini buat bekal UTS lo",
+    "Tag teman sekelas yang lagi belajar polimer",
+    "Follow @ilmutekkim, besok CS-02 McCabe-Thiele"
+   ]
+  }
+ ],
+ "references": [
+  "Carothers (1931), Polymerization, Chemical Reviews",
+  "Odian, Principles of Polymerization",
+  "Flory, Principles of Polymer Chemistry"
+ ],
+ "cta_question": "Berapa DP jawaban kuis lo? Tulis langkahnya di komen.",
+ "cta_teaser": "Besok CS-02: McCabe-Thiele, garis operasi yang sering kebalik.",
+ "caption": "Meleset 1 persen, DP polimer lo runtuh total.\n\nIni CS-01 dari seri cheat sheet ujian @ilmutekkim. Di step-growth, konversi 99 persen cuma memberi DP 100. Kalau rasio monomer meleset 1 persen, DP mentok di 199 walau konversi sempurna, karena kelebihan monomer jadi ujung rantai mati.\n\nDi pabrik poliester dan nilon, prinsip yang sama dipakai terbalik: insinyur memberi sedikit kelebihan satu monomer buat mengunci berat molekul pelet resin. Yang di kelas jadi jebakan, di pabrik jadi alat kontrol.\n\nIni simpul 06 dari peta roadmap. Peta lengkapnya ada di postingan roadmap yang ter-pin di profil.\n\nSave buat UTS, tag teman sekelas, follow seri berikutnya.\n\n#teknikkimia #chemicalengineering #polimer #uts #belajar #pabrik #industri #ilmutekkim"
+}

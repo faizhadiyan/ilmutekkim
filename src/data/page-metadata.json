@@ -1,0 +1,1306 @@
+{
+  "/artikel/distilasi-bertingkat-minyak-mentah": {
+    "title": "Distilasi Bertingkat: Mengapa Minyak Mentah Tidak Cukup Dipanaskan Satu Kali | ilmutekkim",
+    "description": "Mengapa satu kali pemanasan tidak pernah cukup untuk mengubah minyak mentah menjadi fraksi yang murni? Jawaban atas pertanyaan tersebut terletak pada keset",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/distilasi-bertingkat-minyak-mentah/",
+    "openGraph": {
+      "type": "article",
+      "title": "Distilasi Bertingkat: Mengapa Minyak Mentah Tidak Cukup Dipanaskan Satu Kali | ilmutekkim",
+      "description": "Mengapa satu kali pemanasan tidak pernah cukup untuk mengubah minyak mentah menjadi fraksi yang murni? Jawaban atas pertanyaan tersebut terletak pada keset",
+      "url": "https://ilmutekkim.vercel.app/artikel/distilasi-bertingkat-minyak-mentah/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/distilasi-bertingkat-minyak-mentah/cover.jpg"
+    ]
+  },
+  "/artikel/reflux-optimum-kolom-distilasi": {
+    "title": "Semakin Besar Reflux, Semakin Murni? Bedah Reflux Optimum Kolom Distilasi | ilmutekkim",
+    "description": "Memperbesar reflux memang menaikkan kemurnian, tetapi hanya sampai satu titik. Lewat titik itu, setiap liter reflux tambahan hanya membeli steam yang mengu",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/reflux-optimum-kolom-distilasi/",
+    "openGraph": {
+      "type": "article",
+      "title": "Semakin Besar Reflux, Semakin Murni? Bedah Reflux Optimum Kolom Distilasi | ilmutekkim",
+      "description": "Memperbesar reflux memang menaikkan kemurnian, tetapi hanya sampai satu titik. Lewat titik itu, setiap liter reflux tambahan hanya membeli steam yang mengu",
+      "url": "https://ilmutekkim.vercel.app/artikel/reflux-optimum-kolom-distilasi/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/reflux-optimum-kolom-distilasi/cover.jpg"
+    ]
+  },
+  "/artikel/pabrik-kelapa-sawit-tandan-ke-cpo": {
+    "title": "Dari Tandan Berduri Menjadi Minyak Sawit: Alur Lengkap Pabrik Kelapa Sawit | ilmutekkim",
+    "description": "Mengapa pabrik kelapa sawit selalu mensterilkan tandan sebelum merontokkan buahnya? Terdapat satu alasan biokimia di balik urutan tersebut, dan alasan itu ",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/pabrik-kelapa-sawit-tandan-ke-cpo/",
+    "openGraph": {
+      "type": "article",
+      "title": "Dari Tandan Berduri Menjadi Minyak Sawit: Alur Lengkap Pabrik Kelapa Sawit | ilmutekkim",
+      "description": "Mengapa pabrik kelapa sawit selalu mensterilkan tandan sebelum merontokkan buahnya? Terdapat satu alasan biokimia di balik urutan tersebut, dan alasan itu ",
+      "url": "https://ilmutekkim.vercel.app/artikel/pabrik-kelapa-sawit-tandan-ke-cpo/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/pabrik-kelapa-sawit-tandan-ke-cpo/cover.jpg"
+    ]
+  },
+  "/artikel/baca-pid-lima-simbol-pabrik": {
+    "title": "Baca P&ID dalam 5 Menit: Lima Simbol yang Muncul di Hampir Semua Pabrik | ilmutekkim",
+    "description": "Selembar P&ID dapat memuat ratusan garis dan kotak, tetapi hampir seluruh isinya ternyata tersusun dari lima simbol yang berulang.",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/baca-pid-lima-simbol-pabrik/",
+    "openGraph": {
+      "type": "article",
+      "title": "Baca P&ID dalam 5 Menit: Lima Simbol yang Muncul di Hampir Semua Pabrik | ilmutekkim",
+      "description": "Selembar P&ID dapat memuat ratusan garis dan kotak, tetapi hampir seluruh isinya ternyata tersusun dari lima simbol yang berulang.",
+      "url": "https://ilmutekkim.vercel.app/artikel/baca-pid-lima-simbol-pabrik/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/baca-pid-lima-simbol-pabrik/cover.jpg"
+    ]
+  },
+  "/artikel/refinery-sawit-cpo-ke-minyak-goreng": {
+    "title": "Dari CPO Menjadi Minyak Goreng: Empat Tahap Refinery Sawit (Olein vs Stearin) | ilmutekkim",
+    "description": "Minyak goreng bukan CPO yang disaring sekali lalu dikemas. Di antara keduanya ada empat tahap pemurnian yang masing-masing membuang satu keluarga pengotor ",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/refinery-sawit-cpo-ke-minyak-goreng/",
+    "openGraph": {
+      "type": "article",
+      "title": "Dari CPO Menjadi Minyak Goreng: Empat Tahap Refinery Sawit (Olein vs Stearin) | ilmutekkim",
+      "description": "Minyak goreng bukan CPO yang disaring sekali lalu dikemas. Di antara keduanya ada empat tahap pemurnian yang masing-masing membuang satu keluarga pengotor ",
+      "url": "https://ilmutekkim.vercel.app/artikel/refinery-sawit-cpo-ke-minyak-goreng/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/refinery-sawit-cpo-ke-minyak-goreng/cover.jpg"
+    ]
+  },
+  "/artikel/heat-exchanger-bikin-shutdown": {
+    "title": "Heat Exchanger: Alat Paling Sederhana yang Paling Sering Menyebabkan Pabrik Shutdown | ilmutekkim",
+    "description": "Mengapa alat yang tidak memiliki satu pun bagian bergerak justru paling sering memaksa pabrik berhenti? Jawaban atas pertanyaan tersebut adalah fouling, la",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/heat-exchanger-bikin-shutdown/",
+    "openGraph": {
+      "type": "article",
+      "title": "Heat Exchanger: Alat Paling Sederhana yang Paling Sering Menyebabkan Pabrik Shutdown | ilmutekkim",
+      "description": "Mengapa alat yang tidak memiliki satu pun bagian bergerak justru paling sering memaksa pabrik berhenti? Jawaban atas pertanyaan tersebut adalah fouling, la",
+      "url": "https://ilmutekkim.vercel.app/artikel/heat-exchanger-bikin-shutdown/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/heat-exchanger-bikin-shutdown/cover.jpg"
+    ]
+  },
+  "/artikel/b40-biodiesel-sawit-transesterifikasi": {
+    "title": "B40: Bagaimana Sawit Menjadi Biodiesel Melalui Transesterifikasi | ilmutekkim",
+    "description": "Sejak Januari 2025, setiap liter solar bersubsidi di Indonesia wajib mengandung 40 persen bahan yang dihasilkan melalui reaksi kimia dalam reaktor, bukan m",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/b40-biodiesel-sawit-transesterifikasi/",
+    "openGraph": {
+      "type": "article",
+      "title": "B40: Bagaimana Sawit Menjadi Biodiesel Melalui Transesterifikasi | ilmutekkim",
+      "description": "Sejak Januari 2025, setiap liter solar bersubsidi di Indonesia wajib mengandung 40 persen bahan yang dihasilkan melalui reaksi kimia dalam reaktor, bukan m",
+      "url": "https://ilmutekkim.vercel.app/artikel/b40-biodiesel-sawit-transesterifikasi/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/b40-biodiesel-sawit-transesterifikasi/cover.jpg"
+    ]
+  },
+  "/artikel/bbm-dari-sampah-plastik-pirolisis": {
+    "title": "Dari Sampah Plastik Menjadi BBM: Bedah Proses Pirolisis | ilmutekkim",
+    "description": "Sampah plastik dapat berubah menjadi minyak mirip solar tanpa dibakar sama sekali, dan kuncinya terletak pada satu keputusan rekayasa: memanaskannya tanpa ",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/bbm-dari-sampah-plastik-pirolisis/",
+    "openGraph": {
+      "type": "article",
+      "title": "Dari Sampah Plastik Menjadi BBM: Bedah Proses Pirolisis | ilmutekkim",
+      "description": "Sampah plastik dapat berubah menjadi minyak mirip solar tanpa dibakar sama sekali, dan kuncinya terletak pada satu keputusan rekayasa: memanaskannya tanpa ",
+      "url": "https://ilmutekkim.vercel.app/artikel/bbm-dari-sampah-plastik-pirolisis/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/bbm-dari-sampah-plastik-pirolisis/cover.jpg"
+    ]
+  },
+  "/artikel/tekanan-relief-valve-rupture-disk": {
+    "title": "Tekanan Itu Nyawa di Pabrik Kimia: Cara Kerja Relief Valve dan Rupture Disk | ilmutekkim",
+    "description": "Tekanan di dalam bejana pabrik bisa naik sendiri tanpa satu pun operator menyentuh katup, dan hanya ada satu alat kecil yang berdiri di antara kondisi itu ",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/tekanan-relief-valve-rupture-disk/",
+    "openGraph": {
+      "type": "article",
+      "title": "Tekanan Itu Nyawa di Pabrik Kimia: Cara Kerja Relief Valve dan Rupture Disk | ilmutekkim",
+      "description": "Tekanan di dalam bejana pabrik bisa naik sendiri tanpa satu pun operator menyentuh katup, dan hanya ada satu alat kecil yang berdiri di antara kondisi itu ",
+      "url": "https://ilmutekkim.vercel.app/artikel/tekanan-relief-valve-rupture-disk/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/tekanan-relief-valve-rupture-disk/cover.jpg"
+    ]
+  },
+  "/artikel/satu-barel-minyak-jadi-apa": {
+    "title": "Satu Barel Minyak Menjadi Apa Saja? Bedah Produk Kilang Cilacap dan Balikpapan | ilmutekkim",
+    "description": "Satu barel minyak mentah berisi 159 liter, tetapi tidak satu liter pun dari isinya yang ditakdirkan menjadi bensin sebelum kilang memutuskan sebaliknya.",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/satu-barel-minyak-jadi-apa/",
+    "openGraph": {
+      "type": "article",
+      "title": "Satu Barel Minyak Menjadi Apa Saja? Bedah Produk Kilang Cilacap dan Balikpapan | ilmutekkim",
+      "description": "Satu barel minyak mentah berisi 159 liter, tetapi tidak satu liter pun dari isinya yang ditakdirkan menjadi bensin sebelum kilang memutuskan sebaliknya.",
+      "url": "https://ilmutekkim.vercel.app/artikel/satu-barel-minyak-jadi-apa/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/satu-barel-minyak-jadi-apa/cover.jpg"
+    ]
+  },
+  "/artikel/pompa-vs-kompresor": {
+    "title": "Pompa vs Kompresor: Salah Pilih Alat, Boros Listrik Bertahun-tahun | ilmutekkim",
+    "description": "Mengapa pompa dan kompresor, dua alat yang sama-sama memindahkan fluida, tidak dapat saling menggantikan? Pompa yang kemasukan gas berhenti memindahkan apa",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/pompa-vs-kompresor/",
+    "openGraph": {
+      "type": "article",
+      "title": "Pompa vs Kompresor: Salah Pilih Alat, Boros Listrik Bertahun-tahun | ilmutekkim",
+      "description": "Mengapa pompa dan kompresor, dua alat yang sama-sama memindahkan fluida, tidak dapat saling menggantikan? Pompa yang kemasukan gas berhenti memindahkan apa",
+      "url": "https://ilmutekkim.vercel.app/artikel/pompa-vs-kompresor/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/pompa-vs-kompresor/cover.jpg"
+    ]
+  },
+  "/artikel/naphtha-ke-plastik-petrokimia": {
+    "title": "Dari Naphtha Menjadi Plastik: Alur Petrokimia Steam Cracker sampai Polimer | ilmutekkim",
+    "description": "Mengapa kantong plastik tidak dapat dicetak langsung dari minyak yang dilelehkan? Karena rantai produksinya menuntut empat tahap kimia yang berurutan: miny",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/naphtha-ke-plastik-petrokimia/",
+    "openGraph": {
+      "type": "article",
+      "title": "Dari Naphtha Menjadi Plastik: Alur Petrokimia Steam Cracker sampai Polimer | ilmutekkim",
+      "description": "Mengapa kantong plastik tidak dapat dicetak langsung dari minyak yang dilelehkan? Karena rantai produksinya menuntut empat tahap kimia yang berurutan: miny",
+      "url": "https://ilmutekkim.vercel.app/artikel/naphtha-ke-plastik-petrokimia/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/naphtha-ke-plastik-petrokimia/cover.jpg"
+    ]
+  },
+  "/artikel/cooling-tower-cara-kerja": {
+    "title": "Cooling Tower: Cara Kerja AC Raksasa Pabrik yang Sering Disangka Cerobong Asap | ilmutekkim",
+    "description": "Menara raksasa berkabut putih itu bukan cerobong asap dan tidak membakar apa pun; ia adalah AC raksasa pabrik yang mendinginkan ribuan meter kubik air tanp",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/cooling-tower-cara-kerja/",
+    "openGraph": {
+      "type": "article",
+      "title": "Cooling Tower: Cara Kerja AC Raksasa Pabrik yang Sering Disangka Cerobong Asap | ilmutekkim",
+      "description": "Menara raksasa berkabut putih itu bukan cerobong asap dan tidak membakar apa pun; ia adalah AC raksasa pabrik yang mendinginkan ribuan meter kubik air tanp",
+      "url": "https://ilmutekkim.vercel.app/artikel/cooling-tower-cara-kerja/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/cooling-tower-cara-kerja/cover.jpg"
+    ]
+  },
+  "/artikel/cooling-tower-wet-bulb-range-approach": {
+    "title": "Menilai Cooling Tower dengan Benar: Wet Bulb, Range, Approach, dan Neraca Air | ilmutekkim",
+    "description": "Pada Senin, air keluar cooling tower 32°C dinilai baik. Pada Selasa, 32°C yang sama dinilai buruk. Tower-nya tidak berubah; penilaian atas cooling tower ka",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/cooling-tower-wet-bulb-range-approach/",
+    "openGraph": {
+      "type": "article",
+      "title": "Menilai Cooling Tower dengan Benar: Wet Bulb, Range, Approach, dan Neraca Air | ilmutekkim",
+      "description": "Pada Senin, air keluar cooling tower 32°C dinilai baik. Pada Selasa, 32°C yang sama dinilai buruk. Tower-nya tidak berubah; penilaian atas cooling tower ka",
+      "url": "https://ilmutekkim.vercel.app/artikel/cooling-tower-wet-bulb-range-approach/"
+    },
+    "images": []
+  },
+  "/artikel/gas-alam-ke-urea-haber-bosch": {
+    "title": "Gas Alam dan Udara Menjadi Pupuk Urea: Proses Haber-Bosch di Pupuk Kaltim | ilmutekkim",
+    "description": "Bagaimana gas alam dan udara yang tidak bernilai gizi bagi tanaman dapat diubah menjadi urea, pupuk yang menopang produksi pangan dunia? Rantai jawabannya ",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/gas-alam-ke-urea-haber-bosch/",
+    "openGraph": {
+      "type": "article",
+      "title": "Gas Alam dan Udara Menjadi Pupuk Urea: Proses Haber-Bosch di Pupuk Kaltim | ilmutekkim",
+      "description": "Bagaimana gas alam dan udara yang tidak bernilai gizi bagi tanaman dapat diubah menjadi urea, pupuk yang menopang produksi pangan dunia? Rantai jawabannya ",
+      "url": "https://ilmutekkim.vercel.app/artikel/gas-alam-ke-urea-haber-bosch/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/gas-alam-ke-urea-haber-bosch/cover.jpg"
+    ]
+  },
+  "/artikel/polimerisasi-konversi-carothers": {
+    "title": "Konversi 99 Persen Masih Kurang: Polimerisasi Step-Growth dan Persamaan Carothers | ilmutekkim",
+    "description": "Mengapa konversi 99 persen, yang dalam reaksi biasa terdengar tuntas, dalam polimerisasi step-growth baru merupakan separuh jalan? Pada konversi tersebut r",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/polimerisasi-konversi-carothers/",
+    "openGraph": {
+      "type": "article",
+      "title": "Konversi 99 Persen Masih Kurang: Polimerisasi Step-Growth dan Persamaan Carothers | ilmutekkim",
+      "description": "Mengapa konversi 99 persen, yang dalam reaksi biasa terdengar tuntas, dalam polimerisasi step-growth baru merupakan separuh jalan? Pada konversi tersebut r",
+      "url": "https://ilmutekkim.vercel.app/artikel/polimerisasi-konversi-carothers/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/polimerisasi-konversi-carothers/cover.jpg"
+    ]
+  },
+  "/artikel/neraca-massa-data-pabrik-bocor": {
+    "title": "Data Pabrik Selalu Bocor Angka? Periksa Dulu Neraca Massanya | ilmutekkim",
+    "description": "Apabila bahan yang masuk tercatat 100 kg dan yang keluar 97 kg, ke mana perginya sisa 3 kg tersebut? Naluri pertama menuduh kebocoran atau pencurian, padah",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/neraca-massa-data-pabrik-bocor/",
+    "openGraph": {
+      "type": "article",
+      "title": "Data Pabrik Selalu Bocor Angka? Periksa Dulu Neraca Massanya | ilmutekkim",
+      "description": "Apabila bahan yang masuk tercatat 100 kg dan yang keluar 97 kg, ke mana perginya sisa 3 kg tersebut? Naluri pertama menuduh kebocoran atau pencurian, padah",
+      "url": "https://ilmutekkim.vercel.app/artikel/neraca-massa-data-pabrik-bocor/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/neraca-massa-data-pabrik-bocor/cover.jpg"
+    ]
+  },
+  "/artikel/oleokimia-sawit-sabun-deterjen": {
+    "title": "Sabun di Rumah Berasal dari Sawit: Alur Kimia Oleokimia | ilmutekkim",
+    "description": "Bagaimana tandan sawit berubah menjadi sabun, deterjen, sampo, dan lotion? Terdapat alur kimia bernama oleokimia yang menghubungkan tandan buah merah di ke",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/oleokimia-sawit-sabun-deterjen/",
+    "openGraph": {
+      "type": "article",
+      "title": "Sabun di Rumah Berasal dari Sawit: Alur Kimia Oleokimia | ilmutekkim",
+      "description": "Bagaimana tandan sawit berubah menjadi sabun, deterjen, sampo, dan lotion? Terdapat alur kimia bernama oleokimia yang menghubungkan tandan buah merah di ke",
+      "url": "https://ilmutekkim.vercel.app/artikel/oleokimia-sawit-sabun-deterjen/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/oleokimia-sawit-sabun-deterjen/cover.jpg"
+    ]
+  },
+  "/artikel/batch-vs-continuous-pabrik": {
+    "title": "Batch vs Continuous: Mengapa Pabrik Makanan dan Petrokimia Berbeda Jauh Cara Kerjanya | ilmutekkim",
+    "description": "Pabrik makanan dan petrokimia seolah hidup di dua dunia berbeda: yang satu berhenti dan berganti resep tiap angkatan, yang satu mengalir siang malam berbul",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/batch-vs-continuous-pabrik/",
+    "openGraph": {
+      "type": "article",
+      "title": "Batch vs Continuous: Mengapa Pabrik Makanan dan Petrokimia Berbeda Jauh Cara Kerjanya | ilmutekkim",
+      "description": "Pabrik makanan dan petrokimia seolah hidup di dua dunia berbeda: yang satu berhenti dan berganti resep tiap angkatan, yang satu mengalir siang malam berbul",
+      "url": "https://ilmutekkim.vercel.app/artikel/batch-vs-continuous-pabrik/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/batch-vs-continuous-pabrik/cover.jpg"
+    ]
+  },
+  "/artikel/tebu-ke-gula-pabrik-gula": {
+    "title": "Tebu Tidak Hanya Diperas: Alur Lengkap Pabrik Gula dari Ladang ke Kristal | ilmutekkim",
+    "description": "Gula pasir yang sampai di dapur kerap dianggap hasil tebu yang diperas kemudian dikeringkan. Di antara batang tebu dan kristal putih itu ternyata terdapat ",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/tebu-ke-gula-pabrik-gula/",
+    "openGraph": {
+      "type": "article",
+      "title": "Tebu Tidak Hanya Diperas: Alur Lengkap Pabrik Gula dari Ladang ke Kristal | ilmutekkim",
+      "description": "Gula pasir yang sampai di dapur kerap dianggap hasil tebu yang diperas kemudian dikeringkan. Di antara batang tebu dan kristal putih itu ternyata terdapat ",
+      "url": "https://ilmutekkim.vercel.app/artikel/tebu-ke-gula-pabrik-gula/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/tebu-ke-gula-pabrik-gula/cover.jpg"
+    ]
+  },
+  "/artikel/utilitas-pabrik-steam-air-nitrogen": {
+    "title": "Utilitas Pabrik: Pabrik di Dalam Pabrik yang Tidak Terlihat (Steam, Air, Nitrogen) | ilmutekkim",
+    "description": "Reaktor sebesar apa pun tidak dapat beroperasi sebelum pabrik kecil di belakangnya hidup terlebih dahulu. Pabrik kecil itu bernama utilitas: ia tidak menju",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/utilitas-pabrik-steam-air-nitrogen/",
+    "openGraph": {
+      "type": "article",
+      "title": "Utilitas Pabrik: Pabrik di Dalam Pabrik yang Tidak Terlihat (Steam, Air, Nitrogen) | ilmutekkim",
+      "description": "Reaktor sebesar apa pun tidak dapat beroperasi sebelum pabrik kecil di belakangnya hidup terlebih dahulu. Pabrik kecil itu bernama utilitas: ia tidak menju",
+      "url": "https://ilmutekkim.vercel.app/artikel/utilitas-pabrik-steam-air-nitrogen/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/utilitas-pabrik-steam-air-nitrogen/cover.jpg"
+    ]
+  },
+  "/artikel/batu-kapur-ke-semen-kiln": {
+    "title": "Batu Kapur Menjadi Semen Melalui Api 1450 Derajat: Proses Kiln dari Tambang ke Kantong | ilmutekkim",
+    "description": "Batu kapur sama sekali tidak lengket, tetapi sesudah melewati api 1450 °C ia berubah menjadi bahan perekat yang paling banyak dipakai manusia. Transformasi",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/batu-kapur-ke-semen-kiln/",
+    "openGraph": {
+      "type": "article",
+      "title": "Batu Kapur Menjadi Semen Melalui Api 1450 Derajat: Proses Kiln dari Tambang ke Kantong | ilmutekkim",
+      "description": "Batu kapur sama sekali tidak lengket, tetapi sesudah melewati api 1450 °C ia berubah menjadi bahan perekat yang paling banyak dipakai manusia. Transformasi",
+      "url": "https://ilmutekkim.vercel.app/artikel/batu-kapur-ke-semen-kiln/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/batu-kapur-ke-semen-kiln/cover.jpg"
+    ]
+  },
+  "/artikel/safety-instrumented-system-lapisan-pengaman": {
+    "title": "Pabrik Aman Bukan Karena Operator Sigap: Cara Kerja Safety Instrumented System | ilmutekkim",
+    "description": "Pabrik kimia yang aman tidak bertumpu pada operator yang selalu sigap, karena manusia bisa lelah, telat, dan salah membaca keadaan. Penjaga terakhir pabrik",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/safety-instrumented-system-lapisan-pengaman/",
+    "openGraph": {
+      "type": "article",
+      "title": "Pabrik Aman Bukan Karena Operator Sigap: Cara Kerja Safety Instrumented System | ilmutekkim",
+      "description": "Pabrik kimia yang aman tidak bertumpu pada operator yang selalu sigap, karena manusia bisa lelah, telat, dan salah membaca keadaan. Penjaga terakhir pabrik",
+      "url": "https://ilmutekkim.vercel.app/artikel/safety-instrumented-system-lapisan-pengaman/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/safety-instrumented-system-lapisan-pengaman/cover.jpg"
+    ]
+  },
+  "/artikel/pulp-kertas-proses-kraft": {
+    "title": "Kayu Keras Menjadi Kertas Lembut: Proses Kraft di Pabrik Pulp Riau | ilmutekkim",
+    "description": "Kayu yang keras keluar dari pabrik sebagai lembaran lembut dan putih, tetapi bukan karena digiling halus. Yang terjadi adalah masakan kimia yang melarutkan",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/pulp-kertas-proses-kraft/",
+    "openGraph": {
+      "type": "article",
+      "title": "Kayu Keras Menjadi Kertas Lembut: Proses Kraft di Pabrik Pulp Riau | ilmutekkim",
+      "description": "Kayu yang keras keluar dari pabrik sebagai lembaran lembut dan putih, tetapi bukan karena digiling halus. Yang terjadi adalah masakan kimia yang melarutkan",
+      "url": "https://ilmutekkim.vercel.app/artikel/pulp-kertas-proses-kraft/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/pulp-kertas-proses-kraft/cover.jpg"
+    ]
+  },
+  "/artikel/permit-to-work-kerja-panas": {
+    "title": "Las Lima Menit Tetap Butuh Izin: Cara Kerja Permit to Work di Pabrik Kimia | ilmutekkim",
+    "description": "Mengapa pekerjaan las yang hanya berlangsung lima menit tidak boleh dimulai sebelum selembar izin ditandatangani? Karena di pabrik kimia, percikan las yang",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/permit-to-work-kerja-panas/",
+    "openGraph": {
+      "type": "article",
+      "title": "Las Lima Menit Tetap Butuh Izin: Cara Kerja Permit to Work di Pabrik Kimia | ilmutekkim",
+      "description": "Mengapa pekerjaan las yang hanya berlangsung lima menit tidak boleh dimulai sebelum selembar izin ditandatangani? Karena di pabrik kimia, percikan las yang",
+      "url": "https://ilmutekkim.vercel.app/artikel/permit-to-work-kerja-panas/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/permit-to-work-kerja-panas/cover.jpg"
+    ]
+  },
+  "/artikel/roadmap-enam-mata-kuliah-pabrik": {
+    "title": "Enam Mata Kuliah yang Sesungguhnya Menjalankan Pabrik: Peta Roadmap Teknik Kimia | ilmutekkim",
+    "description": "Enam mata kuliah inti teknik kimia tampak seperti enam dunia terpisah di transkrip nilai. Di pabrik, keenamnya ternyata bekerja dalam satu aliran yang sama",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/roadmap-enam-mata-kuliah-pabrik/",
+    "openGraph": {
+      "type": "article",
+      "title": "Enam Mata Kuliah yang Sesungguhnya Menjalankan Pabrik: Peta Roadmap Teknik Kimia | ilmutekkim",
+      "description": "Enam mata kuliah inti teknik kimia tampak seperti enam dunia terpisah di transkrip nilai. Di pabrik, keenamnya ternyata bekerja dalam satu aliran yang sama",
+      "url": "https://ilmutekkim.vercel.app/artikel/roadmap-enam-mata-kuliah-pabrik/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/roadmap-enam-mata-kuliah-pabrik/cover.jpg"
+    ]
+  },
+  "/artikel/cs01-step-growth-carothers-dp-runtuh": {
+    "title": "CS-01 Cheat Sheet: DP Polimer Runtuh Apabila Stoikiometri Menyimpang 1 Persen | ilmutekkim",
+    "description": "Jebakan paling terkenal di kelas polimer menyatakan: kejar konversi 99 persen, derajat polimerisasi tinggi akan mengikuti dengan sendirinya. Persamaan Caro",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/cs01-step-growth-carothers-dp-runtuh/",
+    "openGraph": {
+      "type": "article",
+      "title": "CS-01 Cheat Sheet: DP Polimer Runtuh Apabila Stoikiometri Menyimpang 1 Persen | ilmutekkim",
+      "description": "Jebakan paling terkenal di kelas polimer menyatakan: kejar konversi 99 persen, derajat polimerisasi tinggi akan mengikuti dengan sendirinya. Persamaan Caro",
+      "url": "https://ilmutekkim.vercel.app/artikel/cs01-step-growth-carothers-dp-runtuh/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/cs01-step-growth-carothers-dp-runtuh/cover.jpg"
+    ]
+  },
+  "/artikel/control-room-dcs-loop-kontrol": {
+    "title": "Satu Layar Berisi Satu Pabrik: Bedah Control Room dan Loop Kontrol DCS | ilmutekkim",
+    "description": "Satu layar di control room dapat memuat satu pabrik penuh, tetapi layar itu sebenarnya hanya jendela. Yang sungguh bekerja setiap detik adalah loop kontrol",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/control-room-dcs-loop-kontrol/",
+    "openGraph": {
+      "type": "article",
+      "title": "Satu Layar Berisi Satu Pabrik: Bedah Control Room dan Loop Kontrol DCS | ilmutekkim",
+      "description": "Satu layar di control room dapat memuat satu pabrik penuh, tetapi layar itu sebenarnya hanya jendela. Yang sungguh bekerja setiap detik adalah loop kontrol",
+      "url": "https://ilmutekkim.vercel.app/artikel/control-room-dcs-loop-kontrol/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/control-room-dcs-loop-kontrol/cover.jpg"
+    ]
+  },
+  "/artikel/cs02-mccabe-thiele-garis-operasi": {
+    "title": "CS-02 Cheat Sheet: Dua Garis Operasi McCabe-Thiele dan Tangga Tahapnya | ilmutekkim",
+    "description": "Gambar McCabe-Thiele pertama yang digambar mahasiswa biasanya runtuh di satu tempat yang sama: dua garis operasi tertukar posisi, lalu seluruh tangga tahap",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/cs02-mccabe-thiele-garis-operasi/",
+    "openGraph": {
+      "type": "article",
+      "title": "CS-02 Cheat Sheet: Dua Garis Operasi McCabe-Thiele dan Tangga Tahapnya | ilmutekkim",
+      "description": "Gambar McCabe-Thiele pertama yang digambar mahasiswa biasanya runtuh di satu tempat yang sama: dua garis operasi tertukar posisi, lalu seluruh tangga tahap",
+      "url": "https://ilmutekkim.vercel.app/artikel/cs02-mccabe-thiele-garis-operasi/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/cs02-mccabe-thiele-garis-operasi/cover.jpg"
+    ]
+  },
+  "/artikel/preventive-maintenance-bongkar-terjadwal": {
+    "title": "Preventive Maintenance: Mengapa Mesin yang Sehat Tetap Dibongkar Secara Terjadwal | ilmutekkim",
+    "description": "Terdapat pemandangan yang kerap menimbulkan pertanyaan bagi pengamat baru di pabrik: pompa yang pada hari sebelumnya berputar normal, pada hari ini dibongk",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/preventive-maintenance-bongkar-terjadwal/",
+    "openGraph": {
+      "type": "article",
+      "title": "Preventive Maintenance: Mengapa Mesin yang Sehat Tetap Dibongkar Secara Terjadwal | ilmutekkim",
+      "description": "Terdapat pemandangan yang kerap menimbulkan pertanyaan bagi pengamat baru di pabrik: pompa yang pada hari sebelumnya berputar normal, pada hari ini dibongk",
+      "url": "https://ilmutekkim.vercel.app/artikel/preventive-maintenance-bongkar-terjadwal/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/preventive-maintenance-bongkar-terjadwal/cover.jpg"
+    ]
+  },
+  "/artikel/bhopal-1984-lapisan-pengaman-yang-mati": {
+    "title": "Bhopal 1984: Satu Tangki, Satu Kota, dan Lapisan Pengaman yang Mati Satu per Satu | ilmutekkim",
+    "description": "Satu tangki penyimpanan mengubah satu kota dalam satu malam bukan karena satu alat yang rusak secara tiba-tiba, melainkan karena seluruh lapisan pengaman d",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/bhopal-1984-lapisan-pengaman-yang-mati/",
+    "openGraph": {
+      "type": "article",
+      "title": "Bhopal 1984: Satu Tangki, Satu Kota, dan Lapisan Pengaman yang Mati Satu per Satu | ilmutekkim",
+      "description": "Satu tangki penyimpanan mengubah satu kota dalam satu malam bukan karena satu alat yang rusak secara tiba-tiba, melainkan karena seluruh lapisan pengaman d",
+      "url": "https://ilmutekkim.vercel.app/artikel/bhopal-1984-lapisan-pengaman-yang-mati/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/bhopal-1984-lapisan-pengaman-yang-mati/cover.jpg"
+    ]
+  },
+  "/artikel/boiler-meledak-lahirnya-katup-pengaman": {
+    "title": "Boiler yang Meledak dan Lahirnya Katup Pengaman | ilmutekkim",
+    "description": "Katup pengaman lahir pada 1679 dari sebuah panci bertekanan yang model awalnya meledak, kemudian menjadi kewajiban standar setelah satu boiler menewaskan 5",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/boiler-meledak-lahirnya-katup-pengaman/",
+    "openGraph": {
+      "type": "article",
+      "title": "Boiler yang Meledak dan Lahirnya Katup Pengaman | ilmutekkim",
+      "description": "Katup pengaman lahir pada 1679 dari sebuah panci bertekanan yang model awalnya meledak, kemudian menjadi kewajiban standar setelah satu boiler menewaskan 5",
+      "url": "https://ilmutekkim.vercel.app/artikel/boiler-meledak-lahirnya-katup-pengaman/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/boiler-meledak-lahirnya-katup-pengaman/cover.jpg"
+    ]
+  },
+  "/artikel/coffey-still-1830-distilasi-kontinu": {
+    "title": "Coffey Still 1830: Ketika Distilasi Berhenti Menjadi Kerja Batch | ilmutekkim",
+    "description": "Sebelum 1830, menyuling berarti memasak ulang berkali-kali dalam satu siklus yang lambat, dan perubahan terbesarnya justru dirancang oleh seorang pegawai c",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/coffey-still-1830-distilasi-kontinu/",
+    "openGraph": {
+      "type": "article",
+      "title": "Coffey Still 1830: Ketika Distilasi Berhenti Menjadi Kerja Batch | ilmutekkim",
+      "description": "Sebelum 1830, menyuling berarti memasak ulang berkali-kali dalam satu siklus yang lambat, dan perubahan terbesarnya justru dirancang oleh seorang pegawai c",
+      "url": "https://ilmutekkim.vercel.app/artikel/coffey-still-1830-distilasi-kontinu/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/coffey-still-1830-distilasi-kontinu/cover.jpg"
+    ]
+  },
+  "/artikel/cs03-reflux-minimum-jebakan-mahal": {
+    "title": "CS-03 Cheat Sheet: Reflux Minimum, Reflux Total, dan Reflux Operasi | ilmutekkim",
+    "description": "Saran yang terdengar paling hemat dalam perancangan kolom distilasi, yaitu mengoperasikan kolom tepat pada reflux minimum, justru merupakan jebakan yang pa",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/cs03-reflux-minimum-jebakan-mahal/",
+    "openGraph": {
+      "type": "article",
+      "title": "CS-03 Cheat Sheet: Reflux Minimum, Reflux Total, dan Reflux Operasi | ilmutekkim",
+      "description": "Saran yang terdengar paling hemat dalam perancangan kolom distilasi, yaitu mengoperasikan kolom tepat pada reflux minimum, justru merupakan jebakan yang pa",
+      "url": "https://ilmutekkim.vercel.app/artikel/cs03-reflux-minimum-jebakan-mahal/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/cs03-reflux-minimum-jebakan-mahal/cover.jpg"
+    ]
+  },
+  "/artikel/cs04-fouling-lmtd-meleset": {
+    "title": "CS-04 Cheat Sheet: Fouling Membuat Hitungan LMTD Meleset | ilmutekkim",
+    "description": "Hasil hitung beda suhu rata-rata logaritmik dapat saja benar secara matematis, tetapi duty penukar panas yang dihitung darinya tetap meleset jauh apabila k",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/cs04-fouling-lmtd-meleset/",
+    "openGraph": {
+      "type": "article",
+      "title": "CS-04 Cheat Sheet: Fouling Membuat Hitungan LMTD Meleset | ilmutekkim",
+      "description": "Hasil hitung beda suhu rata-rata logaritmik dapat saja benar secara matematis, tetapi duty penukar panas yang dihitung darinya tetap meleset jauh apabila k",
+      "url": "https://ilmutekkim.vercel.app/artikel/cs04-fouling-lmtd-meleset/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/cs04-fouling-lmtd-meleset/cover.jpg"
+    ]
+  },
+  "/artikel/cs05-azeotrop-etanol-956": {
+    "title": "CS-05 Cheat Sheet: Azeotrop, Alasan Etanol Berhenti di 95,6 Persen | ilmutekkim",
+    "description": "Ada batas pemisahan yang tidak dapat dilewati dengan menambah tray atau menaikkan reflux, dan batas itu bernama azeotrop. Etanol dan air membentuk azeotrop",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/cs05-azeotrop-etanol-956/",
+    "openGraph": {
+      "type": "article",
+      "title": "CS-05 Cheat Sheet: Azeotrop, Alasan Etanol Berhenti di 95,6 Persen | ilmutekkim",
+      "description": "Ada batas pemisahan yang tidak dapat dilewati dengan menambah tray atau menaikkan reflux, dan batas itu bernama azeotrop. Etanol dan air membentuk azeotrop",
+      "url": "https://ilmutekkim.vercel.app/artikel/cs05-azeotrop-etanol-956/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/cs05-azeotrop-etanol-956/cover.jpg"
+    ]
+  },
+  "/artikel/cs06-purge-recycle-gas-inert": {
+    "title": "CS-06 Cheat Sheet: Neraca Massa Recycle dan Fungsi Purge | ilmutekkim",
+    "description": "Menutup keran purge tampak seperti penghematan, karena tidak ada lagi bahan yang terbuang dari loop recycle. Penampilan tersebut menipu: di dalam loop, kom",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/cs06-purge-recycle-gas-inert/",
+    "openGraph": {
+      "type": "article",
+      "title": "CS-06 Cheat Sheet: Neraca Massa Recycle dan Fungsi Purge | ilmutekkim",
+      "description": "Menutup keran purge tampak seperti penghematan, karena tidak ada lagi bahan yang terbuang dari loop recycle. Penampilan tersebut menipu: di dalam loop, kom",
+      "url": "https://ilmutekkim.vercel.app/artikel/cs06-purge-recycle-gas-inert/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/cs06-purge-recycle-gas-inert/cover.jpg"
+    ]
+  },
+  "/artikel/cs07-pompa-kompresor-versi-ujian": {
+    "title": "CS-07 Cheat Sheet: Pompa atau Kompresor, Head atau Pressure Ratio | ilmutekkim",
+    "description": "Pompa dan kompresor sama-sama memindahkan fluida, tetapi menjawab soal pompa dengan rumus kompresor, atau sebaliknya, menggugurkan jawaban ujian secara kes",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/cs07-pompa-kompresor-versi-ujian/",
+    "openGraph": {
+      "type": "article",
+      "title": "CS-07 Cheat Sheet: Pompa atau Kompresor, Head atau Pressure Ratio | ilmutekkim",
+      "description": "Pompa dan kompresor sama-sama memindahkan fluida, tetapi menjawab soal pompa dengan rumus kompresor, atau sebaliknya, menggugurkan jawaban ujian secara kes",
+      "url": "https://ilmutekkim.vercel.app/artikel/cs07-pompa-kompresor-versi-ujian/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/cs07-pompa-kompresor-versi-ujian/cover.jpg"
+    ]
+  },
+  "/artikel/cs08-cooling-tower-wet-bulb-ujian": {
+    "title": "CS-08 Cheat Sheet: Wet Bulb, Penentu Suhu Air Dingin Cooling Tower | ilmutekkim",
+    "description": "Sebuah soal ujian meminta suhu air dingin cooling tower ditetapkan 20 °C, dan jawaban itu gugur sebelum perhitungan dimulai. Suhu air dingin mempunyai bata",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/cs08-cooling-tower-wet-bulb-ujian/",
+    "openGraph": {
+      "type": "article",
+      "title": "CS-08 Cheat Sheet: Wet Bulb, Penentu Suhu Air Dingin Cooling Tower | ilmutekkim",
+      "description": "Sebuah soal ujian meminta suhu air dingin cooling tower ditetapkan 20 °C, dan jawaban itu gugur sebelum perhitungan dimulai. Suhu air dingin mempunyai bata",
+      "url": "https://ilmutekkim.vercel.app/artikel/cs08-cooling-tower-wet-bulb-ujian/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/cs08-cooling-tower-wet-bulb-ujian/cover.jpg"
+    ]
+  },
+  "/artikel/cs09-batch-vs-cstr-volume": {
+    "title": "CS-09 Cheat Sheet: Batch vs CSTR, Mengapa Volumenya Berbeda Empat Kali | ilmutekkim",
+    "description": "Dua reaktor diminta mencapai konversi yang sama, dan anggapan yang terdengar modern menyatakan bahwa reaktor kontinu pasti membutuhkan volume yang lebih ke",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/cs09-batch-vs-cstr-volume/",
+    "openGraph": {
+      "type": "article",
+      "title": "CS-09 Cheat Sheet: Batch vs CSTR, Mengapa Volumenya Berbeda Empat Kali | ilmutekkim",
+      "description": "Dua reaktor diminta mencapai konversi yang sama, dan anggapan yang terdengar modern menyatakan bahwa reaktor kontinu pasti membutuhkan volume yang lebih ke",
+      "url": "https://ilmutekkim.vercel.app/artikel/cs09-batch-vs-cstr-volume/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/cs09-batch-vs-cstr-volume/cover.jpg"
+    ]
+  },
+  "/artikel/cs10-pid-sepuluh-simbol-ujian": {
+    "title": "CS-10 Cheat Sheet: Sepuluh Simbol P&ID yang Paling Sering Keluar di Ujian | ilmutekkim",
+    "description": "Tiga simbol katup pada P&ID digambar dengan bentuk bowtie yang hampir sama, dan anggapan bahwa bentuk yang mirip berarti fungsi yang sama adalah jebakan ya",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/cs10-pid-sepuluh-simbol-ujian/",
+    "openGraph": {
+      "type": "article",
+      "title": "CS-10 Cheat Sheet: Sepuluh Simbol P&ID yang Paling Sering Keluar di Ujian | ilmutekkim",
+      "description": "Tiga simbol katup pada P&ID digambar dengan bentuk bowtie yang hampir sama, dan anggapan bahwa bentuk yang mirip berarti fungsi yang sama adalah jebakan ya",
+      "url": "https://ilmutekkim.vercel.app/artikel/cs10-pid-sepuluh-simbol-ujian/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/cs10-pid-sepuluh-simbol-ujian/cover.jpg"
+    ]
+  },
+  "/artikel/cs11-relief-set-pressure-mawp": {
+    "title": "CS-11 Cheat Sheet: Set Pressure Bukan Tekanan Maksimum Bejana | ilmutekkim",
+    "description": "Tiga angka tekanan pada satu bejana sering tertukar, dan tertukarnya satu angka dapat membuat bejana pecah sebelum katup pengamannya sempat terbuka. Urutan",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/cs11-relief-set-pressure-mawp/",
+    "openGraph": {
+      "type": "article",
+      "title": "CS-11 Cheat Sheet: Set Pressure Bukan Tekanan Maksimum Bejana | ilmutekkim",
+      "description": "Tiga angka tekanan pada satu bejana sering tertukar, dan tertukarnya satu angka dapat membuat bejana pecah sebelum katup pengamannya sempat terbuka. Urutan",
+      "url": "https://ilmutekkim.vercel.app/artikel/cs11-relief-set-pressure-mawp/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/cs11-relief-set-pressure-mawp/cover.jpg"
+    ]
+  },
+  "/artikel/cs12-gliserol-satu-ton-cpo": {
+    "title": "CS-12 Cheat Sheet: Satu Ton CPO dan 104 Kilogram Gliserol | ilmutekkim",
+    "description": "Setiap satu ton minyak sawit yang diubah menjadi biodiesel menghasilkan sekitar 104 kilogram gliserol, dan massa tersebut tidak hilang di dalam reaktor. Ne",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/cs12-gliserol-satu-ton-cpo/",
+    "openGraph": {
+      "type": "article",
+      "title": "CS-12 Cheat Sheet: Satu Ton CPO dan 104 Kilogram Gliserol | ilmutekkim",
+      "description": "Setiap satu ton minyak sawit yang diubah menjadi biodiesel menghasilkan sekitar 104 kilogram gliserol, dan massa tersebut tidak hilang di dalam reaktor. Ne",
+      "url": "https://ilmutekkim.vercel.app/artikel/cs12-gliserol-satu-ton-cpo/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/cs12-gliserol-satu-ton-cpo/cover.jpg"
+    ]
+  },
+  "/artikel/cs13-raoult-kesetimbangan-uap-cair": {
+    "title": "CS-13 Cheat Sheet: Hukum Raoult, dari x1 = 0,4 Menjadi y1 = 0,63 | ilmutekkim",
+    "description": "Fraksi benzena di cairan hanya 0,4, tetapi fraksi benzena di uap yang berada dalam kesetimbangan dengannya mencapai 0,63. Selisih tersebut bukan kesalahan ",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/cs13-raoult-kesetimbangan-uap-cair/",
+    "openGraph": {
+      "type": "article",
+      "title": "CS-13 Cheat Sheet: Hukum Raoult, dari x1 = 0,4 Menjadi y1 = 0,63 | ilmutekkim",
+      "description": "Fraksi benzena di cairan hanya 0,4, tetapi fraksi benzena di uap yang berada dalam kesetimbangan dengannya mencapai 0,63. Selisih tersebut bukan kesalahan ",
+      "url": "https://ilmutekkim.vercel.app/artikel/cs13-raoult-kesetimbangan-uap-cair/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/cs13-raoult-kesetimbangan-uap-cair/cover.jpg"
+    ]
+  },
+  "/artikel/cs14-absorpsi-vs-stripping-kremser": {
+    "title": "CS-14 Cheat Sheet: Absorpsi vs Stripping, Satu Kolom Dua Arah | ilmutekkim",
+    "description": "Satu kolom yang sama dapat membersihkan gas dan dapat pula mengambil zat dari cairan, bergantung pada arah perpindahan komponen di dalamnya. Absorpsi dan s",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/cs14-absorpsi-vs-stripping-kremser/",
+    "openGraph": {
+      "type": "article",
+      "title": "CS-14 Cheat Sheet: Absorpsi vs Stripping, Satu Kolom Dua Arah | ilmutekkim",
+      "description": "Satu kolom yang sama dapat membersihkan gas dan dapat pula mengambil zat dari cairan, bergantung pada arah perpindahan komponen di dalamnya. Absorpsi dan s",
+      "url": "https://ilmutekkim.vercel.app/artikel/cs14-absorpsi-vs-stripping-kremser/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/cs14-absorpsi-vs-stripping-kremser/cover.jpg"
+    ]
+  },
+  "/artikel/flixborough-sketsa-kapur-manajemen-perubahan": {
+    "title": "Flixborough: Sketsa Kapur, Pipa Darurat, dan Lahirnya Manajemen Perubahan | ilmutekkim",
+    "description": "Sebuah pipa darurat yang digambar dengan kapur di lantai bengkel meledakkan satu pabrik dan menewaskan 28 orang pada 1 Juni 1974. Peristiwa Flixborough men",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/flixborough-sketsa-kapur-manajemen-perubahan/",
+    "openGraph": {
+      "type": "article",
+      "title": "Flixborough: Sketsa Kapur, Pipa Darurat, dan Lahirnya Manajemen Perubahan | ilmutekkim",
+      "description": "Sebuah pipa darurat yang digambar dengan kapur di lantai bengkel meledakkan satu pabrik dan menewaskan 28 orang pada 1 Juni 1974. Peristiwa Flixborough men",
+      "url": "https://ilmutekkim.vercel.app/artikel/flixborough-sketsa-kapur-manajemen-perubahan/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/flixborough-sketsa-kapur-manajemen-perubahan/cover.jpg"
+    ]
+  },
+  "/artikel/ipal-tujuh-tahap-air-limbah": {
+    "title": "IPAL Pabrik: Tujuh Tahap Air Limbah Sebelum Kembali Bersih | ilmutekkim",
+    "description": "Air limbah pabrik yang tampak encer belum tentu aman, karena parameter yang paling berbahaya justru tidak terlihat oleh mata: kebutuhan oksigen kimiawi, pa",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/ipal-tujuh-tahap-air-limbah/",
+    "openGraph": {
+      "type": "article",
+      "title": "IPAL Pabrik: Tujuh Tahap Air Limbah Sebelum Kembali Bersih | ilmutekkim",
+      "description": "Air limbah pabrik yang tampak encer belum tentu aman, karena parameter yang paling berbahaya justru tidak terlihat oleh mata: kebutuhan oksigen kimiawi, pa",
+      "url": "https://ilmutekkim.vercel.app/artikel/ipal-tujuh-tahap-air-limbah/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/ipal-tujuh-tahap-air-limbah/cover.jpg"
+    ]
+  },
+  "/artikel/level-apd-kelas-cedera": {
+    "title": "Level APD: Salah Memilih Level, Kelas Cederanya Berbeda | ilmutekkim",
+    "description": "Helm dan sepatu keselamatan sering diperlakukan sebagai jawaban untuk semua pekerjaan, padahal keduanya hanya menempati level paling dasar dalam pemilihan ",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/level-apd-kelas-cedera/",
+    "openGraph": {
+      "type": "article",
+      "title": "Level APD: Salah Memilih Level, Kelas Cederanya Berbeda | ilmutekkim",
+      "description": "Helm dan sepatu keselamatan sering diperlakukan sebagai jawaban untuk semua pekerjaan, padahal keduanya hanya menempati level paling dasar dalam pemilihan ",
+      "url": "https://ilmutekkim.vercel.app/artikel/level-apd-kelas-cedera/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/level-apd-kelas-cedera/cover.jpg"
+    ]
+  },
+  "/artikel/near-miss-hampir-celaka-wajib-lapor": {
+    "title": "Near Miss: Mengapa Hampir Celaka Wajib Dilaporkan Sebelum Memakan Korban | ilmutekkim",
+    "description": "Kejadian yang berakhir tanpa korban sering dianggap selesai dengan sendirinya, padahal kejadian semacam itu adalah peringatan paling murah yang dapat diter",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/near-miss-hampir-celaka-wajib-lapor/",
+    "openGraph": {
+      "type": "article",
+      "title": "Near Miss: Mengapa Hampir Celaka Wajib Dilaporkan Sebelum Memakan Korban | ilmutekkim",
+      "description": "Kejadian yang berakhir tanpa korban sering dianggap selesai dengan sendirinya, padahal kejadian semacam itu adalah peringatan paling murah yang dapat diter",
+      "url": "https://ilmutekkim.vercel.app/artikel/near-miss-hampir-celaka-wajib-lapor/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/near-miss-hampir-celaka-wajib-lapor/cover.jpg"
+    ]
+  },
+  "/artikel/satuan-tekanan-torricelli-titik-nol": {
+    "title": "Satuan Tekanan: Torricelli, Gauge, Absolut, dan Titik Nol yang Menentukan | ilmutekkim",
+    "description": "Sebelum 1643, tidak ada yang mengetahui bahwa udara mempunyai berat yang dapat diukur. Pada tahun itu sebuah tabung berisi air raksa memberikan angka perta",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/satuan-tekanan-torricelli-titik-nol/",
+    "openGraph": {
+      "type": "article",
+      "title": "Satuan Tekanan: Torricelli, Gauge, Absolut, dan Titik Nol yang Menentukan | ilmutekkim",
+      "description": "Sebelum 1643, tidak ada yang mengetahui bahwa udara mempunyai berat yang dapat diukur. Pada tahun itu sebuah tabung berisi air raksa memberikan angka perta",
+      "url": "https://ilmutekkim.vercel.app/artikel/satuan-tekanan-torricelli-titik-nol/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/satuan-tekanan-torricelli-titik-nol/cover.jpg"
+    ]
+  },
+  "/artikel/seligman-1923-plate-heat-exchanger": {
+    "title": "Seligman 1923: Ahli Aluminium yang Mengubah Cara Susu Dipanaskan | ilmutekkim",
+    "description": "Penemu plate heat exchanger bukan orang dari industri susu, melainkan ahli aluminium yang mematenkan pelat tipis yang dijepit menjadi satu kesatuan pada 19",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/seligman-1923-plate-heat-exchanger/",
+    "openGraph": {
+      "type": "article",
+      "title": "Seligman 1923: Ahli Aluminium yang Mengubah Cara Susu Dipanaskan | ilmutekkim",
+      "description": "Penemu plate heat exchanger bukan orang dari industri susu, melainkan ahli aluminium yang mematenkan pelat tipis yang dijepit menjadi satu kesatuan pada 19",
+      "url": "https://ilmutekkim.vercel.app/artikel/seligman-1923-plate-heat-exchanger/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/seligman-1923-plate-heat-exchanger/cover.jpg"
+    ]
+  },
+  "/artikel/texas-city-2005-informasi-yang-hilang": {
+    "title": "Texas City 2005: Ledakan Kilang yang Berawal dari Informasi yang Tidak Sampai | ilmutekkim",
+    "description": "Pada 23 Maret 2005, kilang BP di Texas City meledak saat startup unit isomerisasi dan menewaskan 15 pekerja. Investigasi sesudahnya menemukan rantai penyeb",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/texas-city-2005-informasi-yang-hilang/",
+    "openGraph": {
+      "type": "article",
+      "title": "Texas City 2005: Ledakan Kilang yang Berawal dari Informasi yang Tidak Sampai | ilmutekkim",
+      "description": "Pada 23 Maret 2005, kilang BP di Texas City meledak saat startup unit isomerisasi dan menewaskan 15 pekerja. Investigasi sesudahnya menemukan rantai penyeb",
+      "url": "https://ilmutekkim.vercel.app/artikel/texas-city-2005-informasi-yang-hilang/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/texas-city-2005-informasi-yang-hilang/cover.jpg"
+    ]
+  },
+  "/artikel/toolbox-meeting-lima-menit-menyelamatkan-nyawa": {
+    "title": "Toolbox Meeting: Lima Menit yang Menyelamatkan Nyawa | ilmutekkim",
+    "description": "Sebuah rapat yang hanya berlangsung 5 sampai 15 menit ternyata memikul fungsi yang menentukan keselamatan satu shift penuh. Toolbox meeting adalah mekanism",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/toolbox-meeting-lima-menit-menyelamatkan-nyawa/",
+    "openGraph": {
+      "type": "article",
+      "title": "Toolbox Meeting: Lima Menit yang Menyelamatkan Nyawa | ilmutekkim",
+      "description": "Sebuah rapat yang hanya berlangsung 5 sampai 15 menit ternyata memikul fungsi yang menentukan keselamatan satu shift penuh. Toolbox meeting adalah mekanism",
+      "url": "https://ilmutekkim.vercel.app/artikel/toolbox-meeting-lima-menit-menyelamatkan-nyawa/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/toolbox-meeting-lima-menit-menyelamatkan-nyawa/cover.jpg"
+    ]
+  },
+  "/artikel/warna-pipa-bahasa-peringatan": {
+    "title": "Warna Pipa di Pabrik: Bahasa Peringatan yang Lahir dari Kecelakaan | ilmutekkim",
+    "description": "Sebelum standar warna pipa ada, pipa di pabrik dicat mengikuti cat yang tersedia, dan operator menebak isi pipa dari karat dan bau. Tebakan yang salah pern",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/warna-pipa-bahasa-peringatan/",
+    "openGraph": {
+      "type": "article",
+      "title": "Warna Pipa di Pabrik: Bahasa Peringatan yang Lahir dari Kecelakaan | ilmutekkim",
+      "description": "Sebelum standar warna pipa ada, pipa di pabrik dicat mengikuti cat yang tersedia, dan operator menebak isi pipa dari karat dan bau. Tebakan yang salah pern",
+      "url": "https://ilmutekkim.vercel.app/artikel/warna-pipa-bahasa-peringatan/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/warna-pipa-bahasa-peringatan/cover.jpg"
+    ]
+  },
+  "/artikel/desuperheater-uap-disemprot-air": {
+    "title": "Desuperheater: Mengapa Uap 450 Derajat Disemprot Air Sebelum Masuk Turbin | ilmutekkim",
+    "description": "Uap yang keluar dari superheater dapat mencapai 450°C, sedangkan turbin memerlukan uap pada suhu yang lebih rendah dan terkendali. Desuperheater menyelesai",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/desuperheater-uap-disemprot-air/",
+    "openGraph": {
+      "type": "article",
+      "title": "Desuperheater: Mengapa Uap 450 Derajat Disemprot Air Sebelum Masuk Turbin | ilmutekkim",
+      "description": "Uap yang keluar dari superheater dapat mencapai 450°C, sedangkan turbin memerlukan uap pada suhu yang lebih rendah dan terkendali. Desuperheater menyelesai",
+      "url": "https://ilmutekkim.vercel.app/artikel/desuperheater-uap-disemprot-air/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/desuperheater-uap-disemprot-air/cover.jpg"
+    ]
+  },
+  "/artikel/flame-arrestor-lampu-davy-1815": {
+    "title": "Flame Arrestor: Prinsip Lampu Davy 1815 yang Menjaga Vent Tangki | ilmutekkim",
+    "description": "Gas metana yang merembes di tambang batu bara pernah meledak hanya karena tersulut lampu api terbuka, dan persoalan yang sama kini mengancam vent tangki ba",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/flame-arrestor-lampu-davy-1815/",
+    "openGraph": {
+      "type": "article",
+      "title": "Flame Arrestor: Prinsip Lampu Davy 1815 yang Menjaga Vent Tangki | ilmutekkim",
+      "description": "Gas metana yang merembes di tambang batu bara pernah meledak hanya karena tersulut lampu api terbuka, dan persoalan yang sama kini mengancam vent tangki ba",
+      "url": "https://ilmutekkim.vercel.app/artikel/flame-arrestor-lampu-davy-1815/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/flame-arrestor-lampu-davy-1815/cover.jpg"
+    ]
+  },
+  "/artikel/kavitasi-pompa-gelembung-mengeruk-baja": {
+    "title": "Kavitasi Pompa: Gelembung Kecil yang Mengeruk Baja dari Dalam | ilmutekkim",
+    "description": "Pompa sentrifugal yang sehat berbunyi halus. Apabila bunyinya berubah menjadi seperti kerikil yang diaduk di dalam casing, pompa tersebut kemungkinan besar",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/kavitasi-pompa-gelembung-mengeruk-baja/",
+    "openGraph": {
+      "type": "article",
+      "title": "Kavitasi Pompa: Gelembung Kecil yang Mengeruk Baja dari Dalam | ilmutekkim",
+      "description": "Pompa sentrifugal yang sehat berbunyi halus. Apabila bunyinya berubah menjadi seperti kerikil yang diaduk di dalam casing, pompa tersebut kemungkinan besar",
+      "url": "https://ilmutekkim.vercel.app/artikel/kavitasi-pompa-gelembung-mengeruk-baja/"
+    },
+    "images": []
+  },
+  "/artikel/molecular-sieve-mengeringkan-gas": {
+    "title": "Molecular Sieve: Saringan yang Mengeringkan Gas dan Membersihkan Dirinya Sendiri | ilmutekkim",
+    "description": "Gas alam yang keluar dari sumur selalu membawa uap air, dan uap air tersebut dapat berubah menjadi kristal hidrat yang menyumbat pipa bertekanan. Molecular",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/molecular-sieve-mengeringkan-gas/",
+    "openGraph": {
+      "type": "article",
+      "title": "Molecular Sieve: Saringan yang Mengeringkan Gas dan Membersihkan Dirinya Sendiri | ilmutekkim",
+      "description": "Gas alam yang keluar dari sumur selalu membawa uap air, dan uap air tersebut dapat berubah menjadi kristal hidrat yang menyumbat pipa bertekanan. Molecular",
+      "url": "https://ilmutekkim.vercel.app/artikel/molecular-sieve-mengeringkan-gas/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/molecular-sieve-mengeringkan-gas/cover.jpg"
+    ]
+  },
+  "/artikel/pigging-membersihkan-pipa-dari-dalam": {
+    "title": "Pigging: Membersihkan Pipa Minyak dari Dalam Tanpa Membongkar | ilmutekkim",
+    "description": "Membersihkan pipa minyak tidak selalu berarti membongkar rangkaian pipa. Sebuah alat bernama pig dimasukkan melalui launcher, berjalan di dalam pipa mengik",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/pigging-membersihkan-pipa-dari-dalam/",
+    "openGraph": {
+      "type": "article",
+      "title": "Pigging: Membersihkan Pipa Minyak dari Dalam Tanpa Membongkar | ilmutekkim",
+      "description": "Membersihkan pipa minyak tidak selalu berarti membongkar rangkaian pipa. Sebuah alat bernama pig dimasukkan melalui launcher, berjalan di dalam pipa mengik",
+      "url": "https://ilmutekkim.vercel.app/artikel/pigging-membersihkan-pipa-dari-dalam/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/pigging-membersihkan-pipa-dari-dalam/cover.jpg"
+    ]
+  },
+  "/artikel/thermocouple-seebeck-1821": {
+    "title": "Thermocouple: Dua Kawat Logam yang Membaca Suhu Tanpa Baterai Sejak 1821 | ilmutekkim",
+    "description": "Sebagian besar angka suhu yang tampil di ruang kendali pabrik lahir dari dua kawat logam yang dilas pada satu titik, tanpa baterai dan tanpa elemen pemanas",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/thermocouple-seebeck-1821/",
+    "openGraph": {
+      "type": "article",
+      "title": "Thermocouple: Dua Kawat Logam yang Membaca Suhu Tanpa Baterai Sejak 1821 | ilmutekkim",
+      "description": "Sebagian besar angka suhu yang tampil di ruang kendali pabrik lahir dari dua kawat logam yang dilas pada satu titik, tanpa baterai dan tanpa elemen pemanas",
+      "url": "https://ilmutekkim.vercel.app/artikel/thermocouple-seebeck-1821/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/img/thermocouple-seebeck-1821/cover.jpg"
+    ]
+  },
+  "/artikel/water-hammer-palu-air-pipa": {
+    "title": "Water Hammer: Palu Air, Lonjakan Tekanan yang Memecahkan Pipa | ilmutekkim",
+    "description": "Bunyi dug yang terdengar sesaat setelah keran ditutup merupakan versi kecil dari peristiwa yang di pabrik dan jaringan pipa kota sanggup memecahkan pipa ba",
+    "canonical": "https://ilmutekkim.vercel.app/artikel/water-hammer-palu-air-pipa/",
+    "openGraph": {
+      "type": "article",
+      "title": "Water Hammer: Palu Air, Lonjakan Tekanan yang Memecahkan Pipa | ilmutekkim",
+      "description": "Bunyi dug yang terdengar sesaat setelah keran ditutup merupakan versi kecil dari peristiwa yang di pabrik dan jaringan pipa kota sanggup memecahkan pipa ba",
+      "url": "https://ilmutekkim.vercel.app/artikel/water-hammer-palu-air-pipa/"
+    },
+    "images": []
+  },
+  "/video/sampling-rutin-lab": {
+    "title": "Sampling Rutin: Mengapa Sampel Manual Tetap Diambil Setiap Jam | Video ilmutekkim",
+    "description": "Sensor online membaca terus menerus, tapi pabrik tetap mengambil sampel manual tiap jam untuk diuji di lab. Video ini membedah kenapa cara manual belum dit",
+    "canonical": "https://ilmutekkim.vercel.app/video/sampling-rutin-lab/",
+    "openGraph": {
+      "type": "article",
+      "title": "Sampling Rutin: Mengapa Sampel Manual Tetap Diambil Setiap Jam | Video ilmutekkim",
+      "description": "Sensor online membaca terus menerus, tapi pabrik tetap mengambil sampel manual tiap jam untuk diuji di lab. Video ini membedah kenapa cara manual belum dit",
+      "url": "https://ilmutekkim.vercel.app/video/sampling-rutin-lab/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/video/sampling-rutin-lab-poster.jpg"
+    ]
+  },
+  "/video/shift-handover-logbook": {
+    "title": "Shift Handover: Mengapa Logbook Tulisan Tangan Belum Tergantikan | Video ilmutekkim",
+    "description": "Pabrik jalan 24 jam, operator berganti tiap shift. Video ini membedah kenapa serah terima tidak cukup mengandalkan layar, dan kenapa logbook tulisan tangan",
+    "canonical": "https://ilmutekkim.vercel.app/video/shift-handover-logbook/",
+    "openGraph": {
+      "type": "article",
+      "title": "Shift Handover: Mengapa Logbook Tulisan Tangan Belum Tergantikan | Video ilmutekkim",
+      "description": "Pabrik jalan 24 jam, operator berganti tiap shift. Video ini membedah kenapa serah terima tidak cukup mengandalkan layar, dan kenapa logbook tulisan tangan",
+      "url": "https://ilmutekkim.vercel.app/video/shift-handover-logbook/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/video/shift-handover-logbook-poster.jpg"
+    ]
+  },
+  "/video/hilirisasi-nikel-baterai-ev": {
+    "title": "Hilirisasi Nikel: Jalur Pengolahan Bijih Menjadi Baterai EV | Video ilmutekkim",
+    "description": "Kadar nikel di bijih laterit cuma sekitar 1 sampai 2 persen. Video ini membedah kenapa bijihnya harus dipilah dulu, dan kenapa ada dua jalur pabrik yang sa",
+    "canonical": "https://ilmutekkim.vercel.app/video/hilirisasi-nikel-baterai-ev/",
+    "openGraph": {
+      "type": "article",
+      "title": "Hilirisasi Nikel: Jalur Pengolahan Bijih Menjadi Baterai EV | Video ilmutekkim",
+      "description": "Kadar nikel di bijih laterit cuma sekitar 1 sampai 2 persen. Video ini membedah kenapa bijihnya harus dipilah dulu, dan kenapa ada dua jalur pabrik yang sa",
+      "url": "https://ilmutekkim.vercel.app/video/hilirisasi-nikel-baterai-ev/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/video/hilirisasi-nikel-baterai-ev-poster.jpg"
+    ]
+  },
+  "/video/pasir-jadi-chip-ai": {
+    "title": "Pasir Menjadi Chip AI: Reaksi, Distilasi, dan Kristal di Baliknya | Video ilmutekkim",
+    "description": "Chip AI berawal dari pasir kuarsa. Video ini membedah kenapa pasir sembarangan tidak bisa langsung jadi chip, dan kenapa kemurnian ekstrem adalah inti tekn",
+    "canonical": "https://ilmutekkim.vercel.app/video/pasir-jadi-chip-ai/",
+    "openGraph": {
+      "type": "article",
+      "title": "Pasir Menjadi Chip AI: Reaksi, Distilasi, dan Kristal di Baliknya | Video ilmutekkim",
+      "description": "Chip AI berawal dari pasir kuarsa. Video ini membedah kenapa pasir sembarangan tidak bisa langsung jadi chip, dan kenapa kemurnian ekstrem adalah inti tekn",
+      "url": "https://ilmutekkim.vercel.app/video/pasir-jadi-chip-ai/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/video/pasir-jadi-chip-ai-poster.jpg"
+    ]
+  },
+  "/video/distilasi-minyak-mentah": {
+    "title": "Distilasi Minyak Mentah: Satu Kolom, Banyak Produk Keluar | Video ilmutekkim",
+    "description": "Minyak mentah tidak dipisah pakai saringan, tapi pakai titik didih di satu kolom tinggi. Video ini membedah alur dari fired heater sampai produk keluar ses",
+    "canonical": "https://ilmutekkim.vercel.app/video/distilasi-minyak-mentah/",
+    "openGraph": {
+      "type": "article",
+      "title": "Distilasi Minyak Mentah: Satu Kolom, Banyak Produk Keluar | Video ilmutekkim",
+      "description": "Minyak mentah tidak dipisah pakai saringan, tapi pakai titik didih di satu kolom tinggi. Video ini membedah alur dari fired heater sampai produk keluar ses",
+      "url": "https://ilmutekkim.vercel.app/video/distilasi-minyak-mentah/"
+    },
+    "images": []
+  },
+  "/video/process-safety-bukan-apd": {
+    "title": "Process Safety Bukan tentang APD: Hazard, Risk, dan Barrier Berlapis | Video ilmutekkim",
+    "description": "APD melindungi orang setelah bahaya terlepas. Process safety mencegah pelepasannya sejak awal. Video ini membedah tiga kata kuncinya dan kenapa lapisannya ",
+    "canonical": "https://ilmutekkim.vercel.app/video/process-safety-bukan-apd/",
+    "openGraph": {
+      "type": "article",
+      "title": "Process Safety Bukan tentang APD: Hazard, Risk, dan Barrier Berlapis | Video ilmutekkim",
+      "description": "APD melindungi orang setelah bahaya terlepas. Process safety mencegah pelepasannya sejak awal. Video ini membedah tiga kata kuncinya dan kenapa lapisannya ",
+      "url": "https://ilmutekkim.vercel.app/video/process-safety-bukan-apd/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/video/process-safety-bukan-apd-poster.jpg"
+    ]
+  },
+  "/video/heat-exchanger-penghenti-pabrik": {
+    "title": "Heat Exchanger: Alat Paling Sederhana yang Dapat Menghentikan Pabrik | Video ilmutekkim",
+    "description": "Heat exchanger kelihatan cuma pipa dalam tabung. Video ini membedah kenapa arah aliran dan kerak 1 milimeter bisa menentukan hemat borosnya pabrik, sampai ",
+    "canonical": "https://ilmutekkim.vercel.app/video/heat-exchanger-penghenti-pabrik/",
+    "openGraph": {
+      "type": "article",
+      "title": "Heat Exchanger: Alat Paling Sederhana yang Dapat Menghentikan Pabrik | Video ilmutekkim",
+      "description": "Heat exchanger kelihatan cuma pipa dalam tabung. Video ini membedah kenapa arah aliran dan kerak 1 milimeter bisa menentukan hemat borosnya pabrik, sampai ",
+      "url": "https://ilmutekkim.vercel.app/video/heat-exchanger-penghenti-pabrik/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/video/heat-exchanger-penghenti-pabrik-poster.jpg"
+    ]
+  },
+  "/video/haber-bosch-udara-jadi-pupuk": {
+    "title": "Haber-Bosch: Udara Menjadi Pupuk, Proses Paling Penting di Dunia | Video ilmutekkim",
+    "description": "78% udara adalah nitrogen, tapi tanaman tidak bisa memakannya langsung. Video ini membedah Haber-Bosch: persamaan, tiga syarat ekstrem, dan kenapa tanpa re",
+    "canonical": "https://ilmutekkim.vercel.app/video/haber-bosch-udara-jadi-pupuk/",
+    "openGraph": {
+      "type": "article",
+      "title": "Haber-Bosch: Udara Menjadi Pupuk, Proses Paling Penting di Dunia | Video ilmutekkim",
+      "description": "78% udara adalah nitrogen, tapi tanaman tidak bisa memakannya langsung. Video ini membedah Haber-Bosch: persamaan, tiga syarat ekstrem, dan kenapa tanpa re",
+      "url": "https://ilmutekkim.vercel.app/video/haber-bosch-udara-jadi-pupuk/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/video/haber-bosch-udara-jadi-pupuk-poster.jpg"
+    ]
+  },
+  "/video/netralisasi-asam-basa": {
+    "title": "Netralisasi Asam Basa: Yang Sebenarnya Bereaksi Hanya Dua Ion | Video ilmutekkim",
+    "description": "HCl + NaOH menjadi NaCl + H2O terlihat seperti tukar pasangan. Video ini membedah reaksi ion bersihnya, panas yang dilepas, dan kenapa titrasi harus tepat ",
+    "canonical": "https://ilmutekkim.vercel.app/video/netralisasi-asam-basa/",
+    "openGraph": {
+      "type": "article",
+      "title": "Netralisasi Asam Basa: Yang Sebenarnya Bereaksi Hanya Dua Ion | Video ilmutekkim",
+      "description": "HCl + NaOH menjadi NaCl + H2O terlihat seperti tukar pasangan. Video ini membedah reaksi ion bersihnya, panas yang dilepas, dan kenapa titrasi harus tepat ",
+      "url": "https://ilmutekkim.vercel.app/video/netralisasi-asam-basa/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/video/netralisasi-asam-basa-poster.jpg"
+    ]
+  },
+  "/video/water-gas-shift-co-jadi-h2": {
+    "title": "Water-Gas Shift: Mengubah CO Beracun Menjadi H2 | Video ilmutekkim",
+    "description": "CO + H2O menjadi CO2 + H2 terlihat sepele, tapi jadi tulang punggung pabrik hidrogen. Video ini membedah kenapa shift harus dua tahap: panas dulu, dingin k",
+    "canonical": "https://ilmutekkim.vercel.app/video/water-gas-shift-co-jadi-h2/",
+    "openGraph": {
+      "type": "article",
+      "title": "Water-Gas Shift: Mengubah CO Beracun Menjadi H2 | Video ilmutekkim",
+      "description": "CO + H2O menjadi CO2 + H2 terlihat sepele, tapi jadi tulang punggung pabrik hidrogen. Video ini membedah kenapa shift harus dua tahap: panas dulu, dingin k",
+      "url": "https://ilmutekkim.vercel.app/video/water-gas-shift-co-jadi-h2/"
+    },
+    "images": []
+  },
+  "/video/b40-transesterifikasi-motion": {
+    "title": "B40: Transesterifikasi Sawit Menjadi Biodiesel | Video ilmutekkim",
+    "description": "Sejak Januari 2025, solar di Indonesia wajib B40, yaitu campuran 40 persen biodiesel dari sawit dan 60 persen solar minyak bumi. Video ini membedah reaksi ",
+    "canonical": "https://ilmutekkim.vercel.app/video/b40-transesterifikasi-motion/",
+    "openGraph": {
+      "type": "article",
+      "title": "B40: Transesterifikasi Sawit Menjadi Biodiesel | Video ilmutekkim",
+      "description": "Sejak Januari 2025, solar di Indonesia wajib B40, yaitu campuran 40 persen biodiesel dari sawit dan 60 persen solar minyak bumi. Video ini membedah reaksi ",
+      "url": "https://ilmutekkim.vercel.app/video/b40-transesterifikasi-motion/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/video/b40-transesterifikasi-motion-poster.jpg"
+    ]
+  },
+  "/video/confined-space-masuk-tangki": {
+    "title": "Masuk Tangki dan Ruang Terbatas: Mengapa Izin, Uji Gas, dan Penjaga Tidak Boleh Dilewati | Video ilmutekkim",
+    "description": "Tangki, vessel, dan ruang terbatas lain dapat menyimpan sisa uap dan udara yang tidak layak napas walaupun tampak kosong dari luar. Video ini membedah urut",
+    "canonical": "https://ilmutekkim.vercel.app/video/confined-space-masuk-tangki/",
+    "openGraph": {
+      "type": "article",
+      "title": "Masuk Tangki dan Ruang Terbatas: Mengapa Izin, Uji Gas, dan Penjaga Tidak Boleh Dilewati | Video ilmutekkim",
+      "description": "Tangki, vessel, dan ruang terbatas lain dapat menyimpan sisa uap dan udara yang tidak layak napas walaupun tampak kosong dari luar. Video ini membedah urut",
+      "url": "https://ilmutekkim.vercel.app/video/confined-space-masuk-tangki/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/video/confined-space-masuk-tangki-poster.jpg"
+    ]
+  },
+  "/video/dead-leg-pipa-buntu-berbahaya": {
+    "title": "Dead Leg: Pipa Buntu yang Diam-Diam Berbahaya | Video ilmutekkim",
+    "description": "Dead leg adalah cabang pipa buntu yang tidak dialiri fluida. Video ini membedah alasan cabang yang diam tersebut berbahaya, dari fluida yang stagnan sampai",
+    "canonical": "https://ilmutekkim.vercel.app/video/dead-leg-pipa-buntu-berbahaya/",
+    "openGraph": {
+      "type": "article",
+      "title": "Dead Leg: Pipa Buntu yang Diam-Diam Berbahaya | Video ilmutekkim",
+      "description": "Dead leg adalah cabang pipa buntu yang tidak dialiri fluida. Video ini membedah alasan cabang yang diam tersebut berbahaya, dari fluida yang stagnan sampai",
+      "url": "https://ilmutekkim.vercel.app/video/dead-leg-pipa-buntu-berbahaya/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/video/dead-leg-pipa-buntu-berbahaya-poster.jpg"
+    ]
+  },
+  "/video/flare-stack-api-kilang-menyala": {
+    "title": "Flare Stack: Mengapa Api di Kilang Menyala Terus sebagai Alat Pengaman Terakhir | Video ilmutekkim",
+    "description": "Api yang menyala terus di ujung cerobong tertinggi kilang sering dibaca sebagai pemborosan gas. Video ini membedah dari mana gas yang dibakar itu berasal, ",
+    "canonical": "https://ilmutekkim.vercel.app/video/flare-stack-api-kilang-menyala/",
+    "openGraph": {
+      "type": "article",
+      "title": "Flare Stack: Mengapa Api di Kilang Menyala Terus sebagai Alat Pengaman Terakhir | Video ilmutekkim",
+      "description": "Api yang menyala terus di ujung cerobong tertinggi kilang sering dibaca sebagai pemborosan gas. Video ini membedah dari mana gas yang dibakar itu berasal, ",
+      "url": "https://ilmutekkim.vercel.app/video/flare-stack-api-kilang-menyala/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/video/flare-stack-api-kilang-menyala-poster.jpg"
+    ]
+  },
+  "/video/gudang-bahan-kimia-segregasi-bunding": {
+    "title": "Gudang Bahan Kimia: Segregasi Berdasarkan Kompatibilitas dan Fungsi Bunding Penahan Tumpahan | Video ilmutekkim",
+    "description": "Gudang bahan kimia tidak ditata berdasarkan kerapian, melainkan berdasarkan kompatibilitas bahan yang disimpan di dalamnya. Video ini membedah dua pasangan",
+    "canonical": "https://ilmutekkim.vercel.app/video/gudang-bahan-kimia-segregasi-bunding/",
+    "openGraph": {
+      "type": "article",
+      "title": "Gudang Bahan Kimia: Segregasi Berdasarkan Kompatibilitas dan Fungsi Bunding Penahan Tumpahan | Video ilmutekkim",
+      "description": "Gudang bahan kimia tidak ditata berdasarkan kerapian, melainkan berdasarkan kompatibilitas bahan yang disimpan di dalamnya. Video ini membedah dua pasangan",
+      "url": "https://ilmutekkim.vercel.app/video/gudang-bahan-kimia-segregasi-bunding/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/video/gudang-bahan-kimia-segregasi-bunding-poster.jpg"
+    ]
+  },
+  "/video/hybrid-pompa-sentrifugal": {
+    "title": "Pompa Sentrifugal: Tidak Menghisap, Melainkan Melempar | Video ilmutekkim",
+    "description": "Video ini membuka dengan impeller yang berputar dalam tampilan tiga dimensi dan melempar cairan ke luar sejak detik pertama. Urutan berikutnya menjelaskan ",
+    "canonical": "https://ilmutekkim.vercel.app/video/hybrid-pompa-sentrifugal/",
+    "openGraph": {
+      "type": "article",
+      "title": "Pompa Sentrifugal: Tidak Menghisap, Melainkan Melempar | Video ilmutekkim",
+      "description": "Video ini membuka dengan impeller yang berputar dalam tampilan tiga dimensi dan melempar cairan ke luar sejak detik pertama. Urutan berikutnya menjelaskan ",
+      "url": "https://ilmutekkim.vercel.app/video/hybrid-pompa-sentrifugal/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/video/hybrid-pompa-sentrifugal-poster.jpg"
+    ]
+  },
+  "/video/hybrid-shell-and-tube-heat-exchanger": {
+    "title": "Shell-and-Tube Heat Exchanger: Dua Fluida Bertukar Panas Tanpa Bertemu | Video ilmutekkim",
+    "description": "Video ini memperlihatkan penukar panas shell and tube dalam potongan tiga dimensi: fluida panas mengalir di dalam pipa, fluida dingin mengalir mengelilingi",
+    "canonical": "https://ilmutekkim.vercel.app/video/hybrid-shell-and-tube-heat-exchanger/",
+    "openGraph": {
+      "type": "article",
+      "title": "Shell-and-Tube Heat Exchanger: Dua Fluida Bertukar Panas Tanpa Bertemu | Video ilmutekkim",
+      "description": "Video ini memperlihatkan penukar panas shell and tube dalam potongan tiga dimensi: fluida panas mengalir di dalam pipa, fluida dingin mengalir mengelilingi",
+      "url": "https://ilmutekkim.vercel.app/video/hybrid-shell-and-tube-heat-exchanger/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/video/hybrid-shell-and-tube-heat-exchanger-poster.jpg"
+    ]
+  },
+  "/video/loto-gembok-pribadi-motion": {
+    "title": "LOTO: Mesin yang Dimatikan Belum Tentu Aman | Video ilmutekkim",
+    "description": "Mematikan mesin dari panel hanya menghentikan perintah operasi. Video ini menguraikan energi tersimpan yang tetap berada di dalam mesin, risiko penyalaan k",
+    "canonical": "https://ilmutekkim.vercel.app/video/loto-gembok-pribadi-motion/",
+    "openGraph": {
+      "type": "article",
+      "title": "LOTO: Mesin yang Dimatikan Belum Tentu Aman | Video ilmutekkim",
+      "description": "Mematikan mesin dari panel hanya menghentikan perintah operasi. Video ini menguraikan energi tersimpan yang tetap berada di dalam mesin, risiko penyalaan k",
+      "url": "https://ilmutekkim.vercel.app/video/loto-gembok-pribadi-motion/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/video/loto-gembok-pribadi-motion-poster.jpg"
+    ]
+  },
+  "/video/pks-tbs-menjadi-cpo-motion": {
+    "title": "Dari Tandan Buah Segar Menjadi CPO: Alur Pabrik Kelapa Sawit | Video ilmutekkim",
+    "description": "Tandan buah segar kelapa sawit diolah menjadi CPO melalui sterilizer, thresher, digester, screw press, dan clarifier. Video ini membedah fungsi setiap unit",
+    "canonical": "https://ilmutekkim.vercel.app/video/pks-tbs-menjadi-cpo-motion/",
+    "openGraph": {
+      "type": "article",
+      "title": "Dari Tandan Buah Segar Menjadi CPO: Alur Pabrik Kelapa Sawit | Video ilmutekkim",
+      "description": "Tandan buah segar kelapa sawit diolah menjadi CPO melalui sterilizer, thresher, digester, screw press, dan clarifier. Video ini membedah fungsi setiap unit",
+      "url": "https://ilmutekkim.vercel.app/video/pks-tbs-menjadi-cpo-motion/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/video/pks-tbs-menjadi-cpo-motion-poster.jpg"
+    ]
+  },
+  "/video/refinery-sawit-olein-stearin-motion": {
+    "title": "Refinery Sawit: Dari CPO Merah Menjadi Olein dan Stearin | Video ilmutekkim",
+    "description": "CPO berwarna merah pekat dan masih membawa getah, warna, dan bau. Video ini membedah tiga tahap pemurnian menjadi RBDPO dan tahap fraksionasi yang membagin",
+    "canonical": "https://ilmutekkim.vercel.app/video/refinery-sawit-olein-stearin-motion/",
+    "openGraph": {
+      "type": "article",
+      "title": "Refinery Sawit: Dari CPO Merah Menjadi Olein dan Stearin | Video ilmutekkim",
+      "description": "CPO berwarna merah pekat dan masih membawa getah, warna, dan bau. Video ini membedah tiga tahap pemurnian menjadi RBDPO dan tahap fraksionasi yang membagin",
+      "url": "https://ilmutekkim.vercel.app/video/refinery-sawit-olein-stearin-motion/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/video/refinery-sawit-olein-stearin-motion-poster.jpg"
+    ]
+  },
+  "/video/satu-barel-minyak-motion": {
+    "title": "Satu Barel Minyak Mentah: Tidak Semua Menjadi Bensin | Video ilmutekkim",
+    "description": "Satu barel minyak mentah sering dibayangkan berubah seluruhnya menjadi bensin. Video ini menunjukkan pembagian sebenarnya di kilang: setelah dipanaskan dan",
+    "canonical": "https://ilmutekkim.vercel.app/video/satu-barel-minyak-motion/",
+    "openGraph": {
+      "type": "article",
+      "title": "Satu Barel Minyak Mentah: Tidak Semua Menjadi Bensin | Video ilmutekkim",
+      "description": "Satu barel minyak mentah sering dibayangkan berubah seluruhnya menjadi bensin. Video ini menunjukkan pembagian sebenarnya di kilang: setelah dipanaskan dan",
+      "url": "https://ilmutekkim.vercel.app/video/satu-barel-minyak-motion/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/video/satu-barel-minyak-motion-poster.jpg"
+    ]
+  },
+  "/video/sistem-kerja-tiga-shift": {
+    "title": "Sistem Kerja Tiga Shift: Mengapa Pabrik Beroperasi 24 Jam dan Harga yang Dibayar Operator | Video ilmutekkim",
+    "description": "Pabrik proses kontinu dirancang beroperasi 24 jam, sedangkan manusia memerlukan tidur yang teratur. Video ini membedah alasan pabrik tidak dapat dimatikan ",
+    "canonical": "https://ilmutekkim.vercel.app/video/sistem-kerja-tiga-shift/",
+    "openGraph": {
+      "type": "article",
+      "title": "Sistem Kerja Tiga Shift: Mengapa Pabrik Beroperasi 24 Jam dan Harga yang Dibayar Operator | Video ilmutekkim",
+      "description": "Pabrik proses kontinu dirancang beroperasi 24 jam, sedangkan manusia memerlukan tidur yang teratur. Video ini membedah alasan pabrik tidak dapat dimatikan ",
+      "url": "https://ilmutekkim.vercel.app/video/sistem-kerja-tiga-shift/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/video/sistem-kerja-tiga-shift-poster.jpg"
+    ]
+  },
+  "/video/tangki-putih-floating-roof": {
+    "title": "Tangki Putih dan Atap Terapung: Mengendalikan Rugi Penguapan Tangki Minyak | Video ilmutekkim",
+    "description": "Tangki penyimpanan bensin dan minyak di area tangki dicat putih dan sebagian dilengkapi atap terapung. Video ini membedah alasan rekayasa di balik kedua ke",
+    "canonical": "https://ilmutekkim.vercel.app/video/tangki-putih-floating-roof/",
+    "openGraph": {
+      "type": "article",
+      "title": "Tangki Putih dan Atap Terapung: Mengendalikan Rugi Penguapan Tangki Minyak | Video ilmutekkim",
+      "description": "Tangki penyimpanan bensin dan minyak di area tangki dicat putih dan sebagian dilengkapi atap terapung. Video ini membedah alasan rekayasa di balik kedua ke",
+      "url": "https://ilmutekkim.vercel.app/video/tangki-putih-floating-roof/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/video/tangki-putih-floating-roof-poster.jpg"
+    ]
+  },
+  "/video/turnaround-pabrik-berhenti-total": {
+    "title": "Turnaround: Mengapa Pabrik Sengaja Berhenti Total Berminggu-minggu | Video ilmutekkim",
+    "description": "Setiap beberapa tahun, pabrik proses yang sehat justru direncanakan berhenti total selama berminggu-minggu. Video ini membedah pekerjaan apa saja yang hany",
+    "canonical": "https://ilmutekkim.vercel.app/video/turnaround-pabrik-berhenti-total/",
+    "openGraph": {
+      "type": "article",
+      "title": "Turnaround: Mengapa Pabrik Sengaja Berhenti Total Berminggu-minggu | Video ilmutekkim",
+      "description": "Setiap beberapa tahun, pabrik proses yang sehat justru direncanakan berhenti total selama berminggu-minggu. Video ini membedah pekerjaan apa saja yang hany",
+      "url": "https://ilmutekkim.vercel.app/video/turnaround-pabrik-berhenti-total/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/video/turnaround-pabrik-berhenti-total-poster.jpg"
+    ]
+  },
+  "/video/buildup-boiler-pltu-dari-ceret": {
+    "title": "Membangun Pembangkit Listrik dari Satu Ceret Dapur | Video ilmutekkim",
+    "description": "Video ini memulai pembangunan dari satu ceret di atas kompor, yang uapnya keluar dari corong lalu hilang begitu saja. Setiap langkah menambahkan satu kompo",
+    "canonical": "https://ilmutekkim.vercel.app/video/buildup-boiler-pltu-dari-ceret/",
+    "openGraph": {
+      "type": "article",
+      "title": "Membangun Pembangkit Listrik dari Satu Ceret Dapur | Video ilmutekkim",
+      "description": "Video ini memulai pembangunan dari satu ceret di atas kompor, yang uapnya keluar dari corong lalu hilang begitu saja. Setiap langkah menambahkan satu kompo",
+      "url": "https://ilmutekkim.vercel.app/video/buildup-boiler-pltu-dari-ceret/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/video/buildup-boiler-pltu-dari-ceret-poster.jpg"
+    ]
+  },
+  "/video/buildup-kolom-distilasi-alembik": {
+    "title": "Membangun Kolom Distilasi dari Alembik, Alat Suling Tertua | Video ilmutekkim",
+    "description": "Video ini memulai pembangunan dari alembik, alat suling tertua yang hanya melakukan satu kali penguapan dan satu kali kondensasi. Setiap keterbatasan alat ",
+    "canonical": "https://ilmutekkim.vercel.app/video/buildup-kolom-distilasi-alembik/",
+    "openGraph": {
+      "type": "article",
+      "title": "Membangun Kolom Distilasi dari Alembik, Alat Suling Tertua | Video ilmutekkim",
+      "description": "Video ini memulai pembangunan dari alembik, alat suling tertua yang hanya melakukan satu kali penguapan dan satu kali kondensasi. Setiap keterbatasan alat ",
+      "url": "https://ilmutekkim.vercel.app/video/buildup-kolom-distilasi-alembik/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/video/buildup-kolom-distilasi-alembik-poster.jpg"
+    ]
+  },
+  "/video/buildup-kolom-distilasi-remake": {
+    "title": "Membangun Kolom Distilasi dari Satu Tabung Logam | Video ilmutekkim",
+    "description": "Video ini memulai pembangunan dari satu tabung logam terbuka di atas api, yang uapnya naik lalu hilang ke udara. Tabung tersebut tidak pernah diganti. Seti",
+    "canonical": "https://ilmutekkim.vercel.app/video/buildup-kolom-distilasi-remake/",
+    "openGraph": {
+      "type": "article",
+      "title": "Membangun Kolom Distilasi dari Satu Tabung Logam | Video ilmutekkim",
+      "description": "Video ini memulai pembangunan dari satu tabung logam terbuka di atas api, yang uapnya naik lalu hilang ke udara. Tabung tersebut tidak pernah diganti. Seti",
+      "url": "https://ilmutekkim.vercel.app/video/buildup-kolom-distilasi-remake/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/video/buildup-kolom-distilasi-remake-poster.jpg"
+    ]
+  },
+  "/video/buildup-reaktor-dari-panci-presto": {
+    "title": "Membangun Reaktor Kimia dari Satu Panci Presto | Video ilmutekkim",
+    "description": "Video ini memulai pembangunan dari satu panci presto di atas kompor, yang isinya mendidih, tekanannya naik, dan uapnya menyembur liar lewat katup. Setiap l",
+    "canonical": "https://ilmutekkim.vercel.app/video/buildup-reaktor-dari-panci-presto/",
+    "openGraph": {
+      "type": "article",
+      "title": "Membangun Reaktor Kimia dari Satu Panci Presto | Video ilmutekkim",
+      "description": "Video ini memulai pembangunan dari satu panci presto di atas kompor, yang isinya mendidih, tekanannya naik, dan uapnya menyembur liar lewat katup. Setiap l",
+      "url": "https://ilmutekkim.vercel.app/video/buildup-reaktor-dari-panci-presto/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/video/buildup-reaktor-dari-panci-presto-poster.jpg"
+    ]
+  },
+  "/video/ko-drum-penjaga-kompresor": {
+    "title": "KO Drum: Penjaga Kompresor dari Tetesan Cairan | Video ilmutekkim",
+    "description": "Kompresor dirancang untuk memampatkan gas, tetapi aliran gas dari proses tidak pernah benar-benar kering. Video ini membedah mengapa tetesan cairan yang te",
+    "canonical": "https://ilmutekkim.vercel.app/video/ko-drum-penjaga-kompresor/",
+    "openGraph": {
+      "type": "article",
+      "title": "KO Drum: Penjaga Kompresor dari Tetesan Cairan | Video ilmutekkim",
+      "description": "Kompresor dirancang untuk memampatkan gas, tetapi aliran gas dari proses tidak pernah benar-benar kering. Video ini membedah mengapa tetesan cairan yang te",
+      "url": "https://ilmutekkim.vercel.app/video/ko-drum-penjaga-kompresor/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/video/ko-drum-penjaga-kompresor-poster.jpg"
+    ]
+  },
+  "/video/lpg-cairan-dalam-tabung": {
+    "title": "Isi Tabung LPG Bukan Gas, Melainkan Cairan | Video ilmutekkim",
+    "description": "Tabung LPG di dapur lazim disebut tabung gas, tetapi isinya bukan gas yang dimampatkan. Video ini membedah bagaimana campuran propana dan butana dapat ters",
+    "canonical": "https://ilmutekkim.vercel.app/video/lpg-cairan-dalam-tabung/",
+    "openGraph": {
+      "type": "article",
+      "title": "Isi Tabung LPG Bukan Gas, Melainkan Cairan | Video ilmutekkim",
+      "description": "Tabung LPG di dapur lazim disebut tabung gas, tetapi isinya bukan gas yang dimampatkan. Video ini membedah bagaimana campuran propana dan butana dapat ters",
+      "url": "https://ilmutekkim.vercel.app/video/lpg-cairan-dalam-tabung/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/video/lpg-cairan-dalam-tabung-poster.jpg"
+    ]
+  },
+  "/video/ntu-efektivitas-penukar-panas": {
+    "title": "Metode NTU Efektivitas: Menghitung Penukar Panas Tanpa Menebak Suhu Keluar | Video ilmutekkim",
+    "description": "Metode LMTD menuntut suhu keluar diketahui, padahal pada penukar panas yang sudah terpasang suhu keluar justru merupakan besaran yang dicari. Video ini men",
+    "canonical": "https://ilmutekkim.vercel.app/video/ntu-efektivitas-penukar-panas/",
+    "openGraph": {
+      "type": "article",
+      "title": "Metode NTU Efektivitas: Menghitung Penukar Panas Tanpa Menebak Suhu Keluar | Video ilmutekkim",
+      "description": "Metode LMTD menuntut suhu keluar diketahui, padahal pada penukar panas yang sudah terpasang suhu keluar justru merupakan besaran yang dicari. Video ini men",
+      "url": "https://ilmutekkim.vercel.app/video/ntu-efektivitas-penukar-panas/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/video/ntu-efektivitas-penukar-panas-poster.jpg"
+    ]
+  },
+  "/video/steam-trap-katup-kondensat": {
+    "title": "Steam Trap: Katup Kecil yang Membuang Kondensat Tanpa Membuang Uap | Video ilmutekkim",
+    "description": "Steam trap adalah katup kecil yang terpasang pada jalur pembuangan sistem steam. Video ini membedah tugas gandanya, yaitu membuang kondensat tanpa membuang",
+    "canonical": "https://ilmutekkim.vercel.app/video/steam-trap-katup-kondensat/",
+    "openGraph": {
+      "type": "article",
+      "title": "Steam Trap: Katup Kecil yang Membuang Kondensat Tanpa Membuang Uap | Video ilmutekkim",
+      "description": "Steam trap adalah katup kecil yang terpasang pada jalur pembuangan sistem steam. Video ini membedah tugas gandanya, yaitu membuang kondensat tanpa membuang",
+      "url": "https://ilmutekkim.vercel.app/video/steam-trap-katup-kondensat/"
+    },
+    "images": [
+      "https://ilmutekkim.vercel.app/assets/video/steam-trap-katup-kondensat-poster.jpg"
+    ]
+  },
+  "/video": {
+    "title": "Video Teknik Kimia | ilmutekkim",
+    "description": "Versi artikel dari video teknik kimia @ilmutekkim: tonton videonya, baca penjelasan mendalamnya per subtopik, lalu periksa pemahaman melalui kuis.",
+    "canonical": "https://ilmutekkim.vercel.app/video/",
+    "openGraph": {
+      "type": "website",
+      "title": "Video Teknik Kimia | ilmutekkim",
+      "description": "Versi artikel dari video teknik kimia @ilmutekkim: tonton videonya, baca penjelasan mendalamnya per subtopik, lalu periksa pemahaman melalui kuis.",
+      "url": "https://ilmutekkim.vercel.app/video/"
+    },
+    "images": []
+  }
+}

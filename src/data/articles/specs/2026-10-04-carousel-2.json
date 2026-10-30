@@ -1,0 +1,185 @@
+{
+  "format": "real",
+  "hook": "SABUN LO TERNYATA DARI SAWIT. INI ALUR KIMIANYA",
+  "hook_options": [
+    "SABUN LO TERNYATA DARI SAWIT. INI ALUR KIMIANYA",
+    "DI BALIK SABUN MANDI ADA ALUR OLEOKIMIA SAWIT",
+    "CPO TIDAK CUMA JADI MINYAK GORENG. INI TURUNANNYA"
+  ],
+  "hook_payoff_slide": 4,
+  "series_label": "SERI OLEOKIMIA",
+  "cover_brief": "foto kebun sawit dan buah sawit merah",
+  "cover_sub": "Dari CPO sampai sabun, sampo, dan deterjen yang lo pakai tiap hari.",
+  "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-04/carousel-2/cover.jpg",
+  "cover_credit": "allPhoto Bangkok / Unsplash",
+  "credit_url": "https://unsplash.com/photos/a-dirt-road-surrounded-by-palm-trees-on-a-sunny-day-HIzHy1FS_GI",
+  "photo_briefs": [
+    {
+      "slide": 3,
+      "cari": "foto sabun batang dan produk perawatan"
+    },
+    {
+      "slide": 5,
+      "cari": "foto pabrik pengolahan sawit tangki industri"
+    }
+  ],
+  "slides": [
+    {
+      "type": "quote",
+      "pill": "YANG SERING DIKIRA",
+      "quote": "Sabun dan deterjen itu bahan kimia lab, tidak ada hubungannya sama sawit.",
+      "hook": "Padahal banyak sabun lahir dari turunan sawit lewat oleokimia.",
+      "callout": "FAKTA: oleokimia adalah cabang industri yang mengolah minyak nabati jadi bahan produk harian.",
+      "fill_rows": [
+        [
+          "01",
+          "CPO JADI ASAM LEMAK",
+          "splitting dan pemisahan"
+        ],
+        [
+          "02",
+          "GLISERIN IKUT TERBENTUK",
+          "produk samping berharga"
+        ],
+        [
+          "03",
+          "JADI SABUN DAN DETERJEN",
+          "saponifikasi dan formulasi"
+        ]
+      ],
+      "fill_rows_title": "PETA SLIDE INI"
+    },
+    {
+      "type": "body",
+      "pill": "TAHAP AWAL",
+      "title": "CPO dipecah jadi asam lemak dan gliserin",
+      "paras": [
+        "Minyak sawit mentah dipecah dengan air bertekanan jadi asam lemak dan gliserin.",
+        "Asam lemak inilah bahan baku utama oleokimia."
+      ],
+      "callout": "FAKTA: proses splitting memisahkan asam lemak dari gliserin tanpa mengubah rantai karbonnya.",
+      "formula": "CPO + H₂O → asam lemak + gliserin",
+      "fill_bar": {
+        "left_label": "ASAM LEMAK",
+        "right_label": "GLISERIN",
+        "left_frac": 0.8,
+        "examples": [
+          [
+            "Bagian besar",
+            "bahan sabun dan ester"
+          ],
+          [
+            "Bagian kecil",
+            "bahan kosmetik dan farmasi"
+          ]
+        ]
+      },
+      "fill_bar_title": "HASIL SPLITTING"
+    },
+    {
+      "type": "photo",
+      "pill": "PRODUK AKHIRNYA",
+      "title": "Sabun yang lo pegang tiap pagi",
+      "paras": [
+        "Asam lemak dari sawit disaponifikasi jadi sabun batang yang keras dan berbusa stabil.",
+        "Sifat kerasnya datang dari asam palmitat sawit."
+      ],
+      "callout": "FAKTA: sawit memberi sabun tekstur keras, sementara minyak cair memberi busa lebih lembut.",
+      "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-04/carousel-2/photo-1.jpg",
+      "credit": "Heather Ford / Unsplash"
+    },
+    {
+      "type": "diagram",
+      "pill": "PETA LENGKAPNYA",
+      "title": "Pohon turunan CPO ke produk harian",
+      "paras": [
+        "Baca dari kiri ke kanan. Setiap panah adalah satu tahap oleokimia.",
+        "Dari satu bahan CPO bisa lahir sabun, deterjen, sampo, sampai lotion."
+      ],
+      "callout": "FAKTA: oleokimia sawit adalah salah satu rantai nilai turunan sawit terbesar di Indonesia.",
+      "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-04/carousel-2/diagram-oleo.png"
+    },
+    {
+      "type": "photo",
+      "pill": "DI PABRIKNYA",
+      "title": "Pabrik oleokimia dekat kebun sawit",
+      "paras": [
+        "Banyak pabrik oleokimia berdiri dekat sumber CPO supaya rantai pasok pendek.",
+        "Tangki dan kolomnya mengolah asam lemak jadi berbagai turunan."
+      ],
+      "callout": "FAKTA: kedekatan ke kebun menurunkan biaya angkut CPO yang volumenya sangat besar.",
+      "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-04/carousel-2/photo-2.jpg",
+      "credit": "Grant Ritchie / Unsplash"
+    },
+    {
+      "type": "body",
+      "pill": "REAKSI KUNCINYA",
+      "title": "Saponifikasi mengubah lemak jadi sabun",
+      "paras": [
+        "Asam lemak direaksikan dengan soda api menghasilkan sabun."
+      ],
+      "callout": "FAKTA: sabun bekerja karena molekulnya punya ujung suka air dan ujung suka minyak.",
+      "formula": "asam lemak + NaOH → sabun + H₂O",
+      "fill_cards": [
+        [
+          "01",
+          "Ujung suka minyak",
+          "mengikat kotoran"
+        ],
+        [
+          "02",
+          "Ujung suka air",
+          "membilas kotoran pergi"
+        ]
+      ]
+    },
+    {
+      "type": "body",
+      "pill": "TURUNAN LAINNYA",
+      "title": "Deterjen, sampo, dan lotion satu keluarga",
+      "paras": [
+        "Ester dari asam lemak sawit jadi surfaktan lembut buat sampo dan deterjen cair.",
+        "Gliserinnya jadi pelembap di lotion dan pasta gigi."
+      ],
+      "callout": "FAKTA: gliserin dari oleokimia dipakai luas di kosmetik dan farmasi sebagai pelembap.",
+      "fill_grid": [
+        [
+          "SABUN BATANG",
+          "saponifikasi"
+        ],
+        [
+          "DETERJEN",
+          "surfaktan ester"
+        ],
+        [
+          "SAMPO",
+          "surfaktan lembut"
+        ],
+        [
+          "LOTION",
+          "gliserin pelembap"
+        ]
+      ],
+      "fill_grid_eyebrow": "",
+      "fill_note": "Empat produk harian dari turunan yang sama."
+    },
+    {
+      "type": "conclusion",
+      "pill": "KESIMPULANNYA",
+      "head": "Sawit masuk kamar mandi lewat oleokimia.",
+      "bullets": [
+        "CPO dipecah jadi asam lemak dan gliserin.",
+        "Asam lemak jadi sabun lewat saponifikasi.",
+        "Turunannya masuk ke deterjen, sampo, dan lotion."
+      ],
+      "equation": "CPO + H₂O → asam lemak + gliserin"
+    }
+  ],
+  "references": [
+    "Gunstone, Vegetable Oils in Food Technology",
+    "Perry's Chemical Engineers' Handbook (bab oleokimia)"
+  ],
+  "cta_question": "Produk kamar mandi apa di rumah lo yang ternyata dari sawit?",
+  "cta_teaser": "Besok: batch vs kontinu, kenapa pabrik makanan dan petrokimia beda cara kerja.",
+  "caption": "Sabun lo ternyata dari sawit. Ini alur kimianya.\n\nCPO dipecah jadi asam lemak dan gliserin, asam lemaknya disaponifikasi jadi sabun, turunannya jadi deterjen, sampo, sampai lotion. Satu rantai oleokimia yang masuk kamar mandi tiap pagi.\n\nProduk kamar mandi apa di rumah lo yang ternyata dari sawit? Tulis di komen.\n\nFollow @ilmutekkim buat teknik kimia tiap hari.\n\n#teknikkimia #chemicalengineering #oleokimia #sawit #sabun #pabrik #industri #ilmutekkim"
+}

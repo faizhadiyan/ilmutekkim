@@ -1,0 +1,157 @@
+{
+  "format": "real",
+  "hook": "1 TON MINYAK SAWIT JADI BIODIESEL, 104 KG GLISEROL PERGI KE MANA",
+  "hook_options": [
+    "1 TON MINYAK SAWIT JADI BIODIESEL, 104 KG GLISEROL PERGI KE MANA",
+    "GLISEROL SISA PABRIK B40 DIBUANG ATAU DIJUAL",
+    "DARI 1 TON CPO, 10 PERSENNYA BUKAN BIODIESEL"
+  ],
+  "hook_payoff_slide": 4,
+  "series_label": "SERI CHEAT SHEET UJIAN",
+  "cover_brief": "foto pabrik biodiesel atau kilang dengan deretan tangki penyimpanan besar, suasana industri nyata",
+  "cover_sub": "CS-12 | Transesterifikasi B40",
+  "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-19/carousel-1/cover.jpg",
+  "cover_credit": "FCL by Photofabianni.com / Pexels",
+  "credit_url": "https://www.pexels.com/photo/stainless-steel-storage-tanks-with-stainless-pipes-5411674/",
+  "photo_briefs": [
+    {
+      "slide": "slide foto pabrik nyata",
+      "cari": "pabrik pengolahan minyak sawit atau biodiesel, tangki industri besar"
+    }
+  ],
+  "slides": [
+    {
+      "type": "quote",
+      "pill": "JEBAKAN DOSEN",
+      "quote": "Transesterifikasi itu minyak dicampur metanol, gliserolnya hilang sendiri.",
+      "hook": "Tidak hilang. Massanya sepersepuluh dari minyak.",
+      "fill_rows_title": "Kenapa jebakan ini sering keluar",
+      "fill_rows": [
+        [
+          "01",
+          "Gliserol tidak ada di nama reaksi",
+          "namanya transesterifikasi, bukan soal gliserol"
+        ],
+        [
+          "02",
+          "Fokus ke biodiesel saja",
+          "FAME yang dijual, gliserol dianggap sisa"
+        ],
+        [
+          "03",
+          "Tidak cek neraca massa",
+          "massa masuk wajib sama dengan massa keluar"
+        ]
+      ],
+      "callout": "Fakta kunci: gliserol tidak hilang, ia keluar sebagai fase berat sebanyak 10 persen massa minyak."
+    },
+    {
+      "type": "body",
+      "pill": "REAKSINYA",
+      "title": "Satu trigliserida, tiga metanol",
+      "paras": [
+        "Trigliserida (model: triolein, C₅₇H₁₀₄O₆) bereaksi dengan metanol berlebih, katalis NaOH atau KOH, pada 60°C dan 1 atm. Hasilnya metil ester (FAME, biodiesel) dan gliserol.",
+        "Pabrik memakai metanol berlebih, rasio mol 6:1, untuk menggeser kesetimbangan ke kanan. Katalis tidak dikonsumsi reaksi."
+      ],
+      "formula": "C₅₇H₁₀₄O₆ + 3 CH₃OH → 3 C₁₉H₃₆O₂ + C₃H₈O₃",
+      "formula_tex": "\\mathrm{C}_{57}\\mathrm{H}_{104}\\mathrm{O}_{6} + 3\\,\\mathrm{CH}_{3}\\mathrm{OH} \\overset{\\mathrm{NaOH}}{\\rightarrow} 3\\,\\mathrm{C}_{19}\\mathrm{H}_{36}\\mathrm{O}_{2} + \\mathrm{C}_{3}\\mathrm{H}_{8}\\mathrm{O}_{3}",
+      "callout": "Fakta kunci: 1 mol trigliserida butuh 3 mol metanol dan menghasilkan 1 mol gliserol."
+    },
+    {
+      "type": "diagram",
+      "pill": "SKEMA",
+      "title": "Dari CPO sampai B40 dan gliserol",
+      "paras": [
+        "Umpan CPO, metanol berlebih, dan katalis NaOH masuk reaktor. Campuran FAME dan gliserol dipisah di separator.",
+        "FAME fase ringan dicuci lalu diblending jadi B40. Gliserol fase berat dimurnikan lewat netralisasi dan distilasi."
+      ],
+      "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-19/carousel-1/diagram-b40-rev1.png",
+      "diagram_scope": "Diagram ini mencakup umpan, reaktor, separator, pencucian FAME, blending B40, dan pemurnian gliserol. Aliran yang digambar: umpan campur, campuran FAME + gliserol, FAME kasar, FAME murni, gliserol kasar, gliserol murni, dan solar fosil. Yang sengaja tidak digambar: recovery metanol berlebih (didaur ulang ke reaktor), aliran keluar katalis (tidak dikonsumsi, keluar bersama fase gliserol lalu dinetralkan), dan detail dimensi alat.",
+      "callout": "Fakta kunci: gliserol keluar sebagai fase berat di separator, bukan ikut biodiesel."
+    },
+    {
+      "type": "body",
+      "pill": "CONTOH HITUNG",
+      "title": "1 ton CPO jadi berapa gliserol",
+      "paras": [
+        "1.000 kg CPO sebagai triolein murni (M = 885 g/mol)."
+      ],
+      "fill_cards": [
+        [
+          "01",
+          "Mol trigliserida",
+          "n = 1.000.000 g / 885 g/mol = 1130 mol."
+        ],
+        [
+          "02",
+          "Metanol stoikiometri",
+          "3 × 1130 mol × 32 g/mol = 108,5 kg."
+        ],
+        [
+          "03",
+          "Gliserol terbentuk",
+          "1130 mol × 92 g/mol = 104 kg."
+        ]
+      ],
+      "callout": "Fakta kunci: 104 kg gliserol, neraca menutup."
+    },
+    {
+      "type": "body",
+      "pill": "GLISEROL PERGI KE MANA",
+      "title": "Gliserol kasar wajib dimurnikan",
+      "paras": [
+        "Gliserol kasar dari separator masih mengandung sisa katalis, metanol, dan sabun. Ia dinetralkan dan didistilasi sebelum bisa dijual."
+      ],
+      "fill_grid_eyebrow": "Gliserol murni dipakai untuk",
+      "fill_grid": [
+        [
+          "Sabun dan deterjen",
+          "bahan surfaktan"
+        ],
+        [
+          "Kosmetik",
+          "pelembap"
+        ],
+        [
+          "Farmasi",
+          "pelarut obat"
+        ],
+        [
+          "Pakan ternak",
+          "sumber energi"
+        ]
+      ],
+      "callout": "Fakta kunci: gliserol kasar mengandung sisa katalis dan metanol, wajib dinetralkan sebelum dipakai."
+    },
+    {
+      "type": "photo",
+      "pill": "DI PABRIK NYATA",
+      "title": "Gliserol dipisah setiap batch",
+      "paras": [
+        "Pabrik biodiesel memisahkan gliserol di setiap batch karena volumenya besar: sekitar satu drum gliserol untuk tiap sepuluh drum minyak yang diolah.",
+        "B40 menggerakkan rantai sawit sampai sabun: satu kebijakan bahan bakar, banyak industri ikut bergerak."
+      ],
+      "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-19/carousel-1/photo-1.jpg",
+      "credit": "Tom Fisk / Pexels",
+      "callout": "Fakta kunci: Indonesia mewajibkan B40 sejak 1 Januari 2025, 40 persen FAME dari sawit."
+    },
+    {
+      "type": "conclusion",
+      "pill": "KUIS CS-12",
+      "head": "1 ton CPO dianggap triolein murni, reaksi sempurna. Berapa kg gliserol yang terbentuk dan ke mana ia pergi? Tulis jawabanmu di komen.",
+      "bullets": [
+        "Save buat UTS",
+        "Tag teman sekelas",
+        "Follow seri berikutnya, CS-13 terbit besok"
+      ]
+    }
+  ],
+  "references": [
+    "Fogler, H.S., Elements of Chemical Reaction Engineering (kinetika transesterifikasi)",
+    "Knothe, G., Krahl, J., Van Gerpen, J., The Biodiesel Handbook",
+    "Kebijakan B40 Indonesia, wajib 1 Januari 2025 (Kementerian ESDM)"
+  ],
+  "cta_question": "Dosenmu pernah menjebak dengan gliserol? Ceritakan di komen.",
+  "cta_teaser": "Besok CS-13: kesetimbangan uap cair, hukum Raoult dan deviasinya di kolom.",
+  "caption": "1 TON MINYAK SAWIT JADI BIODIESEL, 104 KG GLISEROL PERGI KE MANA\n\nIni CS-12 dari seri cheat sheet ujian @ilmutekkim. Transesterifikasi: 1 mol trigliserida + 3 mol metanol jadi 3 mol FAME + 1 mol gliserol, katalis NaOH, 60°C. Gliserolnya tidak hilang: dari 1 ton CPO keluar sekitar 104 kg gliserol yang dipisahkan di separator lalu dimurnikan.\n\nDi pabrik nyata, gliserol kasar masih mengandung sisa katalis dan metanol sehingga wajib dinetralkan. Gliserol murninya dijual ke industri sabun, kosmetik, dan farmasi. Indonesia mewajibkan B40 sejak 1 Januari 2025, jadi setiap liter solar di SPBU mengandung 40 persen FAME dari sawit.\n\nIni simpul 06 dari peta roadmap. Peta lengkapnya ada di postingan roadmap yang ter-pin di profil.\n\nSave buat UTS, tag teman sekelas, follow seri berikutnya.\n\n#teknikkimia #chemicalengineering #biodiesel #b40 #transesterifikasi #uts #belajar #ilmutekkim"
+}

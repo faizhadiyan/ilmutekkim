@@ -1,0 +1,167 @@
+{
+  "caption": "SEBELUM 1830, MENYULING ITU KERJA BATCH YANG LAMBAT\n\nAeneas Coffey adalah pegawai cukai Irlandia. Selama 25 tahun ia mengawasi distileri, lalu tahun 1830 ia mematenkan kolom dua tingkat yang tidak pernah berhenti: umpan masuk terus, uap naik, produk keluar terus.\n\nIroninya, penyuling Irlandia menolak temuannya. Skotlandia dan Inggris yang memakainya, dan kolom Coffey menjadi dasar semua kolom distilasi modern.\n\nPelajarannya: batch vs kontinu adalah pola berulang. Di reaktor pun sama, dan CS-09 hari ini menghitung harganya: CSTR butuh volume 3,9 kali batch untuk orde satu.\n\nAlat apa di sekitarmu yang masih kerja batch padahal bisa kontinu? Ceritakan di komen.\n\n#teknikkimia #chemicalengineering #distilasi #sejarahteknik #reaktor #pabrik #ilmutekkim",
+  "cover_brief": "foto kolom distilasi atau menara kilang minyak dari bawah, menara tinggi pabrik asli",
+  "cover_credit": "Jakub Pabis / Pexels",
+  "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-16/carousel-2/cover.jpg",
+  "cover_sub": "Bank 01: distilasi, dari pot still ke kolom kontinu.",
+  "credit_url": "https://www.pexels.com/photo/tower-of-the-petroleum-refinery-in-trzebinia-poland-15970029/",
+  "cta_question": "Alat apa di sekitarmu yang masih kerja batch padahal bisa kontinu? Ceritakan di komen.",
+  "cta_teaser": "Besok: bank 02, alur pabrik kelapa sawit dari tandan sampai CPO.",
+  "format": "real",
+  "hook": "SEBELUM 1830, MENYULING ITU KERJA BATCH YANG LAMBAT",
+  "hook_options": [
+    "SEBELUM 1830, MENYULING ITU KERJA BATCH YANG LAMBAT",
+    "PETUGAS PAJAK YANG MENGUBAH CARA DUNIA MENYULING",
+    "IRLANDIA MENOLAK, SKOTLANDIA MEMAKAI: KOLOM COFFEY 1830"
+  ],
+  "hook_payoff_slide": 5,
+  "photo_briefs": [],
+  "references": [
+    "Wikipedia, Column still (paten kolom kontinu Coffey 1830)",
+    "Wikipedia, Aeneas Coffey (karier cukai Irlandia, paten 1830)",
+    "Seader, J. D. dan Henley, E. J., Separation Process Principles (tahap keseimbangan pada kolom)"
+  ],
+  "series_label": "KISAH TEKNIK KIMIA",
+  "slides": [
+    {
+      "callout": "Fakta kunci: kolom kontinu menghapus siklus isi-panaskan-kosongkan dari penyulingan.",
+      "fill_rows": [
+        [
+          "01",
+          "Pot still",
+          "satu tahap, diulang manual"
+        ],
+        [
+          "02",
+          "Kolom Coffey",
+          "banyak tahap, sekali jalan"
+        ]
+      ],
+      "fill_rows_title": "Bedanya dalam satu kalimat",
+      "paras": [
+        "Pot still tradisional bekerja batch: isi, panaskan, kumpulkan uap, dinginkan, kosongkan, isi lagi. Satu siklus penuh untuk satu hasil.",
+        "Kolom kontinu tidak pernah berhenti: umpan masuk terus, uap naik, cairan turun, produk keluar terus 24 jam."
+      ],
+      "pill": "TAHUKAH KAMU?",
+      "title": "Dulu masak ulang berkali-kali, sekarang sekali jalan",
+      "type": "body"
+    },
+    {
+      "callout": "Fakta kunci: paten kolom kontinu dua kolom Coffey terbit tahun 1830 dan menjadi dasar semua kolom modern.",
+      "paras": [
+        "Pegawai cukai Irlandia yang 25 tahun mengawasi distileri, lalu merancang ulang alat suling yang sudah ada."
+      ],
+      "pill": "TOKOHNYA",
+      "title": "Aeneas Coffey, pemburu penyuling ilegal",
+      "type": "body",
+      "fill_rows_title": "Jejak Coffey",
+      "fill_rows": [
+        [
+          "01",
+          "25 tahun",
+          "pegawai cukai Irlandia"
+        ],
+        [
+          "02",
+          "1824",
+          "keluar dari dinas"
+        ],
+        [
+          "03",
+          "1830",
+          "paten kolom kontinu"
+        ]
+      ]
+    },
+    {
+      "callout": "Fakta kunci: kolom Coffey diadopsi Skotlandia dan Inggris, lalu menyebar ke seluruh industri penyulingan.",
+      "paras": [
+        "Penolakan di negeri sendiri tidak menghentikan desain yang memang lebih efisien."
+      ],
+      "pill": "IRONINYA",
+      "title": "Irlandia menolak, Skotlandia memakai",
+      "type": "body",
+      "fill_rows_title": "Dua kubu",
+      "fill_rows": [
+        [
+          "01",
+          "Irlandia",
+          "menolak, setia pada pot still"
+        ],
+        [
+          "02",
+          "Skotlandia + Inggris",
+          "memakai untuk wiski dan gin"
+        ]
+      ]
+    },
+    {
+      "callout": "Fakta kunci: tiap tray = satu tahap; makin banyak tray, makin tajam pemisahan.",
+      "diagram": "/home/hatch/workspace/ig-ilmutekkim/diagrams/2026-10-16-pot-vs-column.png",
+      "diagram_scope": "Diagram ini mencakup perbandingan satu tahap pot still dan lima tray kolom kontinu: arah uap naik dan cairan turun serta perubahan komposisi di tiap tingkat. Yang sengaja tidak digambar: kondenser, reboiler, dan sistem pemanas.",
+      "paras": [
+        "Pot still = satu tahap. Kolom = tray bertumpuk; uap naik makin kaya ringan, cairan turun makin kaya berat."
+      ],
+      "pill": "KONSEPNYA",
+      "title": "Satu tahap lawan banyak tahap bertumpuk",
+      "type": "diagram"
+    },
+    {
+      "callout": "Fakta kunci: kolom Coffey menghasilkan spirit di atas 90 persen alkohol dalam satu operasi.",
+      "paras": [
+        "Dua hal yang membuat kolom kontinu menang atas pot still."
+      ],
+      "pill": "KENAPA MENANG",
+      "title": "Kontinu menang di dua hal sekaligus",
+      "type": "body",
+      "fill_rows_title": "Dua kemenangan kontinu",
+      "fill_rows": [
+        [
+          "01",
+          "Tanpa waktu mati",
+          "tidak ada siklus isi, panaskan, kosongkan"
+        ],
+        [
+          "02",
+          "Kadar di atas 90 persen",
+          "sekali jalan, tanpa distilasi ulang"
+        ]
+      ]
+    },
+    {
+      "callout": "Fakta kunci: batch vs kontinu adalah pola berulang di teknik kimia, dari kolom distilasi sampai reaktor.",
+      "paras": [
+        "Tahun 1830 perangnya di alat suling. Hari ini perangnya pindah ke reaktor: batch lawan CSTR."
+      ],
+      "pill": "PLOT TWIST",
+      "title": "Perang batch vs kontinu belum selesai",
+      "type": "body",
+      "fill_rows_title": "Pola yang sama, arena berbeda",
+      "fill_rows": [
+        [
+          "01",
+          "1830: alat suling",
+          "batch lawan kolom kontinu"
+        ],
+        [
+          "02",
+          "Hari ini: reaktor",
+          "batch lawan CSTR"
+        ],
+        [
+          "03",
+          "Yang dihitung",
+          "dulu kadar alkohol, sekarang volume"
+        ]
+      ]
+    },
+    {
+      "bullets": [
+        "Alat apa di sekitarmu yang masih kerja batch padahal bisa kontinu? Ceritakan di komen."
+      ],
+      "head": "Batch menang di fleksibilitas, kontinu menang di skala. Pilih berdasarkan kebutuhan, bukan berdasarkan yang terlihat modern.",
+      "pill": "INTINYA",
+      "type": "conclusion"
+    }
+  ]
+}

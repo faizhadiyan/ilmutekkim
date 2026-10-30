@@ -1,0 +1,217 @@
+{
+  "caption": "KONVERSI SAMA, CSTR BUTUH VOLUME 4 KALI LIPAT DARI BATCH\n\nIni CS-09 dari seri cheat sheet ujian @ilmutekkim. Aturannya satu baris: untuk orde positif, seluruh isi CSTR duduk di konsentrasi keluar yang paling encer, jadi butuh volume lebih besar dari batch untuk konversi yang sama.\n\nContoh yang bisa ditiru: orde satu, target konversi 90 persen. Batch butuh waktu 2,303/k, CSTR butuh 9/k. Kalikan dengan laju alir umpan dan rasionya 3,9. Hampir empat kali lipat.\n\nDi pabrik nyata, batch hidup di farmasi dan kimia spesialti yang ganti resep tiap kampanye; CSTR hidup di petrokimia yang jalan kontinu 24 jam. Beda skala, beda pilihan.\n\nIni simpul 06 dari peta roadmap. Peta lengkapnya ada di postingan roadmap yang ter-pin di profil.\n\nSave buat UTS, tag teman sekelas, follow seri berikutnya.\n\n#teknikkimia #chemicalengineering #reaktor #cstr #batch #uts #belajar #pabrik #ilmutekkim",
+  "cover_brief": "foto reaktor tangki industri pabrik kimia dari luar, tangki baja dengan pipa dan struktur pabrik asli",
+  "cover_credit": "Nikolai Kolosov / Pexels",
+  "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-16/carousel-1/cover.jpg",
+  "cover_sub": "CS-09: batch menyapu rentang konsentrasi, CSTR diam di ujung.",
+  "credit_url": "https://www.pexels.com/photo/industrial-plant-seen-from-a-car-10666081/",
+  "cta_question": "Orde satu, k = 0,5/jam, umpan 2 m³/jam, target X = 0,9. Berapa V_batch dan V_CSTR? Tulis langkahnya di komen.",
+  "cta_teaser": "Besok CS-10: kuis simbol P&ID, 10 simbol yang paling sering keluar di ujian.",
+  "format": "real",
+  "hook": "KONVERSI SAMA, CSTR BUTUH VOLUME 4 KALI LIPAT DARI BATCH",
+  "hook_options": [
+    "KONVERSI SAMA, CSTR BUTUH VOLUME 4 KALI LIPAT DARI BATCH",
+    "JANGAN SAMAKAN VOLUME BATCH DAN CSTR DI UJIAN",
+    "RUMUS CSTR YANG DIPAKSA KE BATCH, JAWABAN LO NOL"
+  ],
+  "hook_payoff_slide": 5,
+  "photo_briefs": [
+    {
+      "cari": "foto tangki reaktor atau pabrik kimia dengan tangki industri dari dekat",
+      "slide": "konteks pabrik nyata: batch vs kontinu"
+    }
+  ],
+  "references": [
+    "Fogler, H. S., Elements of Chemical Reaction Engineering (persamaan desain reaktor batch dan CSTR)",
+    "Levenspiel, O., Chemical Reaction Engineering (perbandingan volume batch vs CSTR untuk kinetika orde positif)"
+  ],
+  "series_label": "SERI CHEAT SHEET UJIAN",
+  "slides": [
+    {
+      "callout": "Fakta kunci: seluruh isi CSTR berada pada konsentrasi keluar, titik dengan laju reaksi paling kecil.",
+      "fill_rows": [
+        [
+          "01",
+          "Soal memberi volume batch",
+          "lalu menanyakan volume CSTR"
+        ],
+        [
+          "02",
+          "Kata kontinu terdengar",
+          "lebih canggih dari batch"
+        ],
+        [
+          "03",
+          "Persamaan desain tertukar",
+          "batch dipakai untuk CSTR"
+        ]
+      ],
+      "fill_rows_title": "Kenapa jebakan ini sering keluar",
+      "hook": "Kebalik untuk orde positif.",
+      "pill": "JEBAKAN DOSEN",
+      "quote": "CSTR itu kontinu dan modern, jadi volumenya pasti lebih kecil dari batch.",
+      "type": "quote"
+    },
+    {
+      "callout": "Fakta kunci: persamaan desain CSTR memakai laju pada konsentrasi keluar, bukan konsentrasi umpan.",
+      "formula": "V_CSTR = v₀ × X / (k × (1 - X))",
+      "paras": [
+        "Reaktor batch mulai dari umpan pekat C_A0 dan konsentrasinya turun terus sampai C_A. Laju reaksi ikut turun, tapi sempat tinggi di awal.",
+        "CSTR berbeda: seluruh isi tangki sama dengan konsentrasi keluar C_A, yang paling encer. Laju reaksi di mana-mana sama dengan laju pada C_A, titik paling lambat.",
+        "Artinya: V volume reaktor, v₀ laju alir volumetrik umpan, X konversi, k konstanta laju reaksi."
+      ],
+      "pill": "ATURAN INTI",
+      "title": "Batch menyapu rentang, CSTR diam di ujung",
+      "type": "body",
+      "formula_tex": "V_{\\mathrm{CSTR}} = \\frac{v_0 X}{k(1-X)}"
+    },
+    {
+      "callout": "Fakta kunci: panah waktu di batch menggantikan panah aliran; tidak ada stream yang hilang dari skema.",
+      "diagram": "/home/hatch/workspace/ig-ilmutekkim/diagrams/2026-10-16-batch-vs-cstr.png",
+      "diagram_scope": "Diagram ini mencakup perbandingan mode batch dan CSTR untuk reaksi orde satu densitas konstan: aliran umpan dan keluar pada CSTR serta evolusi konsentrasi di dalam batch. Yang sengaja tidak digambar: waktu mati batch (pengisian, pemanasan, pengosongan, pembersihan) dan kebutuhan energi.",
+      "paras": [
+        "Kiri: reaktor batch tertutup selama reaksi; konsentrasi turun dari C_A0 ke C_A seiring waktu. Kanan: CSTR; umpan C_A0 masuk terus, produk C_A keluar terus, isi tangki selalu C_A."
+      ],
+      "pill": "SKEMANYA",
+      "title": "Satu tangki tertutup lawan satu tangki beraliran",
+      "type": "diagram"
+    },
+    {
+      "type": "body",
+      "pill": "CONTOH ANGKA",
+      "title": "Orde satu, X = 0,9: waktu tinggal",
+      "paras": [
+        "Diberi k dan laju alir v₀, target X = 0,9. Hitung waktu tinggal tiap reaktor.",
+        [
+          {
+            "tex_row": {
+              "label": "Batch:",
+              "tex": "t = \\frac{-\\ln(1-0{,}9)}{k} = \\frac{2{,}303}{k}",
+              "plain": "t = -ln(1-0,9)/k = 2,303/k",
+              "h": 96
+            }
+          }
+        ],
+        [
+          {
+            "tex_row": {
+              "label": "CSTR:",
+              "tex": "\\tau = \\frac{0{,}9}{k \\times 0{,}1} = \\frac{9}{k}",
+              "plain": "tau = 0,9/(k x 0,1) = 9/k",
+              "h": 96
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "type": "body",
+      "pill": "CONTOH ANGKA",
+      "title": "Orde satu, X = 0,9: volume reaktor",
+      "paras": [
+        "Kalikan waktu tinggal dengan laju alir v₀ untuk dapat volume."
+      ],
+      "fill_grid": [
+        [
+          "V_BATCH",
+          {
+            "tex": "\\frac{2{,}303\\,v_0}{k}",
+            "plain": "2,303 × v₀ / k"
+          }
+        ],
+        [
+          "V_CSTR",
+          {
+            "tex": "\\frac{9\\,v_0}{k}",
+            "plain": "9 × v₀ / k"
+          }
+        ],
+        [
+          "RASIO",
+          {
+            "tex": "\\frac{9}{2{,}303} = 3{,}9",
+            "plain": "9 / 2,303 = 3,9"
+          }
+        ]
+      ],
+      "fill_grid_eyebrow": "Volume = laju alir × waktu tinggal",
+      "callout": "Fakta kunci: orde satu, X = 0,9: CSTR butuh volume 3,9 kali batch."
+    },
+    {
+      "callout": "Fakta kunci: hitungan di atas memakai waktu reaksi ideal; waktu mati membuat batch kalah di operasi nyata.",
+      "fill_rows": [
+        [
+          "01",
+          "Batch punya waktu mati",
+          "isi, panaskan, kosongkan, bersihkan"
+        ],
+        [
+          "02",
+          "Hitungan ideal di atas",
+          "belum termasuk waktu mati itu"
+        ],
+        [
+          "03",
+          "CSTR menang di skala besar",
+          "kontinu 24 jam tanpa henti"
+        ]
+      ],
+      "fill_rows_title": "Catatan adil sebelum menghakimi CSTR",
+      "paras": [
+        "Laju orde positif mengikuti konsentrasi. Batch sempat menikmati konsentrasi tinggi di awal; CSTR terkunci di konsentrasi keluar yang paling encer sejak detik pertama."
+      ],
+      "pill": "KENAPA BEGITU",
+      "title": "Batch sempat di laju tinggi, CSTR tidak pernah",
+      "type": "body"
+    },
+    {
+      "callout": "Fakta kunci: pilihan reaktor ditentukan skala produksi dan variasi produk.",
+      "credit": "Policarpo Brito / Pexels",
+      "paras": [
+        "Reaktor batch umum di farmasi dan kimia spesialti: kampanye kecil, ganti produk cepat, resep berganti tiap batch.",
+        "CSTR berderet dipakai di petrokimia dan polimer: satu produk, volume raksasa, jalan kontinu 24 jam."
+      ],
+      "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-16/carousel-1/photo-1.jpg",
+      "pill": "DI PABRIK NYATA",
+      "title": "Batch di spesialti, CSTR di komoditas",
+      "type": "photo"
+    },
+    {
+      "callout": "Fakta kunci: jawaban yang benar selalu menyebut orde reaksi dan persamaan yang dipakai.",
+      "fill_rows": [
+        [
+          "01",
+          "Tulis persamaan desain",
+          "yang benar untuk tiap reaktor"
+        ],
+        [
+          "02",
+          "Cek orde reaksi",
+          "di soal sebelum bandingkan"
+        ],
+        [
+          "03",
+          "Cari kata waktu mati",
+          "di soal cerita, jangan abaikan"
+        ]
+      ],
+      "fill_rows_title": "Cek berurutan",
+      "paras": [
+        "Soal jebakan biasanya menukar persamaan atau menyembunyikan orde reaksi. Tiga cek ini menutup kedua lubang itu."
+      ],
+      "pill": "CEK SEBELUM JAWAB",
+      "title": "Tiga cek sebelum tulis jawaban",
+      "type": "body"
+    },
+    {
+      "bullets": [
+        "Save buat UTS",
+        "Tag teman sekelas",
+        "Follow seri berikutnya, CS-10 terbit besok"
+      ],
+      "head": "Orde satu, k = 0,5/jam, umpan 2 m³/jam, target X = 0,9. Berapa V_batch dan V_CSTR? Tulis langkahnya di komen.",
+      "pill": "KUIS CS-09",
+      "type": "conclusion"
+    }
+  ]
+}

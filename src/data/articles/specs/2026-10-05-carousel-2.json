@@ -1,0 +1,181 @@
+{
+ "caption": "Pabrik butuh pabrik lain di dalamnya. Ini utilitasnya.\n\nDi belakang unit proses ada boiler yang bikin uap, instalasi air demin dan pendingin, plus unit nitrogen dan udara instrumen. Tiga trio tak terlihat ini yang menentukan pabrik bisa jalan nonstop atau berhenti total. Tanpa utilitas, reaktor sebesar apa pun tidak bisa start.\n\nDi pabrik bayangan lo, utilitas apa yang paling krusial? Tulis di komen.\n\nFollow @ilmutekkim buat teknik kimia tiap hari.\n\n#teknikkimia #chemicalengineering #utilitas #steam #pabrik #proses #industri #ilmutekkim",
+ "cover_brief": "foto boiler industri dan jaringan pipa uap pabrik",
+ "cover_credit": "Ricardo Gomez Angel / Unsplash",
+ "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-05/carousel-2/cover.jpg",
+ "cover_sub": "Steam, air, dan nitrogen. Trio tak terlihat yang bikin pabrik bisa jalan.",
+ "credit_url": "https://unsplash.com/photos/industrial-metal-pipes-and-valves-41X6FwTwPh4",
+ "cta_question": "Di pabrik bayangan lo, utilitas apa yang paling krusial, steam atau air pendingin?",
+ "cta_teaser": "Besok: batu kapur jadi semen, alur kiln Semen Indonesia dari tambang ke kantong.",
+ "format": "real",
+ "hook": "PABRIK BUTUH PABRIK LAIN DI DALAMNYA. INI UTILITASNYA",
+ "hook_options": [
+  "PABRIK BUTUH PABRIK LAIN DI DALAMNYA. INI UTILITASNYA",
+  "STEAM, AIR, DAN NITROGEN. TRIO TAK TERLIHAT PENYELAMAT PABRIK",
+  "TANPA UTILITAS, PABRIK SEBESAR APA PUN BERHENTI TOTAL"
+ ],
+ "hook_payoff_slide": 5,
+ "photo_briefs": [
+  {
+   "cari": "foto boiler pabrik dan pipa steam industri",
+   "slide": 3
+  },
+  {
+   "cari": "foto menara pendingin dan instalasi air pabrik",
+   "slide": 5
+  }
+ ],
+ "references": [
+  "Perry's Chemical Engineers' Handbook (bab utilities and plant services)",
+  "Bloch, Petrochemical Plant Commissioning"
+ ],
+ "series_label": "SERI UTILITAS PABRIK",
+ "slides": [
+  {
+   "callout": "FAKTA: utilitas sering menyerap porsi besar biaya operasi pabrik, bukan unit prosesnya saja.",
+   "fill_rows": [
+    [
+     "01",
+     "STEAM BUAT PANAS",
+     "dan penggerak turbin"
+    ],
+    [
+     "02",
+     "AIR BUAT DINGIN",
+     "dan umpan boiler"
+    ],
+    [
+     "03",
+     "GAS BUAT PELINDUNG",
+     "nitrogen dan udara instrumen"
+    ]
+   ],
+   "fill_rows_title": "PETA SLIDE INI",
+   "hook": "Ada boiler, menara pendingin, dan unit gas yang kerja diam diam di belakang.",
+   "pill": "YANG SERING DIKIRA",
+   "quote": "Pabrik itu cuma butuh mesin produksi plus listrik PLN.",
+   "type": "quote"
+  },
+  {
+   "callout": "FAKTA: satu pabrik besar bisa punya beberapa level steam sekaligus untuk kebutuhan yang beda.",
+   "formula": "Air umpan → steam bertekanan",
+   "paras": [
+    "Boiler mengubah air umpan jadi uap bertekanan untuk memanaskan proses dan memutar turbin jadi listrik."
+   ],
+   "pill": "SISTEM STEAM",
+   "title": "Steam adalah darah panasnya pabrik",
+   "type": "body",
+   "fill_rows_title": "DUA LEVEL STEAM UTAMA",
+   "fill_rows": [
+    [
+     "1",
+     "Tekanan tinggi",
+     "penggerak turbin"
+    ],
+    [
+     "2",
+     "Tekanan rendah",
+     "pemanas proses"
+    ]
+   ]
+  },
+  {
+   "callout": "FAKTA: kebocoran steam trap kecil bisa membuang energi sebesar pemanas satu reaktor.",
+   "credit": "Dave Meckler / Unsplash",
+   "paras": [
+    "Jaringan pipa steam menyebar ke seluruh pabrik seperti pembuluh darah.",
+    "Insulasi dan perangkap uap di jaringan ini menentukan berapa banyak panas yang benar benar sampai ke proses."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-05/carousel-2/photo-1.jpg",
+   "pill": "DI PABRIKNYA",
+   "title": "Boiler dan pipa uap tulang punggung utilitas",
+   "type": "photo"
+  },
+  {
+   "callout": "FAKTA: pabrik yang utilitasnya sehat jarang mati mendadak karena sebab di luar proses.",
+   "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-05/carousel-2/diagram-util.png",
+   "paras": [
+    "Baca dari kiri ke kanan, lalu ikuti tiga jalurnya. Steam, air, dan gas jalan paralel menopang unit proses.",
+    "Kegagalan di satu jalur utilitas bisa menghentikan seluruh pabrik meski unit prosesnya sehat."
+   ],
+   "pill": "PETA LENGKAPNYA",
+   "title": "Tiga utilitas yang menopang satu pabrik",
+   "type": "diagram"
+  },
+  {
+   "callout": "FAKTA: kandungan mineral yang lolos ke boiler bisa jadi kerak dan membuat pipa boiler pecah.",
+   "credit": "Lukáš Lehotský / Unsplash",
+   "paras": [
+    "Air sungai dan sumur dimurnikan jadi air demin untuk umpan boiler dan air pendingin untuk penukar panas.",
+    "Penukar panas proses membuang panasnya ke air pendingin yang didinginkan lagi di menara pendingin."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-05/carousel-2/photo-2.jpg",
+   "pill": "SISTEM AIR",
+   "title": "Air demin dan air pendingin penjaga suhu",
+   "type": "photo"
+  },
+  {
+   "callout": "FAKTA: nitrogen tidak ikut reaksi. Tugasnya menjaga ruang tangki tetap tidak mudah meledak.",
+   "fill_cards": [
+    [
+     "01",
+     "Selimut nitrogen",
+     "cegah uap mudah terbakar"
+    ],
+    [
+     "02",
+     "Udara instrumen",
+     "gerakkan katup kontrol"
+    ]
+   ],
+   "formula": "Udara → N₂ + udara instrumen",
+   "paras": [
+    "Nitrogen jadi selimut tangki dan pendorong bahan, udara kering jadi penggerak katup kontrol pabrik."
+   ],
+   "pill": "SISTEM GAS",
+   "title": "Nitrogen dan udara instrumen yang tak terlihat",
+   "type": "body"
+  },
+  {
+   "callout": "FAKTA: insinyur utilitas menjaga pabrik tetap hidup sementara insinyur proses menjaga produknya benar.",
+   "fill_grid": [
+    [
+     "BOILER MATI",
+     "tidak ada panas proses"
+    ],
+    [
+     "AIR KOTOR",
+     "kerak dan korosi alat"
+    ],
+    [
+     "N₂ HABIS",
+     "tangki tanpa pelindung"
+    ],
+    [
+     "UDARA BASAH",
+     "katup macet"
+    ]
+   ],
+   "fill_grid_eyebrow": "",
+   "fill_note": "Empat kegagalan utilitas yang menghentikan pabrik.",
+   "paras": [
+    "Kalau boiler mati, tidak ada panas untuk reaksi dan distilasi. Kalau air pendingin habis, suhu proses lari.",
+    "Pabrik di dalam pabrik ini tidak menghasilkan produk, tapi tanpa dia tidak ada produk yang bisa dibuat."
+   ],
+   "pill": "KENAPA TIDAK TERLIHAT",
+   "title": "Yang tidak jualan, tapi menentukan segalanya",
+   "type": "body"
+  },
+  {
+   "bullets": [
+    "Steam memberi panas dan tenaga untuk seluruh proses.",
+    "Air demin dan pendingin menjaga suhu dan boiler tetap aman.",
+    "Nitrogen dan udara instrumen menjaga tangki dan katup tetap bekerja."
+   ],
+   "equation": "Boiler + air + gas → pabrik bisa jalan",
+   "head": "Utilitas adalah pabrik yang membuat pabrik bisa jalan.",
+   "pill": "KESIMPULANNYA",
+   "type": "conclusion"
+  }
+ ]
+}

@@ -1,0 +1,995 @@
+[
+  {
+    "slug": "distilasi-bertingkat-minyak-mentah",
+    "title": "Distilasi Bertingkat: Mengapa Minyak Mentah Tidak Cukup Dipanaskan Satu Kali",
+    "date": "2026-09-30",
+    "ig": "https://www.instagram.com/p/Dd8JoC6FLhe/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-09-30-carousel-1.json",
+    "originalSpec": "specs/2026-09-30-carousel-1.json",
+    "specPath": "specs/2026-09-30-carousel-1.json",
+    "deepSource": "_old/deep/distilasi-bertingkat-minyak-mentah.json",
+    "images": [
+      "/assets/img/distilasi-bertingkat-minyak-mentah/cover.jpg"
+    ]
+  },
+  {
+    "slug": "reflux-optimum-kolom-distilasi",
+    "title": "Semakin Besar Reflux, Semakin Murni? Bedah Reflux Optimum Kolom Distilasi",
+    "date": "2026-09-30",
+    "ig": "https://www.instagram.com/p/Dd8LkbglNQY/",
+    "status": "tayang",
+    "specSource": "_sources/spec-real.json",
+    "originalSpec": "draft/spec-real.json",
+    "specPath": "drafts/spec-real.json",
+    "deepSource": "_old/deep/reflux-optimum-kolom-distilasi.json",
+    "images": [
+      "/assets/img/reflux-optimum-kolom-distilasi/cover.jpg",
+      "/assets/img/reflux-optimum-kolom-distilasi/foto-5.jpg",
+      "/assets/img/reflux-optimum-kolom-distilasi/foto-7.jpg"
+    ]
+  },
+  {
+    "slug": "pabrik-kelapa-sawit-tandan-ke-cpo",
+    "title": "Dari Tandan Berduri Menjadi Minyak Sawit: Alur Lengkap Pabrik Kelapa Sawit",
+    "date": "2026-09-30",
+    "ig": "https://www.instagram.com/p/Dd7_i9uFIZn/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-09-30-carousel-2-rev4.json",
+    "originalSpec": "specs/2026-09-30-carousel-2-rev4.json",
+    "specPath": "specs/2026-09-30-carousel-2-rev4.json",
+    "deepSource": "_old/deep/pabrik-kelapa-sawit-tandan-ke-cpo.json",
+    "images": [
+      "/assets/img/pabrik-kelapa-sawit-tandan-ke-cpo/cover.jpg",
+      "/assets/img/pabrik-kelapa-sawit-tandan-ke-cpo/foto-5.jpg",
+      "/assets/img/pabrik-kelapa-sawit-tandan-ke-cpo/foto-6.jpg"
+    ]
+  },
+  {
+    "slug": "baca-pid-lima-simbol-pabrik",
+    "title": "Baca P&ID dalam 5 Menit: Lima Simbol yang Muncul di Hampir Semua Pabrik",
+    "date": "2026-09-30",
+    "ig": "https://www.instagram.com/p/Dd8J_SPlMUm/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-09-30-carousel-3.json",
+    "originalSpec": "specs/2026-09-30-carousel-3.json",
+    "specPath": "specs/2026-09-30-carousel-3.json",
+    "deepSource": "_old/deep/baca-pid-lima-simbol-pabrik.json",
+    "images": [
+      "/assets/img/baca-pid-lima-simbol-pabrik/cover.jpg"
+    ]
+  },
+  {
+    "slug": "refinery-sawit-cpo-ke-minyak-goreng",
+    "title": "Dari CPO Menjadi Minyak Goreng: Empat Tahap Refinery Sawit (Olein vs Stearin)",
+    "date": "2026-10-01",
+    "ig": "https://www.instagram.com/p/Dd8B6u6E6PN/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-01-carousel-1.json",
+    "originalSpec": "specs/2026-10-01-carousel-1.json",
+    "specPath": "specs/2026-10-01-carousel-1.json",
+    "deepSource": "_old/deep/refinery-sawit-cpo-ke-minyak-goreng.json",
+    "images": [
+      "/assets/img/refinery-sawit-cpo-ke-minyak-goreng/cover.jpg",
+      "/assets/img/refinery-sawit-cpo-ke-minyak-goreng/foto-3.jpg",
+      "/assets/img/refinery-sawit-cpo-ke-minyak-goreng/foto-5.jpg",
+      "/assets/img/refinery-sawit-cpo-ke-minyak-goreng/foto-7.jpg"
+    ]
+  },
+  {
+    "slug": "heat-exchanger-bikin-shutdown",
+    "title": "Heat Exchanger: Alat Paling Sederhana yang Paling Sering Menyebabkan Pabrik Shutdown",
+    "date": "2026-10-01",
+    "ig": "https://www.instagram.com/p/Dd8NemJD3vA/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-01-carousel-2.json",
+    "originalSpec": "specs/2026-10-01-carousel-2.json",
+    "specPath": "specs/2026-10-01-carousel-2.json",
+    "deepSource": "_old/deep/heat-exchanger-bikin-shutdown.json",
+    "images": [
+      "/assets/img/heat-exchanger-bikin-shutdown/cover.jpg",
+      "/assets/img/heat-exchanger-bikin-shutdown/foto-3.jpg",
+      "/assets/img/heat-exchanger-bikin-shutdown/foto-5.jpg"
+    ]
+  },
+  {
+    "slug": "b40-biodiesel-sawit-transesterifikasi",
+    "title": "B40: Bagaimana Sawit Menjadi Biodiesel Melalui Transesterifikasi",
+    "date": "2026-10-02",
+    "ig": "https://www.instagram.com/p/Dd_bheiDuVX/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-01-carousel-3-rev2.json",
+    "originalSpec": "specs/2026-10-01-carousel-3-rev2.json",
+    "specPath": "specs/2026-10-01-carousel-3-rev2.json",
+    "deepSource": "_old/deep/b40-biodiesel-sawit-transesterifikasi.json",
+    "images": [
+      "/assets/img/b40-biodiesel-sawit-transesterifikasi/cover.jpg",
+      "/assets/img/b40-biodiesel-sawit-transesterifikasi/foto-3.jpg",
+      "/assets/img/b40-biodiesel-sawit-transesterifikasi/diagram-4.jpg",
+      "/assets/img/b40-biodiesel-sawit-transesterifikasi/foto-5.jpg"
+    ]
+  },
+  {
+    "slug": "bbm-dari-sampah-plastik-pirolisis",
+    "title": "Dari Sampah Plastik Menjadi BBM: Bedah Proses Pirolisis",
+    "date": "2026-10-01",
+    "ig": "https://www.instagram.com/p/Dd7kKigk5SA/",
+    "status": "arsip",
+    "specSource": "_sources/specs/2026-10-01-bbm-plastik.json",
+    "originalSpec": "specs/2026-10-01-bbm-plastik.json",
+    "specPath": "specs/2026-10-01-bbm-plastik.json",
+    "deepSource": "_old/deep/bbm-dari-sampah-plastik-pirolisis.json",
+    "images": [
+      "/assets/img/bbm-dari-sampah-plastik-pirolisis/cover.jpg"
+    ]
+  },
+  {
+    "slug": "tekanan-relief-valve-rupture-disk",
+    "title": "Tekanan Itu Nyawa di Pabrik Kimia: Cara Kerja Relief Valve dan Rupture Disk",
+    "date": "2026-10-02",
+    "ig": "https://www.instagram.com/p/Dd-dqjwD4Bi/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-02-carousel-1.json",
+    "originalSpec": "specs/2026-10-02-carousel-1.json",
+    "specPath": "specs/2026-10-02-carousel-1.json",
+    "deepSource": "_old/deep/tekanan-relief-valve-rupture-disk.json",
+    "images": [
+      "/assets/img/tekanan-relief-valve-rupture-disk/cover.jpg",
+      "/assets/img/tekanan-relief-valve-rupture-disk/foto-3.jpg",
+      "/assets/img/tekanan-relief-valve-rupture-disk/foto-7.jpg"
+    ]
+  },
+  {
+    "slug": "satu-barel-minyak-jadi-apa",
+    "title": "Satu Barel Minyak Menjadi Apa Saja? Bedah Produk Kilang Cilacap dan Balikpapan",
+    "date": "2026-10-02",
+    "ig": "https://www.instagram.com/p/Dd_RdyFDNf7/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-02-carousel-2-rev.json",
+    "originalSpec": "specs/2026-10-02-carousel-2-rev.json",
+    "specPath": "specs/2026-10-02-carousel-2-rev.json",
+    "deepSource": "_old/deep/satu-barel-minyak-jadi-apa.json",
+    "images": [
+      "/assets/img/satu-barel-minyak-jadi-apa/cover.jpg",
+      "/assets/img/satu-barel-minyak-jadi-apa/diagram-1.jpg",
+      "/assets/img/satu-barel-minyak-jadi-apa/foto-4.jpg",
+      "/assets/img/satu-barel-minyak-jadi-apa/diagram-5.jpg",
+      "/assets/img/satu-barel-minyak-jadi-apa/foto-6.jpg",
+      "/assets/img/satu-barel-minyak-jadi-apa/diagram-7.jpg"
+    ]
+  },
+  {
+    "slug": "pompa-vs-kompresor",
+    "title": "Pompa vs Kompresor: Salah Pilih Alat, Boros Listrik Bertahun-tahun",
+    "date": "2026-10-02",
+    "ig": "https://www.instagram.com/p/Dd_Nvp1jL2U/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-02-carousel-3.json",
+    "originalSpec": "specs/2026-10-02-carousel-3.json",
+    "specPath": "specs/2026-10-02-carousel-3.json",
+    "deepSource": "_old/deep/pompa-vs-kompresor.json",
+    "images": [
+      "/assets/img/pompa-vs-kompresor/cover.jpg",
+      "/assets/img/pompa-vs-kompresor/foto-3.jpg",
+      "/assets/img/pompa-vs-kompresor/foto-5.jpg"
+    ]
+  },
+  {
+    "slug": "naphtha-ke-plastik-petrokimia",
+    "title": "Dari Naphtha Menjadi Plastik: Alur Petrokimia Steam Cracker sampai Polimer",
+    "date": "2026-10-03",
+    "ig": "https://www.instagram.com/p/DeBMfgKDsT_/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-03-carousel-1.json",
+    "originalSpec": "specs/2026-10-03-carousel-1.json",
+    "specPath": "specs/2026-10-03-carousel-1.json",
+    "deepSource": "_old/deep/naphtha-ke-plastik-petrokimia.json",
+    "images": [
+      "/assets/img/naphtha-ke-plastik-petrokimia/cover.jpg",
+      "/assets/img/naphtha-ke-plastik-petrokimia/foto-3.jpg",
+      "/assets/img/naphtha-ke-plastik-petrokimia/diagram-4.jpg",
+      "/assets/img/naphtha-ke-plastik-petrokimia/foto-5.jpg"
+    ]
+  },
+  {
+    "slug": "cooling-tower-cara-kerja",
+    "title": "Cooling Tower: Cara Kerja AC Raksasa Pabrik yang Sering Disangka Cerobong Asap",
+    "date": "2026-10-03",
+    "ig": "https://www.instagram.com/p/DeB5ccrD6Tv/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-03-carousel-2.json",
+    "originalSpec": "specs/2026-10-03-carousel-2.json",
+    "specPath": "specs/2026-10-03-carousel-2.json",
+    "deepSource": "_old/deep/cooling-tower-cara-kerja.json",
+    "images": [
+      "/assets/img/cooling-tower-cara-kerja/cover.jpg",
+      "/assets/img/cooling-tower-cara-kerja/foto-3.jpg",
+      "/assets/img/cooling-tower-cara-kerja/diagram-4.jpg",
+      "/assets/img/cooling-tower-cara-kerja/foto-6.jpg"
+    ]
+  },
+  {
+    "slug": "cooling-tower-wet-bulb-range-approach",
+    "title": "Menilai Cooling Tower dengan Benar: Wet Bulb, Range, Approach, dan Neraca Air",
+    "date": "2026-10-03",
+    "ig": "https://www.instagram.com/p/DeCB7AzFDA4/",
+    "status": "tayang",
+    "specSource": "_sources/2026-10-03-cooling-tower-buku.json",
+    "originalSpec": "drafts/2026-10-03-cooling-tower-buku.json",
+    "specPath": "drafts/2026-10-03-cooling-tower-buku.json",
+    "deepSource": "_old/deep/cooling-tower-wet-bulb-range-approach.json",
+    "images": []
+  },
+  {
+    "slug": "gas-alam-ke-urea-haber-bosch",
+    "title": "Gas Alam dan Udara Menjadi Pupuk Urea: Proses Haber-Bosch di Pupuk Kaltim",
+    "date": "2026-10-03",
+    "ig": "https://www.instagram.com/p/DeDSOk2mW6F/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-03-carousel-3.json",
+    "originalSpec": "specs/2026-10-03-carousel-3.json",
+    "specPath": "specs/2026-10-03-carousel-3.json",
+    "deepSource": "_old/deep/gas-alam-ke-urea-haber-bosch.json",
+    "images": [
+      "/assets/img/gas-alam-ke-urea-haber-bosch/cover.jpg",
+      "/assets/img/gas-alam-ke-urea-haber-bosch/foto-3.jpg",
+      "/assets/img/gas-alam-ke-urea-haber-bosch/diagram-4.jpg",
+      "/assets/img/gas-alam-ke-urea-haber-bosch/foto-6.jpg"
+    ]
+  },
+  {
+    "slug": "polimerisasi-konversi-carothers",
+    "title": "Konversi 99 Persen Masih Kurang: Polimerisasi Step-Growth dan Persamaan Carothers",
+    "date": "2026-10-03",
+    "ig": "https://www.instagram.com/p/DeBQiZJDpMO/",
+    "status": "arsip",
+    "specSource": "_sources/specs/2026-10-03-advanced-polimerisasi.json",
+    "originalSpec": "specs/2026-10-03-advanced-polimerisasi.json",
+    "specPath": "specs/2026-10-03-advanced-polimerisasi.json",
+    "deepSource": "_old/deep/polimerisasi-konversi-carothers.json",
+    "images": [
+      "/assets/img/polimerisasi-konversi-carothers/cover.jpg",
+      "/assets/img/polimerisasi-konversi-carothers/diagram-3.jpg",
+      "/assets/img/polimerisasi-konversi-carothers/diagram-5.jpg",
+      "/assets/img/polimerisasi-konversi-carothers/foto-7.jpg"
+    ]
+  },
+  {
+    "slug": "neraca-massa-data-pabrik-bocor",
+    "title": "Data Pabrik Selalu Bocor Angka? Periksa Dulu Neraca Massanya",
+    "date": "2026-10-04",
+    "ig": "https://www.instagram.com/p/DeDqycEjlro/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-04-carousel-1.json",
+    "originalSpec": "specs/2026-10-04-carousel-1.json",
+    "specPath": "specs/2026-10-04-carousel-1.json",
+    "deepSource": "_old/deep/neraca-massa-data-pabrik-bocor.json",
+    "images": [
+      "/assets/img/neraca-massa-data-pabrik-bocor/cover.jpg",
+      "/assets/img/neraca-massa-data-pabrik-bocor/foto-3.jpg",
+      "/assets/img/neraca-massa-data-pabrik-bocor/diagram-4.jpg",
+      "/assets/img/neraca-massa-data-pabrik-bocor/foto-5.jpg"
+    ]
+  },
+  {
+    "slug": "oleokimia-sawit-sabun-deterjen",
+    "title": "Sabun di Rumah Berasal dari Sawit: Alur Kimia Oleokimia",
+    "date": "2026-10-04",
+    "ig": "https://www.instagram.com/p/DeEk3baD0Mv/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-04-carousel-2.json",
+    "originalSpec": "specs/2026-10-04-carousel-2.json",
+    "specPath": "specs/2026-10-04-carousel-2.json",
+    "deepSource": "_old/deep/oleokimia-sawit-sabun-deterjen.json",
+    "images": [
+      "/assets/img/oleokimia-sawit-sabun-deterjen/cover.jpg",
+      "/assets/img/oleokimia-sawit-sabun-deterjen/foto-3.jpg",
+      "/assets/img/oleokimia-sawit-sabun-deterjen/diagram-4.jpg",
+      "/assets/img/oleokimia-sawit-sabun-deterjen/foto-5.jpg"
+    ]
+  },
+  {
+    "slug": "batch-vs-continuous-pabrik",
+    "title": "Batch vs Continuous: Mengapa Pabrik Makanan dan Petrokimia Berbeda Jauh Cara Kerjanya",
+    "date": "2026-10-04",
+    "ig": "https://www.instagram.com/p/DeE3CFYj2i1/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-04-carousel-3.json",
+    "originalSpec": "specs/2026-10-04-carousel-3.json",
+    "specPath": "specs/2026-10-04-carousel-3.json",
+    "deepSource": "_old/deep/batch-vs-continuous-pabrik.json",
+    "images": [
+      "/assets/img/batch-vs-continuous-pabrik/cover.jpg",
+      "/assets/img/batch-vs-continuous-pabrik/foto-3.jpg",
+      "/assets/img/batch-vs-continuous-pabrik/diagram-4.jpg",
+      "/assets/img/batch-vs-continuous-pabrik/foto-5.jpg"
+    ]
+  },
+  {
+    "slug": "tebu-ke-gula-pabrik-gula",
+    "title": "Tebu Tidak Hanya Diperas: Alur Lengkap Pabrik Gula dari Ladang ke Kristal",
+    "date": "2026-10-05",
+    "ig": "https://www.instagram.com/p/DeGWfGXjwR9/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-05-carousel-1.json",
+    "originalSpec": "specs/2026-10-05-carousel-1.json",
+    "specPath": "specs/2026-10-05-carousel-1.json",
+    "deepSource": "_old/deep/tebu-ke-gula-pabrik-gula.json",
+    "images": [
+      "/assets/img/tebu-ke-gula-pabrik-gula/cover.jpg",
+      "/assets/img/tebu-ke-gula-pabrik-gula/foto-3.jpg",
+      "/assets/img/tebu-ke-gula-pabrik-gula/diagram-4.jpg",
+      "/assets/img/tebu-ke-gula-pabrik-gula/foto-5.jpg"
+    ]
+  },
+  {
+    "slug": "utilitas-pabrik-steam-air-nitrogen",
+    "title": "Utilitas Pabrik: Pabrik di Dalam Pabrik yang Tidak Terlihat (Steam, Air, Nitrogen)",
+    "date": "2026-10-05",
+    "ig": "https://www.instagram.com/p/DeG-z3Hj3Ul/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-05-carousel-2.json",
+    "originalSpec": "specs/2026-10-05-carousel-2.json",
+    "specPath": "specs/2026-10-05-carousel-2.json",
+    "deepSource": "_old/deep/utilitas-pabrik-steam-air-nitrogen.json",
+    "images": [
+      "/assets/img/utilitas-pabrik-steam-air-nitrogen/cover.jpg",
+      "/assets/img/utilitas-pabrik-steam-air-nitrogen/foto-3.jpg",
+      "/assets/img/utilitas-pabrik-steam-air-nitrogen/diagram-4.jpg",
+      "/assets/img/utilitas-pabrik-steam-air-nitrogen/foto-5.jpg"
+    ]
+  },
+  {
+    "slug": "batu-kapur-ke-semen-kiln",
+    "title": "Batu Kapur Menjadi Semen Melalui Api 1450 Derajat: Proses Kiln dari Tambang ke Kantong",
+    "date": "2026-10-05",
+    "ig": "https://www.instagram.com/p/DeHbo8HjxkY/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-05-carousel-3.json",
+    "originalSpec": "specs/2026-10-05-carousel-3.json",
+    "specPath": "specs/2026-10-05-carousel-3.json",
+    "deepSource": "_old/deep/batu-kapur-ke-semen-kiln.json",
+    "images": [
+      "/assets/img/batu-kapur-ke-semen-kiln/cover.jpg",
+      "/assets/img/batu-kapur-ke-semen-kiln/foto-3.jpg",
+      "/assets/img/batu-kapur-ke-semen-kiln/diagram-4.jpg"
+    ]
+  },
+  {
+    "slug": "safety-instrumented-system-lapisan-pengaman",
+    "title": "Pabrik Aman Bukan Karena Operator Sigap: Cara Kerja Safety Instrumented System",
+    "date": "2026-10-06",
+    "ig": "https://www.instagram.com/p/DeI-sCKk7S0/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-06-carousel-1.json",
+    "originalSpec": "specs/2026-10-06-carousel-1.json",
+    "specPath": "specs/2026-10-06-carousel-1.json",
+    "deepSource": "_old/deep/safety-instrumented-system-lapisan-pengaman.json",
+    "images": [
+      "/assets/img/safety-instrumented-system-lapisan-pengaman/cover.jpg",
+      "/assets/img/safety-instrumented-system-lapisan-pengaman/foto-3.jpg",
+      "/assets/img/safety-instrumented-system-lapisan-pengaman/diagram-4.jpg",
+      "/assets/img/safety-instrumented-system-lapisan-pengaman/foto-5.jpg"
+    ]
+  },
+  {
+    "slug": "pulp-kertas-proses-kraft",
+    "title": "Kayu Keras Menjadi Kertas Lembut: Proses Kraft di Pabrik Pulp Riau",
+    "date": "2026-10-06",
+    "ig": "https://www.instagram.com/p/DeJjGqwj0Hb/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-06-carousel-2-rev.json",
+    "originalSpec": "specs/2026-10-06-carousel-2-rev.json",
+    "specPath": "specs/2026-10-06-carousel-2-rev.json",
+    "deepSource": "_old/deep/pulp-kertas-proses-kraft.json",
+    "images": [
+      "/assets/img/pulp-kertas-proses-kraft/cover.jpg",
+      "/assets/img/pulp-kertas-proses-kraft/foto-3.jpg",
+      "/assets/img/pulp-kertas-proses-kraft/diagram-4.jpg",
+      "/assets/img/pulp-kertas-proses-kraft/foto-5.jpg"
+    ]
+  },
+  {
+    "slug": "permit-to-work-kerja-panas",
+    "title": "Las Lima Menit Tetap Butuh Izin: Cara Kerja Permit to Work di Pabrik Kimia",
+    "date": "2026-10-06",
+    "ig": "https://www.instagram.com/p/DeJ_8QCjtmQ/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-06-carousel-3.json",
+    "originalSpec": "specs/2026-10-06-carousel-3.json",
+    "specPath": "specs/2026-10-06-carousel-3.json",
+    "deepSource": "_old/deep/permit-to-work-kerja-panas.json",
+    "images": [
+      "/assets/img/permit-to-work-kerja-panas/cover.jpg",
+      "/assets/img/permit-to-work-kerja-panas/foto-3.jpg",
+      "/assets/img/permit-to-work-kerja-panas/diagram-4.jpg",
+      "/assets/img/permit-to-work-kerja-panas/foto-5.jpg"
+    ]
+  },
+  {
+    "slug": "roadmap-enam-mata-kuliah-pabrik",
+    "title": "Enam Mata Kuliah yang Sesungguhnya Menjalankan Pabrik: Peta Roadmap Teknik Kimia",
+    "date": "2026-10-07",
+    "ig": "https://www.instagram.com/p/DeMyNxZjIl2/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-07-roadmap-1.json",
+    "originalSpec": "specs/2026-10-07-roadmap-1.json",
+    "specPath": "specs/2026-10-07-roadmap-1.json",
+    "deepSource": "_old/deep/roadmap-enam-mata-kuliah-pabrik.json",
+    "images": [
+      "/assets/img/roadmap-enam-mata-kuliah-pabrik/cover.jpg",
+      "/assets/img/roadmap-enam-mata-kuliah-pabrik/foto-3.jpg",
+      "/assets/img/roadmap-enam-mata-kuliah-pabrik/diagram-4.jpg",
+      "/assets/img/roadmap-enam-mata-kuliah-pabrik/foto-5.jpg"
+    ]
+  },
+  {
+    "slug": "cs01-step-growth-carothers-dp-runtuh",
+    "title": "CS-01 Cheat Sheet: DP Polimer Runtuh Apabila Stoikiometri Menyimpang 1 Persen",
+    "date": "2026-10-08",
+    "ig": "https://www.instagram.com/p/DeOBXd7jy3k/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-08-carousel-1.json",
+    "originalSpec": "specs/2026-10-08-carousel-1.json",
+    "specPath": "specs/2026-10-08-carousel-1.json",
+    "deepSource": "_old/deep/cs01-step-growth-carothers-dp-runtuh.json",
+    "images": [
+      "/assets/img/cs01-step-growth-carothers-dp-runtuh/cover.jpg",
+      "/assets/img/cs01-step-growth-carothers-dp-runtuh/diagram-3.jpg",
+      "/assets/img/cs01-step-growth-carothers-dp-runtuh/foto-6.jpg"
+    ]
+  },
+  {
+    "slug": "control-room-dcs-loop-kontrol",
+    "title": "Satu Layar Berisi Satu Pabrik: Bedah Control Room dan Loop Kontrol DCS",
+    "date": "2026-10-08",
+    "ig": "https://www.instagram.com/p/DeOqlk7E_vp/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-08-carousel-2.json",
+    "originalSpec": "specs/2026-10-08-carousel-2.json",
+    "specPath": "specs/2026-10-08-carousel-2.json",
+    "deepSource": "_old/deep/control-room-dcs-loop-kontrol.json",
+    "images": [
+      "/assets/img/control-room-dcs-loop-kontrol/cover.jpg",
+      "/assets/img/control-room-dcs-loop-kontrol/diagram-3.jpg",
+      "/assets/img/control-room-dcs-loop-kontrol/foto-4.jpg"
+    ]
+  },
+  {
+    "slug": "cs02-mccabe-thiele-garis-operasi",
+    "title": "CS-02 Cheat Sheet: Dua Garis Operasi McCabe-Thiele dan Tangga Tahapnya",
+    "date": "2026-10-09",
+    "ig": "https://www.instagram.com/p/DeQmX_cCV9e/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-09-carousel-1.json",
+    "originalSpec": "specs/2026-10-09-carousel-1.json",
+    "specPath": "specs/2026-10-09-carousel-1.json",
+    "deepSource": "_old/deep/cs02-mccabe-thiele-garis-operasi.json",
+    "images": [
+      "/assets/img/cs02-mccabe-thiele-garis-operasi/cover.jpg",
+      "/assets/img/cs02-mccabe-thiele-garis-operasi/diagram-3.jpg",
+      "/assets/img/cs02-mccabe-thiele-garis-operasi/foto-6.jpg"
+    ]
+  },
+  {
+    "slug": "preventive-maintenance-bongkar-terjadwal",
+    "title": "Preventive Maintenance: Mengapa Mesin yang Sehat Tetap Dibongkar Secara Terjadwal",
+    "date": "2026-10-09",
+    "ig": "https://www.instagram.com/p/DeRSyKSD7Eq/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-09-carousel-2.json",
+    "originalSpec": "specs/2026-10-09-carousel-2.json",
+    "specPath": "specs/2026-10-09-carousel-2.json",
+    "deepSource": "_old/deep/preventive-maintenance-bongkar-terjadwal.json",
+    "images": [
+      "/assets/img/preventive-maintenance-bongkar-terjadwal/cover.jpg",
+      "/assets/img/preventive-maintenance-bongkar-terjadwal/diagram-3.jpg",
+      "/assets/img/preventive-maintenance-bongkar-terjadwal/foto-6.jpg"
+    ]
+  },
+  {
+    "slug": "bhopal-1984-lapisan-pengaman-yang-mati",
+    "title": "Bhopal 1984: Satu Tangki, Satu Kota, dan Lapisan Pengaman yang Mati Satu per Satu",
+    "date": "2026-10-21",
+    "ig": "https://www.instagram.com/p/DewFgFFj5Ys/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-21-carousel-2.json",
+    "originalSpec": "specs/2026-10-21-carousel-2.json",
+    "specPath": "specs/2026-10-21-carousel-2.json",
+    "deepSource": "_old/deep/bhopal-1984-lapisan-pengaman-yang-mati.json",
+    "images": [
+      "/assets/img/bhopal-1984-lapisan-pengaman-yang-mati/cover.jpg",
+      "/assets/img/bhopal-1984-lapisan-pengaman-yang-mati/foto-3.jpg",
+      "/assets/img/bhopal-1984-lapisan-pengaman-yang-mati/diagram-5.jpg"
+    ]
+  },
+  {
+    "slug": "boiler-meledak-lahirnya-katup-pengaman",
+    "title": "Boiler yang Meledak dan Lahirnya Katup Pengaman",
+    "date": "2026-10-19",
+    "ig": "https://www.instagram.com/p/DerXVnXCbDY/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-19-carousel-2.json",
+    "originalSpec": "specs/2026-10-19-carousel-2.json",
+    "specPath": "specs/2026-10-19-carousel-2.json",
+    "deepSource": "_old/deep/boiler-meledak-lahirnya-katup-pengaman.json",
+    "images": [
+      "/assets/img/boiler-meledak-lahirnya-katup-pengaman/cover.jpg",
+      "/assets/img/boiler-meledak-lahirnya-katup-pengaman/diagram-4.jpg",
+      "/assets/img/boiler-meledak-lahirnya-katup-pengaman/foto-7.jpg"
+    ]
+  },
+  {
+    "slug": "coffey-still-1830-distilasi-kontinu",
+    "title": "Coffey Still 1830: Ketika Distilasi Berhenti Menjadi Kerja Batch",
+    "date": "2026-10-16",
+    "ig": "https://www.instagram.com/p/DejQ5PVj8EL/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-16-carousel-2.json",
+    "originalSpec": "specs/2026-10-16-carousel-2.json",
+    "specPath": "specs/2026-10-16-carousel-2.json",
+    "deepSource": "_old/deep/coffey-still-1830-distilasi-kontinu.json",
+    "images": [
+      "/assets/img/coffey-still-1830-distilasi-kontinu/cover.jpg",
+      "/assets/img/coffey-still-1830-distilasi-kontinu/diagram-4.jpg"
+    ]
+  },
+  {
+    "slug": "cs03-reflux-minimum-jebakan-mahal",
+    "title": "CS-03 Cheat Sheet: Reflux Minimum, Reflux Total, dan Reflux Operasi",
+    "date": "2026-10-10",
+    "ig": "https://www.instagram.com/p/DeTLDZZDtpu/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-10-carousel-1.json",
+    "originalSpec": "specs/2026-10-10-carousel-1.json",
+    "specPath": "specs/2026-10-10-carousel-1.json",
+    "deepSource": "_old/deep/cs03-reflux-minimum-jebakan-mahal.json",
+    "images": [
+      "/assets/img/cs03-reflux-minimum-jebakan-mahal/cover.jpg",
+      "/assets/img/cs03-reflux-minimum-jebakan-mahal/diagram-3.jpg",
+      "/assets/img/cs03-reflux-minimum-jebakan-mahal/foto-6.jpg"
+    ]
+  },
+  {
+    "slug": "cs04-fouling-lmtd-meleset",
+    "title": "CS-04 Cheat Sheet: Fouling Membuat Hitungan LMTD Meleset",
+    "date": "2026-10-11",
+    "ig": "https://www.instagram.com/p/DeVvxH8E5tw/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-11-carousel-1.json",
+    "originalSpec": "specs/2026-10-11-carousel-1.json",
+    "specPath": "specs/2026-10-11-carousel-1.json",
+    "deepSource": "_old/deep/cs04-fouling-lmtd-meleset.json",
+    "images": [
+      "/assets/img/cs04-fouling-lmtd-meleset/cover.jpg",
+      "/assets/img/cs04-fouling-lmtd-meleset/diagram-3.jpg",
+      "/assets/img/cs04-fouling-lmtd-meleset/foto-6.jpg"
+    ]
+  },
+  {
+    "slug": "cs05-azeotrop-etanol-956",
+    "title": "CS-05 Cheat Sheet: Azeotrop, Alasan Etanol Berhenti di 95,6 Persen",
+    "date": "2026-10-12",
+    "ig": "https://www.instagram.com/p/DeYUg5Zjyrm/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-12-carousel-1.json",
+    "originalSpec": "specs/2026-10-12-carousel-1.json",
+    "specPath": "specs/2026-10-12-carousel-1.json",
+    "deepSource": "_old/deep/cs05-azeotrop-etanol-956.json",
+    "images": [
+      "/assets/img/cs05-azeotrop-etanol-956/cover.jpg",
+      "/assets/img/cs05-azeotrop-etanol-956/diagram-3.jpg",
+      "/assets/img/cs05-azeotrop-etanol-956/foto-5.jpg"
+    ]
+  },
+  {
+    "slug": "cs06-purge-recycle-gas-inert",
+    "title": "CS-06 Cheat Sheet: Neraca Massa Recycle dan Fungsi Purge",
+    "date": "2026-10-13",
+    "ig": "https://www.instagram.com/p/Dea5a_sDsas/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-13-carousel-1.json",
+    "originalSpec": "specs/2026-10-13-carousel-1.json",
+    "specPath": "specs/2026-10-13-carousel-1.json",
+    "deepSource": "_old/deep/cs06-purge-recycle-gas-inert.json",
+    "images": [
+      "/assets/img/cs06-purge-recycle-gas-inert/cover.jpg",
+      "/assets/img/cs06-purge-recycle-gas-inert/diagram-3.jpg",
+      "/assets/img/cs06-purge-recycle-gas-inert/foto-5.jpg"
+    ]
+  },
+  {
+    "slug": "cs07-pompa-kompresor-versi-ujian",
+    "title": "CS-07 Cheat Sheet: Pompa atau Kompresor, Head atau Pressure Ratio",
+    "date": "2026-10-14",
+    "ig": "https://www.instagram.com/p/Dedf1zYDyml/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-14-carousel-1.json",
+    "originalSpec": "specs/2026-10-14-carousel-1.json",
+    "specPath": "specs/2026-10-14-carousel-1.json",
+    "deepSource": "_old/deep/cs07-pompa-kompresor-versi-ujian.json",
+    "images": [
+      "/assets/img/cs07-pompa-kompresor-versi-ujian/cover.jpg",
+      "/assets/img/cs07-pompa-kompresor-versi-ujian/diagram-3.jpg",
+      "/assets/img/cs07-pompa-kompresor-versi-ujian/foto-6.jpg"
+    ]
+  },
+  {
+    "slug": "cs08-cooling-tower-wet-bulb-ujian",
+    "title": "CS-08 Cheat Sheet: Wet Bulb, Penentu Suhu Air Dingin Cooling Tower",
+    "date": "2026-10-15",
+    "ig": "https://www.instagram.com/p/DegNBPdiRRj/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-15-carousel-1-rev2.json",
+    "originalSpec": "specs/2026-10-15-carousel-1-rev2.json",
+    "specPath": "specs/2026-10-15-carousel-1-rev2.json",
+    "deepSource": "_old/deep/cs08-cooling-tower-wet-bulb-ujian.json",
+    "images": [
+      "/assets/img/cs08-cooling-tower-wet-bulb-ujian/cover.jpg",
+      "/assets/img/cs08-cooling-tower-wet-bulb-ujian/diagram-3.jpg",
+      "/assets/img/cs08-cooling-tower-wet-bulb-ujian/foto-6.jpg"
+    ]
+  },
+  {
+    "slug": "cs09-batch-vs-cstr-volume",
+    "title": "CS-09 Cheat Sheet: Batch vs CSTR, Mengapa Volumenya Berbeda Empat Kali",
+    "date": "2026-10-16",
+    "ig": "https://www.instagram.com/p/DejIhisD-jp/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-16-carousel-1-repost-tex2.json",
+    "originalSpec": "specs/2026-10-16-carousel-1-repost-tex2.json",
+    "specPath": "specs/2026-10-16-carousel-1-repost-tex2.json",
+    "deepSource": "_old/deep/cs09-batch-vs-cstr-volume.json",
+    "images": [
+      "/assets/img/cs09-batch-vs-cstr-volume/cover.jpg",
+      "/assets/img/cs09-batch-vs-cstr-volume/diagram-3.jpg",
+      "/assets/img/cs09-batch-vs-cstr-volume/foto-7.jpg"
+    ]
+  },
+  {
+    "slug": "cs10-pid-sepuluh-simbol-ujian",
+    "title": "CS-10 Cheat Sheet: Sepuluh Simbol P&ID yang Paling Sering Keluar di Ujian",
+    "date": "2026-10-17",
+    "ig": "https://www.instagram.com/p/DelMlXojlSC/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-17-carousel-1.json",
+    "originalSpec": "specs/2026-10-17-carousel-1.json",
+    "specPath": "specs/2026-10-17-carousel-1.json",
+    "deepSource": "_old/deep/cs10-pid-sepuluh-simbol-ujian.json",
+    "images": [
+      "/assets/img/cs10-pid-sepuluh-simbol-ujian/cover.jpg",
+      "/assets/img/cs10-pid-sepuluh-simbol-ujian/diagram-3.jpg",
+      "/assets/img/cs10-pid-sepuluh-simbol-ujian/foto-9.jpg"
+    ]
+  },
+  {
+    "slug": "cs11-relief-set-pressure-mawp",
+    "title": "CS-11 Cheat Sheet: Set Pressure Bukan Tekanan Maksimum Bejana",
+    "date": "2026-10-18",
+    "ig": "https://www.instagram.com/p/Dent7ONj--g/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-18-carousel-1.json",
+    "originalSpec": "specs/2026-10-18-carousel-1.json",
+    "specPath": "specs/2026-10-18-carousel-1.json",
+    "deepSource": "_old/deep/cs11-relief-set-pressure-mawp.json",
+    "images": [
+      "/assets/img/cs11-relief-set-pressure-mawp/cover.jpg",
+      "/assets/img/cs11-relief-set-pressure-mawp/diagram-3.jpg",
+      "/assets/img/cs11-relief-set-pressure-mawp/foto-7.jpg"
+    ]
+  },
+  {
+    "slug": "cs12-gliserol-satu-ton-cpo",
+    "title": "CS-12 Cheat Sheet: Satu Ton CPO dan 104 Kilogram Gliserol",
+    "date": "2026-10-19",
+    "ig": "https://www.instagram.com/p/DeqW_c9j8zr/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-19-carousel-1.json",
+    "originalSpec": "specs/2026-10-19-carousel-1.json",
+    "specPath": "specs/2026-10-19-carousel-1.json",
+    "deepSource": "_old/deep/cs12-gliserol-satu-ton-cpo.json",
+    "images": [
+      "/assets/img/cs12-gliserol-satu-ton-cpo/cover.jpg",
+      "/assets/img/cs12-gliserol-satu-ton-cpo/diagram-3.jpg",
+      "/assets/img/cs12-gliserol-satu-ton-cpo/foto-6.jpg"
+    ]
+  },
+  {
+    "slug": "cs13-raoult-kesetimbangan-uap-cair",
+    "title": "CS-13 Cheat Sheet: Hukum Raoult, dari x1 = 0,4 Menjadi y1 = 0,63",
+    "date": "2026-10-20",
+    "ig": "https://www.instagram.com/p/Des_SHfj08w/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-20-carousel-1.json",
+    "originalSpec": "specs/2026-10-20-carousel-1.json",
+    "specPath": "specs/2026-10-20-carousel-1.json",
+    "deepSource": "_old/deep/cs13-raoult-kesetimbangan-uap-cair.json",
+    "images": [
+      "/assets/img/cs13-raoult-kesetimbangan-uap-cair/cover.jpg",
+      "/assets/img/cs13-raoult-kesetimbangan-uap-cair/diagram-3.jpg",
+      "/assets/img/cs13-raoult-kesetimbangan-uap-cair/diagram-5.jpg",
+      "/assets/img/cs13-raoult-kesetimbangan-uap-cair/foto-6.jpg"
+    ]
+  },
+  {
+    "slug": "cs14-absorpsi-vs-stripping-kremser",
+    "title": "CS-14 Cheat Sheet: Absorpsi vs Stripping, Satu Kolom Dua Arah",
+    "date": "2026-10-21",
+    "ig": "https://www.instagram.com/p/DevjMbqCY0t/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-21-carousel-1.json",
+    "originalSpec": "specs/2026-10-21-carousel-1.json",
+    "specPath": "specs/2026-10-21-carousel-1.json",
+    "deepSource": "_old/deep/cs14-absorpsi-vs-stripping-kremser.json",
+    "images": [
+      "/assets/img/cs14-absorpsi-vs-stripping-kremser/cover.jpg",
+      "/assets/img/cs14-absorpsi-vs-stripping-kremser/diagram-3.jpg",
+      "/assets/img/cs14-absorpsi-vs-stripping-kremser/diagram-5.jpg",
+      "/assets/img/cs14-absorpsi-vs-stripping-kremser/foto-6.jpg"
+    ]
+  },
+  {
+    "slug": "flixborough-sketsa-kapur-manajemen-perubahan",
+    "title": "Flixborough: Sketsa Kapur, Pipa Darurat, dan Lahirnya Manajemen Perubahan",
+    "date": "2026-10-17",
+    "ig": "https://www.instagram.com/p/Del5OIBD_08/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-17-carousel-2.json",
+    "originalSpec": "specs/2026-10-17-carousel-2.json",
+    "specPath": "specs/2026-10-17-carousel-2.json",
+    "deepSource": "_old/deep/flixborough-sketsa-kapur-manajemen-perubahan.json",
+    "images": [
+      "/assets/img/flixborough-sketsa-kapur-manajemen-perubahan/cover.jpg",
+      "/assets/img/flixborough-sketsa-kapur-manajemen-perubahan/diagram-4.jpg"
+    ]
+  },
+  {
+    "slug": "ipal-tujuh-tahap-air-limbah",
+    "title": "IPAL Pabrik: Tujuh Tahap Air Limbah Sebelum Kembali Bersih",
+    "date": "2026-10-12",
+    "ig": "https://www.instagram.com/p/DeZktCXDObg/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-12-carousel-2.json",
+    "originalSpec": "specs/2026-10-12-carousel-2.json",
+    "specPath": "specs/2026-10-12-carousel-2.json",
+    "deepSource": "_old/deep/ipal-tujuh-tahap-air-limbah.json",
+    "images": [
+      "/assets/img/ipal-tujuh-tahap-air-limbah/cover.jpg",
+      "/assets/img/ipal-tujuh-tahap-air-limbah/diagram-3.jpg",
+      "/assets/img/ipal-tujuh-tahap-air-limbah/foto-5.jpg"
+    ]
+  },
+  {
+    "slug": "level-apd-kelas-cedera",
+    "title": "Level APD: Salah Memilih Level, Kelas Cederanya Berbeda",
+    "date": "2026-10-11",
+    "ig": "https://www.instagram.com/p/DeWVbpZD9In/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-11-carousel-2.json",
+    "originalSpec": "specs/2026-10-11-carousel-2.json",
+    "specPath": "specs/2026-10-11-carousel-2.json",
+    "deepSource": "_old/deep/level-apd-kelas-cedera.json",
+    "images": [
+      "/assets/img/level-apd-kelas-cedera/cover.jpg",
+      "/assets/img/level-apd-kelas-cedera/diagram-3.jpg",
+      "/assets/img/level-apd-kelas-cedera/foto-4.jpg",
+      "/assets/img/level-apd-kelas-cedera/foto-6.jpg"
+    ]
+  },
+  {
+    "slug": "near-miss-hampir-celaka-wajib-lapor",
+    "title": "Near Miss: Mengapa Hampir Celaka Wajib Dilaporkan Sebelum Memakan Korban",
+    "date": "2026-10-10",
+    "ig": "https://www.instagram.com/p/DeT0Mbej3G3/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-10-carousel-2.json",
+    "originalSpec": "specs/2026-10-10-carousel-2.json",
+    "specPath": "specs/2026-10-10-carousel-2.json",
+    "deepSource": "_old/deep/near-miss-hampir-celaka-wajib-lapor.json",
+    "images": [
+      "/assets/img/near-miss-hampir-celaka-wajib-lapor/cover.jpg",
+      "/assets/img/near-miss-hampir-celaka-wajib-lapor/diagram-3.jpg",
+      "/assets/img/near-miss-hampir-celaka-wajib-lapor/foto-6.jpg"
+    ]
+  },
+  {
+    "slug": "satuan-tekanan-torricelli-titik-nol",
+    "title": "Satuan Tekanan: Torricelli, Gauge, Absolut, dan Titik Nol yang Menentukan",
+    "date": "2026-10-15",
+    "ig": "https://www.instagram.com/p/Degvwd3E-Wq/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-15-carousel-2.json",
+    "originalSpec": "specs/2026-10-15-carousel-2.json",
+    "specPath": "specs/2026-10-15-carousel-2.json",
+    "deepSource": "_old/deep/satuan-tekanan-torricelli-titik-nol.json",
+    "images": [
+      "/assets/img/satuan-tekanan-torricelli-titik-nol/cover.jpg",
+      "/assets/img/satuan-tekanan-torricelli-titik-nol/diagram-4.jpg"
+    ]
+  },
+  {
+    "slug": "seligman-1923-plate-heat-exchanger",
+    "title": "Seligman 1923: Ahli Aluminium yang Mengubah Cara Susu Dipanaskan",
+    "date": "2026-10-18",
+    "ig": "https://www.instagram.com/p/DeoTqAqE5Mp/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-18-carousel-2.json",
+    "originalSpec": "specs/2026-10-18-carousel-2.json",
+    "specPath": "specs/2026-10-18-carousel-2.json",
+    "deepSource": "_old/deep/seligman-1923-plate-heat-exchanger.json",
+    "images": [
+      "/assets/img/seligman-1923-plate-heat-exchanger/cover.jpg",
+      "/assets/img/seligman-1923-plate-heat-exchanger/diagram-4.jpg",
+      "/assets/img/seligman-1923-plate-heat-exchanger/foto-7.jpg"
+    ]
+  },
+  {
+    "slug": "texas-city-2005-informasi-yang-hilang",
+    "title": "Texas City 2005: Ledakan Kilang yang Berawal dari Informasi yang Tidak Sampai",
+    "date": "2026-10-13",
+    "ig": "https://www.instagram.com/p/Debl-N_ji2C/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-13-carousel-2.json",
+    "originalSpec": "specs/2026-10-13-carousel-2.json",
+    "specPath": "specs/2026-10-13-carousel-2.json",
+    "deepSource": "_old/deep/texas-city-2005-informasi-yang-hilang.json",
+    "images": [
+      "/assets/img/texas-city-2005-informasi-yang-hilang/cover.jpg",
+      "/assets/img/texas-city-2005-informasi-yang-hilang/foto-3.jpg",
+      "/assets/img/texas-city-2005-informasi-yang-hilang/diagram-4.jpg"
+    ]
+  },
+  {
+    "slug": "toolbox-meeting-lima-menit-menyelamatkan-nyawa",
+    "title": "Toolbox Meeting: Lima Menit yang Menyelamatkan Nyawa",
+    "date": "2026-10-20",
+    "ig": "https://www.instagram.com/p/DetgslYjz8s/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-20-carousel-2.json",
+    "originalSpec": "specs/2026-10-20-carousel-2.json",
+    "specPath": "specs/2026-10-20-carousel-2.json",
+    "deepSource": "_old/deep/toolbox-meeting-lima-menit-menyelamatkan-nyawa.json",
+    "images": [
+      "/assets/img/toolbox-meeting-lima-menit-menyelamatkan-nyawa/cover.jpg",
+      "/assets/img/toolbox-meeting-lima-menit-menyelamatkan-nyawa/foto-3.jpg",
+      "/assets/img/toolbox-meeting-lima-menit-menyelamatkan-nyawa/diagram-5.jpg"
+    ]
+  },
+  {
+    "slug": "warna-pipa-bahasa-peringatan",
+    "title": "Warna Pipa di Pabrik: Bahasa Peringatan yang Lahir dari Kecelakaan",
+    "date": "2026-10-14",
+    "ig": "https://www.instagram.com/p/DeeMQh1D8CO/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-14-carousel-2.json",
+    "originalSpec": "specs/2026-10-14-carousel-2.json",
+    "specPath": "specs/2026-10-14-carousel-2.json",
+    "deepSource": "_old/deep/warna-pipa-bahasa-peringatan.json",
+    "images": [
+      "/assets/img/warna-pipa-bahasa-peringatan/cover.jpg",
+      "/assets/img/warna-pipa-bahasa-peringatan/diagram-5.jpg"
+    ]
+  },
+  {
+    "slug": "desuperheater-uap-disemprot-air",
+    "title": "Desuperheater: Mengapa Uap 450 Derajat Disemprot Air Sebelum Masuk Turbin",
+    "date": "2026-10-24",
+    "ig": "https://www.instagram.com/p/De3RiKpD-e5/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-24-carousel-1.json",
+    "originalSpec": "specs/2026-10-24-carousel-1.json",
+    "specPath": "specs/2026-10-24-carousel-1.json",
+    "deepSource": "_old/deep/desuperheater-uap-disemprot-air.json",
+    "images": [
+      "/assets/img/desuperheater-uap-disemprot-air/cover.jpg",
+      "/assets/img/desuperheater-uap-disemprot-air/diagram-4.jpg",
+      "/assets/img/desuperheater-uap-disemprot-air/foto-7.jpg"
+    ]
+  },
+  {
+    "slug": "flame-arrestor-lampu-davy-1815",
+    "title": "Flame Arrestor: Prinsip Lampu Davy 1815 yang Menjaga Vent Tangki",
+    "date": "2026-10-23",
+    "ig": "https://www.instagram.com/p/De1PsRYDi2k/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-23-carousel-2.json",
+    "originalSpec": "specs/2026-10-23-carousel-2.json",
+    "specPath": "specs/2026-10-23-carousel-2.json",
+    "deepSource": "_old/deep/flame-arrestor-lampu-davy-1815.json",
+    "images": [
+      "/assets/img/flame-arrestor-lampu-davy-1815/cover.jpg",
+      "/assets/img/flame-arrestor-lampu-davy-1815/diagram-4.jpg",
+      "/assets/img/flame-arrestor-lampu-davy-1815/foto-5.jpg"
+    ]
+  },
+  {
+    "slug": "kavitasi-pompa-gelembung-mengeruk-baja",
+    "title": "Kavitasi Pompa: Gelembung Kecil yang Mengeruk Baja dari Dalam",
+    "date": "2026-10-20",
+    "ig": "https://www.instagram.com/p/DevwUEFD2CT/",
+    "status": "tayang",
+    "specSource": null,
+    "originalSpec": "real-photo-pilot/spec-pilot-001-kavitasi.json",
+    "specPath": null,
+    "deepSource": "_old/deep/kavitasi-pompa-gelembung-mengeruk-baja.json",
+    "images": [],
+    "legacyFallback": {
+      "source": "_old/artikel/kavitasi-pompa-gelembung-mengeruk-baja/index.html",
+      "series": "Teknik Kimia",
+      "refs": [
+        "Hydraulic Institute. ANSI/HI 9.6.1: Rotodynamic Pumps, Guideline for NPSH Margin. Hydraulic Institute.",
+        "Karassik, I. J., Messina, J. P., Cooper, P., & Heald, C. C. (2008). Pump Handbook (4th ed.). McGraw-Hill.",
+        "Cengel, Y. A., & Cimbala, J. M. (2018). Fluid Mechanics: Fundamentals and Applications (4th ed.). McGraw-Hill Education."
+      ]
+    }
+  },
+  {
+    "slug": "molecular-sieve-mengeringkan-gas",
+    "title": "Molecular Sieve: Saringan yang Mengeringkan Gas dan Membersihkan Dirinya Sendiri",
+    "date": "2026-10-22",
+    "ig": "https://www.instagram.com/p/DeyqTBGD3KW/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-22-carousel-2.json",
+    "originalSpec": "specs/2026-10-22-carousel-2.json",
+    "specPath": "specs/2026-10-22-carousel-2.json",
+    "deepSource": "_old/deep/molecular-sieve-mengeringkan-gas.json",
+    "images": [
+      "/assets/img/molecular-sieve-mengeringkan-gas/cover.jpg",
+      "/assets/img/molecular-sieve-mengeringkan-gas/diagram-4.jpg",
+      "/assets/img/molecular-sieve-mengeringkan-gas/foto-5.jpg"
+    ]
+  },
+  {
+    "slug": "pigging-membersihkan-pipa-dari-dalam",
+    "title": "Pigging: Membersihkan Pipa Minyak dari Dalam Tanpa Membongkar",
+    "date": "2026-10-23",
+    "ig": "https://www.instagram.com/p/De0wJwmjlWI/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-23-carousel-1.json",
+    "originalSpec": "specs/2026-10-23-carousel-1.json",
+    "specPath": "specs/2026-10-23-carousel-1.json",
+    "deepSource": "_old/deep/pigging-membersihkan-pipa-dari-dalam.json",
+    "images": [
+      "/assets/img/pigging-membersihkan-pipa-dari-dalam/cover.jpg",
+      "/assets/img/pigging-membersihkan-pipa-dari-dalam/diagram-3.jpg",
+      "/assets/img/pigging-membersihkan-pipa-dari-dalam/foto-5.jpg"
+    ]
+  },
+  {
+    "slug": "thermocouple-seebeck-1821",
+    "title": "Thermocouple: Dua Kawat Logam yang Membaca Suhu Tanpa Baterai Sejak 1821",
+    "date": "2026-10-24",
+    "ig": "https://www.instagram.com/p/De3zvL7DMSA/",
+    "status": "tayang",
+    "specSource": "_sources/specs/2026-10-24-carousel-2.json",
+    "originalSpec": "specs/2026-10-24-carousel-2.json",
+    "specPath": "specs/2026-10-24-carousel-2.json",
+    "deepSource": "_old/deep/thermocouple-seebeck-1821.json",
+    "images": [
+      "/assets/img/thermocouple-seebeck-1821/cover.jpg",
+      "/assets/img/thermocouple-seebeck-1821/diagram-4.jpg",
+      "/assets/img/thermocouple-seebeck-1821/foto-6.jpg"
+    ]
+  },
+  {
+    "slug": "water-hammer-palu-air-pipa",
+    "title": "Water Hammer: Palu Air, Lonjakan Tekanan yang Memecahkan Pipa",
+    "date": "2026-10-21",
+    "ig": "https://www.instagram.com/p/DewF1g2D3Zk/",
+    "status": "tayang",
+    "specSource": null,
+    "originalSpec": "real-photo-pilot/spec-pilot-002-waterhammer.json",
+    "specPath": null,
+    "deepSource": "_old/deep/water-hammer-palu-air-pipa.json",
+    "images": [],
+    "legacyFallback": {
+      "source": "_old/artikel/water-hammer-palu-air-pipa/index.html",
+      "series": "Teknik Kimia",
+      "refs": [
+        "Wylie, E. B., & Streeter, V. L. (1993). Fluid Transients in Systems. Prentice Hall.",
+        "American Water Works Association. Guidance on Surge Control for Water Systems. AWWA.",
+        "Cengel, Y. A., & Cimbala, J. M. (2018). Fluid Mechanics: Fundamentals and Applications (4th ed.). McGraw-Hill Education."
+      ]
+    }
+  }
+]

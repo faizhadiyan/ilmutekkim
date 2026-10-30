@@ -1,0 +1,160 @@
+{
+  "format": "real",
+  "hook": "ITU BUKAN CEROBONG ASAP. ITU AC RAKSASA PABRIK",
+  "series_label": "SERI UTILITAS PABRIK",
+  "cover_brief": "foto cooling tower pabrik besar dengan uap putih keluar dari atas",
+  "cover_sub": "Kabut putihnya uap air bersih, bukan polusi asap.",
+  "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-03/carousel-2/cover.jpg",
+  "cover_credit": "Lukáš Lehotský / Unsplash",
+  "credit_url": "https://unsplash.com/photos/cooling-towers-at-industrial-power-plant-ixcHGhae2mg",
+  "photo_briefs": [
+    {
+      "slide": 3,
+      "cari": "foto cooling tower industri besar uap putih"
+    },
+    {
+      "slide": 6,
+      "cari": "foto menara pendingin pabrik dari dekat"
+    }
+  ],
+  "slides": [
+    {
+      "type": "quote",
+      "pill": "YANG SERING DIKIRA",
+      "quote": "Cooling tower itu cerobong asap, asep putihnya polusi.",
+      "hook": "Salah. Yang keluar itu uap air, dan menaranya tidak membakar apa apa.",
+      "callout": "FAKTA: cooling tower tidak punya api dan tidak membakar bahan bakar. Ia cuma memindahkan panas ke udara.",
+      "fill_rows": [
+        [
+          "01",
+          "AIR PANAS MASUK",
+          "dari proses pabrik sekitar 40 C"
+        ],
+        [
+          "02",
+          "SEBAGIAN MENGUAP",
+          "penguapan membawa panas pergi"
+        ],
+        [
+          "03",
+          "AIR DINGIN KELUAR",
+          "kembali ke pabrik sekitar 30 C"
+        ]
+      ]
+    },
+    {
+      "type": "body",
+      "pill": "MASALAHNYA",
+      "title": "Pabrik menghasilkan panas terus menerus",
+      "paras": [
+        "Reaktor, kompresor, dan kondenser semua membuang panas ke air pendingin. Air itu makin lama makin panas.",
+        "Kalau air panas dipakai lagi tanpa didinginkan, suhu proses naik dan pabrik bisa trip."
+      ],
+      "callout": "FAKTA: tanpa pendinginan, banyak proses kimia berhenti dalam hitungan jam karena suhu tidak terkendali.",
+      "fill_bar": {
+        "left_label": "AIR PANAS 40 C",
+        "right_label": "AIR DINGIN 30 C",
+        "left_frac": 0.57,
+        "examples": [
+          [
+            "Selisih tipis",
+            "cuma sekitar 10 derajat"
+          ],
+          [
+            "Tapi volumenya raksasa",
+            "ribuan meter kubik per jam"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "photo",
+      "pill": "BENTUKNYA",
+      "title": "Menara besar yang selalu berkabut",
+      "paras": [
+        "Cooling tower yang ikonik bentuknya melebar di bawah dan menyempit di tengah. Kabut putih di atasnya adalah uap air yang terkondensasi di udara.",
+        "Makin dingin udara pagi, makin tebal kabutnya. Itu fisika biasa, bukan kebocoran."
+      ],
+      "callout": "FAKTA: kabut putih cooling tower adalah uap air murni yang berubah jadi titik air kecil saat bertemu udara dingin.",
+      "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-03/carousel-2/photo-1.jpg",
+      "credit": "Andry Sagatelov / Unsplash"
+    },
+    {
+      "type": "diagram",
+      "pill": "CARA KERJANYA",
+      "title": "Air panas jadi dingin dalam satu putaran",
+      "paras": [
+        "Air panas disemprot dari atas menara, jatuh melewati fill. Udara naik berlawanan arah, sebagian kecil air menguap dan membuang panas."
+      ],
+      "callout": "FAKTA: hanya sebagian kecil air yang menguap, tapi penguapan itu cukup membuang panas dari seluruh sirkulasi.",
+      "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-03/carousel-2/diagram-cooling.png"
+    },
+    {
+      "type": "body",
+      "pill": "KUNCI FISIKANYA",
+      "title": "Menguap itu mendinginkan",
+      "paras": [
+        "Air yang jadi uap butuh energi panas. Energi itu diambil dari air tersisa, jadi suhunya turun. Prinsipnya sama seperti keringat."
+      ],
+      "callout": "FAKTA: prinsip pendinginan evaporatif yang sama dipakai cooling tower, AC evaporatif, dan keringat manusia.",
+      "fill_cards": [
+        [
+          "01",
+          "Air disemprot, udara naik",
+          "Kontak air dan udara dibuat seluas mungkin di fill"
+        ],
+        [
+          "02",
+          "Sebagian kecil menguap",
+          "Panas terbawa uap, sisanya turun sebagai air dingin"
+        ]
+      ]
+    },
+    {
+      "type": "photo",
+      "pill": "DI LAPANGAN",
+      "title": "Kenapa menaranya sebesar itu",
+      "paras": [
+        "Makin besar pabriknya, makin besar panas yang harus dibuang. Menara dibuat tinggi supaya udara mengalir naik secara alami dan kontaknya lama.",
+        "Di dekat menara, lo bisa merasakan udara hangat dan lembab keluar dari atasnya."
+      ],
+      "callout": "FAKTA: cooling tower besar bisa mendinginkan air dengan laju ribuan meter kubik per jam untuk satu kompleks pabrik.",
+      "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-03/carousel-2/photo-2.jpg",
+      "credit": "Lukáš Lehotský / Unsplash"
+    },
+    {
+      "type": "body",
+      "pill": "HARGA YANG DIBAYAR",
+      "title": "Air dingin ini tidak gratis",
+      "paras": [
+        "Air yang menguap harus diganti terus. Kualitas air dijaga agar tidak menumbuhkan kerak dan lumut di fill."
+      ],
+      "callout": "FAKTA: kehilangan air utama cooling tower berasal dari penguapan, drift terbawa angin, dan blowdown untuk menjaga kualitas air.",
+      "fill_grid": [
+        "Penguapan",
+        "Drift",
+        "Blowdown",
+        "Make up air"
+      ],
+      "fill_note": "Empat aliran air yang selalu dihitung operator utilitas tiap shift.",
+      "fill_grid_eyebrow": "NERACA AIR"
+    },
+    {
+      "type": "conclusion",
+      "pill": "KESIMPULANNYA",
+      "head": "Cooling tower adalah AC raksasa tanpa kompresor.",
+      "bullets": [
+        "Tidak ada api, tidak ada asap. Yang keluar uap air bersih.",
+        "Air panas didinginkan lewat penguapan sebagian kecil air.",
+        "Air dinginnya kembali ke pabrik dalam sirkulasi tertutup."
+      ]
+    }
+  ],
+  "references": [
+    "Perry's Chemical Engineers' Handbook (bab cooling tower dan perpindahan panas)",
+    "Coulson and Richardson's Chemical Engineering, Volume 2 (pendinginan evaporatif)"
+  ],
+  "cta_question": "Pernah lihat cooling tower dari dekat? Di kota atau pabrik mana?",
+  "cta_teaser": "Besok: gas alam berubah jadi urea, pupuk yang memberi makan tanaman.",
+  "caption": "Itu bukan cerobong asap. Itu AC raksasa pabrik.\n\nCooling tower tidak membakar apa apa. Air panas dari proses disemprot jatuh di dalam menara, sebagian kecil menguap dan membawa panas pergi, sisanya turun sebagai air dingin dan kembali ke pabrik. Kabut putihnya uap air murni.\n\nPernah lihat cooling tower dari dekat? Tulis di komen.\n\nFollow @ilmutekkim buat teknik kimia tiap hari.\n\n#teknikkimia #chemicalengineering #coolingtower #utilitas #pabrik #proses #industri #ilmutekkim"
+}

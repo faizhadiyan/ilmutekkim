@@ -1,0 +1,420 @@
+{
+  "/glosarium": {
+    "title": "Kamus Industri Kimia | ilmutekkim",
+    "description": "Kamus Industri Kimia IlmuTekkim: istilah teknik kimia dengan definisi, mekanisme, persamaan, sensitivitas, dan bedah plant.",
+    "canonical": "https://ilmutekkim.vercel.app/kamus/",
+    "openGraph": {
+      "type": "website",
+      "title": "Kamus Industri Kimia | ilmutekkim",
+      "description": "Kamus Industri Kimia IlmuTekkim: istilah teknik kimia dengan definisi, mekanisme, persamaan, sensitivitas, dan bedah plant.",
+      "url": "https://ilmutekkim.vercel.app/kamus/"
+    }
+  },
+  "/jalur/distilasi-inti": {
+    "title": "Jalur Distilasi: Jantung Pemisahan | ilmutekkim",
+    "description": "Jalur yang membahas pemisahan terpenting di pabrik, dari prinsip tray sampai keputusan ekonomi reflux, dan ditutup dengan konfigurasi lanjut dividing wall ",
+    "canonical": "https://ilmutekkim.vercel.app/jalur/distilasi-inti/",
+    "openGraph": {
+      "type": "article",
+      "title": "Jalur Distilasi: Jantung Pemisahan | ilmutekkim",
+      "description": "Jalur yang membahas pemisahan terpenting di pabrik, dari prinsip tray sampai keputusan ekonomi reflux, dan ditutup dengan konfigurasi lanjut dividing wall ",
+      "url": "https://ilmutekkim.vercel.app/jalur/distilasi-inti/"
+    }
+  },
+  "/jalur": {
+    "title": "Jalur Belajar Teknik Kimia | ilmutekkim",
+    "description": "Urutan baca terkurasi ilmutekkim: membaca pabrik dari nol, distilasi inti, kilang dan petrokimia, sawit, utilitas, keselamatan proses, dan pabrik Indonesia.",
+    "canonical": "https://ilmutekkim.vercel.app/jalur/",
+    "openGraph": {
+      "type": "website",
+      "title": "Jalur Belajar Teknik Kimia | ilmutekkim",
+      "description": "Urutan baca terkurasi ilmutekkim: membaca pabrik dari nol, distilasi inti, kilang dan petrokimia, sawit, utilitas, keselamatan proses, dan pabrik Indonesia.",
+      "url": "https://ilmutekkim.vercel.app/jalur/"
+    }
+  },
+  "/jalur/keselamatan-proses": {
+    "title": "Jalur Keselamatan Proses | ilmutekkim",
+    "description": "Jalur mengenai lapisan-lapisan yang menjaga tekanan dan reaksi tetap berada di dalam pipa: relief, sistem instrumentasi keselamatan, izin kerja, dan cara p",
+    "canonical": "https://ilmutekkim.vercel.app/jalur/keselamatan-proses/",
+    "openGraph": {
+      "type": "article",
+      "title": "Jalur Keselamatan Proses | ilmutekkim",
+      "description": "Jalur mengenai lapisan-lapisan yang menjaga tekanan dan reaksi tetap berada di dalam pipa: relief, sistem instrumentasi keselamatan, izin kerja, dan cara p",
+      "url": "https://ilmutekkim.vercel.app/jalur/keselamatan-proses/"
+    }
+  },
+  "/jalur/kilang-petrokimia": {
+    "title": "Jalur Kilang dan Petrokimia | ilmutekkim",
+    "description": "Jalur yang mengikuti alur karbon: satu barel minyak dipecah menjadi produk, naphtha menjadi plastik, serta pelajaran konversi dari paten methanol-to-gasoli",
+    "canonical": "https://ilmutekkim.vercel.app/jalur/kilang-petrokimia/",
+    "openGraph": {
+      "type": "article",
+      "title": "Jalur Kilang dan Petrokimia | ilmutekkim",
+      "description": "Jalur yang mengikuti alur karbon: satu barel minyak dipecah menjadi produk, naphtha menjadi plastik, serta pelajaran konversi dari paten methanol-to-gasoli",
+      "url": "https://ilmutekkim.vercel.app/jalur/kilang-petrokimia/"
+    }
+  },
+  "/jalur/membaca-pabrik": {
+    "title": "Jalur Membaca Pabrik dari Nol | ilmutekkim",
+    "description": "Jalur pengantar bagi pembaca yang baru pertama kali memandang pabrik sebagai suatu sistem: peta mata kuliahnya, hukum neraca massa, bahasa gambar P&ID,",
+    "canonical": "https://ilmutekkim.vercel.app/jalur/membaca-pabrik/",
+    "openGraph": {
+      "type": "article",
+      "title": "Jalur Membaca Pabrik dari Nol | ilmutekkim",
+      "description": "Jalur pengantar bagi pembaca yang baru pertama kali memandang pabrik sebagai suatu sistem: peta mata kuliahnya, hukum neraca massa, bahasa gambar P&ID,",
+      "url": "https://ilmutekkim.vercel.app/jalur/membaca-pabrik/"
+    }
+  },
+  "/jalur/pabrik-indonesia": {
+    "title": "Jalur Pabrik Indonesia di Peta | ilmutekkim",
+    "description": "Jalur yang menelusuri pabrik-pabrik Indonesia: gula, semen, pulp, dan pupuk, kemudian hilirisasi nikel dan pasir kuarsa sampai chip, ditutup dengan dua rea",
+    "canonical": "https://ilmutekkim.vercel.app/jalur/pabrik-indonesia/",
+    "openGraph": {
+      "type": "article",
+      "title": "Jalur Pabrik Indonesia di Peta | ilmutekkim",
+      "description": "Jalur yang menelusuri pabrik-pabrik Indonesia: gula, semen, pulp, dan pupuk, kemudian hilirisasi nikel dan pasir kuarsa sampai chip, ditutup dengan dua rea",
+      "url": "https://ilmutekkim.vercel.app/jalur/pabrik-indonesia/"
+    }
+  },
+  "/jalur/sawit-produk": {
+    "title": "Jalur Sawit: dari Tandan ke Produk | ilmutekkim",
+    "description": "Jalur yang menguraikan rantai sawit Indonesia secara utuh: pabrik kelapa sawit, refinery menjadi minyak goreng, oleokimia menjadi sabun, dan transesterifik",
+    "canonical": "https://ilmutekkim.vercel.app/jalur/sawit-produk/",
+    "openGraph": {
+      "type": "article",
+      "title": "Jalur Sawit: dari Tandan ke Produk | ilmutekkim",
+      "description": "Jalur yang menguraikan rantai sawit Indonesia secara utuh: pabrik kelapa sawit, refinery menjadi minyak goreng, oleokimia menjadi sabun, dan transesterifik",
+      "url": "https://ilmutekkim.vercel.app/jalur/sawit-produk/"
+    }
+  },
+  "/jalur/utilitas-energi": {
+    "title": "Jalur Utilitas dan Energi Pabrik | ilmutekkim",
+    "description": "Jalur mengenai pabrik di dalam pabrik: steam, air, dan nitrogen yang tidak terlihat, menara pendingin yang kerap dikira cerobong, serta heat exchanger yang",
+    "canonical": "https://ilmutekkim.vercel.app/jalur/utilitas-energi/",
+    "openGraph": {
+      "type": "article",
+      "title": "Jalur Utilitas dan Energi Pabrik | ilmutekkim",
+      "description": "Jalur mengenai pabrik di dalam pabrik: steam, air, dan nitrogen yang tidak terlihat, menara pendingin yang kerap dikira cerobong, serta heat exchanger yang",
+      "url": "https://ilmutekkim.vercel.app/jalur/utilitas-energi/"
+    }
+  },
+  "/kalkulator": {
+    "title": "Kalkulator Teknik Kimia | ilmutekkim",
+    "description": "Kalkulator teknik kimia interaktif: derajat polimerisasi Carothers, LMTD heat exchanger, McCabe-Thiele distilasi biner, dan konversi satuan proses.",
+    "canonical": "https://ilmutekkim.vercel.app/kalkulator/",
+    "openGraph": {
+      "type": "website",
+      "title": "Kalkulator Teknik Kimia | ilmutekkim",
+      "description": "Kalkulator teknik kimia interaktif: derajat polimerisasi Carothers, LMTD heat exchanger, McCabe-Thiele distilasi biner, dan konversi satuan proses.",
+      "url": "https://ilmutekkim.vercel.app/kalkulator/"
+    }
+  },
+  "/referensi": {
+    "title": "Referensi dan Perpustakaan | ilmutekkim",
+    "description": "Semua sitasi yang dipakai ilmutekkim dikumpulkan di satu tempat: buku dan standar yang dikutip artikel, paper yang dibedah, dan paten yang dibedah.",
+    "canonical": "https://ilmutekkim.vercel.app/referensi/",
+    "openGraph": {
+      "type": "website",
+      "title": "Referensi dan Perpustakaan | ilmutekkim",
+      "description": "Semua sitasi yang dipakai ilmutekkim dikumpulkan di satu tempat: buku dan standar yang dikutip artikel, paper yang dibedah, dan paten yang dibedah.",
+      "url": "https://ilmutekkim.vercel.app/referensi/"
+    }
+  },
+  "/riset/bedah-b100-mesin-diesel": {
+    "title": "Keunggulan dan Keterbatasan Biodiesel Murni (B100) pada Mesin Diesel: Telaah Literatur dan Analisis Bibliometrik | Riset ilmutekkim",
+    "description": "Banyak negara mempromosikan B100 sebagai bahan bakar utama mesin diesel dalam transisi menuju energi terbarukan sepenuhnya. Analisis bibliometrik dan sinte",
+    "canonical": "https://ilmutekkim.vercel.app/riset/bedah-b100-mesin-diesel/",
+    "openGraph": {
+      "type": "article",
+      "title": "Keunggulan dan Keterbatasan Biodiesel Murni (B100) pada Mesin Diesel: Telaah Literatur dan Analisis Bibliometrik | Riset ilmutekkim",
+      "description": "Banyak negara mempromosikan B100 sebagai bahan bakar utama mesin diesel dalam transisi menuju energi terbarukan sepenuhnya. Analisis bibliometrik dan sinte",
+      "url": "https://ilmutekkim.vercel.app/riset/bedah-b100-mesin-diesel/"
+    }
+  },
+  "/riset/bedah-bentonit-sonikasi-katalis-asam": {
+    "title": "Sonikasi dalam Pilarisasi Bentonit: Preparasi Katalis Asam Padat untuk Esterifikasi Asam Oleat | Riset ilmutekkim",
+    "description": "Pilarisasi bentonit konvensional menghabiskan hampir satu hari hanya untuk tahap aging. Studi ini menggantikan tahap tersebut dengan sonikasi 20 menit, kem",
+    "canonical": "https://ilmutekkim.vercel.app/riset/bedah-bentonit-sonikasi-katalis-asam/",
+    "openGraph": {
+      "type": "article",
+      "title": "Sonikasi dalam Pilarisasi Bentonit: Preparasi Katalis Asam Padat untuk Esterifikasi Asam Oleat | Riset ilmutekkim",
+      "description": "Pilarisasi bentonit konvensional menghabiskan hampir satu hari hanya untuk tahap aging. Studi ini menggantikan tahap tersebut dengan sonikasi 20 menit, kem",
+      "url": "https://ilmutekkim.vercel.app/riset/bedah-bentonit-sonikasi-katalis-asam/"
+    }
+  },
+  "/riset/bedah-biodiesel-minyak-campuran": {
+    "title": "Produksi Biodiesel dari Minyak Campuran: Pendekatan Berkelanjutan untuk Ketersediaan Bahan Baku | Riset ilmutekkim",
+    "description": "Produksi biodiesel terkendala ketersediaan dan harga bahan baku tunggal. Telaah ini menilai pendekatan yang kian mendapat perhatian: pencampuran dua minyak",
+    "canonical": "https://ilmutekkim.vercel.app/riset/bedah-biodiesel-minyak-campuran/",
+    "openGraph": {
+      "type": "article",
+      "title": "Produksi Biodiesel dari Minyak Campuran: Pendekatan Berkelanjutan untuk Ketersediaan Bahan Baku | Riset ilmutekkim",
+      "description": "Produksi biodiesel terkendala ketersediaan dan harga bahan baku tunggal. Telaah ini menilai pendekatan yang kian mendapat perhatian: pencampuran dua minyak",
+      "url": "https://ilmutekkim.vercel.app/riset/bedah-biodiesel-minyak-campuran/"
+    }
+  },
+  "/riset/bedah-biogas-pome-listrik-tekno-ekonomi": {
+    "title": "Pembangkitan Listrik dari Biogas POME: Kinerja Teknis yang Kuat dengan Profitabilitas yang Tipis | Riset ilmutekkim",
+    "description": "Pembangkit listrik biogas dari limbah cair pabrik sawit di Bangka menurunkan COD sampai 91% dan memangkas emisi dalam orde ribuan ton CO2-eq per tahun, tet",
+    "canonical": "https://ilmutekkim.vercel.app/riset/bedah-biogas-pome-listrik-tekno-ekonomi/",
+    "openGraph": {
+      "type": "article",
+      "title": "Pembangkitan Listrik dari Biogas POME: Kinerja Teknis yang Kuat dengan Profitabilitas yang Tipis | Riset ilmutekkim",
+      "description": "Pembangkit listrik biogas dari limbah cair pabrik sawit di Bangka menurunkan COD sampai 91% dan memangkas emisi dalam orde ribuan ton CO2-eq per tahun, tet",
+      "url": "https://ilmutekkim.vercel.app/riset/bedah-biogas-pome-listrik-tekno-ekonomi/"
+    }
+  },
+  "/riset/bedah-ccus-tekno-ekonomi": {
+    "title": "CCUS Menuju Emisi Net-Zero: Telaah Tekno-Ekonomi atas Seluruh Rantai Teknologi | Riset ilmutekkim",
+    "description": "CCUS diakui berpotensi memangkas emisi CO2, tetapi penerapannya secara global masih jauh dari memadai untuk target net-zero pada 2050. Telaah ini membedah ",
+    "canonical": "https://ilmutekkim.vercel.app/riset/bedah-ccus-tekno-ekonomi/",
+    "openGraph": {
+      "type": "article",
+      "title": "CCUS Menuju Emisi Net-Zero: Telaah Tekno-Ekonomi atas Seluruh Rantai Teknologi | Riset ilmutekkim",
+      "description": "CCUS diakui berpotensi memangkas emisi CO2, tetapi penerapannya secara global masih jauh dari memadai untuk target net-zero pada 2050. Telaah ini membedah ",
+      "url": "https://ilmutekkim.vercel.app/riset/bedah-ccus-tekno-ekonomi/"
+    }
+  },
+  "/riset/bedah-daur-ulang-plastik-kimia": {
+    "title": "Daur Ulang Kimia Plastik: Kebutuhan Fundamental dan Hambatan Penerapan Industrinya | Riset ilmutekkim",
+    "description": "Kurang dari 10% plastik yang dihasilkan dunia didaur ulang. Selebihnya dibakar, menumpuk di tempat pembuangan, atau terlepas ke lingkungan. Paper ini menin",
+    "canonical": "https://ilmutekkim.vercel.app/riset/bedah-daur-ulang-plastik-kimia/",
+    "openGraph": {
+      "type": "article",
+      "title": "Daur Ulang Kimia Plastik: Kebutuhan Fundamental dan Hambatan Penerapan Industrinya | Riset ilmutekkim",
+      "description": "Kurang dari 10% plastik yang dihasilkan dunia didaur ulang. Selebihnya dibakar, menumpuk di tempat pembuangan, atau terlepas ke lingkungan. Paper ini menin",
+      "url": "https://ilmutekkim.vercel.app/riset/bedah-daur-ulang-plastik-kimia/"
+    }
+  },
+  "/riset/bedah-digital-twin-energi-industri": {
+    "title": "Digital Twin untuk Energi Industri: Telaah Sistematis dan Kerangka Klasifikasi Multi-Dimensi | Riset ilmutekkim",
+    "description": "Digital twin dikemukakan sebagai lompatan dalam manajemen energi industri. Telaah sistematis ini menguji proposisi tersebut dengan memilahnya ke dalam kera",
+    "canonical": "https://ilmutekkim.vercel.app/riset/bedah-digital-twin-energi-industri/",
+    "openGraph": {
+      "type": "article",
+      "title": "Digital Twin untuk Energi Industri: Telaah Sistematis dan Kerangka Klasifikasi Multi-Dimensi | Riset ilmutekkim",
+      "description": "Digital twin dikemukakan sebagai lompatan dalam manajemen energi industri. Telaah sistematis ini menguji proposisi tersebut dengan memilahnya ke dalam kera",
+      "url": "https://ilmutekkim.vercel.app/riset/bedah-digital-twin-energi-industri/"
+    }
+  },
+  "/riset/bedah-elektrolisis-hidrogen-hijau": {
+    "title": "Elektrolisis Air untuk Produksi Hidrogen Hijau: Teknologi, Material Elektroda, dan Struktur Biaya | Riset ilmutekkim",
+    "description": "Hidrogen hijau dari elektrolisis air diposisikan sebagai unsur kunci dekarbonisasi menuju target 2050. Telaah ini merangkum teknologi elektrolisisnya, pros",
+    "canonical": "https://ilmutekkim.vercel.app/riset/bedah-elektrolisis-hidrogen-hijau/",
+    "openGraph": {
+      "type": "article",
+      "title": "Elektrolisis Air untuk Produksi Hidrogen Hijau: Teknologi, Material Elektroda, dan Struktur Biaya | Riset ilmutekkim",
+      "description": "Hidrogen hijau dari elektrolisis air diposisikan sebagai unsur kunci dekarbonisasi menuju target 2050. Telaah ini merangkum teknologi elektrolisisnya, pros",
+      "url": "https://ilmutekkim.vercel.app/riset/bedah-elektrolisis-hidrogen-hijau/"
+    }
+  },
+  "/riset/bedah-esterifikasi-pome-katalis-karbon-zeolit": {
+    "title": "Esterifikasi Asam Lemak Bebas POME dengan Katalis Komposit Karbon-Zeolit Tersulfonasi dari Molase | Riset ilmutekkim",
+    "description": "Asam lemak bebas dalam limbah cair pabrik sawit diesterifikasi menjadi FAME menggunakan katalis komposit karbon-zeolit tersulfonasi yang karbonnya berasal ",
+    "canonical": "https://ilmutekkim.vercel.app/riset/bedah-esterifikasi-pome-katalis-karbon-zeolit/",
+    "openGraph": {
+      "type": "article",
+      "title": "Esterifikasi Asam Lemak Bebas POME dengan Katalis Komposit Karbon-Zeolit Tersulfonasi dari Molase | Riset ilmutekkim",
+      "description": "Asam lemak bebas dalam limbah cair pabrik sawit diesterifikasi menjadi FAME menggunakan katalis komposit karbon-zeolit tersulfonasi yang karbonnya berasal ",
+      "url": "https://ilmutekkim.vercel.app/riset/bedah-esterifikasi-pome-katalis-karbon-zeolit/"
+    }
+  },
+  "/riset/bedah-fotokatalis-tio2-air-terproduksi": {
+    "title": "Fotokatalis TiO2 untuk Pengolahan Air Terproduksi Migas: Potensi dan Keterbatasannya | Riset ilmutekkim",
+    "description": "Air terproduksi dari ladang migas membawa polutan organik terlarut yang toksik dan sulit terurai secara hayati. Telaah ini menilai satu kandidat penanganan",
+    "canonical": "https://ilmutekkim.vercel.app/riset/bedah-fotokatalis-tio2-air-terproduksi/",
+    "openGraph": {
+      "type": "article",
+      "title": "Fotokatalis TiO2 untuk Pengolahan Air Terproduksi Migas: Potensi dan Keterbatasannya | Riset ilmutekkim",
+      "description": "Air terproduksi dari ladang migas membawa polutan organik terlarut yang toksik dan sulit terurai secara hayati. Telaah ini menilai satu kandidat penanganan",
+      "url": "https://ilmutekkim.vercel.app/riset/bedah-fotokatalis-tio2-air-terproduksi/"
+    }
+  },
+  "/riset/bedah-grading-sawit-yolov4": {
+    "title": "Grading Tandan Buah Segar Sawit Secara Real-Time dengan YOLOv4 Termodifikasi pada Ponsel | Riset ilmutekkim",
+    "description": "Kematangan tandan buah segar menentukan mutu dan harga di pabrik sawit, tetapi grading manual berlangsung lambat dan tidak konsisten. Studi ini membangun s",
+    "canonical": "https://ilmutekkim.vercel.app/riset/bedah-grading-sawit-yolov4/",
+    "openGraph": {
+      "type": "article",
+      "title": "Grading Tandan Buah Segar Sawit Secara Real-Time dengan YOLOv4 Termodifikasi pada Ponsel | Riset ilmutekkim",
+      "description": "Kematangan tandan buah segar menentukan mutu dan harga di pabrik sawit, tetapi grading manual berlangsung lambat dan tidak konsisten. Studi ini membangun s",
+      "url": "https://ilmutekkim.vercel.app/riset/bedah-grading-sawit-yolov4/"
+    }
+  },
+  "/riset/bedah-hidrogen-biru-smr-atr-ngd": {
+    "title": "Hidrogen Biru dari Gas Alam: Biaya dan Emisi Siklus Hidup Rute SMR, ATR, dan NGD | Riset ilmutekkim",
+    "description": "Tiga rute hidrogen biru dari gas alam dibandingkan dalam satu studi tekno-ekonomi dan emisi siklus hidup. Hasilnya menunjukkan bahwa rute dengan biaya tere",
+    "canonical": "https://ilmutekkim.vercel.app/riset/bedah-hidrogen-biru-smr-atr-ngd/",
+    "openGraph": {
+      "type": "article",
+      "title": "Hidrogen Biru dari Gas Alam: Biaya dan Emisi Siklus Hidup Rute SMR, ATR, dan NGD | Riset ilmutekkim",
+      "description": "Tiga rute hidrogen biru dari gas alam dibandingkan dalam satu studi tekno-ekonomi dan emisi siklus hidup. Hasilnya menunjukkan bahwa rute dengan biaya tere",
+      "url": "https://ilmutekkim.vercel.app/riset/bedah-hidrogen-biru-smr-atr-ngd/"
+    }
+  },
+  "/riset/bedah-hydrocracking-minyak-jelantah-biogasoline": {
+    "title": "Hydrocracking Minyak Goreng Bekas menjadi Biogasoline dengan Katalis Silika Tersulfat Terpromosi Ni dan Mo | Riset ilmutekkim",
+    "description": "Minyak goreng bekas dihydrocracking menjadi fraksi gasoline menggunakan katalis silika tersulfat yang dipromosi nikel dan molibdenum. Katalis terbaiknya be",
+    "canonical": "https://ilmutekkim.vercel.app/riset/bedah-hydrocracking-minyak-jelantah-biogasoline/",
+    "openGraph": {
+      "type": "article",
+      "title": "Hydrocracking Minyak Goreng Bekas menjadi Biogasoline dengan Katalis Silika Tersulfat Terpromosi Ni dan Mo | Riset ilmutekkim",
+      "description": "Minyak goreng bekas dihydrocracking menjadi fraksi gasoline menggunakan katalis silika tersulfat yang dipromosi nikel dan molibdenum. Katalis terbaiknya be",
+      "url": "https://ilmutekkim.vercel.app/riset/bedah-hydrocracking-minyak-jelantah-biogasoline/"
+    }
+  },
+  "/riset/bedah-katalis-aaem-pirolisis-biomassa": {
+    "title": "Peran Katalitik Logam Alkali dan Alkali Tanah (AAEM) pada Pirolisis Biomassa dan Ko-Pirolisis dengan Batu Bara | Riset ilmutekkim",
+    "description": "Biomassa membawa katalisnya sendiri. Logam alkali dan alkali tanah yang terkandung di dalamnya, atau yang ditambahkan dari luar, terbukti menggeser suhu de",
+    "canonical": "https://ilmutekkim.vercel.app/riset/bedah-katalis-aaem-pirolisis-biomassa/",
+    "openGraph": {
+      "type": "article",
+      "title": "Peran Katalitik Logam Alkali dan Alkali Tanah (AAEM) pada Pirolisis Biomassa dan Ko-Pirolisis dengan Batu Bara | Riset ilmutekkim",
+      "description": "Biomassa membawa katalisnya sendiri. Logam alkali dan alkali tanah yang terkandung di dalamnya, atau yang ditambahkan dari luar, terbukti menggeser suhu de",
+      "url": "https://ilmutekkim.vercel.app/riset/bedah-katalis-aaem-pirolisis-biomassa/"
+    }
+  },
+  "/riset/bedah-katalis-cao-indigofera-biodiesel": {
+    "title": "Katalis Heterogen dari Abu Daun Indigofera untuk Produksi Biodiesel dari RBDPO | Riset ilmutekkim",
+    "description": "Abu daun indigofera, tanaman yang dikenal sebagai pakan ternak, ternyata kaya kalsium dan dapat bekerja sebagai katalis heterogen biodiesel. Studi dari Ind",
+    "canonical": "https://ilmutekkim.vercel.app/riset/bedah-katalis-cao-indigofera-biodiesel/",
+    "openGraph": {
+      "type": "article",
+      "title": "Katalis Heterogen dari Abu Daun Indigofera untuk Produksi Biodiesel dari RBDPO | Riset ilmutekkim",
+      "description": "Abu daun indigofera, tanaman yang dikenal sebagai pakan ternak, ternyata kaya kalsium dan dapat bekerja sebagai katalis heterogen biodiesel. Studi dari Ind",
+      "url": "https://ilmutekkim.vercel.app/riset/bedah-katalis-cao-indigofera-biodiesel/"
+    }
+  },
+  "/riset/bedah-ko-pirolisis-batang-sawit-polipropilena": {
+    "title": "Ko-Pirolisis Batang Sawit dengan Polipropilena: Komposisi Minyak dan Mekanisme Pembentukan Produk | Riset ilmutekkim",
+    "description": "Batang sawit tua dari peremajaan kebun dipirolisis bersama plastik polipropilena. Hasilnya bukan sekadar gabungan dua minyak: plastik mengubah kimia produk",
+    "canonical": "https://ilmutekkim.vercel.app/riset/bedah-ko-pirolisis-batang-sawit-polipropilena/",
+    "openGraph": {
+      "type": "article",
+      "title": "Ko-Pirolisis Batang Sawit dengan Polipropilena: Komposisi Minyak dan Mekanisme Pembentukan Produk | Riset ilmutekkim",
+      "description": "Batang sawit tua dari peremajaan kebun dipirolisis bersama plastik polipropilena. Hasilnya bukan sekadar gabungan dua minyak: plastik mengubah kimia produk",
+      "url": "https://ilmutekkim.vercel.app/riset/bedah-ko-pirolisis-batang-sawit-polipropilena/"
+    }
+  },
+  "/riset/bedah-mikroalga-pome-biofuel": {
+    "title": "Mikroalga untuk Pengolahan POME dan Produksi Biofuel: Telaah Potensi dan Keterbatasannya | Riset ilmutekkim",
+    "description": "POME membawa beban BOD dan COD yang dapat mencapai 100.000 mg/L. Telaah ini menilai mikroalga sebagai pengolahnya: menyerap nutrien dan fosfor untuk fotosi",
+    "canonical": "https://ilmutekkim.vercel.app/riset/bedah-mikroalga-pome-biofuel/",
+    "openGraph": {
+      "type": "article",
+      "title": "Mikroalga untuk Pengolahan POME dan Produksi Biofuel: Telaah Potensi dan Keterbatasannya | Riset ilmutekkim",
+      "description": "POME membawa beban BOD dan COD yang dapat mencapai 100.000 mg/L. Telaah ini menilai mikroalga sebagai pengolahnya: menyerap nutrien dan fosfor untuk fotosi",
+      "url": "https://ilmutekkim.vercel.app/riset/bedah-mikroalga-pome-biofuel/"
+    }
+  },
+  "/riset/bedah-minyak-pirolisis-plastik-umpan-steam-cracker": {
+    "title": "Minyak Pirolisis Plastik sebagai Umpan Steam Cracker: Kadar Kontaminan terhadap Spesifikasi Industri | Riset ilmutekkim",
+    "description": "Daur ulang termokimia plastik menjadi bahan kimia dasar melalui pirolisis lalu steam cracking diperkirakan menjadi teknologi daur ulang kimia dominan dekad",
+    "canonical": "https://ilmutekkim.vercel.app/riset/bedah-minyak-pirolisis-plastik-umpan-steam-cracker/",
+    "openGraph": {
+      "type": "article",
+      "title": "Minyak Pirolisis Plastik sebagai Umpan Steam Cracker: Kadar Kontaminan terhadap Spesifikasi Industri | Riset ilmutekkim",
+      "description": "Daur ulang termokimia plastik menjadi bahan kimia dasar melalui pirolisis lalu steam cracking diperkirakan menjadi teknologi daur ulang kimia dominan dekad",
+      "url": "https://ilmutekkim.vercel.app/riset/bedah-minyak-pirolisis-plastik-umpan-steam-cracker/"
+    }
+  },
+  "/riset/bedah-nanozirconia-tersulfat-hydrocracking": {
+    "title": "Nanozirconia Tersulfat Terpromosi Logam Transisi sebagai Katalis Asam Padat untuk Hydrocracking | Riset ilmutekkim",
+    "description": "Zirconia yang disulfatasi berubah menjadi asam padat kuat, dan promosi platinum, kromium, atau nikel menaikkan lagi aktivitasnya untuk hydrocracking menjad",
+    "canonical": "https://ilmutekkim.vercel.app/riset/bedah-nanozirconia-tersulfat-hydrocracking/",
+    "openGraph": {
+      "type": "article",
+      "title": "Nanozirconia Tersulfat Terpromosi Logam Transisi sebagai Katalis Asam Padat untuk Hydrocracking | Riset ilmutekkim",
+      "description": "Zirconia yang disulfatasi berubah menjadi asam padat kuat, dan promosi platinum, kromium, atau nikel menaikkan lagi aktivitasnya untuk hydrocracking menjad",
+      "url": "https://ilmutekkim.vercel.app/riset/bedah-nanozirconia-tersulfat-hydrocracking/"
+    }
+  },
+  "/riset": {
+    "title": "Riset Teknik Kimia, Dibedah | ilmutekkim",
+    "description": "Bedah paper jurnal teknik kimia internasional dan Indonesia: masalah, metode, temuan, catatan kritis, dan kesimpulan baca full paper atau cukup abstraknya.",
+    "canonical": "https://ilmutekkim.vercel.app/riset/",
+    "openGraph": {
+      "type": "website",
+      "title": "Riset Teknik Kimia, Dibedah | ilmutekkim",
+      "description": "Bedah paper jurnal teknik kimia internasional dan Indonesia: masalah, metode, temuan, catatan kritis, dan kesimpulan baca full paper atau cukup abstraknya.",
+      "url": "https://ilmutekkim.vercel.app/riset/"
+    }
+  },
+  "/riset/paten": {
+    "title": "Bedah Paten Teknik Kimia | ilmutekkim",
+    "description": "Bedah paten klasik teknik kimia dari dokumen aslinya: masalah, klaim inti parafrase, cara kerja, batas kritis, dan status. Paten kedaluwarsa adalah teknologi yang bebas dipelajari.",
+    "canonical": "https://ilmutekkim.vercel.app/riset/paten/",
+    "openGraph": {
+      "type": "website",
+      "title": "Bedah Paten Teknik Kimia | ilmutekkim",
+      "description": "Bedah paten klasik teknik kimia dari dokumen aslinya: masalah, klaim inti parafrase, cara kerja, batas kritis, dan status. Paten kedaluwarsa adalah teknologi yang bebas dipelajari.",
+      "url": "https://ilmutekkim.vercel.app/riset/paten/"
+    }
+  },
+  "/riset/paten/paten-distilasi-reaktif-eastman-1984": {
+    "title": "Paten distilasi reaktif Eastman (1984): satu kolom untuk reaksi dan pemisahan metil asetat | Bedah Paten ilmutekkim",
+    "description": "Secara konvensional, produksi metil asetat dari metanol dan asam asetat memerlukan rangkaian reaktor dan kolom karena keterbatasan kesetimbangan reaksi ser",
+    "canonical": "https://ilmutekkim.vercel.app/riset/paten/paten-distilasi-reaktif-eastman-1984/",
+    "openGraph": {
+      "type": "article",
+      "title": "Paten distilasi reaktif Eastman (1984): satu kolom untuk reaksi dan pemisahan metil asetat | Bedah Paten ilmutekkim",
+      "description": "Secara konvensional, produksi metil asetat dari metanol dan asam asetat memerlukan rangkaian reaktor dan kolom karena keterbatasan kesetimbangan reaksi ser",
+      "url": "https://ilmutekkim.vercel.app/riset/paten/paten-distilasi-reaktif-eastman-1984/"
+    }
+  },
+  "/riset/paten/paten-dividing-wall-column-basf-2005": {
+    "title": "Paten dividing wall column BASF (2005): tiga fraksi murni dari satu kolom | Bedah Paten ilmutekkim",
+    "description": "Pemisahan campuran menjadi lebih dari dua fraksi murni umumnya memerlukan lebih dari satu kolom, dan produk samping dari kolom tunggal selalu terkontaminas",
+    "canonical": "https://ilmutekkim.vercel.app/riset/paten/paten-dividing-wall-column-basf-2005/",
+    "openGraph": {
+      "type": "article",
+      "title": "Paten dividing wall column BASF (2005): tiga fraksi murni dari satu kolom | Bedah Paten ilmutekkim",
+      "description": "Pemisahan campuran menjadi lebih dari dua fraksi murni umumnya memerlukan lebih dari satu kolom, dan produk samping dari kolom tunggal selalu terkontaminas",
+      "url": "https://ilmutekkim.vercel.app/riset/paten/paten-dividing-wall-column-basf-2005/"
+    }
+  },
+  "/riset/paten/paten-membran-monsanto-1980": {
+    "title": "Paten membran multikomponen Monsanto (1980): menyegel pori demi selektivitas | Bedah Paten ilmutekkim",
+    "description": "Membran asimetris berpori memiliki selektivitas intrinsik yang baik, tetapi kebocoran melalui pori permukaannya meruntuhkan selektivitas praktis. Henis dan",
+    "canonical": "https://ilmutekkim.vercel.app/riset/paten/paten-membran-monsanto-1980/",
+    "openGraph": {
+      "type": "article",
+      "title": "Paten membran multikomponen Monsanto (1980): menyegel pori demi selektivitas | Bedah Paten ilmutekkim",
+      "description": "Membran asimetris berpori memiliki selektivitas intrinsik yang baik, tetapi kebocoran melalui pori permukaannya meruntuhkan selektivitas praktis. Henis dan",
+      "url": "https://ilmutekkim.vercel.app/riset/paten/paten-membran-monsanto-1980/"
+    }
+  },
+  "/riset/paten/paten-mtg-mobil-1988": {
+    "title": "Paten sistem MTG Mobil (1988): pengendalian panas reaktor metanol menjadi bensin | Bedah Paten ilmutekkim",
+    "description": "Konversi metanol menjadi bensin di atas zeolit ZSM-5 sangat eksotermik; bed katalis fixed-bed dapat mengalami kenaikan suhu yang merusak katalis dan menuru",
+    "canonical": "https://ilmutekkim.vercel.app/riset/paten/paten-mtg-mobil-1988/",
+    "openGraph": {
+      "type": "article",
+      "title": "Paten sistem MTG Mobil (1988): pengendalian panas reaktor metanol menjadi bensin | Bedah Paten ilmutekkim",
+      "description": "Konversi metanol menjadi bensin di atas zeolit ZSM-5 sangat eksotermik; bed katalis fixed-bed dapat mengalami kenaikan suhu yang merusak katalis dan menuru",
+      "url": "https://ilmutekkim.vercel.app/riset/paten/paten-mtg-mobil-1988/"
+    }
+  },
+  "/riset/paten/paten-psa-skarstrom-1960": {
+    "title": "Paten PSA Skarstrom (1960): siklus ayun tekanan untuk pemisahan campuran gas | Bedah Paten ilmutekkim",
+    "description": "Hampir seluruh pabrik hidrogen dan unit pemurnian gas modern beroperasi dengan siklus yang dipatenkan Charles W. Skarstrom pada 1960: adsorpsi pada tekanan",
+    "canonical": "https://ilmutekkim.vercel.app/riset/paten/paten-psa-skarstrom-1960/",
+    "openGraph": {
+      "type": "article",
+      "title": "Paten PSA Skarstrom (1960): siklus ayun tekanan untuk pemisahan campuran gas | Bedah Paten ilmutekkim",
+      "description": "Hampir seluruh pabrik hidrogen dan unit pemurnian gas modern beroperasi dengan siklus yang dipatenkan Charles W. Skarstrom pada 1960: adsorpsi pada tekanan",
+      "url": "https://ilmutekkim.vercel.app/riset/paten/paten-psa-skarstrom-1960/"
+    }
+  },
+  "/tentang": {
+    "title": "Tentang ilmutekkim",
+    "description": "ilmutekkim adalah arsip baca konten teknik kimia @ilmutekkim: pabrik, proses, keselamatan, dan kecerdasan buatan.",
+    "canonical": "https://ilmutekkim.vercel.app/tentang/",
+    "openGraph": {
+      "type": "website",
+      "title": "Tentang ilmutekkim",
+      "description": "ilmutekkim adalah arsip baca konten teknik kimia @ilmutekkim: pabrik, proses, keselamatan, dan kecerdasan buatan.",
+      "url": "https://ilmutekkim.vercel.app/tentang/"
+    }
+  }
+}

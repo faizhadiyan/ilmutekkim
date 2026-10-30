@@ -1,0 +1,182 @@
+{
+ "caption": "Las tanpa izin di pabrik bisa jadi percikan terakhir.\n\nDi pabrik kimia, las lima menit tetap butuh izin tertulis berlapis. Area dicek dan dibersihkan, energi diisolasi, udara diuji bebas gas mudah terbakar, penjaga api siaga membawa pemadam, lalu izin ditutup sesudah area dicek ulang. Percikan kecil bisa membakar uap yang tidak terlihat.\n\nMenurut lo, izin berlapis ini ribet atau justru masuk akal di pabrik kimia? Tulis di komen.\n\nFollow @ilmutekkim buat teknik kimia tiap hari.\n\n#teknikkimia #chemicalengineering #safety #pabrik #keselamatan #industri #ilmutekkim",
+ "cover_brief": "foto pekerja las dengan percikan api di pabrik",
+ "cover_credit": "Christopher Burns / Unsplash",
+ "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-06/carousel-3/cover.jpg",
+ "cover_sub": "Percikannya kecil dan sebentar. Akibatnya bisa untuk satu pabrik.",
+ "credit_url": "https://unsplash.com/photos/Wiu3w-99tNg",
+ "cta_question": "Kalau lo jadi penjaga api, hal pertama apa yang lo cek sebelum las mulai?",
+ "cta_teaser": "Besok: LOTO, kenapa teknisi menggembok panel sebelum servis.",
+ "format": "real",
+ "hook": "LAS TANPA IZIN DI PABRIK BISA JADI PERCIKAN TERAKHIR",
+ "hook_options": [
+  "LAS TANPA IZIN DI PABRIK BISA JADI PERCIKAN TERAKHIR",
+  "SATU LEMBAR IZIN BISA SELAMATKAN SATU SHIFT KERJA",
+  "KENAPA LAS 5 MENIT BUTUH IZIN BERLAPIS DI PABRIK"
+ ],
+ "hook_payoff_slide": 5,
+ "photo_briefs": [
+  {
+   "cari": "foto pekerja industri memakai helm dan pelindung diri lengkap",
+   "slide": 3
+  },
+  {
+   "cari": "foto teknisi memeriksa area pabrik dan peralatan",
+   "slide": 5
+  }
+ ],
+ "references": [
+  "API Recommended Practice 2009 Safe Welding in Refineries (ringkasan publik)",
+  "Perry's Chemical Engineers' Handbook (bab process safety)"
+ ],
+ "series_label": "SERI KESELAMATAN KERJA",
+ "slides": [
+  {
+   "callout": "FAKTA: izin kerja bukan birokrasi. Ia daftar periksa bahaya yang ditandatangani sebelum api menyala.",
+   "fill_rows": [
+    [
+     "01",
+     "CEK AREA DULU",
+     "bahaya disingkirkan"
+    ],
+    [
+     "02",
+     "UJI UDARANYA",
+     "gas berbahaya dibuktikan nol"
+    ],
+    [
+     "03",
+     "JAGA SAAT LAS",
+     "api kecil langsung padam"
+    ]
+   ],
+   "fill_rows_title": "PETA SLIDE INI",
+   "hook": "Yang berbahaya dari las di pabrik bukan apinya, tapi uap tak terlihat di sekitarnya.",
+   "pill": "YANG SERING DIKIRA",
+   "quote": "Tinggal las saja, teknisinya sudah pengalaman.",
+   "type": "quote"
+  },
+  {
+   "callout": "FAKTA: pengalaman tidak bisa mencium gas tanpa alat. Karena itu izin selalu mulai dari cek, bukan dari las.",
+   "fill_rows": [
+    [
+     "1",
+     "Tulis pekerjaannya",
+     "siapa, di mana, kapan"
+    ],
+    [
+     "2",
+     "Tandai bahayanya",
+     "uap, panas, energi tersimpan"
+    ]
+   ],
+   "fill_rows_title": "ISI LEMBAR IZIN",
+   "formula": "Tanpa izin → tidak boleh las",
+   "paras": [
+    "Pekerjaan panas ditulis jelas dengan lokasi dan waktunya, lalu bahaya di sekitarnya ditandai.",
+    "Izin ditandatangani penjaga area sesudah cek awal. Tanpa tanda tangan itu, obor las tidak boleh menyala."
+   ],
+   "pill": "MULAINYA DARI KERTAS",
+   "title": "Izin ditulis sebelum api menyala",
+   "type": "body"
+  },
+  {
+   "callout": "FAKTA: pelindung diri adalah lapis terakhir. Izin memastikan bahayanya dikurangi sejak awal.",
+   "credit": "Mufid Majnun / Unsplash",
+   "paras": [
+    "Helm, kaca las, sarung tangan, dan pakaian tahan api menjaga orangnya seperti di foto ini.",
+    "Lapis itu penting, tapi izin kerja mengejar bahaya yang lebih besar, uap mudah terbakar yang tidak terlihat mata."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-06/carousel-3/photo-1.jpg",
+   "pill": "JAGA ORANGNYA",
+   "title": "Pelindung diri saja belum cukup",
+   "type": "photo",
+   "credit_url": "https://unsplash.com/photos/man-in-yellow-and-black-vest-wearing-white-helmet-6203Ynp5ZqE"
+  },
+  {
+   "callout": "FAKTA: izin baru jalan sesudah cek area dan uji gas lolos bersamaan, bukan salah satu.",
+   "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-06/carousel-3/diagram-ptw.png",
+   "paras": [
+    "Ikuti satu pekerjaan las dari minta izin sampai selesai.",
+    "Perhatikan dua kotak ke bawah. Isolasi energi dan pemadam siaga adalah penjaga selama pekerjaan berjalan."
+   ],
+   "pill": "PETA LENGKAPNYA",
+   "title": "Alur izin kerja panas dari awal ke akhir",
+   "type": "diagram"
+  },
+  {
+   "callout": "FAKTA: satu kebocoran kecil yang tidak terlihat bisa mengisi area dengan uap berbahaya dalam sekejap.",
+   "credit": "Hakan Çınar / Unsplash",
+   "paras": [
+    "Sebelum las mulai, area dibersihkan dari bahan mudah terbakar dan sambungan di sekitarnya diperiksa.",
+    "Udara di dekat titik las diuji memakai alat deteksi gas. Hasilnya harus bersih sebelum izin benar benar jalan."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-06/carousel-3/photo-2.jpg",
+   "pill": "SEBELUM PERCIKAN PERTAMA",
+   "title": "Area dicek, udara dibuktikan bersih",
+   "type": "photo",
+   "credit_url": "https://unsplash.com/photos/a-worker-inspects-industrial-pipes-and-valves-D8QERQMlfRs"
+  },
+  {
+   "callout": "FAKTA: penjaga api tidak ikut mengelas. Tugasnya cuma mengawasi dan memadamkan awal.",
+   "fill_cards": [
+    [
+     "01",
+     "Kunci sumbernya",
+     "mesin tidak bisa menyala"
+    ],
+    [
+     "02",
+     "Pantau titik las",
+     "bara jatuh langsung ketahuan"
+    ]
+   ],
+   "paras": [
+    "Peralatan di dekat titik las diisolasi dan dikunci supaya tidak menyala tiba tiba. Selama las berjalan, penjaga api siaga membawa pemadam dan mengawasi bara jatuh."
+   ],
+   "pill": "SELAMA PEKERJAAN",
+   "title": "Dua penjaga selama las berlangsung",
+   "type": "body"
+  },
+  {
+   "callout": "FAKTA: bara kecil bisa membara lama sesudah las, jadi izin ditutup dengan cek ulang.",
+   "fill_grid": [
+    [
+     "CEK ULANG AREA",
+     "bara sisa dicari"
+    ],
+    [
+     "PANTAU SESUDAHNYA",
+     "api tunda diawasi"
+    ],
+    [
+     "TANDA TANGAN TUTUP",
+     "izin resmi selesai"
+    ],
+    [
+     "CATAT KEJADIANNYA",
+     "bahan perbaikan izin"
+    ]
+   ],
+   "fill_grid_eyebrow": "",
+   "paras": [
+    "Sesudah las selesai, area diperiksa lagi mencari bara yang membara diam diam sebelum izin ditutup.",
+    "Catatan dari satu pekerjaan menjadi bahan memperbaiki izin berikutnya. Sistemnya belajar dari lapangan."
+   ],
+   "pill": "TAHAP AKHIR",
+   "title": "Izin ditutup, bukan ditinggal",
+   "type": "body"
+  },
+  {
+   "bullets": [
+    "Izin tertulis memaksa bahaya dicek sebelum api menyala.",
+    "Cek area, isolasi, dan uji gas jalan bersamaan, bukan pilihan.",
+    "Penjaga api dan cek ulang menutup pekerjaan dengan aman."
+   ],
+   "equation": "Cek + Isolasi + Uji Gas → Las Aman",
+   "head": "Izin berlapis membuat las membosankan. Itu memang tujuannya.",
+   "pill": "KESIMPULANNYA",
+   "type": "conclusion"
+  }
+ ]
+}

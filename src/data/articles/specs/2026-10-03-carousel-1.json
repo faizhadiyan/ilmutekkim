@@ -1,0 +1,160 @@
+{
+  "format": "real",
+  "hook": "PLASTIK ITU BUKAN MINYAK DILELEHKAN. ADA 4 TAHAP KIMIANYA",
+  "series_label": "SERI PETROKIMIA",
+  "cover_brief": "foto pabrik petrokimia besar dengan menara distilasi dan pipa perak dari jauh",
+  "cover_sub": "Dari naphtha sampai kantong plastik, tiap tahap beda reaksi.",
+  "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-03/carousel-1/cover.jpg",
+  "cover_credit": "Alex Waldbrand / Unsplash",
+  "credit_url": "https://unsplash.com/photos/a-large-industrial-area-with-a-body-of-water-in-front-of-it-oRIQHQCg3fw",
+  "photo_briefs": [
+    {
+      "slide": 3,
+      "cari": "foto kilang minyak menara distilasi industri"
+    },
+    {
+      "slide": 5,
+      "cari": "foto pabrik kimia pipa industri besar"
+    }
+  ],
+  "slides": [
+    {
+      "type": "quote",
+      "pill": "YANG SERING DIKIRA",
+      "quote": "Plastik itu minyak bumi yang dilelehin terus dicetak.",
+      "hook": "Bukan. Minyaknya dipecah dulu sampai jadi gas, baru dibangun lagi.",
+      "callout": "FAKTA: polyethylene lahir dari gas ethylene, bukan dari minyak cair yang dicetak langsung.",
+      "fill_rows": [
+        [
+          "01",
+          "POHON TURUNAN",
+          "dari crude oil sampai pelet plastik"
+        ],
+        [
+          "02",
+          "TIAP PANAH SATU REAKSI",
+          "distilasi, cracking, polimerisasi"
+        ],
+        [
+          "03",
+          "PRODUK AKHIR",
+          "kantong, botol, pipa, mainan"
+        ]
+      ]
+    },
+    {
+      "type": "body",
+      "pill": "TAHAP 1 DISTILASI",
+      "title": "Crude oil dipisah dulu di kilang",
+      "paras": [
+        "Minyak mentah dipanaskan lalu masuk kolom distilasi. Fraksi ringan naik ke atas, fraksi berat tinggal di bawah.",
+        "Naphtha adalah fraksi ringan di kelompok atas. Dari sinilah bahan baku plastik berangkat."
+      ],
+      "callout": "FAKTA: naphtha adalah fraksi minyak bertitik didih rendah, satu keluarga dengan bensin mentah.",
+      "fill_bar": {
+        "left_label": "FRAKSI RINGAN",
+        "right_label": "FRAKSI BERAT",
+        "left_frac": 0.35,
+        "examples": [
+          [
+            "Di atas",
+            "naphtha, LPG, bensin"
+          ],
+          [
+            "Di bawah",
+            "solar, residu, aspal"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "photo",
+      "pill": "TAHAP 1 VISUAL",
+      "title": "Kilang tempat naphtha lahir",
+      "paras": [
+        "Di kilang seperti Cilacap dan Balikpapan, kolom distilasi bekerja nonstop memisah crude oil jadi fraksi fraksi.",
+        "Naphtha yang keluar belum jadi apa apa. Ia masih bahan antara."
+      ],
+      "callout": "FAKTA: satu kolom distilasi menggantikan puluhan kali proses rebus dan kondensasi terpisah.",
+      "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-03/carousel-1/photo-1.jpg",
+      "credit": "Barnaby / Unsplash"
+    },
+    {
+      "type": "diagram",
+      "pill": "PETA LENGKAPNYA",
+      "title": "Pohon turunan minyak ke plastik",
+      "paras": [
+        "Baca dari kiri ke kanan. Tiap panah adalah satu unit operasi dengan reaksi sendiri.",
+        "Crude oil ke naphtha itu distilasi. Naphtha ke ethylene itu cracking. Ethylene ke polyethylene itu polimerisasi."
+      ],
+      "callout": "FAKTA: tiga tahap pertama mengubah bentuk dan ukuran molekul, tahap terakhir menyambungnya lagi.",
+      "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-03/carousel-1/diagram-naphtha.png"
+    },
+    {
+      "type": "photo",
+      "pill": "TAHAP 2 CRACKING",
+      "title": "Steam cracker memecah naphtha jadi gas",
+      "paras": [
+        "Naphtha dicampur uap lalu dipanaskan sangat tinggi dalam waktu singkat. Rantai panjangnya putus jadi gas kecil, terpenting ethylene."
+      ],
+      "callout": "FAKTA: steam cracking bekerja pada suhu sekitar 800 sampai 900 derajat Celsius, jauh di atas oven dapur manapun.",
+      "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-03/carousel-1/photo-2.jpg",
+      "credit": "Alethia Briones / Unsplash"
+    },
+    {
+      "type": "body",
+      "pill": "TAHAP 3 POLIMERISASI",
+      "title": "Gas kecil disambung jadi rantai raksasa",
+      "paras": [
+        "Di reaktor polimerisasi, jutaan molekul ethylene disambung ujung ke ujung jadi rantai sangat panjang bernama polyethylene."
+      ],
+      "callout": "FAKTA: satu rantai polyethylene bisa berisi puluhan ribu molekul ethylene yang tersambung.",
+      "fill_cards": [
+        [
+          "01",
+          "Pelet masuk pabrik plastik",
+          "Dilelehkan lalu dibentuk jadi kantong atau botol"
+        ],
+        [
+          "02",
+          "Sifatnya dari rantainya",
+          "Rantai panjang membuat plastik kuat dan lentur"
+        ]
+      ]
+    },
+    {
+      "type": "body",
+      "pill": "KENAPA TIDAK LANGSUNG",
+      "title": "Kenapa minyak tidak dicetak saja",
+      "paras": [
+        "Minyak mentah adalah campuran ribuan molekul. Dicetak langsung hasilnya lembek dan tidak konsisten, jadi harus dimurnikan dulu jadi satu molekul."
+      ],
+      "callout": "FAKTA: kompleks petrokimia Chandra Asri di Cilegon adalah contoh nyata rantai naphtha ke plastik di Indonesia.",
+      "fill_grid": [
+        "Naphtha",
+        "Ethylene",
+        "Propylene",
+        "Polyethylene"
+      ],
+      "fill_note": "Empat nama yang selalu muncul berurutan di rantai petrokimia olefin.",
+      "fill_grid_eyebrow": "ALUR PROSES"
+    },
+    {
+      "type": "conclusion",
+      "pill": "KESIMPULANNYA",
+      "head": "Plastik adalah kimia bertahap, bukan cetakan minyak.",
+      "bullets": [
+        "Minyak dipisah jadi naphtha lewat distilasi.",
+        "Naphtha dipecah jadi ethylene lewat steam cracking 800 sampai 900 C.",
+        "Ethylene disambung jadi polyethylene, baru dicetak jadi produk."
+      ]
+    }
+  ],
+  "references": [
+    "Perry's Chemical Engineers' Handbook (bab petrokimia dan polimerisasi)",
+    "Gary, Handwerk and Kaiser, Petroleum Refining: Technology and Economics"
+  ],
+  "cta_question": "Produk plastik apa di rumah lo yang paling sering lo pakai tiap hari?",
+  "cta_teaser": "Besok: cooling tower, AC raksasa pabrik yang sering dikira cerobong asap.",
+  "caption": "Plastik itu bukan minyak yang dilelehkan.\n\nAda empat tahap kimianya: crude oil dipisah jadi naphtha, naphtha dipecah jadi ethylene pada 800 sampai 900 C, ethylene disambung jadi polyethylene, baru peletnya dicetak jadi kantong dan botol. Tiap panah di slide adalah satu reaksi berbeda.\n\nProduk plastik apa yang paling sering lo pakai tiap hari? Tulis di komen.\n\nFollow @ilmutekkim buat teknik kimia tiap hari.\n\n#teknikkimia #chemicalengineering #petrokimia #pabrik #plastik #proses #industri #ilmutekkim"
+}

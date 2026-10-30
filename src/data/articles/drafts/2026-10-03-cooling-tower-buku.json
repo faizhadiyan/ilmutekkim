@@ -1,0 +1,207 @@
+{
+  "caption": "Berhenti nilai cooling tower dari suhu air dinginnya.\n\n32 °C bisa bagus di hari kering dan jelek di hari lembap, karena vonisnya ditentukan wet bulb. Carousel ini ngebongkar cara menilainya step by step: wet bulb, range, approach, sampai hitungan make-up 20,4 m³ per jam dari aliran 1.000.\n\nSimpan postingan ini, cheat sheet di slide 10 kepakai tiap lo baca logsheet. Di pabrik lo, cooling tower dinilai dari angka apa? Tulis di komen.\n\nFollow @ilmutekkim buat teknik kimia tiap hari.\n\n#teknikkimia #chemicalengineering #coolingtower #utilitas #pabrik #proses #industri #ilmutekkim",
+  "cover_brief": "foto cooling tower industri hiperboloid dengan kabut uap, dramatis",
+  "cover_credit": "Hansjörg Keller / Unsplash",
+  "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-03/carousel-4-calc/cover.jpg",
+  "cover_sub": "Suhu yang sama bisa divonis bagus di satu hari dan jelek di hari lain. Penentunya satu suhu yang tidak ada di dalam tower.",
+  "credit_url": "https://unsplash.com/photos/a-body-of-water-with-two-cooling-towers-in-the-background-WmQgU73hngg",
+  "cta_question": "Di pabrik lo, cooling tower dinilai dari angka apa?",
+  "cta_teaser": "Seri utilitas berikutnya: heat exchanger dan musuh utamanya, fouling.",
+  "format": "real",
+  "hook": "BERHENTI MENILAI COOLING TOWER DARI SUHU AIR DINGIN",
+  "photo_briefs": [
+    {
+      "cari": "cooling tower industri sudut berbeda dari cover",
+      "slide": "photo COC kualitas air"
+    }
+  ],
+  "references": [
+    "Perry's Chemical Engineers' Handbook, bab Cooling Towers",
+    "Cooling Technology Institute (CTI), prinsip range, approach, dan neraca air cooling tower"
+  ],
+  "series_label": "SERI UTILITAS PABRIK",
+  "slides": [
+    {
+      "callout": "FAKTA: kinerja cooling tower selalu dinilai relatif terhadap suhu wet bulb udara sekitar, bukan angka absolut.",
+      "hook": "Suhunya sama, vonisnya beda. Yang berubah bukan tower-nya.",
+      "pill": "YANG SERING DIKIRA",
+      "quote": "Senin, air keluar 32 °C dibilang bagus. Selasa, 32 °C yang sama dibilang jelek.",
+      "type": "quote",
+      "fill_rows": [
+        [
+          "01",
+          "SATU SUHU PENENTU",
+          "yang diam-diam memberi vonis"
+        ],
+        [
+          "02",
+          "CARA MENILAI YANG BENAR",
+          "range, approach, efektivitas"
+        ],
+        [
+          "03",
+          "HITUNGAN LENGKAP",
+          "beban panas sampai make-up"
+        ]
+      ],
+      "fill_rows_title": "ISI CAROUSEL INI:",
+      "paras": []
+    },
+    {
+      "type": "body",
+      "pill": "LANGKAH 1: SUHU PENENTU ITU",
+      "title": "Wet bulb: suhu yang tidak bisa dilawan tower",
+      "paras": [
+        "Bayangkan termometer dibungkus kain basah lalu ditiup udara. Air di kain menguap, mengambil panas, dan suhu yang terbaca turun. Itulah wet bulb.",
+        "Cooling tower bekerja dengan cara yang sama: sebagian kecil air menguap. Karena itu air dingin keluar tidak akan pernah lebih dingin dari wet bulb."
+      ],
+      "callout": "FAKTA: hari lembap adalah hari terberat cooling tower, karena wet bulb naik dan ruang pendinginan menyempit.",
+      "fill_rows": [
+        [
+          "01",
+          "KAIN BASAH",
+          "termometer dibungkus kain yang dibasahi air"
+        ],
+        [
+          "02",
+          "AIR MENGUAP",
+          "penguapan mengambil panas, suhu turun"
+        ]
+      ],
+      "fill_rows_title": "LANGKAHNYA:"
+    },
+    {
+      "callout": "FAKTA: pada diagram ini range 10 °C dan approach 5 °C, jadi efektivitasnya 67 persen.",
+      "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-03/carousel-4-calc/diagram-temps.png",
+      "paras": [
+        "Range adalah selisih air panas masuk dan air dingin keluar. Ia menunjukkan beban panas yang dipikul tower dari proses.",
+        "Approach adalah selisih air dingin keluar dan suhu wet bulb. Ia menunjukkan seberapa dekat tower bekerja ke batas alamnya."
+      ],
+      "pill": "TIGA SUHU",
+      "title": "Range dan approach: dua selisih yang beda tugas",
+      "type": "diagram"
+    },
+    {
+      "callout": "FAKTA: approach yang melebar dari desain biasanya tanda fill kotor, nozzle buntu, atau aliran udara kurang.",
+      "paras": [
+        "Range adalah panas yang harus dibuang tower. Ia ditentukan proses: makin besar beban pabrik, makin besar range yang diminta.",
+        "Approach adalah sisa jarak antara air dingin keluar dan wet bulb. Ia ditentukan kondisi tower: fill bersih dan udara lancar membuatnya kecil.",
+        "Efektivitas membandingkan keduanya: range dibagi range tambah approach. Contoh kita 10 dibagi 15, hasilnya 67 persen."
+      ],
+      "pill": "LANGKAH 3: CARA MENILAI",
+      "title": "Dua angka yang menggantikan tebakan",
+      "type": "body"
+    },
+    {
+      "callout": "FAKTA: 41,9 GJ per jam setara 11,6 MW, kira kira kebutuhan listrik belasan ribu rumah.",
+      "fill_grid": [
+        [
+          "ALIRAN AIR",
+          "1.000 m³/jam"
+        ],
+        [
+          "RANGE",
+          "10 °C"
+        ],
+        [
+          "KALOR JENIS AIR",
+          "4,186 kJ/kg C"
+        ],
+        [
+          "BEBAN PANAS",
+          "11,6 MW"
+        ]
+      ],
+      "fill_grid_eyebrow": "",
+      "fill_note": "Aliran, range, kalor jenis air, lalu beban panas yang harus dibuang.",
+      "paras": [
+        "Q beban panas, m laju massa air, cp kalor jenis air, ΔT range. Dengan tiga angka ini beban tower tidak lagi ditebak.",
+        "Contoh: aliran 1.000 m³ per jam pada ΔT 10 °C berarti sekitar 41,9 GJ panas dibuang tiap jam, terus menerus."
+      ],
+      "pill": "LANGKAH 4: BEBAN PANAS",
+      "title": "Beban panas: berapa panas yang dibuang",
+      "type": "body",
+      "formula": "Q = m × cp × ΔT"
+    },
+    {
+      "callout": "FAKTA: pada range 10 °C, make-up umumnya sekitar 2 persen laju sirkulasi.",
+      "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-03/carousel-4-calc/diagram-balance.png",
+      "paras": [
+        "Air sirkulasi berkurang lewat tiga jalan: menguap saat mendingin, terbawa angin sebagai drift, dan dibuang sengaja sebagai blowdown.",
+        "Make-up adalah air baru yang menutup ketiganya. Besarnya bisa dihitung dari aliran dan range, bukan ditebak."
+      ],
+      "pill": "NERACA AIR",
+      "title": "Make-up menutup tiga kehilangan",
+      "type": "diagram"
+    },
+    {
+      "callout": "FAKTA: penguapan selalu komponen terbesar make-up, pada contoh ini 75 persen dari total.",
+      "fill_grid": [
+        [
+          "PENGUAPAN",
+          "15,3 m³/jam"
+        ],
+        [
+          "DRIFT",
+          "0,05 m³/jam"
+        ],
+        [
+          "BLOWDOWN",
+          "5,1 m³/jam"
+        ],
+        [
+          "MAKE-UP",
+          "20,4 m³/jam"
+        ]
+      ],
+      "fill_grid_eyebrow": "",
+      "paras": [
+        "E penguapan, F aliran sirkulasi, ΔT range.",
+        "Hasilnya E = 15,3 m³ per jam. Drift cuma 0,05 m³ per jam. Blowdown B = E / (COC - 1) = 5,1 m³ per jam pada COC 4."
+      ],
+      "pill": "LANGKAH 6: MAKE-UP",
+      "title": "Dari mana angka 20,4 m³ per jam",
+      "type": "body",
+      "formula": "E = 0,00085 × F × ΔT × 1,8"
+    },
+    {
+      "callout": "FAKTA: operator menjaga COC dengan mengatur blowdown mengikuti konduktivitas air sirkulasi.",
+      "credit": "Kayven / Unsplash",
+      "paras": [
+        "Cycles of concentration, COC, membandingkan garam terlarut di air sirkulasi dengan air make-up. Penguapan meninggalkan garam, jadi konsentrasi naik terus.",
+        "Blowdown adalah remnya. COC terlalu tinggi memicu kerak dan korosi; terlalu rendah membuang air dan bahan kimia."
+      ],
+      "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-03/carousel-4-calc/photo-1.jpg",
+      "pill": "ISTILAH AIR",
+      "title": "COC: kenapa blowdown tidak boleh asal tutup",
+      "type": "photo"
+    },
+    {
+      "bullets": [
+        "Range = suhu masuk kurang suhu keluar: beban proses yang dibuang",
+        "Approach = suhu keluar kurang wet bulb: sehat tidaknya tower",
+        "Beban panas: Q = m × cp × range, hasilnya kJ per jam",
+        "Make-up = penguapan tambah drift tambah blowdown, bukan tebakan"
+      ],
+      "head": "Cheat sheet: nilai tower dalam 30 detik",
+      "pill": "KESIMPULANNYA",
+      "type": "conclusion",
+      "paras": []
+    }
+  ],
+  "objective": "Menggeser cara nilai cooling tower dari suhu air dingin ke wet bulb, range, dan approach",
+  "funnel": "Authority",
+  "hook_type": "Negativity",
+  "metric": "save rate",
+  "tension": "32 °C yang sama divonis berbeda di hari berbeda; yang berubah bukan tower-nya",
+  "payoff_plan": "wet bulb step-by-step, diagram tiga suhu, hitungan beban + neraca air, cheat sheet rumus",
+  "ctv": "Simpan carousel (cheat sheet slide 10 kepakai tiap baca logsheet) + jawab angka penilai tower di pabrik sendiri",
+  "flsr_ref": "baru, belum ada referensi",
+  "ab_variable": "bukan test",
+  "hook_options": [
+    "BERHENTI MENILAI COOLING TOWER DARI SUHU AIR DINGIN",
+    "AIR 32 °C DARI COOLING TOWER: BAGUS ATAU JELEK?",
+    "KENAPA AIR COOLING TOWER TIDAK PERNAH DINGIN SEMPURNA"
+  ],
+  "hook_payoff_slide": 5
+}

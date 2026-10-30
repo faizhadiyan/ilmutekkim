@@ -1,0 +1,182 @@
+{
+ "caption": "SET PRESSURE BUKAN TEKANAN MAKSIMUM BEJANA\n\nIni CS-11 dari seri cheat sheet ujian @ilmutekkim. Tiga angka yang sering ketuker: tekanan operasi, set pressure, dan MAWP. Urutannya baku: operasi di bawah set pressure, set pressure tidak boleh di atas MAWP. Di kilang nyata, relief valve yang disetel terlalu tinggi sama berbahayanya dengan tidak memasang relief valve.\n\nDi pabrik nyata, relief valve diuji pop pressure-nya secara berkala. Dosen menguji konsep ini karena salah urut tiga angka ini berarti salah pasang pengaman.\n\nIni simpul 03 dari peta roadmap. Peta lengkapnya ada di postingan roadmap yang ter-pin di profil.\n\nSave buat UTS, tag teman sekelas, follow seri berikutnya.\n\n#teknikkimia #chemicalengineering #reliefvalve #keselamatanproses #pabrik #uts #belajar #ilmutekkim",
+ "cover_brief": "foto bejana tekan baja atau relief valve pada pipa di kilang minyak, peralatan asli",
+ "cover_credit": "Arshan Ali / Pexels",
+ "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-18/carousel-1/cover.jpg",
+ "cover_sub": "CS-11: jangan tukar set pressure dengan MAWP.",
+ "credit_url": "https://www.pexels.com/photo/large-metal-pipes-for-industrial-machinery-5711732/",
+ "cta_question": "Bejana MAWP 10 barg, operasi 8 barg. PSV disetel 12 barg. Apa yang salah dan berapa set pressure yang benar? Tulis jawabanmu di komen.",
+ "cta_teaser": "Besok CS-12: transesterifikasi B40, gliserol ke mana perginya.",
+ "format": "real",
+ "hook": "SET PRESSURE BUKAN TEKANAN MAKSIMUM BEJANA",
+ "hook_options": [
+  "SET PRESSURE BUKAN TEKANAN MAKSIMUM BEJANA",
+  "SALAH SET RELIEF VALVE, BEJANA BISA JEBOL SEBELUM KATUP TERBUKA",
+  "TIGA ANGKA TEKANAN INI SERING KETUKER DI UJIAN"
+ ],
+ "hook_payoff_slide": 5,
+ "photo_briefs": [
+  {
+   "cari": "foto relief valve atau safety valve pada pipa bejana tekan di kilang minyak",
+   "slide": "Di pabrik nyata: relief valve terpasang di kilang"
+  }
+ ],
+ "references": [
+  "ASME Boiler and Pressure Vessel Code, Section VIII Division 1 (UG-125, UG-134: set pressure dan accumulation)",
+  "Towler, G. dan Sinnott, R., Chemical Engineering Design (sistem relief tekanan)"
+ ],
+ "series_label": "SERI CHEAT SHEET UJIAN",
+ "slides": [
+  {
+   "callout": "Fakta kunci: set pressure yang lebih tinggi dari MAWP membuat bejana pecah sebelum katup sempat terbuka.",
+   "fill_rows": [
+    [
+     "01",
+     "Set pressure dikira tekanan maksimum",
+     "padahal itu tekanan katup mulai terbuka"
+    ],
+    [
+     "02",
+     "Takut bocor lalu set pressure dinaikkan",
+     "bocor kalah bahaya dibanding bejana jebol"
+    ],
+    [
+     "03",
+     "Angka 10 persen dilupakan",
+     "akumulasi maksimum ada batasnya di kode"
+    ]
+   ],
+   "fill_rows_title": "Kenapa jebakan ini sering keluar",
+   "hook": "Salah. Itu melanggar kode.",
+   "pill": "JEBAKAN DOSEN",
+   "quote": "Relief valve boleh disetel di atas MAWP, biar tidak sering bocor.",
+   "type": "quote"
+  },
+  {
+   "callout": "Fakta kunci: ketiganya angka berbeda dengan pemilik yang berbeda, jangan disamakan.",
+   "fill_cards": [
+    [
+     "01",
+     "Tekanan operasi",
+     "Tekanan kerja sehari-hari. Harus di bawah set pressure dengan jarak aman."
+    ],
+    [
+     "02",
+     "Set pressure",
+     "Tekanan saat relief valve mulai membuka. Ditentukan oleh pegas katup."
+    ],
+    [
+     "03",
+     "MAWP",
+     "Tekanan maksimum yang diizinkan bejana pada suhu desain. Ditentukan oleh desain bejana."
+    ]
+   ],
+   "pill": "TIGA ANGKA",
+   "title": "Tiga tekanan, tiga pemilik",
+   "type": "body"
+  },
+  {
+   "callout": "Fakta kunci: tidak ada stream yang hilang; uap bertekanan keluar dari bejana lewat PSV menuju flare.",
+   "diagram": "/home/hatch/workspace/ig-ilmutekkim/diagrams/2026-10-18-relief-mawp.png",
+   "diagram_scope": "Diagram ini mencakup satu bejana tekan, satu relief valve (PSV) di nosel atas, dan satu jalur buang ke flare atau KO drum. Aliran yang digambar: uap bertekanan keluar saat PSV terbuka. Yang sengaja tidak digambar: jalur umpan masuk bejana, sistem kontrol tekanan normal, dan detail dimensi.",
+   "paras": [
+    "Tekanan naik melewati batas normal. PSV terbuka tepat di set pressure dan membuang uap bertekanan ke flare.",
+    "Bejana tidak pernah merasakan tekanan di atas MAWP karena katup sudah terbuka duluan."
+   ],
+   "pill": "SKEMANYA",
+   "title": "Jalur buang saat tekanan naik",
+   "type": "diagram"
+  },
+  {
+   "callout": "Fakta kunci: aturan ini dari ASME Section VIII; melanggarnya berarti desain tidak lolos kode.",
+   "formula": "P_set ≤ MAWP",
+   "formula_tex": "\\mathrm{P}_{\\mathrm{set}} \\leq \\mathrm{MAWP}",
+   "paras": [
+    "Set pressure tidak boleh melebihi MAWP. Ini aturan baku, bukan anjuran.",
+    "Untuk satu katup, tekanan saat relief penuh maksimal MAWP + 10 persen. Bejana MAWP 10 barg berarti relief penuh tidak boleh lewat 11 barg."
+   ],
+   "pill": "RUMUS INTI",
+   "title": "Satu pertidaksamaan yang wajib hafal",
+   "type": "body"
+  },
+  {
+   "callout": "Fakta kunci: contoh ini mengikuti aturan kode langkah demi langkah, tiru polanya untuk angka lain.",
+   "fill_grid": [
+    [
+     "MAWP bejana",
+     "10 barg"
+    ],
+    [
+     "Tekanan operasi",
+     "8 barg"
+    ],
+    [
+     "Set pressure PSV",
+     "10 barg"
+    ],
+    [
+     "Relief penuh maksimal",
+     "11 barg"
+    ]
+   ],
+   "fill_grid_eyebrow": "Contoh angka yang bisa ditiru",
+   "paras": [
+    "Bejana MAWP 10 barg dioperasikan di 8 barg. PSV dipasang dengan set pressure 10 barg.",
+    "Saat gangguan, katup terbuka di 10 barg dan tekanan tidak pernah lewat 11 barg. Kalau PSV disetel 12 barg, bejana pecah duluan sebelum katup terbuka."
+   ],
+   "pill": "CONTOH ANGKA",
+   "title": "Hitung dengan angka sendiri",
+   "type": "body"
+  },
+  {
+   "callout": "Fakta kunci: margin operasi mencegah katup terbuka sendiri padahal tidak ada gangguan.",
+   "fill_rows": [
+    [
+     "01",
+     "Operasi di bawah set pressure",
+     "beri jarak aman, lazimnya tidak lebih dari 90 persen set pressure"
+    ],
+    [
+     "02",
+     "Terlalu dekat bikin simmer",
+     "katup bergetar dan bocor sebelum waktunya"
+    ],
+    [
+     "03",
+     "Terlalu jauh boros",
+     "bejana didesain lebih tebal dari kebutuhan"
+    ]
+   ],
+   "fill_rows_title": "Jarak aman sehari-hari",
+   "paras": [
+    "Tekanan operasi yang menempel ke set pressure membuat katup bocor sendiri.",
+    "Jaga margin supaya katup hanya terbuka saat benar-benar darurat."
+   ],
+   "pill": "DI OPERASI",
+   "title": "Jangan tempelkan operasi ke set pressure",
+   "type": "body"
+  },
+  {
+   "callout": "Fakta kunci: relief valve adalah perangkat keras yang diuji, bukan sekadar simbol di gambar.",
+   "credit": "Zhengyang TIAN / Pexels",
+   "paras": [
+    "Di kilang, relief valve terpasang di hampir tiap bejana tekan dan diperiksa pop pressure-nya secara berkala.",
+    "Dosen menguji konsep ini karena salah urut tiga angka berarti salah pasang pengaman."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-18/carousel-1/photo-1.jpg",
+   "pill": "DI PABRIK NYATA",
+   "title": "Katup ini diuji, bukan dipajang",
+   "type": "photo"
+  },
+  {
+   "bullets": [
+    "Save buat UTS",
+    "Tag teman sekelas",
+    "Follow seri berikutnya, CS-12 terbit besok"
+   ],
+   "head": "Bejana MAWP 10 barg, operasi 8 barg. PSV disetel 12 barg. Apa yang salah dan berapa set pressure yang benar? Tulis jawabanmu di komen.",
+   "pill": "KUIS CS-11",
+   "type": "conclusion"
+  }
+ ]
+}

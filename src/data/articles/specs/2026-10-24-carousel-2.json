@@ -1,0 +1,154 @@
+{
+ "caption": "SUHU PABRIK DIUKUR TANPA BATERAI SEJAK 1821\n\nTahun 1821, Thomas Johann Seebeck merangkai tembaga dan bismut dalam satu loop. Satu sambungan dipanaskan, jarum kompas di dekatnya menyimpang. Ia mengira menemukan efek magnet. Ørsted membuktikan yang mengalir adalah arus listrik.\n\nPrinsip itu menjadi termokopel: dua kawat logam beda dilas di satu titik. Beda suhu antara ujung ukur dan ujung referensi membangkitkan tegangan, dan tegangan itulah yang dibaca sebagai suhu.\n\nTipe K (chromel-alumel) adalah yang paling umum di industri: sekitar 41 mikrovolt per derajat. Catatan pentingnya: termokopel mengukur beda suhu, bukan suhu mutlak. Alat ukur wajib mengoreksi suhu ujung dinginnya sendiri.\n\nFollow @ilmutekkim buat kisah teknik kimia tiap hari.\n\n#teknikkimia #chemicalengineering #instrumentasi #termokopel #sejarahteknik #ilmutekkim",
+ "cover_brief": "foto teknisi memeriksa panel instrumen di area pabrik",
+ "cover_credit": "Bulat843 / Pexels",
+ "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-24/carousel-2/cover.jpg",
+ "cover_sub": "Dua kawat beda logam, satu titik las.",
+ "credit_url": "https://www.pexels.com/photo/industrial-worker-operating-machinery-control-panel-35072831/",
+ "cta_question": "Sensor suhu apa yang paling sering kamu temui di lapangan: termokopel atau RTD? Tulis di komen.",
+ "cta_teaser": "Besok: tabung melengkung di balik jarum pressure gauge.",
+ "format": "real",
+ "hook": "SUHU PABRIK DIUKUR TANPA BATERAI SEJAK 1821",
+ "hook_options": [
+  "SUHU PABRIK DIUKUR TANPA BATERAI SEJAK 1821",
+  "DUA KAWAT LOGAM INI MEMBACA SUHU TANPA LISTRIK",
+  "1821: KOMPAS MENYIMPANG, LAHIR SENSOR SUHU PABRIK"
+ ],
+ "hook_payoff_slide": 3,
+ "photo_briefs": [
+  {
+   "cari": "foto control room pabrik, operator di depan layar monitor",
+   "slide": "control room: angka suhu mengalir ke layar DCS"
+  }
+ ],
+ "references": [
+  "IEC 60584-1, Thermocouples, Part 1: EMF specifications and tolerances",
+  "NIST ITS-90 Thermocouple Database, Type K (Chromel-Alumel)",
+  "NASA Science, What is the Seebeck Effect (science.nasa.gov)"
+ ],
+ "series_label": "KISAH TEKNIK KIMIA",
+ "slides": [
+  {
+   "callout": "Fakta kunci: termokopel mengubah beda suhu langsung menjadi sinyal listrik.",
+   "fill_rows": [
+    [
+     "01",
+     "Dulu",
+     "Termometer dibaca manual di lapangan"
+    ],
+    [
+     "02",
+     "Sekarang",
+     "Sinyal listrik tampil di layar DCS"
+    ]
+   ],
+   "fill_rows_title": "Dulu vs sekarang",
+   "paras": [
+    "Sebelum sensor elektronik, suhu dibaca dari termometer yang dipasang di lapangan, lalu dicatat manual oleh operator.",
+    "Sekarang, sepasang kawat logam mengirim sinyal listrik ke control room, dan angka suhu muncul di layar DCS otomatis."
+   ],
+   "pill": "TAHUKAH KAMU?",
+   "title": "Dulu suhu dibaca manual di lapangan",
+   "type": "body"
+  },
+  {
+   "callout": "Fakta kunci: Seebeck memakai tembaga dan bismut; prinsipnya dipakai semua termokopel sampai sekarang.",
+   "fill_rows": [
+    [
+     "01",
+     "Rangkaian",
+     "Tembaga dan bismut, satu sisi dipanaskan"
+    ],
+    [
+     "02",
+     "Koreksi",
+     "Jarum menyimpang; Ørsted: itu arus listrik"
+    ]
+   ],
+   "fill_rows_title": "Dua babak 1821",
+   "paras": [
+    "Tahun 1821, Thomas Johann Seebeck merangkai tembaga dan bismut dalam satu loop.",
+    "Satu sambungan dipanaskan, jarum kompas menyimpang. Ia mengira itu efek termomagnetik.",
+    "Ørsted membuktikan yang mengalir adalah arus listrik."
+   ],
+   "pill": "TOKOHNYA",
+   "title": "Kompas yang menyimpang",
+   "type": "body"
+  },
+  {
+   "callout": "Fakta kunci: tipe K memakai chromel (nikel-chromium) dan alumel (nikel-aluminium).",
+   "fill_rows": [
+    [
+     "01",
+     "Hot junction",
+     "Titik las di ujung ukur"
+    ],
+    [
+     "02",
+     "Dua kawat beda",
+     "Chromel dan alumel untuk tipe K"
+    ],
+    [
+     "03",
+     "Cold junction",
+     "Ujung referensi di alat ukur"
+    ]
+   ],
+   "fill_rows_title": "Anatomi termokopel",
+   "paras": [
+    "Termokopel modern: dua kawat logam beda dilas di ujung ukur, disebut hot junction. Ujung satunya masuk ke alat ukur, disebut cold junction.",
+    "Tipe K, chromel dan alumel, adalah yang paling umum di industri: murah dan rentang lebar."
+   ],
+   "pill": "ARTEFAKNYA",
+   "title": "Dua kawat dilas di satu titik",
+   "type": "body"
+  },
+  {
+   "callout": "Fakta kunci: termokopel mengukur beda suhu, bukan suhu mutlak.",
+   "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-24/carousel-2/diagram-thermocouple.png",
+   "diagram_scope": "Rangkaian termokopel satu loop: hot junction pada suhu proses, kawat chromel dan kawat alumel menuju cold junction di alat ukur, voltmeter terpasang di cold junction membaca milivolt. Yang sengaja tidak digambar: selubung pelindung (thermowell) dan kabel ekstensi.",
+   "paras": [
+    "Sambungan panas di suhu proses, sambungan dingin di suhu referensi. Beda suhu ini membangkitkan tegangan Seebeck di loop.",
+    "Voltmeter membaca tegangan itu, lalu tabel referensi mengubahnya menjadi angka suhu."
+   ],
+   "pill": "SKEMA",
+   "title": "Beda suhu menjadi tegangan",
+   "type": "diagram"
+  },
+  {
+   "callout": "Fakta kunci: tanpa koreksi cold junction, angka suhu yang tampil meleset.",
+   "formula": "V = S × ΔT; 41 µV/°C × 500 °C = 20,5 mV",
+   "formula_tex": "V = S \\times \\Delta T;\\ 41\\,\\mu\\mathrm{V}/^{\\circ}\\mathrm{C} \\times 500^{\\circ}\\mathrm{C} = 20{,}5\\,\\mathrm{mV}",
+   "paras": [
+    "Sensitivitas tipe K sekitar 41 µV/°C: tiap beda 1°C menghasilkan sekitar 41 mikrovolt.",
+    "Contoh: beda 500°C menghasilkan sekitar 20,5 mV. Rentang khasnya minus 200°C sampai 1350°C.",
+    "Alat ukur mengoreksi suhu ujung dinginnya otomatis (kompensasi cold junction)."
+   ],
+   "pill": "ANGKANYA",
+   "title": "41 mikrovolt per derajat",
+   "type": "body"
+  },
+  {
+   "callout": "Fakta kunci: termokopel adalah sensor suhu paling umum di pabrik proses.",
+   "credit": "Sergey Sergeev / Pexels",
+   "paras": [
+    "Setiap angka suhu yang kamu lihat di layar control room lahir dari efek yang ditemukan Seebeck dua abad lalu.",
+    "Tanpa dua kawat ini, operator buta suhu: tidak ada alarm, tidak ada kontrol, tidak ada proteksi."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-24/carousel-2/photo-1.jpg",
+   "pill": "PLOT TWIST",
+   "title": "Angka di layar DCS lahir tahun 1821",
+   "type": "photo"
+  },
+  {
+   "bullets": [
+    "1821: Seebeck menemukan dua logam beda menghasilkan tegangan saat beda suhu",
+    "Tipe K chromel-alumel paling umum, sekitar 41 µV/°C",
+    "Alat ukur wajib koreksi cold junction agar angka benar"
+   ],
+   "head": "Termokopel = listrik dari beda suhu",
+   "pill": "INTINYA",
+   "type": "conclusion"
+  }
+ ]
+}

@@ -1,0 +1,120 @@
+{
+ "caption": "RAPAT 5 MENIT INI MENYELAMATKAN NYAWA\n\nIni kisah teknik kimia @ilmutekkim. Setiap pagi sebelum shift, pekerja pabrik dan anjungan berkumpul 5 sampai 15 menit untuk toolbox meeting: membaca JSA, mengenali bahaya hari itu, mengecek APD, dan menyegarkan rencana darurat.\n\nBudaya ini mengeras setelah Piper Alpha, 6 Juli 1988. Ledakan di anjungan Laut Utara itu menewaskan 167 pekerja, dan penyelidikan Lord Cullen menyorot izin kerja serta komunikasi antarshift yang gagal. Informasi bahaya yang tidak sampai ke orang yang tepat bisa berakibat fatal.\n\nDi Indonesia, kerangka SMK3 (PP No. 50 Tahun 2012) mewajibkan bahaya di tempat kerja dikomunikasikan ke pekerja. Toolbox meeting adalah wujud hariannya.\n\nMenurutmu, kenapa briefing pagi masih sering dianggap formalitas di banyak tempat kerja? Ceritakan di komen.\n\n#teknikkimia #chemicalengineering #toolboxmeeting #keselamatanproses #processsafety #sejarahteknik #ilmutekkim",
+ "cover_brief": "foto sekelompok pekerja pabrik ber-APD lengkap mengikuti briefing pagi yang dipimpin supervisor di dalam pabrik",
+ "cover_credit": "Safi Erneste / Pexels",
+ "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-20/carousel-2/cover.jpg",
+ "cover_sub": "Toolbox meeting: briefing pagi sebelum shift dimulai",
+ "credit_url": "https://www.pexels.com/photo/industrial-safety-training-session-in-factory-35082108/",
+ "cta_question": "Menurutmu, kenapa briefing pagi masih sering dianggap formalitas di banyak tempat kerja?",
+ "cta_teaser": "Besok: CS-14, absorpsi vs stripping.",
+ "format": "real",
+ "hook": "RAPAT 5 MENIT INI MENYELAMATKAN NYAWA",
+ "hook_options": [
+  "RAPAT 5 MENIT INI MENYELAMATKAN NYAWA",
+  "167 PEKERJA TEWAS KARENA INFORMASI TIDAK PERNAH SAMPAI",
+  "BRIEFING PAGI INI BUKAN FORMALITAS, INI SOAL NYAWA"
+ ],
+ "hook_payoff_slide": 7,
+ "photo_briefs": [
+  {
+   "cari": "pemimpin briefing keselamatan menjelaskan prosedur ke pekerja pabrik ber-APD lengkap",
+   "slide": "slide foto pemimpin briefing Piper Alpha dan Cullen"
+  }
+ ],
+ "references": [
+  "The Hon Lord Cullen, The Public Inquiry into the Piper Alpha Disaster (1990)",
+  "PP No. 50 Tahun 2012 tentang Penerapan Sistem Manajemen Keselamatan dan Kesehatan Kerja (SMK3)",
+  "UU No. 1 Tahun 1970 tentang Keselamatan Kerja",
+  "OSHA, hazard communication dan praktik toolbox talk di industri proses"
+ ],
+ "series_label": "KISAH TEKNIK KIMIA",
+ "slides": [
+  {
+   "callout": "Fakta kunci: toolbox meeting adalah briefing keselamatan singkat 5 sampai 15 menit yang dilakukan sebelum pekerjaan dimulai.",
+   "paras": [
+    "Dulu, serah terima informasi di pabrik berjalan seadanya. Operator shift malam pulang, shift pagi mulai bekerja, dan kabar soal alat yang bermasalah sering hanya disampaikan lewat obrolan lisan yang mudah hilang.",
+    "Sekarang, hari kerja di pabrik dan anjungan dimulai dengan toolbox meeting: seluruh tim berkumpul sebentar sebelum menyentuh alat apa pun.",
+    "Lima menit itu dipakai untuk satu hal: menyamakan pengetahuan semua orang tentang bahaya hari itu."
+   ],
+   "pill": "TAHUKAH KAMU?",
+   "title": "Dulu serah terima cuma obrolan, sekarang ada rapatnya",
+   "type": "body"
+  },
+  {
+   "callout": "Fakta kunci: 167 pekerja tewas di Piper Alpha, bencana anjungan lepas pantai terburuk dalam sejarah.",
+   "paras": [
+    "Malam 6 Juli 1988, anjungan minyak Piper Alpha di Laut Utara meledak dan terbakar. Dari 226 orang di atasnya, 167 tewas.",
+    "Pemicunya kebocoran gas kondensat dari pompa yang sedang dalam perawatan. Pompa itu dinyalakan oleh shift berikutnya yang tidak tahu bahwa katup pengamannya sedang dilepas.",
+    "Izin kerja untuk perawatan itu ada, tetapi informasinya tidak sampai ke orang yang menekan tombol start."
+   ],
+   "pill": "PIPER ALPHA",
+   "title": "6 Juli 1988: informasi yang tidak sampai",
+   "type": "body"
+  },
+  {
+   "callout": "Fakta kunci: laporan Cullen mengkritik keras izin kerja dan komunikasi antarshift.",
+   "credit": "Safi Erneste / Pexels",
+   "paras": [
+    "Pemerintah Inggris menunjuk Lord Cullen memimpin penyelidikan publik atas Piper Alpha.",
+    "Laporannya terbit pada 1990."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-20/carousel-2/photo-1.jpg",
+   "pill": "LAPORAN CULLEN",
+   "title": "Penyelidikan yang mengubah industri",
+   "type": "photo"
+  },
+  {
+   "callout": "Fakta kunci: JSA (Job Safety Analysis) adalah dokumen yang memecah satu pekerjaan menjadi langkah-langkah dan mencatat bahaya serta pengendaliannya di tiap langkah.",
+   "paras": [
+    "Inti toolbox meeting adalah JSA yang dibaca bersama. Satu pekerjaan dipecah menjadi langkah-langkah berurutan, dan tiap langkah ditanya satu hal: bahaya apa yang mengintai di sini.",
+    "Mengangkat beban dengan crane, misalnya, dipecah menjadi rigging, pengangkatan, dan penurunan. Bahaya tiap langkah beda, jadi pengendaliannya pun beda.",
+    "Karena dibaca bersama, pekerja baru dan pekerja senior memegang daftar bahaya yang sama sebelum mulai."
+   ],
+   "pill": "JSA",
+   "title": "Bedah pekerjaan langkah demi langkah",
+   "type": "body"
+  },
+  {
+   "callout": "Fakta kunci: urutan briefing tidak acak; bahaya yang dikenali dulu menentukan APD dan rencana darurat.",
+   "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-20/carousel-2/diagram-toolbox.png",
+   "diagram_scope": "Urutan isi toolbox meeting dalam 4 langkah: JSA dibaca, bahaya hari itu dikenali, APD dicek, rencana darurat disegarkan. Strip bawah mencatat hasil yang dituju: semua pekerja memulai shift dengan peta bahaya yang sama. Yang sengaja tidak digambar: formulir JSA per halaman, daftar hadir, dan durasi tiap langkah.",
+   "paras": [
+    "Briefing bergerak dari dokumen ke kondisi nyata hari itu, lalu ke perlengkapan orangnya, dan ditutup dengan rencana bila keadaan memburuk. Urutannya meniru cara insinyur membaca pabrik: ketahui prosesnya, kenali bahayanya, siapkan pengamanannya."
+   ],
+   "pill": "SKEMA",
+   "title": "Urutan 5 menit yang tidak acak",
+   "type": "diagram"
+  },
+  {
+   "callout": "Fakta kunci: di Indonesia, SMK3 menurut PP No. 50 Tahun 2012 mewajibkan perusahaan mengomunikasikan bahaya dan risiko K3 kepada pekerja.",
+   "paras": [
+    "Cek APD dilakukan setelah bahaya dikenali, karena APD yang benar tergantung bahayanya: pekerjaan panas butuh pelindung las, pekerjaan asam butuh sarung tangan tahan bahan kimia.",
+    "Penutupnya rencana darurat: bunyi alarm, jalur evakuasi, dan titik kumpul. Bagian ini yang paling sering dianggap hafalan lama, padahal jalur evakuasi bisa berubah saat ada pekerjaan konstruksi di area sebelah.",
+    "Toolbox meeting memastikan perubahan seperti itu diketahui semua orang pada hari yang sama."
+   ],
+   "pill": "APD DAN DARURAT",
+   "title": "Kenapa cek APD selalu setelah bahaya",
+   "type": "body"
+  },
+  {
+   "callout": "Fakta kunci: seperti perhitungan kesetimbangan, hasil akhir shift yang aman ditentukan oleh kondisi awal yang disamakan di briefing pagi.",
+   "paras": [
+    "Pagi ini CS-13 menghitung komposisi uap dari kondisi awal campuran: komposisi cairan dan suhunya. Salah membaca kondisi awal, seluruh perhitungan di kolom ikut meleset.",
+    "Shift kerja bekerja dengan cara yang sama. Kondisi awalnya adalah pengetahuan di kepala tiap pekerja, dan toolbox meeting adalah alat untuk menyamakannya sebelum proses berjalan.",
+    "Piper Alpha menunjukkan harga dari kondisi awal yang tidak sama: satu shift mengira pompa siap jalan, shift lain tahu katupnya sedang dilepas."
+   ],
+   "pill": "PLOT TWIST",
+   "title": "Kesetimbangan yang sama dengan cheat sheet pagi ini",
+   "type": "body"
+  },
+  {
+   "bullets": [
+    "Follow @ilmutekkim buat kisah teknik berikutnya",
+    "Simpan kalau kamu anak teknik kimia"
+   ],
+   "head": "Toolbox meeting bukan formalitas. Lima menit itu yang memastikan semua orang memulai shift dengan peta bahaya yang sama.",
+   "pill": "INTINYA",
+   "type": "conclusion"
+  }
+ ]
+}

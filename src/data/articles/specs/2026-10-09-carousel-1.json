@@ -1,0 +1,192 @@
+{
+ "caption": "Garis operasi kebalik, jumlah tray lo salah total.\n\nIni CS-02 dari seri cheat sheet ujian @ilmutekkim. McCabe-Thiele punya dua garis operasi: rectifying di atas umpan yang menempel ke distilat, stripping di bawah umpan yang menempel ke bottom. Keduanya bertemu di garis q umpan. Tangga di antara kurva kesetimbangan dan garis operasi itulah jumlah tray teoritis.\n\nDi kilang minyak, tangga yang sama menentukan tinggi kolom pemisah propana dan butana atau kolom crude yang memisahkan fraksi bertingkat. Salah tarik garis di kelas berarti salah hitung tray, salah tinggi kolom di pabrik.\n\nIni simpul 05 dari peta roadmap. Peta lengkapnya ada di postingan roadmap yang ter-pin di profil.\n\nSave buat UTS, tag teman sekelas, follow seri berikutnya.\n\n#teknikkimia #chemicalengineering #distilasi #uts #belajar #kilang #industri #ilmutekkim",
+ "cover_brief": "foto kolom distilasi kilang minyak dari jauh dengan menara tinggi dan pipa",
+ "cover_credit": "Ali Mucci / Pexels",
+ "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-09/carousel-1/cover.jpg",
+ "cover_sub": "Cheat sheet CS-02: garis operasi McCabe-Thiele yang sering kebalik buat UTS.",
+ "credit_url": "https://www.pexels.com/photo/a-photo-of-an-industrial-business-4883682/",
+ "cta_question": "Berapa intersep jawaban kuis lo? Tulis langkahnya di komen.",
+ "cta_teaser": "Besok CS-03: reflux minimum lawan reflux total, jebakan hemat energi.",
+ "format": "real",
+ "hook": "GARIS OPERASI KEBALIK, JUMLAH TRAY LO SALAH TOTAL",
+ "hook_options": [
+  "GARIS OPERASI KEBALIK, JUMLAH TRAY LO SALAH TOTAL",
+  "RECTIFYING DI ATAS, STRIPPING DI BAWAH. JANGAN KETUKER",
+  "INTERSEP KECIL INI NENTUIN KEBUTUHAN UAP KOLOM LO"
+ ],
+ "hook_payoff_slide": 4,
+ "photo_briefs": [
+  {
+   "cari": "foto kolom distilasi kilang dengan tray atau packing",
+   "slide": 6
+  }
+ ],
+ "references": [
+  "McCabe, Smith, Harriott, Unit Operations of Chemical Engineering",
+  "Seader, Henley, Roper, Separation Process Principles"
+ ],
+ "series_label": "SERI CHEAT SHEET UJIAN",
+ "slides": [
+  {
+   "callout": "FAKTA: kolom distilasi punya dua zona operasi, memperkaya di atas dan melucuti di bawah.",
+   "fill_rows": [
+    [
+     "01",
+     "GARIS RECTIFYING",
+     "di atas titik umpan"
+    ],
+    [
+     "02",
+     "GARIS STRIPPING",
+     "di bawah titik umpan"
+    ],
+    [
+     "03",
+     "TITIK UMPAN",
+     "tempat dua garis bertemu"
+    ]
+   ],
+   "fill_rows_title": "PETA SLIDE INI",
+   "hook": "Salah. Ada dua garis yang bertemu di titik umpan, dan posisinya sering kebalik.",
+   "pill": "JEBAKAN DOSEN",
+   "quote": "Garis operasi itu satu garis lurus dari bawah sampai atas kolom.",
+   "type": "quote"
+  },
+  {
+   "callout": "FAKTA: kemiringan garis rectifying selalu di bawah 1 karena penyebutnya R ditambah 1.",
+   "fill_grid": [
+    [
+     "y dan x",
+     "uap naik dan cair turun"
+    ],
+    [
+     "R dan xD",
+     "refluks dan distilat"
+    ]
+   ],
+   "fill_grid_eyebrow": "",
+   "formula": "y = R/(R+1) x + xD/(R+1)",
+   "paras": [
+    "Di zona memperkaya di atas umpan, neraca komponen ringan memberi garis operasi lurus yang menghubungkan komposisi cair dan uap antar tray.",
+    "R adalah rasio refluks, yaitu laju cair yang kembali ke kolom dibagi laju distilat yang diambil sebagai produk atas."
+   ],
+   "pill": "RUMUS INTINYA",
+   "title": "Garis rectifying dalam satu kotak",
+   "type": "body"
+  },
+  {
+   "callout": "FAKTA: tiap anak tangga penuh adalah satu tray teoritis di kolom.",
+   "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-09/carousel-1/diagram-mccabe.png",
+   "paras": [
+    "Baca dari kanan atas: mulai di distilat, melangkah mendatar ke kurva kesetimbangan, lalu turun tegak ke garis operasi."
+   ],
+   "pill": "PETA LENGKAPNYA",
+   "title": "Tangga tahap di antara kurva dan garis operasi",
+   "type": "diagram"
+  },
+  {
+   "callout": "FAKTA: menaikkan R menggeser garis rectifying mendekati diagonal.",
+   "fill_rows": [
+    [
+     "1",
+     "R = 2 dan xD = 0,95",
+     "data soalnya"
+    ],
+    [
+     "2",
+     "0,67 dan 0,32",
+     "kemiringan dan intersep"
+    ],
+    [
+     "3",
+     "y = 0,67 x + 0,32",
+     "garis siap digambar"
+    ]
+   ],
+   "fill_rows_title": "LANGKAH HITUNGNYA",
+   "paras": [
+    "Contoh yang sering keluar: rasio refluks R = 2 dan komposisi distilat xD = 0,95 fraksi mol komponen ringan.",
+    "Kemiringan = 2/3 = 0,67. Intersep = 0,95/3 = 0,32. Garisnya y = 0,67 x + 0,32."
+   ],
+   "pill": "CONTOH ANGKA",
+   "title": "Contoh angka: R = 2, xD = 0,95",
+   "type": "body"
+  },
+  {
+   "callout": "FAKTA: dua garis operasi hanya bertemu di garis q kondisi umpan.",
+   "fill_grid": [
+    [
+     "UJUNG ATAS",
+     "distilat di diagonal"
+    ],
+    [
+     "UJUNG BAWAH",
+     "bottom di diagonal"
+    ],
+    [
+     "TENGAH",
+     "bertemu di umpan"
+    ]
+   ],
+   "fill_grid_eyebrow": "",
+   "paras": [
+    "Garis rectifying wajib lewat titik distilat di diagonal, garis stripping wajib lewat titik bottom di diagonal.",
+    "Uji cepat: cek ujung atas menyentuh distilat dan ujung bawah menyentuh bottom sebelum menggambar tangga."
+   ],
+   "pill": "YANG SERING KEBALIK",
+   "title": "Rectifying selalu menempel ke distilat, stripping ke bottom",
+   "type": "body"
+  },
+  {
+   "callout": "FAKTA: kolom lebih tinggi umumnya memuat lebih banyak tray.",
+   "credit": "Dheeraj Singh / Pexels",
+   "paras": [
+    "Di kilang, tiap anak tangga mewakili tray atau segmen packing tempat uap dan cair bertukar komponen.",
+    "Komposisi berubah selangkah dari bottom ke distilat."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-09/carousel-1/photo-1.jpg",
+   "pill": "BUKTI FISIKNYA",
+   "title": "Tray di dalam kolom adalah anak tangga aslinya",
+   "type": "photo"
+  },
+  {
+   "callout": "FAKTA: garis q tegak atau miring tergantung fasa umpan.",
+   "fill_rows": [
+    [
+     "1",
+     "Diagonal dan kurva",
+     "peta dasarnya"
+    ],
+    [
+     "2",
+     "Dua garis operasi",
+     "bertemu di umpan"
+    ],
+    [
+     "3",
+     "Tangga tahap",
+     "hitung tray teoritis"
+    ]
+   ],
+   "fill_rows_title": "URUTAN GAMBARNYA",
+   "paras": [
+    "Urutan aman saat ujian: gambar diagonal dan kurva, tandai distilat, umpan, dan bottom, lalu tarik dua garis operasi.",
+    "Tangga digambar terakhir dari distilat turun ke bottom."
+   ],
+   "pill": "URUTAN CEK AMAN",
+   "title": "Gambar diagonal dulu, baru dua garis operasi",
+   "type": "body"
+  },
+  {
+   "bullets": [
+    "Tulis jawaban plus langkah hitung lo di komen",
+    "Save carousel ini buat bekal UTS lo",
+    "Tag teman sekelas yang lagi belajar separasi",
+    "Follow @ilmutekkim, besok CS-03 reflux minimum"
+   ],
+   "head": "R = 3 dan xD = 0,96. Intersep garis rectifying berapa?",
+   "pill": "KUIS CS-02",
+   "type": "conclusion"
+  }
+ ]
+}

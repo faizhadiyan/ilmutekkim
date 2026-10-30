@@ -1,0 +1,108 @@
+{
+ "caption": "Pompa buat cairan, kompresor buat gas. Tertukar = rusak.\n\nPompa sentrifugal melempar cairan pakai impeller berputar. Kena gas, dia cuma muter angin dan tidak bisa menghisap. Kompresor sebaliknya: dirancang memeras gas, kalau kemasukan cairan bisa pecah. Salah pilih alat, tagihan listrik bengkak bertahun-tahun.\n\nPernah denger pompa bunyi kasar kayak kerikil? Ceritain di komen.\n\nFollow @ilmutekkim buat teknik kimia tiap hari.\n\n#teknikkimia #chemicalengineering #pabrik #pompa #kompresor #alatpabrik #proses #ilmutekkim",
+ "cover_brief": "foto pompa industri besar di ruang pompa pabrik",
+ "cover_credit": "Mumtaz Niazi / Pexels",
+ "cover_credit_url": "https://www.pexels.com/photo/industrial-pumps-at-dubai-power-plant-35645884/",
+ "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-02/carousel-3/cover.jpg",
+ "cover_sub": "Bedah cara kerja keduanya, kenapa tidak bisa saling ganti.",
+ "cta_question": "Pernah denger pompa bunyi kasar kayak kerikil? Ceritain di komen.",
+ "cta_teaser": "Besok: dari naphtha jadi plastik, alur petrokimia Chandra Asri.",
+ "format": "real",
+ "hook": "POMPA BUAT CAIRAN, KOMPRESOR BUAT GAS. TERTUKAR = RUSAK",
+ "photo_briefs": [
+  {
+   "cari": "close up pompa sentrifugal industri pabrik",
+   "slide": 3
+  },
+  {
+   "cari": "kompresor industri besar di pabrik",
+   "slide": 5
+  }
+ ],
+ "references": [
+  "Perry's Chemical Engineers' Handbook (bab pompa dan kompresor)",
+  "Karassik et al., Pump Handbook (kavitasi dan NPSH)"
+ ],
+ "series_label": "SERI ALAT PABRIK",
+ "slides": [
+  {
+   "hook": "Salah satu mindahin cairan, satunya gas. Tertukar, alatnya rusak.",
+   "pill": "YANG SERING DIKIRA",
+   "quote": "Pompa sama kompresor kan sama-sama buat mindahin fluida, pilih yang murah aja.",
+   "type": "quote"
+  },
+  {
+   "callout": "FAKTA: pompa sentrifugal adalah jenis pompa paling umum di pabrik proses, dari air pendingin sampai minyak mentah.",
+   "paras": [
+    "Impeller berputar sangat cepat di dalam rumah pompa. Gaya sentrifugal melempar cairan ke dinding luar, keluar dengan tekanan lebih tinggi.",
+    "Hisapan di tengah impeller menarik cairan baru masuk. Putaran tidak berhenti, aliran tidak berhenti."
+   ],
+   "pill": "BEDAH POMPA 1",
+   "title": "Pompa sentrifugal: lempar cairan pakai putaran",
+   "type": "body"
+  },
+  {
+   "credit": "Adam Šumník / Pexels",
+   "paras": [
+    "Kalau tekanan hisap terlalu rendah, cairan menguap jadi gelembung kecil. Gelembung ini pecah tepat di permukaan impeller.",
+    "Ledakan mikronya menggerus logam seperti kerikil. Bunyi kasar berderak = tanda kavitasi, impeller sedang dimakan."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-02/carousel-3/photo-1.jpg",
+   "pill": "BEDAH POMPA 2",
+   "title": "Musuh pompa: kavitasi",
+   "type": "photo"
+  },
+  {
+   "callout": "FAKTA: gas itu kompresibel, volumenya bisa dimampatkan berkali lipat. Cairan praktis tidak bisa.",
+   "paras": [
+    "Kompresor menaikkan tekanan gas jauh lebih besar daripada yang bisa dilakukan pompa pada cairan.",
+    "Tipe paling umum: sentrifugal (putaran seperti pompa tapi untuk gas), piston atau reciprocating, dan screw."
+   ],
+   "pill": "BEDAH KOMPRESOR 1",
+   "title": "Kompresor: memeras gas sampai padat",
+   "type": "body"
+  },
+  {
+   "credit": "Mazhar Ulazhar / Pexels",
+   "paras": [
+    "Cairan tidak bisa dimampatkan. Kalau cairan masuk kompresor, piston atau rotor menghantam benda yang tidak bisa menyusut: pecah.",
+    "Namanya liquid slugging. Makanya selalu ada knock-out drum sebelum kompresor untuk menangkap cairan yang terbawa gas."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-02/carousel-3/photo-2.jpg",
+   "pill": "BEDAH KOMPRESOR 2",
+   "title": "Musuh kompresor: cairan",
+   "type": "photo"
+  },
+  {
+   "callout": "FAKTA: pompa sentrifugal yang kemasukan gas kehilangan hisapan total. Namanya vapor lock.",
+   "paras": [
+    "Pompa mengandalkan massa cairan untuk dilempar impeller. Kena gas yang ringan, impeller cuma muter angin.",
+    "Tidak ada hisapan, tidak ada aliran. Pompa jalan tapi tidak memindahkan apa-apa, lalu overheat."
+   ],
+   "pill": "KENAPA TIDAK BISA TUKAR",
+   "title": "Pompa tidak bisa dorong gas",
+   "type": "body"
+  },
+  {
+   "callout": "FAKTA: di banyak pabrik, sistem udara tekan adalah salah satu konsumen listrik terbesar.",
+   "paras": [
+    "Memampatkan gas butuh kerja jauh lebih besar daripada memompa cairan bervolume sama. Fisikanya memang begitu.",
+    "Salah pilih alat bukan cuma soal rusak: kompresor yang kegedean atau bocor bikin tagihan listrik bengkak bertahun-tahun."
+   ],
+   "pill": "SOAL ENERGI",
+   "title": "Kompresor jauh lebih boros listrik",
+   "type": "body"
+  },
+  {
+   "bullets": [
+    "Pompa sentrifugal melempar cairan dengan impeller berputar.",
+    "Kompresor memampatkan gas; cairan yang masuk bisa merusaknya.",
+    "Salah pilih alat = boros energi bertahun-tahun."
+   ],
+   "head": "Cairan pakai pompa, gas pakai kompresor, tidak bisa tukar.",
+   "pill": "KESIMPULANNYA",
+   "type": "conclusion"
+  }
+ ],
+ "topic": "Pompa vs kompresor: salah pilih = boros listrik bertahun-tahun"
+}

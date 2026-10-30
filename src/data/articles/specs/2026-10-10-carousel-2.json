@@ -1,0 +1,199 @@
+{
+ "format": "real",
+ "hook": "HAMPIR CELAKA WAJIB DILAPORIN SEBELUM MEMAKAN KORBAN",
+ "hook_options": [
+  "HAMPIR CELAKA WAJIB DILAPORIN SEBELUM MEMAKAN KORBAN",
+  "TIDAK ADA KORBAN BUKAN BERARTI MASALAHNYA SUDAH SELESAI",
+  "KEJADIAN NYARIS INI BAHAN BELAJAR PALING MURAH DI PABRIK"
+ ],
+ "hook_payoff_slide": 4,
+ "series_label": "SERI KESELAMATAN PROSES",
+ "cover_brief": "foto pekerja pabrik memakai helm keselamatan di area industri",
+ "cover_sub": "Near miss: kejadian hampir celaka yang wajib jadi laporan dan perbaikan.",
+ "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-10/carousel-2/cover.jpg",
+ "cover_credit": "Abdolhassan Fazeli / Unsplash",
+ "credit_url": "https://unsplash.com/photos/a-man-wearing-a-hard-hat-LXmrXs9w9Yw",
+ "photo_briefs": [
+  {
+   "slide": 6,
+   "cari": "foto teknisi memakai alat pelindung dan detektor gas di pabrik"
+  }
+ ],
+ "slides": [
+  {
+   "type": "quote",
+   "pill": "YANG SERING DIKIRA",
+   "quote": "Tidak ada yang luka, buat apa dilaporin segala.",
+   "hook": "Near miss hilang adalah peringatan gratis yang dibuang.",
+   "callout": "FAKTA: near miss hampir menimbulkan korban.",
+   "fill_rows": [
+    [
+     "01",
+     "KEJADIAN",
+     "hampir kena"
+    ],
+    [
+     "02",
+     "LAPORAN",
+     "tertulis resmi"
+    ],
+    [
+     "03",
+     "PERBAIKAN",
+     "akar ditutup"
+    ]
+   ],
+   "fill_rows_title": "PETA SLIDE INI"
+  },
+  {
+   "type": "body",
+   "pill": "BEDANYA JELAS",
+   "title": "Bukan kecelakaan, bukan kondisi aman biasa",
+   "paras": [
+    "Kecelakaan sudah ada korban atau kerusakan. Near miss berhenti satu langkah sebelum akibat, misal beban hampir jatuh.",
+    "Pola yang sama dengan pemicu berbeda bisa menjadi kecelakaan pada kesempatan berikutnya."
+   ],
+   "fill_grid": [
+    [
+     "KECELAKAAN",
+     "sudah ada akibat"
+    ],
+    [
+     "NEAR MISS",
+     "hampir ada akibat"
+    ],
+    [
+     "KONDISI TAK AMAN",
+     "menunggu pemicu"
+    ]
+   ],
+   "fill_grid_eyebrow": "",
+   "callout": "FAKTA: near miss membuka kondisi lain."
+  },
+  {
+   "type": "diagram",
+   "pill": "ALUR FISIKNYA",
+   "title": "Dari hampir celaka menjadi perbaikan yang nyata",
+   "paras": [
+    "Baca kiri ke kanan: kejadian diamankan dulu, lalu dilaporkan tertulis, diselidiki akar penyebabnya, diperbaiki, dan pembelajarannya dibagikan."
+   ],
+   "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-10/carousel-2/diagram-nearmiss.png",
+   "callout": "FAKTA: laporan tertulis mengubah ingatan satu orang menjadi data yang bisa diselidiki bersama."
+  },
+  {
+   "type": "body",
+   "pill": "YANG DICATAT",
+   "title": "Laporan bagus mencatat fakta, bukan opini",
+   "paras": [
+    "Catat waktu, tempat, alat, dan urutan kejadian yang terlihat.",
+    "Foto, saksi, dan pengamanan pertama membuat investigasi memeriksa fakta."
+   ],
+   "fill_rows": [
+    [
+     "1",
+     "Waktu dan tempat",
+     "kapan dan di mana"
+    ],
+    [
+     "2",
+     "Alat dan kondisi",
+     "apa yang terlibat"
+    ],
+    [
+     "3",
+     "Urutan kejadian",
+     "apa yang hampir terjadi"
+    ]
+   ],
+   "fill_rows_title": "ISI LAPORANNYA",
+   "callout": "FAKTA: laporan spesifik, akar mudah ditemukan."
+  },
+  {
+   "type": "body",
+   "pill": "AKAR PENYEBABNYA",
+   "title": "Investigasi mencari sistem yang gagal, bukan kambing hitam",
+   "paras": [
+    "Investigasi bertanya kenapa kondisi bisa terjadi: prosedur, perawatan, pelatihan, atau desain area.",
+    "Menyalahkan orang terakhir tidak menutup jalan kejadian yang sama terulang."
+   ],
+   "fill_grid": [
+    [
+     "PROSEDUR",
+     "langkah tak jelas"
+    ],
+    [
+     "PERAWATAN",
+     "alat sudah aus"
+    ],
+    [
+     "PELATIHAN",
+     "belum cukup paham"
+    ],
+    [
+     "DESAIN AREA",
+     "mudah salah"
+    ]
+   ],
+   "fill_grid_eyebrow": "",
+   "callout": "FAKTA: perbaikan kuat mengubah alat atau prosedur."
+  },
+  {
+   "type": "photo",
+   "pill": "BUKTI LAPANGANNYA",
+   "title": "Pengamanan pertama selalu mendahului kertasnya",
+   "paras": [
+    "Pekerja menghentikan kerja dan mengamankan area dulu.",
+    "Ini mencegah orang berikutnya masuk kondisi sama."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-10/carousel-2/photo-1.jpg",
+   "credit": "Hakan Cinar / Unsplash",
+   "callout": "FAKTA: area aman, investigasi tanpa korban baru."
+  },
+  {
+   "type": "body",
+   "pill": "DIBAGIKAN LAGI",
+   "title": "Pembelajaran near miss dibagikan sebelum pola berulang",
+   "paras": [
+    "Hasil dibagikan di briefing pagi: apa yang hampir terjadi, kenapa, dan apa yang berubah.",
+    "Area lain memeriksa kondisi yang sama di alat mereka sendiri."
+   ],
+   "fill_rows": [
+    [
+     "1",
+     "Briefing pagi",
+     "cerita dan akar"
+    ],
+    [
+     "2",
+     "Cek area lain",
+     "kondisi yang sama"
+    ],
+    [
+     "3",
+     "Tindak lanjut",
+     "jadwal dan penanggung jawab"
+    ]
+   ],
+   "fill_rows_title": "CARA BAGIKANNYA",
+   "callout": "FAKTA: satu laporan harus mengubah area lain yang sama."
+  },
+  {
+   "type": "conclusion",
+   "pill": "INTINYA",
+   "head": "Hampir celaka adalah peringatan gratis sebelum ada korban",
+   "bullets": [
+    "Amankan area dulu, baru tulis laporannya",
+    "Selidiki akar sistemnya, bukan cari kambing hitam",
+    "Bagikan pembelajarannya ke area yang kondisinya sama"
+   ]
+  }
+ ],
+ "references": [
+  "Lees, Loss Prevention in the Process Industries",
+  "CCPS, Guidelines for Investigating Process Safety Incidents",
+  "Perry's Chemical Engineers' Handbook"
+ ],
+ "cta_question": "Kejadian hampir celaka apa yang paling lo ingat? Ceritakan tanpa sebut nama perusahaan.",
+ "cta_teaser": "Besok: confined space, kenapa masuk tangki butuh izin dan detektor gas.",
+ "caption": "Hampir celaka wajib dilaporin sebelum memakan korban.\n\nNear miss adalah kejadian yang hampir menimbulkan korban atau kerusakan tetapi berhenti sebelum akibatnya terjadi. Karena belum ada korban, kejadian ini sering dianggap selesai, padahal polanya adalah peringatan gratis.\n\nBedah alurnya: kejadian diamankan, dilaporkan tertulis dengan fakta, diselidiki akar sistemnya, diperbaiki dengan tindakan nyata, lalu pembelajarannya dibagikan ke area lain.\n\nKejadian hampir celaka apa yang paling lo ingat di tempat kerja atau kampus? Tulis di komen tanpa sebut nama perusahaan.\n\nFollow @ilmutekkim buat teknik kimia tiap hari.\n\n#teknikkimia #chemicalengineering #pabrik #safety #keselamatan #industri #ilmutekkim"
+}

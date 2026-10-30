@@ -1,0 +1,262 @@
+{
+  "/kamus": {
+    "title": "Kamus Industri Kimia — IlmuTekkim",
+    "description": "Kamus proses teknik kimia per sektor industri: definisi, mekanisme, persamaan, variabel operasi, dan bedah plant.",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/absorpsi-dan-stripping": {
+    "title": "Absorpsi dan Stripping — Kamus Industri Kimia IlmuTekkim",
+    "description": "Absorpsi adalah pemindahan komponen dari fase gas ke fase cair pelarut yang berkontak dengannya, sedangkan stripping adalah kebalikannya, yaitu pemindahan ",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/azeotrop": {
+    "title": "Azeotrop — Kamus Industri Kimia IlmuTekkim",
+    "description": "Campuran yang mendidih pada komposisi tetap sehingga uap dan cairannya berkomposisi sama dan tidak dapat dipisahkan lebih lanjut dengan distilasi biasa.",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/batch": {
+    "title": "Batch — Kamus Industri Kimia IlmuTekkim",
+    "description": "Mode operasi tempat bahan dimuat, diproses dalam satu siklus, kemudian dikeluarkan sebelum siklus berikutnya. Mode ini cocok untuk produk yang bervariasi d",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/blowdown": {
+    "title": "Blowdown — Kamus Industri Kimia IlmuTekkim",
+    "description": "Aliran air sirkulasi yang sengaja dibuang untuk mengendalikan konsentrasi padatan terlarut yang meningkat akibat penguapan, dan digantikan oleh air segar m",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/bottoms": {
+    "title": "Bottoms — Kamus Industri Kimia IlmuTekkim",
+    "description": "Produk berat yang diambil dari dasar kolom distilasi dan kaya akan komponen bertitik didih tinggi.",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/continuous": {
+    "title": "Continuous — Kamus Industri Kimia IlmuTekkim",
+    "description": "Mode operasi aliran tunak tanpa henti: umpan masuk dan produk keluar secara terus-menerus. Mode ini cocok untuk produk tunggal yang bervolume besar.",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/cooling-tower": {
+    "title": "Cooling Tower — Kamus Industri Kimia IlmuTekkim",
+    "description": "Cooling tower adalah alat kontak langsung udara dan air untuk membuang panas proses ke atmosfer, terutama melalui penguapan sebagian kecil air sirkulasi. K",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/dcs": {
+    "title": "DCS — Kamus Industri Kimia IlmuTekkim",
+    "description": "Sistem kendali terdistribusi yang mengoperasikan pabrik dari control room: pengendali tersebar di dekat peralatan dan terhubung ke layar operator pusat.",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/distilasi": {
+    "title": "Distilasi — Kamus Industri Kimia IlmuTekkim",
+    "description": "Distilasi adalah operasi pemisahan campuran cair berdasarkan perbedaan volatilitas komponennya. Uap yang terbentuk dari cairan yang mendidih selalu lebih k",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/distilasi-atmosferik-cdu": {
+    "title": "Distilasi Atmosferik Minyak Mentah (CDU) — Kamus Industri Kimia IlmuTekkim",
+    "description": "Unit distilasi atmosferik (crude distillation unit, CDU) adalah unit pertama kilang minyak yang memisahkan minyak mentah menjadi fraksi-fraksi berdasarkan ",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/distilat": {
+    "title": "Distilat — Kamus Industri Kimia IlmuTekkim",
+    "description": "Produk ringan yang diambil dari puncak kolom distilasi setelah uapnya dikondensasikan.",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/fcc-fluid-catalytic-cracking": {
+    "title": "FCC (Fluid Catalytic Cracking) — Kamus Industri Kimia IlmuTekkim",
+    "description": "FCC adalah proses perengkahan katalitik terfluidisasi yang mengubah fraksi minyak berat, terutama vacuum gas oil, menjadi bensin, LPG, dan olefin ringan de",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/ffa-dan-acid-value": {
+    "title": "FFA dan Acid Value — Kamus Industri Kimia IlmuTekkim",
+    "description": "Asam lemak bebas (free fatty acid, FFA) adalah asam lemak yang tidak lagi terikat pada gliserol, terbentuk dari hidrolisis trigliserida oleh air dengan ban",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/flare": {
+    "title": "Flare — Kamus Industri Kimia IlmuTekkim",
+    "description": "Cerobong bakar untuk membuang gas bertekanan secara aman dengan membakarnya pada ketinggian, digunakan pada saat pelepasan relief atau keadaan darurat.",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/flooding": {
+    "title": "Flooding — Kamus Industri Kimia IlmuTekkim",
+    "description": "Flooding adalah kondisi kegagalan hidrodinamik kolom distilasi atau absorpsi ketika kecepatan uap terlalu tinggi sehingga cairan tidak lagi mengalir turun ",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/fouling": {
+    "title": "Fouling — Kamus Industri Kimia IlmuTekkim",
+    "description": "Fouling adalah penumpukan material yang tidak diinginkan pada permukaan perpindahan panas, misalnya kerak garam, polimer, kokas, produk korosi, dan pertumb",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/hazop": {
+    "title": "HAZOP — Kamus Industri Kimia IlmuTekkim",
+    "description": "Studi bahaya dan operabilitas yang sistematis: tim menelusuri penyimpangan dari maksud rancangan dengan kata pandu untuk mencari sebab dan akibatnya sebelu",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/heat-exchanger-dan-lmtd": {
+    "title": "Heat Exchanger dan LMTD — Kamus Industri Kimia IlmuTekkim",
+    "description": "Heat exchanger adalah alat untuk memindahkan panas antara dua fluida tanpa mencampurnya. LMTD (log mean temperature difference) adalah beda suhu rata-rata ",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/hidrogenasi": {
+    "title": "Hidrogenasi Lemak — Kamus Industri Kimia IlmuTekkim",
+    "description": "Hidrogenasi adalah penambahan hidrogen pada ikatan rangkap asam lemak tidak jenuh dengan katalis logam, umumnya nikel, untuk menaikkan titik leleh dan kest",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/kondensor": {
+    "title": "Kondensor — Kamus Industri Kimia IlmuTekkim",
+    "description": "Penukar panas di puncak kolom yang mendinginkan uap menjadi cairan agar dapat dibagi menjadi reflux dan produk distilat.",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/loop-kontrol": {
+    "title": "Loop kontrol — Kamus Industri Kimia IlmuTekkim",
+    "description": "Rangkaian tertutup yang terdiri atas pengukuran, pengendali, dan elemen kendali akhir, yang menjaga satu variabel proses pada nilai yang dikehendaki.",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/neraca-massa": {
+    "title": "Neraca Massa — Kamus Industri Kimia IlmuTekkim",
+    "description": "Neraca massa adalah penerapan hukum kekekalan massa pada suatu sistem proses: akumulasi massa di dalam sistem sama dengan massa masuk dikurangi massa kelua",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/p-id": {
+    "title": "P&ID — Kamus Industri Kimia IlmuTekkim",
+    "description": "Diagram perpipaan dan instrumentasi: gambar teknik yang menunjukkan peralatan, pipa, katup, dan loop kendali suatu unit proses. P&ID merupakan bahasa gamba",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/packing": {
+    "title": "Packing — Kamus Industri Kimia IlmuTekkim",
+    "description": "Material berpori atau terstruktur yang mengisi kolom sebagai pengganti tray dan menyediakan luas kontak uap-cairan yang besar dalam volume yang kecil. Pack",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/pengendali-pid": {
+    "title": "Pengendali PID — Kamus Industri Kimia IlmuTekkim",
+    "description": "Pengendali yang menghitung aksi kendali dari galat saat ini (proporsional), akumulasi galat (integral), dan laju perubahan galat (derivatif). Pengendali PI",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/permit-to-work": {
+    "title": "Permit to work — Kamus Industri Kimia IlmuTekkim",
+    "description": "Izin tertulis untuk pekerjaan berisiko seperti kerja panas, masuk ruang terbatas, dan membuka jalur proses. Dokumen ini menghubungkan identifikasi bahaya, ",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/pinch": {
+    "title": "Pinch — Kamus Industri Kimia IlmuTekkim",
+    "description": "Titik beda suhu terkecil yang ditargetkan antara aliran panas dan aliran dingin dalam jaringan penukar panas. Pinch menentukan seberapa banyak panas yang d",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/polimerisasi": {
+    "title": "Polimerisasi — Kamus Industri Kimia IlmuTekkim",
+    "description": "Polimerisasi adalah penggabungan banyak molekul kecil (monomer) menjadi rantai molekul raksasa (polimer). Dua mekanisme besar dibedakan: polimerisasi pertu",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/pompa-kavitasi-npsh": {
+    "title": "Pompa, Kavitasi, dan NPSH — Kamus Industri Kimia IlmuTekkim",
+    "description": "Pompa sentrifugal menaikkan tekanan cairan dengan energi kinetik dari impeller yang berputar. Kavitasi adalah pembentukan dan keruntuhan gelembung uap cair",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/proses-kraft": {
+    "title": "Proses kraft — Kamus Industri Kimia IlmuTekkim",
+    "description": "Pemasakan serpih kayu dengan larutan alkali bersulfur untuk melarutkan lignin dan membebaskan serat selulosa. Proses kraft merupakan proses pulp yang domin",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/reaktor-konversi-selektivitas": {
+    "title": "Reaktor, Konversi, dan Selektivitas — Kamus Industri Kimia IlmuTekkim",
+    "description": "Konversi menyatakan fraksi pereaksi yang bereaksi, selektivitas menyatakan fraksi pereaksi yang bereaksi dan menjadi produk yang dikehendaki, dan yield ada",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/reboiler": {
+    "title": "Reboiler — Kamus Industri Kimia IlmuTekkim",
+    "description": "Penukar panas di dasar kolom yang menguapkan sebagian cairan dasar agar menjadi uap pendorong pemisahan di dalam kolom. Sumber panasnya umumnya steam atau ",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/reflux": {
+    "title": "Reflux — Kamus Industri Kimia IlmuTekkim",
+    "description": "Reflux adalah sebagian cairan hasil kondensasi uap puncak kolom yang dikembalikan ke dalam kolom. Cairan ini mengalir turun dan berkontak berlawanan arah d",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/relief-valve": {
+    "title": "Relief Valve dan Proteksi Tekanan Berlebih — Kamus Industri Kimia IlmuTekkim",
+    "description": "Relief valve (katup pelepas tekanan) adalah perangkat pengaman mekanis yang membuka secara otomatis ketika tekanan bejana mencapai tekanan setel, membuang ",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/safety-instrumented-system": {
+    "title": "Safety instrumented system — Kamus Industri Kimia IlmuTekkim",
+    "description": "Lapisan pengaman otomatis yang terdiri atas sensor, pemecah logika, dan elemen akhir, yang membawa proses ke keadaan aman ketika batas bahaya terlampaui. S",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/seksi-rectifying": {
+    "title": "Seksi rectifying — Kamus Industri Kimia IlmuTekkim",
+    "description": "Bagian kolom di atas titik umpan, tempat uap yang naik diperkaya komponen ringannya oleh reflux yang turun.",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/seksi-stripping": {
+    "title": "Seksi stripping — Kamus Industri Kimia IlmuTekkim",
+    "description": "Bagian kolom di bawah titik umpan, tempat cairan yang turun dilucuti komponen ringannya oleh uap dari reboiler.",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/sil": {
+    "title": "SIL — Kamus Industri Kimia IlmuTekkim",
+    "description": "Tingkat integritas keselamatan: ukuran seberapa andal suatu fungsi pengaman instrumentasi dituntut bekerja ketika dibutuhkan. Terdapat empat tingkat, dan s",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/splitting": {
+    "title": "Splitting (Hidrolisis Lemak) — Kamus Industri Kimia IlmuTekkim",
+    "description": "Splitting adalah hidrolisis trigliserida minyak nabati dengan air pada suhu dan tekanan tinggi, menghasilkan asam lemak bebas dan gliserin. Reaksi ini adal",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/steam-cracking": {
+    "title": "Steam Cracking — Kamus Industri Kimia IlmuTekkim",
+    "description": "Steam cracking adalah pirolisis hidrokarbon (nafta atau etana) dengan steam pada suhu sangat tinggi dan waktu tinggal sangat singkat untuk menghasilkan ole",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/steam-dan-utilitas": {
+    "title": "Steam dan Sistem Utilitas — Kamus Industri Kimia IlmuTekkim",
+    "description": "Steam adalah utilitas pemanas utama pabrik kimia karena membawa panas laten yang besar dan dilepaskan pada suhu yang hampir konstan saat mengembun. Sistem ",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/stoikiometri": {
+    "title": "Stoikiometri — Kamus Industri Kimia IlmuTekkim",
+    "description": "Perbandingan jumlah zat sesuai persamaan reaksi yang setara. Pada polimerisasi step-growth, penyimpangan kecil saja dari stoikiometri membatasi panjang ran",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/suhu-wet-bulb": {
+    "title": "Suhu wet bulb — Kamus Industri Kimia IlmuTekkim",
+    "description": "Suhu terendah yang dapat dicapai air yang menguap ke udara sekitar. Suhu wet bulb udara setempat menentukan batas teoretis suhu air dingin yang keluar dari",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/tahap-kesetimbangan": {
+    "title": "Tahap kesetimbangan — Kamus Industri Kimia IlmuTekkim",
+    "description": "Tahap ideal tempat uap dan cairan yang meninggalkannya telah berada dalam kesetimbangan fasa. Kinerja kolom nyata dinilai dari seberapa dekat setiap tray-n",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/transesterifikasi": {
+    "title": "Transesterifikasi — Kamus Industri Kimia IlmuTekkim",
+    "description": "Transesterifikasi adalah pertukaran gugus alkohol pada trigliserida dengan metanol, menghasilkan metil ester asam lemak (biodiesel, FAME) dan gliserin seba",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/tray": {
+    "title": "Tray — Kamus Industri Kimia IlmuTekkim",
+    "description": "Piringan horizontal di dalam kolom distilasi, tempat uap yang naik berkontak dengan cairan yang turun. Setiap tray merupakan satu tahap pemisahan.",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/utilitas": {
+    "title": "Utilitas — Kamus Industri Kimia IlmuTekkim",
+    "description": "Layanan pendukung pabrik seperti steam, air pendingin, udara instrumen, dan nitrogen. Pabrik utama tidak dapat beroperasi tanpa sistem utilitasnya.",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/istilah/volatilitas-relatif": {
+    "title": "Volatilitas relatif — Kamus Industri Kimia IlmuTekkim",
+    "description": "Ukuran kemudahan dua komponen dipisahkan melalui distilasi, dinyatakan sebagai perbandingan kecenderungan menguap masing-masing komponen. Semakin jauh nila",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/sektor/kilang-migas": {
+    "title": "Sektor Kilang & Migas — Kamus Industri Kimia IlmuTekkim",
+    "description": "Pemisahan dan konversi minyak mentah menjadi bahan bakar dan bahan baku petrokimia.",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/sektor/oleokimia": {
+    "title": "Sektor Oleokimia — Kamus Industri Kimia IlmuTekkim",
+    "description": "Turunan minyak nabati menjadi asam lemak, gliserin, alkohol lemak, dan biodiesel.",
+    "canonical": "https://ilmutekkim.site"
+  },
+  "/kamus/sektor/petrokimia": {
+    "title": "Sektor Petrokimia — Kamus Industri Kimia IlmuTekkim",
+    "description": "Perengkahan hidrokarbon menjadi olefin dan aromatik, kemudian polimer dan bahan kimia dasar.",
+    "canonical": "https://ilmutekkim.site"
+  }
+}

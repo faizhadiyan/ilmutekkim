@@ -1,0 +1,190 @@
+{
+  "format": "real",
+  "hook": "GAS ALAM + UDARA JADI PUPUK UREA. BEGINI PROSESNYA.",
+  "series_label": "SERI PUPUK DAN PROSES",
+  "cover_brief": "foto pabrik pupuk urea besar dengan menara prilling tinggi industri",
+  "cover_sub": "Gas alam diubah jadi pupuk lewat Haber-Bosch.",
+  "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-03/carousel-3/cover.jpg",
+  "cover_credit": "Yanping Ma / Unsplash",
+  "credit_url": "https://unsplash.com/photos/industrial-plant-with-tall-towers-against-a-purple-sky-y90TwsKcDlM",
+  "photo_briefs": [
+    {
+      "slide": 3,
+      "cari": "foto pabrik pupuk industri menara besar"
+    },
+    {
+      "slide": 6,
+      "cari": "foto pabrik kimia malam hari lampu industri"
+    }
+  ],
+  "slides": [
+    {
+      "type": "quote",
+      "pill": "YANG SERING DIKIRA",
+      "quote": "Nitrogen kan 78 persen udara, tanaman tinggal ambil sendiri.",
+      "hook": "Tanaman tidak bisa memakai nitrogen gas. Ia harus diubah dulu jadi amonia dan urea.",
+      "callout": "FAKTA: nitrogen di udara berbentuk N₂ yang sangat stabil dan tidak bisa diserap akar tanaman secara langsung.",
+      "fill_rows": [
+        [
+          "01",
+          "GAS ALAM JADI HIDROGEN",
+          "reforming CH₄ dengan uap air"
+        ],
+        [
+          "02",
+          "HABER-BOSCH JADI AMONIA",
+          "N₂ + 3 H₂ pada 450 °C dan 200 bar"
+        ],
+        [
+          "03",
+          "AMONIA JADI UREA",
+          "ditambah CO₂ jadi pupuk butiran"
+        ]
+      ],
+      "fill_rows_title": "ISI CAROUSEL INI:"
+    },
+    {
+      "type": "body",
+      "pill": "TAHAP 1 HIDROGEN",
+      "title": "Gas alam dipecah jadi hidrogen",
+      "paras": [
+        "Pabrik urea mulai dari gas alam. Metana direaksikan dengan uap air pada suhu tinggi menghasilkan hidrogen dan karbon dioksida.",
+        "Hidrogen inilah bahan baku amonia. Tanpa hidrogen, tidak ada pupuk nitrogen."
+      ],
+      "callout": "FAKTA: reforming gas alam adalah sumber hidrogen industri terbesar untuk pabrik amonia dan urea di dunia.",
+      "fill_bar": {
+        "left_label": "GAS ALAM CH₄",
+        "right_label": "HIDROGEN H₂",
+        "left_frac": 0.45,
+        "examples": [
+          [
+            "Masuk",
+            "metana plus uap air"
+          ],
+          [
+            "Keluar",
+            "hidrogen plus CO₂"
+          ]
+        ]
+      },
+      "fill_bar_title": ""
+    },
+    {
+      "type": "photo",
+      "pill": "SKALA PABRIKNYA",
+      "title": "Pabrik urea adalah pabrik kimia raksasa",
+      "paras": [
+        "Kompleks seperti Pupuk Kaltim di Bontang mengolah gas alam skala besar. Urea keluar sebagai butiran putih siap dikarung."
+      ],
+      "callout": "FAKTA: Indonesia adalah salah satu produsen urea besar di Asia, dengan kompleks pupuk berbasis gas alam di Kalimantan dan Sumatera.",
+      "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-03/carousel-3/photo-1.jpg",
+      "credit": "Josep M Bové (Jobove) / Unsplash"
+    },
+    {
+      "type": "diagram",
+      "pill": "SKEMA REAKSINYA",
+      "title": "Dari gas alam sampai ke sawah",
+      "paras": [
+        "Ikuti panahnya. Gas alam jadi hidrogen, hidrogen bertemu nitrogen dari udara jadi amonia, amonia ditambah CO₂ jadi urea.",
+        "Nitrogen dari udara masuk sebagai bahan baku kedua. Ia gratis, tapi mengikatnya butuh energi besar."
+      ],
+      "callout": "FAKTA: reaksi Haber-Bosch N₂ + 3 H₂ menjadi 2 NH₃ adalah fondasi hampir semua pupuk nitrogen modern.",
+      "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-03/carousel-3/diagram-urea.png"
+    },
+    {
+      "type": "body",
+      "pill": "TAHAP 2 HABER-BOSCH",
+      "title": "Reaksi yang memberi makan dunia",
+      "paras": [
+        "Nitrogen dan hidrogen ditekan tinggi lalu dilewatkan katalis besi panas. Sebagian jadi amonia, sisanya diputar lagi dalam loop."
+      ],
+      "callout": "FAKTA: proses Haber-Bosch memakai katalis berbasis besi dan bekerja pada tekanan tinggi sekitar 150 sampai 250 bar di industri.",
+      "fill_cards": [
+        [
+          "01",
+          "Tekanan 200 bar, suhu 450 °C",
+          "Gas dipaksa bereaksi di atas katalis besi panas"
+        ],
+        [
+          "02",
+          "Loop recycle",
+          "Gas yang belum bereaksi diputar kembali ke reaktor"
+        ]
+      ]
+    },
+    {
+      "type": "photo",
+      "pill": "TAHAP 3 UREA",
+      "title": "Amonia diubah jadi butiran yang aman dikirim",
+      "paras": [
+        "Amonia cair direaksikan dengan CO₂ menghasilkan urea. Urea lalu dibentuk jadi butiran lewat menara prilling atau granulasi.",
+        "Bentuk butiran membuat urea mudah disimpan, diangkut truk, dan ditebar petani di sawah."
+      ],
+      "callout": "FAKTA: urea mengandung nitrogen sekitar 46 persen, tertinggi di antara pupuk nitrogen padat yang umum.",
+      "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-03/carousel-3/photo-2.jpg",
+      "credit": "chally japan / Unsplash"
+    },
+    {
+      "type": "body",
+      "pill": "KENAPA PENTING",
+      "title": "Tanpa proses ini, panen menyusut",
+      "paras": [
+        "Tanaman mengambil nitrogen tanah tiap panen. Tanpa pupuk, cadangan itu habis dan hasil panen turun."
+      ],
+      "callout": "FAKTA: sekitar separuh nitrogen dalam protein makanan manusia modern ditelusuri berasal dari proses Haber-Bosch.",
+      "fill_grid": [
+        [
+          "BAHAN BAKU",
+          "Gas alam"
+        ],
+        [
+          "HASIL REFORMING",
+          "Hidrogen"
+        ],
+        [
+          "HASIL SINTESIS",
+          "Amonia"
+        ],
+        [
+          "PRODUK AKHIR",
+          "Urea"
+        ]
+      ],
+      "fill_note": "Empat tahap yang menghubungkan sumur gas ke piring makan.",
+      "fill_grid_eyebrow": ""
+    },
+    {
+      "type": "conclusion",
+      "pill": "KESIMPULANNYA",
+      "head": "Urea adalah udara yang diikat pakai energi gas alam.",
+      "bullets": [
+        "Gas alam direforming jadi hidrogen untuk bahan baku amonia.",
+        "Haber-Bosch mengikat N₂ udara jadi NH₃ pada 450 °C dan 200 bar.",
+        "Amonia plus CO₂ jadi urea butiran berkadar nitrogen 46 persen."
+      ],
+      "equation": [
+        "N₂ + 3 H₂",
+        "2 NH₃"
+      ],
+      "fill_bar": {
+        "left_label": "N₂ UDARA",
+        "right_label": "H₂ GAS ALAM",
+        "left_frac": 0.4
+      },
+      "fill_bar_title": ""
+    }
+  ],
+  "references": [
+    "Perry's Chemical Engineers' Handbook (bab amonia dan urea)",
+    "Smil, Enriching the Earth: Fritz Haber, Carl Bosch, and the Transformation of World Food Production"
+  ],
+  "cta_question": "Di daerah lo, pupuk urea langka atau gampang didapat? Ceritain.",
+  "cta_teaser": "Besok: neraca massa, satu persamaan yang menjelaskan kenapa data pabrik selalu terasa bocor.",
+  "caption": "Tanaman tidak bisa makan udara.\n\nNitrogen memang 78 persen udara, tapi bentuknya N₂ yang tidak bisa diserap akar. Pabrik urea mengubahnya: gas alam jadi hidrogen, hidrogen plus nitrogen jadi amonia lewat Haber-Bosch pada 450 °C dan 200 bar, amonia plus CO₂ jadi urea butiran 46 persen nitrogen.\n\nDi daerah lo pupuk gampang atau langka? Tulis di komen.\n\nFollow @ilmutekkim buat teknik kimia tiap hari.\n\n#teknikkimia #chemicalengineering #urea #pupuk #haberbosch #pabrik #proses #ilmutekkim",
+  "hook_options": [
+    "GAS ALAM + UDARA JADI PUPUK UREA. BEGINI PROSESNYA.",
+    "BEGINI CARA GAS ALAM DIUBAH JADI PUPUK DI PABRIK",
+    "DARI GAS ALAM KE BUTIRAN UREA: PROSES DI PABRIK"
+  ],
+  "hook_payoff_slide": 5
+}

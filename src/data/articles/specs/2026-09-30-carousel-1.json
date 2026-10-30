@@ -1,0 +1,38 @@
+{
+ "bad_hook_line": "Keliatannya masuk akal. Kenyataannya?",
+ "bad_pill": "YANG BANYAK DIKIRA",
+ "bad_prompt": "Tinggal didihin minyak mentah sekali, yang menguap pasti bensin murni.",
+ "bad_result_lines": "Minyak mentah itu campuran ratusan senyawa dengan titik didih yang berdekatan. Sekali rebus tidak memisahkan apa-apa, uapnya tetap campuran.",
+ "bad_result_pill": "KENYATAANNYA",
+ "bad_why": "Fraksi ringan ikut naik bareng fraksi berat. Hasil rebusan pertama masih kotor, tidak bisa dipakai langsung.",
+ "bad_why_title": "KENAPA SEKALI REBUS GAGAL",
+ "caption": "Distilasi itu bukan sekadar rebus air.\n\nMinyak mentah dipisah di dalam satu kolom tinggi yang suhunya bertingkat: paling panas di bawah, paling dingin di atas. Tiap fraksi terkondensasi di tray sesuai titik didihnya sendiri, bensin di atas, diesel di tengah, residu di bawah. Satu kolom = puluhan kali rebus dan kondensasi berulang.\n\nFollow @ilmutekkim buat teknik kimia tiap hari.\n\n#teknikkimia #chemicalengineering #pabrik #industri #proses #insinyurkimia #ilmutekkim #kilang",
+ "conclusion_body": "Pabrik kimia jarang menang dengan cara pintas. Pemisahan yang rapi butuh bertingkat, bertahap, dan sabar. Belajar teknik kimia juga begitu.",
+ "conclusion_head": "Rebus sekali, gagal total.",
+ "cover_brief": "Square 1:1 flat modern illustration, NO text letters or numbers inside the image. A tall industrial distillation column with stacked trays inside a refinery at dusk, pipes and platforms around it, vapor rising in stages. Dominant palette deep navy blue and cyan, clean minimal vector style, high contrast.",
+ "cover_sub": "Kenapa minyak mentah dipisah bertingkat",
+ "cta_teaser": "Besok: dari tandan berduri jadi minyak sawit, alur pabrik kelapa sawit.",
+ "format": "before_after",
+ "good_prompt_segments": [
+  [
+   "Di dalam kolom distilasi, suhu bertingkat dari bawah yang paling panas ke atas yang paling dingin. ",
+   "white"
+  ],
+  [
+   "Tiap fraksi terkondensasi di tray sesuai titik didihnya",
+   "orange"
+  ],
+  [
+   " sendiri: bensin di atas, diesel di tengah, residu di bawah.",
+   "white"
+  ]
+ ],
+ "good_result_lines": "Kilang Balongan memisahkan minyak mentah jadi LPG, bensin, kerosin, solar, sampai aspal, semuanya dari satu kolom distilasi utama. Tanpa kolom ini, tidak ada bensin di SPBU.",
+ "good_result_note": "",
+ "good_result_pill": "CONTOH NYATA",
+ "good_why": "Satu kolom = puluhan kali rebus dan kondensasi berulang. Makanya disebut distilasi bertingkat, bukan distilasi sekali rebus.",
+ "good_why_title": "INTINYA",
+ "hook": "Distilasi itu bukan sekadar rebus air.",
+ "series_label": "SERI DISTILASI",
+ "cover_image": "media/2026-09-30/carousel-1/cover.png"
+}

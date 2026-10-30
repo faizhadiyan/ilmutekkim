@@ -1,0 +1,182 @@
+{
+ "caption": "Pabrik aman bukan karena operator sigap. Ada penjaga otomatis.\n\nDi pabrik kimia, suhu dan tekanan dijaga berlapis. Kontrol harian menahan proses tetap normal, alarm membangunkan operator, lalu Safety Instrumented System memutus aliran sendiri tanpa menunggu perintah. Relief menjadi lapis terakhir yang membuang tekanan ke flare.\n\nMenurut lo, penjaga mesin tanpa lelah ini bikin operator lengah atau justru lebih aman? Tulis di komen.\n\nFollow @ilmutekkim buat teknik kimia tiap hari.\n\n#teknikkimia #chemicalengineering #safety #pabrik #proses #keselamatan #industri #ilmutekkim",
+ "cover_brief": "foto control room pabrik kimia dengan layar monitor besar",
+ "cover_credit": "Frantisek Duris / Unsplash",
+ "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-06/carousel-1/cover.jpg",
+ "cover_sub": "Penjaga otomatis bekerja tanpa menunggu manusia.",
+ "credit_url": "https://unsplash.com/photos/a-large-control-room-with-lots-of-control-knobs-C3DfIgig1j8",
+ "cta_question": "Di pabrik bayangan lo, lapis penjaga mana yang paling lo percaya, manusia atau mesin?",
+ "cta_teaser": "Besok: pulp dan kertas kraft, kayu keras jadi lembaran putih.",
+ "format": "real",
+ "hook": "PABRIK AMAN BUKAN KARENA OPERATOR SIGAP. ADA PENJAGA OTOMATIS",
+ "hook_options": [
+  "PABRIK AMAN BUKAN KARENA OPERATOR SIGAP. ADA PENJAGA OTOMATIS",
+  "OPERATOR TELAT SEDETIK, PABRIK BISA MELEDAK. SIS JAGA DULUAN",
+  "EMPAT LAPIS PENJAGA SEBELUM LEDAKAN. PALING DALAM PALING SENYAP"
+ ],
+ "hook_payoff_slide": 5,
+ "photo_briefs": [
+  {
+   "cari": "foto katup dan pipa industri dengan pengukur tekanan",
+   "slide": 3
+  },
+  {
+   "cari": "foto panel kontrol pabrik dan operator memantau layar",
+   "slide": 5
+  }
+ ],
+ "references": [
+  "Lees, Loss Prevention in the Process Industries",
+  "IEC 61511 Functional safety for the process industry (ringkasan publik)"
+ ],
+ "series_label": "SERI KESELAMATAN PROSES",
+ "slides": [
+  {
+   "callout": "FAKTA: pabrik dirancang aman berlapis karena satu penjaga saja selalu bisa gagal.",
+   "fill_rows": [
+    [
+     "01",
+     "JAGA PROSES NORMAL",
+     "kontrol harian menahan"
+    ],
+    [
+     "02",
+     "MATIKAN TANPA PERINTAH",
+     "sistem trip bekerja sendiri"
+    ],
+    [
+     "03",
+     "BUANG TEKANAN AMAN",
+     "relief lapis terakhir"
+    ]
+   ],
+   "fill_rows_title": "PETA SLIDE INI",
+   "hook": "Operator bisa lelah dan telat. Penjaga terakhirnya tidak boleh.",
+   "pill": "YANG SERING DIKIRA",
+   "quote": "Selama ada operator yang siaga, pabrik pasti aman tanpa pengaman otomatis.",
+   "type": "quote"
+  },
+  {
+   "callout": "FAKTA: sebagian besar waktu pabrik, yang bekerja hanya lapis kontrol harian ini.",
+   "fill_rows": [
+    [
+     "1",
+     "Suhu dan tekanan",
+     "tetap di rentang normal"
+    ],
+    [
+     "2",
+     "Aliran bahan",
+     "masuk dan keluar seimbang"
+    ]
+   ],
+   "fill_rows_title": "YANG DIJAGA TIAP DETIK",
+   "formula": "Proses normal → produk aman",
+   "paras": [
+    "Kontrol proses harian mengatur suhu, tekanan, dan aliran di rentang normal.",
+    "Selama lapis ini sehat, alarm dan trip hampir tidak pernah bekerja."
+   ],
+   "pill": "LAPIS PALING LUAR",
+   "title": "Proses dijaga normal setiap detik",
+   "type": "body"
+  },
+  {
+   "callout": "FAKTA: semua lapis pengaman mulai dari satu hal yang sama, pengukuran yang benar.",
+   "credit": "Daniel Miksha / Unsplash",
+   "paras": [
+    "Pengukur tekanan dan suhu adalah mata lapis penjaga. Bacaannya naik pelan memberi tanda sebelum darurat.",
+    "Tanpa pengukuran yang jujur, alarm dan trip sama sama buta."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-06/carousel-1/photo-1.jpg",
+   "pill": "TANDA BAHAYA PERTAMA",
+   "title": "Pengukur yang memberi peringatan dini",
+   "type": "photo",
+   "credit_url": "https://unsplash.com/photos/network-of-industrial-pipes-valves-and-gauges-3JUg2NLkMfc"
+  },
+  {
+   "callout": "FAKTA: tiap lapis hanya bekerja kalau lapis sebelumnya gagal menahan keadaan.",
+   "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-06/carousel-1/diagram-sis.png",
+   "paras": [
+    "Baca dari kiri ke kanan mengikuti keadaan yang makin gawat.",
+    "Perhatikan dua aliran ke bawah: katup tutup mengisolasi umpan, relief membuang tekanan ke flare."
+   ],
+   "pill": "PETA LENGKAPNYA",
+   "title": "Empat lapis penjaga sebelum ledakan",
+   "type": "diagram"
+  },
+  {
+   "callout": "FAKTA: alarm adalah lapis manusia. Lapis sesudahnya sengaja dibuat tanpa manusia.",
+   "credit": "TECNIC Bioprocess Solutions / Unsplash",
+   "paras": [
+    "Alarm memberi kesempatan operator memeriksa dan mengembalikan proses ke keadaan normal.",
+    "Kalau keadaan terus naik, giliran berikutnya bukan manusia lagi yang memutuskan."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-06/carousel-1/photo-2.jpg",
+   "pill": "SAAT ALARM BUNYI",
+   "title": "Operator turun, mesin tetap bersiap",
+   "type": "photo",
+   "credit_url": "https://unsplash.com/photos/a-man-operates-equipment-in-an-industrial-setting-oV1NDEhQRRE"
+  },
+  {
+   "callout": "FAKTA: SIS yang baik itu membosankan: diam bertahun tahun, bergerak sekali saat dibutuhkan.",
+   "fill_cards": [
+    [
+     "01",
+     "Baca sendiri",
+     "sensor khusus pengaman"
+    ],
+    [
+     "02",
+     "Putuskan sendiri",
+     "tanpa menunggu operator"
+    ]
+   ],
+   "paras": [
+    "SIS membaca sensornya sendiri, lalu menutup katup atau mematikan pompa otomatis, terpisah dari kontrol harian."
+   ],
+   "pill": "PENJAGA TANPA PERINTAH",
+   "title": "SIS memutus aliran tanpa menunggu manusia",
+   "type": "body"
+  },
+  {
+   "callout": "FAKTA: Relief yang tidak pernah dites bisa macet tertutup saat paling dibutuhkan.",
+   "fill_grid": [
+    [
+     "MEMBUKA SENDIRI",
+     "saat tekanan berlebih"
+    ],
+    [
+     "BUANG KE FLARE",
+     "dibakar terkendali"
+    ],
+    [
+     "TANPA LISTRIK",
+     "bekerja mekanik murni"
+    ],
+    [
+     "HARUS DITES",
+     "bukti masih bergerak"
+    ]
+   ],
+   "fill_grid_eyebrow": "",
+   "paras": [
+    "Kalau semua lapis gagal, katup relief membuang isi bertekanan ke flare untuk dibakar aman.",
+    "Lapis ini tidak menyelamatkan produksi, tugasnya satu: bejana tidak boleh pecah."
+   ],
+   "pill": "LAPIS PALING DALAM",
+   "title": "Relief, jalan keluar terakhir tekanan",
+   "type": "body"
+  },
+  {
+   "bullets": [
+    "Kontrol harian menahan proses tetap normal setiap detik.",
+    "Alarm memberi manusia kesempatan, SIS memutus tanpa menunggu.",
+    "Relief membuang tekanan ke flare sebagai lapis terakhir."
+   ],
+   "equation": "Empat lapis penjaga → bejana tidak pecah",
+   "head": "Pabrik aman karena berlapis, bukan karena satu penjaga hebat.",
+   "pill": "KESIMPULANNYA",
+   "type": "conclusion"
+  }
+ ]
+}

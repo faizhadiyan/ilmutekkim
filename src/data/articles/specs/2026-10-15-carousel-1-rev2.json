@@ -1,0 +1,193 @@
+{
+ "format": "real",
+ "hook": "NENTUIN SUHU AIR DINGIN TANPA LIHAT WET BULB ITU JEBAKAN UJIAN",
+ "hook_options": [
+  "NENTUIN SUHU AIR DINGIN TANPA LIHAT WET BULB ITU JEBAKAN UJIAN",
+  "AIR DINGIN COOLING TOWER TIDAK BISA LEBIH DINGIN DARI WET BULB",
+  "KENAPA AIR COOLING TOWER SIANG HARI JADI LEBIH PANAS"
+ ],
+ "hook_payoff_slide": 4,
+ "series_label": "SERI CHEAT SHEET UJIAN",
+ "cover_brief": "foto cooling tower pabrik dari luar, menara pendingin industri dengan uap air putih mengepul, suasana pabrik asli",
+ "cover_sub": "CS-08: wet bulb dulu, baru angka suhu air dingin.",
+ "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-15/carousel-1/cover.jpg",
+ "cover_credit": "ZvukodiN / Pexels",
+ "credit_url": "https://www.pexels.com/photo/cooling-towers-emitting-steam-against-blue-sky-30160175/",
+ "photo_briefs": [
+  {
+   "slide": "konteks PLTU: air pendingin kondenser",
+   "cari": "foto cooling tower PLTU atau pabrik dari dekat, struktur menara pendingin industri"
+  }
+ ],
+ "slides": [
+  {
+   "type": "quote",
+   "pill": "JEBAKAN DOSEN",
+   "quote": "Suhu air dingin cooling tower tinggal di-set 20 °C biar kondenser adem.",
+   "hook": "Angka itu ada batas fisiknya.",
+   "fill_rows_title": "Kenapa jebakan ini sering keluar",
+   "fill_rows": [
+    [
+     "01",
+     "Soal memberi data cuaca",
+     "mahasiswa tidak memakainya"
+    ],
+    [
+     "02",
+     "Angka 20 °C terlihat masuk akal",
+     ""
+    ],
+    [
+     "03",
+     "Jawaban tanpa cek wet bulb",
+     "langsung nol"
+    ]
+   ],
+   "callout": "Fakta kunci: suhu air dingin tidak pernah lebih rendah dari wet bulb udara hari itu."
+  },
+  {
+   "type": "body",
+   "pill": "DUA SELISIH SUHU",
+   "title": "Kenali range dan approach dulu",
+   "paras": [
+    "Soal cooling tower selalu memakai dua selisih suhu. Range adalah T_panas - T_dingin: beban panas yang dibuang. Approach adalah T_dingin - T_wet bulb: jarak air dingin ke batas fisiknya.",
+    "Tiga angka yang dibutuhkan: suhu air panas, suhu air dingin, dan wet bulb (T_wb)."
+   ],
+   "formula": "Range = T_panas - T_dingin",
+   "fill_grid_eyebrow": "Dua selisih suhu, dua arti beda",
+   "fill_grid": [
+    [
+     "RANGE",
+     "T_panas - T_dingin"
+    ],
+    [
+     "APPROACH",
+     "T_dingin - T_wb"
+    ]
+   ],
+   "callout": "Fakta kunci: approach tipikal 2,8 sampai 5,5 °C; makin kecil approach, makin tinggi dan mahal towernya."
+  },
+  {
+   "type": "diagram",
+   "pill": "SKEMANYA",
+   "title": "Air panas turun, udara naik, panas ikut menguap",
+   "paras": [
+    "Cooling tower induced draft bekerja berlawanan arah: air panas turun melewati fill, udara kering naik dari bawah, sebagian kecil air menguap dan panas latennya mendinginkan sisa air. Air yang hilang karena menguap diganti air makeup yang masuk ke bak air dingin."
+   ],
+   "diagram": "/home/hatch/workspace/ig-ilmutekkim/diagrams/2026-10-15-cooling-tower-rev2.png",
+   "callout": "Fakta kunci: tiap 5,5 °C range, sekitar 1% air sirkulasi menguap."
+  },
+  {
+   "type": "body",
+   "pill": "PERSAMAAN INTI",
+   "title": "Satu baris yang menentukan jawaban",
+   "paras": [
+    "Suhu air dingin tinggal dijumlahkan. Hasil di bawah wet bulb pasti salah."
+   ],
+   "formula": "T_dingin = T_wet bulb + approach",
+   "fill_rows_title": "Langkah hitung (contoh)",
+   "fill_rows": [
+    [
+     "1",
+     "Catat wet bulb dari data",
+     "28 °C"
+    ],
+    [
+     "2",
+     "Ambil approach desain",
+     "5 °C"
+    ],
+    [
+     "3",
+     "T_dingin = 28 + 5",
+     "33 °C"
+    ]
+   ],
+   "callout": "Fakta kunci: T_dingin di bawah T_wet bulb mustahil."
+  },
+  {
+   "type": "body",
+   "pill": "CONTOH ANGKA",
+   "title": "Contoh utuh yang bisa ditiru",
+   "paras": [
+    "Data: air masuk 43 °C, wet bulb 28 °C, approach 5 °C. Ikuti urutannya."
+   ],
+   "fill_rows_title": "Urutannya",
+   "fill_rows": [
+    [
+     "1",
+     "T_dingin = 28 + 5",
+     "33 °C"
+    ],
+    [
+     "2",
+     "Range = 43 - 33",
+     "10 °C"
+    ],
+    [
+     "3",
+     "Air menguap 10/5,5 × 1%",
+     "1,8% dari sirkulasi"
+    ]
+   ],
+   "callout": "Fakta kunci: range 10 °C pada 1000 kg/s sirkulasi berarti sekitar 18 kg/s air menguap."
+  },
+  {
+   "type": "photo",
+   "pill": "DI PABRIK BENERAN",
+   "title": "PLTU hidup dari angka ini",
+   "paras": [
+    "Di PLTU, air dingin dari cooling tower mendinginkan kondenser turbin uap. Vakum kondenser yang baik butuh air sedingin mungkin.",
+    "Siang hari wet bulb naik, air dingin ikut naik, vakum turun, dan output listrik ikut turun."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-15/carousel-1/photo-1.jpg",
+   "credit": "Ricardo Oliveira / Pexels",
+   "callout": "Fakta kunci: performa cooling tower mengikuti cuaca hari itu."
+  },
+  {
+   "type": "body",
+   "pill": "CHECKLIST UJIAN",
+   "title": "Tiga cek sebelum tulis jawaban",
+   "paras": [
+    "Jebakan paling umum: mahasiswa langsung menghitung tanpa memastikan datanya lengkap."
+   ],
+   "fill_rows_title": "Cek berurutan",
+   "fill_rows": [
+    [
+     "1",
+     "Wet bulb tercatat",
+     "dari soal atau data cuaca"
+    ],
+    [
+     "2",
+     "T_dingin hasil hitung",
+     "tidak di bawah wet bulb"
+    ],
+    [
+     "3",
+     "Semua suhu",
+     "dalam °C yang sama"
+    ]
+   ],
+   "callout": "Fakta kunci: approach negatif berarti jawaban melanggar hukum fisika."
+  },
+  {
+   "type": "conclusion",
+   "pill": "KUIS",
+   "head": "Wet bulb 30 °C, approach 4 °C, air masuk 44 °C. Berapa T_dingin dan range? Tulis langkahnya di komen.",
+   "bullets": [
+    "Save buat UTS",
+    "Tag teman sekelas",
+    "Follow seri berikutnya, CS-09 terbit besok"
+   ]
+  }
+ ],
+ "references": [
+  "McCabe, W. L., Smith, J. C., dan Harriott, P., Unit Operations of Chemical Engineering (bab humidifikasi dan menara pendingin)",
+  "Incropera, F. P. dkk., Fundamentals of Heat and Mass Transfer (perpindahan massa evaporatif)",
+  "Perry, R. H. dkk., Perry's Chemical Engineers' Handbook (perancangan cooling tower, approach tipikal)"
+ ],
+ "cta_question": "Di soal wet bulb, data apa yang paling sering bikin lo lupa mengeceknya?",
+ "cta_teaser": "Besok CS-09: reaktor batch vs CSTR, volume yang sering salah banding.",
+ "caption": "NENTUIN SUHU AIR DINGIN TANPA LIHAT WET BULB ITU JEBAKAN UJIAN\n\nIni CS-08 dari seri cheat sheet ujian @ilmutekkim. Aturannya satu baris: suhu air dingin cooling tower tidak pernah lebih rendah dari wet bulb udara. Wet bulb 28 °C dan approach 5 °C berarti air dingin paling rendah 33 °C.\n\nDi PLTU beneran, angka yang sama menentukan vakum kondenser. Siang hari wet bulb naik, air dingin ikut naik, vakum turun, output listrik ikut turun. Satu baris rumus, efeknya sampai ke megawatt.\n\nIni simpul 04 dari peta roadmap. Peta lengkapnya ada di postingan roadmap yang ter-pin di profil.\n\nSave buat UTS, tag teman sekelas, follow seri berikutnya.\n\n#teknikkimia #chemicalengineering #coolingtower #perpindahanpanas #uts #belajar #pabrik #ilmutekkim"
+}

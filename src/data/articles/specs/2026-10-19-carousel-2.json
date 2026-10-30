@@ -1,0 +1,121 @@
+{
+ "format": "real",
+ "hook": "58 ORANG TEWAS KARENA SATU BOILER MELEDAK",
+ "hook_options": [
+  "58 ORANG TEWAS KARENA SATU BOILER MELEDAK",
+  "KATUP PENGAMAN PERTAMA DITEMUKAN TAHUN 1679",
+  "SEBELUM 1915, TIDAK ADA ATURAN BEJANA TEKAN"
+ ],
+ "hook_payoff_slide": 4,
+ "series_label": "KISAH TEKNIK KIMIA",
+ "cover_brief": "foto boiler uap industri atau bejana tekan besar di pabrik, suasana serius",
+ "cover_sub": "Kisah nyata di balik katup pengaman",
+ "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-19/carousel-2/cover.jpg",
+ "cover_credit": "Haberdoedas / Unsplash",
+ "credit_url": "https://unsplash.com/photos/industrial-machinery-with-pipes-and-tanks-indoors-iENM_LrJv9s",
+ "photo_briefs": [
+  {
+   "slide": "slide foto pabrik nyata",
+   "cari": "close-up safety valve atau relief valve pada instalasi pipa industri"
+  }
+ ],
+ "slides": [
+  {
+   "type": "body",
+   "pill": "TAHUKAH KAMU?",
+   "title": "Dulu boiler meledak dianggap nasib",
+   "paras": [
+    "Abad ke-19, ribuan boiler meledak di Amerika dan Eropa. Tidak ada satu pun aturan hukum yang mengatur cara membuatnya.",
+    "Hari ini setiap bejana tekan wajib punya pelepas tekanan: relief valve yang bisa menutup lagi, atau rupture disk yang pecah sekali.",
+    "Tanpa pelepas tekanan, bejana yang dipanaskan terus menjadi bom waktu: air yang menjadi uap volumenya mengembang lebih dari seribu kali."
+   ],
+   "callout": "Fakta kunci: pelepas tekanan adalah pengaman terakhir antara tekanan berlebih dan ledakan bejana."
+  },
+  {
+   "type": "body",
+   "pill": "DENIS PAPIN, 1679",
+   "title": "Katup pertama lahir dari panci yang meledak",
+   "paras": [
+    "Denis Papin, fisikawan Prancis, membangun steam digester tahun 1679: panci besi tertutup untuk melunakkan tulang dengan uap bertekanan. Model awalnya meledak.",
+    "Papin memasang katup pelepas uap: tuas berbeban yang terangkat saat tekanan berbahaya dan membuang uap berlebih. Itu katup pengaman pertama dalam sejarah.",
+    "Beban di ujung tuas menentukan tekanan bukanya: makin berat bebannya, makin tinggi tekanan yang ditahan sebelum uap lolos."
+   ],
+   "callout": "Fakta kunci: katup pengaman ditemukan tahun 1679, jauh sebelum era pabrik kimia modern."
+  },
+  {
+   "type": "body",
+   "pill": "BROCKTON, 10 MARET 1905",
+   "title": "Satu ledakan mengubah aturan dunia",
+   "paras": [
+    "Pabrik sepatu Grover di Brockton, Massachusetts, memakai boiler tua sebagai cadangan. Boiler itu meledak dan menembus tiga lantai: 58 orang tewas, 117 luka-luka.",
+    "Tragedi ini memaksa lahirnya aturan boiler negara bagian, lalu ASME Boiler and Pressure Vessel Code yang terbit pertama tahun 1915 dan masih dipakai sampai hari ini.",
+    "Aturan itu lahir dari duka: negara bagian mulai mewajibkan inspeksi boiler, dan insinyur menulis standar desain yang bisa diaudit."
+   ],
+   "callout": "Fakta kunci: ledakan Brockton 1905 melahirkan ASME Boiler and Pressure Vessel Code 1915."
+  },
+  {
+   "type": "diagram",
+   "pill": "SKEMA",
+   "title": "Dua pengaman, dua cara kerja",
+   "paras": [
+    "Bejana tekan dijaga dua alat. Kiri: relief valve (PSV) berpegas. Kanan: rupture disk yang dirancang pecah di tekanan tertentu.",
+    "PSV terbuka di set pressure lalu menutup lagi. Rupture disk pecah sekali dan harus diganti baru."
+   ],
+   "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-19/carousel-2/diagram-relief.png",
+   "diagram_scope": "Diagram ini mencakup satu bejana tekan, satu relief valve (PSV) di nosel kiri, satu rupture disk di nosel kanan, dan satu jalur buang ke flare. Aliran yang digambar: uap bertekanan keluar saat pengaman bekerja, lewat dua jalur terpisah. Yang sengaja tidak digambar: umpan masuk bejana, sistem kontrol tekanan normal, dan detail dimensi.",
+   "callout": "Fakta kunci: PSV bisa dipakai ulang, rupture disk sekali pakai."
+  },
+  {
+   "type": "body",
+   "pill": "KONSEP INTI",
+   "title": "Beda yang diuji di UTS",
+   "paras": [
+    "Relief valve membuka di set pressure dan menutup lagi saat tekanan turun. Rupture disk pecah di burst pressure dan tidak bisa menutup: sekali pecah, ganti baru. Keduanya dipasang di titik tertinggi bejana supaya yang keluar fasa uap.",
+    "Keduanya menjaga aturan kemarin: tekanan operasi di bawah set pressure, set pressure tidak di atas MAWP. Rupture disk dipilih untuk fluida korosif atau pelepasan yang harus sangat cepat.",
+    "Urutannya wajib hafal: operasi di bawah set pressure, set pressure tidak di atas MAWP."
+   ],
+   "callout": "Fakta kunci: set pressure dan burst pressure tetap tidak boleh melewati MAWP."
+  },
+  {
+   "type": "body",
+   "pill": "PLOT TWIST",
+   "title": "Kemarin angkanya, hari ini alatnya",
+   "paras": [
+    "Kemarin CS-11 menguji tiga angkanya: operasi, set pressure, MAWP. Hari ini alatnya: dua pengaman yang menjaga tiga angka itu tetap pada tempatnya.",
+    "Papin menemukan katupnya tahun 1679 untuk panci. Brockton 1905 memaksa aturannya ditulis. Sekarang giliran kamu menghafal cara kerjanya buat UTS.",
+    "Tiga angka kemarin plus dua alat hari ini: lima hal yang wajib hafal sebelum masuk ruang ujian."
+   ],
+   "callout": "Fakta kunci: angka tanpa alat hanya teori, alat tanpa angka hanya tebakan."
+  },
+  {
+   "type": "photo",
+   "pill": "DI PABRIK NYATA",
+   "title": "Masih menjaga pabrik hari ini",
+   "paras": [
+    "Relief valve berdiri di hampir setiap bejana tekan dan jalur uap di pabrik kimia. Bentuknya berubah, prinsip Papin tidak: buang tekanan sebelum bejana jebol.",
+    "Rupture disk menunggu diam di bawahnya sebagai cadangan terakhir untuk skenario terburuk."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-19/carousel-2/photo-1.jpg",
+   "credit": "Jonathan Cooper / Pexels",
+   "callout": "Fakta kunci: tiap relief valve diuji pop pressure-nya secara berkala di pabrik nyata."
+  },
+  {
+   "type": "conclusion",
+   "pill": "INTINYA",
+   "head": "Tekanan yang tidak punya jalan keluar akan membuat jalannya sendiri.",
+   "bullets": [
+    "Follow @ilmutekkim buat kisah teknik berikutnya",
+    "Simpan kalau kamu anak teknik kimia"
+   ]
+  }
+ ],
+ "references": [
+  "ASME, History of ASME's Boiler and Pressure Vessel Code (asme.org)",
+  "Encyclopedia.com, Denis Papin Invents the Pressure Cooker",
+  "Wikipedia, Steam digester",
+  "ASME Boiler and Pressure Vessel Code, Section VIII (aturan bejana tekan)"
+ ],
+ "cta_question": "Pernah lihat relief valve di pabrik atau lab kampus? Ceritakan di komen.",
+ "cta_teaser": "Besok: pompa vs kompresor, salah pilih berarti boros listrik bertahun-tahun.",
+ "caption": "58 ORANG TEWAS KARENA SATU BOILER MELEDAK\n\nIni kisah teknik kimia @ilmutekkim. Tahun 1679, Denis Papin memasang katup pelepas uap di panci tekanannya setelah model awalnya meledak. Itu katup pengaman pertama dalam sejarah.\n\nPada 10 Maret 1905, boiler tua di pabrik sepatu Brockton meledak: 58 tewas, 117 luka. Tragedi itu melahirkan ASME Boiler and Pressure Vessel Code tahun 1915, aturan bejana tekan yang masih dipakai sampai hari ini.\n\nHari ini setiap bejana dijaga dua alat: relief valve yang membuka lalu menutup lagi, dan rupture disk yang pecah sekali lalu diganti. Kemarin CS-11 menguji angkanya, hari ini alatnya.\n\nPernah lihat relief valve di pabrik atau lab kampus? Ceritakan di komen.\n\n#teknikkimia #chemicalengineering #keselamatanproses #reliefvalve #sejarahteknik #ilmutekkim"
+}

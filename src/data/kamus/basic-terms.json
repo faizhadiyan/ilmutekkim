@@ -1,0 +1,412 @@
+[
+  {
+    "slug": "azeotrop",
+    "term": "Azeotrop",
+    "definisi": "Campuran yang mendidih pada komposisi tetap sehingga uap dan cairannya berkomposisi sama dan tidak dapat dipisahkan lebih lanjut dengan distilasi biasa.",
+    "terkait": [
+      {
+        "type": "paten",
+        "label": "Paten distilasi reaktif Eastman (1984): satu kolom untuk reaksi dan pemisahan metil asetat | Bedah Paten ilmutekkim",
+        "type_label": "Bedah paten",
+        "url": "/riset/paten/paten-distilasi-reaktif-eastman-1984/"
+      }
+    ],
+    "kind": "dasar"
+  },
+  {
+    "slug": "batch",
+    "term": "Batch",
+    "definisi": "Mode operasi tempat bahan dimuat, diproses dalam satu siklus, kemudian dikeluarkan sebelum siklus berikutnya. Mode ini cocok untuk produk yang bervariasi dan bervolume kecil.",
+    "terkait": [
+      {
+        "type": "artikel",
+        "label": "Batch vs Continuous: Mengapa Pabrik Makanan dan Petrokimia Berbeda Jauh Cara Kerjanya",
+        "type_label": "Artikel",
+        "url": "/artikel/batch-vs-continuous-pabrik/"
+      }
+    ],
+    "kind": "dasar"
+  },
+  {
+    "slug": "blowdown",
+    "term": "Blowdown",
+    "definisi": "Aliran air sirkulasi yang sengaja dibuang untuk mengendalikan konsentrasi padatan terlarut yang meningkat akibat penguapan, dan digantikan oleh air segar makeup.",
+    "terkait": [
+      {
+        "type": "artikel",
+        "label": "Menilai Cooling Tower dengan Benar: Wet Bulb, Range, Approach, dan Neraca Air",
+        "type_label": "Artikel",
+        "url": "/artikel/cooling-tower-wet-bulb-range-approach/"
+      },
+      {
+        "type": "artikel",
+        "label": "Utilitas Pabrik: Pabrik di Dalam Pabrik yang Tidak Terlihat (Steam, Air, Nitrogen)",
+        "type_label": "Artikel",
+        "url": "/artikel/utilitas-pabrik-steam-air-nitrogen/"
+      }
+    ],
+    "kind": "dasar"
+  },
+  {
+    "slug": "bottoms",
+    "term": "Bottoms",
+    "definisi": "Produk berat yang diambil dari dasar kolom distilasi dan kaya akan komponen bertitik didih tinggi.",
+    "terkait": [
+      {
+        "type": "artikel",
+        "label": "Distilasi Bertingkat: Mengapa Minyak Mentah Tidak Cukup Dipanaskan Satu Kali",
+        "type_label": "Artikel",
+        "url": "/artikel/distilasi-bertingkat-minyak-mentah/"
+      }
+    ],
+    "kind": "dasar"
+  },
+  {
+    "slug": "continuous",
+    "term": "Continuous",
+    "definisi": "Mode operasi aliran tunak tanpa henti: umpan masuk dan produk keluar secara terus-menerus. Mode ini cocok untuk produk tunggal yang bervolume besar.",
+    "terkait": [
+      {
+        "type": "artikel",
+        "label": "Batch vs Continuous: Mengapa Pabrik Makanan dan Petrokimia Berbeda Jauh Cara Kerjanya",
+        "type_label": "Artikel",
+        "url": "/artikel/batch-vs-continuous-pabrik/"
+      }
+    ],
+    "kind": "dasar"
+  },
+  {
+    "slug": "dcs",
+    "term": "DCS",
+    "definisi": "Sistem kendali terdistribusi yang mengoperasikan pabrik dari control room: pengendali tersebar di dekat peralatan dan terhubung ke layar operator pusat.",
+    "terkait": [
+      {
+        "type": "artikel",
+        "label": "Satu Layar Berisi Satu Pabrik: Bedah Control Room dan Loop Kontrol DCS",
+        "type_label": "Artikel",
+        "url": "/artikel/control-room-dcs-loop-kontrol/"
+      }
+    ],
+    "kind": "dasar"
+  },
+  {
+    "slug": "distilat",
+    "term": "Distilat",
+    "definisi": "Produk ringan yang diambil dari puncak kolom distilasi setelah uapnya dikondensasikan.",
+    "terkait": [
+      {
+        "type": "artikel",
+        "label": "Distilasi Bertingkat: Mengapa Minyak Mentah Tidak Cukup Dipanaskan Satu Kali",
+        "type_label": "Artikel",
+        "url": "/artikel/distilasi-bertingkat-minyak-mentah/"
+      }
+    ],
+    "kind": "dasar"
+  },
+  {
+    "slug": "flare",
+    "term": "Flare",
+    "definisi": "Cerobong bakar untuk membuang gas bertekanan secara aman dengan membakarnya pada ketinggian, digunakan pada saat pelepasan relief atau keadaan darurat.",
+    "terkait": [
+      {
+        "type": "artikel",
+        "label": "Tekanan Itu Nyawa di Pabrik Kimia: Cara Kerja Relief Valve dan Rupture Disk",
+        "type_label": "Artikel",
+        "url": "/artikel/tekanan-relief-valve-rupture-disk/"
+      }
+    ],
+    "kind": "dasar"
+  },
+  {
+    "slug": "hazop",
+    "term": "HAZOP",
+    "definisi": "Studi bahaya dan operabilitas yang sistematis: tim menelusuri penyimpangan dari maksud rancangan dengan kata pandu untuk mencari sebab dan akibatnya sebelum pabrik dibangun atau diubah.",
+    "terkait": [
+      {
+        "type": "artikel",
+        "label": "Pabrik Aman Bukan Karena Operator Sigap: Cara Kerja Safety Instrumented System",
+        "type_label": "Artikel",
+        "url": "/artikel/safety-instrumented-system-lapisan-pengaman/"
+      }
+    ],
+    "kind": "dasar"
+  },
+  {
+    "slug": "kondensor",
+    "term": "Kondensor",
+    "definisi": "Penukar panas di puncak kolom yang mendinginkan uap menjadi cairan agar dapat dibagi menjadi reflux dan produk distilat.",
+    "terkait": [
+      {
+        "type": "artikel",
+        "label": "Distilasi Bertingkat: Mengapa Minyak Mentah Tidak Cukup Dipanaskan Satu Kali",
+        "type_label": "Artikel",
+        "url": "/artikel/distilasi-bertingkat-minyak-mentah/"
+      }
+    ],
+    "kind": "dasar"
+  },
+  {
+    "slug": "loop-kontrol",
+    "term": "Loop kontrol",
+    "definisi": "Rangkaian tertutup yang terdiri atas pengukuran, pengendali, dan elemen kendali akhir, yang menjaga satu variabel proses pada nilai yang dikehendaki.",
+    "terkait": [
+      {
+        "type": "artikel",
+        "label": "Satu Layar Berisi Satu Pabrik: Bedah Control Room dan Loop Kontrol DCS",
+        "type_label": "Artikel",
+        "url": "/artikel/control-room-dcs-loop-kontrol/"
+      }
+    ],
+    "kind": "dasar"
+  },
+  {
+    "slug": "p-id",
+    "term": "P&ID",
+    "definisi": "Diagram perpipaan dan instrumentasi: gambar teknik yang menunjukkan peralatan, pipa, katup, dan loop kendali suatu unit proses. P&ID merupakan bahasa gambar resmi pabrik.",
+    "terkait": [
+      {
+        "type": "artikel",
+        "label": "Baca P&ID dalam 5 Menit: Lima Simbol yang Muncul di Hampir Semua Pabrik",
+        "type_label": "Artikel",
+        "url": "/artikel/baca-pid-lima-simbol-pabrik/"
+      },
+      {
+        "type": "artikel",
+        "label": "Satu Layar Berisi Satu Pabrik: Bedah Control Room dan Loop Kontrol DCS",
+        "type_label": "Artikel",
+        "url": "/artikel/control-room-dcs-loop-kontrol/"
+      }
+    ],
+    "kind": "dasar"
+  },
+  {
+    "slug": "packing",
+    "term": "Packing",
+    "definisi": "Material berpori atau terstruktur yang mengisi kolom sebagai pengganti tray dan menyediakan luas kontak uap-cairan yang besar dalam volume yang kecil. Packing antara lain dipilih untuk memperoleh beda tekanan yang rendah.",
+    "terkait": [
+      {
+        "type": "artikel",
+        "label": "Distilasi Bertingkat: Mengapa Minyak Mentah Tidak Cukup Dipanaskan Satu Kali",
+        "type_label": "Artikel",
+        "url": "/artikel/distilasi-bertingkat-minyak-mentah/"
+      }
+    ],
+    "kind": "dasar"
+  },
+  {
+    "slug": "pengendali-pid",
+    "term": "Pengendali PID",
+    "definisi": "Pengendali yang menghitung aksi kendali dari galat saat ini (proporsional), akumulasi galat (integral), dan laju perubahan galat (derivatif). Pengendali PID merupakan bentuk loop umpan balik yang paling umum di pabrik.",
+    "terkait": [
+      {
+        "type": "artikel",
+        "label": "Satu Layar Berisi Satu Pabrik: Bedah Control Room dan Loop Kontrol DCS",
+        "type_label": "Artikel",
+        "url": "/artikel/control-room-dcs-loop-kontrol/"
+      }
+    ],
+    "kind": "dasar"
+  },
+  {
+    "slug": "permit-to-work",
+    "term": "Permit to work",
+    "definisi": "Izin tertulis untuk pekerjaan berisiko seperti kerja panas, masuk ruang terbatas, dan membuka jalur proses. Dokumen ini menghubungkan identifikasi bahaya, isolasi, dan persetujuan sebelum pekerjaan dimulai.",
+    "terkait": [
+      {
+        "type": "artikel",
+        "label": "Las Lima Menit Tetap Butuh Izin: Cara Kerja Permit to Work di Pabrik Kimia",
+        "type_label": "Artikel",
+        "url": "/artikel/permit-to-work-kerja-panas/"
+      }
+    ],
+    "kind": "dasar"
+  },
+  {
+    "slug": "pinch",
+    "term": "Pinch",
+    "definisi": "Titik beda suhu terkecil yang ditargetkan antara aliran panas dan aliran dingin dalam jaringan penukar panas. Pinch menentukan seberapa banyak panas yang dapat dipulihkan sebelum utilitas tambahan diperlukan.",
+    "terkait": [
+      {
+        "type": "artikel",
+        "label": "Heat Exchanger: Alat Paling Sederhana yang Paling Sering Menyebabkan Pabrik Shutdown",
+        "type_label": "Artikel",
+        "url": "/artikel/heat-exchanger-bikin-shutdown/"
+      }
+    ],
+    "kind": "dasar"
+  },
+  {
+    "slug": "proses-kraft",
+    "term": "Proses kraft",
+    "definisi": "Pemasakan serpih kayu dengan larutan alkali bersulfur untuk melarutkan lignin dan membebaskan serat selulosa. Proses kraft merupakan proses pulp yang dominan di dunia, termasuk di pabrik pulp Indonesia.",
+    "terkait": [
+      {
+        "type": "artikel",
+        "label": "Kayu Keras Menjadi Kertas Lembut: Proses Kraft di Pabrik Pulp Riau",
+        "type_label": "Artikel",
+        "url": "/artikel/pulp-kertas-proses-kraft/"
+      }
+    ],
+    "kind": "dasar"
+  },
+  {
+    "slug": "reboiler",
+    "term": "Reboiler",
+    "definisi": "Penukar panas di dasar kolom yang menguapkan sebagian cairan dasar agar menjadi uap pendorong pemisahan di dalam kolom. Sumber panasnya umumnya steam atau fluida panas lain.",
+    "terkait": [
+      {
+        "type": "artikel",
+        "label": "Distilasi Bertingkat: Mengapa Minyak Mentah Tidak Cukup Dipanaskan Satu Kali",
+        "type_label": "Artikel",
+        "url": "/artikel/distilasi-bertingkat-minyak-mentah/"
+      }
+    ],
+    "kind": "dasar"
+  },
+  {
+    "slug": "safety-instrumented-system",
+    "term": "Safety instrumented system",
+    "definisi": "Lapisan pengaman otomatis yang terdiri atas sensor, pemecah logika, dan elemen akhir, yang membawa proses ke keadaan aman ketika batas bahaya terlampaui. Sistem ini terpisah dari sistem kendali biasa.",
+    "terkait": [
+      {
+        "type": "artikel",
+        "label": "Pabrik Aman Bukan Karena Operator Sigap: Cara Kerja Safety Instrumented System",
+        "type_label": "Artikel",
+        "url": "/artikel/safety-instrumented-system-lapisan-pengaman/"
+      },
+      {
+        "type": "video",
+        "label": "Process Safety Bukan tentang APD: Hazard, Risk, dan Barrier Berlapis | Video ilmutekkim",
+        "type_label": "Video",
+        "url": "/video/process-safety-bukan-apd/"
+      }
+    ],
+    "kind": "dasar"
+  },
+  {
+    "slug": "seksi-rectifying",
+    "term": "Seksi rectifying",
+    "definisi": "Bagian kolom di atas titik umpan, tempat uap yang naik diperkaya komponen ringannya oleh reflux yang turun.",
+    "terkait": [
+      {
+        "type": "artikel",
+        "label": "Distilasi Bertingkat: Mengapa Minyak Mentah Tidak Cukup Dipanaskan Satu Kali",
+        "type_label": "Artikel",
+        "url": "/artikel/distilasi-bertingkat-minyak-mentah/"
+      }
+    ],
+    "kind": "dasar"
+  },
+  {
+    "slug": "seksi-stripping",
+    "term": "Seksi stripping",
+    "definisi": "Bagian kolom di bawah titik umpan, tempat cairan yang turun dilucuti komponen ringannya oleh uap dari reboiler.",
+    "terkait": [
+      {
+        "type": "artikel",
+        "label": "Distilasi Bertingkat: Mengapa Minyak Mentah Tidak Cukup Dipanaskan Satu Kali",
+        "type_label": "Artikel",
+        "url": "/artikel/distilasi-bertingkat-minyak-mentah/"
+      }
+    ],
+    "kind": "dasar"
+  },
+  {
+    "slug": "sil",
+    "term": "SIL",
+    "definisi": "Tingkat integritas keselamatan: ukuran seberapa andal suatu fungsi pengaman instrumentasi dituntut bekerja ketika dibutuhkan. Terdapat empat tingkat, dan semakin tinggi tingkatnya, semakin ketat syarat keandalannya.",
+    "terkait": [
+      {
+        "type": "artikel",
+        "label": "Pabrik Aman Bukan Karena Operator Sigap: Cara Kerja Safety Instrumented System",
+        "type_label": "Artikel",
+        "url": "/artikel/safety-instrumented-system-lapisan-pengaman/"
+      }
+    ],
+    "kind": "dasar"
+  },
+  {
+    "slug": "stoikiometri",
+    "term": "Stoikiometri",
+    "definisi": "Perbandingan jumlah zat sesuai persamaan reaksi yang setara. Pada polimerisasi step-growth, penyimpangan kecil saja dari stoikiometri membatasi panjang rantai maksimum.",
+    "terkait": [
+      {
+        "type": "artikel",
+        "label": "CS-01 Cheat Sheet: DP Polimer Runtuh Apabila Stoikiometri Menyimpang 1 Persen",
+        "type_label": "Artikel",
+        "url": "/artikel/cs01-step-growth-carothers-dp-runtuh/"
+      }
+    ],
+    "kind": "dasar"
+  },
+  {
+    "slug": "suhu-wet-bulb",
+    "term": "Suhu wet bulb",
+    "definisi": "Suhu terendah yang dapat dicapai air yang menguap ke udara sekitar. Suhu wet bulb udara setempat menentukan batas teoretis suhu air dingin yang keluar dari cooling tower.",
+    "terkait": [
+      {
+        "type": "artikel",
+        "label": "Menilai Cooling Tower dengan Benar: Wet Bulb, Range, Approach, dan Neraca Air",
+        "type_label": "Artikel",
+        "url": "/artikel/cooling-tower-wet-bulb-range-approach/"
+      }
+    ],
+    "kind": "dasar"
+  },
+  {
+    "slug": "tahap-kesetimbangan",
+    "term": "Tahap kesetimbangan",
+    "definisi": "Tahap ideal tempat uap dan cairan yang meninggalkannya telah berada dalam kesetimbangan fasa. Kinerja kolom nyata dinilai dari seberapa dekat setiap tray-nya terhadap keadaan ideal ini.",
+    "terkait": [
+      {
+        "type": "artikel",
+        "label": "Distilasi Bertingkat: Mengapa Minyak Mentah Tidak Cukup Dipanaskan Satu Kali",
+        "type_label": "Artikel",
+        "url": "/artikel/distilasi-bertingkat-minyak-mentah/"
+      }
+    ],
+    "kind": "dasar"
+  },
+  {
+    "slug": "tray",
+    "term": "Tray",
+    "definisi": "Piringan horizontal di dalam kolom distilasi, tempat uap yang naik berkontak dengan cairan yang turun. Setiap tray merupakan satu tahap pemisahan.",
+    "terkait": [
+      {
+        "type": "artikel",
+        "label": "Distilasi Bertingkat: Mengapa Minyak Mentah Tidak Cukup Dipanaskan Satu Kali",
+        "type_label": "Artikel",
+        "url": "/artikel/distilasi-bertingkat-minyak-mentah/"
+      }
+    ],
+    "kind": "dasar"
+  },
+  {
+    "slug": "utilitas",
+    "term": "Utilitas",
+    "definisi": "Layanan pendukung pabrik seperti steam, air pendingin, udara instrumen, dan nitrogen. Pabrik utama tidak dapat beroperasi tanpa sistem utilitasnya.",
+    "terkait": [
+      {
+        "type": "artikel",
+        "label": "Utilitas Pabrik: Pabrik di Dalam Pabrik yang Tidak Terlihat (Steam, Air, Nitrogen)",
+        "type_label": "Artikel",
+        "url": "/artikel/utilitas-pabrik-steam-air-nitrogen/"
+      }
+    ],
+    "kind": "dasar"
+  },
+  {
+    "slug": "volatilitas-relatif",
+    "term": "Volatilitas relatif",
+    "definisi": "Ukuran kemudahan dua komponen dipisahkan melalui distilasi, dinyatakan sebagai perbandingan kecenderungan menguap masing-masing komponen. Semakin jauh nilainya dari satu, semakin mudah pemisahannya.",
+    "terkait": [
+      {
+        "type": "artikel",
+        "label": "Distilasi Bertingkat: Mengapa Minyak Mentah Tidak Cukup Dipanaskan Satu Kali",
+        "type_label": "Artikel",
+        "url": "/artikel/distilasi-bertingkat-minyak-mentah/"
+      }
+    ],
+    "kind": "dasar"
+  }
+]

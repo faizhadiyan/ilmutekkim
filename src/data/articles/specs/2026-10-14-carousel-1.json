@@ -1,0 +1,195 @@
+{
+ "caption": "SALAH PILIH RUMUS, JAWABAN UJIAN LO NOL\n\nIni CS-07 dari seri cheat sheet ujian @ilmutekkim. Pompa memindahkan cairan yang densitasnya tetap, jadi spesifikasinya ditulis pakai head dalam meter. Kompresor memindahkan gas yang densitasnya berubah saat ditekan, jadi spesifikasinya ditulis pakai pressure ratio.\n\nContoh di slide: pompa air 0,05 m³/s yang menaikkan tekanan 500 kPa butuh daya 25 kW dan head 51 m. Ganti fluida jadi minyak, headnya tetap 51 m, tekanannya yang berubah. Kompresor udara dari 1 bar absolut ke 4 bar absolut menaikkan suhu sampai sekitar 173 °C, makanya antar tingkat dipasang intercooler.\n\nDi kilang beneran, udara instrumen untuk ratusan valve pneumatik dikompresi bertingkat persis dengan cara ini setiap hari.\n\nIni simpul 03 dari peta roadmap. Peta lengkapnya ada di postingan roadmap yang ter-pin di profil.\n\nSave buat UTS, tag teman sekelas, follow seri berikutnya.\n\n#teknikkimia #chemicalengineering #pompa #kompresor #mekanikafluida #uts #belajar #pabrik #ilmutekkim",
+ "cover_brief": "foto pompa sentrifugal industri atau kompresor besar di pabrik kimia dari dekat, pipa baja, suasana pabrik asli",
+ "cover_credit": "Mumtaz Niazi / Pexels",
+ "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-14/carousel-1/cover.jpg",
+ "cover_sub": "CS-07: kapan pakai head, kapan pakai pressure ratio.",
+ "credit_url": "https://www.pexels.com/photo/industrial-pumps-at-dubai-power-plant-35645884/",
+ "cta_question": "Di soal ujian, kata kunci apa yang bikin lo langsung tahu harus pakai head bukan pressure ratio?",
+ "cta_teaser": "Besok CS-08: cooling tower dan wet bulb.",
+ "format": "real",
+ "hook": "SALAH PILIH RUMUS, JAWABAN UJIAN LO NOL",
+ "hook_options": [
+  "SALAH PILIH RUMUS, JAWABAN UJIAN LO NOL",
+  "POMPA PAKAI HEAD, KOMPRESOR PAKAI PRESSURE RATIO",
+  "KENAPA GAS TIDAK PERNAH DIUKUR PAKAI HEAD?"
+ ],
+ "hook_payoff_slide": 3,
+ "photo_briefs": [
+  {
+   "cari": "foto kompresor industri besar atau pompa pabrik di kilang minyak, pipa baja, suasana industri asli",
+   "slide": "contoh industri kompresor udara instrumen di kilang"
+  }
+ ],
+ "references": [
+  "Cengel, Y. A. dan Cimbala, J. M., Fluid Mechanics: Fundamentals and Applications (bab pompa, head, dan kurva pompa)",
+  "Smith, J. M., Van Ness, H. C., dan Abbott, M. M., Introduction to Chemical Engineering Thermodynamics (kompresi politropik gas)",
+  "McCabe, W. L., Smith, J. C., dan Harriott, P., Unit Operations of Chemical Engineering (pompa dan kompresor)"
+ ],
+ "series_label": "SERI CHEAT SHEET UJIAN",
+ "slides": [
+  {
+   "fill_rows": [
+    [
+     "01",
+     "Jawab kompresor pakai head",
+     "salah konsep, nilai hangus"
+    ],
+    [
+     "02",
+     "Jawab pompa pakai pressure ratio",
+     "salah konsep, nilai hangus"
+    ],
+    [
+     "03",
+     "Tahu kapan pakai yang mana",
+     "poin penuh"
+    ]
+   ],
+   "fill_rows_title": "SKORNYA",
+   "hook": "Dosen menunggu lo jawab pakai rumus yang salah.",
+   "pill": "JEBAKAN DOSEN",
+   "quote": "Pompa dan kompresor kan sama-sama mindahin fluida. Tinggal lihat debitnya, rumusnya pasti sama.",
+   "type": "quote",
+   "callout": "FAKTA: satu kata di soal, cair atau gas, menentukan seluruh rumus yang dipakai."
+  },
+  {
+   "callout": "FAKTA: pompa yang sama menghasilkan head (m) yang sama untuk fluida apapun; yang berubah mengikuti densitas adalah tekanannya.",
+   "fill_grid": [
+    [
+     "POMPA: CAIRAN",
+     "ρ tetap, pakai HEAD (m)"
+    ],
+    [
+     "KOMPRESOR: GAS",
+     "ρ berubah, pakai r"
+    ]
+   ],
+   "fill_grid_eyebrow": "ATURAN MAINNYA",
+   "formula": "H = ΔP/(ρ × g)   dan   r = P₂/P₁",
+   "paras": [
+    "Satu kata kunci menentukan semuanya. Cairan hampir tidak termampatkan, densitasnya tetap dari suction sampai discharge. Gas termampatkan, densitas dan suhunya berubah saat ditekan.",
+    "ρ = densitas, g = gravitasi, H = head (m), r = pressure ratio, P = tekanan, T = suhu."
+   ],
+   "pill": "KEPUTUSAN 5 DETIK",
+   "title": "Lihat dulu fluidanya: cair atau gas",
+   "type": "body"
+  },
+  {
+   "callout": "FAKTA: head bicara soal ketinggian kolom fluida, pressure ratio bicara soal seberapa keras gas dipadatkan.",
+   "diagram": "/home/hatch/workspace/ig-ilmutekkim/diagrams/2026-10-14-pump-vs-compressor.png",
+   "paras": [
+    "Jalur atas: air masuk pompa, keluar tetap air, densitas sama. Jalur bawah: udara masuk kompresor, keluar tetap udara tapi lebih padat dan jauh lebih panas."
+   ],
+   "pill": "SKEMANYA",
+   "title": "Pompa lawan kompresor, beda fluida beda bahasa",
+   "type": "diagram"
+  },
+  {
+   "callout": "FAKTA: ganti fluida, head pompa tetap; tekanannya yang berubah.",
+   "fill_rows": [
+    [
+     "01",
+     "Daya hidrolik",
+     "P = 0,05 × 500.000 = 25.000 W = 25 kW"
+    ],
+    [
+     "02",
+     "Head pompa",
+     "H = 500.000/(1000 × 9,81) = 51 m"
+    ],
+    [
+     "03",
+     "Ganti minyak ρ = 800",
+     "head tetap 51 m, ΔP jadi 400 kPa"
+    ]
+   ],
+   "fill_rows_title": "LANGKAH HITUNG",
+   "formula": "P = Q × ΔP",
+   "paras": [
+    "Pompa air Q = 0,05 m³/s menaikkan tekanan 500 kPa (angka ilustrasi; ρ = 1000 kg/m³, g = 9,81 m/s²)."
+   ],
+   "pill": "HITUNG LANGKAHNYA",
+   "title": "Contoh pompa: tekanan ke head",
+   "type": "body"
+  },
+  {
+   "callout": "FAKTA: udara dimampatkan 4 kali lipat suhunya naik sampai 173 °C, makanya ada intercooler.",
+   "fill_rows": [
+    [
+     "01",
+     "Pressure ratio",
+     "r = 4/1 = 4"
+    ],
+    [
+     "02",
+     "Suhu keluar",
+     "T₂ = 300 × 4^0,286 = 446 K = 173 °C"
+    ]
+   ],
+   "fill_rows_title": "LANGKAH HITUNG",
+   "formula": "T₂/T₁ = r^((n-1)/n)",
+   "paras": [
+    "Udara 1 bar absolut 300 K dimampatkan sampai 4 bar absolut, n = 1,4 (indeks politropik). Angka ilustrasi."
+   ],
+   "pill": "HITUNG LANGKAHNYA",
+   "title": "Contoh kompresor: pressure ratio menaikkan suhu",
+   "type": "body"
+  },
+  {
+   "callout": "FAKTA: tanpa intercooler antar tingkat, suhu udara keluar kompresor bisa merusak seal dan boros energi.",
+   "credit": "Mazhar Ulazhar / Pexels",
+   "paras": [
+    "Di kilang, ratusan valve pneumatik digerakkan udara bertekanan. Udara instrumen ini dikompresi bertingkat: tiap tingkat menaikkan pressure ratio, lalu intercooler mendinginkan udara sebelum masuk tingkat berikutnya supaya suhu tidak meroket."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-14/carousel-1/photo-1.jpg",
+   "pill": "DI PABRIK BENERAN",
+   "title": "Kompresor udara instrumen di kilang",
+   "type": "photo"
+  },
+  {
+   "callout": "FAKTA: satu kata kunci menentukan rumus: cair atau gas.",
+   "fill_rows": [
+    [
+     "01",
+     "Cairan tak termampatkan",
+     "pompa, jawab pakai head (m)"
+    ],
+    [
+     "02",
+     "Gas termampatkan",
+     "kompresor, jawab pakai pressure ratio"
+    ],
+    [
+     "03",
+     "Konversi head ke tekanan",
+     "selalu lewat densitas: ΔP = ρ × g × H"
+    ],
+    [
+     "04",
+     "Kompresor bertingkat",
+     "wajib intercooler karena T₂ naik"
+    ],
+    [
+     "05",
+     "Pompa sentrifugal",
+     "cek NPSH, jangan sampai kavitasi"
+    ]
+   ],
+   "fill_rows_title": "CEK SATU PER SATU",
+   "paras": [],
+   "pill": "ANTI JEBAKAN",
+   "title": "Checklist sebelum tulis jawaban",
+   "type": "body"
+  },
+  {
+   "bullets": [
+    "Tulis jawaban dan langkahnya di komen, bandingkan dengan teman sekelas.",
+    "Save buat UTS, tag teman sekelas, follow seri berikutnya."
+   ],
+   "head": "Udara 1 bar absolut bersuhu 300 K dikompresi sampai 6 bar absolut dengan n = 1,3. Berapa suhu keluarnya dalam °C? Tulis langkahnya di komen.",
+   "pill": "KUIS",
+   "type": "conclusion"
+  }
+ ]
+}

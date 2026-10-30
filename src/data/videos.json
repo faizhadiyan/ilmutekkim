@@ -1,0 +1,3042 @@
+[
+  {
+    "slug": "sampling-rutin-lab",
+    "title": "Sampling Rutin: Mengapa Sampel Manual Tetap Diambil Setiap Jam",
+    "hook": "Sensor online menyala terus-menerus, tetapi sampel manual tetap diambil setiap jam.",
+    "date": "2026-10-08",
+    "ig": "https://www.instagram.com/reel/DePJYIWDhaM/",
+    "src": "~/workspace/ig-ilmutekkim/media/2026-10-08/motion-1/motion.mp4",
+    "poster_src": "~/workspace/ig-ilmutekkim/media/2026-10-08/motion-1/cover.jpg",
+    "duration": 40.9,
+    "tag": "Kendali Mutu Pabrik",
+    "intro": "Sensor online membaca terus menerus, tapi pabrik tetap mengambil sampel manual tiap jam untuk diuji di lab. Video ini membedah kenapa cara manual belum ditinggalkan.",
+    "tension": "Sensor cuma membaca titik yang ia sentuh dan bacaannya bisa bergeser diam-diam tanpa terasa.",
+    "takeaway": "Sensor menjaga detik, laboratorium menjaga kebenaran. Hasil laboratorium adalah pembanding independen yang menunjukkan sensor masih akurat.",
+    "facts": [
+      "Sensor online hanya mengukur di ujung probe, tidak mewakili seluruh aliran di pipa besar.",
+      "Sampel diambil di titik sampel (sampling point), ditutup rapat, diberi label waktu, lalu diserahkan ke analis lab.",
+      "Selisih hasil lab vs bacaan sensor ditindaklanjuti dengan cek proses, bukan dibiarkan."
+    ],
+    "quiz": {
+      "q": "Mengapa sampel laboratorium tetap dibutuhkan padahal sensor online sudah menyala?",
+      "options": [
+        "Karena laboratorium lebih cepat daripada sensor",
+        "Karena sensor dapat bergeser dan hanya membaca satu titik",
+        "Karena operator membutuhkan pekerjaan tambahan"
+      ],
+      "answer": 1,
+      "explain": "Sensor membaca satu titik dan dapat mengalami drift. Laboratorium memberikan nilai independen dari sampel fisik yang sama, sehingga pergeseran terdeteksi sebelum produk ikut bergeser."
+    },
+    "scenes": [
+      {
+        "start": 0,
+        "end": 6,
+        "role": "HOOK",
+        "title": "Sensor menyala, sampel tetap diambil",
+        "on_screen": "Sensor online menyala terus. Sampel manual tetap diambil tiap jam",
+        "visual": "Panel sensor hijau menyala, tangan operator membuka keran titik sampel di pipa.",
+        "purpose": "Membuka pertanyaan kenapa cara manual belum ditinggalkan pabrik modern.",
+        "watch": "Perhatikan dua kartu berdampingan: panel sensor vs keran titik sampel. Kontras inilah tension video ini."
+      },
+      {
+        "start": 6,
+        "end": 13,
+        "role": "TENSION",
+        "title": "Sensor cuma baca satu titik",
+        "on_screen": "Sensor cuma membaca titik yang ia sentuh",
+        "visual": "Probe tercelup di satu titik pipa besar, sebagian aliran lewat jauh dari ujung sensor.",
+        "purpose": "Menunjukkan batas fisik sensor titik tunggal.",
+        "watch": "Panah aliran yang lewat jauh dari probe adalah visual kuncinya: yang tidak tersentuh tidak terukur."
+      },
+      {
+        "start": 13,
+        "end": 20,
+        "role": "TENSION",
+        "title": "Bacaan bisa bergeser diam-diam",
+        "on_screen": "Bacaannya bisa bergeser diam-diam. Produk ikut bergeser",
+        "visual": "Garis bacaan merah perlahan menjauh dari garis target hijau, botol sampel terisi.",
+        "purpose": "Menahan jawaban dengan risiko drift tanpa pembanding.",
+        "watch": "Grafiknya kualitatif tanpa angka karangan. Yang bergeser adalah garisnya, bukan nilai yang dihafal."
+      },
+      {
+        "start": 20,
+        "end": 27,
+        "role": "PAYOFF",
+        "title": "Urutan sampling yang benar",
+        "on_screen": "Ambil di titik sampel, tutup rapat, label waktu, kirim ke lab",
+        "visual": "Empat langkah bernomor: buka keran, tutup botol, tulis label waktu, serahkan ke analis.",
+        "purpose": "Memberi urutan kerja dari titik sampel sampai lab.",
+        "watch": "Nomor 1 sampai 4 di sini urutan langkah, bukan angka proses. Label waktu adalah elemen baru scene ini."
+      },
+      {
+        "start": 27,
+        "end": 34,
+        "role": "PAYOFF",
+        "title": "Lab membuktikan sensor jujur atau bohong",
+        "on_screen": "Hasil lab membuktikan sensor jujur atau mulai bohong",
+        "visual": "Dua kartu: hasil lab vs bacaan sensor, badge COCOK hijau dan SELISIH dengan instruksi cek proses.",
+        "purpose": "Menegaskan fungsi lab sebagai pembanding independen.",
+        "watch": "Badge COCOK dan SELISIH tampil berdampingan. Tidak ada angka hasil uji karangan, hanya label kualitatif."
+      },
+      {
+        "start": 34,
+        "end": 40.9,
+        "role": "TAKEAWAY",
+        "title": "Sensor jaga detik, lab jaga kebenaran",
+        "on_screen": "Sensor menjaga detik, lab menjaga kebenaran. Simpan video ini",
+        "visual": "Botol berlabel rapi di rak lab, watermark @ilmutekkim, progress bar selesai.",
+        "purpose": "Menutup dengan satu kalimat kesimpulan dan alasan simpan.",
+        "watch": "Rak lab di akhir adalah bukti mutu fisiknya. Simpan video ini buat bekal masuk pabrik."
+      }
+    ]
+  },
+  {
+    "slug": "shift-handover-logbook",
+    "title": "Shift Handover: Mengapa Logbook Tulisan Tangan Belum Tergantikan",
+    "hook": "Komputer mencatat angka. Logbook mencatat riwayat peralatannya.",
+    "date": "2026-10-07",
+    "ig": "https://www.instagram.com/reel/DeMk3GmicdD/",
+    "src": "~/workspace/ig-ilmutekkim/media/2026-10-07/motion-1/motion.mp4",
+    "poster_src": "~/workspace/ig-ilmutekkim/media/2026-10-07/motion-1/cover.jpg",
+    "duration": 40.9,
+    "tag": "Operasi Pabrik",
+    "intro": "Pabrik jalan 24 jam, operator berganti tiap shift. Video ini membedah kenapa serah terima tidak cukup mengandalkan layar, dan kenapa logbook tulisan tangan masih jadi ingatan pabrik antar shift.",
+    "tension": "Layar menampilkan angka proses, tapi detail kecil seperti katup rembes hanya hidup di catatan logbook.",
+    "takeaway": "Logbook adalah ingatan pabrik antarshift. Tahapannya: menulis keadaan alat, membaca bersama, berkeliling memeriksa lapangan, dan menandatangani serah terima.",
+    "facts": [
+      "Contoh nyata di video: katup V-204 rembes, pantau tiap jam, jangan ditinggal. Detail kualitatif seperti ini tidak muncul di angka DCS.",
+      "Handover yang benar ditutup tanda tangan dua operator dan stempel waktu, tanggung jawab berpindah jelas dan bisa ditelusur."
+    ],
+    "quiz": {
+      "q": "Apa yang dicatat logbook tetapi tidak dicatat layar DCS?",
+      "options": [
+        "Angka suhu dan tekanan",
+        "Riwayat alat, misalnya katup mana yang rembes dan perlu dipantau",
+        "Jadwal libur operator"
+      ],
+      "answer": 1,
+      "explain": "DCS mencatat angka. Logbook mencatat konteks kualitatif peralatan, gangguan kecil, dan hal yang harus diwaspadai shift berikutnya."
+    },
+    "scenes": [
+      {
+        "start": 0,
+        "end": 6,
+        "role": "HOOK",
+        "title": "Logbook tulisan tangan belum tergantikan layar",
+        "on_screen": "Logbook tulisan tangan belum tergantikan layar",
+        "visual": "Logbook terbuka membesar di layar cerah, pena menulis baris terakhir shift.",
+        "purpose": "Membuka celah kenapa tulisan tangan masih dipakai di pabrik modern.",
+        "watch": "Pena yang masih menulis di frame pertama adalah hook visualnya, bukan sekadar teks."
+      },
+      {
+        "start": 6,
+        "end": 13,
+        "role": "TENSION",
+        "title": "Layar angka vs logbook cerita",
+        "on_screen": "Layar menampilkan angka. Logbook menyimpan cerita alat",
+        "visual": "Dua panel: layar angka polos dan logbook berisi catatan katup bocor kecil.",
+        "purpose": "Menunjukkan risiko kalau serah terima hanya mengandalkan layar.",
+        "watch": "Kartu kanan menyebut katup spesifik. Itulah beda angka dan cerita."
+      },
+      {
+        "start": 13,
+        "end": 20,
+        "role": "TENSION",
+        "title": "Shift berganti, cerita tidak boleh berganti",
+        "on_screen": "Shift berganti. Keadaan alat tidak boleh ikut berganti cerita",
+        "visual": "Jam shift berputar, operator pulang keluar dan operator datang masuk dari sisi berlawanan.",
+        "purpose": "Menahan jawaban dengan momen ganti shift yang rawan salah paham.",
+        "watch": "Ikon PULANG dan DATANG tampil bersamaan. Momen inilah yang paling rawan miskomunikasi."
+      },
+      {
+        "start": 20,
+        "end": 27,
+        "role": "PAYOFF",
+        "title": "Tiga langkah handover yang benar",
+        "on_screen": "Tulis keadaan alat, baca bersama, keliling cek lapangan",
+        "visual": "Tiga langkah berurutan: menulis logbook, membaca bersama, berjalan cek katup di lapangan.",
+        "purpose": "Memberi urutan handover langkah demi langkah.",
+        "watch": "Langkah ketiga membawa operator keluar dari control room. Handover tidak selesai di meja."
+      },
+      {
+        "start": 27,
+        "end": 34,
+        "role": "PAYOFF",
+        "title": "Tanda tangan menutup serah terima",
+        "on_screen": "Tanda tangan menutup serah terima. Tanggung jawab berpindah jelas",
+        "visual": "Logbook ditandatangani dua operator, stempel waktu shift di pojok halaman.",
+        "purpose": "Menegaskan bukti serah terima yang bisa ditelusur.",
+        "watch": "Stempel waktu adalah elemen barunya. Tanpa itu, catatan sulit ditelusur ke shift mana."
+      },
+      {
+        "start": 34,
+        "end": 40.9,
+        "role": "TAKEAWAY",
+        "title": "Logbook adalah ingatan pabrik",
+        "on_screen": "Logbook adalah ingatan pabrik antar shift. Simpan video ini",
+        "visual": "Logbook tertutup rapi di meja control room, watermark @ilmutekkim.",
+        "purpose": "Menutup dengan kesimpulan dan aksi simpan.",
+        "watch": "Simpan video ini buat bekal masuk pabrik, urutan handover di tengah adalah kuncinya."
+      }
+    ]
+  },
+  {
+    "slug": "hilirisasi-nikel-baterai-ev",
+    "title": "Hilirisasi Nikel: Jalur Pengolahan Bijih Menjadi Baterai EV",
+    "hook": "Bijih nikel kotor diolah menjadi baterai EV.",
+    "date": "2026-10-06",
+    "ig": "https://www.instagram.com/reel/DeLHZmOE0Dw/",
+    "src": "~/workspace/coded-motion-graphics/videos/hilirisasi-nikel/renders/hilirisasi-nikel_v2_2026-10-07_07-38.mp4",
+    "poster_src": null,
+    "duration": 40.9,
+    "tag": "Hilirisasi & Proses",
+    "intro": "Kadar nikel di bijih laterit cuma sekitar 1 sampai 2 persen. Video ini membedah kenapa bijihnya harus dipilah dulu, dan kenapa ada dua jalur pabrik yang sangat berbeda untuk stainless steel dan baterai EV.",
+    "tension": "Kalau kadarnya cuma 1 sampai 2 persen, kenapa tidak langsung dibuat baterai?",
+    "takeaway": "Nilai hilirisasi terletak pada kemampuan memilah, melebur, melarutkan, dan memurnikan di pabrik. Saprolit dan limonit tidak diperlakukan sama.",
+    "facts": [
+      "Saprolit (kadar lebih tinggi) masuk jalur panas RKEF: rotary kiln lalu electric furnace menjadi nickel pig iron (NPI) untuk stainless steel. NPI bukan bahan baterai langsung.",
+      "Limonit (kadar lebih rendah) masuk jalur basah HPAL: asam sulfat di autoclave sekitar 250°C tekanan tinggi, lalu diendapkan jadi MHP dan dimurnikan ke nikel sulfat untuk prekursor katoda.",
+      "Tantangan prosesnya wajib diingat: energi besar, konsumsi asam, dan tailing atau residu yang harus dikelola."
+    ],
+    "quiz": {
+      "q": "Jalur mana yang menghasilkan bahan baku untuk baterai EV?",
+      "options": [
+        "RKEF menghasilkan NPI",
+        "HPAL menghasilkan MHP kemudian nikel sulfat",
+        "Keduanya langsung menjadi baterai"
+      ],
+      "answer": 1,
+      "explain": "RKEF menghasilkan NPI untuk stainless steel. Baterai melalui HPAL: limonit dilarutkan, diendapkan menjadi MHP, kemudian menjadi nikel sulfat dan prekursor katoda."
+    },
+    "scenes": [
+      {
+        "start": 0,
+        "end": 6.8,
+        "role": "HOOK",
+        "title": "Biji kotor jadi baterai EV",
+        "on_screen": "BIJI NIKEL KOTOR JADI BATERAI EV",
+        "visual": "Rantai bijih laterit menjadi produk antara lalu sel baterai EV.",
+        "purpose": "Mengklaim transformasi ekstrem sambil memperlihatkan rantai nilainya.",
+        "watch": "Tiga tahap di hook ini akan dipecah satu per satu di scene berikutnya."
+      },
+      {
+        "start": 6.8,
+        "end": 13.6,
+        "role": "TENSION",
+        "title": "Kadar cuma 1 sampai 2 persen, harus dipilah",
+        "on_screen": "Kadar Ni cuma sekitar 1 sampai 2 persen",
+        "visual": "Bijih laterit dipilah menjadi tumpukan saprolit dan limonit.",
+        "purpose": "Menunjukkan bijih bukan satu jenis seragam.",
+        "watch": "Pemilahan saprolit vs limonit adalah keputusan proses pertama dan paling menentukan."
+      },
+      {
+        "start": 13.6,
+        "end": 20.4,
+        "role": "PROSES",
+        "title": "Saprolit lewat jalur panas RKEF",
+        "on_screen": "RKEF: rotary kiln dan electric furnace",
+        "visual": "Saprolit masuk rotary kiln lalu electric furnace, keluar nickel pig iron.",
+        "purpose": "Menjelaskan jalur pirometalurgi untuk stainless steel.",
+        "watch": "NPI di akhir scene ini untuk stainless, jangan tertukar dengan bahan baterai."
+      },
+      {
+        "start": 20.4,
+        "end": 27.2,
+        "role": "PAYOFF",
+        "title": "Limonit lewat jalur basah HPAL",
+        "on_screen": "HPAL: asam sulfat sekitar 250°C di autoclave",
+        "visual": "Limonit dilarutkan asam sulfat di autoclave suhu dan tekanan tinggi.",
+        "purpose": "Menjelaskan jalur hidrometalurgi untuk baterai.",
+        "watch": "Angka 250°C di sini kondisi autoclave, bukan suhu lebur. Asamnya yang melarutkan nikel."
+      },
+      {
+        "start": 27.2,
+        "end": 34,
+        "role": "PAYOFF",
+        "title": "Dari larutan jadi MHP dan nikel sulfat",
+        "on_screen": "MHP lalu nikel sulfat untuk prekursor katoda",
+        "visual": "Larutan nikel diendapkan jadi MHP, dimurnikan jadi nikel sulfat dan prekursor.",
+        "purpose": "Menunjukkan larutan tidak langsung jadi baterai.",
+        "watch": "MHP adalah produk antara (mixed hydroxide precipitate), masih perlu dimurnikan lagi."
+      },
+      {
+        "start": 34,
+        "end": 40.9,
+        "role": "TAKEAWAY",
+        "title": "Nilai ada di pabriknya",
+        "on_screen": "Nilai hilirisasi ada pada memilah, melebur, melarutkan, memurnikan",
+        "visual": "Pabrik berjalan penuh, catatan tantangan energi, asam, tailing.",
+        "purpose": "Menutup dengan kesimpulan dan tantangan yang jujur.",
+        "watch": "Follow untuk lanjutan seri hilirisasi: HPAL, RKEF, dan pengelolaan tailing satu per satu."
+      }
+    ]
+  },
+  {
+    "slug": "pasir-jadi-chip-ai",
+    "title": "Pasir Menjadi Chip AI: Reaksi, Distilasi, dan Kristal di Baliknya",
+    "hook": "Chip AI berasal dari pasir.",
+    "date": "2026-10-05",
+    "ig": "https://www.instagram.com/reel/DeJFBULEyhF/",
+    "src": "~/workspace/coded-motion-graphics/videos/pasir-chip-ai/renders/pasir-chip-ai_v1_2026-10-06_12-20.mp4",
+    "poster_src": "~/workspace/coded-motion-graphics/videos/pasir-chip-ai/cover.jpg",
+    "duration": 40.9,
+    "tag": "Semikonduktor",
+    "intro": "Chip AI berawal dari pasir kuarsa. Video ini membedah kenapa pasir sembarangan tidak bisa langsung jadi chip, dan kenapa kemurnian ekstrem adalah inti teknik kimianya.",
+    "tension": "Kalau bahannya cuma pasir, kenapa chip tidak bisa dibuat dari pasir sembarangan?",
+    "takeaway": "Chip AI lahir dari reaksi, distilasi, dan kristal yang dikendalikan insinyur proses. Semua itu adalah teknik kimia, bukan sulap.",
+    "facts": [
+      "Reduksi disederhanakan: SiO2 + 2C menjadi Si + 2CO di furnace listrik. Silikon metalurgi baru sekitar 98% murni, masih terlalu kotor untuk transistor nanometer.",
+      "Silikon diubah jadi triklorosilan yang mudah menguap, sehingga pengotor bisa dipisahkan lewat distilasi. Proses Siemens lalu menumbuhkan polysilicon sekitar 99,9999999% (9N).",
+      "Polysilicon dilelehkan pada 1.414°C dan ditarik jadi kristal tunggal (Czochralski), dipotong jadi wafer 300 mm, baru difabrikasi jadi chip."
+    ],
+    "quiz": {
+      "q": "Mengapa silikon harus diubah menjadi triklorosilan terlebih dahulu?",
+      "options": [
+        "Agar warnanya berubah",
+        "Agar mudah menguap dan pengotornya dapat dipisahkan melalui distilasi",
+        "Agar lebih murah daripada pasir"
+      ],
+      "answer": 1,
+      "explain": "Triklorosilan mudah menguap, sehingga distilasi dapat memisahkannya dari pengotor. Dari tahap itu proses Siemens menghasilkan polysilicon ultra murni."
+    },
+    "scenes": [
+      {
+        "start": 0,
+        "end": 6.8,
+        "role": "HOOK",
+        "title": "Chip AI asalnya dari pasir",
+        "on_screen": "CHIP AI ASALNYA DARI PASIR",
+        "visual": "Pasir berubah menjadi wafer silikon lalu chip AI.",
+        "purpose": "Mengklaim transformasi ekstrem pasir menjadi chip.",
+        "watch": "Transformasi di hook ini sengaja dibuat terlihat mudah. Scene berikutnya membongkar kenapa tidak semudah itu."
+      },
+      {
+        "start": 6.8,
+        "end": 13.6,
+        "role": "TENSION",
+        "title": "Baru 98% murni, masih terlalu kotor",
+        "on_screen": "Silikon metalurgi baru sekitar 98% murni",
+        "visual": "Pasir kuarsa direduksi dengan karbon menjadi silikon metalurgi plus label pengotor.",
+        "purpose": "Menunjukkan hasil pertama masih jauh dari cukup.",
+        "watch": "Angka 98% di sini contoh konservatif silikon metalurgi (rentang umum 98 sampai 99%)."
+      },
+      {
+        "start": 13.6,
+        "end": 20.4,
+        "role": "TENSION",
+        "title": "Harus jadi triklorosilan agar bisa dimurnikan",
+        "on_screen": "Diubah jadi triklorosilan yang dapat dimurnikan",
+        "visual": "Silikon menjadi triklorosilan, ikon transistor nanometer yang tidak toleran pengotor.",
+        "purpose": "Menjelaskan kenapa perlu zat antara yang mudah menguap.",
+        "watch": "Kata kuncinya mudah menguap. Sifat itulah yang membuat distilasi masuk akal."
+      },
+      {
+        "start": 20.4,
+        "end": 27.2,
+        "role": "PAYOFF",
+        "title": "Distilasi dan proses Siemens",
+        "on_screen": "Polysilicon ultra murni sekitar 99,9999999%",
+        "visual": "Kolom distilasi memisahkan pengotor, batang silikon panas menumbuhkan polysilicon.",
+        "purpose": "Memberi angka kemurnian konkretnya.",
+        "watch": "99,9999999% mewakili 9N. Chip modern umumnya di rentang 9N sampai 11N, bukan satu angka mutlak."
+      },
+      {
+        "start": 27.2,
+        "end": 34,
+        "role": "PAYOFF",
+        "title": "Leleh 1.414°C, tarik kristal, potong wafer",
+        "on_screen": "Dilelehkan pada 1.414°C, ditarik jadi kristal tunggal, wafer 300 mm",
+        "visual": "Lelehan ditarik jadi kristal tunggal, dipotong jadi wafer, wafer jadi chip.",
+        "purpose": "Menunjukkan tahap kristal dan wafer.",
+        "watch": "1.414°C adalah titik leleh silikon. Wafer 300 mm adalah ukuran umum modern."
+      },
+      {
+        "start": 34,
+        "end": 40.9,
+        "role": "TAKEAWAY",
+        "title": "Lahir dari reaksi, distilasi, kristal",
+        "on_screen": "Chip lahir dari reaksi, distilasi, dan kristal yang dikendalikan",
+        "visual": "Chip AI final dengan ajakan follow seri semikonduktor.",
+        "purpose": "Menutup dengan kerangka teknik kimia di balik AI.",
+        "watch": "Follow untuk lanjutan: air ultrapure, cleanroom, dan plasma etching."
+      }
+    ]
+  },
+  {
+    "slug": "distilasi-minyak-mentah",
+    "title": "Distilasi Minyak Mentah: Satu Kolom, Banyak Produk Keluar",
+    "hook": "Minyak mentah masuk, banyak produk keluar. Kuncinya adalah perbedaan titik didih.",
+    "date": "2026-10-05",
+    "ig": "https://www.instagram.com/reel/DeG_5tXPCyo/",
+    "src": "~/workspace/coded-motion-graphics/videos/minyak-mentah/renders/minyak-mentah_v2_2026-10-02.mp4",
+    "poster_src": null,
+    "duration": 40.9,
+    "tag": "Kilang & Distilasi",
+    "intro": "Minyak mentah tidak dipisah pakai saringan, tapi pakai titik didih di satu kolom tinggi. Video ini membedah alur dari fired heater sampai produk keluar sesuai titik didihnya.",
+    "tension": "Satu minyak mentah bisa jadi gas sampai residu. Apa yang memisahkannya di dalam kolom?",
+    "takeaway": "Distilasi adalah pemisahan fisik, bukan reaksi kimia. Yang dipisahkan adalah titik didihnya, bukan diubah menjadi zat baru.",
+    "facts": [
+      "Umpan dipanaskan di fired heater sampai sekitar 350°C, masuk zona flash di bawah kolom. Di atas sekitar 120°C, di bawah sekitar 350°C.",
+      "Overhead paling ringan didinginkan di kondenser ke drum reflux, sebagian balik sebagai reflux agar pisahnya tajam. Dasar dididihkan lagi di reboiler, steam membantu stripping, residu keluar setelah reboiler.",
+      "Urutan produk ringan ke berat: gas di bawah 40°C, bensin 40 sampai 180°C, kerosin 180 sampai 240°C, solar 240 sampai 340°C, residu di atas 340°C."
+    ],
+    "quiz": {
+      "q": "Pada dasarnya, distilasi minyak mentah merupakan proses apa?",
+      "options": [
+        "Reaksi kimia yang mengubah minyak menjadi bensin",
+        "Pemisahan fisik berdasarkan perbedaan titik didih",
+        "Penyaringan menggunakan saringan halus"
+      ],
+      "answer": 1,
+      "explain": "Tidak ada zat baru yang terbentuk. Campuran dipisahkan karena komponennya menguap dan mengembun pada suhu yang berbeda di tray kolom."
+    },
+    "scenes": [
+      {
+        "start": 0,
+        "end": 6.5,
+        "role": "HOOK",
+        "title": "Minyak masuk, banyak produk keluar",
+        "on_screen": "KILANG MINYAK. MINYAK MENTAH MASUK. BANYAK PRODUK KELUAR",
+        "visual": "Kolom kilang dengan maskot tetes minyak, produk keluar bertingkat.",
+        "purpose": "Membuka bahwa satu umpan bisa dipecah jadi banyak produk karena beda titik didih.",
+        "watch": "Perhatikan kolomnya sejak detik pertama terbangun. Semua scene berikutnya mengisi kolom yang sama."
+      },
+      {
+        "start": 6.5,
+        "end": 13,
+        "role": "KONTEKS",
+        "title": "Bukan zat tunggal, campuran hidrokarbon",
+        "on_screen": "BUKAN ZAT TUNGGAL. CAMPURAN HIDROKARBON. Dipanaskan sekitar 350°C",
+        "visual": "Fired heater, tag 350°C, zona flash, tiga kartu Ringan Sedang Berat.",
+        "purpose": "Menjelaskan umpan harus dididihkan dulu agar bisa dipisah.",
+        "watch": "Zona flash adalah titik awal uap dan cairan berpisah di dalam kolom."
+      },
+      {
+        "start": 13,
+        "end": 19.5,
+        "role": "MEKANISME",
+        "title": "Uap naik, cairan turun di tray",
+        "on_screen": "UAP NAIK. CAIRAN TURUN",
+        "visual": "8 tray horizontal, partikel biru muda naik sebagai uap, biru tua turun sebagai cairan.",
+        "purpose": "Menunjukkan kontak uap dan cairan di tiap tray.",
+        "watch": "Yang ringan lanjut menguap, yang berat mengembun dan turun. Itulah mesin pemisahnya."
+      },
+      {
+        "start": 19.5,
+        "end": 26.5,
+        "role": "PAYOFF",
+        "title": "Paling ringan didinginkan di puncak",
+        "on_screen": "YANG PALING RINGAN DIDINGINKAN DI PUNCAK. Sebagian kembali sebagai reflux",
+        "visual": "Pipa overhead ke kondenser, drum reflux, pipa reflux balik dan pipa produk atas.",
+        "purpose": "Menjelaskan overhead, kondenser, dan fungsi reflux.",
+        "watch": "Reflux yang balik membuat pisahnya tajam, bukan sekadar membuang produk atas."
+      },
+      {
+        "start": 26.5,
+        "end": 33.5,
+        "role": "PAYOFF",
+        "title": "Atas dingin, bawah panas",
+        "on_screen": "ATAS DINGIN BAWAH PANAS. Sekitar 120°C di atas, 350°C di bawah",
+        "visual": "Gradien suhu di kolom, reboiler di dasar, steam masuk, residu keluar setelah reboiler.",
+        "purpose": "Memberi angka suhu konkret dan peran reboiler plus steam stripping.",
+        "watch": "Residu keluar setelah reboiler, bukan langsung dari dasar kolom. Detail ini yang dijaga kebenaran teknisnya."
+      },
+      {
+        "start": 33.5,
+        "end": 40.9,
+        "role": "TAKEAWAY",
+        "title": "Keluar sesuai titik didih",
+        "on_screen": "KELUAR SESUAI TITIK DIDIH. DISTILASI ITU PISAH FISIK, BUKAN REAKSI KIMIA",
+        "visual": "Lima kartu produk berurutan dan pipa side draw kerosin solar.",
+        "purpose": "Mengurutkan produk ringan ke berat dan menutup dengan definisi.",
+        "watch": "Urutkan dari bawah: residu paling berat di atas 340°C, gas paling ringan di bawah 40°C."
+      }
+    ]
+  },
+  {
+    "slug": "process-safety-bukan-apd",
+    "title": "Process Safety Bukan tentang APD: Hazard, Risk, dan Barrier Berlapis",
+    "hook": "Process safety bukan tentang APD.",
+    "date": "2026-10-04",
+    "ig": "https://www.instagram.com/reel/DeGB-GQj-j8/",
+    "src": "~/workspace/coded-motion-graphics/videos/process-safety/renders/process-safety_v3_2026-10-05_08-14.mp4",
+    "poster_src": null,
+    "duration": 40.9,
+    "tag": "Process Safety",
+    "intro": "APD melindungi orang setelah bahaya terlepas. Process safety mencegah pelepasannya sejak awal. Video ini membedah tiga kata kuncinya dan kenapa lapisannya harus independen.",
+    "tension": "Kalau APD, alarm, dan operator sudah ada, kenapa kecelakaan proses besar masih bisa terjadi?",
+    "takeaway": "Process safety menjaga bahan dan energi berbahaya tetap terkendali melalui lapisan yang tidak saling bergantung.",
+    "facts": [
+      "Risk dibaca dari kombinasi konsekuensi dan kemungkinan, bukan bahaya saja. APD tetap berguna, tapi bukan penghalang utama pelepasan besar.",
+      "Contoh hitungan ilustratif: kejadian awal 1 kali per 10 tahun, tiga lapisan independen masing-masing gagal 1 dari 10 saat dibutuhkan, hasilnya 0,0001 per tahun atau 1 per 10.000 tahun. Syaratnya: lapisan benar-benar independen.",
+      "Relief digambarkan menuju sistem tertutup atau flare, bukan membuang bebas ke udara."
+    ],
+    "quiz": {
+      "q": "Mengapa tiga lapisan dapat menurunkan frekuensi dari 1 per 10 tahun menjadi 1 per 10.000 tahun?",
+      "options": [
+        "Karena setiap lapisan pasti berhasil",
+        "Karena peluang gagalnya dikalikan, dengan syarat lapisannya independen",
+        "Karena APD ditambah tiga lapis"
+      ],
+      "answer": 1,
+      "explain": "0,1 x 0,1 x 0,1 x 0,1 = 0,0001 per tahun. Perkalian itu hanya berlaku apabila lapisannya tidak berbagi penyebab kegagalan yang sama."
+    },
+    "scenes": [
+      {
+        "start": 0,
+        "end": 6.8,
+        "role": "HOOK",
+        "title": "Process safety bukan soal APD",
+        "on_screen": "PROCESS SAFETY BUKAN SOAL APD",
+        "visual": "Vessel bertekanan dengan lapisan pengaman di sekelilingnya.",
+        "purpose": "Mengklaim koreksi miskonsepsi paling umum soal process safety.",
+        "watch": "Vessel bertekanan di hook ini adalah sumber bahaya besarnya, bukan pekerja tanpa helm."
+      },
+      {
+        "start": 6.8,
+        "end": 13.6,
+        "role": "TENSION",
+        "title": "Kecelakaan personal vs kecelakaan proses",
+        "on_screen": "Sasaran process safety adalah pelepasan bahan atau energi berskala besar",
+        "visual": "Perbandingan kecelakaan personal dan kecelakaan proses berskala besar.",
+        "purpose": "Membedakan dua jenis kecelakaan agar sasarannya jelas.",
+        "watch": "APD kuat di kiri (personal), lemah di kanan (proses). Di situlah celahnya."
+      },
+      {
+        "start": 13.6,
+        "end": 20.4,
+        "role": "TENSION",
+        "title": "Hazard dan risk",
+        "on_screen": "Hazard, risk, konsekuensi, kemungkinan",
+        "visual": "Kartu hazard dan risk, risk sebagai gabungan konsekuensi dan kemungkinan.",
+        "purpose": "Memperkenalkan dua kata kunci sebelum cara mengendalikannya.",
+        "watch": "Jangan menyederhanakan risk menjadi bahaya saja. Dua komponennya tampil terpisah."
+      },
+      {
+        "start": 20.4,
+        "end": 27.2,
+        "role": "PAYOFF",
+        "title": "Barrier berlapis pada tekanan naik",
+        "on_screen": "Kontrol proses, trip otomatis, relief valve, tanggap darurat",
+        "visual": "Skenario tekanan naik ditahan berurutan oleh empat lapisan.",
+        "purpose": "Menunjukkan cara kerja barrier pada satu skenario nyata.",
+        "watch": "Urutannya penting: kontrol dulu, trip, relief, baru tanggap darurat di luar."
+      },
+      {
+        "start": 27.2,
+        "end": 34,
+        "role": "PAYOFF",
+        "title": "Hitungan lapisan independen",
+        "on_screen": "Dari 1 per 10 tahun menjadi 1 per 10.000 tahun",
+        "visual": "Hitungan peluang gagal 1 dari 10 dikalikan antar lapisan.",
+        "purpose": "Membuktikan fungsi independensi lewat angka.",
+        "watch": "Syarat independen wajib tampil. Tanpa itu, perkalian peluangnya tidak sah."
+      },
+      {
+        "start": 34,
+        "end": 40.9,
+        "role": "TAKEAWAY",
+        "title": "Menjaga bahaya tetap terkendali",
+        "on_screen": "Process safety menjaga bahan dan energi berbahaya tetap terkendali",
+        "visual": "Vessel terkendali dengan ajakan follow seri HAZOP dan relief system.",
+        "purpose": "Menutup dengan definisi satu kalimat.",
+        "watch": "Follow untuk membedah HAZOP, relief system, dan manajemen perubahan satu per satu."
+      }
+    ]
+  },
+  {
+    "slug": "heat-exchanger-penghenti-pabrik",
+    "title": "Heat Exchanger: Alat Paling Sederhana yang Dapat Menghentikan Pabrik",
+    "hook": "Alat paling sederhana, namun dapat menghentikan pabrik.",
+    "date": "2026-10-03",
+    "ig": "https://www.instagram.com/reel/DeDrJkVP2Jr/",
+    "src": "~/workspace/coded-motion-graphics/videos/heat-exchanger/renders/heat-exchanger_v2_2026-10-03_21-50.mp4",
+    "poster_src": null,
+    "duration": 40.9,
+    "tag": "Unit Operasi",
+    "intro": "Heat exchanger kelihatan cuma pipa dalam tabung. Video ini membedah kenapa arah aliran dan kerak 1 milimeter bisa menentukan hemat borosnya pabrik, sampai memaksa unit berhenti.",
+    "tension": "Kalau alat ini cuma pipa dalam tabung, kenapa kerak tipis bisa memaksa satu unit berhenti total?",
+    "takeaway": "Arah aliran menentukan efisiensi; kerak (fouling) menentukan kapan pabrik harus berhenti untuk dibersihkan.",
+    "facts": [
+      "Contoh terverifikasi: panas 150 ke 90°C, dingin 30 ke 80°C. Lawan arah beda suhu penggerak rata-rata (LMTD) sekitar 65°C, searah sekitar 44°C. Rasio 65 per 44 sekitar 1,48 atau panas yang dipindah bisa sekitar 48% lebih besar pada suhu ujung yang sama.",
+      "Kerak 1 mm memangkas fluks panas sekitar 10%. Literatur fouling menyebut biaya sekitar 0,25% PDB negara industri dan sekitar 186 juta barel minyak per tahun dipakai kilang dunia menambal rugi fouling (estimasi Müller-Steinhagen)."
+    ],
+    "quiz": {
+      "q": "Pada suhu ujung yang sama, mengapa lawan arah lebih efisien daripada searah?",
+      "options": [
+        "Karena pipanya lebih panjang",
+        "Karena perbedaan suhu penggerak rata-ratanya lebih besar (65 vs 44°C)",
+        "Karena keraknya lebih tipis"
+      ],
+      "answer": 1,
+      "explain": "LMTD lawan arah 65°C berbanding searah 44°C. Perbedaan suhu yang lebih besar mendorong lebih banyak panas menyeberangi dinding yang sama."
+    },
+    "scenes": [
+      {
+        "start": 0,
+        "end": 6.8,
+        "role": "HOOK",
+        "title": "Alat tersepele penghenti pabrik",
+        "on_screen": "ALAT PALING SEPELE PENGHENTI PABRIK",
+        "visual": "Skema heat exchanger terbangun dari detik pertama, sub penukar panas.",
+        "purpose": "Mengklaim heat exchanger adalah alat tersepele yang paling sering menghentikan pabrik.",
+        "watch": "Alatnya diperkenalkan secara visual sejak hook, bukan hanya disebut."
+      },
+      {
+        "start": 6.8,
+        "end": 13.6,
+        "role": "TENSION",
+        "title": "Dua aliran dipisah dinding logam",
+        "on_screen": "Dua aliran dipisah dinding, panas menyeberang, cairan tidak bertemu",
+        "visual": "Fluida panas 150 ke 90°C dan fluida dingin 30 ke 80°C dipisah dinding logam.",
+        "purpose": "Menjelaskan cara kerja dasar tanpa cairan bertemu.",
+        "watch": "Contoh suhu di scene ini yang dipakai lagi untuk hitungan LMTD di payoff."
+      },
+      {
+        "start": 13.6,
+        "end": 20.4,
+        "role": "TENSION",
+        "title": "Searah atau lawan arah, beda total",
+        "on_screen": "Arah aliran bisa searah atau lawan arah, beda suhunya berubah total",
+        "visual": "Perbandingan beda suhu ujung 120 ke 10°C (searah) vs 70 ke 60°C (lawan arah).",
+        "purpose": "Menahan jawaban dengan menunjukkan beda suhu sebagai tenaga pendorong.",
+        "watch": "Dua pasang angka ujung ini jangan tertukar. Payoff menghitung rata-ratanya."
+      },
+      {
+        "start": 20.4,
+        "end": 27.2,
+        "role": "PAYOFF",
+        "title": "Angka konkretnya: 65 vs 44°C",
+        "on_screen": "Lawan arah 65°C vs searah 44°C, panas bisa sekitar 48% lebih besar",
+        "visual": "Hitungan LMTD lawan arah dan searah pada suhu ujung yang sama.",
+        "purpose": "Memberi angka beda suhu penggerak rata-rata yang bisa disimpan.",
+        "watch": "65 per 44 = 1,48. Itulah asal angka sekitar 48% di layar."
+      },
+      {
+        "start": 27.2,
+        "end": 34,
+        "role": "PAYOFF",
+        "title": "Musuhnya kerak (fouling)",
+        "on_screen": "Kerak 1 mm memangkas fluks sekitar 10%, unit berhenti untuk dibersihkan",
+        "visual": "Endapan di dinding menebal, angka 186 juta barel per tahun, unit berhenti.",
+        "purpose": "Menjawab tension utama: kenapa alat sepele bisa menghentikan pabrik.",
+        "watch": "Fouling diperkenalkan sebagai endapan di dinding sebelum istilahnya dipakai. Urutan ini disengaja."
+      },
+      {
+        "start": 34,
+        "end": 40.9,
+        "role": "TAKEAWAY",
+        "title": "Arah menentukan efisiensi, kerak menentukan berhenti",
+        "on_screen": "Arahnya menentukan efisiensi, keraknya menentukan kapan pabrik berhenti",
+        "visual": "Heat exchanger bersih berjalan, ajakan follow satu video satu alat.",
+        "purpose": "Menutup dengan dua kalimat penentu yang bisa diingat.",
+        "watch": "Follow @ilmutekkim. Satu video, satu alat pabrik dibedah sampai prinsip dan angkanya."
+      }
+    ]
+  },
+  {
+    "slug": "haber-bosch-udara-jadi-pupuk",
+    "title": "Haber-Bosch: Udara Menjadi Pupuk, Proses Paling Penting di Dunia",
+    "hook": "Udara menjadi pupuk.",
+    "date": "2026-10-03",
+    "ig": "https://www.instagram.com/reel/DeCCKsyvr7j/",
+    "src": "~/workspace/coded-motion-graphics/videos/amonia/renders/amonia_v3_2026-10-01_20-21.mp4",
+    "poster_src": null,
+    "duration": 40.9,
+    "tag": "Proses Pupuk",
+    "intro": "78% udara adalah nitrogen, tapi tanaman tidak bisa memakannya langsung. Video ini membedah Haber-Bosch: persamaan, tiga syarat ekstrem, dan kenapa tanpa recycle pabriknya rugi.",
+    "tension": "Nitrogen malas bereaksi karena ikatan rangkap tiganya terlalu kuat. Bagaimana cara memaksanya jadi amonia?",
+    "takeaway": "Udara, tekanan, dan katalis menjadi makanan dunia: N2 + 3H2 menjadi 2NH3, kemudian menjadi urea dan pupuk nitrogen.",
+    "facts": [
+      "Persamaan setimbang: N2 + 3H2 menjadi 2NH3. Cek atom: N 2 atom, H 6 atom, seimbang. Ikatan N rangkap tiga sangat kuat, ikatan H tunggal mudah putus.",
+      "Tiga syarat ekstrem: katalis besi memecah ikatan N, suhu tinggi 400 sampai 500°C mempercepat reaksi, tekanan tinggi 150 sampai 250 bar mendorong ke produk (Le Chatelier: 4 mol gas menjadi 2 mol gas).",
+      "Reaksi eksotermik dengan delta H sekitar minus 92 kJ per mol. Sekali lewat reaktor cuma sekitar 15% yang jadi, sisanya diputar balik lewat kondensasi dan recycle. Terlalu panas, kesetimbangan bergeser balik."
+    ],
+    "quiz": {
+      "q": "Mengapa tekanan tinggi membantu Haber-Bosch?",
+      "options": [
+        "Karena membuat katalis meleleh",
+        "Karena 4 mol gas menjadi 2 mol gas; semakin ditekan, semakin terbentuk amonia (Le Chatelier)",
+        "Karena menurunkan suhu reaktor"
+      ],
+      "answer": 1,
+      "explain": "Jumlah mol gas berkurang dari 4 ke 2. Tekanan tinggi mendorong kesetimbangan ke sisi produk yang jumlah molnya lebih sedikit."
+    },
+    "scenes": [
+      {
+        "start": 0,
+        "end": 6.8,
+        "role": "HOOK",
+        "title": "Udara jadi pupuk",
+        "on_screen": "UDARA JADI PUPUK. 78% udara adalah nitrogen",
+        "visual": "Udara dan gas alam menjadi NH3 amonia, label Proses Haber-Bosch.",
+        "purpose": "Mengklaim gas malas di udara bisa diubah jadi pupuk.",
+        "watch": "78% di hook ini adalah kandungan nitrogen di udara yang kamu hirup."
+      },
+      {
+        "start": 6.8,
+        "end": 13.6,
+        "role": "KONTEKS",
+        "title": "Persamaan setimbang dan ikatan keras kepala",
+        "on_screen": "N2 + 3H2 menjadi 2NH3. IKATAN YANG KERAS KEPALA",
+        "visual": "N rangkap tiga sangat kuat vs H tunggal mudah putus, cek atom N 2 dan H 6.",
+        "purpose": "Menunjukkan kenapa nitrogen malas bereaksi.",
+        "watch": "Cek atomnya tampil di layar. Persamaan ini setimbang, bukan karangan."
+      },
+      {
+        "start": 13.6,
+        "end": 20.4,
+        "role": "SYARAT",
+        "title": "Tiga syarat ekstrem",
+        "on_screen": "TIGA SYARAT EKSTREM. Katalis besi, 400 sampai 500°C, 150 sampai 250 bar",
+        "visual": "Tiga kartu: katalis Fe, suhu tinggi, tekanan tinggi, plus Le Chatelier 4 mol ke 2 mol.",
+        "purpose": "Memberi syarat yang membuat reaksi mau jalan.",
+        "watch": "Tanpa ketiganya, nitrogen tetap malas. Tiga kartu ini jangan dibaca terpisah."
+      },
+      {
+        "start": 20.4,
+        "end": 27.2,
+        "role": "LOOP",
+        "title": "Tanpa recycle, rugi",
+        "on_screen": "TANPA RECYCLE, RUGI. Sekali lewat cuma sekitar 15% yang jadi",
+        "visual": "Kompresi, reaktor bed katalis Fe, kondensasi NH3 cair dipisahkan, recycle loop tertutup.",
+        "purpose": "Menjelaskan loop pabrik amonia yang sebenarnya.",
+        "watch": "NH3 cair dipisahkan di kondensasi, gas sisa diputar balik. Bahan tidak terbuang."
+      },
+      {
+        "start": 27.2,
+        "end": 34,
+        "role": "ANGKA",
+        "title": "Eksotermik, melepas panas",
+        "on_screen": "EKSOTERMIK. MELEPAS PANAS. Delta H sekitar minus 92 kJ per mol",
+        "visual": "Delta H negatif, amonia menjadi urea dan amonium nitrat.",
+        "purpose": "Memberi angka panas reaksi dan produk lanjutannya.",
+        "watch": "Terlalu panas justru menggeser kesetimbangan balik. Panas di sini pedang bermata dua."
+      },
+      {
+        "start": 34,
+        "end": 40.9,
+        "role": "TAKEAWAY",
+        "title": "Udara jadi makanan",
+        "on_screen": "UDARA JADI MAKANAN. Udara + tekanan + katalis = makanan dunia",
+        "visual": "N2 + 3H2 menjadi 2NH3 dari udara ke piring, ajakan follow.",
+        "purpose": "Menutup dengan makna proses untuk pangan dunia.",
+        "watch": "Intinya satu persamaan di akhir. Follow @ilmutekkim buat teknik kimia tiap hari."
+      }
+    ]
+  },
+  {
+    "slug": "netralisasi-asam-basa",
+    "title": "Netralisasi Asam Basa: Yang Sebenarnya Bereaksi Hanya Dua Ion",
+    "hook": "Asam bertemu basa, keduanya saling menetralkan.",
+    "date": "2026-10-02",
+    "ig": "https://www.instagram.com/reel/DeBVDRiPs35/",
+    "src": "~/workspace/coded-motion-graphics/videos/asam-basa/renders/asam-basa_v4_2026-10-01_13-46.mp4",
+    "poster_src": null,
+    "duration": 40.9,
+    "tag": "Kimia Dasar Proses",
+    "intro": "HCl + NaOH menjadi NaCl + H2O terlihat seperti tukar pasangan. Video ini membedah reaksi ion bersihnya, panas yang dilepas, dan kenapa titrasi harus tepat setetes demi setetes.",
+    "tension": "Kalau persamaannya terlihat sederhana, apa yang sebenarnya bertabrakan dan membentuk air?",
+    "takeaway": "Asam + basa = garam + air. Pada intinya, H+ + OH- menjadi H2O, reaksi paling fundamental dari laboratorium sekolah sampai netralisasi limbah pabrik.",
+    "facts": [
+      "Di larutan, HCl dan NaOH sudah terurai jadi ion. Yang benar-benar bereaksi adalah H+ + OH- menjadi H2O. Na+ dan Cl- menjadi garam NaCl. Atom dan muatan seimbang.",
+      "Tiap mol air yang terbentuk melepas 57 kJ panas (delta H sekitar minus 57 kJ per mol), larutan jadi hangat. Reaksinya eksotermik.",
+      "Titrasi butuh tepat 1 banding 1: 1 mol HCl butuh tepat 1 mol NaOH. Kelebihan setetes saja menggeser hasil. Fenolftalein jadi saksi: bening di asam, pink di basa, titik akhir di pH 7."
+    ],
+    "quiz": {
+      "q": "Dalam netralisasi HCl dan NaOH, spesies yang sebenarnya membentuk air adalah?",
+      "options": [
+        "Na+ dan Cl-",
+        "H+ dan OH-",
+        "HCl dan NaCl"
+      ],
+      "answer": 1,
+      "explain": "Itulah reaksi ion bersihnya: H+ + OH- menjadi H2O. Ion Na+ dan Cl- hanya menjadi garam dan tidak ikut membentuk air."
+    },
+    "scenes": [
+      {
+        "start": 0,
+        "end": 6.5,
+        "role": "HOOK",
+        "title": "Asam ketemu basa",
+        "on_screen": "ASAM KETEMU BASA. Dua cairan ekstrem saling menjinakkan",
+        "visual": "HCl (asam lambung, pembersih lantai) dan NaOH (soda api, bahan sabun), label Netralisasi.",
+        "purpose": "Memperkenalkan dua cairan ekstrem dan nama reaksinya.",
+        "watch": "Contoh sehari-hari di hook ini menjembatani lab dan pabrik."
+      },
+      {
+        "start": 6.5,
+        "end": 13,
+        "role": "REAKSI",
+        "title": "Tukar pasangan",
+        "on_screen": "HCl + NaOH menjadi NaCl + H2O. TUKAR PASANGAN",
+        "visual": "Atom bertukar pasangan, H pindah ke OH, cek atom dan muatan seimbang.",
+        "purpose": "Menunjukkan persamaan molekuler yang biasa diajarkan.",
+        "watch": "Dua tanda centang di scene ini: atom seimbang dan muatan seimbang. Keduanya wajib."
+      },
+      {
+        "start": 13,
+        "end": 19.5,
+        "role": "ION",
+        "title": "Reaksi ion bersih yang sebenarnya terjadi",
+        "on_screen": "REAKSI ION BERSIH. YANG SEBENARNYA TERJADI: H+ + OH- menjadi H2O",
+        "visual": "H+ + OH- jadi air, Na+ + Cl- jadi garam NaCl.",
+        "purpose": "Membongkar bahwa cuma dua ion yang benar-benar bereaksi.",
+        "watch": "Inilah payoff pertama video ini. Persamaan molekuler di scene sebelumnya disederhanakan di sini."
+      },
+      {
+        "start": 19.5,
+        "end": 26.5,
+        "role": "PANAS",
+        "title": "Eksotermik, melepas 57 kJ",
+        "on_screen": "EKSOTERMIK. MELEPAS PANAS. Tiap mol air melepas 57 kJ",
+        "visual": "Delta H minus 57 kJ per mol, larutan jadi hangat.",
+        "purpose": "Memberi angka panas netralisasi yang bisa diingat.",
+        "watch": "Delta H negatif artinya eksoterm. Angkanya per mol H2O yang terbentuk."
+      },
+      {
+        "start": 26.5,
+        "end": 33.5,
+        "role": "TITRASI",
+        "title": "Gimana tau kapan pas? Titrasi",
+        "on_screen": "1 banding 1. Kelebihan setetes saja bikin hasil meleset. TITRASI",
+        "visual": "NaOH diteteskan ke HCl plus fenolftalein, bening di asam pink di basa, pH 7.",
+        "purpose": "Menjelaskan kenapa ketepatan setetes menentukan hasil.",
+        "watch": "Fenolftalein di sini saksi visualnya, bukan hiasan. Warnanya yang memberi tau titik akhir."
+      },
+      {
+        "start": 33.5,
+        "end": 40.9,
+        "role": "TAKEAWAY",
+        "title": "Asam + basa = garam + air",
+        "on_screen": "ASAM + BASA = GARAM + AIR. Dari obat maag sampai air limbah pabrik",
+        "visual": "NaCl garam dapur dan air, ajakan follow teknik kimia tiap hari.",
+        "purpose": "Menutup dengan persamaan fundamental dan cakupan pakainya.",
+        "watch": "Intinya di akhir: H+ + OH- menjadi H2O. Satu reaksi, banyak skala."
+      }
+    ]
+  },
+  {
+    "slug": "water-gas-shift-co-jadi-h2",
+    "title": "Water-Gas Shift: Mengubah CO Beracun Menjadi H2",
+    "hook": "CO adalah gas beracun yang diubah menjadi H2.",
+    "date": "2026-10-02",
+    "ig": "https://www.instagram.com/reel/Dd_doTMPk6j/",
+    "src": "~/workspace/coded-motion-graphics/videos/shift-conversion/renders/shift-conversion_v1_2026-10-01_04-10-25.mp4",
+    "poster_src": null,
+    "duration": 40.9,
+    "tag": "Pabrik Hidrogen",
+    "intro": "CO + H2O menjadi CO2 + H2 terlihat sepele, tapi jadi tulang punggung pabrik hidrogen. Video ini membedah kenapa shift harus dua tahap: panas dulu, dingin kemudian.",
+    "tension": "Kesetimbangan suka dingin, kinetika suka panas. Bagaimana cara memuaskan keduanya?",
+    "takeaway": "Shift berarti CO menjadi H2. Dua tahap reaktor (HTS kemudian LTS) dengan pendingin di tengahnya merupakan kompromi antara kecepatan reaksi dan kesetimbangan.",
+    "facts": [
+      "Reaksi shift eksotermik dengan delta H sekitar minus 41 kJ per mol. Atom H di H2 produk berasal dari air (steam), bukan dari CO.",
+      "HTS (high temperature shift) 350 sampai 450°C katalis Fe-Cr menurunkan CO dari 15% jadi 3%. Setelah didinginkan dan panasnya dipanen jadi steam, LTS (low temperature shift) 200 sampai 250°C katalis Cu-Zn menurunkan CO dari 3% jadi 0,3%.",
+      "Gas kaya H2 lalu ke CO2 removal dan PSA menghasilkan H2 murni 99,99%. Dua tahap diperlukan karena satu suhu tidak bisa cepat sekaligus tuntas."
+    ],
+    "quiz": {
+      "q": "Mengapa water-gas shift dibuat dalam dua tahap, HTS dan LTS?",
+      "options": [
+        "Agar pabriknya terlihat besar",
+        "Karena kesetimbangan menyukai dingin sedangkan kinetika menyukai panas, sehingga diperlukan suhu tinggi dahulu kemudian suhu rendah",
+        "Karena katalisnya hanya satu jenis"
+      ],
+      "answer": 1,
+      "explain": "HTS berlangsung cepat pada suhu tinggi tetapi tidak tuntas. LTS pada suhu rendah menggeser kesetimbangan hingga CO tersisa 0,3%. Pendingin di tengah memanen panasnya menjadi steam."
+    },
+    "scenes": [
+      {
+        "start": 0,
+        "end": 6.5,
+        "role": "HOOK",
+        "title": "CO itu racun, ubah jadi H2",
+        "on_screen": "WATER-GAS SHIFT. CO ITU RACUN. UBAH JADI H2",
+        "visual": "Syngas dan steam masuk, label CO ditolak, H2 sebagai tujuan.",
+        "purpose": "Mengklaim CO harus diubah, bukan dibuang begitu saja.",
+        "watch": "Steam + CO jadi H2 adalah ringkasan satu baris di hook ini."
+      },
+      {
+        "start": 6.5,
+        "end": 13,
+        "role": "REAKSI",
+        "title": "Persamaan shift yang eksotermik",
+        "on_screen": "CO + H2O menjadi CO2 + H2. Delta H minus 41 kJ per mol",
+        "visual": "Persamaan shift, panas dilepas, H produk dari air.",
+        "purpose": "Memberi persamaan dan sumber atom hidrogennya.",
+        "watch": "Banyak yang mengira H2 berasal dari CO. Di sini ditegaskan: dari air (steam)."
+      },
+      {
+        "start": 13,
+        "end": 19.5,
+        "role": "HTS",
+        "title": "Reaktor HTS 350 sampai 450°C",
+        "on_screen": "REACTOR HTS 350 sampai 450°C Katalis Fe-Cr CO 15% jadi 3%",
+        "visual": "Reaktor HTS dengan katalis Fe-Cr, CO turun drastis pertama.",
+        "purpose": "Menunjukkan tahap cepat suhu tinggi.",
+        "watch": "Angka 15% ke 3% adalah penurunan CO tahap pertama. Masih belum cukup bersih."
+      },
+      {
+        "start": 19.5,
+        "end": 26.5,
+        "role": "COOLER",
+        "title": "Didinginkan di tengah, panas jadi steam",
+        "on_screen": "DIDINGINKAN DI TENGAH. Panasnya dipanen jadi steam",
+        "visual": "Interstage cooler, panas dipanen jadi steam untuk dipakai lagi.",
+        "purpose": "Menjelaskan kenapa ada pendingin antar reaktor.",
+        "watch": "Panas eksotermik tidak dibuang. Dipanen jadi steam, inilah heat recovery-nya."
+      },
+      {
+        "start": 26.5,
+        "end": 33.5,
+        "role": "LTS",
+        "title": "Reaktor LTS 200 sampai 250°C",
+        "on_screen": "REACTOR LTS 200 sampai 250°C Katalis Cu-Zn CO 3% jadi 0,3%",
+        "visual": "Reaktor LTS katalis Cu-Zn, CO turun sampai sepersepuluh lagi.",
+        "purpose": "Menunjukkan tahap tuntas suhu rendah.",
+        "watch": "Katalisnya beda (Cu-Zn) karena suhunya beda. Satu katalis tidak cocok untuk dua suhu."
+      },
+      {
+        "start": 33.5,
+        "end": 40.9,
+        "role": "TAKEAWAY",
+        "title": "H2 murni 99,99%",
+        "on_screen": "H2 MURNI 99,99%. SHIFT = CO JADI H2",
+        "visual": "CO2 removal lalu PSA, H2 99,99%, ajakan follow.",
+        "purpose": "Menutup dengan produk akhir dan alasan dua tahap.",
+        "watch": "Kalimat penutupnya menjawab tension awal: dua tahap karena kesetimbangan dan kinetika maunya berlawanan."
+      }
+    ]
+  },
+  {
+    "slug": "b40-transesterifikasi-motion",
+    "title": "B40: Transesterifikasi Sawit Menjadi Biodiesel",
+    "hook": "Solar di SPBU tidak 100 persen minyak bumi, 40 persennya sawit.",
+    "date": "2026-10-18",
+    "ig": "https://www.instagram.com/reel/Deo14FWk23b/",
+    "src": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-18/motion-1/motion.mp4",
+    "poster_src": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-18/motion-1/cover.jpg",
+    "duration": 41.0,
+    "tag": "Biodiesel dan Energi",
+    "intro": "Sejak Januari 2025, solar di Indonesia wajib B40, yaitu campuran 40 persen biodiesel dari sawit dan 60 persen solar minyak bumi. Video ini membedah reaksi transesterifikasi yang mengubah trigliserida sawit menjadi FAME sebelum pencampuran dilakukan.",
+    "tension": "Solar yang dibeli setiap hari ternyata tidak murni minyak bumi, dan minyak sawit mentah tidak dapat langsung dicampurkan karena trigliseridanya terlalu kental dan tidak stabil.",
+    "takeaway": "Satu tangki solar B40 adalah hasil reaksi kimia sawit: trigliserida diubah menjadi FAME melalui transesterifikasi, kemudian dicampurkan 40 berbanding 60 dengan solar minyak bumi.",
+    "facts": [
+      "B40 adalah campuran 40 persen biodiesel (FAME dari minyak sawit) dan 60 persen solar, dengan mandatori di Indonesia mulai 1 Januari 2025.",
+      "Transesterifikasi mengubah trigliserida dengan 3 metanol menjadi 3 FAME (biodiesel) dan gliserol, dengan katalis basa.",
+      "Minyak sawit mentah tidak dapat langsung dicampurkan karena trigliseridanya terlalu kental dan tidak stabil."
+    ],
+    "quiz": {
+      "answer": 1,
+      "explain": "Transesterifikasi mereaksikan trigliserida dengan 3 metanol berkatalis basa menjadi 3 FAME dan gliserol. FAME yang dihasilkan kemudian dicampur 40 berbanding 60 dengan solar menjadi B40.",
+      "options": [
+        "Trigliserida + air menjadi solar + gliserol",
+        "Trigliserida + 3 metanol menjadi 3 FAME + gliserol",
+        "CPO langsung dicampur tanpa reaksi menjadi B40"
+      ],
+      "q": "Reaksi transesterifikasi pada pembuatan biodiesel B40 adalah?"
+    },
+    "scenes": [
+      {
+        "end": 7,
+        "on_screen": "SOLAR DI SPBU TIDAK 100 PERSEN MINYAK BUMI, 40 PERSENNYA SAWIT",
+        "purpose": "Menohok penonton dengan fakta solar yang dibeli tiap hari tidak murni minyak bumi.",
+        "role": "HOOK",
+        "start": 0,
+        "title": "Komposisi solar yang tidak murni minyak bumi",
+        "visual": "Headline kinetik dua baris masuk berurutan, jeriken solar berputar pelan di tengah frame.",
+        "watch": "Baca dua baris judul dan jeriken solar di tengah bingkai sebagai klaim komposisi yang akan dibuktikan."
+      },
+      {
+        "end": 14,
+        "on_screen": "SEJAK JANUARI 2025, SOLAR DI INDONESIA WAJIB B40",
+        "purpose": "Membangun tension: aturan mandatori membuat fakta hook tidak bisa dihindari.",
+        "role": "TENSION",
+        "start": 7,
+        "title": "Mandatori B40 sejak Januari 2025",
+        "visual": "Bar komposisi 40:60 terisi animasi, label B40 muncul, kalender Januari 2025 ditandai.",
+        "watch": "Perhatikan batang komposisi 40 berbanding 60 dan penanda kalender Januari 2025 sebagai dasar aturannya."
+      },
+      {
+        "end": 21,
+        "on_screen": "TAPI MINYAK SAWIT MENTAH TIDAK BISA LANGSUNG DICAMPUR",
+        "purpose": "Membangun tension kedua: ada masalah teknis yang harus dipecahkan dulu.",
+        "role": "TENSION",
+        "start": 14,
+        "title": "Trigliserida yang terlalu kental",
+        "visual": "Tetesan minyak kental menetes lambat, molekul trigliserida digambar sebagai tiga rantai asam lemak.",
+        "watch": "Amati tetesan yang bergerak lambat dan gambar molekul dengan tiga rantai asam lemak sebagai akar persoalannya."
+      },
+      {
+        "end": 28,
+        "on_screen": "TRANSESTERIFIKASI: TRIGLISERIDA + METANOL JADI BIODIESEL + GLISEROL",
+        "purpose": "Payoff tahap satu: reaksi kimia yang mengubah minyak kental jadi biodiesel.",
+        "role": "PAYOFF",
+        "start": 21,
+        "title": "Reaksi transesterifikasi menghasilkan FAME",
+        "visual": "Animasi molekul: trigliserida bertemu metanol, panah reaksi, terpecah menjadi FAME dan gliserol.",
+        "watch": "Ikuti pecahnya molekul trigliserida setelah panah reaksi menjadi molekul FAME dan gliserol."
+      },
+      {
+        "end": 35,
+        "on_screen": "FAME DICAMPUR 40:60 DENGAN SOLAR, JADILAH B40",
+        "purpose": "Payoff tahap dua: dari molekul ke produk yang dibeli di SPBU.",
+        "role": "PAYOFF",
+        "start": 28,
+        "title": "Pencampuran FAME 40 berbanding 60",
+        "visual": "FAME mengalir ke tangki pencampur, bar 40:60 terisi, label B40 muncul di tangki.",
+        "watch": "Perhatikan pengisian batang 40 berbanding 60 pada tangki pencampur sampai label B40 tampil."
+      },
+      {
+        "end": 41,
+        "on_screen": "SATU TANGKI SOLAR = HASIL REAKSI KIMIA SAWIT. SIMPAN VIDEO INI.",
+        "purpose": "Takeaway satu kalimat plus ajakan simpan sebagai bahan diskusi.",
+        "role": "TAKEAWAY",
+        "start": 35,
+        "title": "Satu tangki solar sebagai hasil reaksi kimia",
+        "visual": "Takeaway kinetik satu kalimat, tombol simpan berdenyut pelan, watermark @ilmutekkim.",
+        "watch": "Baca kalimat penutup pada tangki sebagai rangkuman seluruh rantai reaksi dan pencampurannya."
+      }
+    ]
+  },
+  {
+    "slug": "confined-space-masuk-tangki",
+    "title": "Masuk Tangki dan Ruang Terbatas: Mengapa Izin, Uji Gas, dan Penjaga Tidak Boleh Dilewati",
+    "hook": "Tangki kosong terlihat aman. Isi udaranya belum tentu aman.",
+    "date": "2026-10-10",
+    "ig": "https://www.instagram.com/reel/DeUS8KHjw_f/",
+    "src": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-10/motion-1/motion.mp4",
+    "poster_src": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-10/motion-1/cover.jpg",
+    "duration": 40.9,
+    "tag": "Keselamatan Proses",
+    "intro": "Tangki, vessel, dan ruang terbatas lain dapat menyimpan sisa uap dan udara yang tidak layak napas walaupun tampak kosong dari luar. Video ini membedah urutan pengaman yang wajib dibuktikan sebelum satu orang pun masuk ke dalamnya.",
+    "tension": "Sisa uap dan oksigen yang rendah tidak terlihat dari luar, sehingga masuk tanpa urutan pengaman dapat membuat penolong yang menyusul ikut menjadi korban.",
+    "takeaway": "Keadaan kosong tidak membuktikan apa pun. Yang membuktikan ruang terbatas aman dimasuki adalah izin tertulis, pengujian gas, ventilasi, penjaga di luar, dan rencana penyelamatan yang tidak mengorbankan penolong.",
+    "facts": [
+      "Pekerjaan masuk ruang terbatas seperti tangki memerlukan izin tertulis dan pengujian atmosfer sebelum dan selama pekerjaan berlangsung.",
+      "Urutan pengamannya mencakup ventilasi, penjaga yang bertugas di luar ruang terbatas, dan rencana penyelamatan yang telah disiapkan sebelum pekerjaan dimulai.",
+      "Penolong tidak boleh masuk tanpa alat pelindung pernapasan yang sesuai, karena udara yang melumpuhkan pekerja pertama akan melumpuhkan penolong dengan cara yang sama."
+    ],
+    "quiz": {
+      "q": "Mengapa penolong tidak boleh langsung masuk mengejar pekerja yang pingsan di dalam tangki?",
+      "options": [
+        "Karena jumlah pekerja di luar harus tetap genap",
+        "Karena udara yang melumpuhkan pekerja pertama akan melumpuhkan penolong juga, sehingga penyelamatan mensyaratkan alat napas dan peralatan penarik dari luar",
+        "Karena izin tertulis melarang lebih dari satu orang di dalam tangki"
+      ],
+      "answer": 1,
+      "explain": "Bahaya di ruang terbatas adalah atmosfernya, bukan lokasinya. Penolong yang masuk tanpa alat pelindung pernapasan menghirup udara yang sama dan menjadi korban berikutnya, sehingga penyelamatan dirancang melalui penjaga di luar, tali penarik, dan alat napas yang sesuai."
+    },
+    "scenes": [
+      {
+        "start": 0,
+        "end": 6,
+        "role": "HOOK",
+        "title": "Tangki kosong yang tampak aman",
+        "on_screen": "Tangki kosong terlihat aman. Isi udaranya belum tentu aman",
+        "visual": "Tangki besar cerah terbuka, pekerja mendekat lalu berhenti di garis izin, awan gas samar di dalam tangki mulai terlihat",
+        "purpose": "Membuka serangan bahwa tangki kosong yang terlihat aman bisa menyimpan bahaya tidak terlihat",
+        "watch": "Perhatikan pekerja yang berhenti di garis izin dan awan gas samar di dalam tangki: keduanya adalah pernyataan utama video ini."
+      },
+      {
+        "start": 6,
+        "end": 13,
+        "role": "TENSION",
+        "title": "Bahaya yang tidak dapat dinilai dengan mata",
+        "on_screen": "Sisa uap dan oksigen rendah tidak terlihat dari luar",
+        "visual": "Potongan tangki memperlihatkan lapisan gas samar di dasar dan indikator oksigen yang belum diperiksa",
+        "purpose": "Menunjukkan bahaya yang tidak bisa dinilai hanya dengan mata",
+        "watch": "Lapisan gas di dasar tangki dan indikator oksigen yang belum diperiksa menunjukkan bahwa penampakan kosong tidak memberikan informasi tentang atmosfer di dalamnya."
+      },
+      {
+        "start": 13,
+        "end": 20,
+        "role": "TENSION",
+        "title": "Siapa yang membuktikan udara di dalam aman",
+        "on_screen": "Siapa yang membuktikan udara di dalam aman sebelum orang masuk?",
+        "visual": "Detektor gas diulurkan ke dalam tangki dari luar, layar alat menampilkan hasil uji bertahap",
+        "purpose": "Menahan jawaban dengan pertanyaan siapa yang memastikan udara di dalam layak napas",
+        "watch": "Detektor diulurkan dari luar sebelum ada orang di dalam, dan urutan posisi ini merupakan bagian dari pengamannya, bukan detail kebetulan."
+      },
+      {
+        "start": 20,
+        "end": 27,
+        "role": "PAYOFF",
+        "title": "Urutan pengaman sebelum masuk",
+        "on_screen": "Izin tertulis, uji gas, ventilasi, baru boleh masuk",
+        "visual": "Empat kartu urutan muncul berurutan dengan ukuran seragam: izin, detektor gas, blower ventilasi, pekerja masuk dengan tali pengaman",
+        "purpose": "Memberi urutan pengaman inti sebelum satu orang pun masuk",
+        "watch": "Empat kartu tampil berurutan dengan ukuran seragam: izin, uji gas, ventilasi, dan terakhir pekerja masuk dengan tali pengaman."
+      },
+      {
+        "start": 27,
+        "end": 34,
+        "role": "PAYOFF",
+        "title": "Penjaga di luar dan penyelamatan tanpa korban baru",
+        "on_screen": "Satu orang menjaga di luar. Penolong tidak masuk tanpa alat napas",
+        "visual": "Pekerja di dalam terhubung tali ke tripod, penjaga di luar memegang ujung tali dan radio, ikon larangan masuk tanpa alat napas muncul",
+        "purpose": "Menegaskan peran penjaga di luar dan larangan penyelamatan tanpa alat",
+        "watch": "Tali yang menghubungkan pekerja ke tripod dan penjaga yang memegang ujungnya di luar adalah mekanisme penyelamatan yang tidak menuntut penolong masuk."
+      },
+      {
+        "start": 34,
+        "end": 40.9,
+        "role": "TAKEAWAY",
+        "title": "Izin dan uji gas yang membuktikan keamanan",
+        "on_screen": "Kosong terlihatnya, izin dan uji gas yang membuktikan amannya. Simpan video ini",
+        "visual": "Tangki cerah dengan semua perangkat pengaman lengkap, pekerja keluar dengan selamat, watermark @ilmutekkim",
+        "purpose": "Menutup dengan kesimpulan satu kalimat dan aksi simpan",
+        "watch": "Adegan penutup menampilkan perangkat pengaman yang lengkap dan pekerja yang keluar dengan selamat, sebagai hasil dari urutan yang tidak dilompati."
+      }
+    ]
+  },
+  {
+    "slug": "dead-leg-pipa-buntu-berbahaya",
+    "title": "Dead Leg: Pipa Buntu yang Diam-Diam Berbahaya",
+    "hook": "Pipa buntu yang tidak dialiri justru menyimpan bahaya yang tidak terlihat.",
+    "date": "2026-10-15",
+    "ig": "https://www.instagram.com/reel/DehLEvYE7tO/",
+    "src": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-15/motion-1/motion.mp4",
+    "poster_src": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-15/motion-1/cover.jpg",
+    "duration": 41.0,
+    "tag": "Perpipaan dan Keselamatan Proses",
+    "intro": "Dead leg adalah cabang pipa buntu yang tidak dialiri fluida. Video ini membedah alasan cabang yang diam tersebut berbahaya, dari fluida yang stagnan sampai kontaminan yang terdorong masuk ke aliran utama saat katup dibuka.",
+    "tension": "Cabang pipa yang tidak dipakai terlihat tidak bermasalah, padahal di dalamnya fluida stagnan, korosi berjalan terus, dan endapan menumpuk tanpa terlihat dari luar.",
+    "takeaway": "Pipa yang tidak dialiri tetap harus dirawat. Cabang buntu dihindari dari desain, dibuat sesingkat mungkin apabila terpaksa ada, dan dibilas secara berkala.",
+    "facts": [
+      "Dead leg adalah cabang pipa buntu tanpa aliran sehingga fluidanya stagnan.",
+      "Kondisi stagnan mempercepat korosi setempat dan pertumbuhan mikroba pada dinding pipa.",
+      "Aturan praktis perlindungan korosi menyatakan cabang dari jalur beraliran dengan rasio panjang terhadap diameter (L/D) melebihi 3 kemungkinan besar bermasalah."
+    ],
+    "quiz": {
+      "answer": 1,
+      "explain": "Di dalam cabang tanpa aliran, fluida stagnan sehingga korosi setempat dan endapan menumpuk tanpa terbawa aliran. Saat katup dibuka atau aliran dialihkan, tumpukan itu terdorong masuk ke aliran utama dan mengotori produk.",
+      "options": [
+        "Karena cabang buntu menerima tekanan paling tinggi di pabrik",
+        "Karena fluida di dalamnya stagnan sehingga korosi dan endapan menumpuk, kemudian terdorong ke aliran utama saat aliran berubah",
+        "Karena cabang buntu selalu terbuat dari bahan yang lebih lemah"
+      ],
+      "q": "Mengapa cabang pipa buntu yang tidak dialiri berbahaya bagi aliran utama?"
+    },
+    "scenes": [
+      {
+        "end": 6,
+        "on_screen": "PIPA BUNTU / DIAM-DIAM BERBAHAYA",
+        "purpose": "Menancapkan fakta bahwa pipa yang tidak dipakai justru berbahaya.",
+        "role": "HOOK",
+        "start": 0,
+        "title": "Cabang buntu disorot pada pipa utama",
+        "visual": "Pipa utama beranimasi aliran; satu cabang buntu disorot lingkaran peringatan.",
+        "watch": "Perhatikan cabang yang disorot peringatan pada pipa utama yang beraliran sebagai pokok persoalan video ini."
+      },
+      {
+        "end": 13,
+        "on_screen": "Dead leg: cabang pipa yang tidak dialiri",
+        "purpose": "Menjelaskan apa itu dead leg: cabang tanpa aliran.",
+        "role": "TENSION",
+        "start": 6,
+        "title": "Aliran berhenti di mulut cabang",
+        "visual": "Aliran berhenti di mulut cabang; partikel di dalam cabang diam.",
+        "watch": "Bandingkan partikel yang bergerak pada aliran utama dengan partikel yang diam di dalam cabang."
+      },
+      {
+        "end": 20,
+        "on_screen": "Diam bukan berarti aman: korosi dan endapan menumpuk",
+        "purpose": "Menunjukkan bahaya yang menumpuk diam-diam: korosi dan endapan.",
+        "role": "TENSION",
+        "start": 13,
+        "title": "Korosi dan endapan menumpuk di cabang",
+        "visual": "Dinding cabang menebal karat; endapan menumpuk di dasar cabang.",
+        "watch": "Amati lapisan karat yang menebal pada dinding dan endapan yang bertambah di dasar cabang."
+      },
+      {
+        "end": 27,
+        "on_screen": "Saat aliran berubah, semuanya ikut ke produk",
+        "purpose": "Menunjukkan momen bahaya: kontaminan terdorong ke aliran utama.",
+        "role": "PAYOFF",
+        "start": 20,
+        "title": "Kontaminan terdorong ke aliran utama",
+        "visual": "Valve terbuka; endapan terdorong masuk ke pipa utama dan terbawa aliran.",
+        "watch": "Ikuti gerakan endapan dari cabang masuk ke pipa utama sesaat setelah katup terbuka."
+      },
+      {
+        "end": 35,
+        "on_screen": "Hindari cabang buntu. Kalau terpaksa, buat sependek mungkin dan flush berkala.",
+        "purpose": "Memberi solusi desain yang benar.",
+        "role": "PAYOFF",
+        "start": 27,
+        "title": "Desain ulang cabang dan pembilasan berkala",
+        "visual": "Cabang buntu dipotong menjadi loop; jadwal flush muncul sebagai checklist.",
+        "watch": "Perhatikan perubahan bentuk cabang menjadi lintasan berputar dan daftar periksa pembilasan sebagai penyelesaiannya."
+      },
+      {
+        "end": 41,
+        "on_screen": "Pipa yang tidak dialiri tetap harus dirawat. Simpan video ini.",
+        "purpose": "Takeaway satu kalimat dan ajakan simpan.",
+        "role": "TAKEAWAY",
+        "start": 35,
+        "title": "Pipa tanpa aliran tetap memerlukan perawatan",
+        "visual": "Kartu takeaway muncul; watermark dan progress bar penuh.",
+        "watch": "Baca kartu penutup sebagai kesimpulan bahwa ketiadaan aliran tidak menghapus kewajiban perawatan."
+      }
+    ]
+  },
+  {
+    "slug": "flare-stack-api-kilang-menyala",
+    "title": "Flare Stack: Mengapa Api di Kilang Menyala Terus sebagai Alat Pengaman Terakhir",
+    "hook": "Api di kilang menyala terus, bukan buang-buang gas.",
+    "date": "2026-10-13",
+    "ig": "https://www.instagram.com/reel/DecBcGjD3fR/",
+    "src": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-13/motion-1/motion.mp4",
+    "poster_src": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-13/motion-1/cover.jpg",
+    "duration": 40.9,
+    "tag": "Kilang dan Keselamatan Proses",
+    "intro": "Api yang menyala terus di ujung cerobong tertinggi kilang sering dibaca sebagai pemborosan gas. Video ini membedah dari mana gas yang dibakar itu berasal, mengapa gas tersebut harus melewati knockout drum terlebih dahulu, dan mengapa pilot burner tidak boleh padam.",
+    "tension": "Banyak orang mengira api di kilang adalah gas yang dibakar sia-sia, padahal api tersebut adalah alat pengaman terakhir yang tidak boleh padam.",
+    "takeaway": "Flare adalah alat pengaman terakhir: tekanan berlebih dibuang dari sistem, gasnya dibakar menjadi karbon dioksida dan uap air, dan apinya dijaga agar tidak pernah padam.",
+    "facts": [
+      "Flare membakar gas hidrokarbon berlebih menjadi karbon dioksida dan uap air agar gas tersebut tidak dilepas mentah ke udara.",
+      "Gas menuju flare berasal dari katup pengaman, blowdown, dan pelepasan saat penyalaan atau penghentian operasi.",
+      "Knockout drum memisahkan cairan dari aliran gas, sehingga hanya gas yang sampai ke ujung flare."
+    ],
+    "quiz": {
+      "q": "Mengapa gas berlebih tidak dilepas mentah ke udara, melainkan dialirkan ke flare untuk dibakar?",
+      "options": [
+        "Agar kilang tampak beroperasi pada malam hari",
+        "Karena pembakaran mengubah gas hidrokarbon menjadi karbon dioksida dan uap air, sedangkan pelepasan mentah membuang hidrokarbon yang belum terbakar langsung ke udara",
+        "Karena gas tidak dapat mengalir tanpa dibakar"
+      ],
+      "answer": 1,
+      "explain": "Gas berlebih harus keluar dari sistem demi keselamatan tekanan, tetapi pelepasannya tidak harus berbentuk gas hidrokarbon mentah. Flare membakarnya menjadi karbon dioksida dan uap air, dan pilot burner menjaga pembakaran itu selalu tersedia pada saat gas datang."
+    },
+    "scenes": [
+      {
+        "start": 0,
+        "end": 6.5,
+        "role": "HOOK",
+        "title": "Api kilang yang menyala terus",
+        "on_screen": "API DI KILANG MENYALA TERUS BUKAN BUANG-BUANG GAS",
+        "visual": "Kilang malam yang terang, flare stack tinggi dengan api menyala di ujungnya. Kamera mendekat ke api.",
+        "purpose": "Hook: api flare yang terlihat boros ternyata alat pengaman",
+        "watch": "Flare stack adalah cerobong tertinggi di kilang dan apinya berada di ujung paling atas; posisi itu sendiri merupakan petunjuk bahwa fungsinya berkaitan dengan pelepasan ke tempat yang aman."
+      },
+      {
+        "start": 6.5,
+        "end": 13,
+        "role": "TENSION",
+        "title": "Miskonsepsi bahwa gas dibakar sia-sia",
+        "on_screen": "ORANG MENGIRA GAS DIBAKAR SIA-SIA",
+        "visual": "Siluet pengamat menunjuk ke arah api, tanda tanya besar muncul di sampingnya.",
+        "purpose": "Tension: miskonsepsi umum bahwa flare adalah pemborosan",
+        "watch": "Tanda tanya di samping pengamat merumuskan miskonsepsi yang akan dijawab: gas yang terlihat terbakar belum tentu gas yang terbuang tanpa fungsi."
+      },
+      {
+        "start": 13,
+        "end": 20,
+        "role": "TENSION",
+        "title": "Gas berlebih harus keluar dari sistem",
+        "on_screen": "GAS BERLEBIH HARUS KELUAR DARI SISTEM",
+        "visual": "Bejana bertekanan dengan relief valve terbuka, aliran gas keluar dengan panah ke atas.",
+        "purpose": "Tension: tekanan berlebih wajib dibuang, tidak bisa ditahan",
+        "watch": "Katup pengaman yang terbuka pada bejana bertekanan adalah titik awal alirannya: gas ini keluar karena tekanan di dalam sistem wajib diturunkan."
+      },
+      {
+        "start": 20,
+        "end": 27,
+        "role": "PAYOFF",
+        "title": "Jalur gas melalui knockout drum",
+        "on_screen": "GAS MENGALIR KE FLARE LEWAT KNOCKOUT DRUM",
+        "visual": "Aliran gas bergerak lewat pipa ke knockout drum yang memisahkan tetesan cairan, lalu gas lanjut naik ke flare stack.",
+        "purpose": "Payoff: jalur gas dari sistem ke flare divisualkan",
+        "watch": "Knockout drum berada di tengah jalur dan memisahkan tetesan cairan dari aliran, sehingga yang melanjutkan perjalanan naik ke ujung flare hanyalah gas."
+      },
+      {
+        "start": 27,
+        "end": 34,
+        "role": "PAYOFF",
+        "title": "Pilot burner yang menjaga api tetap menyala",
+        "on_screen": "PILOT BURNER MENJAGA API TETAP MENYALA",
+        "visual": "Ujung flare diperbesar, pilot burner kecil menyala terus, gas terbakar menjadi label karbon dioksida dan uap air.",
+        "purpose": "Payoff: api tidak boleh padam karena gas mentah akan lolos",
+        "watch": "Pilot burner adalah api kecil yang menyala terus di ujung flare, dan label hasil bakarnya menunjukkan perubahan gas hidrokarbon menjadi karbon dioksida dan uap air."
+      },
+      {
+        "start": 34,
+        "end": 40.9,
+        "role": "TAKEAWAY",
+        "title": "Flare sebagai alat pengaman terakhir",
+        "on_screen": "FLARE = ALAT PENGAMAN TERAKHIR. SIMPAN VIDEO INI.",
+        "visual": "Tiga kartu ringkas: buang tekanan, bakar jadi CO2, jangan padam. Kartu CTV simpan muncul.",
+        "purpose": "Takeaway: tiga poin ringkas dan CTV simpan",
+        "watch": "Tiga kartu penutup merangkum fungsinya secara berurutan: buang tekanan, bakar menjadi CO2, dan jangan padam."
+      }
+    ]
+  },
+  {
+    "slug": "gudang-bahan-kimia-segregasi-bunding",
+    "title": "Gudang Bahan Kimia: Segregasi Berdasarkan Kompatibilitas dan Fungsi Bunding Penahan Tumpahan",
+    "hook": "Gudang kimia salah tata bisa jadi bom waktu.",
+    "date": "2026-10-12",
+    "ig": "https://www.instagram.com/reel/DeZiI7IiXbS/",
+    "src": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-12/motion-1-v2/motion.mp4",
+    "poster_src": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-12/motion-1-v2/cover.jpg",
+    "duration": 40.9,
+    "tag": "Penyimpanan Bahan Kimia",
+    "intro": "Gudang bahan kimia tidak ditata berdasarkan kerapian, melainkan berdasarkan kompatibilitas bahan yang disimpan di dalamnya. Video ini membedah dua pasangan bahan yang tidak boleh bertemu, pembagian zona penyimpanan menurut kelas bahaya, dan fungsi bunding sebagai pertahanan lapis kedua.",
+    "tension": "Gudang kimia yang mencampur oksidator dengan bahan mudah terbakar adalah bom waktu yang menunggu pemicu.",
+    "takeaway": "Periksa kompatibilitas sebelum menyimpan, pisahkan bahan ke dalam zona menurut kelas bahayanya, dan pastikan bunding tersedia untuk menahan tumpahan tetap berada di zonanya.",
+    "facts": [
+      "Mencampur pemutih (natrium hipoklorit) dengan asam melepaskan gas klorin yang beracun.",
+      "Bahan oksidator yang tercampur dengan bahan mudah terbakar dapat memicu kebakaran.",
+      "Isi gudang bahan kimia dipisahkan berdasarkan kompatibilitas ke dalam zona mudah terbakar, zona korosif, dan zona oksidator, masing-masing dengan jarak dan pembatas fisik, sedangkan bunding menahan tumpahan agar tidak menyebar ke zona lain."
+    ],
+    "quiz": {
+      "q": "Pasangan bahan mana yang pelepasannya menghasilkan gas klorin beracun apabila tercampur?",
+      "options": [
+        "Asam dengan pemutih (natrium hipoklorit)",
+        "Oksidator dengan bahan mudah terbakar",
+        "Dua bahan korosif dari kelas yang sama"
+      ],
+      "answer": 0,
+      "explain": "Asam yang bertemu pemutih (natrium hipoklorit) melepaskan gas klorin yang beracun. Pasangan oksidator dengan bahan mudah terbakar berbahaya melalui jalur yang berbeda, yaitu pemicuan kebakaran, dan keduanya menjadi alasan segregasi gudang berdasarkan kompatibilitas."
+    },
+    "scenes": [
+      {
+        "start": 0,
+        "end": 6.5,
+        "role": "HOOK",
+        "title": "Gudang kimia yang salah tata",
+        "on_screen": "GUDANG KIMIA SALAH TATA BISA JADI BOM WAKTU",
+        "visual": "Gudang terang berisi drum-drum berlabel. Satu drum menetes, tetesan mengalir ke drum lain. Ikon peringatan muncul.",
+        "purpose": "Hook: gudang kimia yang salah tata menyimpan bahaya tak terlihat",
+        "watch": "Satu drum yang menetes dan tetesannya yang mengalir menuju drum lain adalah seluruh persoalannya: di gudang kimia, kebocoran kecil bergerak menuju bahan lain."
+      },
+      {
+        "start": 6.5,
+        "end": 13,
+        "role": "TENSION",
+        "title": "Asam bertemu pemutih menghasilkan gas klorin",
+        "on_screen": "ASAM + PEMUTIH = GAS KLORIN BERACUN",
+        "visual": "Dua drum (asam dan pemutih) bersebelahan, cairannya bercampur, muncul awan gas berlabel bahaya.",
+        "purpose": "Tension: contoh konkret inkompatibilitas yang menghasilkan gas beracun",
+        "watch": "Dua drum yang bersebelahan dan awan gas yang muncul dari campurannya menunjukkan bahwa kedekatan fisik saja sudah cukup menjadi jalur kejadian."
+      },
+      {
+        "start": 13,
+        "end": 20,
+        "role": "TENSION",
+        "title": "Oksidator bertemu bahan mudah terbakar",
+        "on_screen": "OKSIDATOR + BAHAN MUDAH TERBAKAR = API",
+        "visual": "Drum oksidator di samping karton bahan mudah terbakar, muncul simbol api dan peringatan.",
+        "purpose": "Tension: contoh kedua, oksidator bertemu bahan mudah terbakar",
+        "watch": "Simbol api pada pasangan kedua ini membedakannya dari pasangan pertama: yang satu menghasilkan gas beracun, yang lain memicu kebakaran."
+      },
+      {
+        "start": 20,
+        "end": 27,
+        "role": "PAYOFF",
+        "title": "Segregasi berdasarkan kompatibilitas",
+        "on_screen": "PISAH BERDASARKAN KOMPATIBILITAS",
+        "visual": "Denah gudang terbagi tiga zona berwarna: mudah terbakar, korosif, oksidator, dengan pembatas fisik dan label tiap zona.",
+        "purpose": "Payoff: solusi segregasi divisualkan sebagai peta zonasi",
+        "watch": "Denah yang terbagi menjadi zona mudah terbakar, korosif, dan oksidator dengan pembatas fisik dan label pada setiap zona adalah wujud praktis dari segregasi."
+      },
+      {
+        "start": 27,
+        "end": 34,
+        "role": "PAYOFF",
+        "title": "Bunding menahan tumpahan di zonanya",
+        "on_screen": "BUNDING MENAHAN TUMPAHAN DI ZONANYA",
+        "visual": "Tangki di dalam tanggul bunding. Cairan tumpah dari tangki tertahan di dalam tanggul, tidak mengalir ke zona lain.",
+        "purpose": "Payoff: bunding sebagai pertahanan lapis kedua",
+        "watch": "Cairan tumpah yang berhenti di dalam tanggul dan tidak mengalir ke zona lain adalah fungsi bunding yang harus dibaca pada adegan ini."
+      },
+      {
+        "start": 34,
+        "end": 40.9,
+        "role": "TAKEAWAY",
+        "title": "Periksa kompatibilitas sebelum menyimpan",
+        "on_screen": "CEK KOMPATIBILITAS SEBELUM MENYIMPAN. SIMPAN VIDEO INI.",
+        "visual": "Tiga kartu ringkas: cek kompatibilitas, pisah zona, pastikan bunding. Kartu CTV simpan muncul.",
+        "purpose": "Takeaway: tiga aturan ringkas dan CTV simpan",
+        "watch": "Tiga kartu penutup merangkum seluruh urutannya: periksa kompatibilitas, pisahkan zona, dan pastikan bunding tersedia."
+      }
+    ]
+  },
+  {
+    "slug": "hybrid-pompa-sentrifugal",
+    "title": "Pompa Sentrifugal: Tidak Menghisap, Melainkan Melempar",
+    "hook": "Pompa sentrifugal tidak menghisap. Alat ini melempar cairan ke luar.",
+    "date": "2026-10-20",
+    "ig": "https://www.instagram.com/reel/DetKKk4jMy6/",
+    "src": "/home/hatch/workspace/coded-motion-graphics/videos/pump-final/renders/pump-ep2.mp4",
+    "poster_src": null,
+    "duration": 40.5,
+    "tag": "Peralatan Proses",
+    "intro": "Video ini membuka dengan impeller yang berputar dalam tampilan tiga dimensi dan melempar cairan ke luar sejak detik pertama. Urutan berikutnya menjelaskan peran tekanan atmosfer pada sisi masuk, perubahan kecepatan menjadi tekanan di volute, dan hukum afinitas yang mengatur hubungan putaran dengan laju alir, head, dan daya.",
+    "tension": "Apabila pompa sentrifugal tidak menghisap, apa yang mendorong air sampai dapat naik ke tangki atas?",
+    "takeaway": "Yang bekerja pada pompa sentrifugal bukan hisapan, melainkan lemparan impeller. Lemparan tersebut menghasilkan kecepatan, volute mengubah kecepatan menjadi tekanan, dan tekanan inilah yang menggerakkan cairan menuju discharge.",
+    "facts": [
+      "Cairan masuk secara axial melalui suction di tengah impeller dan keluar secara radial melalui discharge. Impeller yang berputar melempar cairan ke luar.",
+      "Di dalam volute yang salurannya melebar, kecepatan aliran turun dan tekanan naik, sehingga kecepatan yang diberikan impeller berubah menjadi tekanan pada sisi discharge.",
+      "Contoh hukum afinitas dengan basis 1.450 rpm, Q 100 m3/jam, H 30 m, dan P 15 kW: pada putaran 2.900 rpm diperoleh Q 200 m3/jam, H 120 m, dan P 120 kW, sehingga daya naik delapan kali untuk putaran dua kali."
+    ],
+    "quiz": {
+      "answer": 2,
+      "explain": "Hukum afinitas menyatakan daya sebanding dengan putaran pangkat tiga. Putaran yang naik dua kali menghasilkan daya dua pangkat tiga, yaitu delapan kali, sebagaimana ditunjukkan contoh dari 15 kW menjadi 120 kW.",
+      "options": [
+        "Dua kali",
+        "Empat kali",
+        "Delapan kali"
+      ],
+      "q": "Menurut hukum afinitas, apabila putaran pompa sentrifugal dinaikkan menjadi dua kali, berapa kali daya yang dibutuhkan?"
+    },
+    "scenes": [
+      {
+        "end": 6.5,
+        "on_screen": "POMPA SENTRIFUGAL / TIDAK MENGHISAP, DIA MELEMPAR",
+        "purpose": "Membuka dengan klaim mekanisme utama melalui gerak impeller tiga dimensi sejak detik pertama.",
+        "role": "HOOK",
+        "start": 0,
+        "title": "Impeller berputar dan melempar cairan",
+        "visual": "Tampilan tiga dimensi impeller yang berputar, dengan partikel biru masuk dari tengah impeller lalu terlempar ke luar menuju discharge.",
+        "watch": "Ikuti gerak partikel dari tengah menuju arah luar, karena arah lemparan tersebut adalah klaim utama yang dijelaskan pada seluruh bagian berikutnya."
+      },
+      {
+        "end": 13,
+        "on_screen": "LALU KENAPA AIR BISA NAIK? / KE TANGKI ATAS. Kalau tidak menghisap, apa yang mendorong?",
+        "purpose": "Menahan penjelasan dengan pertanyaan mengenai kemampuan pompa menaikkan air tanpa hisapan.",
+        "role": "TENSION",
+        "start": 6.5,
+        "title": "Pertanyaan mengenai kenaikan air ke tangki atas",
+        "visual": "Panel dua dimensi berisi tangki bawah, pompa, dan tangki atas yang dihubungkan pipa, disertai kotak bertanda tanya.",
+        "watch": "Baca rangkaian tangki bawah, pompa, dan tangki atas sebagai satu jalur aliran, kemudian perhatikan pertanyaan yang menahan penjelasannya."
+      },
+      {
+        "end": 20,
+        "on_screen": "Masuk axial. Impeller. Keluar radial. Cairan masuk dari tengah, impeller melemparnya ke luar.",
+        "purpose": "Menunjukkan arah masuk dan keluar aliran serta posisi impeller melalui potongan tiga dimensi.",
+        "role": "MEKANISME",
+        "start": 13,
+        "title": "Masuk dari tengah dan keluar secara radial",
+        "visual": "Tampilan tiga dimensi yang sama dengan gerak kamera lebih lambat, dilengkapi label masuk axial, impeller, dan keluar radial.",
+        "watch": "Bedakan kedua label arah berdasarkan posisinya: masuk axial berada di tengah impeller dan keluar radial berada pada sisi kelilingnya."
+      },
+      {
+        "end": 27,
+        "on_screen": "KECEPATAN JADI TEKANAN. Saluran volute melebar, kecepatan turun, tekanan naik.",
+        "purpose": "Menjelaskan perubahan energi kinetik menjadi tekanan di dalam volute.",
+        "role": "MEKANISME",
+        "start": 20,
+        "title": "Kecepatan berubah menjadi tekanan di volute",
+        "visual": "Diagram volute berbentuk spiral yang melebar secara bertahap, disertai panah aliran yang mengikuti pelebaran saluran.",
+        "watch": "Ikuti pelebaran penampang spiral dari bagian sempit menuju discharge dan kaitkan pelebaran tersebut dengan penurunan kecepatan serta kenaikan tekanan."
+      },
+      {
+        "end": 34,
+        "on_screen": "PUTAR 2X LEBIH CEPAT / DAYA NAIK 8X. Q 100 menjadi 200 m3/jam, H 30 menjadi 120 m, P 15 menjadi 120 kW. Contoh affinity law, basis 1.450 rpm.",
+        "purpose": "Memberi contoh terhitung hukum afinitas sebagai hasil kuantitatif utama.",
+        "role": "PAYOFF",
+        "start": 27,
+        "title": "Contoh hukum afinitas pada putaran dua kali",
+        "visual": "Tiga baris perbandingan berisi Q, H, dan P pada keadaan basis dan pada putaran dua kali, disertai catatan contoh hukum afinitas dengan basis 1.450 rpm.",
+        "watch": "Bandingkan ketiga baris secara vertikal untuk melihat bahwa kenaikan daya jauh melampaui kenaikan laju alir pada kenaikan putaran yang sama."
+      },
+      {
+        "end": 40.5,
+        "on_screen": "YANG BEKERJA BUKAN HISAPAN, TAPI LEMPARAN. LIHAT KALKULATOR TEKNIK KIMIA di website @ilmutekkim, link di bio.",
+        "purpose": "Menutup dengan kesimpulan mekanisme dan ajakan membuka kalkulator teknik kimia di website.",
+        "role": "TAKEAWAY",
+        "start": 34,
+        "title": "Yang bekerja adalah lemparan, bukan hisapan",
+        "visual": "Kartu kesimpulan satu kalimat dan ajakan membuka kalkulator teknik kimia pada website ilmutekkim.",
+        "watch": "Kalimat penutup mengembalikan pembaca pada gerak impeller di bagian awal, sehingga klaim pembuka dan kesimpulan membentuk satu rangkaian yang sama."
+      }
+    ]
+  },
+  {
+    "slug": "hybrid-shell-and-tube-heat-exchanger",
+    "title": "Shell-and-Tube Heat Exchanger: Dua Fluida Bertukar Panas Tanpa Bertemu",
+    "hook": "Dua fluida bertukar panas, tidak pernah bertemu.",
+    "date": "2026-10-20",
+    "ig": "https://www.instagram.com/reel/DetExfJDDvK/",
+    "src": "/home/hatch/workspace/coded-motion-graphics/videos/hx3d-final/renders/hx3d-ep1-v4.mp4",
+    "poster_src": null,
+    "duration": 40.5,
+    "tag": "Penukar Panas",
+    "intro": "Video ini memperlihatkan penukar panas shell and tube dalam potongan tiga dimensi: fluida panas mengalir di dalam pipa, fluida dingin mengalir mengelilinginya di dalam shell, dan panas berpindah melalui dinding pipa tanpa kedua fluida pernah bercampur.",
+    "tension": "Apabila kedua fluida tidak pernah bersentuhan, melalui apa panasnya berpindah dari satu aliran ke aliran lainnya?",
+    "takeaway": "Yang berpindah adalah panasnya, bukan fluidanya. Penukar panas memindahkan energi melalui dinding pipa, sehingga dua fluida tidak perlu bercampur.",
+    "facts": [
+      "Fluida panas mengalir di dalam pipa pada sisi tube dan fluida dingin mengalir di dalam shell mengelilingi pipa. Panas berpindah melalui dinding pipa dan kedua fluida tidak bercampur.",
+      "Sekat atau baffle di dalam shell memaksa aliran sisi shell berbelok zigzag, memperpanjang jalur aliran dan menaikkan turbulensi.",
+      "Contoh hitungan dengan kalor jenis 2,0 kJ/kg °C: aliran panas 10 kg/detik turun dari 180 °C menjadi 120 °C dan aliran dingin 12 kg/detik naik dari 40 °C menjadi 90 °C, keduanya setara 1.200 kW dengan LMTD sekitar 85 °C pada susunan arus berlawanan."
+    ],
+    "quiz": {
+      "answer": 0,
+      "explain": "Kedua fluida dipisahkan oleh dinding pipa pada seluruh lintasan di dalam alat. Energi berpindah melintasi dinding tersebut dari fluida panas ke fluida dingin, sedangkan fluida masing masing tetap berada pada sisinya.",
+      "options": [
+        "Melalui dinding pipa, dari fluida panas menuju fluida dingin",
+        "Melalui pencampuran langsung kedua fluida di dalam shell",
+        "Melalui sekat yang menyerap panas dari kedua fluida"
+      ],
+      "q": "Apabila kedua fluida tidak pernah bertemu, melalui apa panas berpindah di dalam penukar panas shell and tube?"
+    },
+    "scenes": [
+      {
+        "end": 6.5,
+        "on_screen": "DUA FLUIDA TUKARAN PANAS / TIDAK PERNAH BERTEMU. Yang satu panas, yang satu dingin. Di alat ini mereka bertukar energi tanpa pernah bersentuhan.",
+        "purpose": "Mengunci perhatian dengan paradoks pertukaran panas tanpa pertemuan kedua fluida.",
+        "role": "HOOK",
+        "start": 0,
+        "title": "Dua fluida bertukar panas tanpa bertemu",
+        "visual": "Dua bar aliran, oranye berlabel panas dan biru berlabel dingin, saling mendekat lalu berhenti di dinding tengah berwarna gelap.",
+        "watch": "Perhatikan dinding di antara kedua bar aliran, karena dinding tersebut adalah jawaban yang akan dijelaskan pada bagian mekanisme."
+      },
+      {
+        "end": 13,
+        "on_screen": "MINYAK MENTAH DIPANASKAN / PAKAI PANAS SISA. Sebelum masuk kolom distilasi, minyak mentah harus panas. Pabrik memakai panas produk yang juga panas. Tapi panasnya pindah lewat apa?",
+        "purpose": "Memberi konteks pemanfaatan panas sisa sebelum mekanisme alat dijelaskan.",
+        "role": "TENSION",
+        "start": 6.5,
+        "title": "Minyak mentah dipanaskan dengan panas sisa",
+        "visual": "Strip alur kilang sederhana berisi kolom distilasi mini, aliran produk panas berwarna oranye, kotak penukar panas bertanda tanya, dan aliran minyak mentah berwarna biru.",
+        "watch": "Baca strip alur dari kolom menuju penukar panas untuk memahami posisi alat ini sebelum kolom distilasi, kemudian perhatikan pertanyaan penutup bagiannya."
+      },
+      {
+        "end": 20,
+        "on_screen": "Fluida panas, di dalam pipa. Fluida dingin, di dalam shell. Fluida panas mengalir di dalam pipa. Fluida dingin mengalir mengelilinginya.",
+        "purpose": "Memperlihatkan susunan dua aliran yang saling mengelilingi tanpa bercampur melalui potongan tiga dimensi.",
+        "role": "MEKANISME",
+        "start": 13,
+        "title": "Susunan aliran di dalam pipa dan di dalam shell",
+        "visual": "Model potongan shell and tube dengan shell transparan, berkas pipa, dan sekat. Aliran oranye bergerak di dalam pipa dan aliran biru bergerak di dalam shell mengelilingi pipa.",
+        "watch": "Bedakan kedua warna berdasarkan posisinya terhadap dinding pipa: oranye berada di dalam pipa dan biru berada di sekeliling pipa di dalam shell."
+      },
+      {
+        "end": 27,
+        "on_screen": "Sekat (baffle). Panas menyeberang lewat dinding pipa. Sekat memaksa fluida dingin berbelok-belok: jalur lebih panjang, kontak lebih lama.",
+        "purpose": "Menjelaskan fungsi sekat dan menunjukkan titik tempat panas melintasi dinding pipa.",
+        "role": "MEKANISME",
+        "start": 20,
+        "title": "Sekat dan lintasan panas melalui dinding pipa",
+        "visual": "Potongan tiga dimensi yang sama dengan label sekat, aliran sisi shell yang berbelok zigzag di antara sekat, dan cahaya berdenyut pada dinding pipa pada saat label perpindahan panas tampil.",
+        "watch": "Ikuti lintasan zigzag aliran sisi shell dan kaitkan belokan tersebut dengan label dinding pipa tempat panas menyeberang."
+      },
+      {
+        "end": 34,
+        "on_screen": "PANASNYA PINDAH / 1.200 kW. Minyak 10 kg/detik kehilangan 60 °C, minyak 12 kg/detik naik 50 °C. Energinya persis sama. LMTD sekitar 85 °C. Contoh hitungan, kalor jenis 2,0 kJ/kg °C.",
+        "purpose": "Memberi contoh hitungan yang keseimbangan energinya konsisten dan terverifikasi.",
+        "role": "PAYOFF",
+        "start": 27,
+        "title": "Contoh hitungan sebesar 1.200 kW dan LMTD sekitar 85 °C",
+        "visual": "Grafik profil suhu sepanjang alat dengan garis oranye turun dari 180 °C menjadi 120 °C dan garis biru naik dari 40 °C menjadi 90 °C, disertai chip angka daya dan LMTD yang seukuran.",
+        "watch": "Bandingkan arah kedua garis suhu pada grafik, kemudian baca kedua chip angka sebagai pasangan hasil dari contoh hitungan yang sama."
+      },
+      {
+        "end": 40.5,
+        "on_screen": "YANG PINDAH PANASNYA, BUKAN FLUIDANYA. Heat exchanger memindahkan energi lewat dinding pipa, jadi dua fluida tidak perlu bercampur. HITUNG LMTD SENDIRI. Kalkulatornya di website @ilmutekkim, link di bio.",
+        "purpose": "Menutup dengan kesimpulan mekanisme dan ajakan menghitung LMTD pada kalkulator website.",
+        "role": "TAKEAWAY_CTV",
+        "start": 34,
+        "title": "Yang berpindah adalah panas, bukan fluida",
+        "visual": "Kartu kesimpulan satu kalimat dan tombol ajakan menghitung LMTD sendiri pada kalkulator website ilmutekkim.",
+        "watch": "Kalimat penutup memisahkan secara tegas perpindahan energi dari perpindahan fluida, dan ajakan di bawahnya menunjuk perhitungan yang baru saja dikerjakan."
+      }
+    ]
+  },
+  {
+    "slug": "loto-gembok-pribadi-motion",
+    "title": "LOTO: Mesin yang Dimatikan Belum Tentu Aman",
+    "hook": "Mesin sudah dimatikan, tetapi belum aman.",
+    "date": "2026-10-20",
+    "ig": "https://www.instagram.com/reel/DeuDeQsk1T6/",
+    "src": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-20/motion-1/motion.mp4",
+    "poster_src": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-20/motion-1/cover.jpg",
+    "duration": 40.9,
+    "tag": "Keselamatan Proses",
+    "intro": "Mematikan mesin dari panel hanya menghentikan perintah operasi. Video ini menguraikan energi tersimpan yang tetap berada di dalam mesin, risiko penyalaan kembali oleh orang lain, dan urutan lengkap lockout dan tagout menurut standar OSHA hingga verifikasi bahwa mesin benar-benar diam.",
+    "tension": "Mesin yang dimatikan dari panel terlihat aman, padahal energi tersimpan di dalamnya dan kemungkinan dinyalakan kembali oleh orang lain tetap dapat mencelakai teknisi yang sedang melakukan perawatan.",
+    "takeaway": "Gembok pribadi pada titik isolasi adalah tanda bahwa ada pekerja yang sedang bekerja di dalam mesin. Hanya pemilik gembok yang memegang kuncinya dan hanya pemiliknya yang boleh melepaskannya.",
+    "facts": [
+      "LOTO diatur dalam standar OSHA 29 CFR 1910.147 tentang pengendalian energi berbahaya dan berlaku efektif sejak 1990.",
+      "OSHA memperkirakan kepatuhan pada prosedur LOTO mencegah sekitar 120 kematian dan 50.000 cedera setiap tahun di Amerika Serikat.",
+      "Energi berbahaya yang wajib dikendalikan mencakup energi listrik, mekanik, hidrolik, pneumatik, kimia, dan termal."
+    ],
+    "quiz": {
+      "answer": 0,
+      "explain": "Gembok pribadi memastikan titik isolasi tidak dapat dibuka oleh siapa pun selain pekerja yang keselamatannya bergantung pada keadaan mesin tersebut. Kunci hanya dipegang pemiliknya, dan kunci hanya boleh dilepas oleh pekerja yang memasangnya.",
+      "options": [
+        "Karena gembok itu merupakan tanda bahwa ada pekerja yang sedang berada di dalam area mesin dan hanya pemiliknya yang memegang kunci pelepasan",
+        "Karena gembok pribadi memiliki kekuatan mekanik yang lebih besar dari gembok bersama",
+        "Karena tag peringatan tidak dapat dibaca tanpa gembok pribadi"
+      ],
+      "q": "Mengapa gembok pada prosedur LOTO harus bersifat pribadi dan hanya dilepas oleh pekerja yang memasangnya?"
+    },
+    "scenes": [
+      {
+        "end": 6,
+        "on_screen": "MESIN SUDAH DIMATIKAN / TAPI BELUM AMAN",
+        "purpose": "Hook: keyakinan umum bahwa mesin mati sama dengan mesin aman dibantah sejak detik pertama.",
+        "role": "HOOK",
+        "start": 0,
+        "title": "Mesin dimatikan, keadaan aman belum tercapai",
+        "visual": "Panel listrik digambar programatik, saklar utama berputar ke posisi OFF dan lampu indikator padam. Seorang teknisi mendekat membawa kunci pas, lalu percikan kecil menyambar dari dalam panel yang terbuka. Headline dua baris muncul kinetik.",
+        "watch": "Perhatikan percikan yang tetap muncul setelah saklar berada pada posisi mati, karena peristiwa tersebut adalah bukti visual pertama bahwa energi belum hilang."
+      },
+      {
+        "end": 13,
+        "on_screen": "Energi tersimpan: listrik, tekanan, pegas, gravitasi",
+        "purpose": "Tension: penonton melihat empat sumber energi yang tidak hilang saat saklar dimatikan.",
+        "role": "TENSION",
+        "start": 6,
+        "title": "Energi tersimpan yang tetap aktif",
+        "visual": "Kamera menyorot satu per satu: kapasitor dengan ikon muatan listrik, tabung hidrolik dengan jarum tekanan masih tinggi, pegas tertekan bergetar menahan beban, dan beban menggantung di rantai di atas area kerja. Tiap sumber berdenyut merah sebagai tanda masih aktif.",
+        "watch": "Ikuti empat sumber yang disorot secara berurutan dan baca denyut merahnya sebagai penanda bahwa setiap sumber masih menyimpan energi."
+      },
+      {
+        "end": 20,
+        "on_screen": "Orang lain bisa menyalakan lagi tanpa tahu ada yang servis",
+        "purpose": "Tension: tanpa kunci dan tag, bahaya kedua datang dari orang lain yang tidak tahu ada teknisi di dalam mesin.",
+        "role": "TENSION",
+        "start": 13,
+        "title": "Risiko penyalaan kembali oleh orang lain",
+        "visual": "Tangan pekerja kedua masuk dari sisi lain dan hampir memutar saklar kembali ke ON, sementara teknisi pertama masih berada di dalam area mesin. Tanda silang merah besar membatalkan gerakan itu, layar berhenti tepat sebelum saklar bergerak.",
+        "watch": "Perhatikan posisi dua pekerja yang saling tidak terlihat pada bagian ini, karena ketidaktahuan tersebut adalah sumber bahaya keduanya."
+      },
+      {
+        "end": 27,
+        "on_screen": "Isolasi, lalu kunci dengan gembok pribadi dan tag",
+        "purpose": "Payoff: tiga langkah pertama LOTO ditunjukkan sebagai gerakan berurutan yang bisa diikuti penonton.",
+        "role": "PAYOFF",
+        "start": 20,
+        "title": "Isolasi, gembok pribadi, dan tag peringatan",
+        "visual": "Katup dan saklar isolasi ditutup penuh, hasp baja terpasang di titik isolasi, gembok pribadi berwarna terang mengunci dengan bunyi klik, dan tag peringatan terikat di sebelahnya bertuliskan nama pemilik gembok.",
+        "watch": "Baca urutan gerakannya dari penutupan titik isolasi sampai tag terikat, karena setiap elemen menutup celah yang ditinggalkan elemen sebelumnya."
+      },
+      {
+        "end": 34,
+        "on_screen": "Buang sisa energi, lalu uji: mesin harus tetap diam",
+        "purpose": "Payoff: sisa energi dibuang sampai nol dan verifikasi isolasi dibuktikan dengan percobaan menyalakan yang gagal total.",
+        "role": "PAYOFF",
+        "start": 27,
+        "title": "Pelepasan sisa energi dan verifikasi keadaan nol",
+        "visual": "Jarum pengukur tekanan dan muatan turun perlahan sampai nol, pegas dilepas tegangannya. Teknisi menekan tombol start untuk verifikasi dan tidak ada satu pun bagian mesin yang bergerak. Kunci gembok tetap di saku pemiliknya.",
+        "watch": "Ikuti jarum pengukur sampai mencapai nol, kemudian perhatikan ketiadaan gerak mesin pada saat tombol start ditekan sebagai hasil verifikasinya."
+      },
+      {
+        "end": 40.9,
+        "on_screen": "Gembok itu tanda: ada nyawa di dalam mesin. Follow @ilmutekkim",
+        "purpose": "Takeaway menutup dengan makna gembok pribadi, CTV mengajak follow.",
+        "role": "TAKEAWAY_CTV",
+        "start": 34,
+        "title": "Gembok pribadi sebagai tanda keberadaan pekerja",
+        "visual": "Gembok pribadi membesar menjadi ikon penutup di tengah frame gelap rapi, teks takeaway tampil di bawahnya, watermark dan progress bar penuh.",
+        "watch": "Gembok yang membesar pada penutup merangkum seluruh urutan, sehingga maknanya sebagai penanda keberadaan pekerja menjadi kalimat terakhir yang dibaca."
+      }
+    ]
+  },
+  {
+    "slug": "pks-tbs-menjadi-cpo-motion",
+    "title": "Dari Tandan Buah Segar Menjadi CPO: Alur Pabrik Kelapa Sawit",
+    "hook": "Tandan berduri menjadi minyak goreng melalui rantai unit yang tidak dapat dilompati.",
+    "date": "2026-10-16",
+    "ig": "https://www.instagram.com/reel/Dejv1_pE_Jq/",
+    "src": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-16/motion-1/motion.mp4",
+    "poster_src": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-16/motion-1/cover.jpg",
+    "duration": 41.0,
+    "tag": "Pabrik Kelapa Sawit",
+    "intro": "Tandan buah segar kelapa sawit diolah menjadi CPO melalui sterilizer, thresher, digester, screw press, dan clarifier. Video ini membedah fungsi setiap unit dan alasan urutan tersebut tidak dapat dilompati.",
+    "tension": "Minyak pada tandan buah segar terkunci di dalam daging buah. Minyak tersebut tidak keluar dengan sendirinya dan tidak dapat diambil hanya dengan memeras tandan secara langsung.",
+    "takeaway": "Setiap unit di pabrik kelapa sawit mempunyai satu fungsi yang tidak dapat dilompati: sterilisasi, perontokan, pelumat, pemerasan, dan klarifikasi bekerja berurutan sampai CPO diperoleh.",
+    "facts": [
+      "Sterilisasi tandan buah segar memakai uap pada suhu 130-140°C, tekanan 1,5-2,8 bar, waktu sekitar 90 menit, dengan siklus 3 puncak tekanan.",
+      "Uap sterilisasi mematikan enzim lipase dan melunakkan buah agar brondolan mudah lepas dari tandan.",
+      "Daging buah dilumatkan lalu diperas dengan screw press, dan minyak kasar dimurnikan dari air dan padatan di clarifier sehingga diperoleh CPO."
+    ],
+    "quiz": {
+      "answer": 1,
+      "explain": "Sterilisasi dengan uap bertekanan mematikan enzim lipase dan melunakkan buah. Tanpa tahap ini, brondolan sukar lepas dari tandan dan mutu minyak menurun, sehingga tahap berikutnya tidak bekerja dengan baik.",
+      "options": [
+        "Memisahkan minyak dari air dan padatan",
+        "Mematikan enzim lipase dan melunakkan buah agar brondolan mudah lepas",
+        "Memeras daging buah sampai minyak kasar keluar"
+      ],
+      "q": "Apa fungsi utama sterilisasi tandan buah segar dengan uap bertekanan?"
+    },
+    "scenes": [
+      {
+        "end": 5,
+        "on_screen": "TANDAN BERDURI / JADI MINYAK GORENG",
+        "purpose": "Menancapkan kontras bahan mentah berduri dan produk akhirnya.",
+        "role": "HOOK",
+        "start": 0,
+        "title": "Tandan buah segar dan produk akhirnya",
+        "visual": "Tandan buah segar besar berputar di tengah; panah ke botol minyak goreng di kanan.",
+        "watch": "Perhatikan kontras antara tandan berduri dan botol minyak sebagai jarak proses yang akan dijelaskan."
+      },
+      {
+        "end": 11,
+        "on_screen": "MINYAKNYA TERKUNCI / DI DALAM DAGING BUAH",
+        "purpose": "Membangun masalah: minyak ada tapi tidak bisa diambil langsung.",
+        "role": "TENSION",
+        "start": 5,
+        "title": "Minyak terkunci di daging buah",
+        "visual": "Zoom ke penampang buah; tetes minyak terjebak di serat daging buah.",
+        "watch": "Amati tetes minyak yang terjebak di serat daging buah pada penampang yang diperbesar."
+      },
+      {
+        "end": 17,
+        "on_screen": "JAWABANNYA: RANTAI UNIT / YANG TIDAK BISA DILOMPATI",
+        "purpose": "Menjanjikan solusi berupa urutan unit yang berurutan.",
+        "role": "TENSION",
+        "start": 11,
+        "title": "Rantai lima unit yang berurutan",
+        "visual": "Unit sterilizer, thresher, digester, press, clarifier muncul berurutan sebagai rantai.",
+        "watch": "Baca urutan lima unit yang muncul berurutan sebagai peta keseluruhan proses pabrik."
+      },
+      {
+        "end": 27,
+        "on_screen": "STERILIZER: UAP MEMBUKA KUNCI / THRESHER: BRONDOLAN LEPAS",
+        "purpose": "Menunjukkan dua tahap pertama yang membebaskan buah dari tandan.",
+        "role": "PAYOFF",
+        "start": 17,
+        "title": "Sterilizer melunakkan, thresher melepas brondolan",
+        "visual": "Uap masuk sterilizer, buah melunak; tandan diguncang di thresher, brondolan jatuh lepas.",
+        "watch": "Ikuti perubahan dari tandan utuh menjadi brondolan lepas setelah uap dan guncangan bekerja berurutan."
+      },
+      {
+        "end": 36,
+        "on_screen": "PRESS: MINYAK KASAR KELUAR / CLARIFIER: CPO NAIK KE ATAS",
+        "purpose": "Menunjukkan pemerasan dan pemisahan sampai CPO jernih diperoleh.",
+        "role": "PAYOFF",
+        "start": 27,
+        "title": "Pemerasan dan klarifikasi menghasilkan CPO",
+        "visual": "Digester mengaduk daging buah; screw press memeras, minyak kasar mengalir ke clarifier; CPO jernih naik ke atas tangki.",
+        "watch": "Perhatikan minyak kasar dari pemerasan berubah menjadi lapisan CPO jernih yang naik ke atas tangki klarifikasi."
+      },
+      {
+        "end": 41,
+        "on_screen": "TIAP UNIT SATU FUNGSI / LOMPATI SATU, MINYAK HILANG",
+        "purpose": "Menutup dengan takeaway dan CTA; tidak ada elemen baru, rantai unit dari scene sebelumnya tetap tampil.",
+        "role": "TAKEAWAY",
+        "start": 36,
+        "title": "Setiap unit satu fungsi",
+        "visual": "Rantai unit penuh menyala berurutan; teks CTA tampil di bawah.",
+        "watch": "Baca penyalaan berurutan rantai lima unit pada penutup sebagai penegasan urutan yang tidak dapat dilompati."
+      }
+    ]
+  },
+  {
+    "slug": "refinery-sawit-olein-stearin-motion",
+    "title": "Refinery Sawit: Dari CPO Merah Menjadi Olein dan Stearin",
+    "hook": "CPO merah pekat tidak dapat langsung dipakai menggoreng.",
+    "date": "2026-10-17",
+    "ig": "https://www.instagram.com/reel/DemUgZjDhRL/",
+    "src": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-17/motion-1/motion.mp4",
+    "poster_src": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-17/motion-1/cover.jpg",
+    "duration": 41.0,
+    "tag": "Refinery Sawit",
+    "intro": "CPO berwarna merah pekat dan masih membawa getah, warna, dan bau. Video ini membedah tiga tahap pemurnian menjadi RBDPO dan tahap fraksionasi yang membaginya menjadi olein cair dan stearin padat.",
+    "tension": "CPO berwarna merah pekat karena karoten dan masih membawa getah, warna, serta bau. Minyak dalam keadaan tersebut belum layak dipakai sebagai minyak goreng.",
+    "takeaway": "Pemurnian mengubah CPO menjadi RBDPO yang bersih, dan fraksionasi membagi RBDPO menjadi olein cair untuk minyak goreng serta stearin padat untuk margarin dan shortening.",
+    "facts": [
+      "CPO dimurnikan melalui degumming, bleaching, dan deodorisasi menjadi RBDPO (refined, bleached, deodorized palm oil).",
+      "Fraksionasi memisahkan RBDPO menjadi olein yang cair untuk minyak goreng dan stearin yang padat untuk margarin dan shortening melalui kristalisasi.",
+      "Standar spesifikasi yang dikutip menetapkan nilai iod olein minimal 56 dan stearin maksimal 48 g I2/100 g minyak."
+    ],
+    "quiz": {
+      "answer": 1,
+      "explain": "RBDPO didinginkan secara perlahan sehingga sebagian mengkristal. Fraksi yang tetap cair adalah olein untuk minyak goreng, sedangkan kristal padat yang dipisahkan adalah stearin untuk margarin dan shortening.",
+      "options": [
+        "Olein adalah fraksi padat dan stearin adalah fraksi cair",
+        "Olein adalah fraksi cair untuk minyak goreng dan stearin adalah fraksi padat untuk margarin",
+        "Olein dan stearin adalah dua nama untuk minyak yang sama"
+      ],
+      "q": "Setelah fraksionasi RBDPO, fraksi mana yang menjadi minyak goreng?"
+    },
+    "scenes": [
+      {
+        "end": 7,
+        "on_screen": "CPO MERAH PEKAT / TIDAK BISA LANGSUNG DIGORENG",
+        "purpose": "Menohok penonton dengan fakta bahwa minyak sawit mentah tidak bisa langsung dipakai menggoreng.",
+        "role": "HOOK",
+        "start": 0,
+        "title": "Tangki CPO merah pekat",
+        "visual": "Tangki berisi minyak merah pekat, headline dua baris muncul dengan teks kinetik.",
+        "watch": "Perhatikan warna merah pekat minyak di dalam tangki sebagai titik awal persoalan pemurniannya."
+      },
+      {
+        "end": 14,
+        "on_screen": "Di dalamnya masih ada getah, warna, dan bau yang harus dibuang",
+        "purpose": "Membangun tension: CPO mentah kotor dan perlu dibersihkan dulu.",
+        "role": "TENSION",
+        "start": 7,
+        "title": "Getah, warna, dan bau pada CPO",
+        "visual": "Partikel pengotor disorot di dalam minyak merah, lalu ditandai satu per satu.",
+        "watch": "Ikuti penandaan satu per satu atas getah, warna, dan bau sebagai daftar pengotor yang harus disingkirkan."
+      },
+      {
+        "end": 21,
+        "on_screen": "Tiga tahap pemurnian: degumming, bleaching, deodorisasi",
+        "purpose": "Menunjukkan urutan pemurnian yang tidak bisa dilompati.",
+        "role": "TENSION",
+        "start": 14,
+        "title": "Tiga tahap pemurnian yang berurutan",
+        "visual": "Tiga kotak unit berurutan, minyak mengalir dan warnanya berangsur jernih di tiap tahap.",
+        "watch": "Amati perubahan warna minyak pada setiap kotak unit sebagai tanda kemajuan pemurniannya."
+      },
+      {
+        "end": 28,
+        "on_screen": "Hasilnya RBDPO: minyak sawit bersih siap fraksionasi",
+        "purpose": "Payoff tahap satu: minyak sudah bersih, siap dipisah.",
+        "role": "PAYOFF",
+        "start": 21,
+        "title": "RBDPO jernih siap difraksionasi",
+        "visual": "Aliran minyak kuning jernih keluar dari unit terakhir menuju tangki kristalisasi.",
+        "watch": "Perhatikan aliran kuning jernih yang meninggalkan unit terakhir menuju tangki kristalisasi."
+      },
+      {
+        "end": 35,
+        "on_screen": "Didinginkan perlahan, kristal padat terbentuk lalu dipisah",
+        "purpose": "Payoff tahap dua: mekanisme fraksionasi divisualkan.",
+        "role": "PAYOFF",
+        "start": 28,
+        "title": "Kristalisasi dan pemisahan dua fraksi",
+        "visual": "Tangki didinginkan, kristal padat terbentuk, filter memisah dua aliran: cair dan padat.",
+        "watch": "Ikuti pembentukan kristal padat dan pemisahannya oleh penyaring menjadi aliran cair dan aliran padat."
+      },
+      {
+        "end": 41,
+        "on_screen": "Cair = olein untuk minyak goreng. Padat = stearin untuk margarin. Simpan dan tag temanmu.",
+        "purpose": "Takeaway dua produk plus ajakan simpan dan tag.",
+        "role": "TAKEAWAY",
+        "start": 35,
+        "title": "Olein cair dan stearin padat",
+        "visual": "Dua kartu produk muncul: OLEIN (cair, minyak goreng) dan STEARIN (padat, margarin), lalu CTV.",
+        "watch": "Bandingkan dua kartu produk pada penutup untuk mengunci pasangan fraksi dan kegunaannya."
+      }
+    ]
+  },
+  {
+    "slug": "satu-barel-minyak-motion",
+    "title": "Satu Barel Minyak Mentah: Tidak Semua Menjadi Bensin",
+    "hook": "Satu barel minyak mentah tidak disuling menjadi bensin semua.",
+    "date": "2026-10-19",
+    "ig": "https://www.instagram.com/reel/DereQLzCclF/",
+    "src": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-19/motion-1/motion.mp4",
+    "poster_src": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-19/motion-1/cover.jpg",
+    "duration": 40.9,
+    "tag": "Kilang dan Distilasi",
+    "intro": "Satu barel minyak mentah sering dibayangkan berubah seluruhnya menjadi bensin. Video ini menunjukkan pembagian sebenarnya di kilang: setelah dipanaskan dan masuk menara distilasi, satu barel terpecah menjadi beberapa fraksi dengan proporsi yang ditentukan data kilang, bukan oleh perkiraan.",
+    "tension": "Satu barel minyak mentah tidak disuling menjadi bensin semua, dan fraksi lain yang keluar dari menara memiliki volume yang sama pentingnya untuk dibaca.",
+    "takeaway": "Minyak mentah tidak dipakai dalam keadaan mentah. Kilang memecahnya menurut titik didih menjadi beragam produk, dan total volume produk akhir dapat melebihi volume umpan karena processing gain.",
+    "facts": [
+      "Satu barel minyak mentah setara 42 galon AS atau 159 liter.",
+      "Kilang di Amerika Serikat menghasilkan 19 sampai 20 galon bensin motor, 11 sampai 13 galon distilat termasuk diesel, dan 4 galon avtur dari satu barel 42 galon.",
+      "Fraksi unit distilasi mentah terpisah menurut titik didih dari atas ke bawah sebagai gas, nafta, kerosen, diesel, dan residu, dan total volume produk akhir melebihi 42 galon karena processing gain pada saat densitas produk turun."
+    ],
+    "quiz": {
+      "answer": 1,
+      "explain": "Processing gain adalah kenaikan volume yang terjadi karena produk hasil pengolahan memiliki densitas lebih rendah dari minyak mentah umpannya. Massa tidak bertambah, yang berubah adalah volume yang ditempati oleh massa tersebut.",
+      "options": [
+        "Karena volume barel bertambah selama penyimpanan",
+        "Karena processing gain terjadi saat densitas produk turun, sehingga volume akhir lebih besar dari volume umpan",
+        "Karena sebagian produk dihitung dua kali di kilang"
+      ],
+      "q": "Mengapa total volume produk dari satu barel dapat melebihi 42 galon?"
+    },
+    "scenes": [
+      {
+        "end": 6.5,
+        "on_screen": "1 BAREL MINYAK MENTAH TIDAK JADI BENSIN SEMUA. 1 barel = 159 liter.",
+        "purpose": "Patahkan miskonsepsi: satu barel tidak disuling jadi bensin semua.",
+        "role": "HOOK",
+        "start": 0,
+        "title": "Satu barel setara 159 liter",
+        "visual": "Ikon barel minyak raksasa di tengah, label 159 liter muncul dengan pop.",
+        "watch": "Perhatikan label volume pada barel di awal, karena seluruh pembagian produk berikutnya dibaca terhadap satuan volume yang sama."
+      },
+      {
+        "end": 13,
+        "on_screen": "Minyak mentah dipanaskan, masuk menara distilasi raksasa.",
+        "purpose": "Tunjukkan minyak mentah harus dipecah dulu di menara distilasi.",
+        "role": "TENSION",
+        "start": 6.5,
+        "title": "Minyak mentah masuk menara distilasi",
+        "visual": "Barel menuang ke kolom CDU; uap naik digambar sebagai aliran ke atas.",
+        "watch": "Ikuti arah tuangan barel menuju kolom dan aliran uap yang naik, karena arah gerak tersebut menandai awal pemisahan fraksi."
+      },
+      {
+        "end": 20,
+        "on_screen": "Fraksi pisah sesuai titik didih: ringan di atas, berat di bawah.",
+        "purpose": "Jelaskan prinsip pemisahan: titik didih menentukan posisi fraksi.",
+        "role": "TENSION",
+        "start": 13,
+        "title": "Pemisahan menurut titik didih",
+        "visual": "Lima keran samping kolom menyala berurutan dari atas ke bawah: gas, nafta, kerosen, diesel, residu.",
+        "watch": "Baca urutan lima keran dari atas ke bawah sebagai urutan ringan ke berat, bukan sebagai daftar produk yang berdiri sendiri."
+      },
+      {
+        "end": 27.5,
+        "on_screen": "Data EIA: 19-20 galon bensin, 11-13 galon diesel, 4 galon avtur per barel.",
+        "purpose": "Beri angka nyata dari data publik EIA.",
+        "role": "PAYOFF",
+        "start": 20,
+        "title": "Angka produk menurut data EIA",
+        "visual": "Tiga kartu angka muncul berurutan: bensin, diesel, avtur.",
+        "watch": "Bandingkan ketiga kartu angka secara berurutan untuk melihat bahwa bensin merupakan bagian terbesar, tetapi bukan keseluruhan isi barel."
+      },
+      {
+        "end": 34.5,
+        "on_screen": "Sisanya: gas, aspal, bahan plastik. Total produk lebih dari 42 galon.",
+        "purpose": "Lengkapi sisanya dan beri fakta processing gain.",
+        "role": "PAYOFF",
+        "start": 27.5,
+        "title": "Produk sisa dan processing gain",
+        "visual": "Kartu sisa produk muncul; barel membesar sedikit dengan anotasi processing gain.",
+        "watch": "Perhatikan pembesaran barel pada bagian ini sebagai gambaran visual kenaikan volume, bukan penambahan massa bahan."
+      },
+      {
+        "end": 40.9,
+        "on_screen": "Minyak mentah tidak dipakai mentah. Kilang memecahnya jadi puluhan produk. Follow @ilmutekkim.",
+        "purpose": "Simpulkan dan ajak follow.",
+        "role": "TAKEAWAY_CTV",
+        "start": 34.5,
+        "title": "Kilang memecah minyak mentah menjadi beragam produk",
+        "visual": "Lima kartu fraksi tersusun rapi; watermark dan progress bar penuh.",
+        "watch": "Susunan lima kartu di penutup merangkum seluruh pemisahan, sehingga urutannya dapat dibaca kembali dalam satu pandangan."
+      }
+    ]
+  },
+  {
+    "slug": "sistem-kerja-tiga-shift",
+    "title": "Sistem Kerja Tiga Shift: Mengapa Pabrik Beroperasi 24 Jam dan Harga yang Dibayar Operator",
+    "hook": "Pabrik jalan 24 jam nonstop. Manusia tidak dirancang begitu.",
+    "date": "2026-10-11",
+    "ig": "https://www.instagram.com/reel/DeW3vJ4DDgl/",
+    "src": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-11/motion-1/motion.mp4",
+    "poster_src": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-11/motion-1/cover.jpg",
+    "duration": 40.9,
+    "tag": "Operasi Pabrik",
+    "intro": "Pabrik proses kontinu dirancang beroperasi 24 jam, sedangkan manusia memerlukan tidur yang teratur. Video ini membedah alasan pabrik tidak dapat dimatikan setiap malam, pembagian tiga shift yang menutup 24 jam, dan harga rotasi tersebut pada pola tidur operator.",
+    "tension": "Pabrik proses tidak dapat dimatikan seperti lampu, tetapi manusia tidak dirancang bekerja 24 jam, sehingga tiga shift merupakan kompromi yang harganya dibayar pada pola tidur operator.",
+    "takeaway": "Tiga shift dengan durasi 8 jam per regu menutup 24 jam operasi tanpa jeda. Sistem ini menyelesaikan masalah keberlanjutan proses, dan memindahkan bebannya ke ritme sirkadian operator yang harus dikelola melalui tidur terjadwal dan serah terima yang ketat.",
+    "facts": [
+      "Pabrik proses kontinu dirancang beroperasi 24 jam karena penyalaan dan penghentian operasi merupakan operasi yang berisiko, mahal, dan memberikan tegangan termal pada peralatan.",
+      "Pola umum pembagian kerja 24 jam adalah 3 shift dengan durasi masing-masing 8 jam, yaitu pagi, siang, dan malam.",
+      "Harga rotasi shift dibayar pada pola tidur operator: jam tidur bergeser pada setiap rotasi dan ritme sirkadian terganggu, sehingga adaptasinya menuntut tidur terjadwal dan serah terima antarshift yang ketat."
+    ],
+    "quiz": {
+      "q": "Mengapa pabrik proses kontinu tidak dimatikan setiap malam seperti lampu?",
+      "options": [
+        "Karena penyalaan dan penghentian operasi berisiko, mahal, dan memberikan tegangan termal pada peralatan",
+        "Karena operator lebih menyukai bekerja pada malam hari",
+        "Karena listrik lebih murah pada malam hari"
+      ],
+      "answer": 0,
+      "explain": "Penghentian dan penyalaan kembali bukan tindakan ringan pada pabrik proses. Keduanya merupakan operasi yang berisiko dan mahal serta membebani peralatan dengan tegangan termal, sehingga pabrik dirancang beroperasi terus dan kebutuhan jaganya dibagi ke dalam tiga shift."
+    },
+    "scenes": [
+      {
+        "start": 0,
+        "end": 6,
+        "role": "HOOK",
+        "title": "Pabrik beroperasi 24 jam, manusia memerlukan tidur",
+        "on_screen": "Pabrik jalan 24 jam nonstop. Manusia tidak dirancang begitu",
+        "visual": "Pabrik menyala di malam hari, jam dinding berputar cepat 24 jam, tiga blok shift muncul bergantian",
+        "purpose": "Membuka kontras pabrik yang tidak pernah tidur dengan manusia yang butuh tidur",
+        "watch": "Pabrik yang tetap menyala pada malam hari dan jam yang berputar penuh 24 jam menetapkan kontras yang akan dijawab oleh pembagian tiga shift."
+      },
+      {
+        "start": 6,
+        "end": 13,
+        "role": "TENSION",
+        "title": "Mematikan reaktor tidak sama dengan mematikan lampu",
+        "on_screen": "Matikan reaktor tidak seperti matikan lampu",
+        "visual": "Reaktor besar dengan suhu dan tekanan stabil, lalu tombol mati ditekan dan grafik suhu jatuh bebas dengan peringatan",
+        "purpose": "Menjelaskan kenapa pabrik proses tidak bisa dimatikan tiap malam",
+        "watch": "Grafik suhu yang jatuh bebas setelah tombol mati ditekan menunjukkan penghentian bukan tindakan netral, melainkan gangguan besar pada keadaan operasi yang stabil."
+      },
+      {
+        "start": 13,
+        "end": 20,
+        "role": "TENSION",
+        "title": "Pembagian 24 jam ke dalam tiga shift",
+        "on_screen": "Solusinya: 3 shift, 8 jam tiap regu, 24 jam tertutup",
+        "visual": "Timeline lingkaran 24 jam terbagi tiga segmen warna: pagi, siang, malam, tiap segmen berlabel 8 jam",
+        "purpose": "Menunjukkan solusi 3 shift sebagai pembagi 24 jam yang rapi",
+        "watch": "Lingkaran 24 jam yang terbagi menjadi tiga segmen berlabel 8 jam adalah keseluruhan sistemnya dalam satu gambar: pagi, siang, dan malam menutup hari tanpa jeda."
+      },
+      {
+        "start": 20,
+        "end": 27,
+        "role": "PAYOFF",
+        "title": "Harga rotasi pada pola tidur operator",
+        "on_screen": "Masalahnya: jam tidur ikut bergeser tiap rotasi",
+        "visual": "Ikon tempat tidur bergeser mengikuti segmen shift yang berputar, ritme sirkadian digambar sebagai gelombang yang kacau",
+        "purpose": "Menunjukkan harga rotasi shift pada pola tidur operator",
+        "watch": "Ikon tempat tidur yang terus bergeser dan gelombang ritme sirkadian yang terganggu menggambarkan beban yang dipindahkan dari proses kepada operator."
+      },
+      {
+        "start": 27,
+        "end": 34,
+        "role": "PAYOFF",
+        "title": "Cara operator beradaptasi terhadap rotasi",
+        "on_screen": "Operator bertahan dengan tidur terjadwal dan serah terima ketat",
+        "visual": "Checklist muncul satu per satu: tidur terjadwal, cahaya terang saat jaga, logbook serah terima antar shift",
+        "purpose": "Memberi cara adaptasi nyata yang dipakai operator shift",
+        "watch": "Daftar periksa adaptasinya terdiri atas tidur terjadwal, cahaya terang saat bertugas, dan catatan serah terima antarshift, tiga unsur yang tampil satu per satu."
+      },
+      {
+        "start": 34,
+        "end": 40.9,
+        "role": "TAKEAWAY",
+        "title": "Tiga segmen yang menutup satu hari penuh",
+        "on_screen": "Simpan buat bekal masuk pabrik. Follow @ilmutekkim",
+        "visual": "Tiga segmen shift menyatu menjadi lingkaran utuh, watermark dan progress bar menutup video",
+        "purpose": "Menutup dengan ajakan simpan dan follow yang konkret",
+        "watch": "Tiga segmen yang menyatu kembali menjadi lingkaran utuh menegaskan bahwa tidak ada satu jam pun dalam sehari yang tidak terjaga di pabrik proses."
+      }
+    ]
+  },
+  {
+    "slug": "tangki-putih-floating-roof",
+    "title": "Tangki Putih dan Atap Terapung: Mengendalikan Rugi Penguapan Tangki Minyak",
+    "hook": "Tangki minyak dicat putih, bukan agar terlihat bersih.",
+    "date": "2026-10-14",
+    "ig": "https://www.instagram.com/reel/DeenaYwjNPS/",
+    "src": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-14/motion-1/motion.mp4",
+    "poster_src": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-14/motion-1/cover.jpg",
+    "duration": 41.0,
+    "tag": "Tangki Penyimpanan",
+    "intro": "Tangki penyimpanan bensin dan minyak di area tangki dicat putih dan sebagian dilengkapi atap terapung. Video ini membedah alasan rekayasa di balik kedua keputusan desain tersebut, dari radiasi matahari sampai ruang uap di atas permukaan cairan.",
+    "tension": "Pada siang hari, dinding tangki yang gelap menyerap panas matahari dan memanaskan isi tangki. Uap cairan yang mudah menguap terbentuk, keluar melalui ventilasi, dan produk yang tersimpan berkurang ke udara.",
+    "takeaway": "Warna putih memantulkan panas matahari sehingga suhu dinding lebih rendah, sedangkan atap terapung meniadakan ruang uap sehingga rugi penguapan dapat ditekan secara nyata.",
+    "facts": [
+      "Tangki atap terapung dipakai untuk menyimpan cairan yang mudah menguap seperti bensin agar rugi penguapan kecil.",
+      "Permukaan terang memantulkan radiasi matahari sehingga suhu dinding tangki lebih rendah dibandingkan permukaan gelap.",
+      "Pemasangan atap terapung dan seal mengendalikan emisi penguapan tangki atap tetap dengan efisiensi 60 sampai 99 persen, tergantung pada jenis atap, jenis seal, dan jenis cairan yang disimpan."
+    ],
+    "quiz": {
+      "answer": 1,
+      "explain": "Atap terapung bergerak mengikuti permukaan cairan. Dengan ruang uap yang hampir nol, tempat pembentukan uap hampir tidak tersedia, dan pengendalian emisi penguapannya mencapai 60 sampai 99 persen menurut EPA AP-42.",
+      "options": [
+        "Karena atap terapung mendinginkan cairan melalui ventilasi terbuka",
+        "Karena atap terapung naik dan turun mengikuti permukaan cairan sehingga ruang uap hampir nol dan uap tidak memiliki ruang untuk terbentuk",
+        "Karena atap terapung membuat warna tangki menjadi putih"
+      ],
+      "q": "Mengapa atap terapung menekan rugi penguapan pada tangki bensin?"
+    },
+    "scenes": [
+      {
+        "end": 6,
+        "on_screen": "TANGKI MINYAK DICAT PUTIH / BUKAN BIAR KELIHATAN BERSIH",
+        "purpose": "Menanam pertanyaan kenapa warna putih.",
+        "role": "HOOK",
+        "start": 0,
+        "title": "Tangki putih di bawah matahari terik",
+        "visual": "Tangki silinder putih di bawah matahari terik, kamera zoom in perlahan.",
+        "watch": "Perhatikan tangki silinder putih dan matahari terik pada bingkai pembuka sebagai titik awal pertanyaan desainnya."
+      },
+      {
+        "end": 13,
+        "on_screen": "SIANG HARI, TANGKI GELAP JADI OVEN",
+        "purpose": "Menunjukkan panas matahari sebagai musuh.",
+        "role": "TENSION",
+        "start": 6,
+        "title": "Tangki gelap menyerap panas matahari",
+        "visual": "Tangki gelap di samping tangki putih; termometer di tangki gelap naik, garis panas bergetar.",
+        "watch": "Bandingkan termometer pada tangki gelap dan tangki putih untuk membaca perbedaan penyerapan panasnya."
+      },
+      {
+        "end": 20,
+        "on_screen": "UAP BENSIN MENGUAP = UANG HILANG",
+        "purpose": "Mengubah fisika jadi kerugian konkret.",
+        "role": "TENSION",
+        "start": 13,
+        "title": "Ruang uap dan produk yang hilang ke udara",
+        "visual": "Potongan tangki: ruang uap di atas cairan membesar, partikel uap keluar lewat ventilasi atap.",
+        "watch": "Amati ruang di atas permukaan cairan dan partikel uap yang keluar melalui ventilasi sebagai wujud rugi produknya."
+      },
+      {
+        "end": 27,
+        "on_screen": "CAT PUTIH MEMANTULKAN PANAS",
+        "purpose": "Solusi pertama: pantulkan panasnya.",
+        "role": "PAYOFF",
+        "start": 20,
+        "title": "Cat putih memantulkan panas",
+        "visual": "Sinar matahari memantul dari dinding tangki putih; termometer turun; tidak ada elemen baru selain kelanjutan pantulan.",
+        "watch": "Ikuti arah sinar yang memantul dari dinding putih dan penurunan termometer sebagai bukti visual solusinya."
+      },
+      {
+        "end": 35,
+        "on_screen": "ATAP TERAPUNG, RUANG UAP HAMPIR NOL. RUGI PENGUAPAN TURUN 60-99%",
+        "purpose": "Solusi kedua: hapus ruang tempat uap terbentuk.",
+        "role": "PAYOFF",
+        "start": 27,
+        "title": "Atap terapung meniadakan ruang uap",
+        "visual": "Penampang tangki: atap terapung turun mengikuti permukaan cairan, ruang uap menyusut sampai tipis.",
+        "watch": "Perhatikan atap yang turun mengikuti permukaan cairan sampai ruang uap menyusut menjadi lapisan yang sangat tipis."
+      },
+      {
+        "end": 41,
+        "on_screen": "PUTIH + ATAP TERAPUNG = PRODUK AMAN",
+        "purpose": "Merangkum dan mengajak simpan.",
+        "role": "TAKEAWAY",
+        "start": 35,
+        "title": "Dua pertahanan terhadap rugi penguapan",
+        "visual": "Tangki utuh dengan progress bar penuh dan watermark; tidak ada elemen baru, penutup ajakan simpan.",
+        "watch": "Baca tiga kartu ringkas pada penutup sebagai rangkuman dua pertahanan dan hasil akhirnya bagi produk."
+      }
+    ]
+  },
+  {
+    "slug": "turnaround-pabrik-berhenti-total",
+    "title": "Turnaround: Mengapa Pabrik Sengaja Berhenti Total Berminggu-minggu",
+    "hook": "Pabrik berhenti total berminggu-minggu tiap beberapa tahun. Itu turnaround, bukan pabrik bangkrut.",
+    "date": "2026-10-09",
+    "ig": "https://www.instagram.com/reel/DeSjnUSD25s/",
+    "src": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-09/motion-1/motion-fixed-equal-heights.mp4",
+    "poster_src": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-09/motion-1/cover.jpg",
+    "duration": 40.9,
+    "tag": "Perawatan dan Keandalan Pabrik",
+    "intro": "Setiap beberapa tahun, pabrik proses yang sehat justru direncanakan berhenti total selama berminggu-minggu. Video ini membedah pekerjaan apa saja yang hanya dapat dilakukan pada jendela berhenti tersebut dan mengapa menundanya jauh lebih berbahaya.",
+    "tension": "Berhenti produksi berminggu-minggu tampak merugikan, padahal menunda jendela ini berarti memaksa peralatan yang aus bekerja terus sampai gagal secara mendadak.",
+    "takeaway": "Turnaround adalah penghentian terencana yang menentukan keandalan pabrik bertahun-tahun ke depan: peralatan dibuka, diperiksa, dibersihkan, dan diuji sebelum unit dinyalakan kembali secara bertahap.",
+    "facts": [
+      "Turnaround adalah penghentian terencana seluruh unit proses selama beberapa minggu untuk membuka, memeriksa, membersihkan, dan memperbaiki peralatan statis dan berputar yang tidak dapat dikerjakan saat operasi.",
+      "Pekerjaan inti pada jendela ini mencakup pembukaan kolom, penggantian katalis, dan pembersihan penukar panas.",
+      "Ribuan pekerjaan perawatan dikerjakan sekaligus dalam satu jendela berhenti yang direncanakan bertahun-tahun sebelumnya."
+    ],
+    "quiz": {
+      "q": "Mengapa pekerjaan turnaround tidak dapat dicicil saat pabrik tetap beroperasi?",
+      "options": [
+        "Karena jumlah pekerjanya tidak mencukupi",
+        "Karena peralatan seperti kolom dan katalis hanya dapat dibuka dan diganti saat unit berhenti total",
+        "Karena perawatan hanya boleh dilakukan pada akhir tahun"
+      ],
+      "answer": 1,
+      "explain": "Kolom harus dibuka, katalis lama diangkat, dan penukar panas dibersihkan dari dalam. Seluruh pekerjaan itu mensyaratkan unit berhenti dan kosong, sehingga semuanya ditumpuk dalam satu jendela turnaround yang direncanakan."
+    },
+    "scenes": [
+      {
+        "start": 0,
+        "end": 6,
+        "role": "HOOK",
+        "title": "Pabrik berhenti total, bukan bangkrut",
+        "on_screen": "Pabrik berhenti total berminggu-minggu. Bukan bangkrut",
+        "visual": "Kilang cerah perlahan meredup unit demi unit, gerbang utama ditutup, papan hitung mundur turnaround muncul",
+        "purpose": "Membuka serangan kenapa pabrik yang sehat justru direncanakan berhenti total",
+        "watch": "Perhatikan unit yang meredup satu per satu dan papan hitung mundurnya: penghentian ini terjadwal, bukan kejadian mendadak."
+      },
+      {
+        "start": 6,
+        "end": 13,
+        "role": "TENSION",
+        "title": "Peralatan yang hanya dapat dibuka saat unit berhenti",
+        "on_screen": "Ada alat yang cuma bisa dibuka saat pabrik mati total",
+        "visual": "Kolom distilasi terbuka dari atas, katalis lama berwarna gelap diangkat keluar dengan derek kecil",
+        "purpose": "Menunjukkan pekerjaan besar yang mustahil dikerjakan saat unit beroperasi",
+        "watch": "Kolom yang terbuka dari atas dan katalis gelap yang diangkat keluar adalah bukti visual bahwa pekerjaan ini mensyaratkan unit berhenti."
+      },
+      {
+        "start": 13,
+        "end": 20,
+        "role": "TENSION",
+        "title": "Ribuan pekerjaan menunggu satu jendela",
+        "on_screen": "Ribuan pekerjaan menunggu satu jendela berhenti ini",
+        "visual": "Daftar pekerjaan panjang bergulir cepat, bundel penukar panas dicabut dan disemprot bersih",
+        "purpose": "Menahan jawaban dengan besarnya daftar kerja yang menumpuk untuk satu jendela",
+        "watch": "Daftar pekerjaan yang bergulir panjang menunjukkan skala jendela ini, sedangkan bundel penukar panas yang disemprot menunjukkan salah satu pekerjaannya."
+      },
+      {
+        "start": 20,
+        "end": 27,
+        "role": "PAYOFF",
+        "title": "Urutan kerja: buka, bersihkan, ganti, uji",
+        "on_screen": "Buka, bersihkan, ganti yang aus, uji satu per satu",
+        "visual": "Empat langkah berurutan muncul: membuka kolom, membersihkan kerak, mengganti katup aus, menguji tekanan dengan pengukur",
+        "purpose": "Memberi urutan kerja inti turnaround dari buka sampai uji",
+        "watch": "Ikuti urutan empat langkahnya sampai pengujian tekanan, karena unit tidak dinyalakan kembali sebelum setiap peralatan diuji satu per satu."
+      },
+      {
+        "start": 27,
+        "end": 34,
+        "role": "PAYOFF",
+        "title": "Penyalaan kembali secara bertahap",
+        "on_screen": "Dinyalakan lagi bertahap, unit per unit, sampai stabil",
+        "visual": "Unit menyala satu per satu dari kiri ke kanan, grafik suhu naik landai dan stabil di garis operasi",
+        "purpose": "Menegaskan penyalaan kembali sebagai tahap paling diawasi dalam turnaround",
+        "watch": "Grafik suhu yang naik landai lalu stabil di garis operasi menunjukkan penyalaan kembali dilakukan bertahap, unit per unit."
+      },
+      {
+        "start": 34,
+        "end": 40.9,
+        "role": "TAKEAWAY",
+        "title": "Berhenti terencana, beroperasi andal bertahun-tahun",
+        "on_screen": "Berhenti direncanakan hari ini, jalan andal bertahun-tahun. Simpan video ini",
+        "visual": "Pabrik cerah berjalan penuh dengan kalender kecil menandai turnaround berikutnya dan watermark @ilmutekkim",
+        "purpose": "Menutup dengan kesimpulan satu kalimat dan aksi simpan",
+        "watch": "Kalender kecil di akhir menandai turnaround berikutnya: jendela berhenti ini berulang secara terjadwal sepanjang umur pabrik."
+      }
+    ]
+  },
+  {
+    "slug": "buildup-boiler-pltu-dari-ceret",
+    "title": "Membangun Pembangkit Listrik dari Satu Ceret Dapur",
+    "hook": "Uap dari satu ceret dapur menyembur dari corong lalu hilang ke udara. Uap yang sama, setelah ditangkap dan diperkuat tahap demi tahap, memutar turbin dan menyalakan satu kota.",
+    "date": "2026-10-24",
+    "ig": "https://www.instagram.com/reel/De2xbaEDve5/",
+    "src": "/home/hatch/workspace/coded-motion-graphics/videos/buildup-exp2-textured/buildup-exp2-final/renders/buildup-exp2-v3-textured.mp4",
+    "poster_src": "/home/hatch/workspace/coded-motion-graphics/videos/buildup-exp2-textured/buildup-exp2-final/renders/cover-exp2-v3textured.jpg",
+    "duration": 69.7,
+    "tag": "Energi dan Utilitas",
+    "intro": "Video ini memulai pembangunan dari satu ceret di atas kompor, yang uapnya keluar dari corong lalu hilang begitu saja. Setiap langkah menambahkan satu komponen yang menutup cacat langkah sebelumnya, dari kincir kecil sampai generator, sampai ceret yang sama bertransformasi menjadi pembangkit listrik tenaga uap yang siklus airnya tertutup.",
+    "tension": "Putaran kincir dari uap ceret lemah dan mati begitu airnya habis, sedangkan uap yang dihasilkan satu ceret terlalu sedikit dan masih basah. Bagaimana rantai kelemahan itu ditutup sampai putaran berubah menjadi listrik?",
+    "takeaway": "Pembangkit listrik tenaga uap adalah ceret yang uapnya ditangkap, tekanannya dinaikkan, jumlah uapnya dilipatgandakan, uapnya dikeringkan, dan putarannya disambungkan ke generator. Prinsipnya tetap satu dari awal sampai akhir, yaitu air mendidih menjadi uap dan uap bertekanan memutar turbin. Yang berubah hanya skalanya.",
+    "facts": [
+      "Uap yang diarahkan melalui pipa ke kincir dapat memutar benda. Putaran tersebut lemah selama tekanan uap kecil, dan berhenti setelah air di dalam ceret habis.",
+      "Superheater adalah pipa tambahan pada titik terpanas api. Uap basah yang melewatinya keluar kering dan jauh lebih panas, dengan tenaga yang melonjak.",
+      "Kondensor menutup siklus air pembangkit. Uap bekas diubah kembali menjadi air dan dipompa balik ke boiler untuk dipakai lagi."
+    ],
+    "quiz": {
+      "answer": 0,
+      "explain": "Uap dari jaringan pipa air masih basah dan penuh tetesan air. Superheater melewatkan uap tersebut melalui pipa tambahan pada titik terpanas api, sehingga uap keluar kering dan jauh lebih panas sebelum memasuki turbin.",
+      "options": [
+        "Mengeringkan uap basah dan menaikkan suhunya pada titik terpanas api",
+        "Mengembunkan uap bekas menjadi air",
+        "Mengisi ulang air ke dalam ceret secara terus-menerus"
+      ],
+      "q": "Apa fungsi superheater pada rantai pembangunan pembangkit ini?"
+    },
+    "scenes": [
+      {
+        "end": 6.0,
+        "on_screen": "CERET. Airnya mendidih, dan uapnya menyembur keluar lewat corong, hilang begitu saja ke udara.",
+        "purpose": "Menetapkan benda utama beserta cacat pertamanya, yaitu energi uap yang terbuang seluruhnya.",
+        "role": "HOOK",
+        "start": 0.0,
+        "title": "Ceret di atas kompor kehilangan uapnya ke udara",
+        "visual": "Ceret air di atas kompor pada dapur yang hangat. Uap menyembur dari corong dan hilang ke udara tanpa dimanfaatkan.",
+        "watch": "Perhatikan corong ceret dan uap yang hilang, karena ceret inilah benda yang sama sampai menjadi pembangkit pada bagian terakhir."
+      },
+      {
+        "end": 11.2,
+        "on_screen": "KINCIR. Sambungkan pipa ke corongnya, arahkan uapnya ke kincir kecil. Kincirnya berputar.",
+        "purpose": "Menunjukkan fungsi pertama uap sebagai penggerak, sekaligus menyatakan cacatnya berupa putaran yang lemah.",
+        "role": "PROSES",
+        "start": 6.0,
+        "title": "Pipa dan kincir menangkap tenaga uap pertama",
+        "visual": "Pipa tersambung dari corong ceret menuju kincir kecil. Aliran uap memutar kincir tersebut, walaupun putarannya lemah dan tersendat.",
+        "watch": "Ikuti jalur pipa dari corong menuju kincir dan perhatikan bahwa putaran muncul hanya setelah uap diarahkan, bukan dibiarkan hilang."
+      },
+      {
+        "end": 16.3,
+        "on_screen": "TANGKI UMPAN. Air di ceret cepat habis, dan kincir pun berhenti. Pasang tangki yang mengisi ulang airnya terus-menerus.",
+        "purpose": "Menutup cacat keberlangsungan, karena kincir berhenti setiap kali air di dalam ceret habis.",
+        "role": "PROSES",
+        "start": 11.2,
+        "title": "Tangki umpan mengisi air terus-menerus",
+        "visual": "Tangki terpasang di samping ceret dan mengalirkan air pengisi terus-menerus ke dalam ceret melalui pipa.",
+        "watch": "Perhatikan aliran pengisi dari tangki menuju ceret sebagai aliran yang menjaga proses tetap berjalan tanpa pengisian manual."
+      },
+      {
+        "end": 25.0,
+        "on_screen": "KATUP PENGAMAN. Dindingnya jauh lebih tebal, tutup rapat semuanya. Tekanannya naik, putarannya jauh lebih kencang.",
+        "purpose": "Menutup cacat kekuatan putaran dengan menaikkan tekanan uap, dengan katup pengaman sebagai penjaga batas tekanan.",
+        "role": "PROSES",
+        "start": 16.3,
+        "title": "Dinding tebal dan katup pengaman menaikkan tekanan",
+        "visual": "Dinding ceret dipertebal dan ditutup rapat, lengkap dengan katup pengaman. Tekanan di dalam naik dan putaran kincir menjadi jauh lebih kencang.",
+        "watch": "Bandingkan kecepatan putaran pada bagian ini dengan putaran lemah pada bagian kedua, dan kaitkan selisihnya dengan tekanan yang naik."
+      },
+      {
+        "end": 32.5,
+        "on_screen": "PIPA AIR. Ganti perutnya dengan jaringan pipa-pipa berisi air, yang dipanaskan api dari segala sisi. Uapnya sekarang berlimpah.",
+        "purpose": "Menutup cacat jumlah, karena satu ceret hanya menghasilkan sedikit uap walaupun tekanannya telah naik.",
+        "role": "PROSES",
+        "start": 25.0,
+        "title": "Jaringan pipa air melipatgandakan jumlah uap",
+        "visual": "Badan ceret diganti jaringan pipa air di dalam kotak api. Air di dalam pipa dipanaskan dari segala sisi dan uap yang dihasilkan berlipat-lipat.",
+        "watch": "Perhatikan luas permukaan pipa yang terkena api sebagai alasan jumlah uap bertambah, menggantikan satu dinding perut ceret."
+      },
+      {
+        "end": 40.7,
+        "on_screen": "SUPERHEATER. Lewatkan dulu lewat pipa tambahan di titik terpanas apinya. Uapnya keluar kering dan jauh lebih panas.",
+        "purpose": "Menutup cacat kualitas uap, karena uap basah membawa tetesan air dan tenaganya lebih kecil daripada uap kering yang super panas.",
+        "role": "PROSES",
+        "start": 32.5,
+        "title": "Superheater mengeringkan uap pada titik terpanas",
+        "visual": "Pipa tambahan terpasang pada titik terpanas api. Uap basah yang penuh tetesan air melewatinya dan keluar kering dengan suhu jauh lebih tinggi.",
+        "watch": "Ikuti jalur uap memasuki pipa tambahan pada daerah api terpanas dan keluar dalam keadaan kering sebelum menuju penggerak berikutnya."
+      },
+      {
+        "end": 48.4,
+        "on_screen": "TURBIN. Ubah dia jadi turbin: deretan sudu bertingkat, tempat uap mengembang tahap demi tahap.",
+        "purpose": "Menutup cacat kekuatan penggerak, karena kincir mainan tidak kuat menahan tenaga uap kering yang telah melonjak.",
+        "role": "PROSES",
+        "start": 40.7,
+        "title": "Kincir berubah menjadi turbin sudu bertingkat",
+        "visual": "Kincir kecil berubah menjadi turbin dengan deretan sudu bertingkat. Uap mengembang tahap demi tahap dan memutar poros dengan halus dan kuat.",
+        "watch": "Perhatikan deretan sudu yang bertingkat sebagai tempat pengembangan uap bertahap, berbeda dari satu kincir tunggal pada bagian awal."
+      },
+      {
+        "end": 54.5,
+        "on_screen": "GENERATOR. Sambungkan porosnya ke generator. Dan untuk pertama kalinya, lampunya menyala.",
+        "purpose": "Melengkapi rantai konversi energi dari panas menjadi gerak dan dari gerak menjadi listrik, yang merupakan tujuan seluruh pembangunan.",
+        "role": "PROSES",
+        "start": 48.4,
+        "title": "Generator mengubah putaran menjadi listrik pertama",
+        "visual": "Poros turbin tersambung ke generator. Lampu menyala untuk pertama kali sebagai tanda putaran telah berubah menjadi listrik.",
+        "watch": "Lampu yang menyala pada bagian ini adalah hasil pertama yang dicari sejak uap ceret dibiarkan hilang pada bagian pertama."
+      },
+      {
+        "end": 65.0,
+        "on_screen": "BOILER. KONDENSOR. Besarkan semuanya ke skala pabrik. Siklusnya sekarang tertutup sempurna.",
+        "purpose": "Mengubah seluruh rantai menjadi pembangkit yang utuh dan menutup siklus airnya, sehingga uap bekas tidak lagi terbuang.",
+        "role": "PAYOFF",
+        "start": 54.5,
+        "title": "Transformasi menjadi pembangkit listrik tenaga uap",
+        "visual": "Gedung boiler berdinding pipa air dengan steam drum di puncak dan cerobong menjulang, turbin dan generator raksasa segaris, serta kondensor yang mengembunkan uap bekas untuk dipompa balik ke boiler.",
+        "watch": "Ikuti panah siklus pada keadaan akhir ini, dari uap bekas menuju kondensor, lalu air yang dipompa balik menuju boiler."
+      },
+      {
+        "end": 69.7,
+        "on_screen": "KAMU BARU SAJA MEMBANGUN PEMBANGKIT LISTRIK.",
+        "purpose": "Menutup pembangunan dengan benda hasil akhir pada skala penuh di lingkungannya, menyalurkan listrik ke kota.",
+        "role": "TAKEAWAY",
+        "start": 65.0,
+        "title": "Pembangkit beroperasi dan menerangi satu kota",
+        "visual": "Tampilan menjauh memperlihatkan pembangkit yang beroperasi penuh pada senja, dengan jaringan transmisi dan lampu kota yang menyala di kejauhan.",
+        "watch": "Kalimat penutup pada bagian ini merujuk pada ceret kecil pada bagian pertama, yang kini berdiri sebagai pembangkit."
+      }
+    ]
+  },
+  {
+    "slug": "buildup-kolom-distilasi-alembik",
+    "title": "Membangun Kolom Distilasi dari Alembik, Alat Suling Tertua",
+    "hook": "Alembik hanya mampu satu kali penguapan, dan hasilnya masih kotor. Kolom distilasi adalah jawaban atas keterbatasan tersebut.",
+    "date": "2026-10-23",
+    "ig": "https://www.instagram.com/reel/De02HvcDhBY/",
+    "src": "/home/hatch/workspace/coded-motion-graphics/videos/buildup-experimental/buildup-ep1-final/renders/buildup-ep1-v13-gemini-vo.mp4",
+    "poster_src": "/home/hatch/workspace/coded-motion-graphics/videos/buildup-experimental/buildup-ep1-final/renders/buildup-ep1-v13-cover.jpg",
+    "duration": 72.4,
+    "tag": "Peralatan Proses",
+    "intro": "Video ini memulai pembangunan dari alembik, alat suling tertua yang hanya melakukan satu kali penguapan dan satu kali kondensasi. Setiap keterbatasan alat tersebut ditutup oleh satu penambahan, sampai seluruh tahap pemisahan tertumpuk menjadi satu kolom yang bekerja terus-menerus.",
+    "tension": "Penguapan yang diulang berkali-kali memang menaikkan kemurnian, tetapi tahap yang terpisah menuntut ruang yang besar dan boros energi. Bagaimana seluruh tahap itu dapat digabungkan tanpa menghilangkan fungsinya?",
+    "takeaway": "Kolom distilasi adalah alembik yang tahapnya ditumpuk menjadi satu menara. Tray menyediakan pertemuan uap dan cairan, reboiler dan kondensor menjaga aliran kedua arah, dan reflux menaikkan kemurnian produk atas, seluruhnya berdasarkan satu prinsip, yaitu perbedaan titik didih.",
+    "facts": [
+      "Distilasi memisahkan campuran berdasarkan perbedaan titik didih. Komponen yang lebih mudah menguap naik sebagai uap, kemudian uap tersebut didinginkan kembali menjadi cairan.",
+      "Setiap tray di dalam kolom bekerja seperti satu kali penguapan mini. Kolom kilang pada umumnya berisi 30 sampai 50 tray.",
+      "Reflux adalah pengembalian sebagian cairan dari kondensor ke puncak kolom. Aliran balik ini menyapu komponen berat turun dan menaikkan kemurnian produk atas."
+    ],
+    "quiz": {
+      "answer": 0,
+      "explain": "Alembik melakukan satu kali penguapan dan satu kali kondensasi, yang setara dengan satu tahap pemisahan. Kemurnian naik secara bertahap apabila tahap tersebut diulang, dan pengulangan itulah yang kemudian ditumpuk menjadi tray di dalam kolom.",
+      "options": [
+        "Karena pemisahan hanya berlangsung satu tahap, sehingga komponen ringan dan berat belum terpisah sempurna",
+        "Karena alembik tidak memiliki sumber panas",
+        "Karena uap pada alembik tidak dapat didinginkan kembali"
+      ],
+      "q": "Mengapa hasil satu kali penguapan pada alembik masih kotor?"
+    },
+    "scenes": [
+      {
+        "end": 10.9,
+        "on_screen": "ALAT SULING TERTUA. Masalahnya: cuma satu kali penguapan. Hasilnya masih kotor.",
+        "purpose": "Memperkenalkan bentuk primitif distilasi beserta cacat utamanya, yaitu pemisahan satu tahap yang kemurniannya terbatas.",
+        "role": "HOOK",
+        "start": 0.0,
+        "title": "Alembik, alat suling tertua dengan satu kali penguapan",
+        "visual": "Alembik di atas pemanas dengan leher angsa menuju kondensor sederhana. Uap berwarna oranye naik dan tetesan berwarna biru keluar menuju wadah kecil.",
+        "watch": "Perhatikan jalur tunggal uap dari bejana menuju wadah hasil, karena jalur tunggal inilah yang membatasi kemurnian produk."
+      },
+      {
+        "end": 21.7,
+        "on_screen": "Tambah: uapkan sekali lagi. Lebih murni. Tapi tahap terpisah begini makan tempat.",
+        "purpose": "Menunjukkan bahwa pengulangan tahap menaikkan kemurnian, sekaligus membuka cacat baru berupa kebutuhan ruang dan energi.",
+        "role": "PROSES",
+        "start": 10.9,
+        "title": "Penguapan kedua menaikkan kemurnian tetapi boros tempat",
+        "visual": "Tahap kedua muncul di atas tahap pertama. Uap hasil penguapan pertama diuapkan kembali pada bejana kedua yang lebih kecil.",
+        "watch": "Bandingkan susunan dua bejana terpisah ini dengan satu bejana pada bagian sebelumnya untuk melihat pertambahan ruang yang dituntut."
+      },
+      {
+        "end": 33.8,
+        "on_screen": "Tumpuk jadi satu kolom. Tiap tray = satu kali penguapan mini.",
+        "purpose": "Menutup cacat ruang dengan menumpuk seluruh tahap ke dalam satu menara, dengan tray sebagai pengganti setiap bejana terpisah.",
+        "role": "PROSES",
+        "start": 21.7,
+        "title": "Semua tahap ditumpuk menjadi satu kolom bertray",
+        "visual": "Dua tahap yang terpisah melebur menjadi satu kolom vertikal. Tray bertingkat muncul satu per satu di dalam kolom yang transparan.",
+        "watch": "Hitung kemunculan tray satu per satu dan kaitkan setiap tray dengan satu kali penguapan mini pada tahap terpisah sebelumnya."
+      },
+      {
+        "end": 45.9,
+        "on_screen": "Tambah: reboiler di bawah, kondensor di atas. Uap naik, cairan turun, bertemu di tiap tray.",
+        "purpose": "Memberi sumber uap yang naik dan sumber cairan yang turun secara terus-menerus, sehingga pertemuan pada setiap tray dapat berlangsung tanpa henti.",
+        "role": "PROSES",
+        "start": 33.8,
+        "title": "Reboiler di bawah dan kondensor di atas menggerakkan dua aliran",
+        "visual": "Reboiler menyala di dasar kolom dan mendidihkan cairan, sedangkan kondensor muncul di puncak. Uap oranye naik dan cairan biru turun dari tray ke tray.",
+        "watch": "Ikuti dua arah aliran yang berlawanan, uap yang naik dari dasar dan cairan yang turun dari puncak, lalu perhatikan titik pertemuannya pada setiap tray."
+      },
+      {
+        "end": 57.9,
+        "on_screen": "Tambah: reflux. Sebagian hasil dikembalikan. Puncak kolom makin murni.",
+        "purpose": "Menjelaskan aliran balik yang memperkaya komponen ringan di puncak dan menyapu komponen berat turun, sehingga kemurnian produk atas naik.",
+        "role": "PROSES",
+        "start": 45.9,
+        "title": "Reflux mengembalikan sebagian cairan ke puncak kolom",
+        "visual": "Aliran produk dari kondensor bercabang. Sebagian keluar sebagai distilat dan sebagian kembali ke puncak kolom sebagai reflux yang menyala jalurnya.",
+        "watch": "Perhatikan percabangan di keluaran kondensor dan bedakan bagian yang keluar sebagai produk dengan bagian yang kembali ke puncak."
+      },
+      {
+        "end": 65.2,
+        "on_screen": "Umpan masuk terus-menerus. Ringan keluar atas, berat keluar bawah.",
+        "purpose": "Melengkapi pembangunan dengan operasi kontinu, keadaan akhir yang membedakan kolom industri dari penyulingan bertahap yang terputus-putus.",
+        "role": "PAYOFF",
+        "start": 57.9,
+        "title": "Umpan kontinu melengkapi kolom yang beroperasi penuh",
+        "visual": "Pipa umpan masuk di tengah kolom secara terus-menerus, produk atas keluar secara kontinu, dan produk bawah yang berwarna oranye tua keluar dari dasar. Kamera mengorbit mengelilingi kolom yang utuh.",
+        "watch": "Baca ketiga aliran secara bersamaan, umpan yang masuk di tengah, produk ringan yang keluar dari atas, dan produk berat yang keluar dari bawah."
+      },
+      {
+        "end": 72.4,
+        "on_screen": "30-50 TRAY DALAM SATU KOLOM KILANG. KAMU BARU SAJA MEMBANGUN KOLOM DISTILASI.",
+        "purpose": "Mengaitkan kolom hasil pembangunan dengan skala kolom kilang yang sebenarnya dan menutup rangkaian dengan prinsip yang sama dari awal sampai akhir.",
+        "role": "TAKEAWAY",
+        "start": 65.2,
+        "title": "Kolom kilang berisi 30 sampai 50 tray",
+        "visual": "Angka besar 30 sampai 50 tray dalam satu kolom kilang, diikuti kalimat penutup dan ajakan melihat kalkulator teknik kimia di website.",
+        "watch": "Angka pada bagian penutup ini adalah skala rujukan untuk kolom hasil pembangunan pada bagian bagian sebelumnya."
+      }
+    ]
+  },
+  {
+    "slug": "buildup-kolom-distilasi-remake",
+    "title": "Membangun Kolom Distilasi dari Satu Tabung Logam",
+    "hook": "Satu tabung logam terbuka di atas api kehilangan seluruh uapnya ke udara. Dari tabung yang sama, kolom distilasi dibangun satu tambahan pada satu waktu.",
+    "date": "2026-10-23",
+    "ig": "https://www.instagram.com/reel/De1fCD3jxYa/",
+    "src": "/home/hatch/workspace/coded-motion-graphics/videos/buildup-experimental/buildup-exp1-final/renders/buildup-exp1-v4-factory.mp4",
+    "poster_src": "/home/hatch/workspace/coded-motion-graphics/videos/buildup-experimental/buildup-exp1-final/renders/cover-exp1-v4factory.jpg",
+    "duration": 69.8,
+    "tag": "Peralatan Proses",
+    "intro": "Video ini memulai pembangunan dari satu tabung logam terbuka di atas api, yang uapnya naik lalu hilang ke udara. Tabung tersebut tidak pernah diganti. Setiap langkah menambahkan satu komponen fisik yang menutup cacat langkah sebelumnya, sampai tabung yang sama berdiri sebagai kolom baja di tengah kilang.",
+    "tension": "Uap yang telah ditangkap tetap belum menjadi cairan, hasil yang telah menjadi cairan tetap masih kotor, dan proses berhenti setiap kali campuran di dalam tabung habis. Cacat mana yang harus ditutup lebih dahulu agar pemisahan dapat berlangsung terus-menerus?",
+    "takeaway": "Kolom distilasi adalah satu tabung yang ditutup, diberi pendingin, diberi umpan kontinu, diberi reflux, ditumbuhkan dengan tray di dalamnya, dan dilengkapi kondensor besar. Prinsipnya tetap satu dari awal sampai akhir, yaitu perbedaan titik didih, dan kolom kilang pada umumnya berisi 30 sampai 50 tray.",
+    "facts": [
+      "Uap yang hanya ditampung melalui pipa tetap berwujud uap. Uap berubah menjadi cairan pertama setelah pipa tersebut dibungkus air dingin sebagai pendingin.",
+      "Reflux mengembalikan sebagian hasil ke puncak tabung. Uap yang naik dipaksa bertemu cairan yang turun, dan setiap pertemuan menaikkan kemurnian pemisahan.",
+      "Tray ditumpuk di dalam tabung yang tumbuh memanjang. Kolom kilang pada umumnya berisi 30 sampai 50 tray."
+    ],
+    "quiz": {
+      "answer": 0,
+      "explain": "Tabung yang ditutup dan diberi pipa hanya memaksa uap keluar melalui pipa, dan uap tersebut tetap berwujud uap. Tetesan pertama muncul setelah pipa dibungkus air dingin, yang mengembunkan uap menjadi cairan.",
+      "options": [
+        "Pendingin berupa air dingin yang membungkus pipa",
+        "Tangki umpan yang mengalirkan bahan terus-menerus",
+        "Pipa keluar di dasar tabung"
+      ],
+      "q": "Komponen apa yang mengubah uap di dalam pipa menjadi tetesan cairan pertama?"
+    },
+    "scenes": [
+      {
+        "end": 5.6,
+        "on_screen": "TABUNG TERBUKA. Uap yang paling ringan naik, lalu hilang begitu saja ke udara.",
+        "purpose": "Menetapkan benda utama beserta cacat pertamanya, yaitu uap yang terbuang sehingga tidak ada hasil yang diperoleh.",
+        "role": "HOOK",
+        "start": 0.0,
+        "title": "Tabung terbuka di atas api kehilangan uapnya",
+        "visual": "Campuran dipanaskan di dalam tabung logam terbuka di atas api. Uap ringan naik dari mulut tabung dan hilang ke udara tanpa ditangkap.",
+        "watch": "Perhatikan mulut tabung yang terbuka dan arah uap yang hilang, karena tabung inilah benda yang sama sampai bagian terakhir."
+      },
+      {
+        "end": 12.4,
+        "on_screen": "TUTUP DAN PIPA. Uapnya dipaksa keluar lewat pipa itu. Masalahnya, dia tetap uap.",
+        "purpose": "Menangkap uap yang sebelumnya hilang, sekaligus menyatakan cacat berikutnya bahwa uap yang tertangkap belum menjadi cairan.",
+        "role": "PROSES",
+        "start": 5.6,
+        "title": "Tabung ditutup dan diberi pipa, tetapi uap tetap uap",
+        "visual": "Tabung yang sama ditutup dan pipa miring terpasang di puncaknya. Uap dipaksa keluar melalui pipa tersebut.",
+        "watch": "Ikuti perubahan jalur uap dari mulut terbuka menuju pipa miring, lalu perhatikan bahwa wujudnya belum berubah."
+      },
+      {
+        "end": 19.1,
+        "on_screen": "PENDINGIN. Uap yang menyentuh pipa dingin berubah jadi tetesan.",
+        "purpose": "Menutup cacat wujud dengan kondensasi, sehingga proses untuk pertama kali menghasilkan cairan, walaupun hasilnya masih kotor.",
+        "role": "PROSES",
+        "start": 12.4,
+        "title": "Pendingin pada pipa menghasilkan tetesan pertama",
+        "visual": "Pipa dibungkus air dingin. Uap yang menyentuh dinding pipa yang dingin berubah menjadi tetesan dan jatuh ke dalam wadah sebagai cairan pertama.",
+        "watch": "Perhatikan tetesan pertama yang jatuh ke wadah dan kaitkan kemunculannya dengan pendingin yang baru terpasang pada pipa."
+      },
+      {
+        "end": 26.1,
+        "on_screen": "TANGKI UMPAN. Campuran habis, tetesan berhenti. Pasang tangki dan pipa umpan yang mengalir terus.",
+        "purpose": "Menutup cacat keberlangsungan, karena campuran di dalam tabung yang habis sebelumnya menghentikan tetesan hasil.",
+        "role": "PROSES",
+        "start": 19.1,
+        "title": "Tangki umpan membuat proses tidak pernah berhenti",
+        "visual": "Tangki dan pipa umpan terpasang pada sisi tengah tabung dan mengalirkan campuran terus-menerus, menggantikan pengisian yang terputus-putus.",
+        "watch": "Bedakan aliran umpan yang masuk terus-menerus ini dengan pengisian satu kali pada tabung di bagian awal."
+      },
+      {
+        "end": 33.7,
+        "on_screen": "REFLUX. Kembalikan sebagian tetesan ke puncak. Setiap pertemuan membuatnya makin murni.",
+        "purpose": "Menutup cacat kemurnian dengan pertemuan berlawanan arah, yang memperkaya komponen ringan di puncak tabung.",
+        "role": "PROSES",
+        "start": 26.1,
+        "title": "Reflux memaksa uap bertemu cairan yang turun",
+        "visual": "Sebagian tetesan hasil dikembalikan melalui pipa ke puncak tabung. Uap yang naik bertemu cairan yang turun di dalam tabung yang sama.",
+        "watch": "Ikuti aliran balik dari wadah hasil menuju puncak dan perhatikan bahwa aliran ini bergerak berlawanan dengan uap yang naik."
+      },
+      {
+        "end": 41.2,
+        "on_screen": "TRAY. Satu pertemuan belum cukup. Tabung tumbuh memanjang, piringan ditumpuk di dalamnya.",
+        "purpose": "Mengalikan jumlah pertemuan tanpa mengganti benda utama, dengan tray sebagai tempat setiap pertemuan tambahan.",
+        "role": "PROSES",
+        "start": 33.7,
+        "title": "Tabung tumbuh memanjang dan tray ditumpuk di dalamnya",
+        "visual": "Tabung yang sama meregang ke atas dan tray ditumpuk satu di atas yang lain di dalamnya, sehingga pertemuan uap dan cairan berulang berkali-kali.",
+        "watch": "Perhatikan pertambahan tinggi tabung dan tumpukan tray di dalamnya sebagai satu rangkaian pertumbuhan dari benda yang sama."
+      },
+      {
+        "end": 47.9,
+        "on_screen": "PIPA KELUAR DASAR. Cairan berat mengumpul di dasar. Yang berat keluar dari bawah.",
+        "purpose": "Menutup cacat penumpukan cairan berat yang membuat tabung kepenuhan dan mengganggu operasi yang kontinu.",
+        "role": "PROSES",
+        "start": 41.2,
+        "title": "Pipa keluar di dasar mengeluarkan komponen berat",
+        "visual": "Pipa keluar terpasang di dasar tabung. Cairan berat yang mengumpul dikeluarkan terus-menerus dari bawah, sedangkan komponen ringan tetap naik ke atas.",
+        "watch": "Perhatikan dasar tabung sebagai titik keluar komponen berat, berlawanan posisi dengan puncak tempat komponen ringan berkumpul."
+      },
+      {
+        "end": 56.0,
+        "on_screen": "KONDENSOR. Pendingin kecil tumbuh jadi pendingin besar, dengan air yang dipompa memutar tanpa henti.",
+        "purpose": "Menutup cacat kapasitas panas yang naik seiring tabung bekerja lebih keras dan menghasilkan uap lebih banyak.",
+        "role": "PROSES",
+        "start": 47.9,
+        "title": "Pendingin kecil tumbuh menjadi kondensor besar",
+        "visual": "Pendingin pada pipa tumbuh menjadi kondensor besar dengan sirkulasi air yang dipompa. Panas dibuang keluar dan uap tetap berubah menjadi cairan pada beban yang lebih besar.",
+        "watch": "Bandingkan ukuran pendingin pada bagian ini dengan pendingin pipa pada bagian ketiga untuk melihat pertumbuhan komponen yang sama."
+      },
+      {
+        "end": 63.6,
+        "on_screen": "Tutup cangkangnya sampai jadi baja utuh, pasang tangga di sisinya, sambungkan pipa di puncaknya ke tangki penyimpanan.",
+        "purpose": "Mengubah seluruh tambahan yang terpisah menjadi satu kolom pabrik yang utuh, dengan peralatan pendamping berbentuk industri, bukan bentuk laboratorium yang diperbesar.",
+        "role": "PAYOFF",
+        "start": 56.0,
+        "title": "Tabung bertransformasi menjadi kolom pabrik yang utuh",
+        "visual": "Cangkang menutup menjadi baja utuh dan badan meregang ke proporsi menara, lengkap dengan kepala kubah, tangga, platform, kondensor tertutup, reflux drum, dan pipa produk tertutup menuju tangki penyimpanan di tanah.",
+        "watch": "Periksa keadaan akhir ini terhadap keadaan awalnya. Benda utamanya tetap tabung yang sama, sedangkan bentuk pendampingnya telah menjadi peralatan pabrik."
+      },
+      {
+        "end": 69.8,
+        "on_screen": "KAMU BARU SAJA MEMBANGUN KOLOM DISTILASI.",
+        "purpose": "Menutup pembangunan dengan benda hasil akhir pada skala penuh di lingkungannya, beroperasi sebagaimana kolom kilang yang sebenarnya.",
+        "role": "TAKEAWAY",
+        "start": 63.6,
+        "title": "Kolom berdiri setinggi gedung di tengah kilang",
+        "visual": "Tampilan menjauh memperlihatkan kolom pabrik raksasa yang tetap beroperasi di tengah kilang, dengan produk mengalir melalui pipa tertutup.",
+        "watch": "Kalimat penutup pada bagian ini merujuk pada seluruh rantai tambahan sejak tabung terbuka pada bagian pertama."
+      }
+    ]
+  },
+  {
+    "slug": "buildup-reaktor-dari-panci-presto",
+    "title": "Membangun Reaktor Kimia dari Satu Panci Presto",
+    "hook": "Satu panci presto di atas kompor menyemburkan uap liar lewat katup dan dapat meledak apabila lengah. Reaktor kimia adalah panci yang sama setelah tekanan, campuran, dan suhunya dikendalikan.",
+    "date": "2026-10-24",
+    "ig": "https://www.instagram.com/reel/De3pr_sjL7d/",
+    "src": "/home/hatch/workspace/coded-motion-graphics/videos/buildup-experimental/buildup-exp3-final/renders/buildup-exp3-v1.mp4",
+    "poster_src": "/home/hatch/workspace/coded-motion-graphics/videos/buildup-experimental/buildup-exp3-final/renders/cover-exp3-v1.jpg",
+    "duration": 69.9,
+    "tag": "Peralatan Proses",
+    "intro": "Video ini memulai pembangunan dari satu panci presto di atas kompor, yang isinya mendidih, tekanannya naik, dan uapnya menyembur liar lewat katup. Setiap langkah menambahkan satu pengendalian atau satu penguat yang menutup cacat langkah sebelumnya, sampai panci yang sama berdiri sebagai reaktor raksasa di tengah pabrik kimia.",
+    "tension": "Isi panci yang tidak tercampur gosong di bawah dan mentah di atas, isi yang menghasilkan panas sendiri membuat suhu lari naik, dan badan yang tipis menyerah pada tekanan yang terus-menerus. Pengendalian apa yang harus ditambahkan lebih dahulu agar reaksi dapat berjalan aman dan kontinu?",
+    "takeaway": "Reaktor kimia adalah panci presto yang tekanannya dijaga dan terbaca, isinya tercampur rata, panas berlebihnya dibuang, umpannya mengalir terus, badannya diperkuat, dan seluruh keadaannya dikendalikan otomatis. Prinsipnya tetap satu dari awal sampai akhir, yaitu reaksi yang dikendalikan. Yang berubah hanya skalanya.",
+    "facts": [
+      "Katup pengaman yang membuka dan menutup teratur, lengkap dengan alat ukur tekanan, membuat tekanan di dalam panci stabil dan terbaca.",
+      "Jaket pendingin adalah lingkaran pada badan tempat air dingin mengalir terus. Panas berlebih dari isi yang menghasilkan panas sendiri dibuang melalui jaket tersebut, sehingga suhu menjadi jinak.",
+      "Bejana reaktor dibangun dari stainless berdinding tebal dengan tutup flensa yang dibaut rapat, menggantikan badan presto yang tipis dan menyerah pada tekanan serta aliran terus-menerus."
+    ],
+    "quiz": {
+      "answer": 0,
+      "explain": "Setelah pengaduk membuat isi tercampur rata, isi mulai menghasilkan panasnya sendiri dan suhu lari naik. Jaket pendingin yang dilingkarkan pada badan, tempat air dingin mengalir terus, membuang panas berlebih tersebut dan membuat suhu jinak.",
+      "options": [
+        "Jaket pendingin yang dilingkarkan pada badan",
+        "Katup pengaman pada tutup",
+        "Pengaduk yang dipasang dari atas"
+      ],
+      "q": "Komponen apa yang membuang panas berlebih ketika isi reaktor mulai menghasilkan panasnya sendiri dan suhu lari naik?"
+    },
+    "scenes": [
+      {
+        "end": 6.6,
+        "on_screen": "PRESTO. DITEKAN PANCI PRESTO, UAPNYA MENYEMBUR LIAR. Uap menyembur liar, tekanan tidak terkendali.",
+        "purpose": "Menetapkan benda utama beserta cacat pertamanya, yaitu tekanan yang naik tanpa kendali dan ancaman meledak apabila lengah.",
+        "role": "HOOK",
+        "start": 0.0,
+        "title": "Panci presto menyemburkan uap liar lewat katup",
+        "visual": "Panci presto di atas kompor pada dapur yang hangat. Isinya mendidih, tekanannya naik, dan uap menyembur liar lewat katup dengan desis yang tidak terkendali.",
+        "watch": "Perhatikan katup pada tutup dan semburan uapnya, karena panci inilah benda yang sama sampai menjadi reaktor pada bagian terakhir."
+      },
+      {
+        "end": 13.5,
+        "on_screen": "KATUP PENGAMAN. Pasang katup pengaman + alat ukur. Tekanannya terbaca dan stabil.",
+        "purpose": "Menutup cacat kendali tekanan, sekaligus membuka cacat berikutnya bahwa isi tidak tercampur, dengan bagian bawah gosong dan bagian atas mentah.",
+        "role": "PROSES",
+        "start": 6.6,
+        "title": "Katup pengaman dan alat ukur membuat tekanan terbaca",
+        "visual": "Katup pengaman yang membuka dan menutup teratur terpasang pada tutup, lengkap dengan alat ukur tekanan. Semburan liar berhenti dan tekanan menjadi stabil.",
+        "watch": "Perhatikan alat ukur pada tutup sebagai tanda tekanan kini terbaca, bukan lagi ditebak dari semburan uap."
+      },
+      {
+        "end": 20.3,
+        "on_screen": "PENGADUK. Pasang pengaduk dari atas. Tercampur rata, matang merata.",
+        "purpose": "Menutup cacat pencampuran, sekaligus membuka cacat berikutnya bahwa isi menghasilkan panasnya sendiri dan suhu lari naik.",
+        "role": "PROSES",
+        "start": 13.5,
+        "title": "Pengaduk dari atas membuat isi tercampur rata",
+        "visual": "Pengaduk terpasang dari atas menembus tutup dan berputar mengaduk seluruh isi. Perbedaan bagian bawah dan bagian atas hilang karena campuran menjadi rata.",
+        "watch": "Ikuti putaran pengaduk dari puncak menembus tutup dan perhatikan bahwa geraknya menjangkau seluruh isi, bukan hanya permukaan."
+      },
+      {
+        "end": 27.1,
+        "on_screen": "JAKET PENDINGIN. Lingkari jaket pendingin. Suhunya jinak, panas berlebih dibuang.",
+        "purpose": "Menutup cacat pengendalian suhu, sekaligus membuka cacat kapasitas, karena sekali masak tetap sedikit dan proses harus berhenti untuk pengisian ulang.",
+        "role": "PROSES",
+        "start": 20.3,
+        "title": "Jaket pendingin membuang panas berlebih",
+        "visual": "Jaket pendingin melingkari badan panci dan air dingin mengalir terus di dalamnya. Suhu yang sebelumnya lari naik menjadi jinak.",
+        "watch": "Perhatikan lingkaran jaket pada badan sebagai jalur air dingin yang terpisah dari isi yang didinginkan di dalamnya."
+      },
+      {
+        "end": 33.5,
+        "on_screen": "UMPAN KONTINU. Sambung umpan kontinu. Mengalir terus, tanpa pernah berhenti.",
+        "purpose": "Menutup cacat keberlangsungan operasi batch, sekaligus membuka cacat kekuatan, karena badan presto yang tipis mulai menyerah pada tekanan dan aliran terus-menerus.",
+        "role": "PROSES",
+        "start": 27.1,
+        "title": "Umpan kontinu membuat aliran tidak pernah berhenti",
+        "visual": "Pipa umpan tersambung dari tangki bahan dan pipa keluar terpasang untuk produk. Bahan mengalir masuk terus dan produk keluar terus tanpa membuka tutup.",
+        "watch": "Bedakan aliran masuk dari tangki bahan dan aliran keluar produk sebagai dua aliran yang berjalan bersamaan tanpa henti."
+      },
+      {
+        "end": 40.0,
+        "on_screen": "BEJANA STAINLESS. Bangun bejana stainless tebal. Kuat menahan tekanan terus-menerus.",
+        "purpose": "Menutup cacat kekuatan bahan, sekaligus membuka cacat penjagaan, karena belum ada yang menjaga suhu, tekanan, dan level selama dua puluh empat jam penuh.",
+        "role": "PROSES",
+        "start": 33.5,
+        "title": "Bejana stainless berdinding tebal menggantikan badan tipis",
+        "visual": "Badan dibangun ulang menjadi bejana stainless berdinding tebal dengan tutup flensa yang dibaut rapat di sekelilingnya. Bejana kini kuat menahan tekanan operasi kontinu.",
+        "watch": "Perhatikan baut pada sekeliling flensa tutup sebagai tanda penutupan telah berubah dari segel presto menjadi sambungan berkekuatan industri."
+      },
+      {
+        "end": 47.2,
+        "on_screen": "PANEL KENDALI. Pasang panel kendali otomatis. Terpantau dan terkendali sendiri.",
+        "purpose": "Menutup cacat penjagaan terus-menerus, sekaligus menyatakan cacat terakhir bahwa skala bejana masih sekecil panci.",
+        "role": "PROSES",
+        "start": 40.0,
+        "title": "Sensor dan panel kendali otomatis menjaga seluruh keadaan",
+        "visual": "Sensor terpasang pada berbagai titik dan terhubung ke panel kendali otomatis. Suhu, tekanan, dan level terpantau dan terkendali sendiri dengan aman tanpa dijaga.",
+        "watch": "Perhatikan hubungan antara sensor pada bejana dan panel kendali sebagai satu rangkaian pemantauan yang bekerja tanpa penjagaan manusia."
+      },
+      {
+        "end": 54.3,
+        "on_screen": "Lengkapi jadi pabrik mini. Satu kesatuan proses, bekerja sendiri.",
+        "purpose": "Melengkapi bejana menjadi satu kesatuan proses yang utuh sebelum perubahan skala, dengan penyimpanan dan pemindahan bahan tersambung seluruhnya.",
+        "role": "PROSES",
+        "start": 47.2,
+        "title": "Tangki dan pompa melengkapi satu kesatuan proses mini",
+        "visual": "Tangki bahan terpasang pada satu sisi, tangki produk pada sisi lain, dan pompa penghubung di antaranya. Bejana berdiri sebagai satu pabrik kimia mini yang bekerja sendiri di halaman.",
+        "watch": "Baca rangkaian ini sebagai satu sistem, dari tangki bahan melalui bejana menuju tangki produk, dengan pompa sebagai penghubungnya."
+      },
+      {
+        "end": 64.3,
+        "on_screen": "REAKTOR. Besarkan semuanya ke skala pabrik. Dia tidak lagi dimasak. Dia memproduksi.",
+        "purpose": "Mengubah kesatuan proses mini menjadi reaktor pabrik yang utuh, dengan seluruh pengendalian dari langkah sebelumnya hadir dalam bentuk industri.",
+        "role": "PAYOFF",
+        "start": 54.3,
+        "title": "Bejana tumbuh menjadi reaktor raksasa di pabrik kimia",
+        "visual": "Bejana tumbuh di tempat menjadi reaktor raksasa stainless dengan pengaduk bermotor besar di puncak, jaket pendingin raksasa pada badan, platform bertingkat, pipa dari tangki penyimpanan, dan panel kendali industri.",
+        "watch": "Periksa keadaan akhir ini terhadap panci pada bagian pertama. Pengaduk, jaket, dan pengendaliannya tetap ada, sedangkan gagang dan katup kecil khas presto telah hilang."
+      },
+      {
+        "end": 69.9,
+        "on_screen": "KAMU BARU SAJA MEMBANGUN REAKTOR KIMIA.",
+        "purpose": "Menutup pembangunan dengan benda hasil akhir pada skala penuh di lingkungannya, beroperasi sebagai jantung pabrik kimia.",
+        "role": "TAKEAWAY",
+        "start": 64.3,
+        "title": "Reaktor berdiri sebagai jantung pabrik kimia",
+        "visual": "Tampilan menjauh memperlihatkan kompleks pabrik kimia yang beroperasi pada siang terang, dengan reaktor, kolom, dan deretan tangki penyimpanan di lingkungannya.",
+        "watch": "Kalimat penutup pada bagian ini merujuk pada panci presto pada bagian pertama, yang kini berdiri sebagai reaktor."
+      }
+    ]
+  },
+  {
+    "slug": "ko-drum-penjaga-kompresor",
+    "title": "KO Drum: Penjaga Kompresor dari Tetesan Cairan",
+    "hook": "Satu tetesan cairan yang lolos dapat menghancurkan kompresor.",
+    "date": "2026-10-23",
+    "ig": "https://www.instagram.com/reel/De1xWppDg8e/",
+    "src": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-23/motion-1/motion.mp4",
+    "poster_src": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-23/motion-1/cover.jpg",
+    "duration": 41.0,
+    "tag": "Separasi Gas dan Kompresor",
+    "intro": "Kompresor dirancang untuk memampatkan gas, tetapi aliran gas dari proses tidak pernah benar-benar kering. Video ini membedah mengapa tetesan cairan yang terbawa aliran berbahaya bagi kompresor, dan bagaimana KO drum memisahkannya sebelum gas tiba di mesin.",
+    "tension": "Gas yang masuk kompresor tidak pernah benar-benar kering, dan tetesan cairan yang terbawa di dalamnya dapat merusak mesin yang seharusnya hanya memampatkan gas.",
+    "takeaway": "KO drum adalah asuransi yang sederhana sebelum mesin yang mahal: gas masuk, kecepatannya turun, tetesan jatuh oleh gravitasi, cairan dibuang melalui drain, dan gas kering keluar dari atas menuju kompresor.",
+    "facts": [
+      "KO drum memisahkan tetesan cairan dari aliran gas secara gravitasi sebelum gas masuk kompresor.",
+      "Cairan tidak termampatkan, sehingga tetesan yang masuk ke kompresor menghantam bilah dengan keras dan merusak bilah serta seal.",
+      "Di dalam KO drum, kecepatan gas diturunkan sehingga tetesan jatuh oleh gravitasi; gas kering keluar dari atas, sedangkan cairan terkumpul di bawah dan dibuang melalui drain."
+    ],
+    "quiz": {
+      "q": "Mengapa tetesan cairan berbahaya bagi kompresor?",
+      "options": [
+        "Karena cairan membuat gas lebih mudah dimampatkan",
+        "Karena cairan tidak termampatkan, sehingga tetesan menghantam bilah kompresor dengan keras",
+        "Karena cairan menurunkan suhu gas masuk"
+      ],
+      "answer": 1,
+      "explain": "Kompresor dirancang untuk gas yang volumenya menyusut ketika dimampatkan. Cairan hampir tidak menyusut, sehingga energi tumbukan tetesan diterima langsung oleh bilah dan seal. KO drum mencegah tetesan itu tiba di mesin dengan memisahkannya secara gravitasi."
+    },
+    "scenes": [
+      {
+        "start": 0.0,
+        "end": 4.0,
+        "role": "HOOK",
+        "title": "Tetesan cairan mengancam kompresor",
+        "on_screen": "TETESAN AIR INI BISA MENGHANCURKAN KOMPRESOR",
+        "visual": "Kompresor digambar di tengah, satu tetesan air jatuh ke arahnya dengan efek tegang.",
+        "purpose": "Menancapkan ancaman: tetesan kecil vs mesin mahal.",
+        "watch": "Satu tetesan air yang jatuh ke arah kompresor pada bingkai pembuka menetapkan ancaman yang akan dijawab oleh urutan pengamanannya."
+      },
+      {
+        "start": 4.0,
+        "end": 11.0,
+        "role": "TENSION",
+        "title": "Gas proses yang tidak pernah kering",
+        "on_screen": "Gas dari proses tidak pernah benar-benar kering",
+        "visual": "Pipa horizontal, aliran gas digambar dengan tetesan-tetesan kecil ikut mengalir.",
+        "purpose": "Membangun konteks: cairan selalu ikut terbawa aliran gas.",
+        "watch": "Tetesan kecil yang ikut mengalir di dalam pipa menunjukkan bahwa cairan terbawa aliran gas dari proses secara alami."
+      },
+      {
+        "start": 11.0,
+        "end": 18.0,
+        "role": "TENSION",
+        "title": "Cairan yang tidak termampatkan menabrak bilah",
+        "on_screen": "Kompresor untuk gas. Cairan tidak bisa dimampatkan.",
+        "visual": "Bilah kompresor berputar, tetesan menabrak bilah dan memicu retakan visual.",
+        "purpose": "Menjelaskan kenapa tetesan berbahaya bagi kompresor.",
+        "watch": "Tetesan yang menabrak bilah berputar dan retakan yang muncul menggambarkan kerusakan yang terjadi di dalam kompresor."
+      },
+      {
+        "start": 18.0,
+        "end": 26.0,
+        "role": "PAYOFF",
+        "title": "Pemisahan gravitasi di dalam KO drum",
+        "on_screen": "KO drum: gas masuk, kecepatan turun, tetesan jatuh.",
+        "visual": "Drum vertikal: gas masuk dari samping, tetesan jatuh ke bawah oleh gravitasi, gas kering keluar dari atas.",
+        "purpose": "Memperkenalkan solusi: pemisahan gravitasi di KO drum.",
+        "watch": "Drum vertikal dengan gas masuk dari samping, tetesan jatuh ke bawah, dan gas kering keluar dari atas adalah keseluruhan prinsip kerjanya dalam satu gambar."
+      },
+      {
+        "start": 26.0,
+        "end": 34.0,
+        "role": "PAYOFF",
+        "title": "Cairan terkumpul dan dibuang melalui drain",
+        "on_screen": "Cairan terkumpul di bawah, didrain otomatis.",
+        "visual": "Level cairan di dasar drum naik, valve drain terbuka berkala, gas bersih mengalir ke kompresor.",
+        "purpose": "Melengkapi siklus: cairan tidak menumpuk, gas kering lanjut aman.",
+        "watch": "Level cairan yang naik di dasar drum dan katup drain yang terbuka berkala menunjukkan bahwa cairan hasil pemisahan tidak dibiarkan menumpuk."
+      },
+      {
+        "start": 34.0,
+        "end": 41.0,
+        "role": "TAKEAWAY_CTV",
+        "title": "Urutan pengaman sebelum kompresor",
+        "on_screen": "KO drum = asuransi murah sebelum mesin mahal. Simpan urutannya.",
+        "visual": "Rangkuman tiga langkah: pisahkan, drain, lindungi; tombol save disorot halus.",
+        "purpose": "Takeaway satu kalimat yang bisa diingat plus ajakan simpan yang beralasan.",
+        "watch": "Rangkuman tiga langkah pada penutup, yaitu pisahkan, drain, dan lindungi, adalah urutan yang perlu diingat dari video ini."
+      }
+    ]
+  },
+  {
+    "slug": "lpg-cairan-dalam-tabung",
+    "title": "Isi Tabung LPG Bukan Gas, Melainkan Cairan",
+    "hook": "Isi tabung LPG bukan gas, melainkan cairan.",
+    "date": "2026-10-21",
+    "ig": "https://www.instagram.com/reel/Dewnp1uD5cl/",
+    "src": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-21/motion-1/motion.mp4",
+    "poster_src": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-21/motion-1/cover.jpg",
+    "duration": 40.9,
+    "tag": "Perubahan Fasa",
+    "intro": "Tabung LPG di dapur lazim disebut tabung gas, tetapi isinya bukan gas yang dimampatkan. Video ini membedah bagaimana campuran propana dan butana dapat tersimpan sebagai cairan di dalam tabung, serta apa yang terjadi pada saat katup dibuka.",
+    "tension": "Tabung terasa berisi gas bertekanan, padahal yang di dalam adalah cairan; begitu katup dibuka, cairan itu mendidih menjadi gas.",
+    "takeaway": "Tekanan di dalam tabung menjaga LPG tetap cair, dan pembukaan katup menurunkan tekanan sehingga cairan mendidih menjadi gas yang mengalir ke kompor.",
+    "facts": [
+      "LPG adalah campuran propana (C3H8) dan butana (C4H10), dengan titik didih propana minus 42 derajat C dan butana minus 0,5 derajat C pada 1 atm.",
+      "Tabung LPG hanya diisi 80 sampai 85 persen dari kapasitasnya agar cairan memiliki ruang untuk memuai pada saat suhu naik.",
+      "Satu liter LPG cair mengembang menjadi sekitar 250 liter gas, dan uap LPG yang lebih berat dari udara menyebabkan gas yang bocor mengendap di lantai."
+    ],
+    "quiz": {
+      "q": "Mengapa tabung LPG tidak diisi penuh sampai 100 persen?",
+      "options": [
+        "Agar tabung lebih ringan dibawa",
+        "Agar cairan memiliki ruang memuai pada saat suhu naik",
+        "Agar gas lebih cepat habis"
+      ],
+      "answer": 1,
+      "explain": "Cairan memuai ketika suhu naik. Pengisian 80 sampai 85 persen menyisakan ruang uap di atas cairan, sehingga kenaikan suhu tidak langsung menaikkan tekanan secara berlebihan di dalam tabung tertutup."
+    },
+    "scenes": [
+      {
+        "start": 0.0,
+        "end": 6.0,
+        "role": "HOOK",
+        "title": "Isi tabung LPG adalah cairan",
+        "on_screen": "ISI TABUNG LPG / BUKAN GAS, TAPI CAIRAN",
+        "visual": "Tabung LPG 3 kg digambar utuh, lalu potongan melintang memperlihatkan cairan memenuhi sebagian besar tabung dengan ruang uap di atasnya.",
+        "purpose": "Menanamkan kejutan: isi tabung adalah cairan, bukan gas bertekanan.",
+        "watch": "Potongan melintang tabung memperlihatkan cairan yang mengisi sebagian besar tabung dengan ruang uap di atasnya."
+      },
+      {
+        "start": 6.0,
+        "end": 13.0,
+        "role": "TENSION",
+        "title": "Titik didih propana dan butana",
+        "on_screen": "PROPANA MENDIDIH -42°C, BUTANA -0,5°C",
+        "visual": "Dua kartu molekul muncul: propana C3H8 (-42°C) dan butana C4H10 (-0,5°C); panah suhu ruang 30°C menekan dari atas.",
+        "purpose": "Menjelaskan kenapa LPG ingin menjadi gas pada suhu ruang.",
+        "watch": "Dua kartu molekul dan panah suhu ruang menunjukkan bahwa kedua komponen berada jauh di atas titik didihnya pada keadaan tanpa tekanan."
+      },
+      {
+        "start": 13.0,
+        "end": 20.0,
+        "role": "TENSION",
+        "title": "Tekanan menahan LPG tetap cair",
+        "on_screen": "TEKANAN MENAHANNYA TETAP CAIR",
+        "visual": "Indikator tekanan naik menekan molekul; garis batas isi 80-85 persen digambar di tabung dengan label ruang muai.",
+        "purpose": "Tekanan di tabung menahan keduanya sebagai cairan; ruang muai dijelaskan.",
+        "watch": "Garis batas isi 80 sampai 85 persen pada tabung menandai ruang muai yang sengaja disisakan di atas cairan."
+      },
+      {
+        "start": 20.0,
+        "end": 27.0,
+        "role": "PAYOFF",
+        "title": "Katup dibuka, cairan mendidih menjadi gas",
+        "on_screen": "KATUP DIBUKA, CAIRAN MENDIDIH JADI GAS / 1 LITER CAIRAN = SEKITAR 250 LITER GAS",
+        "visual": "Katup terbuka, tekanan turun, gelembung naik di cairan, aliran gas ke kompor; label 1:250 muncul di samping tabung.",
+        "purpose": "Katup dibuka: tekanan turun, cairan mendidih menjadi gas dengan rasio muai.",
+        "watch": "Gelembung yang naik di dalam cairan dan label 1:250 menunjukkan perubahan fasa beserta perbandingan volumenya."
+      },
+      {
+        "start": 27.0,
+        "end": 34.0,
+        "role": "PAYOFF",
+        "title": "Tabung mendingin dan gas bocor mengendap",
+        "on_screen": "TABUNG MENDINGIN SAAT DIPAKAI / GAS BOCOR MENGENDAP DI LANTAI",
+        "visual": "Embun dingin muncul di dinding tabung; simulasi kebocoran: awan gas turun dan mengendap di lantai, bukan naik.",
+        "purpose": "Dua akibat fisika yang bisa dirasakan: tabung dingin dan gas berat mengendap.",
+        "watch": "Embun dingin pada dinding tabung dan awan gas yang turun ke lantai adalah dua akibat fisika yang ditampilkan berurutan."
+      },
+      {
+        "start": 34.0,
+        "end": 40.9,
+        "role": "TAKEAWAY_CTV",
+        "title": "Tekanan menjaga cairan, katup melepas gas",
+        "on_screen": "TEKANAN JAGA CAIR, KATUP LEPAS JADI GAS",
+        "visual": "Ringkasan tiga ikon berurutan: cairan, tekanan, gas; watermark @ilmutekkim dan teks ajakan follow.",
+        "purpose": "Takeaway satu kalimat plus ajakan follow sebagai CTV.",
+        "watch": "Tiga ikon berurutan pada penutup merangkum rantai kejadiannya: cairan, tekanan, lalu gas."
+      }
+    ]
+  },
+  {
+    "slug": "ntu-efektivitas-penukar-panas",
+    "title": "Metode NTU Efektivitas: Menghitung Penukar Panas Tanpa Menebak Suhu Keluar",
+    "hook": "Duty penukar panas dapat dihitung tanpa mengetahui suhu keluarnya terlebih dahulu.",
+    "date": "2026-10-21",
+    "ig": "https://www.instagram.com/reel/DewMhqEPPP7/",
+    "src": "/home/hatch/workspace/coded-motion-graphics/videos/2026-10-21-ntu-efektivitas/renders/ntu-efektivitas_v3_2026-10-21.mp4",
+    "poster_src": "/home/hatch/workspace/coded-motion-graphics/videos/2026-10-21-ntu-efektivitas/renders/cover_v3_2026-10-21.jpg",
+    "duration": 38.0,
+    "tag": "Penukar Panas",
+    "intro": "Metode LMTD menuntut suhu keluar diketahui, padahal pada penukar panas yang sudah terpasang suhu keluar justru merupakan besaran yang dicari. Video ini mengerjakan satu contoh hitungan counterflow secara tuntas dengan metode NTU efektivitas, dari laju kapasitas panas sampai suhu keluar kedua aliran.",
+    "tension": "Suhu keluar belum diketahui sehingga LMTD menuntut tebakan dan iterasi, padahal duty menentukan suhu keluar itu sendiri.",
+    "takeaway": "Tanpa suhu keluar, duty tetap dapat dihitung: pada contoh ini duty aktual 101,65 kW, dengan suhu keluar aliran panas 69,2 derajat C dan aliran dingin 55,4 derajat C, dan neraca energinya tertutup.",
+    "facts": [
+      "C adalah laju kapasitas panas, C = m dot cp. Pada contoh ini Ch bernilai 2 kW/K dan Cc bernilai 4 kW/K, sehingga Cmin 2 kW/K dan Cmax 4 kW/K.",
+      "Qmax = Cmin (Th,in dikurangi Tc,in) = 2 x 90 = 180 kW, dan NTU = UA/Cmin = 1,00 menyatakan ukuran penukar panas relatif terhadap Cmin.",
+      "Pada NTU 1,00 dan Cr 0,50, efektivitas counterflow adalah 0,565, sehingga Q = 101,65 kW atau 56,5 persen dari Qmax."
+    ],
+    "quiz": {
+      "q": "Mengapa metode NTU efektivitas dipilih ketika suhu keluar penukar panas belum diketahui?",
+      "options": [
+        "Karena metode LMTD tidak berlaku pada aliran counterflow",
+        "Karena metode ini menghitung duty dari suhu masuk, kapasitas panas, dan UA tanpa menebak suhu keluar terlebih dahulu",
+        "Karena metode ini tidak memerlukan data laju aliran"
+      ],
+      "answer": 1,
+      "explain": "LMTD memerlukan suhu keluar untuk menghitung beda suhu rata-rata, sehingga suhu keluar harus ditebak dan perhitungan diulang. Metode NTU efektivitas bekerja dari besaran yang diketahui di sisi masuk dan ukuran penukar panas, lalu suhu keluar diperoleh sesudahnya dari neraca energi."
+    },
+    "scenes": [
+      {
+        "start": 0,
+        "end": 5,
+        "role": "HOOK",
+        "title": "Metode NTU efektivitas dan laju kapasitas panas",
+        "on_screen": "METODE NTU / EFEKTIVITAS / Penukar panas counterflow, satu contoh hitungan tuntas. / CONTOH: Th,in 120 derajat C, Tc,in 30 derajat C, Ch 2, Cc 4, UA 2 kW/K / 1 / Laju Kapasitas Panas / C = m dot cp / Ch 2,0 kW/K panas / Cc 4,0 kW/K dingin",
+        "visual": "Judul metode muncul di detik 0, strip data soal, lalu kartu 1 menumpuk dengan batang Ch dan Cc terisi proporsional.",
+        "purpose": "Pembuka langsung ke judul metode, strip data soal, dan kartu 1 laju kapasitas panas.",
+        "watch": "Perhatikan strip data soal di bagian awal, karena seluruh angka pada kartu berikutnya berasal dari lima besaran masuk tersebut."
+      },
+      {
+        "start": 5,
+        "end": 11,
+        "role": "TENSION",
+        "title": "Rasio kapasitas dan perpindahan panas maksimum",
+        "on_screen": "2 / Rasio Kapasitas / Cr = Cmin / Cmax / Cr 0,50 / 3 / Perpindahan Panas Maksimum / Qmax = Cmin (Th,in dikurangi Tc,in) / Qmax 180 kW",
+        "visual": "Kartu 2 dan 3 menumpuk. Slider Cr bergerak ke 0,50, chip beda suhu 90 K muncul, Qmax menghitung ke 180.",
+        "purpose": "Kartu 2 rasio kapasitas dan kartu 3 Qmax. Duty aktual masih ditahan.",
+        "watch": "Slider Cr yang berhenti pada 0,50 dan chip beda suhu 90 K menunjukkan dua besaran yang menentukan batas perpindahan panasnya."
+      },
+      {
+        "start": 11,
+        "end": 17.5,
+        "role": "TENSION",
+        "title": "Jumlah satuan perpindahan",
+        "on_screen": "4 / Jumlah Satuan Perpindahan / NTU = UA / Cmin / NTU 1,00 / ukuran penukar panas relatif terhadap Cmin",
+        "visual": "Kartu 4 menumpuk. Strip aliran counterflow panah berlawanan arah bergerak, skala NTU terisi sampai 1,00.",
+        "purpose": "Kartu 4 NTU: ukuran penukar panas dan strip aliran counterflow. Efektivitas masih ditahan.",
+        "watch": "Panah kedua aliran yang berlawanan arah menegaskan susunan counterflow, sedangkan skala NTU yang terisi sampai 1,00 menyatakan ukuran relatif penukar panas."
+      },
+      {
+        "start": 17.5,
+        "end": 24,
+        "role": "PAYOFF",
+        "title": "Efektivitas counterflow",
+        "on_screen": "5 / Efektivitas Counterflow / relasi counterflow untuk Cr kurang dari 1 / epsilon 0,565 / titik kerja NTU 1,00 dan epsilon 0,565 pada kurva Cr 0,5",
+        "visual": "Kartu 5 menumpuk. Tiga kurva epsilon NTU tergambar, titik kerja bergerak ke NTU 1,00, garis pemandu muncul.",
+        "purpose": "Kartu 5 efektivitas counterflow dari relasi dan kurva epsilon NTU, titik kerja ditandai.",
+        "watch": "Titik kerja pada kurva Cr 0,5 adalah hasil bacaan utamanya: NTU 1,00 berpasangan dengan efektivitas 0,565."
+      },
+      {
+        "start": 24,
+        "end": 30,
+        "role": "PAYOFF",
+        "title": "Duty dan suhu keluar",
+        "on_screen": "6 / Duty dan Suhu Keluar / Q = epsilon Qmax / Q 101,65 kW / 56,5 persen dari Qmax / Th,out 69,2 derajat C / Tc,out 55,4 derajat C",
+        "visual": "Kartu 6 menumpuk. Batang duty terisi 56,5 persen, suhu keluar menghitung ke nilai akhir.",
+        "purpose": "Kartu 6 jawaban akhir: duty aktual dan suhu keluar kedua aliran.",
+        "watch": "Batang duty yang terisi 56,5 persen menunjukkan posisi duty aktual terhadap batas maksimumnya sebelum suhu keluar ditampilkan."
+      },
+      {
+        "start": 30,
+        "end": 38,
+        "role": "TAKEAWAY_CTV",
+        "title": "Neraca energi dan kesimpulan",
+        "on_screen": "Neraca energi cocok: Ch delta Th = Cc delta Tc = Q = 101,65 kW / Tanpa suhu keluar, duty tetap bisa dihitung. / SIMPAN HITUNGAN INI / Follow @ilmutekkim untuk cheat sheet perpindahan panas berikutnya.",
+        "visual": "Strip hijau neraca energi dan strip biru takeaway plus CTV muncul di bawah poster utuh berisi enam kartu, lalu ditahan.",
+        "purpose": "Strip neraca energi membuktikan hitungan konsisten, takeaway dan CTV, poster utuh ditahan sampai akhir untuk tangkapan layar.",
+        "watch": "Poster utuh berisi enam kartu pada penutup merangkum seluruh urutan hitungan dalam satu bingkai."
+      }
+    ]
+  },
+  {
+    "slug": "steam-trap-katup-kondensat",
+    "title": "Steam Trap: Katup Kecil yang Membuang Kondensat Tanpa Membuang Uap",
+    "hook": "Steam trap yang rusak membuang steam hidup secara diam-diam.",
+    "date": "2026-10-22",
+    "ig": "https://www.instagram.com/reel/DezMjuWDvr4/",
+    "src": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-22/motion-1/motion.mp4",
+    "poster_src": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-22/motion-1/cover.jpg",
+    "duration": 41.5,
+    "tag": "Sistem Uap dan Utilitas",
+    "intro": "Steam trap adalah katup kecil yang terpasang pada jalur pembuangan sistem steam. Video ini membedah tugas gandanya, yaitu membuang kondensat tanpa membuang steam hidup, serta alasan kerusakan pada alat ini sering tidak terlihat.",
+    "tension": "Steam trap yang rusak terbuka membuang steam hidup terus-menerus, dan kebocoran itu tidak terlihat karena wujudnya sama seperti kondensat yang dibuang normal.",
+    "takeaway": "Steam trap yang baik membuang kondensat dan menahan steam hidup secara otomatis. Trap yang gagal terbuka membuang steam hidup secara kontinu, sehingga pemeriksaannya merupakan bagian dari efisiensi sistem steam.",
+    "facts": [
+      "Steam trap adalah katup otomatis yang membuang kondensat sambil mencegah kehilangan steam hidup, dan seluruh tugas itu dikerjakan tanpa listrik.",
+      "Kondensat terbentuk ketika steam melepaskan panas latennya; kondensat yang tidak dibuang menyebabkan water hammer dan menurunkan perpindahan panas.",
+      "Tiga keluarga utama steam trap adalah mekanis (pelampung dan ember terbalik), termostatik (bimetal), dan termodinamik (cakram), dan masing-masing dipilih berdasarkan tekanan serta beban kondensatnya."
+    ],
+    "quiz": {
+      "q": "Apa tugas ganda steam trap pada sistem steam?",
+      "options": [
+        "Membuang steam hidup dan menahan kondensat",
+        "Membuang kondensat dan menahan steam hidup secara otomatis",
+        "Menaikkan tekanan steam dan membuang udara"
+      ],
+      "answer": 1,
+      "explain": "Kondensat harus keluar karena genangannya menyebabkan water hammer dan menurunkan perpindahan panas, sedangkan steam hidup harus tertahan karena steam adalah pembawa energi yang mahal. Steam trap memisahkan keduanya secara otomatis berdasarkan perbedaan sifat air dan steam."
+    },
+    "scenes": [
+      {
+        "start": 0.0,
+        "end": 6.5,
+        "role": "HOOK",
+        "title": "Steam trap rusak membuang steam hidup",
+        "on_screen": "STEAM TRAP RUSAK BUANG UANG DIAM-DIAM",
+        "visual": "Pipa steam dengan steam trap di bawahnya; animasi uap keluar terus dari lubang buang, label 'steam hidup terbuang'.",
+        "purpose": "Menancapkan masalah: steam trap yang gagal-terbuka membuang steam hidup tanpa terlihat.",
+        "watch": "Aliran uap yang keluar terus dari lubang buang adalah tanda kegagalan yang dibahas: steam hidup terbuang bersama jalur pembuangan kondensat."
+      },
+      {
+        "start": 6.5,
+        "end": 13.0,
+        "role": "TENSION",
+        "title": "Steam melepaskan panas dan menjadi air",
+        "on_screen": "STEAM MELEPAS PANAS = JADI AIR",
+        "visual": "Penampang pipa: partikel steam berubah menjadi tetesan air yang menggenang di dasar pipa.",
+        "purpose": "Menjelaskan kenapa kondensat harus dibuang: steam melepaskan panas laten dan berubah jadi air.",
+        "watch": "Partikel steam yang berubah menjadi tetesan air dan menggenang di dasar pipa menunjukkan asal kondensat di dalam jalur steam."
+      },
+      {
+        "start": 13.0,
+        "end": 20.0,
+        "role": "TENSION",
+        "title": "Kondensat yang dibiarkan dan water hammer",
+        "on_screen": "AIR DI PIPA = WATER HAMMER",
+        "visual": "Genangan air terseret aliran steam, menabrak belokan pipa; gelombang kejut digambar sebagai garis kejut.",
+        "purpose": "Menunjukkan akibat kondensat dibiarkan: water hammer dan perpindahan panas yang turun.",
+        "watch": "Genangan air yang terseret aliran dan menabrak belokan pipa menghasilkan gelombang kejut yang digambarkan sebagai garis kejut."
+      },
+      {
+        "start": 20.0,
+        "end": 29.0,
+        "role": "PAYOFF",
+        "title": "Tiga tipe steam trap",
+        "on_screen": "3 TIPE: PELAMPUNG, EMBER, CAKRAM",
+        "visual": "Tiga panel sejajar: bola pelampung naik-turun membuka katup; ember terbalik tenggelam-timbul; cakram membuka-menutup cepat oleh steam kilat.",
+        "purpose": "Menunjukkan cara kerja tiga tipe steam trap: pelampung, ember terbalik, cakram termodinamik.",
+        "watch": "Tiga panel sejajar membandingkan gerak pelampung, ember terbalik, dan cakram termodinamik sebagai tiga mekanisme pemisahan yang berbeda."
+      },
+      {
+        "start": 29.0,
+        "end": 36.0,
+        "role": "PAYOFF",
+        "title": "Air lewat, steam tertahan",
+        "on_screen": "AIR LEWAT, STEAM TERTAHAN. OTOMATIS.",
+        "visual": "Zoom ke satu trap: tetesan air keluar dari lubang buang, partikel steam memantul kembali ke dalam.",
+        "purpose": "Menegaskan prinsip inti: air lewat, steam tertahan, otomatis tanpa listrik.",
+        "watch": "Tetesan air yang lolos melalui lubang buang dan partikel steam yang memantul kembali menunjukkan prinsip pemisahan pada satu alat."
+      },
+      {
+        "start": 36.0,
+        "end": 41.5,
+        "role": "TAKEAWAY_CTV",
+        "title": "Panduan tiga tipe steam trap",
+        "on_screen": "SIMPAN: PANDUAN 3 TIPE STEAM TRAP",
+        "visual": "Tiga ikon tipe trap berderet dengan nama tipenya; watermark @ilmutekkim + progress bar penuh.",
+        "purpose": "Takeaway satu kalimat + CTV simpan sebagai referensi tipe trap.",
+        "watch": "Tiga ikon tipe trap yang berderet pada penutup merangkum pilihan mekanisme yang tersedia untuk sistem steam."
+      }
+    ]
+  }
+]

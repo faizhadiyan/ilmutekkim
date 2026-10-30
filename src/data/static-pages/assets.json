@@ -1,0 +1,136 @@
+{
+  "/glosarium": [],
+  "/jalur/distilasi-inti": [
+    "/assets/img/distilasi-inti/cover.jpg"
+  ],
+  "/jalur": [
+    "/assets/img/membaca-pabrik/cover.jpg",
+    "/assets/img/distilasi-inti/cover.jpg",
+    "/assets/img/kilang-petrokimia/cover.jpg",
+    "/assets/img/sawit-produk/cover.jpg",
+    "/assets/img/utilitas-energi/cover.jpg",
+    "/assets/img/keselamatan-proses/cover.jpg",
+    "/assets/img/pabrik-indonesia/cover.jpg"
+  ],
+  "/jalur/keselamatan-proses": [
+    "/assets/img/keselamatan-proses/cover.jpg"
+  ],
+  "/jalur/kilang-petrokimia": [
+    "/assets/img/kilang-petrokimia/cover.jpg"
+  ],
+  "/jalur/membaca-pabrik": [
+    "/assets/img/membaca-pabrik/cover.jpg"
+  ],
+  "/jalur/pabrik-indonesia": [
+    "/assets/img/pabrik-indonesia/cover.jpg"
+  ],
+  "/jalur/sawit-produk": [
+    "/assets/img/sawit-produk/cover.jpg"
+  ],
+  "/jalur/utilitas-energi": [
+    "/assets/img/utilitas-energi/cover.jpg"
+  ],
+  "/kalkulator": [],
+  "/referensi": [],
+  "/riset/bedah-b100-mesin-diesel": [
+    "/assets/img/bedah-b100-mesin-diesel/cover.jpg"
+  ],
+  "/riset/bedah-bentonit-sonikasi-katalis-asam": [
+    "/assets/img/bedah-bentonit-sonikasi-katalis-asam/cover.jpg"
+  ],
+  "/riset/bedah-biodiesel-minyak-campuran": [
+    "/assets/img/bedah-biodiesel-minyak-campuran/cover.jpg"
+  ],
+  "/riset/bedah-biogas-pome-listrik-tekno-ekonomi": [
+    "/assets/img/bedah-biogas-pome-listrik-tekno-ekonomi/cover.jpg"
+  ],
+  "/riset/bedah-ccus-tekno-ekonomi": [
+    "/assets/img/bedah-ccus-tekno-ekonomi/cover.jpg"
+  ],
+  "/riset/bedah-daur-ulang-plastik-kimia": [
+    "/assets/img/bedah-daur-ulang-plastik-kimia/cover.jpg"
+  ],
+  "/riset/bedah-digital-twin-energi-industri": [
+    "/assets/img/bedah-digital-twin-energi-industri/cover.jpg"
+  ],
+  "/riset/bedah-elektrolisis-hidrogen-hijau": [
+    "/assets/img/bedah-elektrolisis-hidrogen-hijau/cover.jpg"
+  ],
+  "/riset/bedah-esterifikasi-pome-katalis-karbon-zeolit": [
+    "/assets/img/bedah-esterifikasi-pome-katalis-karbon-zeolit/cover.jpg"
+  ],
+  "/riset/bedah-fotokatalis-tio2-air-terproduksi": [
+    "/assets/img/bedah-fotokatalis-tio2-air-terproduksi/cover.jpg"
+  ],
+  "/riset/bedah-grading-sawit-yolov4": [
+    "/assets/img/bedah-grading-sawit-yolov4/cover.jpg"
+  ],
+  "/riset/bedah-hidrogen-biru-smr-atr-ngd": [
+    "/assets/img/bedah-hidrogen-biru-smr-atr-ngd/cover.jpg"
+  ],
+  "/riset/bedah-hydrocracking-minyak-jelantah-biogasoline": [
+    "/assets/img/bedah-hydrocracking-minyak-jelantah-biogasoline/cover.jpg"
+  ],
+  "/riset/bedah-katalis-aaem-pirolisis-biomassa": [
+    "/assets/img/bedah-katalis-aaem-pirolisis-biomassa/cover.jpg"
+  ],
+  "/riset/bedah-katalis-cao-indigofera-biodiesel": [
+    "/assets/img/bedah-katalis-cao-indigofera-biodiesel/cover.jpg"
+  ],
+  "/riset/bedah-ko-pirolisis-batang-sawit-polipropilena": [
+    "/assets/img/bedah-ko-pirolisis-batang-sawit-polipropilena/cover.jpg"
+  ],
+  "/riset/bedah-mikroalga-pome-biofuel": [
+    "/assets/img/bedah-mikroalga-pome-biofuel/cover.jpg"
+  ],
+  "/riset/bedah-minyak-pirolisis-plastik-umpan-steam-cracker": [
+    "/assets/img/bedah-minyak-pirolisis-plastik-umpan-steam-cracker/cover.jpg"
+  ],
+  "/riset/bedah-nanozirconia-tersulfat-hydrocracking": [
+    "/assets/img/bedah-nanozirconia-tersulfat-hydrocracking/cover.jpg"
+  ],
+  "/riset": [
+    "/assets/img/bedah-b100-mesin-diesel/cover.jpg",
+    "/assets/img/bedah-bentonit-sonikasi-katalis-asam/cover.jpg",
+    "/assets/img/bedah-biodiesel-minyak-campuran/cover.jpg",
+    "/assets/img/bedah-biogas-pome-listrik-tekno-ekonomi/cover.jpg",
+    "/assets/img/bedah-ccus-tekno-ekonomi/cover.jpg",
+    "/assets/img/bedah-daur-ulang-plastik-kimia/cover.jpg",
+    "/assets/img/bedah-digital-twin-energi-industri/cover.jpg",
+    "/assets/img/bedah-elektrolisis-hidrogen-hijau/cover.jpg",
+    "/assets/img/bedah-esterifikasi-pome-katalis-karbon-zeolit/cover.jpg",
+    "/assets/img/bedah-fotokatalis-tio2-air-terproduksi/cover.jpg",
+    "/assets/img/bedah-grading-sawit-yolov4/cover.jpg",
+    "/assets/img/bedah-hidrogen-biru-smr-atr-ngd/cover.jpg",
+    "/assets/img/bedah-hydrocracking-minyak-jelantah-biogasoline/cover.jpg",
+    "/assets/img/bedah-katalis-aaem-pirolisis-biomassa/cover.jpg",
+    "/assets/img/bedah-katalis-cao-indigofera-biodiesel/cover.jpg",
+    "/assets/img/bedah-ko-pirolisis-batang-sawit-polipropilena/cover.jpg",
+    "/assets/img/bedah-mikroalga-pome-biofuel/cover.jpg",
+    "/assets/img/bedah-minyak-pirolisis-plastik-umpan-steam-cracker/cover.jpg",
+    "/assets/img/bedah-nanozirconia-tersulfat-hydrocracking/cover.jpg"
+  ],
+  "/riset/paten": [
+    "/assets/img/paten-distilasi-reaktif-eastman-1984/cover.jpg",
+    "/assets/img/paten-dividing-wall-column-basf-2005/cover.jpg",
+    "/assets/img/paten-membran-monsanto-1980/cover.jpg",
+    "/assets/img/paten-mtg-mobil-1988/cover.jpg",
+    "/assets/img/paten-psa-skarstrom-1960/cover.jpg"
+  ],
+  "/riset/paten/paten-distilasi-reaktif-eastman-1984": [
+    "/assets/img/paten-distilasi-reaktif-eastman-1984/cover.jpg"
+  ],
+  "/riset/paten/paten-dividing-wall-column-basf-2005": [
+    "/assets/img/paten-dividing-wall-column-basf-2005/cover.jpg"
+  ],
+  "/riset/paten/paten-membran-monsanto-1980": [
+    "/assets/img/paten-membran-monsanto-1980/cover.jpg"
+  ],
+  "/riset/paten/paten-mtg-mobil-1988": [
+    "/assets/img/paten-mtg-mobil-1988/cover.jpg"
+  ],
+  "/riset/paten/paten-psa-skarstrom-1960": [
+    "/assets/img/paten-psa-skarstrom-1960/cover.jpg"
+  ],
+  "/tentang": []
+}

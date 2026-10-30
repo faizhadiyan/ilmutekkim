@@ -1,0 +1,139 @@
+{
+  "caption": "Dari tandan berduri jadi minyak sawit: begini alur pabriknya.\n\nSatu tandan buah segar melewati lima tahap di pabrik kelapa sawit: sterilisasi uap, perontokan, pelumatan, pengepresan, klarifikasi. Bonusnya: limbah cangkang dan serat dipakai jadi bahan bakar boiler pabrik itu sendiri. Pabrik yang makan limbahnya sendiri.\n\nFollow @ilmutekkim buat teknik kimia tiap hari.\n\n#teknikkimia #chemicalengineering #pabrik #industri #proses #sawit #insinyurkimia #ilmutekkim #cpo",
+  "cover_credit": "Tom Fisk / Pexels",
+  "cover_credit_url": "https://www.pexels.com/photo/overcast-over-city-6754762/",
+  "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-09-30/carousel-2-rev4/photos/cover-pks.jpg",
+  "cover_sub": "Lima tahap yang dilewati tiap tandan buah segar sampai jadi CPO.",
+  "cta_question": "Pernah lihat pabrik kelapa sawit dari dekat? Ceritain di komen.",
+  "cta_teaser": "Besok: dari CPO ke minyak goreng, olein vs stearin.",
+  "format": "real",
+  "hook": "Dari tandan berduri jadi minyak sawit.",
+  "references": [
+    "Poku, K. Small-Scale Palm Oil Processing in Africa. FAO Agricultural Services Bulletin 148, Rome, 2002.",
+    "Hartley, C. W. S. The Oil Palm. 3rd ed., Longman, 1988."
+  ],
+  "series_label": "SERI PROSES PABRIK",
+  "slides": [
+    {
+      "hook": "Kedengarannya simpel. Di pabrik, tiap tahap punya alasan tekniknya.",
+      "pill": "YANG SERING DIKIRA",
+      "quote": "CPO itu cuma hasil peras buah sawit, kayak meras jeruk.",
+      "type": "quote"
+    },
+    {
+      "callout": "Lima tahap: sterilisasi, perontokan, pelumatan, pengepresan, klarifikasi.",
+      "paras": [
+        "Tandan buah segar disterilkan dengan uap bertekanan, lalu dirontokkan dari tandannya. Buahnya dilumatkan di digester, diperas dengan screw press, dan minyaknya diklarifikasi dari air dan padatan.",
+        "Urutan ini tidak boleh dibalik. Sterilisasi harus duluan supaya enzim perusak mutu mati sebelum buah pecah."
+      ],
+      "pill": "ALURNYA",
+      "title": "Lima tahap, satu garis proses",
+      "type": "body"
+    },
+    {
+      "callout": "Sterilisasi = kunci mutu CPO. FFA rendah, minyak awet.",
+      "paras": [
+        "Buah sawit mengandung enzim lipase. Begitu buah pecah, enzim ini mengubah minyak jadi asam lemak bebas (FFA). FFA tinggi bikin CPO turun mutu dan susah disimpan.",
+        "Uap bertekanan menonaktifkan enzim itu sebelum perontokan. Makanya tahap pertama selalu sterilisasi, bukan perontokan."
+      ],
+      "pill": "KENAPA REPOT",
+      "title": "Sterilisasi bukan sekadar rebus",
+      "type": "body"
+    },
+    {
+      "type": "flow",
+      "pill": "SKEMANYA",
+      "title": "Tujuh tahap, satu peta",
+      "flow": [
+        {
+          "label": "TBS",
+          "sub": "tandan buah segar",
+          "kind": "in",
+          "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-09-30/carousel-2-rev4/photos/photo-tbs.jpg"
+        },
+        {
+          "label": "Sterilisasi",
+          "sub": "uap bertekanan",
+          "kind": "proc",
+          "icon": "steril"
+        },
+        {
+          "label": "Perontokan",
+          "sub": "thresher",
+          "kind": "proc",
+          "icon": "thresh"
+        },
+        {
+          "label": "Pelumatan",
+          "sub": "digester",
+          "kind": "proc",
+          "icon": "digest"
+        },
+        {
+          "label": "Pengepresan",
+          "sub": "screw press",
+          "kind": "proc",
+          "icon": "press"
+        },
+        {
+          "label": "Klarifikasi",
+          "sub": "settling tank",
+          "kind": "proc",
+          "icon": "clarify"
+        },
+        {
+          "label": "CPO",
+          "sub": "minyak sawit mentah",
+          "kind": "out",
+          "icon": "cpo"
+        }
+      ]
+    },
+    {
+      "credit": "Hardingferrent / Unsplash",
+      "credit_url": "https://unsplash.com/photos/close-up-of-dark-palm-fruit-on-a-tree-0Otvlv7CG-w",
+      "paras": [
+        "TBS dipanen lalu diangkut ke pabrik dan harus segera diolah. Makin lama menunggu, enzim makin aktif dan FFA makin naik.",
+        "Makanya pabrik kelapa sawit selalu dibangun dekat kebun, bukan dekat pelabuhan."
+      ],
+      "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-09-30/carousel-2-rev4/photos/photo-tbs.jpg",
+      "pill": "BAHAN BAKUNYA",
+      "title": "Tandan buah segar, titik awalnya",
+      "type": "photo"
+    },
+    {
+      "callout": "Cangkang dan serat = bahan bakar boiler.",
+      "credit": "Yihan Wang / Pexels",
+      "credit_url": "https://www.pexels.com/photo/industrial-factory-chimneys-emitting-steam-31635630/",
+      "paras": [
+        "Cangkang dan serat hasil pengepresan tidak dibuang. Keduanya dibakar di boiler untuk menghasilkan steam sterilisasi.",
+        "Pabrik menutup loop energinya sendiri. Limbah proses jadi bahan bakar proses."
+      ],
+      "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-09-30/carousel-2-rev4/photos/photo-boiler.jpg",
+      "pill": "LIMBAH JADI BAHAN BAKAR",
+      "title": "Pabrik yang makan limbahnya sendiri",
+      "type": "photo"
+    },
+    {
+      "callout": "Di PKS yang bagus, hampir tidak ada yang terbuang.",
+      "paras": [
+        "Satu tandan menghasilkan tiga output bernilai. CPO untuk minyak goreng dan oleokimia, inti sawit untuk minyak inti sawit, dan limbah padat untuk bahan bakar boiler pabrik sendiri."
+      ],
+      "pill": "HASILNYA",
+      "title": "Tiga output dari satu tandan",
+      "type": "body"
+    },
+    {
+      "bullets": [
+        "Lima tahap berurutan: sterilisasi, perontokan, pelumatan, pengepresan, klarifikasi.",
+        "Sterilisasi duluan supaya enzim mati dan FFA tetap rendah.",
+        "Cangkang dan serat dibakar di boiler jadi steam proses.",
+        "Efisiensi bukan slogan, tapi alur proses yang dirancang."
+      ],
+      "head": "Pabrik yang bagus tidak membuang apa-apa.",
+      "pill": "KESIMPULANNYA",
+      "type": "conclusion"
+    }
+  ],
+  "topic": "PKS: dari tandan buah segar ke CPO, alur pabrik kelapa sawit"
+}

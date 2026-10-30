@@ -1,0 +1,182 @@
+{
+ "caption": "1923: AHLI ALUMINIUM INI MENGUBAH CARA SUSU DIPANASKAN\n\nRichard Seligman bukan orang susu. Dia ahli aluminium yang mendirikan pabrik bejana aluminium. Tahun 1923 dia mematenkan pelat-pelat tipis yang dijepit jadi satu: fluida panas dan dingin mengalir di sisi berlawanan tanpa bercampur.\n\nAlat itu lahir untuk pasteurisasi susu. Tangki batch besar susah dibersihkan, dan susu yang tidak bersih berbahaya. Pelat Seligman bisa dibuka satu per satu untuk dicuci.\n\nPrinsipnya masih dipakai sampai hari ini: aliran berlawanan arah memberi beda suhu rata-rata terbesar, dan kerak (fouling) tetap musuh nomor satu karena menahan pindahnya panas.\n\nAlat sederhana yang lahir dari masalah cuci-mencuci ini sekarang mendinginkan kilang dan pabrik kimia di seluruh dunia.\n\n#teknikkimia #chemicalengineering #heatexchanger #sejarahteknik #pabrik #ilmutekkim",
+ "cover_brief": "foto fasilitas pengolahan susu dengan peralatan stainless steel (konteks pasteurisasi, lahirnya plate heat exchanger)",
+ "cover_credit": "Mark Stebnicki / Pexels",
+ "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-18/carousel-2/cover.jpg",
+ "cover_sub": "Kisah penemu plate heat exchanger.",
+ "credit_url": "https://www.pexels.com/photo/milk-processing-in-a-factory-2889347/",
+ "cta_question": "Pelatnya bisa dibuka buat dibersihin, tapi kenapa fouling masih jadi masalah sampai sekarang? Tulis jawabanmu di komen.",
+ "cta_teaser": "Besok: B40, sawit jadi biodiesel lewat transesterifikasi.",
+ "format": "real",
+ "hook": "1923: AHLI ALUMINIUM INI MENGUBAH CARA SUSU DIPANASKAN",
+ "hook_options": [
+  "1923: AHLI ALUMINIUM INI MENGUBAH CARA SUSU DIPANASKAN",
+  "SEBELUM 1923, MEMANASKAN SUSU ITU RIBET DAN SUSAH DIBERSIHKAN",
+  "PENEMU ALAT INI ORANG ALUMINIUM, BUKAN ORANG SUSU"
+ ],
+ "hook_payoff_slide": 4,
+ "photo_briefs": [
+  {
+   "cari": "foto heat exchanger atau penukar panas industri di pabrik",
+   "slide": "Alatnya dipakai di pabrik sampai hari ini"
+  }
+ ],
+ "references": [
+  "APV, riwayat perusahaan: plate heat exchanger Seligman 1923 untuk pasteurisasi susu",
+  "Kern, D. Q., Process Heat Transfer (1950)",
+  "Towler, G. dan Sinnott, R., Chemical Engineering Design (plate heat exchanger, LMTD, fouling)"
+ ],
+ "series_label": "KISAH TEKNIK KIMIA",
+ "slides": [
+  {
+   "callout": "Fakta kunci: masalahnya bukan memanaskan, tapi membersihkan alatnya sesudah dipakai.",
+   "paras": [
+    "Sebelum 1923, pasteurisasi susu memakai tangki batch besar. Susu dipanaskan, lalu tangki dicuci dengan susah payah.",
+    "Bagian dalam yang tidak bersih menumbuhkan bakteri. Susu yang harusnya aman justru jadi berbahaya."
+   ],
+   "pill": "TAHUKAH KAMU?",
+   "title": "Dulu memanaskan susu itu ribet",
+   "type": "body",
+   "fill_rows": [
+    [
+     "01",
+     "Tangki batch besar",
+     "Susu dipanaskan dalam satu wadah raksasa"
+    ],
+    [
+     "02",
+     "Cuci susah payah",
+     "Dinding dalam tangki sulit dijangkau"
+    ],
+    [
+     "03",
+     "Bakteri tumbuh",
+     "Sisa susu jadi sarang bakteri berbahaya"
+    ]
+   ],
+   "fill_rows_title": "Kenapa tangki batch merepotkan"
+  },
+  {
+   "callout": "Fakta kunci: penemunya datang dari industri aluminium, bukan industri susu.",
+   "paras": [
+    "Richard Seligman (1878-1972) adalah ahli aluminium. Tahun 1910 dia mendirikan Aluminium Plant and Vessel Company (APV) di Inggris."
+   ],
+   "pill": "TOKOHNYA",
+   "title": "Ahli aluminium yang masuk dapur susu",
+   "type": "body",
+   "fill_rows": [
+    [
+     "1878",
+     "Lahir",
+     "Richard Seligman, ahli aluminium Inggris"
+    ],
+    [
+     "1910",
+     "Mendirikan APV",
+     "Aluminium Plant and Vessel Company"
+    ],
+    [
+     "1923",
+     "Paten plate HEX",
+     "Pelat tipis dijepit untuk pasteurisasi susu"
+    ]
+   ],
+   "fill_rows_title": "Jejak Seligman"
+  },
+  {
+   "callout": "Fakta kunci: keunggulan utamanya bukan panasnya, tapi bisa dibongkar pasang.",
+   "paras": [
+    "Tiap pelat bisa dilepas satu per satu untuk dicuci. Masalah bakteri dari sisa susu selesai.",
+    "Fluida panas dan dingin mengalir di channel bersebelahan, berlawanan arah, tanpa bercampur."
+   ],
+   "pill": "TEMUANNYA",
+   "title": "Pelat yang bisa dibuka",
+   "type": "body",
+   "fill_rows": [
+    [
+     "01",
+     "Bisa dibuka",
+     "Tiap pelat dilepas satu per satu untuk dicuci"
+    ],
+    [
+     "02",
+     "Berlawanan arah",
+     "Panas dan dingin mengalir tanpa bercampur"
+    ]
+   ],
+   "fill_rows_title": "Dua keunggulan pelat"
+  },
+  {
+   "callout": "Fakta kunci: tidak ada stream yang hilang; tiap aliran yang disebut di teks ada di gambar.",
+   "diagram": "/home/hatch/workspace/ig-ilmutekkim/diagrams/2026-10-18-hex-seligman.png",
+   "diagram_scope": "Diagram ini mencakup satu paket pelat dengan dua pasang aliran: susu panas masuk dari atas dan keluar hangat dari bawah, air dingin masuk dari bawah dan keluar dari atas, plus lapisan kerak (fouling) di dua channel panas. Yang sengaja tidak digambar: frame penjepit, gasket antar pelat, dan nosel koneksi.",
+   "paras": [
+    "Susu panas turun, air dingin naik. Keduanya tidak pernah bercampur, panas pindah lewat pelat tipis.",
+    "Lapisan kerak menempel di pelat dan menahan pindahnya panas. Inilah fouling."
+   ],
+   "pill": "KONSEPNYA",
+   "title": "Dua aliran, satu arah berlawanan",
+   "type": "diagram"
+  },
+  {
+   "callout": "Fakta kunci: fouling menurunkan U, jadi Q turun walau luas dan beda suhu tetap.",
+   "formula": "Q = U × A × ΔT_lm",
+   "formula_tex": "\\mathrm{Q} = \\mathrm{U} \\times \\mathrm{A} \\times \\Delta T_{\\mathrm{lm}}",
+   "paras": [
+    "Laju pindah panas dihitung dari rumus ini. U adalah koefisien pindah panas menyeluruh.",
+    "Kerak menambah tahanan, U turun, Q ikut turun. Inilah alasan fouling bikin LMTD bohong."
+   ],
+   "pill": "RUMUSNYA",
+   "title": "Satu rumus untuk semua penukar panas",
+   "type": "body"
+  },
+  {
+   "callout": "Fakta kunci: Seligman menang melawan kotoran, tapi fouling tidak pernah benar-benar hilang.",
+   "paras": [
+    "Sampai hari ini fouling adalah alasan utama heat exchanger dibongkar untuk dibersihkan, sama seperti yang dibahas di CS-04."
+   ],
+   "pill": "PLOT TWIST",
+   "title": "Masalah 1923 yang belum mati",
+   "type": "body",
+   "fill_rows": [
+    [
+     "01",
+     "1923: cuci selesai",
+     "Pelat bisa dibuka, masalah bakteri teratasi"
+    ],
+    [
+     "02",
+     "Hari ini: kerak tetap ada",
+     "Fouling terbentuk selama alat beroperasi"
+    ],
+    [
+     "03",
+     "CS-04",
+     "Fouling bikin LMTD bohong"
+    ]
+   ],
+   "fill_rows_title": "Masalah yang belum mati"
+  },
+  {
+   "callout": "Fakta kunci: alat ini bukti satu ide bagus bisa hidup lebih dari seratus tahun.",
+   "credit": "Tayssir Kadamany / Pexels",
+   "paras": [
+    "Dari masalah cuci tangki susu lahir alat yang sekarang mendinginkan kilang minyak dan pabrik kimia.",
+    "Prinsipnya tidak berubah: aliran berlawanan arah dan pelat yang bisa dibersihkan."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-18/carousel-2/photo-1.jpg",
+   "pill": "DI PABRIK NYATA",
+   "title": "Masih dipakai sampai hari ini",
+   "type": "photo"
+  },
+  {
+   "bullets": [
+    "Follow @ilmutekkim buat kisah teknik berikutnya",
+    "Simpan kalau kamu anak teknik kimia"
+   ],
+   "head": "Satu abad berlalu, pelat Seligman masih menukar panas di pabrik-pabrik dunia.",
+   "pill": "INTINYA",
+   "type": "conclusion"
+  }
+ ]
+}

@@ -1,0 +1,177 @@
+{
+ "caption": "Konversi 99 persen masih kurang buat polimer.\n\nDi step-growth, panjang rantai ngikutin persamaan Carothers: Xn sama dengan 1 dibagi (1 min p). Konversi 90 persen baru dapat rantai isi 10, 99 persen dapat 100, dan 99,9 persen baru dapat 1000. Selisih kecil di ujung justru yang paling brutal efeknya, belum lagi kalau rasio monomernya meleset.\n\nMenurut lo lebih susah mana di pabrik, ngejar konversi atau jaga rasio? Tulis di komen.\n\nFollow @ilmutekkim buat teknik kimia tiap hari.\n\n#teknikkimia #chemicalengineering #polimer #pabrik #industri #proses #insinyurkimia #ilmutekkim",
+ "cover_brief": "foto area tangki dan perpipaan pabrik kimia besar di siang hari",
+ "cover_credit": "Heru Dharma / Pexels",
+ "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-03/advanced-polimerisasi/cover.jpg",
+ "cover_sub": "Di step-growth, selisih terakhir di bawah 1 persen justru yang bikin rantai jadi raksasa.",
+ "credit_url": "https://www.pexels.com/photo/industrial-oil-storage-tanks-under-clear-sky-36778676/",
+ "cta_question": "Menurut lo, di pabrik lebih susah mana: ngejar konversi 99,9 persen atau jaga rasio monomer tetap pas?",
+ "cta_teaser": "Besok: kenapa polimer rantai panjang susah banget dilelehkan dan diproses.",
+ "ctv": "Pertanyaan diskusi soal mana yang lebih susah di pabrik, ngejar konversi atau jaga rasio, plus teaser topik lelehan polimer besok.",
+ "format": "real",
+ "hook": "KONVERSI 99 PERSEN MASIH KURANG BUAT POLIMER",
+ "hook_type": "Curiosity",
+ "objective": "Konten ini tujuannya untuk mahasiswa dan insinyur proses Indonesia yang mengira konversi 90 persen sudah cukup sehingga mereka akan paham kenapa step-growth polymerization wajib dikejar sampai di atas 99 persen lewat persamaan Carothers.",
+ "payoff_plan": "Kurva Carothers Xn sama dengan 1 per (1 min p) skala log dengan penanda p 0,90/0,99/0,999, skema reaksi nylon-6,6, tabel angka konversi lawan panjang rantai, dan plafon rasio stoikiometri r.",
+ "references": [
+  "Odian, Principles of Polymerization (persamaan Carothers dan stoikiometri step-growth)",
+  "Carothers equation, formulasi Xn untuk sistem dua monomer ekuimolar dan rasio r"
+ ],
+ "series_label": "SERI POLIMER",
+ "slides": [
+  {
+   "callout": "FAKTA: pada konversi 99 persen, panjang rantai rata-rata baru sekitar 100 satuan monomer.",
+   "fill_rows": [
+    [
+     "01",
+     "MEKANISME STEP-GROWTH",
+     "semua rantai tumbuh bersama selangkah demi selangkah"
+    ],
+    [
+     "02",
+     "PERSAMAAN CAROTHERS",
+     "kurva yang meledak tepat di dekat 100 persen"
+    ],
+    [
+     "03",
+     "DUA MUSUH DI PABRIK",
+     "air hasil kondensasi dan rasio monomer yang meleset"
+    ]
+   ],
+   "hook": "Di polimerisasi step-growth, sisa kecil itu justru penentu utamanya.",
+   "pill": "YANG SERING DIKIRA",
+   "quote": "Konversi 99 persen itu sudah tuntas. Sisanya cuma detail kecil.",
+   "type": "quote"
+  },
+  {
+   "callout": "FAKTA: selama masih banyak gugus ujung yang belum bereaksi, isi reaktor didominasi rantai pendek.",
+   "fill_flow": [
+    "Monomer",
+    "Dimer",
+    "Trimer",
+    "Oligomer",
+    "Polimer"
+   ],
+   "fill_flow_labels": [
+    "satu ikatan",
+    "satu ikatan",
+    "terus menyambung",
+    "terus menyambung"
+   ],
+   "paras": [
+    "Di step-growth, monomer bereaksi dengan monomer jadi dimer, dimer bereaksi lagi jadi trimer, lalu oligomer, dan seterusnya. Semua ukuran rantai tumbuh bersamaan.",
+    "Beda dengan chain-growth yang rantainya langsung panjang sejak awal. Di sini rantai panjang hanya lahir kalau hampir semua gugus fungsi sudah bereaksi."
+   ],
+   "pill": "MEKANISME STEP-GROWTH",
+   "title": "Tidak ada rantai yang jadi duluan",
+   "type": "body"
+  },
+  {
+   "callout": "FAKTA: Xn sama dengan 1 dibagi (1 min p). Di p 0,99 hasilnya 100, di p 0,999 hasilnya 1000.",
+   "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-03/advanced-polimerisasi/diagram-carothers.png",
+   "paras": [
+    "Wallace Carothers merumuskan hubungan ini saat mengembangkan nylon. Xn adalah panjang rantai rata-rata, p adalah fraksi gugus fungsi yang sudah bereaksi.",
+    "Baca kurvanya: dari p 0,90 ke 0,99 rantai naik 10 kali. Dari 0,99 ke 0,999 naik 10 kali lagi."
+   ],
+   "pill": "PERSAMAAN CAROTHERS",
+   "title": "Kurva yang meledak di ujung",
+   "type": "diagram"
+  },
+  {
+   "callout": "FAKTA: serat nylon kuat butuh Xn di atas 100, jadi konversi wajib lewat 99 persen.",
+   "fill_table": {
+    "left_head": "KONVERSI p",
+    "right_head": "PANJANG RANTAI Xn",
+    "rows": [
+     [
+      "Awal reaksi",
+      "p 0,50",
+      "Xn 2"
+     ],
+     [
+      "Terdengar tinggi",
+      "p 0,90",
+      "Xn 10"
+     ],
+     [
+      "Nyaris selesai",
+      "p 0,99",
+      "Xn 100"
+     ],
+     [
+      "Selesai banget",
+      "p 0,999",
+      "Xn 1000"
+     ]
+    ]
+   },
+   "paras": [
+    "Konversi 90 persen terdengar tinggi, tapi itu baru Xn 10, masih oligomer. Makanya target insinyur polimer selalu di atas 99,5 persen."
+   ],
+   "pill": "ANGKA YANG MENIPU",
+   "title": "Selisih kecil, efeknya brutal",
+   "type": "body"
+  },
+  {
+   "callout": "FAKTA: angka 6,6 artinya dua monomernya masing-masing membawa 6 atom karbon.",
+   "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-03/advanced-polimerisasi/diagram-nylon.png",
+   "paras": [
+    "Nylon-6,6 lahir dari asam adipat dan heksametilenadiamina. Tiap ikatan amida yang terbentuk melepas satu molekul air.",
+    "Karena airnya ikut menentukan kesetimbangan, air ini tidak boleh dibiarkan tinggal di dalam reaktor."
+   ],
+   "pill": "CONTOH NYATA NYLON-6,6",
+   "title": "Dua monomer, satu ikatan amida",
+   "type": "diagram"
+  },
+  {
+   "callout": "FAKTA: industri mengunci rasio lewat garam nylon sejak awal.",
+   "fill_rows": [
+    [
+     "01",
+     "Rasio pas 1 banding 1",
+     "plafon tinggal konversi, Xn 100 sampai 1000"
+    ],
+    [
+     "02",
+     "Selisih 1 persen saja",
+     "plafon Xn berhenti di 199 walau tuntas"
+    ],
+    [
+     "03",
+     "Selisih 10 persen",
+     "plafon Xn cuma 19, bukan serat kuat"
+    ]
+   ],
+   "fill_rows_title": "PLAFON PANJANG RANTAI:",
+   "paras": [
+    "Kalau satu monomer berlebih, ujung rantai kehabisan pasangan dan berhenti tumbuh walau reaksi tuntas."
+   ],
+   "pill": "MUSUH KEDUA RASIO MELESET",
+   "title": "Rasio monomer meleset, rantai kena plafon",
+   "type": "body"
+  },
+  {
+   "callout": "FAKTA: lelehan polimer yang jadi lalu didinginkan dan dipotong jadi pelet sebelum ditarik jadi serat.",
+   "credit": "Pexels",
+   "paras": [
+    "Di produksi nylon-6,6, larutan garam nylon dipanaskan sekitar 260 sampai 280 derajat Celsius. Uap air yang lahir dari kondensasi terus disedot keluar.",
+    "Menyedot air menggeser kesetimbangan ke arah polimer. Tanpa itu, konversi mentok dan rantai tidak pernah panjang."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-03/advanced-polimerisasi/photo-1.jpg",
+   "pill": "DI PABRIK BENERAN",
+   "title": "Airnya dibuang paksa dari reaktor",
+   "type": "photo"
+  },
+  {
+   "bullets": [
+    "Panjang rantai Xn sama dengan 1 dibagi (1 min p), jadi kurvanya meledak di dekat 100 persen.",
+    "Konversi 99 persen baru memberi Xn 100. Serat kuat lahir di atas itu.",
+    "Rasio monomer meleset 1 persen memasang plafon Xn 199, jadi stoikiometri dijaga sama ketatnya."
+   ],
+   "head": "Di step-growth, persen terakhir adalah segalanya.",
+   "pill": "KESIMPULANNYA",
+   "type": "conclusion"
+  }
+ ],
+ "tension": "Konversi 99 persen terdengar sudah sempurna, tapi di step-growth itu baru separuh jalan menuju rantai yang berguna."
+}

@@ -1,0 +1,182 @@
+{
+ "caption": "Tebu tidak cuma diperas. Ini alur pabrik gulanya.\n\nDari batang tebu, pabrik memeras nira, menjernihkannya, menguapkan airnya, lalu mengkristalkan gulanya dalam pan vakum. Bagasnya dibakar jadi uap, tetesnya jadi bahan etanol. Satu batang tebu dipecah jadi empat keluaran yang semuanya terpakai.\n\nBagian pabrik gula mana yang paling bikin lo penasaran? Tulis di komen.\n\nFollow @ilmutekkim buat teknik kimia tiap hari.\n\n#teknikkimia #chemicalengineering #pabrikgula #tebu #gula #pabrik #industri #ilmutekkim",
+ "cover_brief": "foto pabrik gula dengan tumpukan batang tebu dan cerobong",
+ "cover_credit": "Harshal / Unsplash",
+ "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-05/carousel-1/cover.jpg",
+ "cover_sub": "Dari batang tebu sampai kristal putih di dapur, lewat enam tahap pabrik.",
+ "credit_url": "https://unsplash.com/photos/a-field-of-grass-with-a-factory-in-the-background-0YkNVev5y08",
+ "cta_question": "Bagian pabrik gula mana yang paling bikin lo penasaran, gilingan atau pan kristalisasinya?",
+ "cta_teaser": "Besok: utilitas pabrik, pabrik di dalam pabrik yang jarang terlihat.",
+ "format": "real",
+ "hook": "TEBU TIDAK CUMA DIPERAS. INI ALUR PABRIK GULANYA",
+ "hook_options": [
+  "TEBU TIDAK CUMA DIPERAS. INI ALUR PABRIK GULANYA",
+  "DARI BATANG TEBU JADI GULA PASIR. LEWAT ENAM TAHAP INI",
+  "GULA PASIR LEWAT PEMURNIAN PANJANG. BUKAN SEKEDAR DIKERINGKAN"
+ ],
+ "hook_payoff_slide": 5,
+ "photo_briefs": [
+  {
+   "cari": "foto gilingan tebu pabrik gula industri",
+   "slide": 3
+  },
+  {
+   "cari": "foto evaporator pabrik gula tangki stainless",
+   "slide": 5
+  }
+ ],
+ "references": [
+  "Hugot, Handbook of Cane Sugar Engineering",
+  "Perry's Chemical Engineers' Handbook (bab sugar and evaporation)"
+ ],
+ "series_label": "SERI PABRIK GULA",
+ "slides": [
+  {
+   "callout": "FAKTA: pabrik gula adalah pabrik kimia yang memisahkan sukrosa dari air dan kotoran tebu.",
+   "fill_rows": [
+    [
+     "01",
+     "PERAS JADI NIRA",
+     "pisahkan sari dan ampas"
+    ],
+    [
+     "02",
+     "JERNIHKAN NIRANYA",
+     "buang kotoran dan warna"
+    ],
+    [
+     "03",
+     "KRISTALKAN GULANYA",
+     "uapkan air sampai jenuh"
+    ]
+   ],
+   "fill_rows_title": "PETA SLIDE INI",
+   "hook": "Jauh lebih panjang. Ada pemurnian, penguapan, sampai kristalisasi.",
+   "pill": "YANG SERING DIKIRA",
+   "quote": "Gula pasir itu tebu yang diperas lalu dikeringkan.",
+   "type": "quote"
+  },
+  {
+   "callout": "FAKTA: bagas tidak dibuang. Sebagian besar dibakar di boiler jadi uap untuk pabriknya sendiri.",
+   "formula": "Tebu → nira mentah + bagas",
+   "paras": [
+    "Batang tebu dicacah lalu digiling berulang kali sambil disemprot air imbibisi supaya sarinya keluar maksimal.",
+    "Hasilnya nira mentah yang keruh dan ampas serat yang disebut bagas."
+   ],
+   "pill": "TAHAP AWAL",
+   "title": "Tebu diperas jadi nira mentah",
+   "type": "body",
+   "fill_rows_title": "HASIL PERASAN PERTAMA",
+   "fill_rows": [
+    [
+     "1",
+     "Bagian cair",
+     "lanjut ke pemurnian"
+    ],
+    [
+     "2",
+     "Bagian serat",
+     "bahan bakar boiler"
+    ]
+   ]
+  },
+  {
+   "callout": "FAKTA: rendemen gula sangat ditentukan di stasiun gilingan, bukan di tahap akhir.",
+   "credit": "Lens Fables / Unsplash",
+   "paras": [
+    "Di warung, tebu diperas rol kecil seperti di foto ini. Prinsipnya memeras batang di antara rol yang berputar.",
+    "Di pabrik gula, prinsipnya persis sama tapi rolnya raksasa berderet dan tekanannya menentukan rendemen gula."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-05/carousel-1/photo-1.jpg",
+   "pill": "DI PABRIKNYA",
+   "title": "Prinsip perasnya sama, skalanya beda jauh",
+   "type": "photo"
+  },
+  {
+   "callout": "FAKTA: pabrik gula yang baik membakar bagasnya sendiri untuk uap dan listrik proses.",
+   "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-05/carousel-1/diagram-gula.png",
+   "paras": [
+    "Baca dari kiri ke kanan. Setiap kotak adalah satu stasiun pabrik gula.",
+    "Perhatikan bagas dan tetes. Dua aliran samping ini yang bikin pabrik gula hampir swasembada energi."
+   ],
+   "pill": "PETA LENGKAPNYA",
+   "title": "Alur tebu jadi gula pasir",
+   "type": "diagram"
+  },
+  {
+   "callout": "FAKTA: pemurnian yang buruk membuat gula berwarna cokelat dan sulit mengkristal rapi.",
+   "credit": "iwin / Unsplash",
+   "paras": [
+    "Nira mentah dipanaskan, diberi kapur dan belerang, lalu dijernihkan dari lumpur dan kotoran.",
+    "Nira yang jernih inilah yang lanjut ke penguapan supaya airnya berkurang banyak."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-05/carousel-1/photo-2.jpg",
+   "pill": "TAHAP PEMURNIAN",
+   "title": "Nira jernih siap diuapkan",
+   "type": "photo"
+  },
+  {
+   "callout": "FAKTA: pan kristalisasi bekerja dalam vakum supaya gula tidak gosong di suhu tinggi.",
+   "fill_cards": [
+    [
+     "01",
+     "Uapkan bertahap",
+     "hemat uap dengan efek berganda"
+    ],
+    [
+     "02",
+     "Tumbuhkan kristal",
+     "masak vakum terkendali"
+    ]
+   ],
+   "formula": "Nira pekat → kristal gula + tetes",
+   "paras": [
+    "Nira jernih diuapkan jadi sirup pekat, lalu dimasak vakum sampai kristal tumbuh dan diputar pisah dari cairannya."
+   ],
+   "pill": "PENGUAPAN DAN KRISTALISASI",
+   "title": "Air diuapkan, gula mengkristal",
+   "type": "body"
+  },
+  {
+   "callout": "FAKTA: molase dari pabrik gula adalah bahan baku utama industri etanol di Indonesia.",
+   "fill_grid": [
+    [
+     "BAGAS",
+     "bahan bakar boiler"
+    ],
+    [
+     "TETES",
+     "bahan etanol"
+    ],
+    [
+     "GULA PASIR",
+     "produk utama"
+    ],
+    [
+     "BLOTONG",
+     "pupuk organik"
+    ]
+   ],
+   "fill_grid_eyebrow": "",
+   "fill_note": "Empat keluaran dari satu batang tebu.",
+   "paras": [
+    "Bagas jadi bahan bakar boiler. Tetes atau molase jadi bahan baku etanol dan penyedap.",
+    "Yang tersisa dari satu batang tebu hampir semuanya terpakai di rantai yang berbeda."
+   ],
+   "pill": "PRODUK SAMPINGNYA",
+   "title": "Ampas dan tetes bukan limbah percuma",
+   "type": "body"
+  },
+  {
+   "bullets": [
+    "Peras tebu jadi nira dan bagas sebagai bahan bakar.",
+    "Jernihkan nira, uapkan airnya, lalu kristalkan gulanya.",
+    "Tetes dan bagas membuat pabrik gula jadi sistem yang melingkar."
+   ],
+   "equation": "Tebu → gula pasir + tetes + bagas",
+   "head": "Gula pasir adalah hasil enam tahap, bukan sekali peras.",
+   "pill": "KESIMPULANNYA",
+   "type": "conclusion"
+  }
+ ]
+}

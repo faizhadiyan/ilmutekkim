@@ -1,0 +1,1514 @@
+{
+  "sampling-rutin-lab": {
+    "lead": "Pabrik modern telah dilengkapi sensor yang membaca proses setiap detik. Mengapa operatornya tetap berjalan membawa botol sampel ke laboratorium setiap jam?",
+    "sections": [
+      {
+        "h": "Sensor hanya mengukur titik yang disentuhnya",
+        "t": 6,
+        "paras": [
+          "Sensor online seperti probe pH, konduktivitas, atau densitas hanya mengukur fluida yang menyentuh ujung probenya. Pada pipa berdiameter besar, sebagian besar aliran melintas jauh dari titik tersebut, dan fluida yang tidak tersentuh sensor tidak ikut terukur. Bacaan pada layar merupakan potret satu titik, bukan potret keseluruhan aliran [1].",
+          "Di sinilah sampel fisik mengambil perannya. Sejumlah kecil fluida benar-benar dikeluarkan dari proses dan diperiksa secara langsung, sehingga yang dinilai adalah bahannya sendiri, bukan sinyal listrik yang mewakilinya."
+        ]
+      },
+      {
+        "h": "Bacaan sensor yang bergeser secara perlahan",
+        "t": 13,
+        "paras": [
+          "Sensor mengalami drift: bacaannya bergeser secara perlahan menjauhi nilai sebenarnya karena kerak menempel pada probe, elektroda menua, atau komponen elektronikanya berubah. Pergeseran ini tidak memicu alarm, karena dari sudut pandang sistem, angkanya tampak normal.",
+          "Apabila tidak ada pembanding independen, yang bergeser bukan hanya garis pada layar. Mutu produk ikut bergeser keluar dari spesifikasi, dan penyimpangan baru terdeteksi setelah mutu produk telah menurun [1]."
+        ]
+      },
+      {
+        "h": "Sampel yang mewakili: titik, wadah, dan label waktu",
+        "t": 20,
+        "paras": [
+          "Pengambilan sampel yang benar dimulai dari titik sampel yang memang dirancang pada pipa, bukan dari keran mana pun yang tersedia. Cairan pertama dibuang terlebih dahulu agar yang masuk ke botol adalah fluida yang segar dari aliran, kemudian botol ditutup rapat, terutama apabila komponennya mudah menguap.",
+          "Setiap botol diberi label waktu. Detail ini menentukan nilai hasil laboratorium: angka laboratorium harus dapat dipasangkan dengan kondisi proses pada jam yang sama, bukan dibandingkan dengan bacaan sensor dari waktu yang berbeda [1]."
+        ]
+      },
+      {
+        "h": "Laboratorium sebagai pembanding independen",
+        "t": 27,
+        "paras": [
+          "Di laboratorium, sampel diukur dengan metode yang terkalibrasi terhadap standar, misalnya titrasi atau spektrofotometri. Hasilnya merupakan angka independen yang tidak mewarisi kesalahan sensor lapangan [2].",
+          "Hasil laboratorium tersebut kemudian dibandingkan dengan bacaan sensor pada waktu yang sama. Apabila keduanya sesuai, sensor terbukti akurat. Apabila selisihnya melewati batas, tindak lanjutnya adalah kalibrasi atau pemeriksaan proses, bukan membiarkan selisih itu membesar tanpa terdeteksi."
+        ]
+      },
+      {
+        "h": "Mengapa tidak semua pengukuran digantikan sensor",
+        "t": null,
+        "paras": [
+          "Tidak semua variabel memiliki sensor inline yang andal dan ekonomis, dan setiap titik ukur tambahan menambah biaya pemasangan serta perawatan. Selama mutu produk harus dibuktikan melalui pengukuran langsung atas bahannya, sampel fisik ke laboratorium tetap menjadi rujukan yang tidak tergantikan [1]."
+        ]
+      }
+    ],
+    "refs": [
+      "Green, D. W., & Southard, M. Z. (Eds.). (2019). Perry's Chemical Engineers' Handbook (9th ed.). McGraw-Hill Education.",
+      "Skoog, D. A., West, D. M., Holler, F. J., & Crouch, S. R. (2014). Fundamentals of Analytical Chemistry (9th ed.). Cengage Learning."
+    ]
+  },
+  "shift-handover-logbook": {
+    "lead": "Peralatan tidak berubah pada saat shift berganti. Yang berubah adalah orangnya, dan pada celah pergantian itulah riwayat peralatan paling sering hilang.",
+    "sections": [
+      {
+        "h": "Layar menampilkan angka, logbook menyimpan riwayat",
+        "t": 6,
+        "paras": [
+          "Sistem kontrol menampilkan angka proses: suhu, tekanan, level, dan laju alir. Yang tidak tampil di sana adalah konteks kualitatif peralatan, misalnya katup V-204 yang rembes dan harus dipantau setiap jam, bunyi pompa yang berubah, atau perbaikan sementara yang sedang berjalan.",
+          "Detail semacam itu tidak memiliki kolom pada layar angka. Ia hanya hidup apabila dituliskan, dan logbook adalah tempat pabrik merekam ingatan proses di antara pergantian shift [1]."
+        ]
+      },
+      {
+        "h": "Mengapa momen pergantian shift paling rawan",
+        "t": 13,
+        "paras": [
+          "Serah terima merupakan perpindahan informasi antara dua orang yang menghadapi keadaan lapangan yang sama tetapi dengan pemahaman yang berbeda. Operator yang pulang membawa konteks delapan jam terakhir; operator yang datang memulai dari nol. Setiap detail yang tidak terucap atau tidak tertulis akan hilang pada titik ini.",
+          "Karena itu, literatur keselamatan proses menempatkan komunikasi shift sebagai salah satu barrier, lapisan pengaman yang sama seriusnya dengan alarm dan interlock [1]."
+        ]
+      },
+      {
+        "h": "Tiga langkah serah terima yang benar",
+        "t": 20,
+        "paras": [
+          "Urutannya sederhana, tetapi tidak satu pun tahapnya dapat dilewati. Pertama, tuliskan keadaan peralatan apa adanya, termasuk yang tidak normal. Kedua, bacalah catatan itu bersama operator pengganti agar kesalahpahaman terdeteksi pada saat itu juga, bukan setelah kejadian.",
+          "Ketiga, lakukan pemeriksaan lapangan berdua. Langkah ini yang paling sering dikorbankan, padahal serah terima tidak selesai di meja control room: katup yang dicatat rembes harus dilihat langsung oleh orang yang akan menjaganya."
+        ]
+      },
+      {
+        "h": "Tanda tangan yang menutup serah terima",
+        "t": 27,
+        "paras": [
+          "Serah terima ditutup dengan tanda tangan kedua operator dan stempel waktu. Dari titik itu, tanggung jawab berpindah secara jelas dan dapat ditelusuri: apabila di kemudian hari terjadi suatu kejadian, catatan menunjukkan shift mana yang mengetahui apa, dan kapan [1].",
+          "Tanpa bukti tertulis yang ditandatangani, investigasi kejadian berubah menjadi perdebatan berdasarkan ingatan. Dengan logbook, yang diperiksa adalah catatan, bukan klaim."
+        ]
+      },
+      {
+        "h": "Media kertas atau elektronik, prinsipnya tetap sama",
+        "t": null,
+        "paras": [
+          "Banyak pabrik kini memakai logbook elektronik, dan hal itu sah. Medianya dapat berubah, prinsipnya tidak: keadaan peralatan ditulis secara spesifik, dibaca bersama oleh kedua shift, diverifikasi di lapangan, kemudian ditutup dengan pengesahan yang dapat ditelusuri [2]."
+        ]
+      }
+    ],
+    "refs": [
+      "Center for Chemical Process Safety. (2007). Guidelines for Risk Based Process Safety. AIChE/Wiley.",
+      "Health and Safety Executive. (2006). Managing Shift Work: Health and Safety Guidance (HSG256). HSE Books."
+    ]
+  },
+  "hilirisasi-nikel-baterai-ev": {
+    "lead": "Bijih nikel Indonesia memiliki kadar hanya sekitar 1 sampai 2 persen. Mengapa bijih tersebut tidak diolah langsung menjadi baterai?",
+    "sections": [
+      {
+        "h": "Pemilahan awal: saprolit dan limonit",
+        "t": 6.8,
+        "paras": [
+          "Bijih laterit tidak seragam. Profilnya berlapis, dan dua jenis utamanya, saprolit dan limonit, berbeda kadar serta kimia mineralnya. Dengan kadar nikel total hanya sekitar 1 sampai 2 persen, hampir seluruh massa bijih adalah material bukan nikel yang harus disingkirkan melalui proses [1].",
+          "Karena itu, keputusan pertama di pabrik bukanlah melebur atau melarutkan, melainkan memilah. Jenis bijih menentukan jalur prosesnya, dan pemilahan yang keliru berarti jalur proses yang keliru."
+        ]
+      },
+      {
+        "h": "Jalur pirometalurgi RKEF untuk saprolit",
+        "t": 13.6,
+        "paras": [
+          "Saprolit yang kadarnya relatif lebih tinggi diolah melalui jalur pirometalurgi RKEF: dikeringkan dan dikalsinasi di rotary kiln, kemudian direduksi di electric furnace. Produknya nickel pig iron (NPI), besi kasar yang kaya nikel [1].",
+          "NPI merupakan bahan baku stainless steel, bukan bahan baterai. Bentuk kimia dan kadarnya memang dirancang untuk peleburan baja, sehingga rantai baterai tidak dimulai dari sini."
+        ]
+      },
+      {
+        "h": "Jalur hidrometalurgi HPAL untuk limonit",
+        "t": 20.4,
+        "paras": [
+          "Limonit yang kadarnya lebih rendah menempuh jalur hidrometalurgi HPAL (high pressure acid leaching). Bijih dilarutkan dengan asam sulfat di dalam autoclave pada sekitar 250°C dan tekanan tinggi, sehingga nikel berpindah dari padatan ke larutan [1].",
+          "Angka 250°C di sini adalah kondisi pelarutan, bukan suhu lebur. Pemisahan nikel dilakukan oleh asamnya, dan bejana prosesnya adalah bejana tekan, bukan tungku."
+        ]
+      },
+      {
+        "h": "Dari larutan menjadi MHP dan nikel sulfat",
+        "t": 27.2,
+        "paras": [
+          "Larutan nikel dari HPAL tidak langsung menjadi baterai. Nikel diendapkan sebagai MHP (mixed hydroxide precipitate), produk antara yang masih harus dimurnikan lebih lanjut menjadi nikel sulfat, garam dengan kemurnian yang dituntut industri baterai [2].",
+          "Nikel sulfat inilah bahan prekursor katoda baterai kendaraan listrik. Dengan demikian, rantai nilainya panjang: bijih, larutan, endapan, garam murni, prekursor, dan akhirnya sel baterai."
+        ]
+      },
+      {
+        "h": "Harga proses yang dibayar: energi, asam, dan tailing",
+        "t": null,
+        "paras": [
+          "Kedua jalur tersebut membayar konsekuensi prosesnya masing-masing. RKEF menuntut energi listrik yang besar untuk furnace; HPAL menuntut asam sulfat dalam jumlah besar serta pengelolaan residu atau tailing yang volumenya sangat besar, karena 98 persen lebih massa bijih berakhir bukan sebagai produk [1].",
+          "Di situlah nilai hilirisasi sebenarnya diuji: bukan pada bijihnya, melainkan pada kemampuan pabrik memilah, melebur, melarutkan, dan memurnikan dengan biaya proses yang masih dapat diterima."
+        ]
+      }
+    ],
+    "refs": [
+      "Habashi, F. (Ed.). (1997). Handbook of Extractive Metallurgy. Wiley-VCH.",
+      "Ullmann's Encyclopedia of Industrial Chemistry. (2012). Nickel. Wiley-VCH."
+    ]
+  },
+  "pasir-jadi-chip-ai": {
+    "lead": "Chip AI paling canggih berawal dari bahan yang sama dengan pasir di pantai. Yang membedakannya bukan bahannya, melainkan kemurniannya.",
+    "sections": [
+      {
+        "h": "Reduksi karbotermik: pasir menjadi silikon metalurgi",
+        "t": 6.8,
+        "paras": [
+          "Langkah pertama adalah reduksi pasir kuarsa (SiO₂) dengan karbon di furnace listrik: SiO₂ + 2C → Si + 2CO. Produknya silikon metalurgi dengan kemurnian baru sekitar 98 sampai 99 persen [1].",
+          "Untuk baja, angka itu sudah cukup. Untuk transistor berukuran nanometer, sisa pengotor sebesar 1 sampai 2 persen terlalu besar, karena sifat listrik semikonduktor ditentukan oleh pengotor pada tingkat yang jauh lebih halus."
+        ]
+      },
+      {
+        "h": "Mengapa harus menjadi gas terlebih dahulu: triklorosilan",
+        "t": 13.6,
+        "paras": [
+          "Kunci rekayasa kimianya terletak di sini. Silikon diubah menjadi triklorosilan, senyawa yang mudah menguap. Begitu berbentuk gas, pemisahan pengotor dapat dilakukan dengan distilasi fraksinasi, prinsip yang sama dengan kolom distilasi di kilang minyak [1].",
+          "Kata kuncinya adalah mudah menguap: hanya zat yang dapat diuapkan dan diembunkan berulang kali yang dapat dimurnikan sampai tingkat ekstrem melalui perbedaan titik didih."
+        ]
+      },
+      {
+        "h": "Proses Siemens dan arti kemurnian 9N",
+        "t": 20.4,
+        "paras": [
+          "Triklorosilan murni diuraikan kembali pada batang silikon panas melalui proses Siemens, menumbuhkan polysilicon dengan kemurnian sekitar 99,9999999 persen, yang ditulis 9N (sembilan angka sembilan) [1].",
+          "Chip modern umumnya memakai silikon di rentang 9N sampai 11N. Sebagai gambaran skala: pada 9N, dari satu miliar atom, hanya sekitar satu atom yang bukan silikon."
+        ]
+      },
+      {
+        "h": "Pelelehan 1.414°C, penarikan kristal, dan pemotongan wafer",
+        "t": 27.2,
+        "paras": [
+          "Polysilicon dilelehkan pada titik leleh silikon, 1.414°C, kemudian ditarik perlahan menjadi kristal tunggal. Kristal ini dipotong menjadi wafer, umumnya berdiameter 300 mm, dan dari wafer itulah chip AI difabrikasi lapis demi lapis [2].",
+          "Urutan lengkapnya menunjukkan peran teknik kimia dari hulu: reaksi reduksi, pemurnian melalui distilasi, dan pertumbuhan kristal. Chip lahir dari proses kimia yang dikendalikan, bukan sekadar dari pasir yang dipotong."
+        ]
+      }
+    ],
+    "refs": [
+      "Ullmann's Encyclopedia of Industrial Chemistry. (2012). Silicon. Wiley-VCH.",
+      "Doering, R., & Nishi, Y. (Eds.). (2007). Handbook of Semiconductor Manufacturing Technology (2nd ed.). CRC Press."
+    ]
+  },
+  "distilasi-minyak-mentah": {
+    "lead": "Satu kali pendidihan minyak mentah tidak akan pernah menghasilkan bensin. Campurannya terlalu rapat, dan fisika pemisahannya tidak bekerja dengan cara demikian.",
+    "sections": [
+      {
+        "h": "Campuran ratusan hidrokarbon, bukan zat tunggal",
+        "t": 6.5,
+        "paras": [
+          "Minyak mentah adalah campuran ratusan senyawa hidrokarbon dengan titik didih yang berdekatan dan bertumpuk. Satu kali pendidihan hanya menghasilkan uap yang komposisinya tetap berupa campuran, karena fraksi ringan dan berat menguap bersamaan [1].",
+          "Oleh karena itu, umpan dipanaskan hingga sekitar 350°C di fired heater, kemudian masuk ke zona flash di kolom, titik awal uap dan cairan mulai berpisah. Dari titik ini, pemisahan diselesaikan bukan oleh satu pendidihan, melainkan oleh kontak berulang."
+        ]
+      },
+      {
+        "h": "Kontak uap dan cairan yang berulang di tray",
+        "t": 13,
+        "paras": [
+          "Di dalam kolom, uap naik dan cairan turun melewati tray-tray. Pada setiap tray, uap dan cairan berkontak dan saling bertukar komponen: komponen yang ringan cenderung lanjut menguap, sedangkan yang berat mengembun dan turun.",
+          "Satu kolom pada dasarnya adalah rangkaian banyak tahap kesetimbangan yang ditumpuk secara vertikal. Pengulangan kontak inilah mesin pemisahnya, dan inilah yang tidak dapat digantikan oleh satu kali rebusan [1][2]."
+        ]
+      },
+      {
+        "h": "Reflux: faktor penentu ketajaman pemisahan",
+        "t": 19.5,
+        "paras": [
+          "Uap paling ringan keluar dari puncak kolom, didinginkan di kondenser, ditampung di reflux drum, kemudian sebagian dikembalikan ke kolom sebagai reflux. Cairan yang kembali ini membasahi tray-tray atas dan mempertemukan uap yang naik dengan cairan yang lebih murni.",
+          "Tanpa reflux, produk atas tercemar fraksi yang lebih berat. Reflux yang dikembalikan bukan pemborosan, melainkan harga untuk ketajaman pemisahan [2]."
+        ]
+      },
+      {
+        "h": "Profil suhu dan produk per tingkat",
+        "t": 26.5,
+        "paras": [
+          "Karena campuran mengembun dan menguap secara bertingkat, suhu kolom membentuk gradien: sekitar 120°C di puncak dan 350°C di dasar yang dipanaskan reboiler. Produk diambil pada tingkat yang suhunya sesuai dengan titik didihnya, dari gas paling ringan di atas sampai residu paling berat di bawah [1].",
+          "Urutan produknya mengikuti titik didih, bukan jenis zat yang direaksikan. Distilasi adalah pemisahan fisik berdasarkan volatilitas; tidak ada molekul yang diubah menjadi molekul lain di dalam kolom."
+        ]
+      }
+    ],
+    "refs": [
+      "Seader, J. D., Henley, E. J., & Roper, D. K. (2016). Separation Process Principles (4th ed.). Wiley.",
+      "Kister, H. Z. (1992). Distillation Design. McGraw-Hill."
+    ]
+  },
+  "process-safety-bukan-apd": {
+    "lead": "Helm dan sarung tangan tidak menghentikan vessel yang pecah. Kecelakaan proses berskala besar dicegah jauh sebelum bahayanya terlepas.",
+    "sections": [
+      {
+        "h": "Dua jenis kecelakaan yang sering dicampur",
+        "t": 6.8,
+        "paras": [
+          "Kecelakaan personal seperti terpeleset, terjepit, atau tersiram dalam skala kecil adalah wilayah APD, dan APD memang efektif di sana. Process safety menyasar kejadian yang berbeda kelas: pelepasan bahan atau energi berbahaya dalam skala besar dari vessel, pipa, dan reaktor bertekanan [1].",
+          "Pada pelepasan besar, yang menentukan keselamatan bukanlah helm pekerja, melainkan apakah pelepasan tersebut dicegah sejak dari desain dan operasi prosesnya."
+        ]
+      },
+      {
+        "h": "Hazard, risk, dan dua komponen risk",
+        "t": 13.6,
+        "paras": [
+          "Hazard adalah potensi bahayanya: bahan mudah terbakar, tekanan tinggi, dan suhu ekstrem. Risk adalah gabungan dua komponen, yaitu seberapa parah konsekuensinya dan seberapa mungkin kejadian itu terjadi [1].",
+          "Menyederhanakan risk menjadi sekadar keberadaan bahaya membuat prioritas pengamanan salah arah. Dua bahaya yang sama dapat menuntut perlakuan berbeda karena kemungkinan dan konsekuensinya berbeda."
+        ]
+      },
+      {
+        "h": "Barrier berlapis saat tekanan naik",
+        "t": 20.4,
+        "paras": [
+          "Pengamanan proses disusun berlapis dan bekerja secara berurutan. Kontrol proses dasar menahan kondisi tetap normal. Apabila gagal, trip otomatis menghentikan proses. Apabila tekanan masih naik, relief valve membuangnya ke sistem tertutup atau flare. Tanggap darurat adalah lapisan terakhir, bukan yang pertama [2].",
+          "Urutannya penting: setiap lapisan menangkap kegagalan lapisan sebelumnya, dan lapisan terluar hanya bekerja apabila semua lapisan di dalamnya sudah gagal."
+        ]
+      },
+      {
+        "h": "Syarat independensi dalam perhitungan lapisan",
+        "t": 27.2,
+        "paras": [
+          "Ilustrasinya sebagai berikut. Kejadian awal terjadi 1 kali per 10 tahun. Tiga lapisan independen, masing-masing gagal 1 dari 10 kali saat dibutuhkan, membuat frekuensinya menjadi 0,0001 per tahun, atau 1 per 10.000 tahun.",
+          "Perkalian itu hanya sah apabila lapisannya benar-benar independen. Apabila satu penyebab yang sama dapat menjatuhkan dua lapisan sekaligus, misalnya sensor yang sama dipakai untuk kontrol dan trip, estimasi keamanannya gugur. Independensi bukan detail administratif, melainkan syarat matematisnya [2]."
+        ]
+      },
+      {
+        "h": "APD tetap perlu, tetapi posisinya terakhir",
+        "t": null,
+        "paras": [
+          "Process safety tidak membuang APD. APD tetap dipakai setiap hari untuk risiko personal. Bedanya, APD berada di urutan terakhir hierarki pengendalian: ia melindungi orang setelah bahaya terlepas, sedangkan process safety bekerja agar pelepasan itu tidak pernah terjadi [1]."
+        ]
+      }
+    ],
+    "refs": [
+      "Crowl, D. A., & Louvar, J. F. (2019). Chemical Process Safety: Fundamentals with Applications (4th ed.). Pearson.",
+      "Center for Chemical Process Safety. (2007). Guidelines for Risk Based Process Safety. AIChE/Wiley."
+    ]
+  },
+  "heat-exchanger-penghenti-pabrik": {
+    "lead": "Kerak setebal 1 milimeter sanggup memaksa satu unit pabrik berhenti total, dan kerak tersebut menempel justru pada peralatan yang paling sering dianggap sepele.",
+    "sections": [
+      {
+        "h": "Panas menyeberang, cairan tidak bertemu",
+        "t": 6.8,
+        "paras": [
+          "Heat exchanger bekerja dengan prinsip yang sangat sederhana: dua aliran dipisahkan dinding logam, panas menyeberang melewati dinding, dan kedua cairannya tidak pernah bertemu. Sebagai ilustrasi, aliran panas turun dari 150 ke 90°C, sedangkan aliran dingin naik dari 30 ke 80°C [1].",
+          "Kesederhanaan prinsip tersebut dapat menyesatkan. Alat ini menentukan berapa banyak energi yang berhasil dipakai ulang di pabrik, dan energi merupakan salah satu biaya operasi terbesar."
+        ]
+      },
+      {
+        "h": "LMTD: beda suhu penggerak panas",
+        "t": 13.6,
+        "paras": [
+          "Laju pindah panas digerakkan oleh beda suhu antara dua aliran, yang berubah di sepanjang alat. Ukuran penggeraknya diringkas sebagai LMTD (log mean temperature difference), beda suhu rata-rata logaritmik antara kedua ujungnya [1].",
+          "Di sinilah arah aliran menentukan. Pada konfigurasi searah, beda suhu menyusut tajam di sepanjang alat. Pada lawan arah, beda suhunya terjaga lebih merata dari ujung ke ujung, dan LMTD-nya lebih besar [2]."
+        ]
+      },
+      {
+        "h": "65 berbanding 44°C: asal angka 48 persen",
+        "t": 20.4,
+        "paras": [
+          "Dengan angka ujung yang sama persis (150 ke 90°C dan 30 ke 80°C), lawan arah menghasilkan LMTD sekitar 65°C, sedangkan searah hanya sekitar 44°C. Rasionya 65 per 44, yaitu 1,48.",
+          "Artinya, pada luas permukaan yang sama, panas yang dipindahkan dapat menjadi sekitar 48 persen lebih besar hanya dengan membalik arah aliran. Itulah sebabnya heat exchanger industri hampir selalu dirancang lawan arah [1]."
+        ]
+      },
+      {
+        "h": "Fouling: kerak, biaya, dan penghentian operasi",
+        "t": 27.2,
+        "paras": [
+          "Tantangan terbesarnya adalah fouling, endapan kerak yang tumbuh pada dinding pindah panas. Kerak adalah isolator: ketebalan 1 mm saja sudah memangkas fluks panas sekitar 10 persen, dan alat harus bekerja lebih keras untuk hasil yang sama.",
+          "Skala kerugiannya tidak kecil. Literatur fouling mengestimasi biayanya sekitar 0,25 persen PDB negara industri, dan sekitar 186 juta barel minyak per tahun dipakai kilang dunia hanya untuk menambal kerugian akibat fouling. Konsekuensi yang paling mahal adalah penghentian total unit untuk dibersihkan."
+        ]
+      },
+      {
+        "h": "Merancang melawan kerak sejak di kertas",
+        "t": null,
+        "paras": [
+          "Karena fouling tidak terhindarkan, perancangan heat exchanger menyisihkan margin berupa faktor pengotoran sejak awal, sebagaimana diatur dalam standar perancangan penukar panas. Alat dirancang sedikit lebih besar dari kebutuhan bersihnya, agar saat kerak tumbuh, pabrik masih memiliki waktu sebelum harus berhenti [3]."
+        ]
+      }
+    ],
+    "refs": [
+      "Incropera, F. P., DeWitt, D. P., Bergman, T. L., & Lavine, A. S. (2007). Fundamentals of Heat and Mass Transfer (6th ed.). Wiley.",
+      "Kern, D. Q. (1950). Process Heat Transfer. McGraw-Hill.",
+      "Tubular Exchanger Manufacturers Association. (2019). Standards of the Tubular Exchanger Manufacturers Association (10th ed.). TEMA."
+    ]
+  },
+  "haber-bosch-udara-jadi-pupuk": {
+    "lead": "Udara mengandung sekitar 78 persen nitrogen, tetapi tidak ada tanaman yang dapat memanfaatkannya secara langsung. Satu proses industri mengubah gas inert tersebut menjadi sumber nitrogen bagi pangan dunia.",
+    "sections": [
+      {
+        "h": "Ikatan rangkap tiga yang sangat stabil",
+        "t": 6.8,
+        "paras": [
+          "Reaksinya ringkas: N₂ + 3H₂ → 2NH₃. Atomnya seimbang, 2 nitrogen dan 6 hidrogen di kedua sisi. Kesulitannya bukan pada persamaan, melainkan pada ikatan rangkap tiga pada molekul N₂ yang sangat kuat, yang membuat nitrogen sukar bereaksi [1].",
+          "Seluruh rekayasa Haber-Bosch pada dasarnya adalah cara memaksa ikatan itu putus dalam skala industri, secara terus-menerus, dengan biaya yang masih dapat diterima."
+        ]
+      },
+      {
+        "h": "Tiga syarat ekstrem dan tarik-menariknya",
+        "t": 13.6,
+        "paras": [
+          "Tiga syarat dipakai bersamaan. Katalis besi membantu memecah ikatan N₂. Suhu 400 sampai 500°C mempercepat reaksi. Tekanan 150 sampai 250 bar mendorong kesetimbangan ke arah produk, karena 4 mol gas berubah menjadi 2 mol gas, sesuai prinsip Le Chatelier [1][2].",
+          "Syarat-syarat ini saling bertarik. Suhu tinggi baik untuk kecepatan, tetapi buruk untuk kesetimbangan reaksi eksotermik. Tekanan tinggi baik untuk hasil, tetapi mahal untuk peralatan. Angka operasinya merupakan kompromi di tengah tarik-menarik tersebut."
+        ]
+      },
+      {
+        "h": "Satu lintasan hanya 15 persen: mengapa recycle menentukan",
+        "t": 20.4,
+        "paras": [
+          "Sekali campuran gas melewati reaktor, hanya sekitar 15 persen yang berubah menjadi amonia. Amonia kemudian dipisahkan dengan kondensasi, dan gas yang belum bereaksi dikembalikan masuk reaktor.",
+          "Tanpa recycle, lebih dari 80 persen bahan baku terbuang pada setiap putaran. Recycle bukan aksesori, melainkan penentu pabrik ini untung atau rugi [1]."
+        ]
+      },
+      {
+        "h": "Sifat eksotermik: panas yang membantu sekaligus menghambat",
+        "t": 27.2,
+        "paras": [
+          "Reaksinya eksotermik dengan ΔH sekitar minus 92 kJ per mol. Panas yang dilepas membantu menjaga suhu reaktor, tetapi apabila bed katalis terlalu panas, kesetimbangan justru bergeser kembali menjauhi produk.",
+          "Karena itu, reaktor amonia dirancang mengelola panasnya sendiri dengan hati-hati, dengan pendinginan di antara tahap-tahap agar konversi per lintasan tetap tinggi tanpa mengorbankan kesetimbangan [1]."
+        ]
+      },
+      {
+        "h": "Dari amonia ke urea dan pupuk",
+        "t": null,
+        "paras": [
+          "Amonia merupakan produk antara dalam rantai ini. Sebagian besar amonia dunia diolah lebih lanjut menjadi urea dan pupuk nitrogen lain, dan dari sanalah nitrogen dari udara akhirnya sampai ke tanaman. Tanpa proses ini, separuh lebih pangan dunia tidak memiliki sumber nitrogennya [2]."
+        ]
+      }
+    ],
+    "refs": [
+      "Appl, M. (1999). Ammonia: Principles and Industrial Practice. Wiley-VCH.",
+      "Ullmann's Encyclopedia of Industrial Chemistry. (2012). Ammonia. Wiley-VCH."
+    ]
+  },
+  "netralisasi-asam-basa": {
+    "lead": "Persamaan asam basa yang lazim dipelajari di sekolah menyembunyikan pemeran utamanya. Spesi yang sesungguhnya bereaksi dalam netralisasi ternyata hanyalah dua ion.",
+    "sections": [
+      {
+        "h": "Tukar pasangan yang terlihat",
+        "t": 6.5,
+        "paras": [
+          "Ditulis sebagai molekul, netralisasi tampak seperti tukar pasangan: HCl + NaOH → NaCl + H₂O. Atom dan muatannya seimbang, dan untuk keperluan praktis persamaan ini benar.",
+          "Namun, persamaan molekuler menyembunyikan apa yang sebenarnya terjadi di dalam larutan, karena di dalam air, kedua zat itu sudah tidak berbentuk molekul lagi [1]."
+        ]
+      },
+      {
+        "h": "Reaksi ion bersih: H⁺ + OH⁻ → H₂O",
+        "t": 13,
+        "paras": [
+          "Asam kuat dan basa kuat terurai sempurna menjadi ion-ionnya di dalam larutan. Dari semua ion yang ada, yang benar-benar bereaksi hanyalah H⁺ + OH⁻ → H₂O. Inilah reaksi ion bersihnya.",
+          "Ion Na⁺ dan Cl⁻ tidak berubah dari awal sampai akhir; keduanya merupakan ion penonton yang akhirnya tinggal sebagai garam NaCl di larutan. Persamaan yang panjang ternyata digerakkan oleh satu reaksi ion yang sangat sederhana [1][2]."
+        ]
+      },
+      {
+        "h": "57 kJ per mol air: dari mana panasnya",
+        "t": 19.5,
+        "paras": [
+          "Pembentukan air dari H⁺ dan OH⁻ melepas sekitar 57 kJ panas per mol air yang terbentuk. Reaksinya eksotermik, dan itulah sebabnya wadah campuran terasa hangat saat asam dan basa kuat dicampurkan.",
+          "Karena reaksi ionnya selalu sama, entalpi netralisasi asam kuat oleh basa kuat hampir konstan untuk pasangan asam basa kuat mana pun. Yang berubah hanyalah ion penontonnya [2]."
+        ]
+      },
+      {
+        "h": "Titrasi: tepat 1 banding 1 dan indikator fenolftalein",
+        "t": 26.5,
+        "paras": [
+          "Perbandingan reaksinya tepat 1 banding 1: satu mol HCl membutuhkan tepat satu mol NaOH. Kelebihan satu tetes saja membuat campuran meleset dari titik ekuivalen, yang untuk pasangan asam kuat dan basa kuat berada di pH 7 [1].",
+          "Fenolftalein menjadi penanda visualnya: bening di asam, merah muda di basa. Perubahan warnanya menandai kapan penambahan harus berhenti, tetes demi tetes."
+        ]
+      },
+      {
+        "h": "Satu reaksi, banyak skala",
+        "t": null,
+        "paras": [
+          "Reaksi yang sama bekerja pada antasida yang menetralkan asam lambung, di laboratorium sekolah saat titrasi, dan di pabrik saat air limbah asam atau basa dinetralkan sebelum dibuang. Skalanya berbeda jauh, reaksi ionnya persis sama [1]."
+        ]
+      }
+    ],
+    "refs": [
+      "Skoog, D. A., West, D. M., Holler, F. J., & Crouch, S. R. (2014). Fundamentals of Analytical Chemistry (9th ed.). Cengage Learning.",
+      "Atkins, P., & de Paula, J. (2014). Atkins' Physical Chemistry (10th ed.). Oxford University Press."
+    ]
+  },
+  "water-gas-shift-co-jadi-h2": {
+    "lead": "Untuk membuat hidrogen murni, pabrik terlebih dahulu menghasilkan CO, gas beracun yang kemudian harus disingkirkan sampai tersisa 0,3 persen.",
+    "sections": [
+      {
+        "h": "Hidrogen produk berasal dari air, bukan dari CO",
+        "t": 6.5,
+        "paras": [
+          "Reaksi water-gas shift adalah CO + H₂O → CO₂ + H₂, eksotermik dengan ΔH sekitar minus 41 kJ per mol. Reaksi ini adalah tulang punggung pabrik hidrogen karena mengubah CO yang tidak diinginkan menjadi H₂ tambahan [1].",
+          "Perlu diluruskan bahwa atom hidrogen pada produk H₂ berasal dari air (steam), bukan dari CO. CO menyumbang karbonnya untuk dibawa pergi sebagai CO₂."
+        ]
+      },
+      {
+        "h": "Tahap suhu tinggi: HTS untuk kecepatan reaksi",
+        "t": 13,
+        "paras": [
+          "Tahap pertama adalah HTS (high temperature shift) pada 350 sampai 450°C dengan katalis Fe-Cr. Suhu tinggi membuat reaksi berjalan cepat, dan kadar CO turun dari sekitar 15 persen menjadi 3 persen [1][2].",
+          "Sebagian besar pekerjaan selesai pada tahap ini, tetapi 3 persen masih jauh dari cukup bersih untuk hidrogen murni. Menyelesaikan sisanya pada suhu setinggi ini tidak efisien, karena kesetimbangan reaksi eksotermik memburuk saat panas."
+        ]
+      },
+      {
+        "h": "Pendinginan di tengah dan pemulihan panasnya",
+        "t": 19.5,
+        "paras": [
+          "Di antara kedua tahap, gas didinginkan. Panas dari reaksi eksotermik tahap pertama tidak dibuang begitu saja, melainkan dipulihkan untuk menghasilkan steam.",
+          "Pendinginan ini melayani dua tujuan sekaligus: menyiapkan gas ke suhu tahap kedua yang lebih rendah, dan memulihkan energi reaksinya sebagai utilitas yang berguna [1]."
+        ]
+      },
+      {
+        "h": "Tahap suhu rendah: LTS untuk ketuntasan reaksi",
+        "t": 26.5,
+        "paras": [
+          "Tahap kedua adalah LTS (low temperature shift) pada 200 sampai 250°C dengan katalis Cu-Zn, menurunkan CO dari 3 persen menjadi 0,3 persen. Katalisnya berbeda karena suhunya berbeda; satu katalis tidak cocok untuk dua rezim suhu ini [1][2].",
+          "Setelah CO₂ disingkirkan dan gas dimurnikan melalui PSA, hasilnya adalah hidrogen murni 99,99 persen. Dua tahap reaktor dengan pendingin di tengah merupakan kompromi yang menyelesaikan konflik klasik: kesetimbangan menyukai dingin, kinetika menyukai panas."
+        ]
+      }
+    ],
+    "refs": [
+      "Ullmann's Encyclopedia of Industrial Chemistry. (2012). Hydrogen. Wiley-VCH.",
+      "Newsome, D. S. (1980). The Water-Gas Shift Reaction. Catalysis Reviews: Science and Engineering, 21(2)."
+    ]
+  },
+  "b40-transesterifikasi-motion": {
+    "lead": "Empat puluh persen isi tangki solar yang dibeli di SPBU bukan berasal dari minyak bumi. Bagian tersebut berasal dari minyak sawit yang telah diubah secara kimia, dan perubahan kimia itulah syarat agar sawit dapat bercampur dan bekerja sebagai bahan bakar diesel.",
+    "refs": [
+      "Kementerian Energi dan Sumber Daya Mineral Republik Indonesia. Mandatori B40 mulai 1 Januari 2025.",
+      "Knothe, G., Krahl, J., & Van Gerpen, J. (Eds.). (2010). The Biodiesel Handbook (2nd ed.). AOCS Press."
+    ],
+    "sections": [
+      {
+        "h": "Mandatori B40 dan komposisi 40 berbanding 60",
+        "paras": [
+          "Sejak Januari 2025, solar yang dijual di Indonesia wajib memenuhi mandatori B40 dari Kementerian ESDM. B40 adalah campuran 40 persen biodiesel berupa FAME dari minyak sawit dan 60 persen solar dari minyak bumi [1].",
+          "Komposisi ini berarti bahan bakar diesel di SPBU bukan lagi produk satu sumber. Bagian terbesar tetap solar fosil, sedangkan 40 persen sisanya adalah produk reaksi kimia dari minyak nabati yang harus memenuhi mutu campuran yang sama."
+        ],
+        "t": 7
+      },
+      {
+        "h": "Mengapa minyak sawit mentah tidak dapat langsung dicampur",
+        "paras": [
+          "Minyak sawit mentah tersusun atas trigliserida, molekul dengan tiga rantai asam lemak. Trigliserida tersebut terlalu kental dan tidak stabil untuk langsung dituang dan dicampurkan sebagai bahan bakar diesel [2].",
+          "Persoalannya terletak pada struktur molekulnya, bukan pada asal bahannya. Selama minyak masih berbentuk trigliserida, sifat alir dan kestabilannya tidak sesuai untuk mesin diesel, sehingga molekulnya harus diubah terlebih dahulu."
+        ],
+        "t": 14
+      },
+      {
+        "h": "Transesterifikasi: trigliserida dan metanol menjadi FAME dan gliserol",
+        "paras": [
+          "Perubahan itu dilakukan melalui transesterifikasi: trigliserida direaksikan dengan 3 metanol memakai katalis basa, menghasilkan 3 FAME (fatty acid methyl ester) dan gliserol. FAME inilah biodiesel yang sesungguhnya [2].",
+          "Reaksi ini memotong tiga rantai asam lemak dari kerangka trigliserida dan memasangkan setiap rantai dengan metanol. Produk sampingnya, gliserol, dipisahkan dari FAME dan mempunyai nilai guna tersendiri sebagai bahan baku sabun dan kosmetik, sebagaimana dicatat dalam materi video."
+        ],
+        "t": 21
+      },
+      {
+        "h": "Dari FAME menjadi B40 di tangki pencampur",
+        "paras": [
+          "FAME yang telah dipisahkan dari gliserol kemudian dicampurkan dengan solar minyak bumi pada perbandingan 40 berbanding 60. Hasil pencampuran inilah B40 yang didistribusikan dan dijual sebagai solar di SPBU [1].",
+          "Urutan prosesnya menegaskan bahwa B40 bukan campuran minyak sawit mentah dengan solar. Terdapat reaksi kimia penuh di tengahnya, dan tanpa reaksi tersebut, bagian sawit pada campuran tidak akan memenuhi syarat sebagai bahan bakar."
+        ],
+        "t": 28
+      },
+      {
+        "h": "Satu tangki solar sebagai hasil reaksi kimia",
+        "paras": [
+          "Dengan komposisi tersebut, setiap tangki solar yang dibeli konsumen mengandung hasil transesterifikasi dalam jumlah yang besar, yaitu 40 persen dari volumenya [1].",
+          "Kesimpulan ini mengubah cara membaca kebijakan B40: mandatori tersebut bukan sekadar keputusan pencampuran bahan, melainkan keputusan untuk menjalankan reaksi transesterifikasi trigliserida dalam skala nasional, dengan gliserol sebagai produk samping yang menyertainya [1][2]."
+        ],
+        "t": null
+      }
+    ]
+  },
+  "confined-space-masuk-tangki": {
+    "lead": "Sebuah tangki yang telah dikosongkan tampak seperti bejana baja yang tidak berbahaya. Namun yang menentukan keselamatan orang yang masuk ke dalamnya bukanlah isi cairannya yang telah hilang, melainkan udara yang tertinggal di dalamnya dan tidak dapat dinilai dengan mata.",
+    "sections": [
+      {
+        "h": "Ruang terbatas dan bahaya atmosfer yang tidak terlihat",
+        "t": 6,
+        "paras": [
+          "Tangki, vessel, dan ruang terbatas sejenis dapat menyimpan sisa uap bahan yang pernah dikandungnya, serta udara dengan kadar oksigen yang tidak cukup untuk menopang pernapasan. Kedua keadaan itu tidak terlihat dari luar: dinding bejana tampak bersih, ruangannya tampak kosong, dan tidak ada tanda visual yang membedakan udara layak napas dari udara yang melumpuhkan [1].",
+          "Karena bahayanya berada pada atmosfer, penilaiannya tidak dapat digantikan oleh pengalaman atau keberanian. Satu-satunya penilaian yang sah adalah pengukuran, dan pengukuran itu harus dilakukan sebelum ada orang yang berada di dalam ruang tersebut [1][2]."
+        ]
+      },
+      {
+        "h": "Pengujian gas dan ventilasi sebelum masuk",
+        "t": 13,
+        "paras": [
+          "Pengujian atmosfer dilakukan dengan detektor gas yang diulurkan ke dalam ruang terbatas dari luar, sehingga hasil uji diperoleh sebelum ada pekerja yang menghirup udara di dalamnya. Pengujian dilakukan sebelum masuk dan dilanjutkan selama pekerjaan berlangsung, karena kondisi atmosfer dapat berubah selama pekerjaan berjalan [1].",
+          "Apabila hasil uji belum layak, ruang tersebut diberi ventilasi untuk mengganti udaranya dengan udara segar sampai pengukuran membuktikan keadaannya aman. Ventilasi bukan jalan pintas untuk melewati pengujian; keduanya berurutan, ventilasi memperbaiki keadaan dan pengujian membuktikannya [1][2]."
+        ]
+      },
+      {
+        "h": "Izin tertulis sebagai gerbang awal pekerjaan",
+        "t": 20,
+        "paras": [
+          "Pekerjaan masuk ruang terbatas dimulai dari izin tertulis, bukan dari tangga menuju lubang masuk. Izin tersebut memaksa seluruh prasyarat diperiksa dan dinyatakan secara eksplisit sebelum pekerjaan dimulai: isolasi peralatan, pengujian atmosfer, ventilasi, penjaga, dan rencana penyelamatan [1].",
+          "Fungsi izin bukan administratif semata. Dokumen itu mengubah daftar pengaman dari ingatan seseorang menjadi komitmen tertulis yang dapat diperiksa ulang oleh pihak lain, dan pekerjaan tidak sah dimulai selama satu pun prasyaratnya belum terpenuhi [2]."
+        ]
+      },
+      {
+        "h": "Penjaga di luar dan peran tali penarik",
+        "t": 27,
+        "paras": [
+          "Selama pekerjaan berlangsung, satu orang bertugas sebagai penjaga di luar ruang terbatas. Penjaga menjaga komunikasi dengan pekerja di dalam, memegang kendali jalur penyelamatan, dan tidak meninggalkan posnya untuk alasan apa pun [1].",
+          "Pekerja di dalam terhubung dengan tali pengaman ke peralatan penarik seperti tripod di lubang masuk. Susunan ini memungkinkan pekerja yang tidak sadarkan diri ditarik keluar dari luar, tanpa satu pun penolong harus masuk ke atmosfer yang sama [2]."
+        ]
+      },
+      {
+        "h": "Penyelamatan yang tidak menghasilkan korban berikutnya",
+        "t": null,
+        "paras": [
+          "Pola kecelakaan ruang terbatas yang paling dikenal adalah berantainya korban: pekerja pertama pingsan oleh atmosfer, penolong menyusul masuk tanpa alat napas, dan penolong tersebut pingsan oleh udara yang sama. Rencana penyelamatan disusun sebelum pekerjaan dimulai justru untuk memutus rantai tersebut [1].",
+          "Kesimpulannya tegas. Ruang terbatas dinyatakan aman bukan karena terlihat kosong, melainkan karena izinnya tertulis, gasnya teruji, udaranya terventilasi, penjaganya berada di luar, dan penyelamatannya telah dirancang tanpa mengorbankan penolong [1][2]."
+        ]
+      }
+    ],
+    "refs": [
+      "Mannan, S. (Ed.). (2012). Lees' Loss Prevention in the Process Industries: Hazard Identification, Assessment and Control (4th ed.). Butterworth-Heinemann.",
+      "Green, D. W., & Southard, M. Z. (Eds.). (2019). Perry's Chemical Engineers' Handbook (9th ed.). McGraw-Hill Education."
+    ]
+  },
+  "dead-leg-pipa-buntu-berbahaya": {
+    "lead": "Cabang pipa yang tidak pernah dialiri tampak seperti bagian yang paling aman di pabrik, karena tidak ada aliran, tidak ada tekanan yang berubah, dan tidak ada proses yang berjalan di dalamnya. Penilaian tersebut terbalik: keadaan diam di dalam cabang itulah yang menjadi sumber bahayanya.",
+    "refs": [
+      "Towler, G., & Sinnott, R. (2013). Chemical Engineering Design: Principles, Practice and Economics of Plant and Process Design (2nd ed.). Butterworth-Heinemann.",
+      "Revie, R. W., & Uhlig, H. H. (2008). Corrosion and Corrosion Control: An Introduction to Corrosion Science and Engineering (4th ed.). Wiley-Interscience.",
+      "Chemical Processing. Watch Out For Dead-Legs."
+    ],
+    "sections": [
+      {
+        "h": "Definisi dead leg: cabang tanpa aliran",
+        "paras": [
+          "Dead leg adalah cabang pipa buntu yang tidak dialiri, sehingga fluida di dalamnya stagnan. Cabang semacam ini lazim muncul sebagai sisa perubahan desain, jalur cadangan yang tidak pernah dipakai, atau sambungan untuk keperluan yang telah dihapus, sedangkan pipanya tetap tertinggal pada sistem [1].",
+          "Karena tidak ada aliran yang melewatinya, cabang tersebut luput dari perhatian operasi sehari-hari. Fluida yang terperangkap di dalamnya tidak berganti, dan kondisinya tidak terpantau oleh instrumen pada aliran utama."
+        ],
+        "t": 6
+      },
+      {
+        "h": "Korosi dan endapan pada fluida yang stagnan",
+        "paras": [
+          "Keadaan stagnan mempercepat korosi setempat pada dinding pipa dan mendukung pertumbuhan mikroba pada dinding tersebut. Tanpa aliran, produk korosi dan endapan tidak terbawa pergi, melainkan menumpuk di dasar dan dinding cabang [2].",
+          "Penumpukan ini berjalan perlahan dan tidak terlihat dari luar. Cabang yang dari luar tampak utuh dapat menyimpan lapisan karat dan endapan dalam jumlah yang terus bertambah selama cabang tersebut dibiarkan tanpa aliran dan tanpa pembilasan."
+        ],
+        "t": 13
+      },
+      {
+        "h": "Aturan praktis panjang terhadap diameter",
+        "paras": [
+          "Risiko dead leg berkaitan dengan seberapa dalam cabang menjulur dari aliran utama. Aturan praktis perlindungan korosi yang dikutip dalam materi video menyatakan bahwa cabang dari jalur beraliran dengan rasio panjang terhadap diameter (L/D) melebihi 3 kemungkinan besar bermasalah [3].",
+          "Makna aturan tersebut bersifat desain: semakin panjang cabang relatif terhadap diameternya, semakin dalam zona stagnannya dan semakin kecil kemungkinan ujung cabang tersentuh pertukaran fluida dengan aliran utama. Cabang pendek jauh lebih mudah dijaga dibandingkan cabang panjang."
+        ],
+        "t": 13
+      },
+      {
+        "h": "Momen pelepasan: kontaminan terdorong ke aliran utama",
+        "paras": [
+          "Bahaya dead leg muncul pada saat kondisi berubah. Ketika katup dibuka atau aliran dialihkan, fluida pada aliran utama mulai bergerak melewati mulut cabang dan menyeret isi cabang yang telah lama stagnan [1].",
+          "Karat, endapan, dan fluida yang telah berubah komposisinya ikut terdorong masuk ke aliran utama dan mengotori produk. Dengan demikian, cabang yang selama ini dianggap tidak berperan justru menentukan mutu aliran pada saat sistem dioperasikan kembali."
+        ],
+        "t": 20
+      },
+      {
+        "h": "Penyelesaian dari desain dan pembilasan berkala",
+        "paras": [
+          "Penyelesaian yang diutamakan adalah penyelesaian desain: cabang buntu dihindari sejak perancangan dan cabang yang tidak lagi diperlukan dilepas dari sistem. Apabila keberadaan cabang tidak dapat dihindari, cabang dibuat sesingkat mungkin agar zona stagnannya sekecil mungkin [1][3].",
+          "Untuk cabang yang terpaksa dipertahankan, pembilasan berkala menjadi kewajiban perawatan: fluida di dalam cabang digerakkan dan diganti secara terjadwal, sehingga korosi setempat, endapan, dan pertumbuhan mikroba tidak dibiarkan menumpuk tanpa terdeteksi [1]."
+        ],
+        "t": 27
+      }
+    ]
+  },
+  "flare-stack-api-kilang-menyala": {
+    "lead": "Api di ujung cerobong tertinggi sebuah kilang menyala siang dan malam, dan dari kejauhan api itu tampak seperti gas yang dibakar tanpa hasil. Penilaian tersebut keliru pada satu hal mendasar: yang dibakar di sana bukan produk yang gagal dijual, melainkan gas berlebih yang memang harus dikeluarkan dari sistem demi keselamatan.",
+    "sections": [
+      {
+        "h": "Sumber gas flare: katup pengaman, blowdown, dan pelepasan operasi",
+        "t": 13,
+        "paras": [
+          "Gas yang tiba di flare berasal dari beberapa jalur yang semuanya bersifat pengaman. Katup pengaman melepas gas ketika tekanan sistem naik melewati batasnya, blowdown mengosongkan tekanan peralatan secara terkendali, dan pelepasan juga terjadi pada saat penyalaan atau penghentian operasi, ketika keadaan proses belum atau tidak lagi stabil [1].",
+          "Pada semua jalur itu, alternatifnya bukanlah menyimpan gas tersebut lebih lama. Tekanan berlebih yang ditahan di dalam peralatan bertekanan merupakan bahaya mekanis langsung, sehingga gas wajib keluar dari sistem. Persoalan rekayasanya bukan apakah gas dikeluarkan, melainkan dalam bentuk apa gas itu tiba di udara [1][2]."
+        ]
+      },
+      {
+        "h": "Knockout drum: memisahkan cairan sebelum gas naik",
+        "t": 20,
+        "paras": [
+          "Aliran dari sistem tidak langsung naik ke ujung flare. Aliran tersebut melewati knockout drum, bejana pemisah yang menahan cairan yang terbawa bersama gas, sehingga hanya fase gas yang melanjutkan perjalanan ke flare stack [1].",
+          "Pemisahan ini penting karena cairan yang terbawa sampai ke ujung flare akan terbakar sebagai tetesan jatuh dan membahayakan area di bawahnya. Knockout drum memastikan pembakaran di ujung stack terjadi pada fase yang memang dirancang untuk dibakar di sana, yaitu gas [1][2]."
+        ]
+      },
+      {
+        "h": "Mengapa dibakar, bukan dilepas mentah",
+        "t": 27,
+        "paras": [
+          "Flare menjawab persoalan tersebut dengan pembakaran. Gas hidrokarbon yang dialirkan ke ujung flare dibakar menjadi karbon dioksida dan uap air, sehingga yang dilepas ke atmosfer adalah hasil pembakaran, bukan hidrokarbon mentah yang belum terbakar [1].",
+          "Praktik sistem pelepas tekanan dan flare ini diatur dalam rekomendasi praktik API RP 521, yang menjadi rujukan perancangan sistem pelepas tekanan dan penurun tekanan pada fasilitas proses. Di dalam kerangka itu, flare bukan aksesori cerobong, melainkan ujung dari sistem pengaman tekanan keseluruhan [2]."
+        ]
+      },
+      {
+        "h": "Pilot burner: api kecil yang tidak boleh padam",
+        "t": 27,
+        "paras": [
+          "Di ujung flare terdapat pilot burner, api kecil yang dijaga menyala terus-menerus. Fungsinya adalah menjamin penyalaan: pada saat gelombang gas berlebih tiba, yang kedatangannya tidak terjadwal, api penyala harus sudah tersedia pada detik itu juga [2].",
+          "Apabila pilot padam, gas yang tiba tidak terbakar dan lolos mentah ke udara, tepat pada keadaan yang seharusnya dicegah oleh flare. Karena itu keberlangsungan api kecil ini sama pentingnya dengan besarnya api utama, dan pemantauannya merupakan bagian dari operasi flare itu sendiri [1]."
+        ]
+      },
+      {
+        "h": "Alat pengaman terakhir pada sistem tekanan",
+        "t": null,
+        "paras": [
+          "Disebut alat pengaman terakhir karena flare bekerja pada ujung rangkaian pengaman tekanan. Ketika pengendalian normal tidak lagi cukup dan katup pengaman telah melepas gas, flare adalah tahap yang memastikan pelepasan tersebut berakhir sebagai pembakaran terkendali di ketinggian, bukan sebagai awan hidrokarbon mentah [2].",
+          "Maka api yang menyala terus di kilang dibaca secara terbalik dari kesan pertamanya. Api itu bukan tanda pemborosan, melainkan tanda bahwa jalur pengaman terakhir kilang dalam keadaan siap, dan kesiapan itulah yang tidak boleh padam [1][2]."
+        ]
+      }
+    ],
+    "refs": [
+      "American Petroleum Institute. (2020). API Recommended Practice 521: Pressure-Relieving and Depressuring Systems (7th ed.). API Publishing Services.",
+      "Green, D. W., & Southard, M. Z. (Eds.). (2019). Perry's Chemical Engineers' Handbook (9th ed.). McGraw-Hill Education."
+    ]
+  },
+  "gudang-bahan-kimia-segregasi-bunding": {
+    "lead": "Dua drum yang diletakkan bersebelahan di gudang tampak seperti persoalan kerapian. Apabila isi kedua drum itu tidak kompatibel, kedekatan tersebut adalah jalur kejadian: satu kebocoran kecil sudah cukup untuk mempertemukan keduanya tanpa campur tangan siapa pun.",
+    "sections": [
+      {
+        "h": "Inkompatibilitas pertama: asam dan pemutih menghasilkan gas klorin",
+        "t": 6.5,
+        "paras": [
+          "Pemutih berbahan natrium hipoklorit adalah bahan rumah tangga dan industri yang umum, dan asam adalah bahan korosif yang sama umumnya. Apabila keduanya tercampur, reaksi yang terjadi melepaskan gas klorin, gas beracun yang membahayakan pernapasan orang di sekitarnya [1].",
+          "Kejadian semacam ini tidak memerlukan kesalahan pencampuran yang disengaja. Drum asam yang menetes ke arah drum pemutih yang bersebelahan sudah merupakan pencampuran, dan gasnya terbentuk di tempat bahan itu bertemu, di lantai gudang yang sama [2]."
+        ]
+      },
+      {
+        "h": "Inkompatibilitas kedua: oksidator dan bahan mudah terbakar",
+        "t": 13,
+        "paras": [
+          "Pasangan berbahaya kedua bekerja melalui jalur yang berbeda. Bahan oksidator menyediakan oksigen bagi pembakaran, sehingga apabila oksidator tercampur atau tersimpan menempel dengan bahan mudah terbakar, pasangan tersebut dapat memicu kebakaran dengan energi penyalaan yang jauh lebih kecil daripada bahan mudah terbakar yang berdiri sendiri [1].",
+          "Kedua contoh ini memperlihatkan prinsip yang sama dari dua sisi. Bahaya gudang kimia tidak hanya ditentukan oleh sifat setiap bahan secara sendiri, melainkan juga oleh bahan apa yang berada di sebelahnya. Penilaian penyimpanan karena itu selalu berpasangan, bukan per bahan [1][2]."
+        ]
+      },
+      {
+        "h": "Segregasi: zonasi gudang berdasarkan kelas bahaya",
+        "t": 20,
+        "paras": [
+          "Jawaban rekayasanya adalah segregasi, yaitu pemisahan isi gudang berdasarkan kompatibilitas. Bahan dikelompokkan ke dalam zona menurut kelas bahayanya, antara lain zona mudah terbakar, zona korosif, dan zona oksidator, dan setiap zona dipisahkan oleh jarak serta pembatas fisik dari zona lainnya [1].",
+          "Klasifikasi bahaya yang menjadi dasar pengelompokan ini mengikuti sistem klasifikasi dan pelabelan bahan kimia yang terharmonisasi secara global, sehingga label pada setiap kemasan memberikan informasi kelas bahaya yang sama di pabrik mana pun. Label tersebut bukan hiasan kemasan; label itulah yang menentukan zona tempat bahan boleh disimpan [1]."
+        ]
+      },
+      {
+        "h": "Bunding sebagai pertahanan lapis kedua",
+        "t": 27,
+        "paras": [
+          "Segregasi mengasumsikan bahan tetap berada di zonanya, dan bunding disiapkan untuk keadaan apabila asumsi itu gagal. Bunding adalah tanggul penampung yang mengelilingi area penyimpanan, dirancang menahan cairan yang tumpah agar tetap berada di dalam area tersebut [2].",
+          "Dengan tumpahan tertahan di zonanya, satu kebocoran tidak berubah menjadi pertemuan antar bahan yang tidak kompatibel di zona lain. Segregasi mencegah pertemuan dalam keadaan normal, sedangkan bunding membatasi akibatnya dalam keadaan bocor; keduanya merupakan dua lapis pertahanan yang berbeda dan tidak saling menggantikan [2]."
+        ]
+      },
+      {
+        "h": "Aturan praktis sebelum menyimpan bahan apa pun",
+        "t": null,
+        "paras": [
+          "Urutan keputusan di gudang kimia karena itu tetap. Pertama, periksa kompatibilitas bahan terhadap isi zona tempat bahan akan disimpan, berdasarkan kelas bahaya pada labelnya. Kedua, simpan bahan hanya di zona yang sesuai dengan kelasnya [1].",
+          "Ketiga, pastikan area penyimpanan tersebut memiliki bunding yang mampu menahan tumpahan. Gudang yang mengikuti ketiga aturan ini tidak lagi bergantung pada keberuntungan bahwa tidak ada drum yang menetes [1][2]."
+        ]
+      }
+    ],
+    "refs": [
+      "United Nations. (2019). Globally Harmonized System of Classification and Labelling of Chemicals (GHS) (8th revised ed.). United Nations.",
+      "Green, D. W., & Southard, M. Z. (Eds.). (2019). Perry's Chemical Engineers' Handbook (9th ed.). McGraw-Hill Education."
+    ]
+  },
+  "hybrid-pompa-sentrifugal": {
+    "lead": "Pompa sentrifugal dipahami secara keliru sebagai alat yang menghisap cairan dari sisi masuknya. Mekanisme sebenarnya berjalan terbalik: cairan terlebih dahulu dilempar ke luar, dan lemparan tersebut yang kemudian menghasilkan tekanan untuk mendorong cairan sampai ke tangki yang lebih tinggi.",
+    "refs": [
+      "Green, D. W., & Southard, M. Z. (Eds.). (2019). Perry's Chemical Engineers' Handbook (9th ed.). McGraw-Hill Education.",
+      "Karassik, I. J., Messina, J. P., Cooper, P., & Heald, C. C. (2008). Pump Handbook (4th ed.). McGraw-Hill.",
+      "Coulson, J. M., & Richardson, J. F. (1999). Chemical Engineering, Volume 1: Fluid Flow, Heat Transfer and Mass Transfer (6th ed.). Butterworth-Heinemann."
+    ],
+    "sections": [
+      {
+        "h": "Lemparan impeller dan peran tekanan atmosfer pada sisi masuk",
+        "paras": [
+          "Impeller adalah komponen berputar di jantung pompa sentrifugal. Pada saat impeller berputar, cairan yang berada di antara sudu sudunya ikut terlempar ke arah luar oleh gerak putar tersebut, meninggalkan daerah bertekanan lebih rendah di bagian tengah impeller [1][2].",
+          "Penurunan tekanan di tengah inilah yang membuka jalan bagi cairan berikutnya. Tekanan atmosfer yang menekan permukaan cairan di tangki sumber mendorong cairan masuk menuju daerah bertekanan rendah tersebut. Pompa tidak menarik cairan dari kejauhan; tekanan dari luar yang mendorong cairan masuk [2]."
+        ],
+        "t": 0
+      },
+      {
+        "h": "Mengapa air tetap dapat naik menuju tangki atas",
+        "paras": [
+          "Pertanyaan yang wajar muncul dari penjelasan tersebut adalah mengenai kemampuan pompa menaikkan air ke tangki atas apabila alat ini tidak menghisap. Jawabannya terletak pada sisi keluar pompa, bukan pada sisi masuknya.",
+          "Cairan yang terlempar keluar impeller membawa kecepatan tinggi. Kecepatan tersebut kemudian diubah menjadi tekanan, dan tekanan inilah yang mendorong cairan melalui pipa discharge menuju ketinggian yang lebih besar. Kenaikan air dijelaskan oleh tekanan yang dihasilkan, bukan oleh hisapan pada sisi masuk [1][2]."
+        ],
+        "t": 6.5
+      },
+      {
+        "h": "Masuk secara axial dari tengah dan keluar secara radial",
+        "paras": [
+          "Arah aliran di dalam pompa memiliki pola yang tetap. Cairan masuk secara axial melalui suction, yaitu sejajar dengan poros dan menuju tengah impeller, kemudian berubah arah dan keluar secara radial, tegak lurus terhadap poros, melalui discharge [1][2].",
+          "Perubahan arah tersebut bukan detail geometri semata. Aliran masuk secara axial diterima di tengah, dipercepat oleh putaran impeller dalam arah radial, dan diarahkan keluar dengan energi kinetik yang jauh lebih besar dari energi pada saat masuk."
+        ],
+        "t": 13
+      },
+      {
+        "h": "Volute: perubahan kecepatan menjadi tekanan",
+        "paras": [
+          "Setelah meninggalkan impeller, cairan memasuki volute, saluran berbentuk spiral yang mengelilingi impeller dan luas penampangnya melebar secara bertahap. Pelebaran saluran membuat kecepatan aliran turun secara bertahap [2][3].",
+          "Penurunan kecepatan pada saluran yang melebar disertai kenaikan tekanan, sesuai kekekalan energi aliran: energi kinetik yang berkurang berubah menjadi energi tekanan. Tekanan pada discharge inilah hasil akhir pompa, yaitu besaran yang dipakai untuk melawan ketinggian dan tahanan pipa [3]."
+        ],
+        "t": 20
+      },
+      {
+        "h": "Hukum afinitas dan contoh kenaikan putaran dua kali",
+        "paras": [
+          "Hubungan antara putaran dan kinerja pompa diringkas oleh hukum afinitas untuk pompa yang sama: laju alir Q sebanding dengan putaran N, head H sebanding dengan N kuadrat, dan daya P sebanding dengan N pangkat tiga [1][2]. Perbandingan tersebut berlaku pada titik operasi yang sebanding dan menunjukkan ketimpangan yang besar antara kenaikan putaran dan kenaikan daya.",
+          "Contoh terhitung pada video memakai basis putaran 1.450 rpm dengan Q sebesar 100 m3/jam, H sebesar 30 m, dan P sebesar 15 kW. Pada putaran 2.900 rpm, yaitu dua kali basisnya, Q menjadi 200 m3/jam atau dua kali, H menjadi 120 m atau empat kali, dan P menjadi 120 kW atau delapan kali. Daya naik delapan kali untuk putaran yang hanya naik dua kali adalah konsekuensi yang wajib diperhitungkan sebelum putaran pompa diubah."
+        ],
+        "t": 27
+      },
+      {
+        "h": "Syarat terisi cairan: pompa sentrifugal tidak memancing aliran dari keadaan kering",
+        "paras": [
+          "Seluruh mekanisme lemparan mensyaratkan impeller terisi cairan. Pompa sentrifugal tidak dapat menghisap sendiri dari keadaan kering atau tidak bersifat self-priming, karena impeller yang berputar di dalam udara tidak menghasilkan penurunan tekanan yang cukup untuk memulai aliran [2].",
+          "Karena itu, pengoperasian dimulai dari keadaan terisi atau primed. Setelah cairan berada di dalam pompa, lemparan impeller menurunkan tekanan di tengah dan tekanan atmosfer mengambil peran mendorong cairan berikutnya masuk, sebagaimana dijelaskan pada bagian awal artikel ini."
+        ],
+        "t": null
+      }
+    ]
+  },
+  "hybrid-shell-and-tube-heat-exchanger": {
+    "lead": "Dua fluida dapat saling bertukar energi tanpa satu tetes pun berpindah di antara keduanya. Penjelasan atas peristiwa tersebut terletak pada sebuah dinding logam dan pada susunan aliran yang dirancang dengan cermat di dalam penukar panas shell and tube.",
+    "refs": [
+      "Incropera, F. P., DeWitt, D. P., Bergman, T. L., & Lavine, A. S. (2007). Fundamentals of Heat and Mass Transfer (6th ed.). Wiley.",
+      "Green, D. W., & Southard, M. Z. (Eds.). (2019). Perry's Chemical Engineers' Handbook (9th ed.). McGraw-Hill Education.",
+      "Kern, D. Q. (1950). Process Heat Transfer. McGraw-Hill."
+    ],
+    "sections": [
+      {
+        "h": "Pemanfaatan panas sisa untuk memanaskan minyak mentah",
+        "paras": [
+          "Sebelum masuk kolom distilasi, minyak mentah harus dipanaskan terlebih dahulu. Pemanasan tersebut dapat memanfaatkan panas produk yang keluar dari proses dalam keadaan panas, sehingga energi yang telah dibayar sebagai bahan bakar tidak terbuang sebagai panas sisa [2].",
+          "Rangkaian pemanfaatan ini dikenal sebagai preheat train. Di dalam rangkaian tersebut, penukar panas menjadi perantara: produk panas menyerahkan sebagian energinya kepada minyak mentah dingin, dan kedua aliran melanjutkan perjalanannya ke tujuan masing-masing."
+        ],
+        "t": 6.5
+      },
+      {
+        "h": "Dua aliran yang terpisah oleh dinding pipa",
+        "paras": [
+          "Di dalam penukar panas shell and tube, fluida panas mengalir di dalam pipa pipa yang disebut sisi tube, sedangkan fluida dingin mengalir di dalam shell dan mengelilingi bagian luar pipa. Kedua fluida tidak bercampur pada titik mana pun di dalam alat [1][3].",
+          "Perpindahan panas berlangsung melalui dinding pipa. Energi bergerak dari fluida panas menuju dinding, melintasi ketebalan logam, kemudian berpindah ke fluida dingin di sisi seberang. Yang melintasi dinding adalah energi dalam bentuk panas, bukan fluida itu sendiri [1]."
+        ],
+        "t": 13
+      },
+      {
+        "h": "Sekat yang memaksa aliran sisi shell berbelok",
+        "paras": [
+          "Ruang shell dilengkapi sekat atau baffle, pelat yang dipasang melintang di antara berkas pipa. Sekat memaksa aliran sisi shell berbelok dalam lintasan zigzag, bukan mengalir lurus dari ujung ke ujung alat [1][3].",
+          "Lintasan yang berbelok memiliki dua akibat yang saling berkaitan. Jalur aliran menjadi lebih panjang sehingga waktu kontak dengan permukaan pipa bertambah, dan turbulensi aliran meningkat sehingga lapisan fluida di dekat dinding terus diperbarui. Kedua akibat tersebut memperkuat perpindahan panas ke pipa."
+        ],
+        "t": 20
+      },
+      {
+        "h": "Contoh hitungan: keseimbangan energi sebesar 1.200 kW",
+        "paras": [
+          "Contoh hitungan pada video memakai dua aliran minyak dengan kalor jenis 2,0 kJ/kg °C. Aliran panas sebesar 10 kg/detik turun dari 180 °C menjadi 120 °C, sedangkan aliran dingin sebesar 12 kg/detik naik dari 40 °C menjadi 90 °C. Contoh ini dilabeli sebagai contoh hitungan, bukan data operasi suatu pabrik tertentu [1].",
+          "Energi yang dilepas aliran panas adalah 10 dikali 2,0 dikali 60, yaitu 1.200 kW. Energi yang diterima aliran dingin adalah 12 dikali 2,0 dikali 50, yaitu 1.200 kW pula. Kesamaan kedua hasil tersebut adalah syarat keseimbangan energi: panas yang dilepas satu aliran sama dengan panas yang diterima aliran lainnya."
+        ],
+        "t": 27
+      },
+      {
+        "h": "Beda suhu rata rata logaritmik sekitar 85 °C pada arus berlawanan",
+        "paras": [
+          "Pada susunan arus berlawanan, selisih suhu di kedua ujung alat adalah 90 °C dan 80 °C. Beda suhu penggerak perpindahan panas diringkas sebagai beda suhu rata rata logaritmik atau LMTD, yang untuk kedua ujung tersebut dihitung sebagai (90 dikurangi 80) dibagi ln(90/80), yaitu 84,9 atau sekitar 85 °C [1].",
+          "Nilai LMTD adalah ukuran kekuatan pendorong perpindahan panas di sepanjang alat. Pembaca dapat menghitung ulang nilai tersebut pada kalkulator LMTD di website ilmutekkim dengan memasukkan suhu masuk dan keluar kedua aliran dari contoh yang sama."
+        ],
+        "t": 27
+      }
+    ]
+  },
+  "loto-gembok-pribadi-motion": {
+    "lead": "Menekan saklar ke posisi mati menghentikan perintah operasi mesin, tetapi tidak menghapus energi yang telah tersimpan di dalamnya. Dari celah antara dua keadaan inilah prosedur lockout dan tagout atau LOTO memperoleh maknanya.",
+    "refs": [
+      "Occupational Safety and Health Administration. 29 CFR 1910.147: The Control of Hazardous Energy (Lockout/Tagout). U.S. Department of Labor.",
+      "Occupational Safety and Health Administration. Fact Sheet: Lockout/Tagout. U.S. Department of Labor.",
+      "Crowl, D. A., & Louvar, J. F. (2019). Chemical Process Safety: Fundamentals with Applications (4th ed.). Pearson."
+    ],
+    "sections": [
+      {
+        "h": "Energi tersimpan yang tetap ada setelah mesin berhenti",
+        "paras": [
+          "Mesin yang telah dimatikan tetap dapat menyimpan energi dalam beberapa bentuk. Muatan listrik tertahan di kapasitor, tekanan tertahan di sistem hidrolik dan pneumatik, pegas tertahan dalam keadaan tertekan, dan beban yang tergantung tertahan oleh gravitasi pada posisi terangkat [1].",
+          "Standar OSHA mengelompokkan energi yang wajib dikendalikan sebagai energi listrik, mekanik, hidrolik, pneumatik, kimia, dan termal [1][3]. Penghentian operasi hanya menutup satu jalur, yaitu perintah untuk bergerak; pengendalian energi harus menutup seluruh jalur pelepasan yang masih tersedia."
+        ],
+        "t": 6
+      },
+      {
+        "h": "Risiko kedua: penyalaan kembali oleh orang lain",
+        "paras": [
+          "Bahaya selama perawatan tidak hanya berasal dari mesin itu sendiri. Pekerja lain yang tidak mengetahui bahwa perawatan sedang berlangsung dapat menyalakan kembali peralatan dari panel yang sama, dan energi mengalir ke area tempat teknisi sedang bekerja.",
+          "Risiko ini menjelaskan mengapa pengamanan tidak cukup berupa pengamatan atau pengumuman lisan. Diperlukan penghalang fisik berupa kunci pada titik isolasi, disertai penanda yang menyatakan bahwa peralatan tidak boleh dioperasikan [1]."
+        ],
+        "t": 13
+      },
+      {
+        "h": "Isolasi, pemasangan kunci, dan pemasangan tag",
+        "paras": [
+          "Urutan pengendalian menurut OSHA 29 CFR 1910.147 dimulai dari persiapan dan penghentian mesin, dilanjutkan isolasi peralatan dari sumber energinya [1]. Pada titik isolasi kemudian dipasang kunci (lock) dan tag peringatan, sehingga saklar atau katup tidak dapat dikembalikan ke posisi operasi.",
+          "Kunci yang dipakai adalah gembok pribadi. Setiap pekerja memasang gemboknya sendiri pada titik isolasi bersama, dan kunci gembok tersebut hanya dipegang oleh pemiliknya. Dengan susunan ini, tidak ada satu orang pun yang dapat membuka pengaman pekerja lain [1]."
+        ],
+        "t": 20
+      },
+      {
+        "h": "Pelepasan energi tersimpan dan verifikasi isolasi",
+        "paras": [
+          "Setelah peralatan dikunci, energi yang tersimpan harus dilepaskan atau ditahan secara aman: tekanan dibuang, muatan listrik dikosongkan, dan bagian yang tertekan dikembalikan ke keadaan tanpa energi. Tahap ini menutup celah yang tidak terselesaikan oleh penguncian titik isolasi [1].",
+          "Urutan ditutup dengan verifikasi isolasi, yang dalam praktik dilakukan dengan mencoba mengoperasikan peralatan. Mesin harus tetap diam. Percobaan tersebut bukan formalitas, melainkan pembuktian bahwa isolasi, penguncian, dan pelepasan energi telah bekerja sebagai satu kesatuan [1][3]."
+        ],
+        "t": 27
+      },
+      {
+        "h": "Gembok pribadi dan dampak kepatuhan pada prosedur",
+        "paras": [
+          "Aturan pelepasan kunci menegaskan prinsip kepemilikan tersebut: kunci hanya boleh dilepas oleh pekerja yang memasangnya, dengan pengecualian yang diatur secara ketat oleh standar [1]. Gembok di titik isolasi dengan demikian berfungsi sebagai penanda keberadaan seseorang yang keselamatannya bergantung pada keadaan mesin yang tetap diam.",
+          "Skala dampaknya terukur. OSHA memperkirakan kepatuhan terhadap prosedur LOTO mencegah sekitar 120 kematian dan 50.000 cedera setiap tahun di Amerika Serikat [2]. Angka tersebut menunjukkan bahwa urutan enam tahap ini bukan beban administratif, melainkan pengendalian yang hasilnya dapat dihitung."
+        ],
+        "t": 34
+      }
+    ]
+  },
+  "pks-tbs-menjadi-cpo-motion": {
+    "lead": "Tandan buah segar yang berduri dan tidak dapat dimakan menyimpan minyak di dalam daging buahnya. Minyak tersebut tidak dapat diambil dengan satu alat, melainkan dilepaskan tahap demi tahap oleh rantai unit yang urutannya tidak dapat ditukar.",
+    "refs": [
+      "Pahan, I. Panduan Lengkap Kelapa Sawit. Penebar Swadaya.",
+      "Jurnal Teknik Kimia, Universitas Sriwijaya. Kondisi sterilisasi tandan buah segar 130-140°C, tekanan 1,5-2,8 bar, sekitar 90 menit, siklus 3 puncak tekanan, mengutip Gold et al. (2012); konfirmasi rentang dalam MDPI (2021)."
+    ],
+    "sections": [
+      {
+        "h": "Minyak yang terkunci di dalam daging buah",
+        "paras": [
+          "Pada tandan buah segar, minyak sawit tersimpan di dalam sel daging buah dan terikat pada struktur seratnya. Selama sel tersebut utuh dan enzim di dalam buah masih aktif, minyak tidak dapat dipisahkan secara efisien dan mutunya menurun selama penundaan pengolahan [1].",
+          "Karena itu, pabrik kelapa sawit tidak memulai dari pemerasan. Pekerjaan pertama pabrik adalah membuka kunci struktur buah dan menghentikan aktivitas enzim, dan pekerjaan itu dilakukan dengan panas uap, bukan dengan tekanan mekanis."
+        ],
+        "t": 5
+      },
+      {
+        "h": "Sterilisasi: uap bertekanan membuka kunci buah",
+        "paras": [
+          "Sterilisasi merebus tandan dengan uap bertekanan. Kondisi yang dikutip dalam materi video adalah suhu 130-140°C, tekanan 1,5-2,8 bar, waktu sekitar 90 menit, dengan siklus 3 puncak tekanan, sedangkan literatur pembanding yang dikutip sumber yang sama memberi rentang 130-160°C dan 60-90 menit [2].",
+          "Panas uap ini mempunyai dua fungsi sekaligus: mematikan enzim lipase yang merusak mutu minyak dan melunakkan daging buah, sehingga buah atau brondolan mudah terlepas dari tandannya pada tahap berikutnya [1][2]."
+        ],
+        "t": 17
+      },
+      {
+        "h": "Perontokan: brondolan dilepas dari tandan",
+        "paras": [
+          "Setelah dilunakkan, tandan masuk ke thresher yang mengguncang dan memutar tandan sehingga brondolan terlepas dan jatuh, sedangkan tandan kosong tersisih sebagai aliran terpisah [1].",
+          "Urutan ini tidak dapat ditukar dengan pemerasan. Tandan yang belum disterilisasi dan belum dirontokkan membawa struktur tandan yang besar dan keras masuk ke unit berikutnya, dan minyak yang masih berada di dalam buah yang menempel tidak akan terperas dengan sempurna."
+        ],
+        "t": 17
+      },
+      {
+        "h": "Pelumat dan pemerasan: minyak kasar keluar",
+        "paras": [
+          "Brondolan kemudian dilumatkan di digester. Pelumat memecah daging buah dan menyiapkan massa buah agar minyak mudah keluar, lalu screw press memeras massa tersebut sampai minyak sawit kasar mengalir keluar [1].",
+          "Hasil pemerasan masih berupa minyak kasar, yaitu campuran minyak dengan air dan padatan halus yang ikut terperas. Pada titik ini minyak telah bebas dari buah, tetapi belum memenuhi mutu minyak sawit mentah yang siap disimpan dan dikirim."
+        ],
+        "t": 27
+      },
+      {
+        "h": "Klarifikasi: CPO jernih naik ke atas",
+        "paras": [
+          "Minyak kasar dipisahkan di clarifier. Di dalam tangki klarifikasi, campuran dibiarkan memisah berdasarkan perbedaan massa jenis: minyak yang lebih ringan naik ke atas, sedangkan air dan padatan turun dan dikeluarkan dari bawah [1].",
+          "Lapisan atas yang jernih itulah CPO (crude palm oil). Rangkaian lengkapnya menunjukkan prinsip pabrik ini: sterilisasi membuka kunci, perontokan melepas buah, pelumat dan pemerasan mengeluarkan minyak, dan klarifikasi memisahkannya dari air serta padatan. Melompati satu unit berarti sebagian minyak ikut terbuang bersama aliran lain."
+        ],
+        "t": 27
+      }
+    ]
+  },
+  "refinery-sawit-olein-stearin-motion": {
+    "lead": "Minyak goreng yang jernih di dapur berawal dari CPO yang berwarna merah pekat. Di antara kedua wujud itu terdapat dua pekerjaan yang berbeda: pemurnian yang membersihkan minyak, dan fraksionasi yang membagi minyak bersih menjadi dua fraksi dengan kegunaan yang berlawanan.",
+    "refs": [
+      "Lee, et al. Processing, Characteristics, and Potential Application of Red Palm Oil: A Review.",
+      "Malaysian Palm Oil Board (MPOB). Publikasi proses refinery dan fraksionasi minyak sawit.",
+      "PORAM Specification; Malaysian Standard MS 815:2007; Codex Alimentarius CXS 210-1999."
+    ],
+    "sections": [
+      {
+        "h": "Warna merah CPO dan pengotor yang dibawanya",
+        "paras": [
+          "CPO berwarna merah karena kandungan karoten di dalamnya. Bersamaan dengan warna itu, CPO masih membawa getah, pengotor, dan bau yang harus dibuang sebelum minyak layak dipakai sebagai bahan pangan [1].",
+          "Karena itu, CPO mentah tidak langsung dipakai menggoreng. Warna kuning keemasan minyak goreng yang dikenal konsumen adalah hasil pengolahan, bukan warna asli minyak sawit mentah [1][2]."
+        ],
+        "t": 7
+      },
+      {
+        "h": "Tiga tahap pemurnian menuju RBDPO",
+        "paras": [
+          "Pemurnian CPO berlangsung melalui tiga tahap yang berurutan: degumming, bleaching, dan deodorisasi. Degumming menyingkirkan getah, bleaching menyerap warna dan pengotor yang tersisa, dan deodorisasi menghilangkan bau serta komponen penyebab rasa yang tidak dikehendaki [1][2].",
+          "Hasil ketiga tahap tersebut adalah RBDPO (refined, bleached, deodorized palm oil), minyak sawit bersih yang jernih. Urutannya tidak dapat dilompati, karena setiap tahap menyingkirkan kelompok pengotor yang berbeda dan menyiapkan minyak untuk tahap berikutnya."
+        ],
+        "t": 14
+      },
+      {
+        "h": "Fraksionasi: pendinginan perlahan dan kristalisasi",
+        "paras": [
+          "RBDPO yang telah bersih kemudian difraksionasi. Minyak didinginkan secara perlahan sampai sebagian komponennya mengkristal menjadi padatan, sedangkan sebagian lain tetap cair pada suhu yang sama [2].",
+          "Kristal padat tersebut kemudian dipisahkan dengan penyaringan dari fraksi cairnya. Mekanisme pemisahannya adalah kristalisasi dan pemisahan fisik, bukan reaksi kimia: satu minyak bersih dibagi menjadi dua fraksi berdasarkan perilaku kristalisasinya."
+        ],
+        "t": 28
+      },
+      {
+        "h": "Olein cair dan stearin padat",
+        "paras": [
+          "Fraksi yang tetap cair disebut olein dan dipakai sebagai minyak goreng. Fraksi yang memadat disebut stearin dan dipakai sebagai bahan margarin dan shortening, produk yang justru memerlukan struktur padat [2].",
+          "Perbedaan kedua fraksi itu dibakukan dalam spesifikasi: standar yang dikutip dalam materi video menetapkan nilai iod (iodine value) olein minimal 56 dan stearin maksimal 48 g I2/100 g minyak, dengan ketentuan Codex CXS 210-1999 yang sejalan untuk batas stearin maksimal 48 [3]. Nilai iod yang lebih tinggi pada olein sejalan dengan sifatnya yang lebih cair, dan nilai yang lebih rendah pada stearin sejalan dengan sifatnya yang lebih padat."
+        ],
+        "t": 35
+      },
+      {
+        "h": "Satu bahan baku, dua produk yang saling melengkapi",
+        "paras": [
+          "Refinery sawit dengan demikian tidak menghasilkan satu produk tunggal. Dari CPO yang sama, pemurnian menghasilkan minyak bersih, dan fraksionasi membagi minyak bersih itu menjadi fraksi cair untuk menggoreng dan fraksi padat untuk margarin serta shortening [2].",
+          "Pembagian ini meningkatkan nilai keseluruhan minyak sawit: bagian yang dahulu dianggap sisa padat mempunyai pasarnya sendiri, dan setiap tahap, dari penghilangan getah sampai pemisahan kristal, menentukan mutu fraksi yang dihasilkan."
+        ],
+        "t": null
+      }
+    ]
+  },
+  "satu-barel-minyak-motion": {
+    "lead": "Satu barel minyak mentah setara 159 liter, tetapi angka tersebut adalah satuan volume umpan, bukan janji mengenai satu jenis produk. Berapa galon bensin yang sesungguhnya diperoleh dari satu barel, dan ke mana sisa volumenya pergi?",
+    "refs": [
+      "U.S. Energy Information Administration. Frequently Asked Questions: How Many Gallons of Gasoline and Diesel Fuel Are Made from One Barrel of Oil? U.S. Department of Energy.",
+      "Seader, J. D., Henley, E. J., & Roper, D. K. (2016). Separation Process Principles (4th ed.). Wiley.",
+      "Kister, H. Z. (1992). Distillation Design. McGraw-Hill."
+    ],
+    "sections": [
+      {
+        "h": "Satu barel sebagai satuan volume, bukan satuan produk",
+        "paras": [
+          "Barel adalah satuan volume standar perdagangan minyak: satu barel setara 42 galon AS atau 159 liter [1]. Satuan ini menyatakan jumlah minyak mentah yang masuk ke kilang, dan tidak menyatakan komposisi produk yang akan keluar darinya.",
+          "Kesalahan baca yang umum adalah memperlakukan satuan umpan sebagai satuan produk, seolah satu barel otomatis berarti satu barel bensin. Kilang tidak bekerja dengan cara tersebut, karena minyak mentah adalah campuran yang harus dipecah terlebih dahulu sebelum setiap bagiannya dapat dimanfaatkan [2]."
+        ],
+        "t": 0
+      },
+      {
+        "h": "Pemanasan dan masuknya umpan ke unit distilasi mentah",
+        "paras": [
+          "Tahap pertama di kilang adalah pemanasan minyak mentah, kemudian aliran masuk ke menara distilasi pada unit distilasi mentah atau crude distillation unit (CDU). Di dalam menara, komponen yang lebih mudah menguap bergerak ke atas, sedangkan komponen yang lebih sukar menguap tertinggal di bagian bawah [2][3].",
+          "Prinsip yang sama berlaku pada kilang dengan skala dan konfigurasi berbeda. Komposisi produk akhir dapat menyesuaikan jenis minyak mentah yang diolah, tetapi urutan pemisahannya tetap ditentukan oleh perilaku penguapan setiap fraksi di dalam menara."
+        ],
+        "t": 6.5
+      },
+      {
+        "h": "Titik didih sebagai dasar pemisahan fraksi",
+        "paras": [
+          "Pemisahan di menara distilasi adalah pemisahan fisik berdasarkan perbedaan titik didih. Fraksi ringan menempati bagian atas menara, sedangkan fraksi berat menempati bagian bawah, dan setiap fraksi diambil melalui saluran keluar pada tingkat yang sesuai dengan rentang didihnya [2][3].",
+          "Urutan fraksi dari atas ke bawah adalah gas, nafta, kerosen, diesel, dan residu. Urutan ini bukan susunan administratif, melainkan konsekuensi langsung dari volatilitas: semakin ringan suatu fraksi, semakin tinggi posisinya di dalam menara sebelum mengembun dan diambil sebagai produk."
+        ],
+        "t": 13
+      },
+      {
+        "h": "Membaca angka EIA: bensin, distilat, dan avtur",
+        "paras": [
+          "Data U.S. Energy Information Administration (EIA) untuk kilang di Amerika Serikat memberikan gambaran kuantitatifnya: dari satu barel 42 galon diperoleh 19 sampai 20 galon bensin motor dan 11 sampai 13 galon distilat, kelompok produk yang mencakup diesel [1].",
+          "Selain kedua produk utama tersebut, satu barel yang sama menghasilkan 4 galon avtur, bahan bakar untuk pesawat terbang [1]. Ketiga angka ini saja telah menunjukkan bahwa bensin, sekalipun merupakan porsi terbesar, hanya menempati kurang dari separuh volume barel."
+        ],
+        "t": 20
+      },
+      {
+        "h": "Processing gain dan produk di luar bahan bakar utama",
+        "paras": [
+          "Sisa volume barel tidak hilang. Bagian lain keluar sebagai gas, aspal, dan bahan baku plastik, sehingga daftar produk satu barel selalu lebih panjang dari daftar bahan bakar cairnya [1].",
+          "Total volume seluruh produk akhir bahkan melebihi 42 galon. Fenomena ini disebut processing gain: pengolahan memecah molekul besar menjadi molekul yang lebih kecil dengan densitas lebih rendah, sehingga massa yang sama menempati volume yang lebih besar [1][2]. Kenaikan tersebut adalah kenaikan volume, bukan penciptaan massa baru."
+        ],
+        "t": 27.5
+      }
+    ]
+  },
+  "sistem-kerja-tiga-shift": {
+    "lead": "Pada malam hari, ketika sebagian besar tempat kerja gelap dan kosong, pabrik proses tetap menyala penuh. Keberlanjutan itu bukan kebiasaan, melainkan konsekuensi rancangan: proses kontinu tidak mengenal jam tutup, dan manusia yang menjaganya harus dibagi ke dalam regu bergilir.",
+    "sections": [
+      {
+        "h": "Mengapa proses kontinu tidak dapat dimatikan setiap malam",
+        "t": 6,
+        "paras": [
+          "Pabrik proses seperti kilang dan pabrik kimia dirancang beroperasi 24 jam. Reaktor, kolom, dan peralatan bertekanan di dalamnya mencapai keadaan operasi yang stabil melalui pemanasan dan penekanan bertahap, dan keadaan itu tidak dapat dimatikan lalu dinyalakan kembali setiap hari tanpa konsekuensi [1].",
+          "Penyalaan dan penghentian operasi merupakan operasi yang berisiko dan mahal, serta memberikan tegangan termal pada peralatan karena material peralatan memuai dan menyusut mengikuti perubahan suhu yang besar. Atas alasan tersebut, penghentian diperlakukan sebagai peristiwa besar yang direncanakan, bukan sebagai rutinitas harian [1][2]."
+        ]
+      },
+      {
+        "h": "Pembagian tiga shift yang menutup 24 jam",
+        "t": 13,
+        "paras": [
+          "Solusi yang dipakai industri proses adalah membagi hari menjadi tiga shift dengan durasi masing-masing 8 jam: pagi, siang, dan malam. Tiga regu bergantian menjaga proses yang sama, sehingga 24 jam tertutup tanpa jeda dan tidak ada satu jam pun yang tidak terjaga [2].",
+          "Pembagian ini menyelesaikan persoalan dari sisi proses secara tuntas. Peralatan beroperasi kontinu sebagaimana dirancang, sedangkan kebutuhan jaga manusia didistribusikan kepada tiga regu yang masing-masing bekerja dalam rentang waktu yang terbatas [1]."
+        ]
+      },
+      {
+        "h": "Harga rotasi: jam tidur yang terus bergeser",
+        "t": 20,
+        "paras": [
+          "Harga sistem ini dibayar oleh operator. Pada setiap rotasi, regu berpindah segmen waktu, dan jam tidur ikut bergeser mengikuti segmen yang baru. Tubuh yang baru menyesuaikan diri dengan jadwal malam harus kembali menyesuaikan diri dengan jadwal pagi pada rotasi berikutnya.",
+          "Gangguan tersebut mengenai ritme sirkadian, jam biologis yang mengatur kantuk dan kesiagaan mengikuti pola terang dan gelap. Rotasi yang terus bergerak berarti ritme itu tidak pernah menetap, dan kelelahan menjadi risiko operasional yang harus dikelola, bukan sekadar ketidaknyamanan pribadi [1]."
+        ]
+      },
+      {
+        "h": "Adaptasi operator: tidur terjadwal dan serah terima ketat",
+        "t": 27,
+        "paras": [
+          "Operator yang bertahan dalam sistem ini mengelola tidurnya secara terjadwal, bukan menunggu kantuk datang. Tidur diperlakukan sebagai bagian dari kesiapan bertugas, dan paparan cahaya terang selama jaga dipakai untuk menjaga kesiagaan pada segmen malam.",
+          "Unsur adaptasi yang lain bersifat operasional: serah terima antarshift yang ketat. Karena penjaga proses berganti tiga kali sehari, keadaan peralatan dan gangguan yang sedang berjalan harus berpindah antarregu secara lengkap melalui catatan serah terima, agar keberlanjutan jaga tidak terputus oleh pergantian orang [1][2]."
+        ]
+      },
+      {
+        "h": "Kompromi yang menentukan ritme hidup operator",
+        "t": null,
+        "paras": [
+          "Sistem tiga shift pada dasarnya adalah kompromi yang disadari. Proses menuntut keberlanjutan penuh, fisiologi manusia menuntut tidur yang teratur, dan pembagian 8 jam per regu adalah titik temu yang memungkinkan keduanya berjalan bersama [2].",
+          "Konsekuensinya melampaui dinding pabrik. Sistem shift menentukan ritme hidup operator selama bertahun-tahun: waktu tidur, waktu bersama keluarga, dan waktu istirahat semuanya disusun mengelilingi lingkaran 24 jam yang tidak pernah berhenti [1]."
+        ]
+      }
+    ],
+    "refs": [
+      "Mannan, S. (Ed.). (2012). Lees' Loss Prevention in the Process Industries: Hazard Identification, Assessment and Control (4th ed.). Butterworth-Heinemann.",
+      "Green, D. W., & Southard, M. Z. (Eds.). (2019). Perry's Chemical Engineers' Handbook (9th ed.). McGraw-Hill Education."
+    ]
+  },
+  "tangki-putih-floating-roof": {
+    "lead": "Warna putih pada tangki minyak bukan pilihan estetika. Warna tersebut adalah pertahanan pertama terhadap panas matahari, dan di dalam tangki yang sama, atap yang terapung di atas cairan adalah pertahanan kedua terhadap ruang tempat uap terbentuk.",
+    "refs": [
+      "American Petroleum Institute. API Standard 650: Welded Tanks for Oil Storage.",
+      "Incropera, F. P., DeWitt, D. P., Bergman, T. L., & Lavine, A. S. (2007). Fundamentals of Heat and Mass Transfer (6th ed.). Wiley.",
+      "U.S. Environmental Protection Agency. AP-42, Chapter 7, Section 1: Organic Liquid Storage Tanks."
+    ],
+    "sections": [
+      {
+        "h": "Radiasi matahari dan suhu dinding tangki",
+        "paras": [
+          "Dinding tangki yang terpapar matahari menerima radiasi secara terus menerus sepanjang siang. Permukaan gelap menyerap sebagian besar radiasi tersebut dan mengubahnya menjadi panas, sehingga suhu dinding dan cairan di dekatnya naik. Permukaan terang berperilaku sebaliknya: sebagian besar radiasi dipantulkan kembali sebelum sempat menjadi panas [2].",
+          "Perbedaan perilaku ini menentukan beban panas yang harus ditanggung isi tangki setiap hari. Pada tangki berisi cairan yang mudah menguap, setiap kenaikan suhu dinding berarti tekanan uap cairan yang lebih tinggi dan kecenderungan menguap yang lebih besar."
+        ],
+        "t": 6
+      },
+      {
+        "h": "Ruang uap sebagai tempat pembentukan uap",
+        "paras": [
+          "Pada tangki beratap tetap, terdapat ruang kosong di antara permukaan cairan dan atap. Ruang uap inilah tempat uap cairan terkumpul. Saat suhu naik, uap bertambah, dan kelebihan uap keluar melalui ventilasi agar tekanan di dalam tangki tetap terkendali [3].",
+          "Setiap uap yang keluar melalui ventilasi adalah produk yang hilang ke udara. Kerugiannya bukan sekadar soal emisi, melainkan juga soal jumlah produk yang tersimpan: cairan yang mudah menguap seperti bensin menyusut volumenya selama penyimpanan apabila ruang uap dan panas matahari tidak dikendalikan [1][3]."
+        ],
+        "t": 13
+      },
+      {
+        "h": "Cat putih sebagai pertahanan radiasi",
+        "paras": [
+          "Pertahanan pertama bekerja di permukaan luar. Cat putih memantulkan radiasi matahari, sehingga suhu dinding tangki lebih rendah dibandingkan tangki berwarna gelap pada paparan yang sama [2].",
+          "Pertahanan ini bersifat pasif dan bekerja tanpa energi tambahan. Selama permukaan cat terjaga, panas yang masuk ke cairan berkurang, tekanan uap lebih rendah, dan laju pembentukan uap di ruang di atas cairan ikut menurun."
+        ],
+        "t": 20
+      },
+      {
+        "h": "Atap terapung dan peniadaan ruang uap",
+        "paras": [
+          "Pertahanan kedua bekerja di dalam tangki. Atap terapung adalah atap yang mengapung langsung di atas permukaan cairan dan bergerak naik serta turun mengikuti perubahan level cairan. Karena atap selalu menempel pada permukaan, ruang uap di atas cairan menyusut sampai hampir nol [1].",
+          "Tanpa ruang uap, uap hampir tidak memiliki tempat untuk terbentuk dan terkumpul. Data EPA AP-42 yang dikutip dalam materi video menunjukkan pemasangan atap terapung dan seal mengendalikan emisi penguapan tangki beratap tetap dengan efisiensi 60 sampai 99 persen, tergantung pada jenis atap, jenis seal, dan jenis cairan yang disimpan [3]."
+        ],
+        "t": 27
+      },
+      {
+        "h": "Dua pertahanan yang bekerja pada dua sisi berbeda",
+        "paras": [
+          "Kedua solusi tersebut tidak saling menggantikan karena keduanya bekerja pada sisi persoalan yang berbeda. Cat putih mengurangi panas yang masuk dari luar, sedangkan atap terapung menghapus ruang tempat uap terbentuk di dalam [1][2].",
+          "Kombinasinya menjelaskan bentuk tangki penyimpanan minyak yang lazim terlihat di area tangki: silinder putih dengan atap yang bergerak mengikuti isi. Bentuk tersebut adalah jawaban rekayasa atas satu persoalan fisika yang sama, yaitu penguapan cairan yang mudah menguap selama penyimpanan."
+        ],
+        "t": null
+      }
+    ]
+  },
+  "turnaround-pabrik-berhenti-total": {
+    "lead": "Pabrik yang berhenti total selama berminggu-minggu umumnya dibayangkan sebagai pabrik yang bermasalah. Pada pabrik proses, penghentian semacam itu justru direncanakan bertahun-tahun sebelumnya dan merupakan syarat agar pabrik dapat beroperasi andal pada tahun-tahun berikutnya.",
+    "sections": [
+      {
+        "h": "Penghentian terencana, bukan kegagalan operasi",
+        "t": 0,
+        "paras": [
+          "Turnaround adalah penghentian terencana seluruh unit proses selama beberapa minggu. Tujuannya bukan memperbaiki satu kerusakan, melainkan membuka, memeriksa, membersihkan, dan memperbaiki peralatan statis dan berputar yang selama operasi tidak dapat disentuh dari dalam [1].",
+          "Perbedaan mendasarnya dengan penghentian darurat terletak pada persiapannya. Turnaround dijadwalkan jauh hari, daftar pekerjaannya disusun dan ditumpuk secara sengaja, sedangkan penghentian darurat terjadi karena peralatan gagal lebih dahulu. Yang pertama merupakan keputusan perawatan; yang kedua merupakan konsekuensi dari perawatan yang tertunda [2]."
+        ]
+      },
+      {
+        "h": "Pekerjaan yang hanya mungkin saat unit berhenti total",
+        "t": 6,
+        "paras": [
+          "Sejumlah peralatan pabrik secara fisik tidak dapat dibuka selama unit beroperasi. Kolom distilasi harus dikosongkan dan dibuka dari atas sebelum bagian dalamnya dapat diperiksa, dan katalis yang telah menurun aktivitasnya hanya dapat diangkat keluar dan diganti pada kondisi unit berhenti [1].",
+          "Hal yang sama berlaku untuk penukar panas. Bundelnya harus dicabut dari rumahnya agar kerak yang menumpuk pada permukaan perpindahan panas dapat dibersihkan secara langsung. Selama unit berjalan, permukaan tersebut tertutup aliran proses dan tidak terjangkau oleh pekerjaan pembersihan apa pun [1]."
+        ]
+      },
+      {
+        "h": "Ribuan pekerjaan dalam satu jendela berhenti",
+        "t": 13,
+        "paras": [
+          "Karena jendela berhenti total jarang terjadi, ribuan pekerjaan perawatan ditumpuk ke dalamnya sekaligus. Setiap pekerjaan yang mensyaratkan unit kosong, tidak bertekanan, dan aman dibuka dicatat selama masa operasi, lalu dieksekusi berurutan ketika jendela itu tiba [2].",
+          "Konsentrasi pekerjaan inilah yang membuat turnaround menjadi jendela rawat terbesar dalam siklus hidup pabrik. Melewatkan satu pekerjaan penting berarti pekerjaan tersebut harus menunggu jendela berikutnya, atau dikerjakan melalui penghentian darurat yang biayanya dan risikonya jauh lebih besar [2]."
+        ]
+      },
+      {
+        "h": "Urutan kerja: membuka, membersihkan, mengganti, menguji",
+        "t": 20,
+        "paras": [
+          "Urutan inti turnaround bersifat tetap. Peralatan dibuka, bagian dalamnya dibersihkan dari kerak dan endapan, komponen yang aus seperti katup diganti, kemudian setiap peralatan diuji satu per satu, termasuk pengujian tekanan dengan pengukur, sebelum dinyatakan layak beroperasi kembali [1].",
+          "Tahap pengujian tidak dapat dilompati. Peralatan yang baru dibuka dan dipasang kembali harus dibuktikan integritasnya dalam keadaan terkendali, bukan dibuktikan oleh tekanan operasi pada saat unit telah berjalan penuh [2]."
+        ]
+      },
+      {
+        "h": "Penyalaan kembali sebagai tahap paling diawasi",
+        "t": 27,
+        "paras": [
+          "Setelah seluruh pekerjaan selesai, unit tidak dinyalakan serentak. Penyalaan kembali dilakukan bertahap, unit per unit, dengan suhu dan kondisi operasi dinaikkan secara landai sampai stabil di garis operasi [2].",
+          "Di sinilah nilai turnaround dibuktikan. Penghentian yang direncanakan hari ini membeli operasi yang andal bertahun-tahun, sedangkan penundaannya memaksa peralatan aus bekerja sampai gagal mendadak pada waktu yang tidak dipilih oleh siapa pun [1][2]."
+        ]
+      }
+    ],
+    "refs": [
+      "Green, D. W., & Southard, M. Z. (Eds.). (2019). Perry's Chemical Engineers' Handbook (9th ed.). McGraw-Hill Education.",
+      "Mannan, S. (Ed.). (2012). Lees' Loss Prevention in the Process Industries: Hazard Identification, Assessment and Control (4th ed.). Butterworth-Heinemann."
+    ]
+  },
+  "buildup-boiler-pltu-dari-ceret": {
+    "lead": "Pembangkit listrik tenaga uap dapat ditelusur dari peralatan dapur yang paling sederhana. Ceret membuang uapnya ke udara, sedangkan pembangkit menangkap uap tersebut, menaikkan tekanannya, melipatgandakan jumlahnya, mengeringkannya, dan memakai putarannya untuk menghasilkan listrik [1][2].",
+    "refs": [
+      "Green, D. W., & Southard, M. Z. (Eds.). (2019). Perry's Chemical Engineers' Handbook (9th ed.). McGraw-Hill Education.",
+      "El-Wakil, M. M. (1984). Powerplant Technology. McGraw-Hill.",
+      "Coulson, J. M., & Richardson, J. F. (1999). Chemical Engineering, Volume 1: Fluid Flow, Heat Transfer and Mass Transfer (6th ed.). Butterworth-Heinemann."
+    ],
+    "sections": [
+      {
+        "h": "Menangkap uap dan menjaga air tidak habis",
+        "paras": [
+          "Air yang mendidih di dalam ceret menghasilkan uap yang menyembur dari corong dan hilang ke udara. Menyambungkan pipa ke corong dan mengarahkan uap ke kincir kecil mengubah uap yang terbuang menjadi tenaga putar. Langkah ini membuktikan fungsi dasar uap bertekanan sebagai penggerak, walaupun putaran yang dihasilkan lemah [1][2].",
+          "Dua cacat muncul segera. Putaran lemah karena tekanan masih kecil, dan kincir berhenti setelah air di dalam ceret habis. Cacat kedua ditutup oleh tangki umpan yang mengisi ulang air terus-menerus, dan cacat pertama ditutup pada langkah berikutnya dengan menaikkan tekanan [2]."
+        ],
+        "t": 0.0
+      },
+      {
+        "h": "Tekanan, jaringan pipa air, dan uap kering",
+        "paras": [
+          "Dinding yang dipertebal, penutupan yang rapat, dan katup pengaman menaikkan tekanan uap, sehingga putaran menjadi jauh lebih kencang. Katup pengaman menjaga kenaikan tersebut tetap berada dalam batas yang aman. Setelah tekanan naik, batas berikutnya adalah jumlah, karena satu ceret hanya menghasilkan sedikit uap [1][2].",
+          "Jumlah uap dilipatgandakan dengan mengganti perut ceret menjadi jaringan pipa air di dalam kotak api, yang dipanaskan dari segala sisi dan merupakan bentuk dasar boiler pipa air. Uap yang berlimpah itu masih basah, sehingga dilewatkan melalui superheater, pipa tambahan pada titik terpanas api. Uap keluar kering dan jauh lebih panas, dan tenaganya melonjak sebelum memasuki turbin [1]."
+        ],
+        "t": 16.3
+      },
+      {
+        "h": "Turbin, generator, dan penutupan siklus",
+        "paras": [
+          "Kincir kecil tidak kuat menahan tenaga sebesar itu, sehingga penggerak diganti turbin sudu bertingkat. Di dalam turbin, uap mengembang tahap demi tahap pada deretan sudu dan memutar poros dengan halus dan kuat. Poros tersebut kemudian disambungkan ke generator, dan untuk pertama kalinya lampu menyala, yang menandai putaran telah berubah menjadi listrik [2].",
+          "Pada skala pabrik, kotak api menjadi gedung boiler berdinding pipa air dengan steam drum di puncak, turbin dan generator membesar segaris, dan kondensor menutup siklus air. Uap bekas diubah kembali menjadi air dan dipompa balik ke boiler untuk dipakai lagi. Prinsipnya tetap satu dari awal sampai akhir, yaitu air mendidih menjadi uap dan uap bertekanan memutar turbin. Yang berubah hanya skalanya [1][2]."
+        ],
+        "t": 40.7
+      }
+    ]
+  },
+  "buildup-kolom-distilasi-alembik": {
+    "lead": "Kolom distilasi sering tampak sebagai menara yang rumit, padahal susunannya dapat ditelusur dari alat suling tertua. Alembik melakukan satu kali penguapan dan satu kali kondensasi, sedangkan kolom menumpuk pengulangan proses tersebut menjadi puluhan tray dalam satu menara [1][2].",
+    "refs": [
+      "McCabe, W. L., Smith, J. C., & Harriott, P. (2005). Unit Operations of Chemical Engineering (7th ed.). McGraw-Hill.",
+      "Parkash, S. (2003). Refining Processes Handbook. Gulf Professional Publishing.",
+      "Green, D. W., & Southard, M. Z. (Eds.). (2019). Perry's Chemical Engineers' Handbook (9th ed.). McGraw-Hill Education."
+    ],
+    "sections": [
+      {
+        "h": "Alembik sebagai satu tahap pemisahan",
+        "paras": [
+          "Distilasi memisahkan campuran berdasarkan perbedaan titik didih. Komponen yang lebih mudah menguap meninggalkan cairan sebagai uap, kemudian uap tersebut didinginkan kembali menjadi cairan. Pada alembik, rangkaian itu hanya terjadi satu kali, sehingga alat ini setara dengan satu tahap pemisahan [1].",
+          "Konsekuensi satu tahap adalah kemurnian yang terbatas. Uap yang terbentuk masih membawa sebagian komponen yang lebih berat, sehingga hasil kondensasinya masih kotor. Keterbatasan ini bukan kekurangan pemanasan, melainkan kekurangan jumlah tahap, dan dari keterbatasan inilah seluruh pembangunan berikutnya berangkat [1]."
+        ],
+        "t": 0.0
+      },
+      {
+        "h": "Pengulangan tahap dan alasan penumpukannya",
+        "paras": [
+          "Apabila uap hasil penguapan pertama diuapkan sekali lagi, kemurnian komponen ringan naik secara bertahap. Setiap pengulangan menambah satu tahap pemisahan. Prinsip bertahap ini adalah dasar pemisahan bertingkat yang dipakai pada kolom modern [1].",
+          "Tahap yang dibangun sebagai bejana terpisah menuntut ruang yang besar dan boros energi, karena setiap tahap memerlukan bejana, pemanas, dan pendingin sendiri. Solusinya adalah menumpuk seluruh tahap menjadi satu kolom vertikal. Di dalam kolom tersebut, tray bertingkat menggantikan bejana terpisah, dan setiap tray bekerja seperti satu kali penguapan mini [1][2]."
+        ],
+        "t": 10.9
+      },
+      {
+        "h": "Reboiler, kondensor, dan pertemuan uap dengan cairan",
+        "paras": [
+          "Dua aliran berlawanan arah menjaga setiap tray tetap bekerja. Reboiler di dasar kolom mendidihkan cairan dan menyediakan uap yang naik, sedangkan kondensor di puncak mengembunkan uap menjadi cairan yang turun dari tray ke tray. Uap naik, cairan turun, dan keduanya bertemu di setiap tray [1].",
+          "Pertemuan pada tray adalah tempat pemisahan berlangsung. Uap yang naik melepaskan sebagian komponen berat ke cairan, sedangkan cairan yang turun melepaskan komponen ringan ke uap. Akibatnya, komposisi uap semakin kaya komponen ringan menuju puncak, dan komposisi cairan semakin kaya komponen berat menuju dasar [1]."
+        ],
+        "t": 33.8
+      },
+      {
+        "h": "Reflux dan operasi kontinu kolom",
+        "paras": [
+          "Reflux adalah pengembalian sebagian cairan dari kondensor ke puncak kolom. Aliran balik ini menyapu komponen berat turun dan memperkaya komponen ringan di puncak, sehingga kemurnian produk atas atau distilat naik. Tanpa reflux, bagian atas kolom kehilangan cairan pencuci dan pemisahannya melemah [1].",
+          "Pembangunan ditutup dengan operasi kontinu. Umpan masuk terus-menerus di tengah kolom, produk ringan keluar dari atas, dan produk berat keluar dari bawah. Kolom kilang pada umumnya berisi 30 sampai 50 tray, suatu jumlah tahap yang tidak mungkin dicapai oleh alembik tunggal, dengan prinsip yang tetap satu, yaitu perbedaan titik didih [2]."
+        ],
+        "t": 45.9
+      }
+    ]
+  },
+  "buildup-kolom-distilasi-remake": {
+    "lead": "Satu tabung logam terbuka kehilangan seluruh uapnya ke udara, dan dari kegagalan sederhana itu kolom distilasi dapat dibangun tanpa mengganti bendanya. Setiap tambahan menutup satu cacat yang dinyatakan oleh langkah sebelumnya, dari penangkapan uap sampai transformasi menjadi menara baja di tengah kilang [1][2].",
+    "refs": [
+      "McCabe, W. L., Smith, J. C., & Harriott, P. (2005). Unit Operations of Chemical Engineering (7th ed.). McGraw-Hill.",
+      "Parkash, S. (2003). Refining Processes Handbook. Gulf Professional Publishing.",
+      "Green, D. W., & Southard, M. Z. (Eds.). (2019). Perry's Chemical Engineers' Handbook (9th ed.). McGraw-Hill Education."
+    ],
+    "sections": [
+      {
+        "h": "Menangkap uap dan mengubahnya menjadi cairan",
+        "paras": [
+          "Tabung terbuka di atas api memanaskan campuran, dan uap yang paling ringan naik lalu hilang ke udara. Menutup tabung dan memasang pipa miring di puncaknya memaksa uap keluar melalui jalur tertentu. Penutupan ini menangkap uap, tetapi belum mengubah wujudnya, karena uap yang melewati pipa tetap berwujud uap [1].",
+          "Perubahan wujud terjadi setelah pipa dibungkus air dingin. Uap yang menyentuh dinding pipa yang dingin mengembun dan jatuh sebagai tetesan ke dalam wadah. Tetesan tersebut adalah cairan pertama hasil proses, dan langkah ini memperkenalkan kondensasi sebagai pasangan wajib dari penguapan pada setiap pemisahan distilasi [1]."
+        ],
+        "t": 0.0
+      },
+      {
+        "h": "Umpan kontinu dan reflux sebagai penguat pemisahan",
+        "paras": [
+          "Proses yang bertumpu pada satu tabung berisi campuran akan berhenti setelah campuran tersebut habis dan tetesan berhenti. Tangki dan pipa umpan yang terpasang pada sisi tengah tabung mengalirkan bahan terus-menerus, sehingga proses tidak pernah berhenti. Keberlangsungan aliran ini adalah syarat operasi kolom industri yang kontinu [1].",
+          "Hasil yang mengalir terus-menerus tetap masih lemah, sehingga sebagian tetesan dikembalikan ke puncak tabung sebagai reflux. Uap yang naik dipaksa bertemu cairan yang turun, dan setiap pertemuan memindahkan komponen berat ke cairan dan komponen ringan ke uap. Pertemuan berulang inilah yang membuat pemisahan jauh lebih kuat daripada satu kali penguapan [1]."
+        ],
+        "t": 19.1
+      },
+      {
+        "h": "Tray, keluaran dasar, dan kondensor yang membesar",
+        "paras": [
+          "Satu pertemuan belum cukup, sehingga tabung tumbuh memanjang ke atas dan tray ditumpuk di dalamnya. Setiap tray menyediakan satu pertemuan baru antara uap dan cairan dalam tabung yang sama. Kolom kilang pada umumnya berisi 30 sampai 50 tray, yang berarti puluhan pertemuan berurutan dalam satu menara [2].",
+          "Dua tambahan melengkapi operasi tersebut. Pipa keluar di dasar mengeluarkan cairan berat yang mengumpul, sehingga tabung tidak kepenuhan dan komponen berat keluar dari bawah secara terus-menerus. Di puncak, pendingin kecil tumbuh menjadi kondensor besar dengan air yang dipompa memutar tanpa henti, membuang panas keluar dan menjaga uap tetap berubah menjadi cairan pada beban yang meningkat [1]."
+        ],
+        "t": 33.7
+      },
+      {
+        "h": "Transformasi menjadi kolom pabrik",
+        "paras": [
+          "Langkah terakhir menutup cangkang sampai menjadi baja utuh, memasang tangga di sisinya, dan menyambungkan pipa di puncaknya ke tangki penyimpanan. Pada keadaan akhir, koil dan wadah penerima terbuka telah berubah menjadi kondensor tertutup, reflux drum, dan pipa produk tertutup, sedangkan kolom berdiri dengan proporsi menara di atas fondasi, lengkap dengan platform dan tangga berkandang [2].",
+          "Transformasi ini menjaga identitas benda utama. Tabung kecil pada awal video adalah cangkang kolom pada akhir video, tumbuh di tempat tanpa diganti benda lain yang telah jadi. Prinsip yang bekerja tidak berubah dari awal sampai akhir, yaitu perbedaan titik didih, dan yang berubah adalah kelengkapan serta skala peralatannya [1][2]."
+        ],
+        "t": 56.0
+      }
+    ]
+  },
+  "buildup-reaktor-dari-panci-presto": {
+    "lead": "Reaktor kimia dan panci presto berbagi titik awal yang sama, yaitu bejana tertutup yang isinya dipanaskan sampai tekanannya naik. Perbedaan keduanya bukan pada prinsipnya, melainkan pada pengendalian. Reaktor adalah bejana yang tekanan, pencampuran, dan suhunya dijaga secara berlapis sampai reaksi dapat berjalan terus-menerus dengan aman [1][2].",
+    "refs": [
+      "Levenspiel, O. (1999). Chemical Reaction Engineering (3rd ed.). John Wiley & Sons.",
+      "Fogler, H. S. (2016). Elements of Chemical Reaction Engineering (5th ed.). Prentice Hall.",
+      "Green, D. W., & Southard, M. Z. (Eds.). (2019). Perry's Chemical Engineers' Handbook (9th ed.). McGraw-Hill Education."
+    ],
+    "sections": [
+      {
+        "h": "Tekanan yang dijaga dan pencampuran yang merata",
+        "paras": [
+          "Panci presto di atas kompor mendidihkan isinya, tekanannya naik, dan uapnya menyembur liar lewat katup. Katup pengaman yang membuka dan menutup teratur, lengkap dengan alat ukur tekanan pada tutup, membuat tekanan stabil dan terbaca. Pengendalian tekanan adalah lapis pertama yang membedakan bejana reaksi dari bejana masak biasa [2][3].",
+          "Tekanan yang terkendali belum menjamin hasil yang merata. Isi yang tidak tercampur gosong di bagian bawah dan mentah di bagian atas. Pengaduk yang dipasang dari atas dan menembus tutup berputar mengaduk seluruh isi, sehingga campuran menjadi rata dan pematangan merata. Pada reaktor, pencampuran menentukan keseragaman suhu dan komposisi di seluruh volume [1][2]."
+        ],
+        "t": 0.0
+      },
+      {
+        "h": "Pembuangan panas dan operasi yang kontinu",
+        "paras": [
+          "Pencampuran yang merata membuka persoalan berikutnya. Isi mulai menghasilkan panasnya sendiri dan suhu lari naik. Jaket pendingin yang dilingkarkan pada badan, tempat air dingin mengalir terus, membuang panas berlebih tersebut dan membuat suhu jinak. Pengendalian suhu adalah syarat keselamatan utama pada reaksi yang menghasilkan panas [1][2].",
+          "Operasi yang berhenti setiap kali isi habis kemudian diubah menjadi kontinu. Pipa umpan dari tangki bahan dan pipa keluar untuk produk membuat bahan mengalir masuk dan produk mengalir keluar tanpa pernah berhenti dan tanpa membuka tutup. Dengan perubahan ini, bejana tidak lagi bekerja per masakan, melainkan sebagai peralatan proses yang beroperasi terus-menerus [2]."
+        ],
+        "t": 20.3
+      },
+      {
+        "h": "Bejana yang kuat dan kendali otomatis",
+        "paras": [
+          "Aliran terus-menerus menuntut kekuatan yang tidak dimiliki badan presto yang tipis. Badan dibangun ulang menjadi bejana stainless berdinding tebal dengan tutup flensa yang dibaut rapat di sekelilingnya, sehingga kuat menahan tekanan operasi kontinu. Pemilihan bahan dan ketebalan dinding adalah bagian dari rancangan bejana tekan, bukan sekadar pembesaran bentuk [3].",
+          "Kekuatan bejana dilengkapi penjagaan. Sensor dipasang pada berbagai titik dan dihubungkan ke panel kendali otomatis, sehingga suhu, tekanan, dan level terpantau dan terkendali sendiri dengan aman tanpa dijaga, termasuk selama dua puluh empat jam penuh. Pada keadaan akhir skala pabrik, bejana tumbuh menjadi reaktor raksasa dengan pengaduk bermotor besar di puncak dan jaket pendingin raksasa pada badannya. Prinsipnya tetap satu, yaitu reaksi yang dikendalikan, dengan tekanan dijaga, campuran rata, dan suhu jinak [1][2]."
+        ],
+        "t": 33.5
+      }
+    ]
+  },
+  "ko-drum-penjaga-kompresor": {
+    "lead": "Kompresor adalah mesin untuk gas, tetapi gas yang tiba kepadanya hampir tidak pernah bersih dari cairan. Peralatan apa yang berdiri di antara aliran proses dan mesin tersebut, dan mengapa peralatan itu tidak boleh dilewati?",
+    "sections": [
+      {
+        "h": "Gas proses yang tidak pernah benar-benar kering",
+        "t": 4,
+        "paras": [
+          "Aliran gas yang keluar dari peralatan proses hampir selalu membawa cairan. Sebagian uap di dalam aliran mengembun ketika suhu atau tekanan berubah di sepanjang pipa, dan sebagian cairan terbawa sebagai tetesan halus yang terseret oleh kecepatan aliran gas itu sendiri [1].",
+          "Keadaan ini bukan kelainan operasi, melainkan keadaan normal aliran dari proses. Karena itu perlindungan kompresor tidak dapat bergantung pada harapan bahwa gas akan tiba dalam keadaan kering, melainkan harus dirancang sebagai bagian tetap dari jalur masuk kompresor [1][2]."
+        ]
+      },
+      {
+        "h": "Mengapa cairan merusak mesin yang dirancang untuk gas",
+        "t": 11,
+        "paras": [
+          "Kompresor bekerja dengan memampatkan gas: volume gas menyusut ketika tekanannya dinaikkan, dan bilah mesin dirancang untuk aliran yang dapat dimampatkan tersebut. Cairan berperilaku sebaliknya, karena volumenya hampir tidak berubah ketika ditekan [1].",
+          "Tetesan cairan yang tiba di bilah yang berputar karena itu diterima sebagai tumbukan, bukan sebagai aliran. Tumbukan berulang merusak bilah dan seal, dan kerusakan itu terjadi di dalam mesin yang bernilai tinggi dan sulit diganti [1]."
+        ]
+      },
+      {
+        "h": "Prinsip KO drum: menurunkan kecepatan, membiarkan gravitasi bekerja",
+        "t": 18,
+        "paras": [
+          "KO drum, singkatan dari knock out drum, adalah bejana vertikal yang dipasang di hulu kompresor. Gas masuk ke dalam bejana yang penampangnya jauh lebih besar daripada pipa, sehingga kecepatan aliran turun secara tajam [1].",
+          "Pada kecepatan yang rendah, tetesan cairan tidak lagi terseret oleh aliran dan jatuh oleh gravitasi ke dasar bejana. Gas yang telah terpisah dari tetesannya keluar dari bagian atas drum dan melanjutkan perjalanan ke kompresor dalam keadaan kering [1]."
+        ]
+      },
+      {
+        "h": "Cairan yang terkumpul dan pembuangannya melalui drain",
+        "t": 26,
+        "paras": [
+          "Pemisahan tidak selesai pada jatuhnya tetesan. Cairan terkumpul di dasar drum dan levelnya naik seiring waktu, sehingga cairan itu harus dibuang melalui katup drain yang terbuka secara berkala atau berdasarkan levelnya [1].",
+          "Apabila pembuangan gagal dan level cairan naik sampai mencapai jalur keluar gas, cairan dapat kembali terbawa aliran dan perlindungan drum menjadi tidak berguna. Pengawasan level dan drain karena itu merupakan bagian dari fungsi pengamanannya, bukan pelengkapnya [2]."
+        ]
+      },
+      {
+        "h": "Penempatan di hulu dan kedudukannya sebagai pengaman",
+        "t": null,
+        "paras": [
+          "Kedudukan KO drum ditentukan oleh urutan alirannya: alat ini berada sesudah peralatan proses dan tepat sebelum kompresor, sehingga tidak ada jalur bagi gas untuk tiba di mesin tanpa melewati pemisahan terlebih dahulu [1][2].",
+          "Dibaca sebagai sistem, KO drum adalah asuransi yang sederhana sebelum mesin yang mahal. Alat ini tidak menambah kapasitas kompresor dan tidak mengubah komposisi gas; tugasnya satu, yaitu memastikan bahwa yang masuk ke kompresor hanyalah fasa yang memang dirancang untuk dimampatkan mesin tersebut [1]."
+        ]
+      }
+    ],
+    "refs": [
+      "Gas Processors Suppliers Association. GPSA Engineering Data Book (Gas Processing).",
+      "American Petroleum Institute. API RP 14C."
+    ]
+  },
+  "lpg-cairan-dalam-tabung": {
+    "lead": "Tabung yang setiap hari disebut tabung gas ternyata tidak berisi gas. Mengapa campuran yang tersimpan di dalamnya berbentuk cairan, dan mengapa bentuk itu berubah tepat pada saat katup dibuka?",
+    "sections": [
+      {
+        "h": "Campuran propana dan butana yang cenderung menjadi gas",
+        "t": 6,
+        "paras": [
+          "LPG adalah campuran propana (C3H8) dan butana (C4H10). Propana mendidih pada minus 42 derajat C dan butana pada minus 0,5 derajat C pada tekanan 1 atm, sehingga pada suhu ruang kedua komponen tersebut berada jauh di atas titik didihnya dan cenderung berbentuk gas [1][2].",
+          "Kecenderungan itu menimbulkan pertanyaan inti mengenai penyimpanannya: apabila kedua bahan ini cenderung menjadi gas pada suhu ruang, bagaimana cairan dapat tersimpan stabil di dalam tabung dalam waktu yang lama?"
+        ]
+      },
+      {
+        "h": "Tekanan uap yang menahan cairan",
+        "t": 13,
+        "paras": [
+          "Jawabannya adalah tekanan yang dibangun oleh LPG itu sendiri. Di dalam tabung tertutup, sebagian cairan menguap dan uapnya menekan permukaan cairan sampai tercapai kesetimbangan uap dan cairan, yaitu keadaan ketika laju penguapan sama dengan laju pengembunan [2].",
+          "Sebagai gambaran besarnya, tekanan uap butana adalah sekitar 2,2 bar pada 20 derajat C, dan tekanan uap propana jauh lebih tinggi. Campuran keduanya menghasilkan tekanan tabung yang cukup untuk menahan LPG tetap cair pada suhu ruang [1]."
+        ]
+      },
+      {
+        "h": "Ruang muai: alasan pengisian hanya 80 sampai 85 persen",
+        "t": 13,
+        "paras": [
+          "Cairan memuai ketika suhu naik, dan pemuaian itu memerlukan ruang. Karena itu tabung LPG hanya diisi 80 sampai 85 persen dari kapasitasnya, dan sisa ruang di atas cairan berfungsi sebagai ruang muai sekaligus tempat uap berada [1].",
+          "Apabila tabung diisi penuh tanpa ruang sisa, kenaikan suhu akan memaksa cairan yang memuai menekan dinding tabung tanpa ruang untuk berkembang. Ruang kosong yang tampak seperti kekurangan isi tersebut sesungguhnya adalah bagian dari desain keselamatannya [1][3]."
+        ]
+      },
+      {
+        "h": "Katup dibuka: pendidihan dan pengembangan volume",
+        "t": 20,
+        "paras": [
+          "Pada saat katup dibuka, tekanan di atas cairan turun dan kesetimbangan bergeser. Cairan mulai mendidih pada suhu ruang, berubah menjadi gas, dan mengalir keluar menuju kompor, sedangkan cairan yang tersisa terus menguap untuk menggantikan gas yang terpakai [3].",
+          "Perubahan fasa ini disertai pengembangan volume yang besar: satu liter LPG cair mengembang menjadi sekitar 250 liter gas. Rasio sekitar 250 berbanding 1 inilah alasan penyimpanan sebagai cairan jauh lebih ringkas daripada penyimpanan sebagai gas pada tekanan rendah [1]."
+        ]
+      },
+      {
+        "h": "Dua akibat yang teramati: tabung dingin dan gas mengendap",
+        "t": 27,
+        "paras": [
+          "Pendidihan memerlukan panas laten, dan panas itu diambil dari cairan serta dinding tabung. Akibatnya tabung terasa dingin pada saat dipakai, dan pada pemakaian besar embun dapat terbentuk pada dinding luarnya [3].",
+          "Akibat kedua berkaitan dengan keselamatan: uap LPG lebih berat daripada udara, sehingga gas yang bocor tidak naik dan tersebar, melainkan turun dan mengendap di lantai. Karena itu kebocoran LPG berbahaya terutama pada ruang tertutup, dan bau khasnya berasal dari odorant etil merkaptan yang sengaja ditambahkan agar kebocoran terdeteksi [1][2]."
+        ]
+      }
+    ],
+    "refs": [
+      "Wikipedia contributors. Liquefied petroleum gas. Wikipedia, The Free Encyclopedia.",
+      "Energypedia. Liquefied Petroleum Gas (LPG). energypedia.info.",
+      "Elgas. LPG Liquid vs Vapour. elgas.com.au."
+    ]
+  },
+  "ntu-efektivitas-penukar-panas": {
+    "lead": "Sebuah penukar panas terpasang di pabrik dan suhu keluarnya belum terukur. Berapa duty yang sebenarnya dipindahkan alat tersebut, dan berapa suhu keluar kedua alirannya?",
+    "sections": [
+      {
+        "h": "Masalah suhu keluar yang belum diketahui",
+        "t": 0,
+        "paras": [
+          "Metode beda suhu rata-rata logaritmik (LMTD) menghitung duty dari beda suhu di kedua ujung penukar panas. Apabila suhu keluar belum diketahui, beda suhu tersebut belum dapat dihitung, sehingga perancang harus menebak suhu keluar, menghitung, lalu mengulang perhitungan sampai tebakannya konsisten [1].",
+          "Metode NTU efektivitas membalik urutan itu. Perhitungan dimulai dari besaran yang memang diketahui, yaitu suhu masuk kedua aliran, laju kapasitas panas masing-masing aliran, dan nilai UA penukar panas. Suhu keluar bukan masukan, melainkan hasil akhir perhitungan [1]."
+        ]
+      },
+      {
+        "h": "Laju kapasitas panas, rasio kapasitas, dan perpindahan panas maksimum",
+        "t": 5,
+        "paras": [
+          "Laju kapasitas panas C didefinisikan sebagai C = m dot cp, hasil kali laju aliran massa dan panas jenis. Pada contoh ini, aliran panas memiliki Ch 2 kW/K dan aliran dingin memiliki Cc 4 kW/K, sehingga Cmin adalah 2 kW/K dan Cmax adalah 4 kW/K [1].",
+          "Rasio kapasitas Cr = Cmin/Cmax = 2/4 = 0,50, dan nilainya selalu berada di antara 0 dan 1. Dari Cmin pula dihitung perpindahan panas maksimum yang mungkin, Qmax = Cmin (Th,in dikurangi Tc,in) = 2 x 90 = 180 kW, yaitu duty batas apabila penukar panas counterflow berukuran tak berhingga [1]."
+        ]
+      },
+      {
+        "h": "NTU sebagai ukuran relatif penukar panas",
+        "t": 11,
+        "paras": [
+          "Jumlah satuan perpindahan didefinisikan sebagai NTU = UA/Cmin. Dengan UA 2 kW/K dan Cmin 2 kW/K, diperoleh NTU 1,00. Besaran ini tidak berdimensi dan menyatakan ukuran penukar panas relatif terhadap laju kapasitas panas terkecil [1].",
+          "Makna praktisnya terletak pada perbandingan tersebut. Penukar panas yang sama akan memberikan NTU berbeda apabila dipasang pada aliran dengan Cmin berbeda, karena kemampuan aliran menyerap panas menentukan seberapa jauh suhu dapat berubah di dalam alat [1]."
+        ]
+      },
+      {
+        "h": "Efektivitas counterflow dan duty aktual",
+        "t": 17.5,
+        "paras": [
+          "Untuk aliran counterflow dengan Cr kurang dari 1, relasi efektivitas NTU memberikan epsilon 0,565 pada NTU 1,00 dan Cr 0,50. Efektivitas adalah perbandingan antara duty aktual dan duty maksimum yang mungkin, epsilon = Q/Qmax [1].",
+          "Duty aktualnya mengikuti langsung: Q = epsilon Qmax = 101,65 kW, yaitu 56,5 persen dari Qmax. Angka ini diperoleh tanpa satu pun suhu keluar yang ditebak, dan titik kerja yang sama terbaca pada kurva efektivitas untuk Cr 0,5 [1]."
+        ]
+      },
+      {
+        "h": "Suhu keluar dari neraca energi dan batas pemakaian metode",
+        "t": 24,
+        "paras": [
+          "Suhu keluar diperoleh dari neraca energi masing-masing aliran. Hasilnya, aliran panas keluar pada 69,2 derajat C dan aliran dingin keluar pada 55,4 derajat C. Pemeriksaan konsistensinya tertutup: Ch kali delta Th sama dengan Cc kali delta Tc sama dengan Q sebesar 101,65 kW [1].",
+          "Metode ini paling tepat dipakai pada saat suhu keluar belum diketahui, misalnya pada rating penukar panas yang sudah terpasang. Apabila kedua suhu keluar sudah diketahui, metode LMTD justru lebih langsung, sehingga pemilihan metode ditentukan oleh besaran yang tersedia, bukan oleh kebiasaan [1][2]."
+        ]
+      }
+    ],
+    "refs": [
+      "Incropera, F. P., DeWitt, D. P., Bergman, T. L., & Lavine, A. S. (2007). Fundamentals of Heat and Mass Transfer (6th ed.). John Wiley & Sons.",
+      "Green, D. W., & Southard, M. Z. (Eds.). (2019). Perry's Chemical Engineers' Handbook (9th ed.). McGraw-Hill Education."
+    ]
+  },
+  "steam-trap-katup-kondensat": {
+    "lead": "Sebuah katup kecil di titik rendah sistem steam menentukan apakah energi boiler mengalir ke proses atau terbuang ke jalur pembuangan. Apa yang sebenarnya dipisahkan oleh steam trap, dan mengapa kegagalannya hampir tidak pernah terlihat?",
+    "sections": [
+      {
+        "h": "Tugas ganda: membuang air, menahan steam",
+        "t": 0,
+        "paras": [
+          "Steam trap adalah katup otomatis yang dipasang pada titik rendah sistem steam. Tugasnya ganda dan tampak bertentangan: kondensat harus dibuang secepatnya, sedangkan steam hidup tidak boleh ikut lolos melalui jalur pembuangan yang sama [1].",
+          "Seluruh tugas itu dikerjakan secara otomatis tanpa listrik dan tanpa operator yang berjaga. Trap membuka dan menutup berdasarkan keadaan fluida yang tiba di dalamnya, sehingga pemisahan air dan steam berlangsung terus selama sistem beroperasi [1][3]."
+        ]
+      },
+      {
+        "h": "Asal kondensat: steam yang melepaskan panas laten",
+        "t": 6.5,
+        "paras": [
+          "Steam membawa energi dalam bentuk panas laten dan melepaskannya ketika memanaskan peralatan atau ketika kehilangan panas ke lingkungan melalui dinding pipa. Steam yang telah melepaskan panas latennya berubah menjadi air panas yang disebut kondensat [1].",
+          "Kondensat selalu terbentuk selama sistem steam beroperasi, termasuk pada jalur distribusi yang terisolasi dengan baik. Persoalannya bukan mencegah kondensat terbentuk, melainkan mengeluarkannya dari tempat yang tidak memerlukannya [1][2]."
+        ]
+      },
+      {
+        "h": "Akibat kondensat yang tertahan: water hammer dan perpindahan panas menurun",
+        "t": 13,
+        "paras": [
+          "Kondensat yang tidak dibuang menggenang di dasar pipa dan di dalam peralatan. Genangan itu mengurangi ruang efektif untuk perpindahan panas, karena permukaan yang tertutup air tidak lagi berkontak langsung dengan steam yang membawa panas laten [1].",
+          "Bahaya mekanisnya adalah water hammer: genangan air yang terseret aliran steam menabrak belokan atau katup sebagai massa cairan yang hampir tidak termampatkan, dan gelombang kejutnya dapat merusak pipa serta sambungannya [1]."
+        ]
+      },
+      {
+        "h": "Tiga keluarga steam trap dan prinsip kerjanya",
+        "t": 20,
+        "paras": [
+          "Keluarga mekanis bekerja berdasarkan perbedaan densitas air dan steam. Pada tipe pelampung, bola pelampung naik mengikuti level kondensat dan membuka katup pembuangan; pada tipe ember terbalik, ember yang terisi steam mengapung dan menutup katup, lalu tenggelam ketika steam di dalamnya mengembun dan membukanya kembali [1][3].",
+          "Keluarga termostatik bekerja berdasarkan perbedaan suhu, misalnya elemen bimetal yang melengkung mengikuti suhu kondensat, sedangkan keluarga termodinamik bekerja berdasarkan perbedaan perilaku aliran, dengan cakram yang membuka dan menutup cepat oleh steam kilat. Pemilihan keluarga dan tipe ditentukan oleh tekanan kerja dan beban kondensat pada titik pemasangannya [1][3]."
+        ]
+      },
+      {
+        "h": "Kegagalan terbuka yang tidak terlihat dan audit trap",
+        "t": 29,
+        "paras": [
+          "Kegagalan yang paling merugikan adalah trap yang gagal terbuka. Trap semacam itu membuang steam hidup secara kontinu melalui jalur pembuangan, dan kebocorannya sulit terlihat karena wujud steam yang lolos tampak sama dengan buangan kondensat yang normal [2].",
+          "Kerugiannya muncul secara tidak langsung, antara lain sebagai tagihan bahan bakar yang membengkak karena boiler harus menghasilkan steam pengganti. Karena itu audit rutin memeriksa kondisi trap dengan termografi atau ultrasonik, agar trap yang gagal terbuka terdeteksi dari suhu dan bunyinya, bukan dari besarnya kerugian yang telah terjadi [2]."
+        ]
+      }
+    ],
+    "refs": [
+      "Spirax Sarco. Steam Trapping and Condensate Recovery.",
+      "U.S. Department of Energy. Steam Best Practices.",
+      "Armstrong International. Steam Trap Handbook."
+    ]
+  }
+}

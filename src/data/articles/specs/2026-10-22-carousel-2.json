@@ -1,0 +1,109 @@
+{
+  "format": "real",
+  "hook": "SARINGAN INI MENGERINGKAN GAS, LALU MEMBERSIHKAN DIRINYA SENDIRI",
+  "hook_options": [
+    "SARINGAN INI MENGERINGKAN GAS, LALU MEMBERSIHKAN DIRINYA SENDIRI",
+    "AIR DI DALAM PIPA GAS BISA MEMBEKU DAN MENYUMBAT ALIRAN",
+    "1954: ZEOLIT BUATAN MANUSIA YANG MENGUBAH CARA GAS DIKERINGKAN"
+  ],
+  "hook_payoff_slide": 4,
+  "series_label": "KISAH TEKNIK KIMIA",
+  "cover_brief": "foto pabrik gas atau fasilitas industri dengan pipa-pipa besar saat senja",
+  "cover_sub": "1954: zeolit buatan pengering gas",
+  "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-22/carousel-2/cover.jpg",
+  "cover_credit": "Igor Passchier / Pexels",
+  "credit_url": "https://www.pexels.com/photo/industrial-facility-in-zuid-holland-at-dusk-32399139/",
+  "photo_briefs": [
+    {
+      "slide": "slide pipa dan katup bed",
+      "cari": "close-up pipa dan katup stainless di pabrik"
+    }
+  ],
+  "slides": [
+    {
+      "type": "body",
+      "pill": "TAHUKAH KAMU?",
+      "title": "Dulu gas dikeringkan dengan bahan sekali pakai",
+      "paras": [
+        "Gas alam dari sumur tidak pernah kering: ia selalu membawa uap air. Air di dalam pipa gas bertekanan bisa membentuk hidrat, kristal es yang menyumbat aliran.",
+        "Dulu, pengeringan memakai bahan penyerap yang dibuang setelah jenuh, atau cairan glikol yang butuh unit regenerasi cair tersendiri. Keduanya boros bahan dan boros tempat.",
+        "Sekarang pabrik gas memakai butiran kristal yang menangkap air, lalu membersihkan dirinya sendiri dengan gas panas, dipakai lagi ribuan kali."
+      ],
+      "callout": "Fakta kunci: uap air di pipa gas bertekanan bisa membentuk hidrat yang menyumbat aliran."
+    },
+    {
+      "type": "body",
+      "pill": "1954",
+      "title": "Linde membuat zeolit dari nol",
+      "paras": [
+        "Tahun 1954, divisi Linde milik Union Carbide memperkenalkan zeolit sintetis tipe A: kristal buatan manusia dengan pori berukuran seragam sampai tingkat angstrom.",
+        "Zeolit alami sudah dikenal, tetapi porinya tidak seragam. Versi sintetis ini bisa dirancang: mau menangkap molekul sebesar apa, tinggal pilih tipenya.",
+        "Julukannya molecular sieve, saringan molekul: ia menyaring bukan dengan lubang besar, melainkan dengan pori seukuran molekul."
+      ],
+      "callout": "Fakta kunci: zeolit sintetis tipe A diperkenalkan divisi Linde milik Union Carbide pada 1954."
+    },
+    {
+      "type": "body",
+      "pill": "PORI 3 ANGSTROM",
+      "title": "Pori sekecil ini yang menangkap air",
+      "paras": [
+        "Tipe 3A punya pori sekitar 3 angstrom. Molekul air berdiameter kinetik sekitar 2,7 angstrom, jadi ia bisa masuk dan terjebak di dalam pori.",
+        "Molekul gas seperti metana lebih besar dan tidak masuk. Hasilnya: air tertahan, gas lewat. Selektivitasnya datang dari ukuran, bukan dari reaksi kimia.",
+        "Satu gram zeolit punya luas permukaan internal ratusan meter persegi. Di situlah air menempel."
+      ],
+      "callout": "Fakta kunci: pori 3 angstrom menangkap molekul air yang berdiameter sekitar 2,7 angstrom."
+    },
+    {
+      "type": "diagram",
+      "pill": "SKEMA",
+      "title": "Satu menyerap, satu dibersihkan",
+      "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-22/carousel-2/diagram-sieve.png",
+      "diagram_scope": "Siklus TSA dua bed molecular sieve: Bed A adsorpsi (gas basah masuk, gas kering keluar), Bed B regenerasi (gas panas masuk, uap air keluar), katup beralih otomatis saat bed jenuh. Yang sengaja tidak digambar: jaringan katup detail, pemanas gas regenerasi, dan sistem kontrol.",
+      "paras": [
+        "Bed A menyerap air dari gas basah sementara Bed B dibersihkan gas panas. Saat Bed A jenuh, katup beralih otomatis."
+      ],
+      "callout": "Fakta kunci: aliran gas kering tidak pernah berhenti."
+    },
+    {
+      "type": "photo",
+      "pill": "DI PABRIK",
+      "title": "Bejana raksasa berisi zeolit",
+      "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-22/carousel-2/photo-1.jpg",
+      "credit": "Possessed Photography / Pexels",
+      "paras": [
+        "Di pabrik gas, bed molecular sieve adalah bejana vertikal besar berisi butiran zeolit. Pipa dan katup di sekelilingnya mengatur pergantian bed secara otomatis.",
+        "Gas keringnya harus memenuhi spesifikasi pipa: titik embun air rendah, supaya tidak ada hidrat."
+      ],
+      "callout": "Fakta kunci: gas kering hasil sieve harus memenuhi spesifikasi titik embun pipa gas."
+    },
+    {
+      "type": "body",
+      "pill": "PLOT TWIST",
+      "title": "Pengeringan tidak pernah gratis",
+      "paras": [
+        "Saringan yang membersihkan dirinya sendiri tetap butuh bayaran: gas panas untuk regenerasi. Sebagian energi pabrik dipakai hanya untuk mengusir air dari pori zeolit.",
+        "Sama seperti distilasi yang butuh panas reboiler, tidak ada pemisahan yang gratis. Bedanya, di sini yang dipisahkan adalah air seukuran molekul.",
+        "Insinyur menghitungnya sebagai neraca energi: panas regenerasi lawan nilai gas kering yang aman dialirkan.",
+        "Zeolit yang sama dipakai di pengering udara bertekanan dan tabung oksigen konsentrator: di mana pun air jadi musuh, saringan molekul ikut bekerja."
+      ],
+      "callout": "Fakta kunci: regenerasi zeolit memakai gas panas, jadi pengeringan punya biaya energi."
+    },
+    {
+      "type": "conclusion",
+      "pill": "INTINYA",
+      "head": "Zeolit 3A: pori 3 angstrom yang menangkap air, dibersihkan gas panas, dipakai lagi ribuan kali.",
+      "bullets": [
+        "Follow @ilmutekkim buat kisah teknik berikutnya",
+        "Simpan kalau kamu anak teknik kimia"
+      ]
+    }
+  ],
+  "references": [
+    "Ruthven, D. M., Principles of Adsorption and Adsorption Processes (1984)",
+    "Seader, Henley & Roper, Separation Process Principles",
+    "Riwayat industri: Linde Division, Union Carbide, zeolit sintetis tipe A (1954)"
+  ],
+  "cta_question": "Material apa lagi di pabrik yang bisa dipakai ulang ribuan kali setelah dibersihkan? Tulis di komen.",
+  "cta_teaser": "Malam ini: reel steam trap, alat kecil yang buang air tanpa buang steam.",
+  "caption": "SARINGAN INI MENGERINGKAN GAS, LALU MEMBERSIHKAN DIRINYA SENDIRI\n\nIni kisah teknik kimia @ilmutekkim. Tahun 1954, divisi Linde milik Union Carbide memperkenalkan zeolit sintetis tipe A: kristal buatan dengan pori seragam seukuran molekul.\n\nTipe 3A punya pori sekitar 3 angstrom. Molekul air yang berdiameter sekitar 2,7 angstrom masuk dan terjebak, sementara molekul gas yang lebih besar lewat. Air yang tadinya bisa membeku jadi hidrat penyumbat pipa, tertahan di saringan.\n\nDi pabrik, dua bed bekerja bergantian: satu menyerap air, satu dibersihkan gas panas, lalu bertukar peran otomatis. Saringan yang sama dipakai lagi ribuan kali.\n\nMaterial apa lagi di pabrik yang bisa dipakai ulang ribuan kali? Tulis di komen.\n\n#teknikkimia #chemicalengineering #molecularsieve #zeolit #gasterkini #sejarahteknik #ilmutekkim"
+}

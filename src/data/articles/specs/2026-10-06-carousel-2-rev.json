@@ -1,0 +1,182 @@
+{
+ "caption": "Kayu keras jadi kertas lembut. Kuncinya dimasak bahan kimia.\n\nSerpih kayu dimasak dalam digester memakai cairan pemasak sampai ligninnya larut dan seratnya terlepas. Serat dicuci bersih dari lindi hitam, diputihkan bertahap, lalu dihampar dan dikeringkan jadi gulungan kertas. Lindi hitamnya dibakar supaya kimianya bisa dipakai lagi.\n\nBagian pabrik kertas mana yang paling bikin lo penasaran, digester atau mesin kertasnya? Tulis di komen.\n\nFollow @ilmutekkim buat teknik kimia tiap hari.\n\n#teknikkimia #chemicalengineering #pulp #kertas #pabrik #proses #industri #ilmutekkim",
+ "cover_brief": "foto pabrik pulp kertas dengan cerobong dan tumpukan kayu",
+ "cover_credit": "Alexander AV3RKIN / Unsplash",
+ "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-06/carousel-2/cover.jpg",
+ "cover_sub": "Dari gelondongan keras sampai lembaran putih.",
+ "credit_url": "https://unsplash.com/photos/grey-industrial-plant-7W6wXOhfkwY",
+ "cta_question": "Menurut lo, kertas lebih dekat ke hutan atau ke pabrik kimia? Tulis alasan lo.",
+ "cta_teaser": "Besok: izin kerja panas, kenapa las butuh surat berlapis.",
+ "format": "real",
+ "hook": "KAYU KERAS JADI KERTAS LEMBUT. KUNCINYA DIMASAK BAHAN KIMIA",
+ "hook_options": [
+  "KAYU KERAS JADI KERTAS LEMBUT. KUNCINYA DIMASAK BAHAN KIMIA",
+  "KERTAS BUKAN KAYU DIGILING. ADA DIMASAK, DICUCI, DIPUTIHKAN",
+  "DARI GELONDONGAN KE LEMBARAN PUTIH. INI ALUR PABRIK KRAFT"
+ ],
+ "hook_payoff_slide": 5,
+ "photo_briefs": [
+  {
+   "cari": "foto tumpukan kayu gelondong industri kehutanan",
+   "slide": 3
+  },
+  {
+   "cari": "foto gulungan kertas besar di pabrik kertas",
+   "slide": 5
+  }
+ ],
+ "references": [
+  "Smook, Handbook for Pulp and Paper Technologists",
+  "Perry's Chemical Engineers' Handbook (bab pulp and paper)"
+ ],
+ "series_label": "SERI PULP DAN KERTAS",
+ "slides": [
+  {
+   "callout": "FAKTA: kertas adalah serat kayu yang dibebaskan dari perekat alaminya, bukan bubuk kayu yang ditempel lagi.",
+   "fill_rows": [
+    [
+     "01",
+     "MASAK SERPIH KAYU",
+     "lignin larut, serat bebas"
+    ],
+    [
+     "02",
+     "CUCI DAN PUTIHKAN",
+     "serat bersih siap bentuk"
+    ],
+    [
+     "03",
+     "HAMPAR JADI LEMBARAN",
+     "air pergi, kertas lahir"
+    ]
+   ],
+   "fill_rows_title": "PETA SLIDE INI",
+   "hook": "Di tengah alurnya ada panci masak raksasa dan dapur pemulihan kimia.",
+   "pill": "YANG SERING DIKIRA",
+   "quote": "Kertas itu kayu giling yang ditempel jadi lembaran.",
+   "type": "quote"
+  },
+  {
+   "callout": "FAKTA: ukuran serpih yang seragam membuat masakan merata sampai ke tengah serpih.",
+   "fill_rows": [
+    [
+     "1",
+     "Kulit dibuang",
+     "serpih lebih bersih"
+    ],
+    [
+     "2",
+     "Ukuran diatur",
+     "masakan merata"
+    ]
+   ],
+   "fill_rows_title": "DARI GELONDONGAN KE SERPIH",
+   "formula": "Kayu gelondong → serpih kecil",
+   "paras": [
+    "Kayu gelondong dikupas kulitnya lalu dicacah menjadi serpih kecil berukuran seragam.",
+    "Serpih kecil memudahkan cairan pemasak meresap sampai ke tengah dalam digester."
+   ],
+   "pill": "TAHAP AWAL",
+   "title": "Kayu dicacah sebelum dimasak",
+   "type": "body"
+  },
+  {
+   "callout": "FAKTA: stok serpih yang baik menentukan rendemen pulp sebelum digester dinyalakan.",
+   "credit": "Zuzana Kacerová / Unsplash",
+   "paras": [
+    "Di halaman kayu, gelondongan ditumpuk menunggu giliran dicacah seperti di foto ini.",
+    "Prinsipnya sama dari pabrik kecil sampai raksasa di Riau, besarkan skala dan jaga pasokan tetap lancar."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-06/carousel-2/photo-1.jpg",
+   "pill": "DI HALAMAN KAYUNYA",
+   "title": "Gelondongan sebelum jadi serpih",
+   "type": "photo",
+   "credit_url": "https://unsplash.com/photos/a-pile-of-cut-logs-stacked-on-top-of-each-other-vvQulXPTah0"
+  },
+  {
+   "callout": "FAKTA: lindi hitam bukan limbah percuma. Ia bahan bakar dan bank kimia pabrik pulp.",
+   "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-06/carousel-2-rev/diagram-kraft.png",
+   "paras": [
+    "Baca dari kiri ke kanan mengikuti kayu yang berubah jadi lembaran.",
+    "Perhatikan panah naik kimia balik. Kimia dari lindi hitam kembali memasak serpih berikutnya."
+   ],
+   "pill": "PETA LENGKAPNYA",
+   "title": "Alur kayu jadi gulungan kertas",
+   "type": "diagram"
+  },
+  {
+   "callout": "FAKTA: gulungan di ujung mesin kertas bisa lebih lebar daripada badan truk pengangkutnya.",
+   "credit": "Prachi Sharma / Unsplash",
+   "paras": [
+    "Sesudah serat bersih, bubur encer dihampar di atas saringan berjalan sampai airnya pergi.",
+    "Lembaran basah diperas, dikeringkan di silinder panas, lalu digulung menjadi gulungan raksasa."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-06/carousel-2/photo-2.jpg",
+   "pill": "DI MESIN KERTASNYA",
+   "title": "Lembaran putih lahir di ujung mesin",
+   "type": "photo",
+   "credit_url": "https://unsplash.com/photos/a-roll-of-white-paper-sitting-on-top-of-a-machine-M-OC9xaSn88"
+  },
+  {
+   "callout": "FAKTA: digester adalah bejana tekan. Masakan gagal di sini tidak bisa diperbaiki di tahap sesudahnya.",
+   "fill_cards": [
+    [
+     "01",
+     "Larutkan lignin",
+     "perekat serat terlepas"
+    ],
+    [
+     "02",
+     "Jaga serat utuh",
+     "pulp tidak hancur"
+    ]
+   ],
+   "paras": [
+    "Di digester, serpih dimasak dengan natrium hidroksida dan natrium sulfida. Panas dan tekanan melarutkan lignin tanpa merusak serat."
+   ],
+   "pill": "JANTUNGNYA PABRIK",
+   "title": "Digester, panci masak raksasa pulp",
+   "type": "body"
+  },
+  {
+   "callout": "FAKTA: nama kraft berarti kuat dalam bahasa Jerman, merujuk pulpnya yang memang kuat.",
+   "fill_grid": [
+    [
+     "DICUCI BERSIH",
+     "lindi pisah dari serat"
+    ],
+    [
+     "DIPUTIHKAN BERTAHAP",
+     "putih tanpa serat rusak"
+    ],
+    [
+     "DIBAKAR LINDINYA",
+     "energi balik ke pabrik"
+    ],
+    [
+     "KIMIA DIPAKAI LAGI",
+     "hemat bahan baru"
+    ]
+   ],
+   "fill_grid_eyebrow": "",
+   "paras": [
+    "Pulp cokelat dicuci memisahkan serat dari lindi hitam, lalu diputihkan bertahap supaya cerah tanpa merusak serat.",
+    "Lindi hitam dipekatkan dan dibakar di boiler pemulihan. Panasnya jadi energi, kimianya lahir kembali."
+   ],
+   "pill": "TAHAP LANJUTAN",
+   "title": "Dicuci, diputihkan, kimianya berputar lagi",
+   "type": "body"
+  },
+  {
+   "bullets": [
+    "Serpih kayu dimasak sampai lignin larut dan serat terlepas.",
+    "Serat dicuci dan diputihkan, lalu dihampar jadi lembaran.",
+    "Lindi hitam dibakar, energi dan kimianya dipakai lagi."
+   ],
+   "equation": "Serpih dimasak → jadi kertas",
+   "head": "Kertas lahir dari masakan kimia, bukan dari gilingan kayu.",
+   "pill": "KESIMPULANNYA",
+   "type": "conclusion"
+  }
+ ]
+}

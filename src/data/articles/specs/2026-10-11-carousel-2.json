@@ -1,0 +1,158 @@
+{
+  "format": "real",
+  "hook": "SALAH LEVEL APD, CEDERANYA BEDA KELAS",
+  "hook_options": [
+    "SALAH LEVEL APD, CEDERANYA BEDA KELAS",
+    "HELM DAN SAFETY SHOES SAJA TIDAK CUKUP BUAT AREA PROSES",
+    "ADA BAHAYA YANG TIDAK BISA DILAWAN HELM SEBAGUS APAPUN"
+  ],
+  "hook_payoff_slide": 2,
+  "series_label": "SERI KESELAMATAN PROSES",
+  "cover_brief": "foto pekerja pabrik kimia memakai APD lengkap coverall dan helm di area proses",
+  "cover_sub": "Helm saja tidak cukup.",
+  "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-11/carousel-2/cover.jpg",
+  "cover_credit": "Cemrecan Yurtman / Unsplash",
+  "credit_url": "https://unsplash.com/photos/a-man-in-a-factory-wearing-a-hard-hat-Jboc8zu1-wc",
+  "photo_briefs": [
+    {
+      "slide": "SCBA dipakai pekerja di lapangan",
+      "cari": "foto pekerja industri memakai SCBA tabung oksigen"
+    },
+    {
+      "slide": "FR coverall lengkap di area proses",
+      "cari": "foto pekerja kilang memakai coverall pelindung api"
+    }
+  ],
+  "slides": [
+    {
+      "type": "quote",
+      "pill": "YANG SERING DIKIRA",
+      "quote": "APD itu helm sama safety shoes, udah cukup buat semua area.",
+      "hook": "Di area proses, kombinasi itu cuma level paling dasar.",
+      "callout": "FAKTA: setiap zona bahaya punya syarat APD minimum yang berbeda.",
+      "fill_rows": [
+        [
+          "01",
+          "KEPALA DAN KAKI",
+          "helm + safety shoes"
+        ],
+        [
+          "02",
+          "TUBUH DAN KULIT",
+          "FR coverall"
+        ],
+        [
+          "03",
+          "NAPAS",
+          "SCBA atau escape mask"
+        ]
+      ],
+      "fill_rows_title": "PETA SLIDE INI"
+    },
+    {
+      "type": "body",
+      "pill": "TIGA LEVELNYA",
+      "title": "Naik bahaya, naik level APD",
+      "paras": [
+        "Level 1: helm, safety shoes, kacamata, sarung tangan kerja, untuk area umum dan konstruksi.",
+        "Level 2: FR coverall, face shield, sarung tangan kimia, wajib di area proses. Level 3: SCBA atau escape mask untuk gas beracun atau oksigen rendah."
+      ],
+      "fill_grid": [
+        [
+          "LEVEL 1",
+          "helm, safety shoes"
+        ],
+        [
+          "LEVEL 2",
+          "FR coverall, face shield"
+        ],
+        [
+          "LEVEL 3",
+          "SCBA atau escape mask"
+        ]
+      ],
+      "fill_grid_eyebrow": "LEVEL APD DI PABRIK KIMIA",
+      "callout": "FAKTA: FR tidak meleleh menempel kulit saat kena api."
+    },
+    {
+      "type": "diagram",
+      "pill": "PETA KEPUTUSANNYA",
+      "title": "Bahaya apa, APD apa",
+      "paras": [
+        "Baca dari kiri: kenali bahaya di zona kerja, lalu ambil APD minimum di kanan. Satu baris salah, perlindungannya jebol."
+      ],
+      "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-11/carousel-2/diagram-ppe.png",
+      "callout": "FAKTA: APD dipilih dari bahayanya, bukan dari jabatannya."
+    },
+    {
+      "type": "photo",
+      "pill": "NAPAS DULU",
+      "title": "SCBA memberi udara, bukan menyaring udara",
+      "paras": [
+        "SCBA membawa tabung udara sendiri; pemakainya bernapas dari tabung.",
+        "Dipakai saat masuk ruang terbatas atau area gas beracun."
+      ],
+      "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-11/carousel-2/photo-1.jpg",
+      "credit": "Dottie Di Liddo / Unsplash",
+      "callout": "FAKTA: di atmosfer kekurangan oksigen, masker saring tidak berguna."
+    },
+    {
+      "type": "body",
+      "pill": "JANGAN TERTUKAR",
+      "title": "Escape mask untuk kabur, SCBA untuk bekerja",
+      "paras": [
+        "Escape mask adalah alat napas darurat untuk keluar cepat dari area berbahaya, bukan untuk bekerja.",
+        "SCBA untuk aktivitas di atmosfer berbahaya. Masuk confined space tanpa SCBA dan izin bisa fatal."
+      ],
+      "fill_rows": [
+        [
+          "01",
+          "ESCAPE MASK",
+          "kabur darurat saja"
+        ],
+        [
+          "02",
+          "SCBA",
+          "kerja di atmosfer berbahaya"
+        ],
+        [
+          "03",
+          "ATURANNYA",
+          "izin + buddy + uji gas"
+        ]
+      ],
+      "fill_rows_title": "BEDANYA",
+      "callout": "FAKTA: penolong tanpa SCBA sering jadi korban kedua."
+    },
+    {
+      "type": "photo",
+      "pill": "TUBUH DAN KULIT",
+      "title": "FR coverall padam sendiri saat api dijauhkan",
+      "paras": [
+        "Pakaian katun bisa terbakar dan meleleh menempel kulit. FR coverall tidak melanjutkan api.",
+        "Di area furnace dan flash fire, FR coverall syarat masuk, bukan pilihan."
+      ],
+      "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-11/carousel-2/photo-2.jpg",
+      "credit": "Mohamad Hamzah / Unsplash",
+      "callout": "FAKTA: pakaian meleleh memperparah luka bakar."
+    },
+    {
+      "type": "conclusion",
+      "pill": "INTINYA",
+      "head": "Cocokkan APD dengan bahayanya",
+      "bullets": [
+        "Helm dan safety shoes hanya level 1. Area proses menuntut FR coverall, dan atmosfer berbahaya menuntut SCBA.",
+        "Sebelum masuk zona kerja, tanya: bahaya apa di sini, APD minimum apa yang disyaratkan?",
+        "Follow @ilmutekkim buat teknik kimia tiap hari."
+      ]
+    }
+  ],
+  "references": [
+    "OSHA 29 CFR 1910 Subpart I (standar APD, publik)",
+    "NFPA 2112 Standard on Flame-Resistant Clothing",
+    "Perry's Chemical Engineers' Handbook"
+  ],
+  "cta_question": "Di tempat kerja atau kampus lo, APD apa yang paling sering diremehkan?",
+  "cta_teaser": "Besok: sistem kerja 3 shift, kenapa pabrik jalan 24/7.",
+  "caption": "Salah level APD, cederanya beda kelas.\n\nHelm dan safety shoes melindungi dari bahaya mekanis: benda jatuh dan tertusuk. Tapi di area proses pabrik kimia, bahayanya beda: panas dan api butuh FR coverall yang tidak meleleh, cipratan kimia butuh face shield dan sarung tangan kimia, gas beracun dan oksigen rendah butuh SCBA atau escape mask.\n\nAturannya sederhana: kenali bahaya di zona kerja, lalu ambil APD minimumnya. APD dipilih dari bahayanya, bukan dari jabatannya.\n\nDi tempat kerja atau kampus lo, APD apa yang paling sering diremehkan? Tulis di komen.\n\nFollow @ilmutekkim buat teknik kimia tiap hari.\n\n#teknikkimia #chemicalengineering #keselamatan #apd #pabrik #safety #industri #ilmutekkim"
+}

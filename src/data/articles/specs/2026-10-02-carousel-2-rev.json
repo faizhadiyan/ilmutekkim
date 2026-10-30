@@ -1,0 +1,115 @@
+{
+ "caption": "Satu barel minyak tidak jadi 159 liter bensin.\n\nSatu barel = 159 liter, tapi isinya dipisah bertingkat sesuai titik didih: gas dan bensin di atas, avtur dan solar di tengah, residu dan aspal di bawah. Kilang modern bahkan memecah residu jadi bensin lewat cracking, jadi hampir tidak ada yang terbuang.\n\nFraksi mana yang paling mengejutkan buat lo? Tulis di komen.\n\nFollow @ilmutekkim buat teknik kimia tiap hari.\n\n#teknikkimia #chemicalengineering #kilang #migas #pabrik #energi #proses #ilmutekkim",
+ "cover_brief": "foto kilang minyak dari jauh, menara distilasi",
+ "cover_credit": "Nothing Ahead / Pexels",
+ "cover_credit_url": "https://www.pexels.com/photo/industrial-refinery-complex-by-the-water-38601483/",
+ "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-02/carousel-2/cover.jpg",
+ "cover_sub": "Dari satu barel minyak mentah, apa saja yang keluar.",
+ "cta_question": "Fraksi mana yang paling mengejutkan buat lo? Tulis di komen.",
+ "cta_teaser": "Sore ini: bedah cara kerja pompa vs kompresor, kenapa salah pilih boros listrik.",
+ "format": "real",
+ "hook": "SATU BAREL MINYAK TIDAK JADI 159 LITER BENSIN",
+ "photo_briefs": [
+  {
+   "cari": "deretan tangki penyimpanan kilang minyak",
+   "slide": 4
+  },
+  {
+   "cari": "kilang minyak malam hari lampu menyala",
+   "slide": 6
+  }
+ ],
+ "references": [
+  "US Energy Information Administration (EIA), data produk kilang per barel",
+  "Pertamina, profil Kilang RU IV Cilacap dan RU V Balikpapan (data publik)"
+ ],
+ "series_label": "SERI KILANG",
+ "slides": [
+  {
+   "callout": "FAKTA: karena pemuaian selama proses, total produk kilang justru sedikit lebih dari 159 liter per barel. Namanya processing gain.",
+   "paras": [
+    "Satu barel minyak mentah = 42 galon AS = 159 liter. Tapi kilang tidak mengubah semuanya jadi bensin.",
+    "Minyak mentah dipisah bertingkat di kolom distilasi sesuai titik didih tiap fraksinya. Satu kolom, banyak produk."
+   ],
+   "pill": "SATUANNYA DULU",
+   "title": "Satu barel = 159 liter",
+   "type": "body",
+   "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-02/carousel-2-rev/diagram-cdu.png"
+  },
+  {
+   "callout": "FAKTA: sekitar 19 galon dari tiap barel jadi bensin (data EIA AS; tiap kilang bisa beda tergantung minyak mentahnya).",
+   "paras": [
+    "Di puncak kolom yang paling dingin: gas kilang dan LPG. Sedikit di bawahnya: nafta (sekitar 30 sampai 200 derajat C) yang diolah jadi bensin.",
+    "Ini fraksi termahal, makanya kilang berlomba memaksimalkan porsinya."
+   ],
+   "pill": "FRAKSI RINGAN",
+   "title": "Yang paling atas: gas sampai bensin",
+   "type": "body"
+  },
+  {
+   "callout": "FAKTA: sekitar 12 galon jadi diesel dan 4 galon jadi avtur per barel (data EIA AS).",
+   "paras": [
+    "Tengah kolom: kerosin (sekitar 170 sampai 250 derajat C) jadi avtur untuk pesawat. Diesel (sekitar 250 sampai 340 derajat C) jadi solar.",
+    "Di Indonesia, solar adalah fraksi paling laris: transportasi, kapal, sampai genset industri."
+   ],
+   "pill": "FRAKSI TENGAH",
+   "title": "Tengah kolom: avtur dan solar",
+   "type": "body"
+  },
+  {
+   "credit": "Jan van der Wolf / Pexels",
+   "paras": [
+    "Dasar kolom yang paling panas: residu (di atas 340 derajat C). Jadi aspal jalan, minyak pelumas, dan bahan bakar kapal.",
+    "Dulu residu dianggap sisa buangan. Sekarang justru jadi ladang cuan kilang modern."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-02/carousel-2/photo-1.jpg",
+   "pill": "FRAKSI BERAT",
+   "title": "Bawah kolom: residu yang tidak terbuang",
+   "type": "photo"
+  },
+  {
+   "callout": "FAKTA: tanpa unit cracking, separuh barel minyak cuma jadi produk murah. Dengan cracking, porsi bensin bisa naik drastis.",
+   "paras": [
+    "FCC dan hydrocracker memotong rantai hidrokarbon panjang di residu menjadi potongan seukuran bensin dan diesel.",
+    "Makanya kilang modern berlomba menambah unit konversi: residu murah disulap jadi fraksi mahal."
+   ],
+   "pill": "KILANG MODERN",
+   "title": "Residu pun bisa jadi bensin",
+   "type": "body",
+   "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-02/carousel-2-rev/diagram-fractions.png"
+  },
+  {
+   "credit": "Tom Fisk / Pexels",
+   "paras": [
+    "Kilang Cilacap (RU IV) berkapasitas sekitar 348 ribu barel per hari, salah satu kilang terbesar di Asia Tenggara.",
+    "Kilang Balikpapan (RU V) sedang diekspansi ke 360 ribu barel per hari lewat proyek RDMP. Skalanya kota industri sendiri."
+   ],
+   "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-02/carousel-2/photo-2.jpg",
+   "pill": "KILANG INDONESIA",
+   "title": "Cilacap dan Balikpapan",
+   "type": "photo"
+  },
+  {
+   "callout": "FAKTA: harga tiap fraksi beda jauh, makanya konfigurasi dan operasi tiap kilang disetel mengikuti pasar.",
+   "paras": [
+    "Bensin dan avtur jauh lebih mahal daripada residu. Komposisi barel menentukan untung rugi kilang.",
+    "Kilang mengatur suhu kolom dan unit crackingnya untuk memaksimalkan fraksi termahal sesuai permintaan pasar."
+   ],
+   "pill": "KENAPA PENTING",
+   "title": "Komposisi barel menentukan untung kilang",
+   "type": "body",
+   "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-02/carousel-2-rev/diagram-cracking.png"
+  },
+  {
+   "bullets": [
+    "1 barel = 159 liter, dipisah bertingkat sesuai titik didih.",
+    "Bensin, avtur, solar, sampai aspal keluar dari kolom yang sama.",
+    "Kilang modern memecah residu jadi produk mahal lewat cracking."
+   ],
+   "head": "Satu barel, banyak produk, nol yang terbuang.",
+   "pill": "KESIMPULANNYA",
+   "type": "conclusion"
+  }
+ ],
+ "topic": "Kilang Cilacap/Balikpapan: apa saja yang keluar dari satu barel minyak"
+}

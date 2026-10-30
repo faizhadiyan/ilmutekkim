@@ -1,0 +1,176 @@
+{
+ "caption": "SEBELUM ADA STANDAR INI, WARNA PIPA BIKIN CELAKA\n\nDulu pipa di pabrik dicat sesukanya. Operator menebak isi dari karat dan bau, dan tebakan yang salah pernah berakhir dengan properti rusak dan pekerja cedera karena valve yang salah dibuka. Itu tertulis di kata pengantar standar India IS 2379 tahun 1963.\n\nInggris bergerak duluan: BS 1710 terbit Maret 1951, delapan warna dasar untuk delapan jenis isi. Air hijau, steam abu-abu perak, gas kuning kecokelatan, udara biru muda.\n\nDi lapangan, warna ini dibaca seperti label: warna dasar untuk isi, warna keselamatan untuk bahaya, plus nama isi dan panah arah alir di sebelahnya.\n\nKaitannya dengan CS-07 tadi: pompa dan kompresor pun bisa dibedakan dari pipanya. Jalur gas kuning kecokelatan menuju kompresor, jalur cairan menuju pompa.\n\nPernah lihat pipa warna aneh di pabrik? Ceritakan di komen warnanya apa dan isinya apa.\n\n#teknikkimia #chemicalengineering #pabrik #piping #safety #standar #sejarahteknik #ilmutekkim",
+ "cover_brief": "foto pipa-pipa industri warna-warni di pabrik atau kilang, pipe rack dengan pipa berwarna, suasana pabrik asli",
+ "cover_credit": "M. Talha ÇORBACI / Pexels",
+ "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-14/carousel-2/cover.jpg",
+ "cover_sub": "Bank 37: kenapa tiap warna pipa artinya beda.",
+ "credit_url": "https://www.pexels.com/photo/industrial-facility-with-colorful-pipes-36676746/",
+ "cta_question": "Pernah lihat pipa warna aneh di pabrik? Ceritakan di komen warnanya apa dan isinya apa.",
+ "cta_teaser": "Besok: tangki minyak kenapa dicat putih dan pakai atap terapung.",
+ "format": "real",
+ "hook": "SEBELUM ADA STANDAR INI, WARNA PIPA BIKIN CELAKA",
+ "hook_options": [
+  "SEBELUM ADA STANDAR INI, WARNA PIPA BIKIN CELAKA",
+  "PIPA KUNING DAN PIPA HIJAU ISINYA BEDA BAHAYA",
+  "WARNA PIPA DI PABRIK ITU BAHASA PERINGATAN"
+ ],
+ "hook_payoff_slide": 4,
+ "photo_briefs": [
+  {
+   "cari": "foto pipe rack pabrik dengan pipa berwarna berbeda, instalasi industri, suasana pabrik asli",
+   "slide": "contoh pipe rack dengan pipa warna-warni di pabrik"
+  }
+ ],
+ "references": [
+  "British Standards Institution, BS 1710:2014 Specification for identification of pipelines and services (riwayat publikasi: edisi pertama Maret 1951)",
+  "Bureau of Indian Standards, IS 2379 Colour code for identification of pipelines (pertama terbit 1963; kata pengantar)",
+  "Wikipedia, Pipe marking (tabel warna dasar BS 1710)"
+ ],
+ "series_label": "KISAH TEKNIK KIMIA",
+ "slides": [
+  {
+   "callout": "FAKTA: kata pengantar IS 2379 mencatat warna pipa yang tidak seragam pernah menyebabkan kerusakan properti dan cedera karena valve yang salah dioperasikan.",
+   "fill_grid": [
+    [
+     "DULU",
+     "warna bebas, isi misteri"
+    ],
+    [
+     "SEKARANG",
+     "satu warna, satu isi"
+    ]
+   ],
+   "fill_grid_eyebrow": "DULU LAWAN SEKARANG",
+   "paras": [
+    "Bayangkan disuruh buka satu valve di antara dua puluh pipa yang semuanya abu-abu karatan. Salah buka, yang keluar bukan air melainkan steam bertekanan."
+   ],
+   "pill": "TAHUKAH KAMU?",
+   "title": "Dulu warna pipa cuma soal cat yang ada",
+   "type": "body"
+  },
+  {
+   "callout": "FAKTA: BS 1710 menjadi acuan pemenuhan regulasi rambu keselamatan di Inggris dan dirujuk standar India IS 2379.",
+   "fill_grid": [
+    [
+     "AIR",
+     "hijau"
+    ],
+    [
+     "STEAM",
+     "abu-abu perak"
+    ],
+    [
+     "GAS",
+     "kuning kecokelatan"
+    ],
+    [
+     "UDARA",
+     "biru muda"
+    ]
+   ],
+   "fill_grid_eyebrow": "EMPAT WARNA BS 1710",
+   "paras": [
+    "Inggris memformalkan duluan: BS 1710 Specification for identification of pipelines and services terbit Maret 1951. Delapan warna dasar untuk delapan jenis isi, dari air sampai asam."
+   ],
+   "pill": "ARTEFAKNYA",
+   "title": "1951: Inggris menulis kamus warna pipa",
+   "type": "body"
+  },
+  {
+   "callout": "FAKTA: IS 2379 terbit 1963, dua belas tahun setelah BS 1710 (1951) menetapkan delapan warna dasar pipa.",
+   "fill_rows": [
+    [
+     "1951",
+     "BS 1710 terbit",
+     "Inggris: 8 warna dasar"
+    ],
+    [
+     "1963",
+     "IS 2379 terbit",
+     "India: kode warna pipa industri"
+    ],
+    [
+     "2014",
+     "BS 1710 edisi kini",
+     "masih jadi acuan identifikasi pipa"
+    ]
+   ],
+   "fill_rows_title": "JEJAK STANDARNYA",
+   "paras": [
+    "Kata pengantar IS 2379 terus terang: warna pipa yang tidak seragam telah sering menyebabkan kehancuran properti dan cedera karena valve yang salah dioperasikan."
+   ],
+   "pill": "ALASAN BRUTALNYA",
+   "title": "1963: India menulis kenapa standar ini ada",
+   "type": "body"
+  },
+  {
+   "callout": "FAKTA: pita merah fire fighting dipasang di antara pita warna dasar.",
+   "fill_rows": [
+    [
+     "01",
+     "Lihat warna dasar",
+     "isi pipanya apa"
+    ],
+    [
+     "02",
+     "Lihat warna keselamatan",
+     "ada bahaya khusus?"
+    ],
+    [
+     "03",
+     "Baca label dan panah",
+     "nama isi plus arah alir"
+    ]
+   ],
+   "fill_rows_title": "CARA BACANYA",
+   "paras": [
+    "Warna dasar menjawab isi pipa, warna keselamatan menjawab bahayanya.",
+    "Label nama isi dan panah arah alir menutup sisa keraguan."
+   ],
+   "pill": "KONSEPNYA",
+   "title": "Warna dibaca seperti label, bukan tebakan",
+   "type": "body"
+  },
+  {
+   "callout": "FAKTA: tiap perusahaan boleh menambah warna sendiri, tapi warna dasar standar tidak boleh dipakai untuk arti lain.",
+   "diagram": "/home/hatch/workspace/ig-ilmutekkim/diagrams/2026-10-14-pipe-rack.png",
+   "paras": [
+    "Empat pipa di satu rak, empat warna, empat isi. Operator yang lewat cukup melirik: biru muda berarti udara, abu-abu perak berarti steam, kuning kecokelatan berarti gas, hijau berarti air."
+   ],
+   "pill": "SKEMANYA",
+   "title": "Satu rak, empat warna, nol tebakan",
+   "type": "diagram"
+  },
+  {
+   "callout": "FAKTA: salah baca warna sama bahayanya dengan salah baca label bahan kimia.",
+   "paras": [
+    "Pompa dan kompresor dari CS-07 tadi pun bisa dibedakan dari pipanya. Jalur gas kuning kecokelatan menuju kompresor, jalur cairan menuju pompa. Warna pipa adalah P&ID yang ditempel di lapangan, gambar teknik yang terbaca tanpa membuka dokumen."
+   ],
+   "pill": "PLOT TWIST",
+   "title": "P&ID yang ditempel di lapangan",
+   "type": "body",
+   "fill_rows_title": "BACA DARI PIPANYA",
+   "fill_rows": [
+    [
+     "01",
+     "Kuning kecokelatan",
+     "jalur gas, menuju kompresor"
+    ],
+    [
+     "02",
+     "Hijau",
+     "jalur cairan, menuju pompa"
+    ]
+   ]
+  },
+  {
+   "bullets": [
+    "Pernah lihat pipa warna aneh di pabrik? Ceritakan di komen warnanya apa dan isinya apa.",
+    "Follow @ilmutekkim buat kisah teknik kimia berikutnya."
+   ],
+   "head": "Warna pipa bukan dekorasi: ia bahasa peringatan yang lahir dari kecelakaan.",
+   "pill": "TAKEAWAY",
+   "type": "conclusion"
+  }
+ ]
+}

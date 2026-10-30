@@ -1,0 +1,212 @@
+{
+  "format": "real",
+  "hook": "HEAT EXCHANGER KOTOR BIKIN HITUNGAN LMTD LO MELESET 30 PERSEN",
+  "hook_options": [
+    "HEAT EXCHANGER KOTOR BIKIN HITUNGAN LMTD LO MELESET 30 PERSEN",
+    "KERAK TIPIS DI TUBE BISA MENGHAPUS SEPERTIGA DUTY ALAT LO",
+    "LMTD TERLIHAT BENAR PADAHAL DUTY SUDAH TURUN 30 PERSEN"
+  ],
+  "hook_payoff_slide": 5,
+  "series_label": "SERI CHEAT SHEET UJIAN",
+  "cover_brief": "foto shell and tube heat exchanger di pabrik dari dekat, pipa logam dan flensa",
+  "cover_sub": "CS-04: fouling bikin LMTD bohong.",
+  "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-11/carousel-1/cover.jpg",
+  "cover_credit": "Ricardo Gomez Angel / Unsplash",
+  "credit_url": "https://unsplash.com/photos/industrial-metal-pipes-and-valves-41X6FwTwPh4",
+  "photo_briefs": [
+    {
+      "slide": "konteks pabrik nyata preheat train kilang",
+      "cari": "foto kilang minyak pipa dan heat exchanger eksterior dari dekat"
+    }
+  ],
+  "slides": [
+    {
+      "type": "quote",
+      "pill": "JEBAKAN DOSEN",
+      "quote": "Fouling itu cuma kerak tipis, angkanya kecil, abaikan saja.",
+      "hook": "Kerak tipis itu menambah tahanan total sampai 40 persen.",
+      "callout": "FAKTA: 1/Uf = 1/Ub + Rf, tahanan kerak selalu menambah.",
+      "fill_rows": [
+        [
+          "01",
+          "LMTD",
+          "dari suhu ukur"
+        ],
+        [
+          "02",
+          "U",
+          "dari kondisi aktual"
+        ],
+        [
+          "03",
+          "Q",
+          "hasil kali keduanya"
+        ]
+      ],
+      "fill_rows_title": "PETA SLIDE INI"
+    },
+    {
+      "type": "body",
+      "pill": "RUMUS INTINYA",
+      "title": "Q ditentukan U, A, dan beda suhu rata-rata",
+      "paras": [
+        "Tiga simbol ini muncul di semua soal perpindahan panas."
+      ],
+      "formula": "Q = U × A × ΔTlm",
+      "fill_grid": [
+        [
+          "U",
+          "koefisien pindah panas"
+        ],
+        [
+          "A",
+          "luas permukaan"
+        ],
+        [
+          "ΔTlm",
+          "beda suhu rata-rata"
+        ],
+        [
+          "Q",
+          "laju panas pindah"
+        ]
+      ],
+      "fill_grid_eyebrow": "SIMBOL YANG DIPAKAI",
+      "callout": "FAKTA: A tetap, U yang jatuh saat alat kotor."
+    },
+    {
+      "type": "diagram",
+      "pill": "SKEMA ALATNYA",
+      "title": "Dua ujung, dua beda suhu",
+      "paras": [
+        "Fluida panas di shell kiri ke kanan (90°C ke 60°C); fluida dingin di tube berlawanan arah (25°C ke 45°C). Kerak di dinding dalam tube menjadi tahanan tambah Rf."
+      ],
+      "diagram": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-11/carousel-1/diagram-fouling.png",
+      "callout": "FAKTA: ΔT1 diambil di ujung panas, ΔT2 di ujung dingin."
+    },
+    {
+      "type": "body",
+      "pill": "HITUNG LMTD",
+      "title": "LMTD dari contoh: 39,8°C",
+      "paras": [
+        "ΔT1 = 45°C, ΔT2 = 35°C, LMTD = 39,8°C."
+      ],
+      "formula": "ΔTlm = (ΔT1 - ΔT2) / ln(ΔT1/ΔT2)",
+      "fill_rows": [
+        [
+          "01",
+          "ΔT1",
+          "90 - 45 = 45°C"
+        ],
+        [
+          "02",
+          "ΔT2",
+          "60 - 25 = 35°C"
+        ],
+        [
+          "03",
+          "LMTD",
+          "(45 - 35) / ln(45/35)"
+        ],
+        [
+          "04",
+          "HASIL",
+          "39,8°C"
+        ]
+      ],
+      "fill_rows_title": "LANGKAH HITUNG",
+      "callout": "FAKTA: LMTD selalu di bawah rata-rata biasa."
+    },
+    {
+      "type": "body",
+      "pill": "JEBAKANNYA DI SINI",
+      "title": "Fouling memotong U, duty jatuh 30 persen",
+      "paras": [
+        "U bersih 800 W/m²·K tambah Rf 0,0005: Uf = 571 W/m²·K.",
+        "Duty 167,2 kW menjadi 119,3 kW, turun 28,6 persen."
+      ],
+      "formula": "1/Uf = 1/Ub + Rf",
+      "fill_grid": [
+        [
+          "Ub",
+          "800 W/m²·K bersih"
+        ],
+        [
+          "Rf",
+          "0,0005 m²·K/W"
+        ],
+        [
+          "Uf",
+          "571 W/m²·K kotor"
+        ],
+        [
+          "Q",
+          "167,2 ke 119,3 kW"
+        ]
+      ],
+      "fill_grid_eyebrow": "ANGKA CONTOH INI",
+      "callout": "FAKTA: tahanan total naik 40 persen."
+    },
+    {
+      "type": "photo",
+      "pill": "DI PABRIK NYATA",
+      "title": "Preheat train kotor bikin furnace kerja lebih keras",
+      "paras": [
+        "Di kilang, minyak mentah dipanaskan bertahap di preheat train sebelum masuk furnace.",
+        "Saat exchanger berkerak, minyak masuk furnace lebih dingin dan fuel bertambah."
+      ],
+      "photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-11/carousel-1/photo-1.jpg",
+      "credit": "Red Shuheart / Unsplash",
+      "callout": "FAKTA: preheat train kotor menaikkan fuel furnace."
+    },
+    {
+      "type": "body",
+      "pill": "ANTI JEBAKAN",
+      "title": "Empat cek sebelum percaya angka LMTD",
+      "paras": [
+        "Soal ujian memberi suhu ukur dan U desain. Empat cek ini memisahkan yang paham dari yang asal colok angka."
+      ],
+      "fill_rows": [
+        [
+          "01",
+          "CEK Rf",
+          "apakah soal memberi fouling factor"
+        ],
+        [
+          "02",
+          "HITUNG ULANG U",
+          "1/Uf = 1/Ub + Rf"
+        ],
+        [
+          "03",
+          "BANDINGKAN Q",
+          "duty bersih lawan duty kotor"
+        ],
+        [
+          "04",
+          "TANYA KONDISI",
+          "U dari kondisi aktual, bukan brosur"
+        ]
+      ],
+      "fill_rows_title": "CHECKLIST",
+      "callout": "FAKTA: U brosur adalah U bersih, bukan U alat yang sudah jalan bertahun-tahun."
+    },
+    {
+      "type": "conclusion",
+      "pill": "KUIS CS-04",
+      "head": "Coba hitung sendiri",
+      "bullets": [
+        "Ub 600 W/m²·K, Rf 0,0008 m²·K/W, A 10 m², ΔTlm 50°C. Berapa duty bersih dan duty kotornya? Tulis langkahnya di komen.",
+        "Save buat UTS, tag teman sekelas, follow seri berikutnya."
+      ]
+    }
+  ],
+  "references": [
+    "Incropera, DeWitt, Bergman, Lavine, Fundamentals of Heat and Mass Transfer",
+    "Cengel, Ghajar, Heat and Mass Transfer",
+    "Perry's Chemical Engineers' Handbook"
+  ],
+  "cta_question": "Pernah ketemu soal yang Rf nya disembunyikan di kalimat terakhir? Ceritakan jebakan dosen versi kampus lo.",
+  "cta_teaser": "Besok CS-05: distilasi azeotrop, etanol tidak bisa 100 persen dari kolom biasa.",
+  "caption": "Heat exchanger kotor bikin hitungan LMTD lo meleset 30 persen.\n\nIni CS-04 dari seri cheat sheet ujian @ilmutekkim. LMTD dihitung dari suhu ukur, dan suhu ukur itu benar. Yang bohong adalah U yang lo pakai: U brosur adalah U bersih, padahal alat yang sudah jalan bertahun-tahun punya kerak dengan tahanan Rf sendiri.\n\nContoh di slide: U bersih 800 W/m²·K tambah Rf 0,0005 m²·K/W menjadi U kotor 571 W/m²·K, duty jatuh dari 167,2 kW ke 119,3 kW. Turun 28,6 persen dari kerak yang terlihat sepele.\n\nDi kilang minyak, kejadian yang sama terjadi di preheat train: minyak mentah masuk furnace lebih dingin, furnace membakar lebih banyak fuel. Salah hitung di kelas berarti salah perkiraan biaya energi di pabrik.\n\nIni simpul 04 dari peta roadmap. Peta lengkapnya ada di postingan roadmap yang ter-pin di profil.\n\nSave buat UTS, tag teman sekelas, follow seri berikutnya.\n\n#teknikkimia #chemicalengineering #heatexchanger #perpindahanpanas #uts #belajar #kilang #industri #ilmutekkim"
+}

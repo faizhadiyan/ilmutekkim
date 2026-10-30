@@ -1,0 +1,191 @@
+{
+  "format": "real",
+  "hook": "SEBELUM 1643, TIDAK ADA YANG TAHU UDARA PUNYA BERAT",
+  "hook_options": [
+    "SEBELUM 1643, TIDAK ADA YANG TAHU UDARA PUNYA BERAT",
+    "SATUAN TEKANAN ADA BANYAK, SALAH BACA BISA BIKIN ALAT JEBOL",
+    "KENAPA INDIKATOR TEKANAN TIDAK PERNAH MENULIS BAR SAJA"
+  ],
+  "hook_payoff_slide": 2,
+  "series_label": "KISAH TEKNIK KIMIA",
+  "cover_brief": "foto pressure gauge atau manometer industri close-up di pabrik, jarum penunjuk tekanan, pipa baja",
+  "cover_sub": "Kisah satuan tekanan: dari barometer air raksa sampai barg dan bara.",
+  "cover_photo": "/home/hatch/workspace/ig-ilmutekkim/media/2026-10-15/carousel-2/cover.jpg",
+  "cover_credit": "Jonathan Cooper / Pexels",
+  "credit_url": "https://www.pexels.com/photo/black-gauges-of-a-machine-10290630/",
+  "photo_briefs": [
+    {
+      "slide": "teknisi membaca gauge di pabrik",
+      "cari": "foto teknisi membaca pressure gauge di pabrik, atau deretan gauge di panel pipa industri"
+    }
+  ],
+  "slides": [
+    {
+      "type": "body",
+      "pill": "TAHUKAH KAMU?",
+      "title": "Dulu tiap negara punya bahasa tekanan sendiri",
+      "paras": [
+        "Insinyur Amerika membaca psi, insinyur Eropa membaca bar, pekerja lab membaca mmHg. Tiga angka untuk satu fenomena.",
+        "Pascal jadi satuan SI tahun 1971, tapi bar dan psi tetap dipakai dan beda gauge lawan absolut masih bikin salah baca."
+      ],
+      "fill_rows_title": "",
+      "fill_rows": [
+        [
+          "psi",
+          "pound per square inch",
+          "industri Amerika"
+        ],
+        [
+          "bar",
+          "100.000 Pa tepat",
+          "Eropa dan kilang"
+        ],
+        [
+          "mmHg",
+          "warisan barometer",
+          "lab vakum"
+        ]
+      ],
+      "callout": "Fakta kunci: 1 atm = 1,01325 bar = 101.325 Pa."
+    },
+    {
+      "type": "body",
+      "pill": "TAHUN 1643",
+      "title": "Torricelli menimbang udara pakai air raksa",
+      "paras": [
+        "Evangelista Torricelli, murid Galileo, mengisi tabung kaca dengan air raksa lalu membaliknya di atas bak. Kolom air raksa bertahan di 760 mm dan tidak turun lagi.",
+        "Tekanan atmosfer pertama kali terukur; satuan torr dan mmHg dinamai dari namanya."
+      ],
+      "fill_grid_eyebrow": "Percobaan 1643 dalam tiga kartu",
+      "fill_grid": [
+        [
+          "ALAT",
+          "barometer air raksa"
+        ],
+        [
+          "HASIL",
+          "kolom 760 mm"
+        ],
+        [
+          "ARTI",
+          "tekanan terukur perdana"
+        ]
+      ],
+      "callout": "Fakta kunci: 760 mmHg = 1 atm."
+    },
+    {
+      "type": "body",
+      "pill": "NAMA-NAMA SATUAN",
+      "title": "Pascal, bar, dan psi: tiga nama tiga zaman",
+      "paras": [
+        "Blaise Pascal merumuskan hukum tekanan fluida: tekanan diteruskan sama besar ke segala arah. Satuan pascal dinamai untuknya.",
+        "Pascal jadi satuan SI tahun 1971. Bar dari Yunani baros (berat); psi dari sistem imperial."
+      ],
+      "fill_rows_title": "",
+      "fill_rows": [
+        [
+          "Pascal",
+          "1 Pa = 1 N/m²",
+          "satuan SI sejak 1971"
+        ],
+        [
+          "Bar",
+          "1 bar = 100.000 Pa",
+          "tepat"
+        ],
+        [
+          "Psi",
+          "1 psi = 6.895 Pa",
+          "dunia imperial"
+        ]
+      ],
+      "callout": "Fakta kunci: pascal jadi SI 1971, bar dan psi tetap dipakai."
+    },
+    {
+      "type": "diagram",
+      "pill": "KONSEP INTI",
+      "title": "Gauge diukur dari atmosfer, absolut dari vakum",
+      "paras": [
+        "Gauge diukur dari atmosfer, absolut dari vakum sempurna.",
+        "Selisihnya 1,013 bar: tulis barg atau bara."
+      ],
+      "diagram": "/home/hatch/workspace/ig-ilmutekkim/diagrams/2026-10-15-gauge-absolute.png",
+      "callout": "Fakta kunci: barg + 1,013 = bara.",
+      "diagram_scope": "Diagram ini mencakup perbandingan titik nol gauge (atmosfer) lawan absolut (vakum sempurna) pada satu skala tekanan horizontal dari 0 bara hingga 3 bara, dengan 3 panah kenaikan ('tekanan atmosfer 1,013 bar', '1 bar gauge', 'naik 1 bar lagi') dan catatan konversi 'barg + 1,013 = bara (di permukaan laut)'. Sengaja tidak digambar: equipment atau proses apapun, satuan tekanan selain bar (Pa, psi, mmHg), kondisi vakum parsial di bawah atmosfer, dan variasi tekanan atmosfer terhadap ketinggian."
+    },
+    {
+      "type": "body",
+      "pill": "KENAPA PEDULI",
+      "title": "Salah baca satuan, salah hitung alat",
+      "paras": [
+        "Set pressure relief valve dan spesifikasi kompresor ikut salah kalau titik nolnya keliru.",
+        "Kebiasaan baiknya sederhana: setiap menulis angka tekanan, tulis juga nolnya di mana."
+      ],
+      "fill_rows_title": "Tiga tempat satuan menentukan",
+      "fill_rows": [
+        [
+          "Relief valve",
+          "set pressure jelas",
+          "tanpa satuan = bahaya"
+        ],
+        [
+          "Kompresor",
+          "pressure ratio",
+          "selalu pakai absolut"
+        ],
+        [
+          "Laporan",
+          "tulis barg atau bara",
+          "jangan bar saja"
+        ]
+      ],
+      "callout": "Fakta kunci: di pabrik, bar saja dianggap belum lengkap."
+    },
+    {
+      "type": "body",
+      "pill": "PLOT TWIST",
+      "title": "Wet bulb pagi ini dihitung dari tekanan",
+      "paras": [
+        "CS-08 pagi ini memakai wet bulb sebagai batas suhu air dingin. Wet bulb dihitung dari tekanan parsial uap air di udara.",
+        "Satuan tekanan yang salah baca membuat kelembapan salah hitung, dan prediksi suhu air dingin ikut salah."
+      ],
+      "fill_rows_title": "Rantai yang menghubungkan",
+      "fill_rows": [
+        [
+          "Tekanan parsial uap air",
+          "menentukan wet bulb",
+          ""
+        ],
+        [
+          "Wet bulb",
+          "menentukan suhu air dingin",
+          ""
+        ],
+        [
+          "Satuan salah di awal",
+          "semua angka ikut salah",
+          ""
+        ]
+      ],
+      "callout": "Fakta kunci: satuan tekanan menentukan wet bulb."
+    },
+    {
+      "type": "conclusion",
+      "pill": "TAKEAWAY",
+      "head": "Tekanan selalu punya titik nol. Tanyakan nolnya di mana sebelum percaya angkanya.",
+      "bullets": [
+        "Simpan kisah ini buat bekal baca P&ID",
+        "Satuan tekanan teraneh apa yang pernah lo temui? Ceritakan di komen",
+        "Follow @ilmutekkim buat kisah teknik tiap hari"
+      ]
+    }
+  ],
+  "references": [
+    "McCabe, W. L., Smith, J. C., dan Harriott, P., Unit Operations of Chemical Engineering (satuan tekanan, gauge lawan absolut)",
+    "BIPM, SI Brochure (pascal sebagai satuan SI turunan, ditetapkan 1971)",
+    "Gillispie, C. C. (ed.), Dictionary of Scientific Biography (Torricelli 1643, Pascal)"
+  ],
+  "cta_question": "Satuan tekanan apa yang paling sering bikin lo bingung, di soal atau di lapangan?",
+  "cta_teaser": "Besok: dead leg divisualkan, lalu CS-09 reaktor batch vs CSTR.",
+  "caption": "SEBELUM 1643, TIDAK ADA YANG TAHU UDARA PUNYA BERAT\n\nTorricelli membalik tabung air raksa dan kolomnya bertahan di 760 mm. Hari itu tekanan atmosfer pertama kali terukur lewat kolom air raksa.\n\nDari sanalah lahir mmHg. Lalu Pascal memberi nama untuk satuan SI tahun 1971, orang Yunani menyumbang kata baros untuk bar, dan industri Amerika tetap memakai psi. Sampai sekarang satu fenomena dibaca dalam banyak bahasa.\n\nPelajarannya buat insinyur: selalu tanyakan titik nolnya. Gauge diukur dari atmosfer, absolut dari vakum, dan selisihnya 1,013 bar.\n\nSatuan tekanan teraneh apa yang pernah lo temui? Ceritakan di komen.\n\n#teknikkimia #chemicalengineering #satuan #tekanan #sejarahteknik #pabrik #ilmutekkim"
+}
